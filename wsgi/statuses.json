@@ -15,9 +15,9 @@
         "status": "good"
     }, 
     "fedorahosted": {
-        "message": "Testing some things", 
+        "message": "Everything seems to be working", 
         "name": "FedoraHosted.org Services", 
-        "status": "major"
+        "status": "minor"
     }, 
     "freemedia": {
         "message": "Everything seems to be working", 
