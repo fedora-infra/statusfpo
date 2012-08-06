@@ -29,7 +29,7 @@ if __name__ == '__main__':
         print('An error occured in git pull, please try again!')
         sys.exit(2)
 
-    f = open('statuses.json', 'r')
+    f = open('wsgi/statuses.json', 'r')
     services = json.loads(f.read())
     f.close()
 
@@ -45,7 +45,7 @@ if __name__ == '__main__':
         services[args.service]['status'] = args.new_status
         services[args.service]['message'] = args.new_message
 
-    f = open('statuses.json', 'w')
+    f = open('wsgi/statuses.json', 'w')
     f.write(json.dumps(services, sort_keys=True, indent = 4))
     f.close()
 
