@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Fedora Infrastructure - Status</title>
+    <style type="text/css">
+      {% include 'style.css' %}
+    </style>
+  </head>
+  <body>
+    <div id="header">
+      <div class="navbar">
+        <div class="constraint">
+          <h1 class="name"><a href="/">Fedora Infrastructure Status</a></h1>
+          <ul>
+            <!-- <li><a href="https://fedoraproject.org/">Fedora</a></li>
+<li><a href="https://fedoraproject.org/wiki/Infrastructure">Infrastructure</a></li>
+-->
+          </ul>
+        </div>
+      </div>
+      <div class="headercontent {% if global_status == "ok" %}
+                                  all-okay
+                                {% elif global_status == "minor" %}
+                                  minor-incident
+                                {% elif global_status == "major" %}
+                                  major-incident
+                                {% endif %}">
+        <div class="constraint">
+          <h1 class="nomargin">
+          {% if global_status == "ok" %}
+            All systems go
+          {% elif global_status == "minor" %}
+            Minor service disruption
+          {% elif global_status == "major" %}
+            Major service disruption
+          {% endif %}
+          </h1>
+        </div>
+      </div>
+      {% if global_info %}
+      <div class="headerstatus">
+        <div class="constraint">
+          <h3 class="nomargin">{{global_info}}</h3>
+        </div>
+      </div>
+      {% endif %}
+    </div>
+
+    {% block content %}{% endblock %}
+
+    <div id="footer" class="constraint">
+      <p class="left">
+        <span>&copy; 2012</span>
+        Ricky Elrod, Patrick Uiterwijk
+      </p>
+      <p class="right"><a href="http://git.fedorahosted.org/git/fedora-status">Open Source</a></p>
+    </div>
+  </body>
+</html>
