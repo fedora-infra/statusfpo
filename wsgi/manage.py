@@ -21,7 +21,10 @@ if __name__ == '__main__':
     if args.new_message == '-':
         args.new_message = 'Everything seems to be working'
 
-    result = subprocess.call("git pull", shell=True)
+    result = 0
+
+    if not args.no_git:
+        result = subprocess.call("git pull", shell=True)
     if result != 0:
         print('An error occured in git pull, please try again!')
         sys.exit(2)
@@ -41,7 +44,8 @@ if __name__ == '__main__':
     f.write(json.dumps(services, sort_keys=True, indent = 4))
     f.close()
 
-    result = subprocess.call("git add statuses.json", shell=True)
+    if not args.no_git:
+        result = subprocess.call("git add statuses.json", shell=True)
     if result != 0:
         print('An error occured in git add, please try again!')
         sys.exit(4)
@@ -51,7 +55,8 @@ if __name__ == '__main__':
         print('An error occured in git commit, please try again!');
         sys.exit(5)
 
-    result = subprocess.call('git push origin master', shell=True)
+    if not args.no_git:
+        result = subprocess.call('git push origin master', shell=True)
     if result != 0:
         print('An error occured during git push, please try again!')
         sys.exit(6)
