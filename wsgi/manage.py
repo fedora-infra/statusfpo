@@ -46,7 +46,7 @@ if __name__ == '__main__':
         print('An error occured in git add, please try again!')
         sys.exit(4)
 
-    result = subprocess.call('git commit -m "New service status for %(service)s): %(newstatus)s, with message: %(message)s"' % {'service': args.service, 'newstatus': args.new_status, 'message': args.new_message}, shell=True)
+    result = subprocess.call('git commit -m "New service status for %(service)s: %(newstatus)s, with message: %(message)s"' % {'service': args.service, 'newstatus': args.new_status, 'message': args.new_message}, shell=True)
     if result != 0:
         print('An error occured in git commit, please try again!');
         sys.exit(5)
