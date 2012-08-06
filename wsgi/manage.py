@@ -8,7 +8,7 @@ import subprocess
 
 if __name__ == '__main__':
     parser = argparse.ArgumentParser(description='Manage the status on status.fedoraproject.org')
-    parser.add_argument('service', help='The service to modify')
+    parser.add_argument('service', help='The service to modify. Use - to update every service')
     parser.add_argument('new_status', help='The new service status (good/minor/major)')
     parser.add_argument('new_message', help='The new status message. Use - to use "Everything seems to be working"')
     parser.add_argument('--no-git', action='store_true', help='Do not commit and push to git')
@@ -33,12 +33,17 @@ if __name__ == '__main__':
     services = json.loads(f.read())
     f.close()
 
-    if not args.service in services.keys():
+    if (args.service != '-') and (not args.service in services.keys()):
         print('%(service)s is unknown! Valid services are: %(services)s' % {'service': args.service, 'services': services.keys()})
         sys.exit(3)
 
-    services[args.service]['status'] = args.new_status
-    services[args.service]['message'] = args.new_message
+    if args.service == '-':
+        for srv in services.keys():
+            services[srv]['status'] = args.new_status
+            services[srv]['message'] = args.new_message
+    else:
+        services[args.service]['status'] = args.new_status
+        services[args.service]['message'] = args.new_message
 
     f = open('statuses.json', 'w')
     f.write(json.dumps(services, sort_keys=True, indent = 4))
@@ -50,7 +55,11 @@ if __name__ == '__main__':
         print('An error occured in git add, please try again!')
         sys.exit(4)
 
-    result = subprocess.call('git commit -m "New service status for %(service)s: %(newstatus)s, with message: %(message)s"' % {'service': args.service, 'newstatus': args.new_status, 'message': args.new_message}, shell=True)
+    if not args.no_git:
+        if args.service == '-':
+            result = subprocess.call('git commit -m "New service status for all services: %(newstatus)s, with message: %(message)s"' % {'service': args.service, 'newstatus': args.new_status, 'message': args.new_message}, shell=True)
+        else:
+            result = subprocess.call('git commit -m "New service status for %(service)s: %(newstatus)s, with message: %(message)s"' % {'service': args.service, 'newstatus': args.new_status, 'message': args.new_message}, shell=True)
     if result != 0:
         print('An error occured in git commit, please try again!');
         sys.exit(5)
