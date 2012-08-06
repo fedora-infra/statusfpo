@@ -1,72 +1,72 @@
 {
     "bodhi": {
-        "message": "Everything seems to be working", 
+        "message": "Testing manage.py", 
         "name": "Package Updates Manager", 
-        "status": "good"
+        "status": "major"
     }, 
     "fas": {
-        "message": "Everything seems to be working", 
+        "message": "Testing manage.py", 
         "name": "Account System", 
-        "status": "good"
+        "status": "major"
     }, 
     "fedmsg": {
-        "message": "Everything seems to be working", 
+        "message": "Testing manage.py", 
         "name": "Fedora Messaging Bus", 
-        "status": "good"
+        "status": "major"
     }, 
     "fedorahosted": {
-        "message": "Everything seems to be working", 
+        "message": "Testing manage.py", 
         "name": "FedoraHosted.org Services", 
-        "status": "good"
+        "status": "major"
     }, 
     "freemedia": {
-        "message": "Everything seems to be working", 
+        "message": "Testing manage.py", 
         "name": "FreeMedia", 
-        "status": "good"
+        "status": "major"
     }, 
     "koji": {
-        "message": "Everything seems to be working", 
+        "message": "Testing manage.py", 
         "name": "The Koji Buildsystem", 
-        "status": "good"
+        "status": "major"
     }, 
     "mirrorlist": {
-        "message": "Everything seems to be working", 
+        "message": "Testing manage.py", 
         "name": "Mirror List", 
-        "status": "good"
+        "status": "major"
     }, 
     "mirrormanager": {
-        "message": "Everything seems to be working", 
+        "message": "Testing manage.py", 
         "name": "Mirror Manager", 
-        "status": "good"
+        "status": "major"
     }, 
     "packages": {
-        "message": "Everything seems to be working", 
+        "message": "Testing manage.py", 
         "name": "Fedora Packages App", 
-        "status": "good"
+        "status": "major"
     }, 
     "pkgdb": {
-        "message": "Everything seems to be working", 
+        "message": "Testing manage.py", 
         "name": "Package Database", 
-        "status": "good"
+        "status": "major"
     }, 
     "smolt": {
-        "message": "Everything seems to be working", 
+        "message": "Testing manage.py", 
         "name": "Smolt", 
-        "status": "good"
+        "status": "major"
     }, 
     "smolt-wiki": {
-        "message": "Everything seems to be working", 
+        "message": "Testing manage.py", 
         "name": "Smolt Wiki", 
-        "status": "good"
+        "status": "major"
     }, 
     "tagger": {
-        "message": "Everything seems to be working", 
+        "message": "Testing manage.py", 
         "name": "Tagger", 
-        "status": "good"
+        "status": "major"
     }, 
     "wiki": {
-        "message": "Everything seems to be working", 
+        "message": "Testing manage.py", 
         "name": "Fedora Wiki", 
-        "status": "good"
+        "status": "major"
     }
 }
