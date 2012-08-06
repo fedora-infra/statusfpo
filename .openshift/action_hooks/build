@@ -4,4 +4,6 @@
 # before the deploy step.  This script gets executed directly, so it
 # could be python, php, ruby, etc.
 cd $OPENSHIFT_REPO_DIR/wsgi
-./generate.py >static/index.html
+rm static/index.html
+./generate.py >index.html
+mv index.html static/index.html
