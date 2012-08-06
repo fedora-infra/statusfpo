@@ -5,5 +5,5 @@
 # could be python, php, ruby, etc.
 cd $OPENSHIFT_REPO_DIR/wsgi
 rm static/index.html
-./generate.py >index.html
+$OPENSHIFT_RUN_DIR/../virtenv/bin/python generate.py >index.html
 mv index.html static/index.html
