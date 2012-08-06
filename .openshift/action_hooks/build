@@ -4,6 +4,6 @@
 # before the deploy step.  This script gets executed directly, so it
 # could be python, php, ruby, etc.
 cd $OPENSHIFT_REPO_DIR/wsgi
-rm static/index.html
-$OPENSHIFT_RUN_DIR/../virtenv/bin/python generate.py >index.html
+rm -f static/index.html
+$OPENSHIFT_RUN_DIR/../virtenv/bin/python generate.py
 mv index.html static/index.html
