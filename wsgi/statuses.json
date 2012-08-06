@@ -1,8 +1,8 @@
 {
     "bodhi": {
-        "message": "Testing GIT updates", 
+        "message": "Everything seems to be working", 
         "name": "Package Updates Manager", 
-        "status": "major"
+        "status": "good"
     }, 
     "fas": {
         "message": "Everything seems to be working", 
