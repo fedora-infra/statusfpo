@@ -1,10 +1,11 @@
 from setuptools import setup
 
-setup(name='YourAppName',
+setup(name='FedoraStatus',
       version='1.0',
-      description='OpenShift App',
-      author='Your Name',
-      author_email='example@example.com',
+      description='Fedora Status Overview',
+      author='Patrick Uiterwijk',
+      author_email='puiterwijk@fedoraproject.org',
       url='http://www.python.org/sigs/distutils-sig/',
+      install_requires=['jinja2'],
 #      install_requires=['Django>=1.3'],
      )
