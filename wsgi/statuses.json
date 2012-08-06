@@ -1,6 +1,6 @@
 {
     "bodhi": {
-        message": "Everything seems to be working", 
+        "message": "Everything seems to be working", 
         "name": "Package Updates Manager", 
         "status": "good"
     }, 
