@@ -65,8 +65,8 @@
         "status": "good"
     }, 
     "wiki": {
-        "message": "Testing the new manage script", 
+        "message": "Everything seems to be working", 
         "name": "Fedora Wiki", 
-        "status": "major"
+        "status": "good"
     }
 }
