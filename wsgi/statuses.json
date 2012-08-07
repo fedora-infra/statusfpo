@@ -1,5 +1,5 @@
 {
-    "global_info": "", 
+    "global_info": "This system is currently in public testing", 
     "services": {
         "bodhi": {
             "message": "Everything seems to be working", 
