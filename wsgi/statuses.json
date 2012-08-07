@@ -7,9 +7,9 @@
             "status": "good"
         }, 
         "fas": {
-            "message": "Some major issue", 
+            "message": "Everything seems to be working", 
             "name": "Account System", 
-            "status": "major"
+            "status": "good"
         }, 
         "fedmsg": {
             "message": "Everything seems to be working", 
@@ -67,9 +67,9 @@
             "status": "good"
         }, 
         "wiki": {
-            "message": "Some minor issue", 
+            "message": "Everything seems to be working", 
             "name": "Fedora Wiki", 
-            "status": "minor"
+            "status": "good"
         }
     }
 }
