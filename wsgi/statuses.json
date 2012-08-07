@@ -2,71 +2,71 @@
     "bodhi": {
         "message": "Everything seems to be working", 
         "name": "Package Updates Manager", 
-        "status": "minor"
+        "status": "good"
     }, 
     "fas": {
         "message": "Everything seems to be working", 
         "name": "Account System", 
-        "status": "minor"
+        "status": "good"
     }, 
     "fedmsg": {
         "message": "Everything seems to be working", 
         "name": "Fedora Messaging Bus", 
-        "status": "minor"
+        "status": "good"
     }, 
     "fedorahosted": {
         "message": "Everything seems to be working", 
         "name": "FedoraHosted.org Services", 
-        "status": "minor"
+        "status": "good"
     }, 
     "freemedia": {
         "message": "Everything seems to be working", 
         "name": "FreeMedia", 
-        "status": "minor"
+        "status": "good"
     }, 
     "koji": {
         "message": "Everything seems to be working", 
         "name": "The Koji Buildsystem", 
-        "status": "minor"
+        "status": "good"
     }, 
     "mirrorlist": {
         "message": "Everything seems to be working", 
         "name": "Mirror List", 
-        "status": "minor"
+        "status": "good"
     }, 
     "mirrormanager": {
         "message": "Everything seems to be working", 
         "name": "Mirror Manager", 
-        "status": "minor"
+        "status": "good"
     }, 
     "packages": {
         "message": "Everything seems to be working", 
         "name": "Fedora Packages App", 
-        "status": "minor"
+        "status": "good"
     }, 
     "pkgdb": {
         "message": "Everything seems to be working", 
         "name": "Package Database", 
-        "status": "minor"
+        "status": "good"
     }, 
     "smolt": {
         "message": "Everything seems to be working", 
         "name": "Smolt", 
-        "status": "minor"
+        "status": "good"
     }, 
     "smolt-wiki": {
         "message": "Everything seems to be working", 
         "name": "Smolt Wiki", 
-        "status": "minor"
+        "status": "good"
     }, 
     "tagger": {
         "message": "Everything seems to be working", 
         "name": "Tagger", 
-        "status": "minor"
+        "status": "good"
     }, 
     "wiki": {
         "message": "Everything seems to be working", 
         "name": "Fedora Wiki", 
-        "status": "minor"
+        "status": "good"
     }
 }
