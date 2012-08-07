@@ -1,75 +1,75 @@
 {
-    "global_info": "Let's hope it will never be this red for real :(", 
+    "global_info": "", 
     "services": {
         "bodhi": {
-            "message": "Just testing a bit", 
+            "message": "Everything seems to be working", 
             "name": "Package Updates Manager", 
-            "status": "major"
+            "status": "good"
         }, 
         "fas": {
-            "message": "Just testing a bit", 
+            "message": "Everything seems to be working", 
             "name": "Account System", 
-            "status": "major"
+            "status": "good"
         }, 
         "fedmsg": {
-            "message": "Just testing a bit", 
+            "message": "Everything seems to be working", 
             "name": "Fedora Messaging Bus", 
-            "status": "major"
+            "status": "good"
         }, 
         "fedorahosted": {
-            "message": "Just testing a bit", 
+            "message": "Everything seems to be working", 
             "name": "FedoraHosted.org Services", 
-            "status": "major"
+            "status": "good"
         }, 
         "freemedia": {
-            "message": "Just testing a bit", 
+            "message": "Everything seems to be working", 
             "name": "FreeMedia", 
-            "status": "major"
+            "status": "good"
         }, 
         "koji": {
-            "message": "Just testing a bit", 
+            "message": "Everything seems to be working", 
             "name": "The Koji Buildsystem", 
-            "status": "major"
+            "status": "good"
         }, 
         "mirrorlist": {
-            "message": "Just testing a bit", 
+            "message": "Everything seems to be working", 
             "name": "Mirror List", 
-            "status": "major"
+            "status": "good"
         }, 
         "mirrormanager": {
-            "message": "Just testing a bit", 
+            "message": "Everything seems to be working", 
             "name": "Mirror Manager", 
-            "status": "major"
+            "status": "good"
         }, 
         "packages": {
-            "message": "Just testing a bit", 
+            "message": "Everything seems to be working", 
             "name": "Fedora Packages App", 
-            "status": "major"
+            "status": "good"
         }, 
         "pkgdb": {
-            "message": "Just testing a bit", 
+            "message": "Everything seems to be working", 
             "name": "Package Database", 
-            "status": "major"
+            "status": "good"
         }, 
         "smolt": {
-            "message": "Just testing a bit", 
+            "message": "Everything seems to be working", 
             "name": "Smolt", 
-            "status": "major"
+            "status": "good"
         }, 
         "smolt-wiki": {
-            "message": "Just testing a bit", 
+            "message": "Everything seems to be working", 
             "name": "Smolt Wiki", 
-            "status": "major"
+            "status": "good"
         }, 
         "tagger": {
-            "message": "Just testing a bit", 
+            "message": "Everything seems to be working", 
             "name": "Tagger", 
-            "status": "major"
+            "status": "good"
         }, 
         "wiki": {
-            "message": "Just testing a bit", 
+            "message": "Everything seems to be working", 
             "name": "Fedora Wiki", 
-            "status": "major"
+            "status": "good"
         }
     }
 }
