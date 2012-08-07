@@ -7,9 +7,9 @@
             "status": "good"
         }, 
         "fas": {
-            "message": "Everything seems to be working", 
+            "message": "Some major issue", 
             "name": "Account System", 
-            "status": "good"
+            "status": "major"
         }, 
         "fedmsg": {
             "message": "Everything seems to be working", 
