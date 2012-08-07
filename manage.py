@@ -42,7 +42,7 @@ if __name__ == '__main__':
         services['global_info'] = args.global_info
 
     if args.service == '-':
-        for srv in services.keys():
+        for srv in services['services'].keys():
             services['services'][srv]['status'] = args.new_status
             services['services'][srv]['message'] = args.new_message
     else:
