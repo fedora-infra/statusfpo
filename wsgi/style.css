@@ -87,8 +87,14 @@ body {
 }
     
 #header .headerstatus {
+    background: #9999bb;
+    padding: 10px 0 10px 0;
+}
+
+#header .headerstatus h3 {
     text-shadow: 0 2px 4px #000000;
-    background: #aaaacc;
+    font-weight: normal;
+    color: #f7f7f7;
 }
 
 #header .all-okay {
