@@ -67,9 +67,9 @@
             "status": "good"
         }, 
         "wiki": {
-            "message": "Testing our nagios alerts", 
+            "message": "Everything seems to be working", 
             "name": "Fedora Wiki", 
-            "status": "major"
+            "status": "good"
         }
     }
 }
