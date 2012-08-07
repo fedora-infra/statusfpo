@@ -96,8 +96,8 @@ body {
 .clearfix { zoom: 1; }
 
 #header {
-    color: #f7f7f7;
     box-shadow: 0 3px 3px #888888;
+    color: #f7f7f7;
     margin-bottom: 25px !important;
 }    
 
