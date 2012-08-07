@@ -2,72 +2,72 @@
     "global_info": "This system is currently in testing stage", 
     "services": {
         "bodhi": {
-            "message": "Everything seems to be working", 
+            "message": "Everything seems to be working.", 
             "name": "Package Updates Manager", 
             "status": "good"
         }, 
         "fas": {
-            "message": "Everything seems to be working", 
+            "message": "Everything seems to be working.", 
             "name": "Account System", 
             "status": "good"
         }, 
         "fedmsg": {
-            "message": "Everything seems to be working", 
+            "message": "Everything seems to be working.", 
             "name": "Fedora Messaging Bus", 
             "status": "good"
         }, 
         "fedorahosted": {
-            "message": "Everything seems to be working", 
+            "message": "Everything seems to be working.", 
             "name": "FedoraHosted.org Services", 
             "status": "good"
         }, 
         "freemedia": {
-            "message": "Everything seems to be working", 
+            "message": "Everything seems to be working.", 
             "name": "FreeMedia", 
             "status": "good"
         }, 
         "koji": {
-            "message": "Everything seems to be working", 
+            "message": "Everything seems to be working.", 
             "name": "The Koji Buildsystem", 
             "status": "good"
         }, 
         "mirrorlist": {
-            "message": "Everything seems to be working", 
+            "message": "Everything seems to be working.", 
             "name": "Mirror List", 
             "status": "good"
         }, 
         "mirrormanager": {
-            "message": "Everything seems to be working", 
+            "message": "Everything seems to be working.", 
             "name": "Mirror Manager", 
             "status": "good"
         }, 
         "packages": {
-            "message": "Everything seems to be working", 
+            "message": "Everything seems to be working.", 
             "name": "Fedora Packages App", 
             "status": "good"
         }, 
         "pkgdb": {
-            "message": "Everything seems to be working", 
+            "message": "Everything seems to be working.", 
             "name": "Package Database", 
             "status": "good"
         }, 
         "smolt": {
-            "message": "Everything seems to be working", 
+            "message": "Everything seems to be working.", 
             "name": "Smolt", 
             "status": "good"
         }, 
         "smolt-wiki": {
-            "message": "Everything seems to be working", 
+            "message": "Everything seems to be working.", 
             "name": "Smolt Wiki", 
             "status": "good"
         }, 
         "tagger": {
-            "message": "Everything seems to be working", 
+            "message": "Everything seems to be working.", 
             "name": "Tagger", 
             "status": "good"
         }, 
         "wiki": {
-            "message": "Everything seems to be working", 
+            "message": "Everything seems to be working.", 
             "name": "Fedora Wiki", 
             "status": "good"
         }
