@@ -20,7 +20,7 @@ if __name__ == '__main__':
         sys.exit(1)
 
     if args.new_message == '-':
-        args.new_message = 'Everything seems to be working'
+        args.new_message = 'Everything seems to be working.'
 
     result = 0
 
