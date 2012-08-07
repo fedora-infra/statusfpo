@@ -12,7 +12,7 @@ def getStatuses():
 
 def generatePage(statuses):
     env = Environment(loader=FileSystemLoader('.'))
-    return env.get_template('index.html').render(statuses=statuses, global_status=getGlobalStatus(statuses))
+    return env.get_template('index.html').render(statuses=statuses['services'], global_status=getGlobalStatus(statuses['services']), global_info=statuses['global_info'])
 
 def getGlobalStatus(statuses):
     global_status = 0    # 0 = ok, 1 = minor, 2 = major

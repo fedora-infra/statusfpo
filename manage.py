@@ -12,6 +12,7 @@ if __name__ == '__main__':
     parser.add_argument('new_status', help='The new service status (good/minor/major)')
     parser.add_argument('new_message', help='The new status message. Use - to use "Everything seems to be working"')
     parser.add_argument('--no-git', action='store_true', help='Do not commit and push to git')
+    parser.add_argument('--global-info', help='Set the global information message')
     args = parser.parse_args()
 
     if not args.new_status in ['good', 'minor', 'major']:
@@ -33,17 +34,20 @@ if __name__ == '__main__':
     services = json.loads(f.read())
     f.close()
 
-    if (args.service != '-') and (not args.service in services.keys()):
-        print('%(service)s is unknown! Valid services are: %(services)s' % {'service': args.service, 'services': services.keys()})
+    if (args.service != '-') and (not args.service in services['services'].keys()):
+        print('%(service)s is unknown! Valid services are: %(services)s' % {'service': args.service, 'services': services['services'].keys()})
         sys.exit(3)
+
+    if args.global_info != None:
+        services['global_info'] = args.global_info
 
     if args.service == '-':
         for srv in services.keys():
-            services[srv]['status'] = args.new_status
-            services[srv]['message'] = args.new_message
+            services['services'][srv]['status'] = args.new_status
+            services['services'][srv]['message'] = args.new_message
     else:
-        services[args.service]['status'] = args.new_status
-        services[args.service]['message'] = args.new_message
+        services['services'][args.service]['status'] = args.new_status
+        services['services'][args.service]['message'] = args.new_message
 
     f = open('wsgi/statuses.json', 'w')
     f.write(json.dumps(services, sort_keys=True, indent = 4))
