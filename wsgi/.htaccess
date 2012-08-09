@@ -13,6 +13,6 @@ Header set Expires "Wed, 11 Jan 1984 05:00:00 GMT"
 </ifModule>
 </filesMatch>
 
-<filesMatch "\.(eot|svg|ttf|woff|png)$">
-Header set Cache-Control "max-age=2592000"
-</filesMatch>
+#<filesMatch "\.(eot|svg|ttf|woff|png)$">
+#Header set Cache-Control "max-age=2592000"
+#</filesMatch>
