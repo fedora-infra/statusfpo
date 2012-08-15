@@ -73,7 +73,7 @@ if __name__ == '__main__':
     f.close()
 
     if not args.no_git:
-        result = subprocess.call("git add wsgi/statuses.json", shell=True)
+        result = subprocess.call("git add wsgi/statuses.json wsgi/changes.json", shell=True)
     if result != 0:
         print('An error occured in git add, please try again!')
         sys.exit(4)
