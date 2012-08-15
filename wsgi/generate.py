@@ -35,7 +35,7 @@ def getGlobalStatus(statuses):
         elif status == 'major' and global_status < 2:
             global_status = 2
     if global_status == 0:
-        return 'ok'
+        return 'good'
     elif global_status == 1:
         return 'minor'
     else:

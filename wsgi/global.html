@@ -20,7 +20,7 @@
           </ul>
         </div>
       </div>
-      <div class="headercontent {% if global_status == "ok" %}
+      <div class="headercontent {% if global_status == "good" %}
                                   all-okay
                                 {% elif global_status == "minor" %}
                                   minor-incident
@@ -29,7 +29,7 @@
                                 {% endif %}">
         <div class="constraint">
           <h1 class="nomargin">
-          {% if global_status == "ok" %}
+          {% if global_status == "good" %}
             All systems go.
           {% elif global_status == "minor" %}
             Minor service disruption.
