@@ -62,9 +62,9 @@
             "status": "good"
         }, 
         "tagger": {
-            "message": "Testing RSS and favicon", 
+            "message": "Everything seems to be working.", 
             "name": "Tagger", 
-            "status": "minor"
+            "status": "good"
         }, 
         "wiki": {
             "message": "Everything seems to be working.", 

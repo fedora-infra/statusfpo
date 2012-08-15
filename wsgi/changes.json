@@ -1,26 +1,5 @@
 [
     {
-        "status": "minor", 
-        "changetype": "single", 
-        "message": "Testing RSS and favicon", 
-        "service": "tagger", 
-        "changedate": 1345071380.630569
-    }, 
-    {
-        "status": "good", 
-        "changetype": "single", 
-        "message": "Everything seems to be working.", 
-        "service": "fedorahosted", 
-        "changedate": 1345069234.44013
-    }, 
-    {
-        "status": "minor", 
-        "changetype": "single", 
-        "message": "Testing some things", 
-        "service": "fedorahosted", 
-        "changedate": 1345069164.655377
-    }, 
-    {
         "services": [
             "wiki", 
             "freemedia", 
