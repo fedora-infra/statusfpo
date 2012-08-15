@@ -1,6 +1,7 @@
 #!/usr/bin/python
 # -*- coding: utf-8 -*-
 
+from time import time
 import json
 import argparse
 import sys
@@ -33,6 +34,9 @@ if __name__ == '__main__':
     f = open('wsgi/statuses.json', 'r')
     services = json.loads(f.read())
     f.close()
+    f = open('wsgi/changes.json', 'r')
+    changes = json.loads(f.read())
+    f.close()
 
     if (args.service != '-') and (not args.service in services['services'].keys()):
         print('%(service)s is unknown! Valid services are: %(services)s' % {'service': args.service, 'services': services['services'].keys()})
@@ -41,16 +45,31 @@ if __name__ == '__main__':
     if args.global_info != None:
         services['global_info'] = args.global_info
 
+    updated = []
     if args.service == '-':
         for srv in services['services'].keys():
+            if services['services'][srv]['status'] != args.new_status or services['services'][srv]['message'] != args.new_message:
+                updated.append(srv)
             services['services'][srv]['status'] = args.new_status
             services['services'][srv]['message'] = args.new_message
     else:
+        if services['services'][args.service]['status'] != args.new_status or services['services'][args.service]['message'] != args.new_message:
+            updated.append(args.service)
         services['services'][args.service]['status'] = args.new_status
         services['services'][args.service]['message'] = args.new_message
 
+    if len(updated) != 0:
+        if len(updated) == 1:
+            changes.insert(0, {'changetype': 'single', 'service': updated[0], 'status': args.new_status, 'message': args.new_message, 'changedate': time()})
+        else:
+            changes.insert(0, {'changetype': 'multiple', 'services': updated, 'status': args.new_status, 'message': args.new_message, 'changedate': time()})
+    changes = changes[:10]
+
     f = open('wsgi/statuses.json', 'w')
     f.write(json.dumps(services, sort_keys=True, indent = 4))
+    f.close()
+    f = open('wsgi/changes.json', 'w')
+    f.write(json.dumps(changes, indent = 4))
     f.close()
 
     if not args.no_git:

@@ -1,0 +1,24 @@
+[
+    {
+        "services": [
+            "wiki", 
+            "freemedia", 
+            "fas", 
+            "fedmsg", 
+            "mirrormanager", 
+            "koji", 
+            "smolt", 
+            "smolt-wiki", 
+            "bodhi", 
+            "tagger", 
+            "mirrorlist", 
+            "packages", 
+            "fedorahosted", 
+            "pkgdb"
+        ], 
+        "status": "good", 
+        "changetype": "multiple", 
+        "message": "Everything seems to be working.", 
+        "changedate": 1345068600.359252
+    }
+]

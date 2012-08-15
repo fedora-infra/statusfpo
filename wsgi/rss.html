@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0">
+<channel>
+        <title>Fedora Service Status</title>
+        <description>This feed is updated when the Fedora service status changes</description>
+        <link>http://status.fedoraproject.org/</link>
+        <lastBuildDate>{{currenttime}}</lastBuildDate>
+        <pubDate>{{currenttime}}</pubDate>
+        <ttl>1800</ttl>
+   {% for change in changes %}
+        <item>
+                <title>Service change</title>
+       {% if change.changetype == 'single' %}
+                <description>Service {{change.service}} is now {{change.status}}: {{change.message}}</description>
+       {% else %}
+                <description>New status {{change.status}}: {{change.message}} for services: {{change.services|join(', ')}}</description>
+       {% endif %}
+                <link>http://status.fedoraproject.org/</link>
+                <guid>{{change.changedate}}</guid>
+                <pubDate>{{change.datetime}}</pubDate>
+        </item>
+    {% endfor %} 
+</channel>
+</rss>
