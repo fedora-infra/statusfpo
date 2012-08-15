@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<rss version="2.0">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 <channel>
         <title>Fedora Service Status</title>
         <description>This feed is updated when the Fedora service status changes</description>
@@ -7,6 +7,7 @@
         <lastBuildDate>{{currenttime}}</lastBuildDate>
         <pubDate>{{currenttime}}</pubDate>
         <ttl>1800</ttl>
+        <atom:link href="http://status.fedoraproject.org/changes.rss" rel="self" type="application/rss+xml" />
    {% for change in changes %}
         <item>
                 <title>Service change</title>
@@ -16,7 +17,7 @@
                 <description>New status {{change.status}}: {{change.message}} for services: {{change.services|join(', ')}}</description>
        {% endif %}
                 <link>http://status.fedoraproject.org/</link>
-                <guid>{{change.changedate}}</guid>
+                <guid isPermaLink="false">{{change.changedate}}</guid>
                 <pubDate>{{change.datetime}}</pubDate>
         </item>
     {% endfor %} 
