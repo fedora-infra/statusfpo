@@ -67,9 +67,9 @@
             "status": "good"
         }, 
         "wiki": {
-            "message": "Everything seems to be working.", 
+            "message": "Testing the new repo", 
             "name": "Fedora Wiki", 
-            "status": "good"
+            "status": "major"
         }
     }
 }
