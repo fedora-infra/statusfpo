@@ -47,15 +47,24 @@ def generateHtml():
 def generateFeed(feedtype):
     return generateFeedPage(feedtype + '.html', getInfo('changes.json'))
 
+def minify(contents):
+    contents = contents.replace("\n", "")
+    prev = contents
+    contents = contents.replace("> ", ">").replace(" <", "<").replace("{ ", "{").replace(" }", "}").replace("  ", " ")
+    while prev != contents:
+        prev = contents
+        contents = contents.replace("> ", ">").replace(" <", "<").replace("{ ", "{").replace(" }", "}").replace("  ", " ")
+    return contents
+
 if __name__ == '__main__':
     parser = argparse.ArgumentParser(description='Generate the static files')
     parser.add_argument('type', help='The type of page to generate, either html or rss')
     args = parser.parse_args()
 
     if args.type == 'html':
-       print(generateHtml())
+       print(minify(generateHtml()))
     elif args.type == 'rss':
-       print(generateFeed('rss'))
+       print(minify(generateFeed('rss')))
     else:
         print('Error: invalid type (html/rss)')
         sys.exit(1)
