@@ -48,7 +48,7 @@ def generateFeed(feedtype):
     return generateFeedPage(feedtype + '.html', getInfo('changes.json'))
 
 def doMinify(original):
-    return original.replace("> ",">").replace(" <","<").replace(" >",">").replace("< ","<").replace": ",":").replace(" :",":").replace(" ;",";").replace("; ",";").replace("{ ","{").replace(" }","}").replace(" {","{").replace("} ","}").replace("  "," ").replace("\t","")
+    return original.replace("> ",">").replace(" <","<").replace(" >",">").replace("< ","<").replace(": ",":").replace(" :",":").replace(" ;",";").replace("; ",";").replace("{ ","{").replace(" }","}").replace(" {","{").replace("} ","}").replace("  "," ").replace("\t","")
 
 def minify(contents):
     contents = contents.replace("\n", "")
