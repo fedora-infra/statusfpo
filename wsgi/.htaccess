@@ -2,7 +2,7 @@ RewriteEngine On
 RewriteRule ^application/(.+)$ /static/$1 [L]
 RewriteRule ^application/$ /index.html
 
-<filesMatch "\.(html|htm)$">
+<filesMatch "\.(html|htm|rss)$">
 FileETag None
 ExpiresDefault A0
 <ifModule mod_headers.c>
