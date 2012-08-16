@@ -47,13 +47,16 @@ def generateHtml():
 def generateFeed(feedtype):
     return generateFeedPage(feedtype + '.html', getInfo('changes.json'))
 
+def doMinify(original):
+    return original.replace("> ",">").replace(" <","<").replace("{ ","{").replace(" }","}").replace("  "," ").replace("\t","")
+
 def minify(contents):
     contents = contents.replace("\n", "")
     prev = contents
-    contents = contents.replace("> ", ">").replace(" <", "<").replace("{ ", "{").replace(" }", "}").replace("  ", " ")
+    contents = doMinify(contents)
     while prev != contents:
         prev = contents
-        contents = contents.replace("> ", ">").replace(" <", "<").replace("{ ", "{").replace(" }", "}").replace("  ", " ")
+        contents = doMinify(contents)
     return contents
 
 if __name__ == '__main__':
