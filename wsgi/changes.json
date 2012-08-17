@@ -1,5 +1,12 @@
 [
     {
+        "status": "good", 
+        "changetype": "single", 
+        "message": "Everything seems to be working.", 
+        "service": "fedorahosted", 
+        "changedate": 1345235026.082721
+    }, 
+    {
         "status": "major", 
         "changetype": "single", 
         "message": "Server is down, rebooting", 
