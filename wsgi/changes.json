@@ -1,5 +1,12 @@
 [
     {
+        "status": "major", 
+        "changetype": "single", 
+        "message": "Server is down, rebooting", 
+        "service": "fedorahosted", 
+        "changedate": 1345234727.599355
+    }, 
+    {
         "services": [
             "wiki", 
             "freemedia", 

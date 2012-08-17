@@ -17,9 +17,9 @@
             "status": "good"
         }, 
         "fedorahosted": {
-            "message": "Everything seems to be working.", 
+            "message": "Server is down, rebooting", 
             "name": "FedoraHosted.org Services", 
-            "status": "good"
+            "status": "major"
         }, 
         "freemedia": {
             "message": "Everything seems to be working.", 
