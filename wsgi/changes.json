@@ -1,5 +1,12 @@
 [
     {
+        "status": "major", 
+        "changetype": "single", 
+        "message": "Planned outage for migration", 
+        "service": "fedorahosted", 
+        "changedate": 1345582818.841313
+    }, 
+    {
         "status": "good", 
         "changetype": "single", 
         "message": "Everything seems to be working.", 
