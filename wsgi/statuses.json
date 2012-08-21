@@ -17,9 +17,9 @@
             "status": "good"
         }, 
         "fedorahosted": {
-            "message": "Planned outage for migration", 
+            "message": "Everything seems to be working.", 
             "name": "FedoraHosted.org Services", 
-            "status": "major"
+            "status": "good"
         }, 
         "freemedia": {
             "message": "Everything seems to be working.", 
