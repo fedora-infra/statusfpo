@@ -12,7 +12,11 @@
 {% block content %}
 <div class="constraint">
   {% for service in statuses %}
-  <div class="content topmargin {% if statuses[service].status == "good" %} green {% elif statuses[service].status == "minor" %} orange {% else %} red {% endif %} status {{ loop.cycle('status-left', 'status-right') }}">
+  <div class="content topmargin {% if statuses[service].status == "good" %} green 
+                                {% elif statuses[service].status == "scheduled" %} orange 
+                                {% elif statuses[service].status == "minor" %} orange 
+                                {% else %} red 
+                                {% endif %} status {{ loop.cycle('status-left', 'status-right') }}">
     <div class="header">
       <b>{{ statuses[service].name }}</b>
       <span class="right">{{ service }}</span>

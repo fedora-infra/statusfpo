@@ -27,16 +27,20 @@ def generateHtmlPage(statuses):
     return env.get_template('template.html').render(statuses=statuses['services'], global_status=getGlobalStatus(statuses['services']), global_info=statuses['global_info'])
 
 def getGlobalStatus(statuses):
-    global_status = 0    # 0 = ok, 1 = minor, 2 = major
+    global_status = 0    # 0 = ok, 1 = scheduled, 2 = minor, 3 = major
     for service in statuses.keys():
         status = statuses[service]['status']
-        if status == 'minor' and global_status < 1:
+        if status == 'scheduled' and global_status < 1:
             global_status = 1
-        elif status == 'major' and global_status < 2:
+        elif status == 'minor' and global_status < 2:
             global_status = 2
+        elif status == 'major' and global_status < 3:
+            global_status = 3
     if global_status == 0:
         return 'good'
     elif global_status == 1:
+        return 'scheduled'
+    elif global_status == 2:
         return 'minor'
     else:
         return 'major'

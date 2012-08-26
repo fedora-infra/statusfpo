@@ -10,14 +10,14 @@ import subprocess
 if __name__ == '__main__':
     parser = argparse.ArgumentParser(description='Manage the status on status.fedoraproject.org')
     parser.add_argument('service', help='The service to modify. Use - to update every service')
-    parser.add_argument('new_status', help='The new service status (good/minor/major)')
+    parser.add_argument('new_status', help='The new service status (good/scheduled/minor/major)')
     parser.add_argument('new_message', help='The new status message. Use - to use "Everything seems to be working"')
     parser.add_argument('--no-git', action='store_true', help='Do not commit and push to git')
     parser.add_argument('--global-info', help='Set the global information message')
     args = parser.parse_args()
 
-    if not args.new_status in ['good', 'minor', 'major']:
-        print('new_status must be good, minor or major!')
+    if not args.new_status in ['good', 'scheduled', 'minor', 'major']:
+        print('new_status must be good, scheduled, minor or major!')
         sys.exit(1)
 
     if args.new_message == '-':
