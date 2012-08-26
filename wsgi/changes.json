@@ -1,5 +1,12 @@
 [
     {
+        "status": "good", 
+        "changetype": "single", 
+        "message": "Everything seems to be working.", 
+        "service": "fas", 
+        "changedate": 1346010960.123641
+    }, 
+    {
         "status": "scheduled", 
         "changetype": "single", 
         "message": "Testing what a scheduled outage might look like.", 
