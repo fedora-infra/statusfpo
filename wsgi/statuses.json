@@ -7,9 +7,9 @@
             "status": "good"
         }, 
         "fas": {
-            "message": "Everything seems to be working.", 
+            "message": "Testing what a scheduled outage might look like.", 
             "name": "Account System", 
-            "status": "good"
+            "status": "scheduled"
         }, 
         "fedmsg": {
             "message": "Everything seems to be working.", 
