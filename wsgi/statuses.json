@@ -67,9 +67,9 @@
             "status": "good"
         }, 
         "wiki": {
-            "message": "Everything seems to be working.", 
+            "message": "This is a testing scheduled status", 
             "name": "Fedora Wiki", 
-            "status": "good"
+            "status": "scheduled"
         }
     }
 }

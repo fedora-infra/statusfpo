@@ -1,5 +1,12 @@
 [
     {
+        "status": "scheduled", 
+        "changetype": "single", 
+        "message": "This is a testing scheduled status", 
+        "service": "wiki", 
+        "changedate": 1346005134.247995
+    }, 
+    {
         "status": "good", 
         "changetype": "single", 
         "message": "Everything seems to be working.", 
