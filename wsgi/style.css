@@ -216,11 +216,13 @@ body {
 .status-left {
     border-left-width: 8px;
     float: left;
+    clear: left;
 }
 
 .status-right {
     border-right-width: 8px;
     float: right;
+    clear: right;
 }
 
 .status {
