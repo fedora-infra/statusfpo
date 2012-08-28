@@ -4,113 +4,113 @@
         "ask": {
             "message": "Everything seems to be working.", 
             "name": "Ask Fedora", 
-            "status": "good"
+            "status": "major"
         }, 
         "bodhi": {
             "message": "Everything seems to be working.", 
             "name": "Package Updates Manager", 
-            "status": "good"
+            "status": "major"
         }, 
         "darkserver": {
             "message": "Everything seems to be working.", 
             "name": "Darkserver", 
-            "status": "good"
+            "status": "major"
         }, 
         "docs": {
             "message": "Everything seems to be working.", 
             "name": "Documentation website", 
-            "status": "good"
+            "status": "major"
         }, 
         "elections": {
             "message": "Everything seems to be working.", 
             "name": "Fedora elections", 
-            "status": "good"
+            "status": "major"
         }, 
         "fas": {
             "message": "Everything seems to be working.", 
             "name": "Account System", 
-            "status": "good"
+            "status": "major"
         }, 
         "fedmsg": {
             "message": "Everything seems to be working.", 
             "name": "Fedora Messaging Bus", 
-            "status": "good"
+            "status": "major"
         }, 
         "fedorahosted": {
             "message": "Everything seems to be working.", 
             "name": "FedoraHosted.org Services", 
-            "status": "good"
+            "status": "major"
         }, 
         "freemedia": {
             "message": "Everything seems to be working.", 
             "name": "FreeMedia", 
-            "status": "good"
+            "status": "major"
         }, 
         "koji": {
             "message": "Everything seems to be working.", 
             "name": "The Koji Buildsystem", 
-            "status": "good"
+            "status": "major"
         }, 
         "mailinglists": {
             "message": "Everything seems to be working.", 
             "name": "Mailing Lists", 
-            "status": "good"
+            "status": "major"
         }, 
         "mirrorlist": {
             "message": "Everything seems to be working.", 
             "name": "Mirror List", 
-            "status": "good"
+            "status": "major"
         }, 
         "mirrormanager": {
             "message": "Everything seems to be working.", 
             "name": "Mirror Manager", 
-            "status": "good"
+            "status": "major"
         }, 
         "packages": {
             "message": "Everything seems to be working.", 
             "name": "Fedora Packages App", 
-            "status": "good"
+            "status": "major"
         }, 
         "pkgdb": {
             "message": "Everything seems to be working.", 
             "name": "Package Database", 
-            "status": "good"
+            "status": "major"
         }, 
         "pkgs": {
             "mailinglists": "Fedora mailing lists", 
             "message": "Everything seems to be working.", 
             "name": "Package maintainers git repositories", 
-            "status": "good"
+            "status": "major"
         }, 
         "smolt": {
             "message": "Everything seems to be working.", 
             "name": "Smolt", 
-            "status": "good"
+            "status": "major"
         }, 
         "smolt-wiki": {
             "message": "Everything seems to be working.", 
             "name": "Smolt Wiki", 
-            "status": "good"
+            "status": "major"
         }, 
         "tagger": {
             "message": "Everything seems to be working.", 
             "name": "Tagger", 
-            "status": "good"
+            "status": "major"
         }, 
         "website": {
             "message": "Everything seems to be working.", 
             "name": "Fedora websites", 
-            "status": "good"
+            "status": "major"
         }, 
         "wiki": {
             "message": "Everything seems to be working.", 
             "name": "Fedora Wiki", 
-            "status": "good"
+            "status": "major"
         }, 
         "zodbot": {
             "message": "Everything seems to be working.", 
             "name": "Zodbot IRC bot", 
-            "status": "good"
+            "status": "major"
         }
     }
 }

@@ -1,6 +1,36 @@
 [
     {
         "services": [
+            "wiki", 
+            "zodbot", 
+            "koji", 
+            "darkserver", 
+            "tagger", 
+            "pkgdb", 
+            "fedorahosted", 
+            "mirrormanager", 
+            "smolt", 
+            "mirrorlist", 
+            "pkgs", 
+            "fas", 
+            "website", 
+            "docs", 
+            "smolt-wiki", 
+            "bodhi", 
+            "ask", 
+            "packages", 
+            "freemedia", 
+            "fedmsg", 
+            "elections", 
+            "mailinglists"
+        ], 
+        "status": "major", 
+        "changetype": "multiple", 
+        "message": "Everything seems to be working.", 
+        "changedate": 1346176116.185647
+    }, 
+    {
+        "services": [
             "zodbot", 
             "darkserver", 
             "pkgs", 
