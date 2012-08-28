@@ -2,7 +2,7 @@
     "global_info": "", 
     "services": {
         "ask": {
-            "message": "", 
+            "message": "Everything seems to be working.", 
             "name": "Ask Fedora", 
             "status": "good"
         }, 
@@ -12,24 +12,24 @@
             "status": "good"
         }, 
         "darkserver": {
-            "message": "", 
+            "message": "Everything seems to be working.", 
             "name": "Darkserver", 
             "status": "good"
         }, 
         "docs": {
-            "message": "", 
+            "message": "Everything seems to be working.", 
             "name": "Documentation website", 
             "status": "good"
         }, 
         "elections": {
-            "message": "", 
+            "message": "Everything seems to be working.", 
             "name": "Fedora elections", 
             "status": "good"
         }, 
         "fas": {
-            "message": "Testing what a scheduled outage might look like.", 
+            "message": "Everything seems to be working.", 
             "name": "Account System", 
-            "status": "scheduled"
+            "status": "good"
         }, 
         "fedmsg": {
             "message": "Everything seems to be working.", 
@@ -52,7 +52,7 @@
             "status": "good"
         }, 
         "mailinglists": {
-            "message": "", 
+            "message": "Everything seems to be working.", 
             "name": "Mailing Lists", 
             "status": "good"
         }, 
@@ -78,7 +78,7 @@
         }, 
         "pkgs": {
             "mailinglists": "Fedora mailing lists", 
-            "message": "", 
+            "message": "Everything seems to be working.", 
             "name": "Package maintainers git repositories", 
             "status": "good"
         }, 
@@ -98,7 +98,7 @@
             "status": "good"
         }, 
         "website": {
-            "message": "", 
+            "message": "Everything seems to be working.", 
             "name": "Fedora websites", 
             "status": "good"
         }, 
@@ -108,7 +108,7 @@
             "status": "good"
         }, 
         "zodbot": {
-            "message": "", 
+            "message": "Everything seems to be working.", 
             "name": "Zodbot IRC bot", 
             "status": "good"
         }
