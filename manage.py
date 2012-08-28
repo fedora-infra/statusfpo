@@ -63,7 +63,7 @@ if __name__ == '__main__':
             changes.insert(0, {'changetype': 'single', 'service': updated[0], 'status': args.new_status, 'message': args.new_message, 'changedate': time()})
         else:
             changes.insert(0, {'changetype': 'multiple', 'services': updated, 'status': args.new_status, 'message': args.new_message, 'changedate': time()})
-    changes = changes[:10]
+    #changes = changes[:10]	# Trim the RSS feed to 10 entries
 
     f = open('wsgi/statuses.json', 'w')
     f.write(json.dumps(services, sort_keys=True, indent = 4))
