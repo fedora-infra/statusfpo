@@ -1,5 +1,12 @@
 [
     {
+        "status": "good", 
+        "changetype": "single", 
+        "message": "Everything seems to be working.", 
+        "service": "koji", 
+        "changedate": 1346163160.637351
+    }, 
+    {
         "status": "major", 
         "changetype": "single", 
         "message": "db issues, being worked on", 
@@ -61,27 +68,5 @@
         "message": "Server is down, rebooting", 
         "service": "fedorahosted", 
         "changedate": 1345234727.599355
-    }, 
-    {
-        "services": [
-            "wiki", 
-            "freemedia", 
-            "fas", 
-            "fedmsg", 
-            "mirrormanager", 
-            "koji", 
-            "smolt", 
-            "smolt-wiki", 
-            "bodhi", 
-            "tagger", 
-            "mirrorlist", 
-            "packages", 
-            "fedorahosted", 
-            "pkgdb"
-        ], 
-        "status": "good", 
-        "changetype": "multiple", 
-        "message": "Everything seems to be working.", 
-        "changedate": 1345068600.359252
     }
 ]
