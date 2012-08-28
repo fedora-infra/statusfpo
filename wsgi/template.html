@@ -18,7 +18,7 @@
                                 {% else %} red 
                                 {% endif %} status {{ loop.cycle('status-left', 'status-right') }}">
     <div class="header">
-      <b>{{ statuses[service].name }}</b>
+      <b><a href="{{statuses[service].url}}" class="servicelink">{{ statuses[service].name }}</a></b>
       <span class="right">{{ service }}</span>
     </div>
     <div class="pad">

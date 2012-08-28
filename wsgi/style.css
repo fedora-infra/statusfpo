@@ -236,6 +236,10 @@ body {
     clear: both;
 }
 
+a.servicelinks {
+    text-decoration: none;
+}
+
 #footer a {
     color: #555555;
 }
