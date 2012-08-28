@@ -27,9 +27,9 @@
             "status": "good"
         }, 
         "koji": {
-            "message": "Everything seems to be working.", 
+            "message": "db issues, being worked on", 
             "name": "The Koji Buildsystem", 
-            "status": "good"
+            "status": "major"
         }, 
         "mirrorlist": {
             "message": "Everything seems to be working.", 

@@ -1,5 +1,12 @@
 [
     {
+        "status": "major", 
+        "changetype": "single", 
+        "message": "db issues, being worked on", 
+        "service": "koji", 
+        "changedate": 1346162570.533359
+    }, 
+    {
         "status": "good", 
         "changetype": "single", 
         "message": "Everything seems to be working.", 
