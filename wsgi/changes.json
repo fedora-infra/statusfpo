@@ -1,5 +1,12 @@
 [
     {
+        "status": "major", 
+        "changetype": "single", 
+        "message": "Major service disruption, looking into it", 
+        "service": "fedorahosted", 
+        "changedate": 1346328723.409159
+    }, 
+    {
         "services": [
             "wiki", 
             "zodbot", 
