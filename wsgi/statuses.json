@@ -44,9 +44,9 @@
             "url": "https://admin.fedoraproject.org/pkgdb/acls/name/fedmsg"
         }, 
         "fedorahosted": {
-            "message": "Major service disruption, looking into it", 
+            "message": "Everything seems to be working.", 
             "name": "FedoraHosted.org Services", 
-            "status": "major", 
+            "status": "good", 
             "url": "https://fedorahosted.org/web/"
         }, 
         "freemedia": {
