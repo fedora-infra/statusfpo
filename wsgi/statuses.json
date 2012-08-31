@@ -83,7 +83,7 @@
             "message": "Everything seems to be working.", 
             "name": "Fedora Packages App", 
             "status": "good", 
-            "url": "UNKNOWN"
+            "url": "https://apps.fedoraproject.org/packages"
         }, 
         "pkgdb": {
             "message": "Everything seems to be working.", 
