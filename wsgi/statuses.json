@@ -86,9 +86,9 @@
             "url": "https://apps.fedoraproject.org/packages"
         }, 
         "pkgdb": {
-            "message": "storage issues", 
+            "message": "Everything seems to be working.", 
             "name": "Package Database", 
-            "status": "major", 
+            "status": "good", 
             "url": "https://admin.fedoraproject.org/pkgdb/"
         }, 
         "pkgs": {
