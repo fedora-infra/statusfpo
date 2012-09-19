@@ -1,5 +1,12 @@
 [
     {
+        "status": "minor", 
+        "changetype": "single", 
+        "message": "Restarting...", 
+        "service": "zodbot", 
+        "changedate": 1348078743.000692
+    }, 
+    {
         "status": "good", 
         "changetype": "single", 
         "message": "Everything seems to be working.", 
