@@ -2,9 +2,9 @@
     "global_info": "", 
     "services": {
         "ask": {
-            "message": "Looking into an ask.fp.o outage.", 
+            "message": "Everything seems to be working.", 
             "name": "Ask Fedora", 
-            "status": "major", 
+            "status": "good", 
             "url": "http://ask.fedoraproject.org/"
         }, 
         "bodhi": {

@@ -1,5 +1,12 @@
 [
     {
+        "status": "good", 
+        "changetype": "single", 
+        "message": "Everything seems to be working.", 
+        "service": "ask", 
+        "changedate": 1348398606.185092
+    }, 
+    {
         "status": "major", 
         "changetype": "single", 
         "message": "Looking into an ask.fp.o outage.", 
