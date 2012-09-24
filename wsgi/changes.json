@@ -1,5 +1,12 @@
 [
     {
+        "status": "good", 
+        "changetype": "single", 
+        "message": "Everything seems to be working.", 
+        "service": "fas", 
+        "changedate": 1348504943.058378
+    }, 
+    {
         "status": "major", 
         "changetype": "single", 
         "message": "restarting to fix issue", 
