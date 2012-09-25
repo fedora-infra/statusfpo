@@ -48,10 +48,10 @@ if __name__ == '__main__':
         print('An error occured in git pull, please try again!')
         sys.exit(2)
 
-    f = open('wsgi/statuses.json', 'r')
+    f = open('.fsrootdir/statuses.json', 'r')
     services = json.loads(f.read())
     f.close()
-    f = open('wsgi/changes.json', 'r')
+    f = open('.fsrootdir/changes.json', 'r')
     changes = json.loads(f.read())
     f.close()
 
@@ -82,15 +82,15 @@ if __name__ == '__main__':
             changes.insert(0, {'changetype': 'multiple', 'services': updated, 'status': args.new_status, 'message': args.new_message, 'changedate': time()})
     #changes = changes[:10]	# Trim the RSS feed to 10 entries
 
-    f = open('wsgi/statuses.json', 'w')
+    f = open('.fsrootdir/statuses.json', 'w')
     f.write(json.dumps(services, sort_keys=True, indent = 4))
     f.close()
-    f = open('wsgi/changes.json', 'w')
+    f = open('.fsrootdir/changes.json', 'w')
     f.write(json.dumps(changes, indent = 4))
     f.close()
 
     if not args.no_git:
-        result = subprocess.call("git add wsgi/statuses.json wsgi/changes.json", shell=True)
+        result = subprocess.call("git add -A", shell=True)
     if result != 0:
         print('An error occured in git add, please try again!')
         sys.exit(4)
