@@ -123,9 +123,9 @@
             "url": "http://fedoraproject.org/"
         }, 
         "wiki": {
-            "message": "Database issues, looking into it", 
+            "message": "Everything seems to be working.", 
             "name": "Fedora Wiki", 
-            "status": "major", 
+            "status": "good", 
             "url": "https://fedoraproject.org/wiki/Fedora_Project_Wiki"
         }, 
         "zodbot": {
