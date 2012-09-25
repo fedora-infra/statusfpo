@@ -25,23 +25,48 @@ import json
 import datetime
 from jinja2 import Environment, FileSystemLoader
 
+def getVerboseStatus(global_status):
+    if global_status == "good":
+        return "All systems go"
+    elif global_status == "scheduled":
+        return "There are scheduled downtimes in progress"
+    elif global_status == "minor":
+        return "Minor service disruption"
+    elif global_status == "major":
+        return "Major service disruption"
+
 def getInfo(filename):
     f = open(filename, 'r')
     info = json.loads(f.read())
     f.close()
     return info
 
-def generateFeedPage(feedtype, changes):
+def get_update_title(change):
+    if not 'new_global_status' in change.keys():
+        return 'Service change'
+    else:
+        return getVerboseStatus(change['new_global_status'])
+
+def generateFeedPage(feedtype, changes, statuses):
     env = Environment(loader=FileSystemLoader('.'))
     newchanges = []
     for change in changes:
+        change['update_title'] = get_update_title(change)
         change['datetime'] = strftime("%a, %d %b %Y %H:%M:%S +0000", gmtime(change['changedate']))
         newchanges.append(change)
+        if change['changetype'] == 'single':
+            change['serviceName'] = statuses['services'][change['service']]['name']
+        else:
+            change['serviceNames'] = []
+            for srv in change['services']:
+                change['serviceNames'].append(statuses['services'][srv]['name'])
+    global_status = getVerboseStatus(getGlobalStatus(statuses['services']))
     return env.get_template(feedtype).render(changes=changes, currenttime=strftime("%a, %d %b %Y %H:%M:%S +0000", gmtime()))
 
 def generateHtmlPage(statuses):
     env = Environment(loader=FileSystemLoader('.'))
-    return env.get_template('template.html').render(statuses=statuses['services'], global_status=getGlobalStatus(statuses['services']), global_info=statuses['global_info'])
+    global_status = getVerboseStatus(getGlobalStatus(statuses['services']))
+    return env.get_template('template.html').render(statuses=statuses['services'], global_status=getGlobalStatus(statuses['services']), global_info=statuses['global_info'], verbose_global_status=global_status)
 
 def getGlobalStatus(statuses):
     global_status = 0    # 0 = ok, 1 = scheduled, 2 = minor, 3 = major
@@ -66,12 +91,14 @@ def generateHtml():
     return generateHtmlPage(getInfo('statuses.json'))
 
 def generateFeed(feedtype):
-    return generateFeedPage(feedtype + '.html', getInfo('changes.json'))
+    return generateFeedPage(feedtype + '.html', getInfo('changes.json'), getInfo('statuses.json'))
 
 def doMinify(original):
     return original.replace("> ",">").replace(" <","<").replace(" >",">").replace("< ","<").replace(" :",":").replace(" ;",";").replace("; ",";").replace("{ ","{").replace(" }","}").replace(" {","{").replace("} ","}").replace("  "," ").replace("\t","")
 
-def minify(contents):
+def minify(contents, skip):
+    if skip:
+        return contents
     contents = contents.replace("\n", "")
     prev = contents
     contents = doMinify(contents)
@@ -83,12 +110,13 @@ def minify(contents):
 if __name__ == '__main__':
     parser = argparse.ArgumentParser(description='Generate the static files')
     parser.add_argument('type', help='The type of page to generate, either html or rss')
+    parser.add_argument('--no-minify', action='store_true', help='Disable the minification, to ease debugging')
     args = parser.parse_args()
 
     if args.type == 'html':
-       print(minify(generateHtml()))
+       print(minify(generateHtml(), args.no_minify))
     elif args.type == 'rss':
-       print(minify(generateFeed('rss')))
+       print(minify(generateFeed('rss'), args.no_minify))
     else:
         print('Error: invalid type (html/rss)')
         sys.exit(1)

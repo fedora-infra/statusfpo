@@ -24,6 +24,25 @@ import argparse
 import sys
 import subprocess
 
+def getGlobalStatus(statuses):
+    global_status = 0    # 0 = ok, 1 = scheduled, 2 = minor, 3 = major
+    for service in statuses.keys():
+        status = statuses[service]['status']
+        if status == 'scheduled' and global_status < 1:
+            global_status = 1
+        elif status == 'minor' and global_status < 2:
+            global_status = 2
+        elif status == 'major' and global_status < 3:
+            global_status = 3
+    if global_status == 0:
+        return 'good'
+    elif global_status == 1:
+        return 'scheduled'
+    elif global_status == 2:
+        return 'minor'
+    else:
+        return 'major'
+
 if __name__ == '__main__':
     parser = argparse.ArgumentParser(description='Manage the status on status.fedoraproject.org')
     parser.add_argument('service', help='The service to modify. Use - to update every service')
@@ -48,10 +67,10 @@ if __name__ == '__main__':
         print('An error occured in git pull, please try again!')
         sys.exit(2)
 
-    f = open('wsgi/statuses.json', 'r')
+    f = open('.fsrootdir/statuses.json', 'r')
     services = json.loads(f.read())
     f.close()
-    f = open('wsgi/changes.json', 'r')
+    f = open('.fsrootdir/changes.json', 'r')
     changes = json.loads(f.read())
     f.close()
 
@@ -77,20 +96,20 @@ if __name__ == '__main__':
 
     if len(updated) != 0:
         if len(updated) == 1:
-            changes.insert(0, {'changetype': 'single', 'service': updated[0], 'status': args.new_status, 'message': args.new_message, 'changedate': time()})
+            changes.insert(0, {'changetype': 'single', 'service': updated[0], 'status': args.new_status, 'new_global_status': getGlobalStatus(services['services']), 'message': args.new_message, 'changedate': time()})
         else:
-            changes.insert(0, {'changetype': 'multiple', 'services': updated, 'status': args.new_status, 'message': args.new_message, 'changedate': time()})
+            changes.insert(0, {'changetype': 'multiple', 'services': updated, 'status': args.new_status, 'new_global_status': getGlobalStatus(services['services']), 'message': args.new_message, 'changedate': time()})
     #changes = changes[:10]	# Trim the RSS feed to 10 entries
 
-    f = open('wsgi/statuses.json', 'w')
+    f = open('.fsrootdir/statuses.json', 'w')
     f.write(json.dumps(services, sort_keys=True, indent = 4))
     f.close()
-    f = open('wsgi/changes.json', 'w')
+    f = open('.fsrootdir/changes.json', 'w')
     f.write(json.dumps(changes, indent = 4))
     f.close()
 
     if not args.no_git:
-        result = subprocess.call("git add wsgi/statuses.json wsgi/changes.json", shell=True)
+        result = subprocess.call("git add -A", shell=True)
     if result != 0:
         print('An error occured in git add, please try again!')
         sys.exit(4)

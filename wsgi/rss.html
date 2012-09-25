@@ -10,11 +10,11 @@
         <atom:link href="http://status.fedoraproject.org/changes.rss" rel="self" type="application/rss+xml" />
    {% for change in changes %}
         <item>
-                <title>Service change</title>
+                <title>{{change.update_title}}</title>
        {% if change.changetype == 'single' %}
-                <description>Service {{change.service}} is now {{change.status}}: {{change.message}}</description>
+                <description>Service '{{change.serviceName}}' now has status: {{change.status}}: {{change.message}}</description>
        {% else %}
-                <description>New status {{change.status}}: {{change.message}} for services: {{change.services|join(', ')}}</description>
+                <description>New status {{change.status}}: {{change.message}} for services: {{change.serviceNames|join(', ')}}</description>
        {% endif %}
                 <link>http://status.fedoraproject.org/</link>
                 <guid isPermaLink="false">{{change.changedate}}</guid>
