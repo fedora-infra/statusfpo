@@ -30,7 +30,17 @@
                                   major-incident
                                 {% endif %}">
         <div class="constraint">
-          <h1 class="nomargin">{{verbose_global_status}}</h1>
+          <h1 class="nomargin">
+          {% if global_status == "good" %}
+            All systems go.
+          {% elif global_status == "scheduled" %}
+            There are scheduled downtimes in progress.
+          {% elif global_status == "minor" %}
+            Minor service disruption.
+          {% elif global_status == "major" %}
+            Major service disruption.
+          {% endif %}
+          </h1>
         </div>
       </div>
       {% if global_info != "" %}

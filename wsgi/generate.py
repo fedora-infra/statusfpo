@@ -25,41 +25,23 @@ import json
 import datetime
 from jinja2 import Environment, FileSystemLoader
 
-def getVerboseStatus(global_status):
-    if global_status == "good":
-        return "All systems go"
-    elif global_status == "scheduled":
-        return "There are scheduled downtimes in progress"
-    elif global_status == "minor":
-        return "Minor service disruption"
-    elif global_status == "major":
-        return "Major service disruption"
-
 def getInfo(filename):
     f = open(filename, 'r')
     info = json.loads(f.read())
     f.close()
     return info
 
-def generateFeedPage(feedtype, changes, statuses):
+def generateFeedPage(feedtype, changes):
     env = Environment(loader=FileSystemLoader('.'))
     newchanges = []
     for change in changes:
         change['datetime'] = strftime("%a, %d %b %Y %H:%M:%S +0000", gmtime(change['changedate']))
         newchanges.append(change)
-        if change['changetype'] == 'single':
-            change['service'] = statuses['services'][change['service']]['name']
-        else:
-            change['serviceNames'] = []
-            for srv in change['services']:
-                change['serviceNames'].append(statuses['services'][srv]['name'])
-    global_status = getVerboseStatus(getGlobalStatus(statuses['services']))
-    return env.get_template(feedtype).render(changes=changes, currenttime=strftime("%a, %d %b %Y %H:%M:%S +0000", gmtime()), update_title=global_status)
+    return env.get_template(feedtype).render(changes=changes, currenttime=strftime("%a, %d %b %Y %H:%M:%S +0000", gmtime()))
 
 def generateHtmlPage(statuses):
     env = Environment(loader=FileSystemLoader('.'))
-    global_status = getVerboseStatus(getGlobalStatus(statuses['services']))
-    return env.get_template('template.html').render(statuses=statuses['services'], global_status=getGlobalStatus(statuses['services']), global_info=statuses['global_info'], verbose_global_status=global_status)
+    return env.get_template('template.html').render(statuses=statuses['services'], global_status=getGlobalStatus(statuses['services']), global_info=statuses['global_info'])
 
 def getGlobalStatus(statuses):
     global_status = 0    # 0 = ok, 1 = scheduled, 2 = minor, 3 = major
@@ -84,7 +66,7 @@ def generateHtml():
     return generateHtmlPage(getInfo('statuses.json'))
 
 def generateFeed(feedtype):
-    return generateFeedPage(feedtype + '.html', getInfo('changes.json'), getInfo('statuses.json'))
+    return generateFeedPage(feedtype + '.html', getInfo('changes.json'))
 
 def doMinify(original):
     return original.replace("> ",">").replace(" <","<").replace(" >",">").replace("< ","<").replace(" :",":").replace(" ;",";").replace("; ",";").replace("{ ","{").replace(" }","}").replace(" {","{").replace("} ","}").replace("  "," ").replace("\t","")
