@@ -1,5 +1,13 @@
 [
     {
+        "status": "major", 
+        "new_global_status": "major", 
+        "service": "wiki", 
+        "changetype": "single", 
+        "message": "issues, investigating", 
+        "changedate": 1348860205.523897
+    }, 
+    {
         "status": "good", 
         "new_global_status": "good", 
         "service": "wiki", 
