@@ -1,5 +1,36 @@
 [
     {
+        "status": "good", 
+        "new_global_status": "good", 
+        "changetype": "multiple", 
+        "services": [
+            "wiki", 
+            "zodbot", 
+            "koji", 
+            "darkserver", 
+            "tagger", 
+            "pkgdb", 
+            "fedorahosted", 
+            "mirrormanager", 
+            "smolt", 
+            "mirrorlist", 
+            "pkgs", 
+            "fas", 
+            "website", 
+            "docs", 
+            "smolt-wiki", 
+            "bodhi", 
+            "ask", 
+            "packages", 
+            "freemedia", 
+            "fedmsg", 
+            "elections", 
+            "mailinglists"
+        ], 
+        "message": "Everything seems to be working.", 
+        "changedate": 1349131200.751026
+    }, 
+    {
         "status": "major", 
         "new_global_status": "major", 
         "changetype": "multiple", 
