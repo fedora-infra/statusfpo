@@ -2,136 +2,136 @@
     "global_info": "", 
     "services": {
         "ask": {
-            "message": "Everything seems to be working.", 
+            "message": "Planned outage: https://fedorahosted.org/fedora-infrastructure/ticket/3488", 
             "name": "Ask Fedora", 
-            "status": "good", 
+            "status": "major", 
             "url": "http://ask.fedoraproject.org/"
         }, 
         "bodhi": {
-            "message": "Everything seems to be working.", 
+            "message": "Planned outage: https://fedorahosted.org/fedora-infrastructure/ticket/3488", 
             "name": "Package Updates Manager", 
-            "status": "good", 
+            "status": "major", 
             "url": "https://admin.fedoraproject.org/updates/"
         }, 
         "darkserver": {
-            "message": "Everything seems to be working.", 
+            "message": "Planned outage: https://fedorahosted.org/fedora-infrastructure/ticket/3488", 
             "name": "Darkserver", 
-            "status": "good", 
+            "status": "major", 
             "url": "https://fedoraproject.org/wiki/Darkserver"
         }, 
         "docs": {
-            "message": "Everything seems to be working.", 
+            "message": "Planned outage: https://fedorahosted.org/fedora-infrastructure/ticket/3488", 
             "name": "Documentation website", 
-            "status": "good", 
+            "status": "major", 
             "url": "http://docs.fedoraproject.org/"
         }, 
         "elections": {
-            "message": "Everything seems to be working.", 
+            "message": "Planned outage: https://fedorahosted.org/fedora-infrastructure/ticket/3488", 
             "name": "Fedora elections", 
-            "status": "good", 
+            "status": "major", 
             "url": "https://admin.fedoraproject.org/voting/"
         }, 
         "fas": {
-            "message": "Everything seems to be working.", 
+            "message": "Planned outage: https://fedorahosted.org/fedora-infrastructure/ticket/3488", 
             "name": "Account System", 
-            "status": "good", 
+            "status": "major", 
             "url": "https://admin.fedoraproject.org/accounts/"
         }, 
         "fedmsg": {
-            "message": "Everything seems to be working.", 
+            "message": "Planned outage: https://fedorahosted.org/fedora-infrastructure/ticket/3488", 
             "name": "Fedora Messaging Bus", 
-            "status": "good", 
+            "status": "major", 
             "url": "https://admin.fedoraproject.org/pkgdb/acls/name/fedmsg"
         }, 
         "fedorahosted": {
-            "message": "Everything seems to be working.", 
+            "message": "Planned outage: https://fedorahosted.org/fedora-infrastructure/ticket/3488", 
             "name": "FedoraHosted.org Services", 
-            "status": "good", 
+            "status": "major", 
             "url": "https://fedorahosted.org/web/"
         }, 
         "freemedia": {
-            "message": "Everything seems to be working.", 
+            "message": "Planned outage: https://fedorahosted.org/fedora-infrastructure/ticket/3488", 
             "name": "FreeMedia", 
-            "status": "good", 
+            "status": "major", 
             "url": "http://fedoraproject.org/wiki/FreeMedia"
         }, 
         "koji": {
-            "message": "Everything seems to be working.", 
+            "message": "Planned outage: https://fedorahosted.org/fedora-infrastructure/ticket/3488", 
             "name": "The Koji Buildsystem", 
-            "status": "good", 
+            "status": "major", 
             "url": "http://koji.fedoraproject.org/koji/"
         }, 
         "mailinglists": {
-            "message": "Everything seems to be working.", 
+            "message": "Planned outage: https://fedorahosted.org/fedora-infrastructure/ticket/3488", 
             "name": "Mailing Lists", 
-            "status": "good", 
+            "status": "major", 
             "url": "http://lists.fedoraproject.org/"
         }, 
         "mirrorlist": {
-            "message": "Everything seems to be working.", 
+            "message": "Planned outage: https://fedorahosted.org/fedora-infrastructure/ticket/3488", 
             "name": "Mirror List", 
-            "status": "good", 
+            "status": "major", 
             "url": "http://mirrors.fedoraproject.org/publiclist/"
         }, 
         "mirrormanager": {
-            "message": "Everything seems to be working.", 
+            "message": "Planned outage: https://fedorahosted.org/fedora-infrastructure/ticket/3488", 
             "name": "Mirror Manager", 
-            "status": "good", 
+            "status": "major", 
             "url": "http://mirrors.fedoraproject.org/"
         }, 
         "packages": {
-            "message": "Everything seems to be working.", 
+            "message": "Planned outage: https://fedorahosted.org/fedora-infrastructure/ticket/3488", 
             "name": "Fedora Packages App", 
-            "status": "good", 
+            "status": "major", 
             "url": "https://apps.fedoraproject.org/packages"
         }, 
         "pkgdb": {
-            "message": "Everything seems to be working.", 
+            "message": "Planned outage: https://fedorahosted.org/fedora-infrastructure/ticket/3488", 
             "name": "Package Database", 
-            "status": "good", 
+            "status": "major", 
             "url": "https://admin.fedoraproject.org/pkgdb/"
         }, 
         "pkgs": {
             "mailinglists": "Fedora mailing lists", 
-            "message": "Everything seems to be working.", 
+            "message": "Planned outage: https://fedorahosted.org/fedora-infrastructure/ticket/3488", 
             "name": "Package maintainers git repositories", 
-            "status": "good", 
+            "status": "major", 
             "url": "http://pkgs.fedoraproject.org/"
         }, 
         "smolt": {
-            "message": "Everything seems to be working.", 
+            "message": "Planned outage: https://fedorahosted.org/fedora-infrastructure/ticket/3488", 
             "name": "Smolt", 
-            "status": "good", 
+            "status": "major", 
             "url": "http://www.smolts.org/"
         }, 
         "smolt-wiki": {
-            "message": "Everything seems to be working.", 
+            "message": "Planned outage: https://fedorahosted.org/fedora-infrastructure/ticket/3488", 
             "name": "Smolt Wiki", 
-            "status": "good", 
+            "status": "major", 
             "url": "http://smolts.org/smolt-wiki/Main_Page"
         }, 
         "tagger": {
-            "message": "Everything seems to be working.", 
+            "message": "Planned outage: https://fedorahosted.org/fedora-infrastructure/ticket/3488", 
             "name": "Tagger", 
-            "status": "good", 
+            "status": "major", 
             "url": "https://apps.fedoraproject.org/tagger/"
         }, 
         "website": {
-            "message": "Everything seems to be working.", 
+            "message": "Planned outage: https://fedorahosted.org/fedora-infrastructure/ticket/3488", 
             "name": "Fedora websites", 
-            "status": "good", 
+            "status": "major", 
             "url": "http://fedoraproject.org/"
         }, 
         "wiki": {
-            "message": "Everything seems to be working.", 
+            "message": "Planned outage: https://fedorahosted.org/fedora-infrastructure/ticket/3488", 
             "name": "Fedora Wiki", 
-            "status": "good", 
+            "status": "major", 
             "url": "https://fedoraproject.org/wiki/Fedora_Project_Wiki"
         }, 
         "zodbot": {
-            "message": "Everything seems to be working.", 
+            "message": "Planned outage: https://fedorahosted.org/fedora-infrastructure/ticket/3488", 
             "name": "Zodbot IRC bot", 
-            "status": "good", 
+            "status": "major", 
             "url": "https://fedoraproject.org/wiki/Zodbot"
         }
     }
