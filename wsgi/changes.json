@@ -1,5 +1,29 @@
 [
     {
+        "status": "major", 
+        "new_global_status": "major", 
+        "service": "bodhi", 
+        "changetype": "single", 
+        "message": "scheduled maint: https://fedorahosted.org/fedora-infrastructure/ticket/3489", 
+        "changedate": 1349211611.475525
+    }, 
+    {
+        "status": "major", 
+        "new_global_status": "major", 
+        "service": "pkgs", 
+        "changetype": "single", 
+        "message": "scheduled maint: https://fedorahosted.org/fedora-infrastructure/ticket/3489", 
+        "changedate": 1349211257.077288
+    }, 
+    {
+        "status": "major", 
+        "new_global_status": "major", 
+        "service": "koji", 
+        "changetype": "single", 
+        "message": "scheduled maint: https://fedorahosted.org/fedora-infrastructure/ticket/3489", 
+        "changedate": 1349211226.466342
+    }, 
+    {
         "status": "good", 
         "new_global_status": "good", 
         "changetype": "multiple", 
