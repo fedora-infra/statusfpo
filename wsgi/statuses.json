@@ -8,9 +8,9 @@
             "url": "http://ask.fedoraproject.org/"
         }, 
         "bodhi": {
-            "message": "scheduled maint: https://fedorahosted.org/fedora-infrastructure/ticket/3489", 
+            "message": "Everything seems to be working.", 
             "name": "Package Updates Manager", 
-            "status": "major", 
+            "status": "good", 
             "url": "https://admin.fedoraproject.org/updates/"
         }, 
         "darkserver": {
@@ -56,9 +56,9 @@
             "url": "http://fedoraproject.org/wiki/FreeMedia"
         }, 
         "koji": {
-            "message": "scheduled maint: https://fedorahosted.org/fedora-infrastructure/ticket/3489", 
+            "message": "Everything seems to be working.", 
             "name": "The Koji Buildsystem", 
-            "status": "major", 
+            "status": "good", 
             "url": "http://koji.fedoraproject.org/koji/"
         }, 
         "mailinglists": {
@@ -93,9 +93,9 @@
         }, 
         "pkgs": {
             "mailinglists": "Fedora mailing lists", 
-            "message": "scheduled maint: https://fedorahosted.org/fedora-infrastructure/ticket/3489", 
+            "message": "Everything seems to be working.", 
             "name": "Package maintainers git repositories", 
-            "status": "major", 
+            "status": "good", 
             "url": "http://pkgs.fedoraproject.org/"
         }, 
         "smolt": {
