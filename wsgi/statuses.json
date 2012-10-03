@@ -68,15 +68,15 @@
             "url": "http://lists.fedoraproject.org/"
         }, 
         "mirrorlist": {
-            "message": "outage, being worked", 
+            "message": "Everything seems to be working.", 
             "name": "Mirror List", 
-            "status": "major", 
+            "status": "good", 
             "url": "http://mirrors.fedoraproject.org/publiclist/"
         }, 
         "mirrormanager": {
-            "message": "outage, being worked", 
+            "message": "Everything seems to be working.", 
             "name": "Mirror Manager", 
-            "status": "major", 
+            "status": "good", 
             "url": "http://mirrors.fedoraproject.org/"
         }, 
         "packages": {
