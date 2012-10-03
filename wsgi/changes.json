@@ -1,5 +1,21 @@
 [
     {
+        "status": "major", 
+        "new_global_status": "major", 
+        "service": "mirrorlist", 
+        "changetype": "single", 
+        "message": "outage, being worked", 
+        "changedate": 1349291950.985915
+    }, 
+    {
+        "status": "major", 
+        "new_global_status": "major", 
+        "service": "mirrormanager", 
+        "changetype": "single", 
+        "message": "outage, being worked", 
+        "changedate": 1349291934.5783
+    }, 
+    {
         "status": "good", 
         "new_global_status": "good", 
         "service": "bodhi", 
