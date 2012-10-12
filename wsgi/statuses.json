@@ -93,9 +93,9 @@
         }, 
         "pkgs": {
             "mailinglists": "Fedora mailing lists", 
-            "message": "Looking into a pkgs cgit outage.", 
+            "message": "Recovering from a short cgit outage, service might be flaky for a few minutes.", 
             "name": "Package maintainers git repositories", 
-            "status": "major", 
+            "status": "minor", 
             "url": "http://pkgs.fedoraproject.org/"
         }, 
         "smolt": {

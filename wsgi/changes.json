@@ -1,5 +1,13 @@
 [
     {
+        "status": "minor", 
+        "new_global_status": "minor", 
+        "service": "pkgs", 
+        "changetype": "single", 
+        "message": "Recovering from a short cgit outage, service might be flaky for a few minutes.", 
+        "changedate": 1350021963.585158
+    }, 
+    {
         "status": "major", 
         "changetype": "single", 
         "message": "Looking into a pkgs cgit outage.", 
