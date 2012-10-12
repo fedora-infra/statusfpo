@@ -1,5 +1,12 @@
 [
     {
+        "status": "major", 
+        "changetype": "single", 
+        "message": "Looking into a pkgs cgit outage.", 
+        "service": "pkgs", 
+        "changedate": 1350020317.600746
+    }, 
+    {
         "status": "good", 
         "new_global_status": "good", 
         "changetype": "multiple", 
