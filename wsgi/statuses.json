@@ -85,6 +85,12 @@
             "status": "good", 
             "url": "https://apps.fedoraproject.org/packages"
         }, 
+        "people": {
+            "message": "Network connectivity issue.", 
+            "name": "Fedora People", 
+            "status": "major", 
+            "url": "https://fedorapeople.org/"
+        }, 
         "pkgdb": {
             "message": "Everything seems to be working.", 
             "name": "Package Database", 

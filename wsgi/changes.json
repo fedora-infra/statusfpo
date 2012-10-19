@@ -1,5 +1,13 @@
 [
     {
+        "status": "major", 
+        "new_global_status": "major", 
+        "service": "people", 
+        "changetype": "single", 
+        "message": "Network connectivity issue.", 
+        "changedate": 1350643236.875525
+    }, 
+    {
         "status": "good", 
         "new_global_status": "good", 
         "service": "pkgs", 
