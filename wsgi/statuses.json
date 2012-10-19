@@ -86,9 +86,9 @@
             "url": "https://apps.fedoraproject.org/packages"
         }, 
         "people": {
-            "message": "Network connectivity issue.", 
+            "message": "Everything seems to be working.", 
             "name": "Fedora People", 
-            "status": "major", 
+            "status": "good", 
             "url": "https://fedorapeople.org/"
         }, 
         "pkgdb": {
