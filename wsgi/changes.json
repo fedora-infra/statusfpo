@@ -1,5 +1,13 @@
 [
     {
+        "status": "scheduled", 
+        "new_global_status": "scheduled", 
+        "service": "mailinglists", 
+        "changetype": "single", 
+        "message": "scheduled migration outage", 
+        "changedate": 1353560685.597869
+    }, 
+    {
         "status": "good", 
         "new_global_status": "good", 
         "service": "people", 
