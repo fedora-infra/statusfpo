@@ -32,9 +32,9 @@
             "url": "https://admin.fedoraproject.org/voting/"
         }, 
         "fas": {
-            "message": "Everything seems to be working.", 
+            "message": "admin.fedoraproject.org outage, being looked into", 
             "name": "Account System", 
-            "status": "good", 
+            "status": "major", 
             "url": "https://admin.fedoraproject.org/accounts/"
         }, 
         "fedmsg": {

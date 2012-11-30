@@ -1,5 +1,13 @@
 [
     {
+        "status": "major", 
+        "new_global_status": "major", 
+        "service": "fas", 
+        "changetype": "single", 
+        "message": "admin.fedoraproject.org outage, being looked into", 
+        "changedate": 1354307314.748903
+    }, 
+    {
         "status": "good", 
         "new_global_status": "good", 
         "service": "mailinglists", 
