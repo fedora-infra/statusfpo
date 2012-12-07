@@ -1,5 +1,37 @@
 [
     {
+        "status": "scheduled", 
+        "new_global_status": "scheduled", 
+        "changetype": "multiple", 
+        "services": [
+            "wiki", 
+            "people", 
+            "zodbot", 
+            "koji", 
+            "darkserver", 
+            "tagger", 
+            "pkgdb", 
+            "fedorahosted", 
+            "mirrormanager", 
+            "smolt", 
+            "mirrorlist", 
+            "pkgs", 
+            "fas", 
+            "website", 
+            "docs", 
+            "smolt-wiki", 
+            "bodhi", 
+            "ask", 
+            "packages", 
+            "freemedia", 
+            "fedmsg", 
+            "elections", 
+            "mailinglists"
+        ], 
+        "message": "scheduled storage outage", 
+        "changedate": 1354892503.539004
+    }, 
+    {
         "status": "good", 
         "new_global_status": "good", 
         "service": "fas", 
