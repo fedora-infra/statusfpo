@@ -1,13 +1,19 @@
-<!DOCTYPE html PUBLIC "-//WAPFORUM//DTD XHTML Mobile 1.2//EN" "http://www.openmobilealliance.org/tech/DTD/xhtml-mobile12.dtd">
+<!DOCTYPE html>
 <html lang="en">
     <head>
+        <style type="text/css">
+            body {
+                url(/status-{{global_status}}.png) norepeat;
+                background-size: 100%;
+            }
+        </style>
         <meta charset="utf-8"/>
         <title>Status - Fedora Infrastructure</title>
         <link rel="alternate" type="application/rss+xml" title="Changes feed" href="/changes.rss" />
         <meta http-equiv="refresh" content="60" />
         <link rel="shortcut icon" href="/status-{{global_status}}.ico">
     </head>
-    <body background="/status-{{global_status}}.png">
+    <body>
         <h1>{{verbose_global_status}}</h1>
         {% if failed_services != "" %}
             <h2>{{failed_services}}</h2>
