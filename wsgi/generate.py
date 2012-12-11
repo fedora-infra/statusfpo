@@ -68,6 +68,19 @@ def generateHtmlPage(statuses):
     global_status = getVerboseStatus(getGlobalStatus(statuses['services']))
     return env.get_template('template.html').render(statuses=statuses['services'], global_status=getGlobalStatus(statuses['services']), global_info=statuses['global_info'], verbose_global_status=global_status)
 
+def generateMobilePage(statuses):
+    env = Environment(loader=FileSystemLoader('.'))
+    global_status = getVerboseStatus(getGlobalStatus(statuses['services']))
+    failed_services = getFailedServices(statuses['services'])
+    return env.get_template('mobile.html').render(statuses=statuses['services'], global_status=getGlobalStatus(statuses['services']), global_info=statuses['global_info'], verbose_global_status=global_status, failed_services=failed_services)
+
+def getFailedServices(statuses):
+    toReturn = []
+    for service in statuses.keys():
+        if statuses[service]['status'] != 'good':
+            toReturn.append(statuses[service]['name'] + ' (' + statuses[service]['status'] + ')')
+    return ', '.join(toReturn)
+
 def getGlobalStatus(statuses):
     global_status = 0    # 0 = ok, 1 = scheduled, 2 = minor, 3 = major
     for service in statuses.keys():
@@ -93,6 +106,9 @@ def generateHtml():
 def generateFeed(feedtype):
     return generateFeedPage(feedtype + '.html', getInfo('changes.json'), getInfo('statuses.json'))
 
+def generateMobile():
+    return generateMobilePage(getInfo('statuses.json'))
+
 def doMinify(original):
     return original.replace("> ",">").replace(" <","<").replace(" >",">").replace("< ","<").replace(" :",":").replace(" ;",";").replace("; ",";").replace("{ ","{").replace(" }","}").replace(" {","{").replace("} ","}").replace("  "," ").replace("\t","")
 
@@ -109,14 +125,16 @@ def minify(contents, skip):
 
 if __name__ == '__main__':
     parser = argparse.ArgumentParser(description='Generate the static files')
-    parser.add_argument('type', help='The type of page to generate, either html or rss')
+    parser.add_argument('type', help='The type of page to generate, either html, mobile or rss')
     parser.add_argument('--no-minify', action='store_true', help='Disable the minification, to ease debugging')
     args = parser.parse_args()
 
     if args.type == 'html':
-       print(minify(generateHtml(), args.no_minify))
+        print(minify(generateHtml(), args.no_minify))
     elif args.type == 'rss':
-       print(minify(generateFeed('rss'), args.no_minify))
+        print(minify(generateFeed('rss'), args.no_minify))
+    elif args.type == 'mobile':
+        print(minify(generateMobile(), args.no_minify))
     else:
         print('Error: invalid type (html/rss)')
         sys.exit(1)
