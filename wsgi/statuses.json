@@ -85,6 +85,12 @@
             "status": "good", 
             "url": "https://apps.fedoraproject.org/packages"
         }, 
+        "people": {
+            "message": "Everything seems to be working.", 
+            "name": "Fedora People", 
+            "status": "good", 
+            "url": "https://fedorapeople.org/"
+        }, 
         "pkgdb": {
             "message": "Everything seems to be working.", 
             "name": "Package Database", 
