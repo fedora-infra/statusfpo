@@ -2,142 +2,142 @@
     "global_info": "", 
     "services": {
         "ask": {
-            "message": "dl.fedoraproject.org not working", 
+            "message": "Everything seems to be working.", 
             "name": "Ask Fedora", 
-            "status": "major", 
+            "status": "good", 
             "url": "http://ask.fedoraproject.org/"
         }, 
         "bodhi": {
-            "message": "dl.fedoraproject.org not working", 
+            "message": "Everything seems to be working.", 
             "name": "Package Updates Manager", 
-            "status": "major", 
+            "status": "good", 
             "url": "https://admin.fedoraproject.org/updates/"
         }, 
         "darkserver": {
-            "message": "dl.fedoraproject.org not working", 
+            "message": "Everything seems to be working.", 
             "name": "Darkserver", 
-            "status": "major", 
+            "status": "good", 
             "url": "https://fedoraproject.org/wiki/Darkserver"
         }, 
         "docs": {
-            "message": "dl.fedoraproject.org not working", 
+            "message": "Everything seems to be working.", 
             "name": "Documentation website", 
-            "status": "major", 
+            "status": "good", 
             "url": "http://docs.fedoraproject.org/"
         }, 
         "elections": {
-            "message": "dl.fedoraproject.org not working", 
+            "message": "Everything seems to be working.", 
             "name": "Fedora elections", 
-            "status": "major", 
+            "status": "good", 
             "url": "https://admin.fedoraproject.org/voting/"
         }, 
         "fas": {
-            "message": "dl.fedoraproject.org not working", 
+            "message": "Everything seems to be working.", 
             "name": "Account System", 
-            "status": "major", 
+            "status": "good", 
             "url": "https://admin.fedoraproject.org/accounts/"
         }, 
         "fedmsg": {
-            "message": "dl.fedoraproject.org not working", 
+            "message": "Everything seems to be working.", 
             "name": "Fedora Messaging Bus", 
-            "status": "major", 
+            "status": "good", 
             "url": "https://admin.fedoraproject.org/pkgdb/acls/name/fedmsg"
         }, 
         "fedorahosted": {
-            "message": "dl.fedoraproject.org not working", 
+            "message": "Everything seems to be working.", 
             "name": "FedoraHosted.org Services", 
-            "status": "major", 
+            "status": "good", 
             "url": "https://fedorahosted.org/web/"
         }, 
         "freemedia": {
-            "message": "dl.fedoraproject.org not working", 
+            "message": "Everything seems to be working.", 
             "name": "FreeMedia", 
-            "status": "major", 
+            "status": "good", 
             "url": "http://fedoraproject.org/wiki/FreeMedia"
         }, 
         "koji": {
-            "message": "dl.fedoraproject.org not working", 
+            "message": "Everything seems to be working.", 
             "name": "The Koji Buildsystem", 
-            "status": "major", 
+            "status": "good", 
             "url": "http://koji.fedoraproject.org/koji/"
         }, 
         "mailinglists": {
-            "message": "dl.fedoraproject.org not working", 
+            "message": "Everything seems to be working.", 
             "name": "Mailing Lists", 
-            "status": "major", 
+            "status": "good", 
             "url": "http://lists.fedoraproject.org/"
         }, 
         "mirrorlist": {
-            "message": "dl.fedoraproject.org not working", 
+            "message": "Everything seems to be working.", 
             "name": "Mirror List", 
-            "status": "major", 
+            "status": "good", 
             "url": "http://mirrors.fedoraproject.org/publiclist/"
         }, 
         "mirrormanager": {
-            "message": "dl.fedoraproject.org not working", 
+            "message": "Everything seems to be working.", 
             "name": "Mirror Manager", 
-            "status": "major", 
+            "status": "good", 
             "url": "http://mirrors.fedoraproject.org/"
         }, 
         "packages": {
-            "message": "dl.fedoraproject.org not working", 
+            "message": "Everything seems to be working.", 
             "name": "Fedora Packages App", 
-            "status": "major", 
+            "status": "good", 
             "url": "https://apps.fedoraproject.org/packages"
         }, 
         "people": {
-            "message": "dl.fedoraproject.org not working", 
+            "message": "Everything seems to be working.", 
             "name": "Fedora People", 
-            "status": "major", 
+            "status": "good", 
             "url": "https://fedorapeople.org/"
         }, 
         "pkgdb": {
-            "message": "dl.fedoraproject.org not working", 
+            "message": "Everything seems to be working.", 
             "name": "Package Database", 
-            "status": "major", 
+            "status": "good", 
             "url": "https://admin.fedoraproject.org/pkgdb/"
         }, 
         "pkgs": {
             "mailinglists": "Fedora mailing lists", 
-            "message": "dl.fedoraproject.org not working", 
+            "message": "Everything seems to be working.", 
             "name": "Package maintainers git repositories", 
-            "status": "major", 
+            "status": "good", 
             "url": "http://pkgs.fedoraproject.org/"
         }, 
         "smolt": {
-            "message": "dl.fedoraproject.org not working", 
+            "message": "Everything seems to be working.", 
             "name": "Smolt", 
-            "status": "major", 
+            "status": "good", 
             "url": "http://www.smolts.org/"
         }, 
         "smolt-wiki": {
-            "message": "dl.fedoraproject.org not working", 
+            "message": "Everything seems to be working.", 
             "name": "Smolt Wiki", 
-            "status": "major", 
+            "status": "good", 
             "url": "http://smolts.org/smolt-wiki/Main_Page"
         }, 
         "tagger": {
-            "message": "dl.fedoraproject.org not working", 
+            "message": "Everything seems to be working.", 
             "name": "Tagger", 
-            "status": "major", 
+            "status": "good", 
             "url": "https://apps.fedoraproject.org/tagger/"
         }, 
         "website": {
-            "message": "dl.fedoraproject.org not working", 
+            "message": "Everything seems to be working.", 
             "name": "Fedora websites", 
-            "status": "major", 
+            "status": "good", 
             "url": "http://fedoraproject.org/"
         }, 
         "wiki": {
-            "message": "dl.fedoraproject.org not working", 
+            "message": "Everything seems to be working.", 
             "name": "Fedora Wiki", 
-            "status": "major", 
+            "status": "good", 
             "url": "https://fedoraproject.org/wiki/Fedora_Project_Wiki"
         }, 
         "zodbot": {
-            "message": "dl.fedoraproject.org not working", 
+            "message": "Everything seems to be working.", 
             "name": "Zodbot IRC bot", 
-            "status": "major", 
+            "status": "good", 
             "url": "https://fedoraproject.org/wiki/Zodbot"
         }
     }
