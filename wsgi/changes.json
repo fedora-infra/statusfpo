@@ -1,5 +1,37 @@
 [
     {
+        "status": "major", 
+        "new_global_status": "major", 
+        "changetype": "multiple", 
+        "services": [
+            "wiki", 
+            "people", 
+            "zodbot", 
+            "koji", 
+            "darkserver", 
+            "tagger", 
+            "pkgdb", 
+            "fedorahosted", 
+            "mirrormanager", 
+            "smolt", 
+            "mirrorlist", 
+            "pkgs", 
+            "fas", 
+            "website", 
+            "docs", 
+            "smolt-wiki", 
+            "bodhi", 
+            "ask", 
+            "packages", 
+            "freemedia", 
+            "fedmsg", 
+            "elections", 
+            "mailinglists"
+        ], 
+        "message": "dl.fedoraproject.org not working", 
+        "changedate": 1356017685.64597
+    }, 
+    {
         "status": "good", 
         "new_global_status": "good", 
         "changetype": "multiple", 
