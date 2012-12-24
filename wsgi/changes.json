@@ -1,5 +1,13 @@
 [
     {
+        "status": "major", 
+        "new_global_status": "major", 
+        "service": "mirrormanager", 
+        "changetype": "single", 
+        "message": "mirror manager application is crashing", 
+        "changedate": 1356360744.267989
+    }, 
+    {
         "status": "good", 
         "new_global_status": "good", 
         "changetype": "multiple", 
