@@ -76,7 +76,7 @@
         "mirrormanager": {
             "message": "Everything seems to be working.", 
             "name": "Mirror Manager", 
-            "status": "major", 
+            "status": "good", 
             "url": "http://mirrors.fedoraproject.org/"
         }, 
         "packages": {
