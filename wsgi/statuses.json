@@ -129,7 +129,7 @@
             "url": "http://fedoraproject.org/"
         }, 
         "wiki": {
-            "message": "down due to overloard from mirror manager", 
+            "message": "Everything seems to be working.", 
             "name": "Fedora Wiki", 
             "status": "major", 
             "url": "https://fedoraproject.org/wiki/Fedora_Project_Wiki"

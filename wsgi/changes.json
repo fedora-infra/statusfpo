@@ -2,6 +2,14 @@
     {
         "status": "major", 
         "new_global_status": "major", 
+        "service": "wiki", 
+        "changetype": "single", 
+        "message": "Everything seems to be working.", 
+        "changedate": 1356362686.908468
+    }, 
+    {
+        "status": "major", 
+        "new_global_status": "major", 
         "service": "mirrormanager", 
         "changetype": "single", 
         "message": "Everything seems to be working.", 
