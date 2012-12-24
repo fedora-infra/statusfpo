@@ -2,6 +2,14 @@
     {
         "status": "major", 
         "new_global_status": "major", 
+        "service": "wiki", 
+        "changetype": "single", 
+        "message": "down due to overloard from mirror manager", 
+        "changedate": 1356360914.176786
+    }, 
+    {
+        "status": "major", 
+        "new_global_status": "major", 
         "service": "mirrormanager", 
         "changetype": "single", 
         "message": "mirror manager application is crashing", 
