@@ -74,7 +74,7 @@
             "url": "http://mirrors.fedoraproject.org/publiclist/"
         }, 
         "mirrormanager": {
-            "message": "mirror manager application is crashing", 
+            "message": "Everything seems to be working.", 
             "name": "Mirror Manager", 
             "status": "major", 
             "url": "http://mirrors.fedoraproject.org/"
