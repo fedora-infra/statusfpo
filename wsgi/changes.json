@@ -1,5 +1,13 @@
 [
     {
+        "status": "major", 
+        "new_global_status": "major", 
+        "service": "mailinglists", 
+        "changetype": "single", 
+        "message": "fedorahosted lists down", 
+        "changedate": 1356981483.180751
+    }, 
+    {
         "status": "good", 
         "new_global_status": "good", 
         "changetype": "multiple", 
