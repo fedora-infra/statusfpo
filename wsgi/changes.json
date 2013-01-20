@@ -1,5 +1,13 @@
 [
     {
+        "status": "major", 
+        "new_global_status": "major", 
+        "service": "ask", 
+        "changetype": "single", 
+        "message": "Ask is down at the moment, we are looking into this", 
+        "changedate": 1358642050.927325
+    }, 
+    {
         "status": "good", 
         "new_global_status": "good", 
         "service": "mailinglists", 
