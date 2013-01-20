@@ -1,5 +1,13 @@
 [
     {
+        "status": "minor", 
+        "new_global_status": "minor", 
+        "service": "ask", 
+        "changetype": "single", 
+        "message": "Ask seems to be coming back up now", 
+        "changedate": 1358648022.441046
+    }, 
+    {
         "status": "major", 
         "new_global_status": "major", 
         "service": "ask", 
