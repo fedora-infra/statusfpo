@@ -2,9 +2,9 @@
     "global_info": "", 
     "services": {
         "ask": {
-            "message": "Ask seems to be coming back up now", 
+            "message": "Everything seems to be working.", 
             "name": "Ask Fedora", 
-            "status": "minor", 
+            "status": "good", 
             "url": "http://ask.fedoraproject.org/"
         }, 
         "bodhi": {
