@@ -1,5 +1,13 @@
 [
     {
+        "status": "major", 
+        "new_global_status": "major", 
+        "service": "packages", 
+        "changetype": "single", 
+        "message": "The service is unavailable, we are looking into it", 
+        "changedate": 1358775663.265307
+    }, 
+    {
         "status": "good", 
         "new_global_status": "good", 
         "service": "ask", 
