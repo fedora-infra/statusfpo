@@ -80,9 +80,9 @@
             "url": "http://mirrors.fedoraproject.org/"
         }, 
         "packages": {
-            "message": "The service is unavailable, we are looking into it", 
+            "message": "Everything seems to be working.", 
             "name": "Fedora Packages App", 
-            "status": "major", 
+            "status": "good", 
             "url": "https://apps.fedoraproject.org/packages"
         }, 
         "people": {
