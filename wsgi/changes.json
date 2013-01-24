@@ -1,5 +1,37 @@
 [
     {
+        "status": "major", 
+        "new_global_status": "major", 
+        "changetype": "multiple", 
+        "services": [
+            "wiki", 
+            "people", 
+            "zodbot", 
+            "koji", 
+            "darkserver", 
+            "tagger", 
+            "pkgdb", 
+            "fedorahosted", 
+            "mirrormanager", 
+            "smolt", 
+            "mirrorlist", 
+            "pkgs", 
+            "fas", 
+            "website", 
+            "docs", 
+            "smolt-wiki", 
+            "bodhi", 
+            "ask", 
+            "packages", 
+            "freemedia", 
+            "fedmsg", 
+            "elections", 
+            "mailinglists"
+        ], 
+        "message": "dns outage/sporadic", 
+        "changedate": 1359051455.292929
+    }, 
+    {
         "status": "good", 
         "new_global_status": "good", 
         "service": "packages", 
