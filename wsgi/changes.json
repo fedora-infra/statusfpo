@@ -1,5 +1,13 @@
 [
     {
+        "status": "major", 
+        "new_global_status": "major", 
+        "service": "mailinglists", 
+        "changetype": "single", 
+        "message": "storage issue", 
+        "changedate": 1359150889.724279
+    }, 
+    {
         "status": "good", 
         "new_global_status": "good", 
         "changetype": "multiple", 
