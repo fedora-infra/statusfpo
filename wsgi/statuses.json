@@ -62,9 +62,9 @@
             "url": "http://koji.fedoraproject.org/koji/"
         }, 
         "mailinglists": {
-            "message": "storage issue", 
+            "message": "Everything seems to be working.", 
             "name": "Mailing Lists", 
-            "status": "major", 
+            "status": "good", 
             "url": "http://lists.fedoraproject.org/"
         }, 
         "mirrorlist": {
