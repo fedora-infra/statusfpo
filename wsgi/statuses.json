@@ -104,18 +104,6 @@
             "status": "scheduled", 
             "url": "http://pkgs.fedoraproject.org/"
         }, 
-        "smolt": {
-            "message": "Everything seems to be working.", 
-            "name": "Smolt", 
-            "status": "good", 
-            "url": "http://www.smolts.org/"
-        }, 
-        "smolt-wiki": {
-            "message": "Everything seems to be working.", 
-            "name": "Smolt Wiki", 
-            "status": "good", 
-            "url": "http://smolts.org/smolt-wiki/Main_Page"
-        }, 
         "tagger": {
             "message": "Everything seems to be working.", 
             "name": "Tagger", 
