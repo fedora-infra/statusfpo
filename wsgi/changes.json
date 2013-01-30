@@ -1,9 +1,25 @@
 [
     {
+        "status": "good", 
+        "new_global_status": "good", 
+        "changetype": "multiple", 
+        "services": [
+            "pkgs", 
+            "bodhi", 
+            "koji"
+        ], 
+        "message": "Everything seems to be working.", 
+        "changedate": 1359589735.114083
+    }, 
+    {
         "status": "scheduled", 
         "new_global_status": "scheduled", 
-        "services": ["pkgs", "koji", "bodhi"], 
         "changetype": "single", 
+        "services": [
+            "pkgs", 
+            "koji", 
+            "bodhi"
+        ], 
         "message": "Scheduled downtime", 
         "changedate": 1359583778.90607
     }, 

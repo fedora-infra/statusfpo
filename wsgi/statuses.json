@@ -1,5 +1,5 @@
 {
-    "global_info": "Scheduled downtime. For info, see &nbsp;<a href=\"https://fedorahosted.org/fedora-infrastructure/ticket/3636\">this ticket</a>", 
+    "global_info": "", 
     "services": {
         "ask": {
             "message": "Everything seems to be working.", 
@@ -8,9 +8,9 @@
             "url": "http://ask.fedoraproject.org/"
         }, 
         "bodhi": {
-            "message": "Scheduled downtime", 
+            "message": "Everything seems to be working.", 
             "name": "Package Updates Manager", 
-            "status": "scheduled", 
+            "status": "good", 
             "url": "https://admin.fedoraproject.org/updates/"
         }, 
         "darkserver": {
@@ -56,9 +56,9 @@
             "url": "http://fedoraproject.org/wiki/FreeMedia"
         }, 
         "koji": {
-            "message": "Scheduled downtime", 
+            "message": "Everything seems to be working.", 
             "name": "The Koji Buildsystem", 
-            "status": "scheduled", 
+            "status": "good", 
             "url": "http://koji.fedoraproject.org/koji/"
         }, 
         "mailinglists": {
@@ -99,9 +99,9 @@
         }, 
         "pkgs": {
             "mailinglists": "Fedora mailing lists", 
-            "message": "Scheduled downtime", 
+            "message": "Everything seems to be working.", 
             "name": "Package maintainers git repositories", 
-            "status": "scheduled", 
+            "status": "good", 
             "url": "http://pkgs.fedoraproject.org/"
         }, 
         "tagger": {
