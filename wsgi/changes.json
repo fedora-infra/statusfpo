@@ -2,6 +2,46 @@
     {
         "status": "scheduled", 
         "new_global_status": "scheduled", 
+        "services": ["pkgs", "koji", "bodhi"], 
+        "changetype": "single", 
+        "message": "Scheduled downtime", 
+        "changedate": 1359583778.90607
+    }, 
+    {
+        "status": "good", 
+        "new_global_status": "good", 
+        "changetype": "multiple", 
+        "services": [
+            "wiki", 
+            "people", 
+            "zodbot", 
+            "koji", 
+            "darkserver", 
+            "tagger", 
+            "pkgdb", 
+            "fedorahosted", 
+            "mirrormanager", 
+            "smolt", 
+            "mirrorlist", 
+            "pkgs", 
+            "fas", 
+            "website", 
+            "docs", 
+            "smolt-wiki", 
+            "bodhi", 
+            "ask", 
+            "packages", 
+            "freemedia", 
+            "fedmsg", 
+            "elections", 
+            "mailinglists"
+        ], 
+        "message": "Everything seems to be working.", 
+        "changedate": 1359583737.153793
+    }, 
+    {
+        "status": "scheduled", 
+        "new_global_status": "scheduled", 
         "changetype": "multiple", 
         "services": [
             "wiki", 
