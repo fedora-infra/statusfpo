@@ -14,7 +14,7 @@
     {
         "status": "scheduled", 
         "new_global_status": "scheduled", 
-        "changetype": "single", 
+        "changetype": "multiple", 
         "services": [
             "pkgs", 
             "koji", 
