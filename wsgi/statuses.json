@@ -74,9 +74,9 @@
             "url": "http://mirrors.fedoraproject.org/publiclist/"
         }, 
         "mirrormanager": {
-            "message": "Everything seems to be working.", 
+            "message": "outage in progress", 
             "name": "Mirror Manager", 
-            "status": "good", 
+            "status": "major", 
             "url": "http://mirrors.fedoraproject.org/"
         }, 
         "packages": {

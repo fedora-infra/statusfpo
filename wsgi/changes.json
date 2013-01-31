@@ -1,5 +1,13 @@
 [
     {
+        "status": "major", 
+        "new_global_status": "major", 
+        "service": "mirrormanager", 
+        "changetype": "single", 
+        "message": "outage in progress", 
+        "changedate": 1359594757.667461
+    }, 
+    {
         "status": "good", 
         "new_global_status": "good", 
         "changetype": "multiple", 
