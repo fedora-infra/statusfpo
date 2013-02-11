@@ -1,5 +1,13 @@
 [
     {
+        "status": "minor", 
+        "new_global_status": "minor", 
+        "service": "zodbot", 
+        "changetype": "single", 
+        "message": "Fedora plugin not working, we are looking into it", 
+        "changedate": 1360592827.787175
+    }, 
+    {
         "status": "good", 
         "new_global_status": "good", 
         "service": "fedorahosted", 

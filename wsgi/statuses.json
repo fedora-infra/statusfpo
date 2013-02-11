@@ -123,9 +123,9 @@
             "url": "https://fedoraproject.org/wiki/Fedora_Project_Wiki"
         }, 
         "zodbot": {
-            "message": "Everything seems to be working.", 
+            "message": "Fedora plugin not working, we are looking into it", 
             "name": "Zodbot IRC bot", 
-            "status": "good", 
+            "status": "minor", 
             "url": "https://fedoraproject.org/wiki/Zodbot"
         }
     }
