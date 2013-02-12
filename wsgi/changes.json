@@ -2,6 +2,14 @@
     {
         "status": "major", 
         "new_global_status": "major", 
+        "service": "mailinglists", 
+        "changetype": "single", 
+        "message": "network outage in progress", 
+        "changedate": 1360649432.646872
+    }, 
+    {
+        "status": "major", 
+        "new_global_status": "major", 
         "service": "fedorahosted", 
         "changetype": "single", 
         "message": "network outage in progress", 
