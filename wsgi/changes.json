@@ -1,5 +1,16 @@
 [
     {
+        "status": "good", 
+        "new_global_status": "good", 
+        "changetype": "multiple", 
+        "services": [
+            "mailinglists", 
+            "fedorahosted"
+        ], 
+        "message": "Everything seems to be working.", 
+        "changedate": 1360662010.815803
+    }, 
+    {
         "status": "major", 
         "new_global_status": "major", 
         "service": "mailinglists", 

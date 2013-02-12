@@ -44,9 +44,9 @@
             "url": "https://admin.fedoraproject.org/pkgdb/acls/name/fedmsg"
         }, 
         "fedorahosted": {
-            "message": "network outage in progress", 
+            "message": "Everything seems to be working.", 
             "name": "FedoraHosted.org Services", 
-            "status": "major", 
+            "status": "good", 
             "url": "https://fedorahosted.org/web/"
         }, 
         "freemedia": {
@@ -62,9 +62,9 @@
             "url": "http://koji.fedoraproject.org/koji/"
         }, 
         "mailinglists": {
-            "message": "network outage in progress", 
+            "message": "Everything seems to be working.", 
             "name": "Mailing Lists", 
-            "status": "major", 
+            "status": "good", 
             "url": "http://lists.fedoraproject.org/"
         }, 
         "mirrorlist": {
