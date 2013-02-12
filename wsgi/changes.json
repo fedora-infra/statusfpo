@@ -1,5 +1,13 @@
 [
     {
+        "status": "major", 
+        "new_global_status": "major", 
+        "service": "fedorahosted", 
+        "changetype": "single", 
+        "message": "network outage in progress", 
+        "changedate": 1360649394.666191
+    }, 
+    {
         "status": "good", 
         "new_global_status": "good", 
         "service": "zodbot", 
