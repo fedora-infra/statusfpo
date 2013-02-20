@@ -1,5 +1,13 @@
 [
     {
+        "status": "major", 
+        "new_global_status": "major", 
+        "service": "mirrorlist", 
+        "changetype": "single", 
+        "message": "outage in progress", 
+        "changedate": 1361396690.246318
+    }, 
+    {
         "status": "good", 
         "new_global_status": "good", 
         "service": "fedorahosted", 
