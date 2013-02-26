@@ -2,6 +2,22 @@
     {
         "status": "major", 
         "new_global_status": "major", 
+        "service": "pkgdb", 
+        "changetype": "single", 
+        "message": "We're investigating an outage affecting this service.", 
+        "changedate": 1361908929.345981
+    }, 
+    {
+        "status": "major", 
+        "new_global_status": "major", 
+        "service": "elections", 
+        "changetype": "single", 
+        "message": "We're investigating an outage affecting this service.", 
+        "changedate": 1361908923.197585
+    }, 
+    {
+        "status": "major", 
+        "new_global_status": "major", 
         "service": "elections", 
         "changetype": "single", 
         "message": "We're investing an outage affecting this service.", 

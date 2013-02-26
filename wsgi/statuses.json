@@ -26,7 +26,7 @@
             "url": "http://docs.fedoraproject.org/"
         }, 
         "elections": {
-            "message": "We're investing an outage affecting this service.", 
+            "message": "We're investigating an outage affecting this service.", 
             "name": "Fedora elections", 
             "status": "major", 
             "url": "https://admin.fedoraproject.org/voting/"
@@ -92,7 +92,7 @@
             "url": "https://fedorapeople.org/"
         }, 
         "pkgdb": {
-            "message": "We're investing an outage affecting this service.", 
+            "message": "We're investigating an outage affecting this service.", 
             "name": "Package Database", 
             "status": "major", 
             "url": "https://admin.fedoraproject.org/pkgdb/"
