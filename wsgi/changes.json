@@ -2,6 +2,14 @@
     {
         "status": "major", 
         "new_global_status": "major", 
+        "service": "freemedia", 
+        "changetype": "single", 
+        "message": "We're investigating an outage affecting this service.", 
+        "changedate": 1361909353.415043
+    }, 
+    {
+        "status": "major", 
+        "new_global_status": "major", 
         "service": "pkgdb", 
         "changetype": "single", 
         "message": "We're investigating an outage affecting this service.", 

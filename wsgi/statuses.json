@@ -50,9 +50,9 @@
             "url": "https://fedorahosted.org/web/"
         }, 
         "freemedia": {
-            "message": "Everything seems to be working.", 
+            "message": "We're investigating an outage affecting this service.", 
             "name": "FreeMedia", 
-            "status": "good", 
+            "status": "major", 
             "url": "http://fedoraproject.org/wiki/FreeMedia"
         }, 
         "koji": {
