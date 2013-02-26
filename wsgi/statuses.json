@@ -26,9 +26,9 @@
             "url": "http://docs.fedoraproject.org/"
         }, 
         "elections": {
-            "message": "Everything seems to be working.", 
+            "message": "We're investing an outage affecting this service.", 
             "name": "Fedora elections", 
-            "status": "good", 
+            "status": "major", 
             "url": "https://admin.fedoraproject.org/voting/"
         }, 
         "fas": {
