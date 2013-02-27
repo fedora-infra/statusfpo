@@ -2,6 +2,22 @@
     {
         "status": "scheduled", 
         "new_global_status": "scheduled", 
+        "service": "mirrorlist", 
+        "changetype": "single", 
+        "message": "Planned outage", 
+        "changedate": 1362002288.963735
+    }, 
+    {
+        "status": "scheduled", 
+        "new_global_status": "scheduled", 
+        "service": "freemedia", 
+        "changetype": "single", 
+        "message": "Planned outage", 
+        "changedate": 1362002267.352363
+    }, 
+    {
+        "status": "scheduled", 
+        "new_global_status": "scheduled", 
         "service": "wiki", 
         "changetype": "single", 
         "message": "Planned outage", 

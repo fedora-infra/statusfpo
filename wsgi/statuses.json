@@ -50,9 +50,9 @@
             "url": "https://fedorahosted.org/web/"
         }, 
         "freemedia": {
-            "message": "Everything seems to be working.", 
+            "message": "Planned outage", 
             "name": "FreeMedia", 
-            "status": "good", 
+            "status": "scheduled", 
             "url": "http://fedoraproject.org/wiki/FreeMedia"
         }, 
         "koji": {
@@ -68,9 +68,9 @@
             "url": "http://lists.fedoraproject.org/"
         }, 
         "mirrorlist": {
-            "message": "Everything seems to be working.", 
+            "message": "Planned outage", 
             "name": "Mirror List", 
-            "status": "good", 
+            "status": "scheduled", 
             "url": "http://mirrors.fedoraproject.org/publiclist/"
         }, 
         "mirrormanager": {
