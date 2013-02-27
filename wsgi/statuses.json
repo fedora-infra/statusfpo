@@ -2,15 +2,15 @@
     "global_info": "", 
     "services": {
         "ask": {
-            "message": "Everything seems to be working.", 
+            "message": "Planned outage", 
             "name": "Ask Fedora", 
-            "status": "good", 
+            "status": "major", 
             "url": "http://ask.fedoraproject.org/"
         }, 
         "bodhi": {
-            "message": "Everything seems to be working.", 
+            "message": "Planned outage", 
             "name": "Package Updates Manager", 
-            "status": "good", 
+            "status": "major", 
             "url": "https://admin.fedoraproject.org/updates/"
         }, 
         "darkserver": {
@@ -32,9 +32,9 @@
             "url": "https://admin.fedoraproject.org/voting/"
         }, 
         "fas": {
-            "message": "Everything seems to be working.", 
+            "message": "Planned outage", 
             "name": "Account System", 
-            "status": "good", 
+            "status": "major", 
             "url": "https://admin.fedoraproject.org/accounts/"
         }, 
         "fedmsg": {
@@ -44,9 +44,9 @@
             "url": "https://admin.fedoraproject.org/pkgdb/acls/name/fedmsg"
         }, 
         "fedorahosted": {
-            "message": "Everything seems to be working.", 
+            "message": "Planned outage", 
             "name": "FedoraHosted.org Services", 
-            "status": "good", 
+            "status": "major", 
             "url": "https://fedorahosted.org/web/"
         }, 
         "freemedia": {
@@ -56,9 +56,9 @@
             "url": "http://fedoraproject.org/wiki/FreeMedia"
         }, 
         "koji": {
-            "message": "Everything seems to be working.", 
+            "message": "Planned outage", 
             "name": "The Koji Buildsystem", 
-            "status": "good", 
+            "status": "major", 
             "url": "http://koji.fedoraproject.org/koji/"
         }, 
         "mailinglists": {
@@ -74,9 +74,9 @@
             "url": "http://mirrors.fedoraproject.org/publiclist/"
         }, 
         "mirrormanager": {
-            "message": "Everything seems to be working.", 
+            "message": "Planned outage", 
             "name": "Mirror Manager", 
-            "status": "good", 
+            "status": "major", 
             "url": "http://mirrors.fedoraproject.org/"
         }, 
         "packages": {
@@ -86,22 +86,22 @@
             "url": "https://apps.fedoraproject.org/packages"
         }, 
         "people": {
-            "message": "Everything seems to be working.", 
+            "message": "Planned outage", 
             "name": "Fedora People", 
-            "status": "good", 
+            "status": "major", 
             "url": "https://fedorapeople.org/"
         }, 
         "pkgdb": {
-            "message": "Everything seems to be working.", 
+            "message": "Planned outage", 
             "name": "Package Database", 
-            "status": "good", 
+            "status": "major", 
             "url": "https://admin.fedoraproject.org/pkgdb/"
         }, 
         "pkgs": {
             "mailinglists": "Fedora mailing lists", 
-            "message": "Everything seems to be working.", 
+            "message": "Planned outage", 
             "name": "Package maintainers git repositories", 
-            "status": "good", 
+            "status": "major", 
             "url": "http://pkgs.fedoraproject.org/"
         }, 
         "tagger": {
@@ -111,15 +111,15 @@
             "url": "https://apps.fedoraproject.org/tagger/"
         }, 
         "website": {
-            "message": "Everything seems to be working.", 
+            "message": "Planned outage", 
             "name": "Fedora websites", 
-            "status": "good", 
+            "status": "major", 
             "url": "http://fedoraproject.org/"
         }, 
         "wiki": {
-            "message": "Everything seems to be working.", 
+            "message": "Planned outage", 
             "name": "Fedora Wiki", 
-            "status": "good", 
+            "status": "major", 
             "url": "https://fedoraproject.org/wiki/Fedora_Project_Wiki"
         }, 
         "zodbot": {
