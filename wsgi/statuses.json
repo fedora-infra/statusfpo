@@ -4,13 +4,13 @@
         "ask": {
             "message": "Planned outage", 
             "name": "Ask Fedora", 
-            "status": "major", 
+            "status": "scheduled", 
             "url": "http://ask.fedoraproject.org/"
         }, 
         "bodhi": {
             "message": "Planned outage", 
             "name": "Package Updates Manager", 
-            "status": "major", 
+            "status": "scheduled", 
             "url": "https://admin.fedoraproject.org/updates/"
         }, 
         "darkserver": {
@@ -34,7 +34,7 @@
         "fas": {
             "message": "Planned outage", 
             "name": "Account System", 
-            "status": "major", 
+            "status": "scheduled", 
             "url": "https://admin.fedoraproject.org/accounts/"
         }, 
         "fedmsg": {
@@ -46,7 +46,7 @@
         "fedorahosted": {
             "message": "Planned outage", 
             "name": "FedoraHosted.org Services", 
-            "status": "major", 
+            "status": "scheduled", 
             "url": "https://fedorahosted.org/web/"
         }, 
         "freemedia": {
@@ -58,7 +58,7 @@
         "koji": {
             "message": "Planned outage", 
             "name": "The Koji Buildsystem", 
-            "status": "major", 
+            "status": "scheduled", 
             "url": "http://koji.fedoraproject.org/koji/"
         }, 
         "mailinglists": {
@@ -76,7 +76,7 @@
         "mirrormanager": {
             "message": "Planned outage", 
             "name": "Mirror Manager", 
-            "status": "major", 
+            "status": "scheduled", 
             "url": "http://mirrors.fedoraproject.org/"
         }, 
         "packages": {
@@ -88,20 +88,20 @@
         "people": {
             "message": "Planned outage", 
             "name": "Fedora People", 
-            "status": "major", 
+            "status": "scheduled", 
             "url": "https://fedorapeople.org/"
         }, 
         "pkgdb": {
             "message": "Planned outage", 
             "name": "Package Database", 
-            "status": "major", 
+            "status": "scheduled", 
             "url": "https://admin.fedoraproject.org/pkgdb/"
         }, 
         "pkgs": {
             "mailinglists": "Fedora mailing lists", 
             "message": "Planned outage", 
             "name": "Package maintainers git repositories", 
-            "status": "major", 
+            "status": "scheduled", 
             "url": "http://pkgs.fedoraproject.org/"
         }, 
         "tagger": {
@@ -113,13 +113,13 @@
         "website": {
             "message": "Planned outage", 
             "name": "Fedora websites", 
-            "status": "major", 
+            "status": "scheduled", 
             "url": "http://fedoraproject.org/"
         }, 
         "wiki": {
             "message": "Planned outage", 
             "name": "Fedora Wiki", 
-            "status": "major", 
+            "status": "scheduled", 
             "url": "https://fedoraproject.org/wiki/Fedora_Project_Wiki"
         }, 
         "zodbot": {

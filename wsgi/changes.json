@@ -1,87 +1,87 @@
 [
     {
-        "status": "major", 
-        "new_global_status": "major", 
+        "status": "scheduled", 
+        "new_global_status": "scheduled", 
         "service": "wiki", 
         "changetype": "single", 
         "message": "Planned outage", 
         "changedate": 1362001276.111334
     }, 
     {
-        "status": "major", 
-        "new_global_status": "major", 
+        "status": "scheduled", 
+        "new_global_status": "scheduled", 
         "service": "pkgdb", 
         "changetype": "single", 
         "message": "Planned outage", 
         "changedate": 1362001260.406408
     }, 
     {
-        "status": "major", 
-        "new_global_status": "major", 
+        "status": "scheduled", 
+        "new_global_status": "scheduled", 
         "service": "mirrormanager", 
         "changetype": "single", 
         "message": "Planned outage", 
         "changedate": 1362001245.88797
     }, 
     {
-        "status": "major", 
-        "new_global_status": "major", 
+        "status": "scheduled", 
+        "new_global_status": "scheduled", 
         "service": "website", 
         "changetype": "single", 
         "message": "Planned outage", 
         "changedate": 1362001230.083599
     }, 
     {
-        "status": "major", 
-        "new_global_status": "major", 
+        "status": "scheduled", 
+        "new_global_status": "scheduled", 
         "service": "people", 
         "changetype": "single", 
         "message": "Planned outage", 
         "changedate": 1362001214.018912
     }, 
     {
-        "status": "major", 
-        "new_global_status": "major", 
+        "status": "scheduled", 
+        "new_global_status": "scheduled", 
         "service": "fedorahosted", 
         "changetype": "single", 
         "message": "Planned outage", 
         "changedate": 1362001200.589752
     }, 
     {
-        "status": "major", 
-        "new_global_status": "major", 
+        "status": "scheduled", 
+        "new_global_status": "scheduled", 
         "service": "fas", 
         "changetype": "single", 
         "message": "Planned outage", 
         "changedate": 1362001176.748647
     }, 
     {
-        "status": "major", 
-        "new_global_status": "major", 
+        "status": "scheduled", 
+        "new_global_status": "scheduled", 
         "service": "pkgs", 
         "changetype": "single", 
         "message": "Planned outage", 
         "changedate": 1362001153.63576
     }, 
     {
-        "status": "major", 
-        "new_global_status": "major", 
+        "status": "scheduled", 
+        "new_global_status": "scheduled", 
         "service": "koji", 
         "changetype": "single", 
         "message": "Planned outage", 
         "changedate": 1362001146.283427
     }, 
     {
-        "status": "major", 
-        "new_global_status": "major", 
+        "status": "scheduled", 
+        "new_global_status": "scheduled", 
         "service": "bodhi", 
         "changetype": "single", 
         "message": "Planned outage", 
         "changedate": 1362001110.736903
     }, 
     {
-        "status": "major", 
-        "new_global_status": "major", 
+        "status": "scheduled", 
+        "new_global_status": "scheduled", 
         "service": "ask", 
         "changetype": "single", 
         "message": "Planned outage", 
