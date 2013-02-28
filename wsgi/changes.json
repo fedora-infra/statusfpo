@@ -1,5 +1,27 @@
 [
     {
+        "status": "good", 
+        "new_global_status": "good", 
+        "changetype": "multiple", 
+        "services": [
+            "website", 
+            "wiki", 
+            "freemedia", 
+            "pkgs", 
+            "people", 
+            "mirrormanager", 
+            "bodhi", 
+            "koji", 
+            "mirrorlist", 
+            "fas", 
+            "ask", 
+            "fedorahosted", 
+            "pkgdb"
+        ], 
+        "message": "Everything seems to be working.", 
+        "changedate": 1362018548.296237
+    }, 
+    {
         "status": "scheduled", 
         "new_global_status": "scheduled", 
         "service": "mirrorlist", 
