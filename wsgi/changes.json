@@ -1,5 +1,13 @@
 [
     {
+        "status": "minor", 
+        "new_global_status": "minor", 
+        "service": "fedorahosted", 
+        "changetype": "single", 
+        "message": "Everything is up, but slow. In case of problems, contact #fedora-admin", 
+        "changedate": 1363645749.0883
+    }, 
+    {
         "status": "major", 
         "new_global_status": "major", 
         "service": "fedorahosted", 
