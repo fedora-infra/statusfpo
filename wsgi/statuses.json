@@ -44,9 +44,9 @@
             "url": "https://admin.fedoraproject.org/pkgdb/acls/name/fedmsg"
         }, 
         "fedorahosted": {
-            "message": "Problems seem to be solved", 
+            "message": "Everything seems to be working.", 
             "name": "FedoraHosted.org Services", 
-            "status": "minor", 
+            "status": "good", 
             "url": "https://fedorahosted.org/web/"
         }, 
         "freemedia": {
