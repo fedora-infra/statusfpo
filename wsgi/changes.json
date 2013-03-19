@@ -1,5 +1,13 @@
 [
     {
+        "status": "major", 
+        "new_global_status": "major", 
+        "service": "fedorahosted", 
+        "changetype": "single", 
+        "message": "Service down or slow, looking into it", 
+        "changedate": 1363693935.054059
+    }, 
+    {
         "status": "good", 
         "new_global_status": "good", 
         "service": "fedorahosted", 
