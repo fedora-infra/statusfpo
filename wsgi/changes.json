@@ -1,5 +1,13 @@
 [
     {
+        "status": "minor", 
+        "new_global_status": "minor", 
+        "service": "fedorahosted", 
+        "changetype": "single", 
+        "message": "Problems seem to be solved", 
+        "changedate": 1363695752.03326
+    }, 
+    {
         "status": "major", 
         "new_global_status": "major", 
         "service": "fedorahosted", 

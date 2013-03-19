@@ -44,9 +44,9 @@
             "url": "https://admin.fedoraproject.org/pkgdb/acls/name/fedmsg"
         }, 
         "fedorahosted": {
-            "message": "Service down or slow, looking into it", 
+            "message": "Problems seem to be solved", 
             "name": "FedoraHosted.org Services", 
-            "status": "major", 
+            "status": "minor", 
             "url": "https://fedorahosted.org/web/"
         }, 
         "freemedia": {
