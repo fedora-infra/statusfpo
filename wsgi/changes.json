@@ -1,5 +1,13 @@
 [
     {
+        "status": "scheduled", 
+        "new_global_status": "scheduled", 
+        "service": "fedorahosted", 
+        "changetype": "single", 
+        "message": "Currently in scheduled outage", 
+        "changedate": 1363985983.409561
+    }, 
+    {
         "status": "good", 
         "new_global_status": "good", 
         "service": "mirrorlist", 
