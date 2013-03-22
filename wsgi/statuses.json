@@ -44,9 +44,9 @@
             "url": "https://admin.fedoraproject.org/pkgdb/acls/name/fedmsg"
         }, 
         "fedorahosted": {
-            "message": "Currently in scheduled outage", 
+            "message": "Everything seems to be working.", 
             "name": "FedoraHosted.org Services", 
-            "status": "scheduled", 
+            "status": "good", 
             "url": "https://fedorahosted.org/web/"
         }, 
         "freemedia": {
