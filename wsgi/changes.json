@@ -1,5 +1,13 @@
 [
     {
+        "status": "minor", 
+        "new_global_status": "minor", 
+        "service": "mailinglists", 
+        "changetype": "single", 
+        "message": "processing backlog", 
+        "changedate": 1365186453.703369
+    }, 
+    {
         "status": "major", 
         "new_global_status": "major", 
         "service": "mailinglists", 

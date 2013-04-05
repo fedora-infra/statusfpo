@@ -62,9 +62,9 @@
             "url": "http://koji.fedoraproject.org/koji/"
         }, 
         "mailinglists": {
-            "message": "outage in progress", 
+            "message": "processing backlog", 
             "name": "Mailing Lists", 
-            "status": "major", 
+            "status": "minor", 
             "url": "http://lists.fedoraproject.org/"
         }, 
         "mirrorlist": {
