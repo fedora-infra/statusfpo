@@ -1,5 +1,13 @@
 [
     {
+        "status": "major", 
+        "new_global_status": "major", 
+        "service": "mailinglists", 
+        "changetype": "single", 
+        "message": "working on slowdowns", 
+        "changedate": 1366646115.412964
+    }, 
+    {
         "status": "good", 
         "new_global_status": "good", 
         "service": "mailinglists", 
