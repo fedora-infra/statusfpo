@@ -1,5 +1,13 @@
 [
     {
+        "status": "scheduled", 
+        "new_global_status": "scheduled", 
+        "service": "fedorahosted", 
+        "changetype": "single", 
+        "message": "migration outage", 
+        "changedate": 1367002829.157529
+    }, 
+    {
         "status": "good", 
         "new_global_status": "good", 
         "service": "mailinglists", 
