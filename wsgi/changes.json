@@ -1,5 +1,13 @@
 [
     {
+        "status": "good", 
+        "new_global_status": "good", 
+        "service": "fedorahosted", 
+        "changetype": "single", 
+        "message": "Everything seems to be working.", 
+        "changedate": 1367010463.023474
+    }, 
+    {
         "status": "scheduled", 
         "new_global_status": "scheduled", 
         "service": "fedorahosted", 
