@@ -7,6 +7,12 @@
             "status": "good", 
             "url": "http://ask.fedoraproject.org/"
         }, 
+        "blockerbugs": {
+            "message": "Everything seems to be working.", 
+            "name": "Blockerbugs", 
+            "status": "good", 
+            "url": "http://qa.fedoraproject.org/blockerbugs/"
+        }, 
         "bodhi": {
             "message": "Everything seems to be working.", 
             "name": "Package Updates Manager", 
@@ -43,11 +49,23 @@
             "status": "good", 
             "url": "https://admin.fedoraproject.org/pkgdb/acls/name/fedmsg"
         }, 
+        "fedocal": {
+            "message": "Everything seems to be working.", 
+            "name": "Fedora Calendar", 
+            "status": "good", 
+            "url": "https://apps.fedoraproject.org/fedocal/"
+        }, 
         "fedorahosted": {
             "message": "Everything seems to be working.", 
             "name": "FedoraHosted.org Services", 
             "status": "good", 
             "url": "https://fedorahosted.org/web/"
+        }, 
+        "fedorapaste": {
+            "message": "Everything seems to be working.", 
+            "name": "Fedora pastebin service", 
+            "status": "good", 
+            "url": "https://paste.fedorahosted.org/"
         }, 
         "freemedia": {
             "message": "Everything seems to be working.", 
