@@ -80,9 +80,9 @@
             "url": "http://koji.fedoraproject.org/koji/"
         }, 
         "mailinglists": {
-            "message": "Everything seems to be working.", 
+            "message": "Scheduled migration in progress", 
             "name": "Mailing Lists", 
-            "status": "good", 
+            "status": "scheduled", 
             "url": "http://lists.fedoraproject.org/"
         }, 
         "mirrorlist": {

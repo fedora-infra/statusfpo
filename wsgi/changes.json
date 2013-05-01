@@ -1,5 +1,13 @@
 [
     {
+        "status": "scheduled", 
+        "new_global_status": "scheduled", 
+        "service": "mailinglists", 
+        "changetype": "single", 
+        "message": "Scheduled migration in progress", 
+        "changedate": 1367442085.465389
+    }, 
+    {
         "status": "good", 
         "new_global_status": "good", 
         "service": "fedorahosted", 
