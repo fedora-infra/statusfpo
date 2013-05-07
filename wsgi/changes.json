@@ -1,5 +1,141 @@
 [
     {
+        "status": "scheduled", 
+        "new_global_status": "scheduled", 
+        "service": "tagger", 
+        "changetype": "single", 
+        "message": "Scheduled downtime", 
+        "changedate": 1367960378.817551
+    }, 
+    {
+        "status": "scheduled", 
+        "new_global_status": "scheduled", 
+        "service": "fedmsg", 
+        "changetype": "single", 
+        "message": "Scheduled downtime", 
+        "changedate": 1367960355.141363
+    }, 
+    {
+        "status": "scheduled", 
+        "new_global_status": "scheduled", 
+        "service": "fedorapaste", 
+        "changetype": "single", 
+        "message": "Scheduled downtime", 
+        "changedate": 1367960347.302787
+    }, 
+    {
+        "status": "scheduled", 
+        "new_global_status": "scheduled", 
+        "service": "koji", 
+        "changetype": "single", 
+        "message": "Scheduled downtime", 
+        "changedate": 1367960217.780481
+    }, 
+    {
+        "status": "scheduled", 
+        "new_global_status": "scheduled", 
+        "service": "fedocal", 
+        "changetype": "single", 
+        "message": "Scheduled downtime", 
+        "changedate": 1367960134.811373
+    }, 
+    {
+        "status": "scheduled", 
+        "new_global_status": "scheduled", 
+        "service": "fedorahosted", 
+        "changetype": "single", 
+        "message": "Scheduled downtime", 
+        "changedate": 1367960130.004594
+    }, 
+    {
+        "status": "scheduled", 
+        "new_global_status": "scheduled", 
+        "service": "wiki", 
+        "changetype": "single", 
+        "message": "Scheduled downtime", 
+        "changedate": 1367960012.958374
+    }, 
+    {
+        "status": "scheduled", 
+        "new_global_status": "scheduled", 
+        "service": "pkgdb", 
+        "changetype": "single", 
+        "message": "Scheduled downtime", 
+        "changedate": 1367959993.917179
+    }, 
+    {
+        "status": "scheduled", 
+        "new_global_status": "scheduled", 
+        "service": "mirrorlist", 
+        "changetype": "single", 
+        "message": "Scheduled downtime", 
+        "changedate": 1367959985.894214
+    }, 
+    {
+        "status": "scheduled", 
+        "new_global_status": "scheduled", 
+        "service": "mirrormanager", 
+        "changetype": "single", 
+        "message": "Scheduled downtime", 
+        "changedate": 1367959981.402128
+    }, 
+    {
+        "status": "scheduled", 
+        "new_global_status": "scheduled", 
+        "service": "people", 
+        "changetype": "single", 
+        "message": "Scheduled downtime", 
+        "changedate": 1367959969.834415
+    }, 
+    {
+        "status": "scheduled", 
+        "new_global_status": "scheduled", 
+        "service": "fas", 
+        "changetype": "single", 
+        "message": "Scheduled downtime", 
+        "changedate": 1367959962.21943
+    }, 
+    {
+        "status": "scheduled", 
+        "new_global_status": "scheduled", 
+        "service": "docs", 
+        "changetype": "single", 
+        "message": "Scheduled downtime", 
+        "changedate": 1367959943.328869
+    }, 
+    {
+        "status": "scheduled", 
+        "new_global_status": "scheduled", 
+        "service": "pkgs", 
+        "changetype": "single", 
+        "message": "Scheduled downtime", 
+        "changedate": 1367959927.988485
+    }, 
+    {
+        "status": "scheduled", 
+        "new_global_status": "scheduled", 
+        "service": "blockerbugs", 
+        "changetype": "single", 
+        "message": "Scheduled downtime", 
+        "changedate": 1367959919.231615
+    }, 
+    {
+        "status": "scheduled", 
+        "new_global_status": "scheduled", 
+        "service": "bodhi", 
+        "changetype": "single", 
+        "message": "Scheduled downtime", 
+        "changedate": 1367959902.783063
+    }, 
+    {
+        "status": "scheduled", 
+        "new_global_status": "scheduled", 
+        "service": "ask", 
+        "changetype": "single", 
+        "message": "Scheduled downtime", 
+        "changedate": 1367959859.292157
+    }, 
+    {
         "status": "good", 
         "new_global_status": "good", 
         "service": "mailinglists", 
