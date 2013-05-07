@@ -1,5 +1,31 @@
 [
     {
+        "status": "good", 
+        "new_global_status": "good", 
+        "changetype": "multiple", 
+        "services": [
+            "wiki", 
+            "people", 
+            "koji", 
+            "tagger", 
+            "pkgdb", 
+            "fedorapaste", 
+            "blockerbugs", 
+            "fedorahosted", 
+            "mirrormanager", 
+            "mirrorlist", 
+            "pkgs", 
+            "fas", 
+            "docs", 
+            "bodhi", 
+            "ask", 
+            "fedmsg", 
+            "fedocal"
+        ], 
+        "message": "Everything seems to be working.", 
+        "changedate": 1367968244.280666
+    }, 
+    {
         "status": "scheduled", 
         "new_global_status": "scheduled", 
         "service": "tagger", 

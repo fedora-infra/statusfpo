@@ -2,21 +2,21 @@
     "global_info": "", 
     "services": {
         "ask": {
-            "message": "Scheduled downtime", 
+            "message": "Everything seems to be working.", 
             "name": "Ask Fedora", 
-            "status": "scheduled", 
+            "status": "good", 
             "url": "http://ask.fedoraproject.org/"
         }, 
         "blockerbugs": {
-            "message": "Scheduled downtime", 
+            "message": "Everything seems to be working.", 
             "name": "Blockerbugs", 
-            "status": "scheduled", 
+            "status": "good", 
             "url": "http://qa.fedoraproject.org/blockerbugs/"
         }, 
         "bodhi": {
-            "message": "Scheduled downtime", 
+            "message": "Everything seems to be working.", 
             "name": "Package Updates Manager", 
-            "status": "scheduled", 
+            "status": "good", 
             "url": "https://admin.fedoraproject.org/updates/"
         }, 
         "darkserver": {
@@ -26,9 +26,9 @@
             "url": "https://fedoraproject.org/wiki/Darkserver"
         }, 
         "docs": {
-            "message": "Scheduled downtime", 
+            "message": "Everything seems to be working.", 
             "name": "Documentation website", 
-            "status": "scheduled", 
+            "status": "good", 
             "url": "http://docs.fedoraproject.org/"
         }, 
         "elections": {
@@ -38,33 +38,33 @@
             "url": "https://admin.fedoraproject.org/voting/"
         }, 
         "fas": {
-            "message": "Scheduled downtime", 
+            "message": "Everything seems to be working.", 
             "name": "Account System", 
-            "status": "scheduled", 
+            "status": "good", 
             "url": "https://admin.fedoraproject.org/accounts/"
         }, 
         "fedmsg": {
-            "message": "Scheduled downtime", 
+            "message": "Everything seems to be working.", 
             "name": "Fedora Messaging Bus", 
-            "status": "scheduled", 
+            "status": "good", 
             "url": "https://admin.fedoraproject.org/pkgdb/acls/name/fedmsg"
         }, 
         "fedocal": {
-            "message": "Scheduled downtime", 
+            "message": "Everything seems to be working.", 
             "name": "Fedora Calendar", 
-            "status": "scheduled", 
+            "status": "good", 
             "url": "https://apps.fedoraproject.org/fedocal/"
         }, 
         "fedorahosted": {
-            "message": "Scheduled downtime", 
+            "message": "Everything seems to be working.", 
             "name": "FedoraHosted.org Services", 
-            "status": "scheduled", 
+            "status": "good", 
             "url": "https://fedorahosted.org/web/"
         }, 
         "fedorapaste": {
-            "message": "Scheduled downtime", 
+            "message": "Everything seems to be working.", 
             "name": "Fedora pastebin service", 
-            "status": "scheduled", 
+            "status": "good", 
             "url": "https://paste.fedorahosted.org/"
         }, 
         "freemedia": {
@@ -74,9 +74,9 @@
             "url": "http://fedoraproject.org/wiki/FreeMedia"
         }, 
         "koji": {
-            "message": "Scheduled downtime", 
+            "message": "Everything seems to be working.", 
             "name": "The Koji Buildsystem", 
-            "status": "scheduled", 
+            "status": "good", 
             "url": "http://koji.fedoraproject.org/koji/"
         }, 
         "mailinglists": {
@@ -86,15 +86,15 @@
             "url": "http://lists.fedoraproject.org/"
         }, 
         "mirrorlist": {
-            "message": "Scheduled downtime", 
+            "message": "Everything seems to be working.", 
             "name": "Mirror List", 
-            "status": "scheduled", 
+            "status": "good", 
             "url": "http://mirrors.fedoraproject.org/publiclist/"
         }, 
         "mirrormanager": {
-            "message": "Scheduled downtime", 
+            "message": "Everything seems to be working.", 
             "name": "Mirror Manager", 
-            "status": "scheduled", 
+            "status": "good", 
             "url": "http://mirrors.fedoraproject.org/"
         }, 
         "packages": {
@@ -104,28 +104,28 @@
             "url": "https://apps.fedoraproject.org/packages"
         }, 
         "people": {
-            "message": "Scheduled downtime", 
+            "message": "Everything seems to be working.", 
             "name": "Fedora People", 
-            "status": "scheduled", 
+            "status": "good", 
             "url": "https://fedorapeople.org/"
         }, 
         "pkgdb": {
-            "message": "Scheduled downtime", 
+            "message": "Everything seems to be working.", 
             "name": "Package Database", 
-            "status": "scheduled", 
+            "status": "good", 
             "url": "https://admin.fedoraproject.org/pkgdb/"
         }, 
         "pkgs": {
             "mailinglists": "Fedora mailing lists", 
-            "message": "Scheduled downtime", 
+            "message": "Everything seems to be working.", 
             "name": "Package maintainers git repositories", 
-            "status": "scheduled", 
+            "status": "good", 
             "url": "http://pkgs.fedoraproject.org/"
         }, 
         "tagger": {
-            "message": "Scheduled downtime", 
+            "message": "Everything seems to be working.", 
             "name": "Tagger", 
-            "status": "scheduled", 
+            "status": "good", 
             "url": "https://apps.fedoraproject.org/tagger/"
         }, 
         "website": {
@@ -135,9 +135,9 @@
             "url": "http://fedoraproject.org/"
         }, 
         "wiki": {
-            "message": "Scheduled downtime", 
+            "message": "Everything seems to be working.", 
             "name": "Fedora Wiki", 
-            "status": "scheduled", 
+            "status": "good", 
             "url": "https://fedoraproject.org/wiki/Fedora_Project_Wiki"
         }, 
         "zodbot": {
