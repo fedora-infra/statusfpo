@@ -117,7 +117,11 @@ body {
 
 #header .navbar li {
     display: inline;
-    margin-left: 15px;
+}
+
+#header .navbar li + li:before {
+    content: " | ";
+    padding: 0 10px;
 }
 
 #header .navbar li a {
