@@ -24,24 +24,7 @@ import argparse
 import sys
 import subprocess
 
-def getGlobalStatus(statuses):
-    global_status = 0    # 0 = ok, 1 = scheduled, 2 = minor, 3 = major
-    for service in statuses.keys():
-        status = statuses[service]['status']
-        if status == 'scheduled' and global_status < 1:
-            global_status = 1
-        elif status == 'minor' and global_status < 2:
-            global_status = 2
-        elif status == 'major' and global_status < 3:
-            global_status = 3
-    if global_status == 0:
-        return 'good'
-    elif global_status == 1:
-        return 'scheduled'
-    elif global_status == 2:
-        return 'minor'
-    else:
-        return 'major'
+from util_functions import *
 
 if __name__ == '__main__':
     parser = argparse.ArgumentParser(description='Manage the status on status.fedoraproject.org')

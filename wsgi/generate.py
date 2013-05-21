@@ -25,15 +25,7 @@ import json
 import datetime
 from jinja2 import Environment, FileSystemLoader
 
-def getVerboseStatus(global_status):
-    if global_status == "good":
-        return "All systems go"
-    elif global_status == "scheduled":
-        return "There are scheduled downtimes in progress"
-    elif global_status == "minor":
-        return "Minor service disruption"
-    elif global_status == "major":
-        return "Major service disruption"
+from util_functions import *
 
 def getInfo(filename):
     f = open(filename, 'r')
@@ -81,25 +73,6 @@ def getFailedServices(statuses):
             toReturn.append(statuses[service]['name'] + ' (' + statuses[service]['status'] + ')')
     return ', '.join(toReturn)
 
-def getGlobalStatus(statuses):
-    global_status = 0    # 0 = ok, 1 = scheduled, 2 = minor, 3 = major
-    for service in statuses.keys():
-        status = statuses[service]['status']
-        if status == 'scheduled' and global_status < 1:
-            global_status = 1
-        elif status == 'minor' and global_status < 2:
-            global_status = 2
-        elif status == 'major' and global_status < 3:
-            global_status = 3
-    if global_status == 0:
-        return 'good'
-    elif global_status == 1:
-        return 'scheduled'
-    elif global_status == 2:
-        return 'minor'
-    else:
-        return 'major'
-
 def generateHtml():
     return generateHtmlPage(getInfo('statuses.json'))
 
@@ -128,6 +101,14 @@ if __name__ == '__main__':
     parser.add_argument('type', help='The type of page to generate, either html, mobile or rss')
     parser.add_argument('--no-minify', action='store_true', help='Disable the minification, to ease debugging')
     args = parser.parse_args()
+
+    the_json = getInfo('statuses.json')
+    the_json['global_verbose_status'] = getVerboseStatus(getGlobalStatus(the_json['services']))
+    the_json['global_status'] = getGlobalStatus(the_json['services'])
+
+    f = open('statuses.json', 'w')
+    f.write(json.dumps(the_json, sort_keys=True, indent = 4))
+    f.close()
 
     if args.type == 'html':
         print(minify(generateHtml(), args.no_minify))
