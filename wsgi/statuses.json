@@ -2,9 +2,9 @@
     "global_info": "", 
     "services": {
         "ask": {
-            "message": "Everything seems to be working.", 
+            "message": "upgrade", 
             "name": "Ask Fedora", 
-            "status": "good", 
+            "status": "scheduled", 
             "url": "http://ask.fedoraproject.org/"
         }, 
         "blockerbugs": {

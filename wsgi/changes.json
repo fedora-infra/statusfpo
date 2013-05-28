@@ -1,5 +1,13 @@
 [
     {
+        "status": "scheduled", 
+        "new_global_status": "scheduled", 
+        "service": "ask", 
+        "changetype": "single", 
+        "message": "upgrade", 
+        "changedate": 1369756712.17086
+    }, 
+    {
         "status": "good", 
         "new_global_status": "good", 
         "changetype": "multiple", 
