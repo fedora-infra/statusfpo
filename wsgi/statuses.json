@@ -106,7 +106,7 @@
             "url": "https://apps.fedoraproject.org/packages"
         }, 
         "people": {
-            "message": "Requesting the root index for a user returns 403: <a href=\"https://fedorahosted.org/fedora-infrastructure/ticket/3842\">https://fedorahosted.org/fedora-infrastructure/ticket/3842</a>", 
+            "message": "Requesting the root index for a user returns 403:&nbsp;<a href=\"https://fedorahosted.org/fedora-infrastructure/ticket/3842\">https://fedorahosted.org/fedora-infrastructure/ticket/3842</a>", 
             "name": "Fedora People", 
             "status": "minor", 
             "url": "https://fedorapeople.org/"
