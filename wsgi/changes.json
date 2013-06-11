@@ -1,5 +1,13 @@
 [
     {
+        "status": "minor", 
+        "new_global_status": "minor", 
+        "service": "people", 
+        "changetype": "single", 
+        "message": "Requesting the root index for a user returns 403: https://fedorahosted.org/fedora-infrastructure/ticket/3842", 
+        "changedate": 1370938259.13067
+    }, 
+    {
         "status": "good", 
         "new_global_status": "good", 
         "changetype": "multiple", 
