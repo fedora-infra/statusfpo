@@ -23,6 +23,7 @@ import json
 import argparse
 import sys
 import subprocess
+import os
 
 from util_functions import *
 
@@ -49,7 +50,11 @@ if __name__ == '__main__':
     result = 0
 
     if not args.no_git:
-        result = subprocess.call("git pull", shell=True)
+        if not os.path.isdir('.git'):
+            print("We couldn't find a .git directory, so forcing --no-git")
+            args.no_git = True
+        else:
+            result = subprocess.call("git pull", shell=True)
     if result != 0:
         print('An error occured in git pull, please try again!')
         sys.exit(2)
