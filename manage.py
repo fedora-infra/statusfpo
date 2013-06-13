@@ -28,15 +28,19 @@ from util_functions import *
 
 if __name__ == '__main__':
     parser = argparse.ArgumentParser(description='Manage the status on status.fedoraproject.org')
-    parser.add_argument('service', help='The service to modify. Use - to update every service')
     parser.add_argument('new_status', help='The new service status (good/scheduled/minor/major)')
     parser.add_argument('new_message', help='The new status message. Use - to use "Everything seems to be working"')
+    parser.add_argument('service', help='The service(s) to modify. Use - to update every service', nargs='+')
     parser.add_argument('--no-git', action='store_true', help='Do not commit and push to git')
     parser.add_argument('--global-info', help='Set the global information message')
     args = parser.parse_args()
 
     if not args.new_status in ['good', 'scheduled', 'minor', 'major']:
         print('new_status must be good, scheduled, minor or major!')
+        sys.exit(1)
+
+    if '-' in args.service and len(args.service) != 1:
+        print('Please only specify services or -, not both')
         sys.exit(1)
 
     if args.new_message == '-':
@@ -57,9 +61,10 @@ if __name__ == '__main__':
     changes = json.loads(f.read())
     f.close()
 
-    if (args.service != '-') and (not args.service in services['services'].keys()):
-        print('%(service)s is unknown! Valid services are: %(services)s' % {'service': args.service, 'services': services['services'].keys()})
-        sys.exit(3)
+    for srvc in args.service:
+        if (srvc != '-') and (not srvc in services['services'].keys()):
+            print('%(service)s is unknown! Valid services are: %(services)s' % {'service': srvc, 'services': services['services'].keys()})
+            sys.exit(3)
 
     if args.global_info != None:
         services['global_info'] = args.global_info
@@ -72,10 +77,11 @@ if __name__ == '__main__':
             services['services'][srv]['status'] = args.new_status
             services['services'][srv]['message'] = args.new_message
     else:
-        if services['services'][args.service]['status'] != args.new_status or services['services'][args.service]['message'] != args.new_message:
-            updated.append(args.service)
-        services['services'][args.service]['status'] = args.new_status
-        services['services'][args.service]['message'] = args.new_message
+        for srvc in args.service:
+            if services['services'][srvc]['status'] != args.new_status or services['services'][srvc]['message'] != args.new_message:
+                updated.append(srvc)
+            services['services'][srvc]['status'] = args.new_status
+            services['services'][srvc]['message'] = args.new_message
 
     if len(updated) != 0:
         if len(updated) == 1:
