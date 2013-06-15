@@ -88,9 +88,9 @@
             "url": "http://lists.fedoraproject.org/"
         }, 
         "mirrorlist": {
-            "message": "Everything seems to be working.", 
+            "message": "rawhide/x86_64 down", 
             "name": "Mirror List", 
-            "status": "good", 
+            "status": "minor", 
             "url": "http://mirrors.fedoraproject.org/publiclist/"
         }, 
         "mirrormanager": {

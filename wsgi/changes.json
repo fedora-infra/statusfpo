@@ -1,5 +1,13 @@
 [
     {
+        "status": "minor", 
+        "new_global_status": "minor", 
+        "service": "mirrorlist", 
+        "changetype": "single", 
+        "message": "rawhide/x86_64 down", 
+        "changedate": 1371280563.435639
+    }, 
+    {
         "status": "good", 
         "new_global_status": "good", 
         "service": "people", 
