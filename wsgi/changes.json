@@ -1,5 +1,13 @@
 [
     {
+        "status": "major", 
+        "new_global_status": "major", 
+        "service": "mirrorlist", 
+        "changetype": "single", 
+        "message": "Issues exist with mirrorlist making it return invalid/stale data", 
+        "changedate": 1371379939.273047
+    }, 
+    {
         "status": "good", 
         "new_global_status": "good", 
         "service": "mirrorlist", 
