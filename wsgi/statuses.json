@@ -88,7 +88,7 @@
             "url": "http://lists.fedoraproject.org/"
         }, 
         "mirrorlist": {
-            "message": "Issues exist with mirrorlist making it return invalid/stale data", 
+            "message": "Mirrorlist information outdated. Should be fixed around 14:30 UTC.", 
             "name": "Mirror List", 
             "status": "major", 
             "url": "http://mirrors.fedoraproject.org/publiclist/"
