@@ -88,7 +88,7 @@
             "url": "http://lists.fedoraproject.org/"
         }, 
         "mirrorlist": {
-            "message": "Mirrorlist information outdated. Should be fixed around 14:30 UTC.", 
+            "message": "Mirrorlist information outdated", 
             "name": "Mirror List", 
             "status": "major", 
             "url": "http://mirrors.fedoraproject.org/publiclist/"

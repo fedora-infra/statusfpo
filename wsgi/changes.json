@@ -4,6 +4,14 @@
         "new_global_status": "major", 
         "service": "mirrorlist", 
         "changetype": "single", 
+        "message": "Mirrorlist information outdated", 
+        "changedate": 1371397079.775827
+    }, 
+    {
+        "status": "major", 
+        "new_global_status": "major", 
+        "service": "mirrorlist", 
+        "changetype": "single", 
         "message": "Mirrorlist information outdated. Should be fixed around 14:30 UTC.", 
         "changedate": 1371390563.448993
     }, 
