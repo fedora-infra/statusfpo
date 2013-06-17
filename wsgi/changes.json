@@ -4,6 +4,14 @@
         "new_global_status": "major", 
         "service": "mirrorlist", 
         "changetype": "single", 
+        "message": "Mirrormanager data is stale, should be fixed around 02:00 UTC", 
+        "changedate": 1371430039.936669
+    }, 
+    {
+        "status": "major", 
+        "new_global_status": "major", 
+        "service": "mirrorlist", 
+        "changetype": "single", 
         "message": "Mirrorlist information outdated", 
         "changedate": 1371397079.775827
     }, 
