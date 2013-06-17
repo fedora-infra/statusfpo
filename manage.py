@@ -75,7 +75,7 @@ if __name__ == '__main__':
         services['global_info'] = args.global_info
 
     updated = []
-    if args.service == '-':
+    if args.service == ['-']:
         for srv in services['services'].keys():
             if services['services'][srv]['status'] != args.new_status or services['services'][srv]['message'] != args.new_message:
                 updated.append(srv)
