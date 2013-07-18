@@ -1,5 +1,13 @@
 [
     {
+        "status": "scheduled", 
+        "new_global_status": "scheduled", 
+        "service": "koji", 
+        "changetype": "single", 
+        "message": "storage migration", 
+        "changedate": 1374181249.969005
+    }, 
+    {
         "status": "good", 
         "new_global_status": "good", 
         "service": "mirrorlist", 
