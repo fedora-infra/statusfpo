@@ -1,5 +1,38 @@
 [
     {
+        "status": "scheduled", 
+        "new_global_status": "scheduled", 
+        "changetype": "multiple", 
+        "services": [
+            "wiki", 
+            "people", 
+            "zodbot", 
+            "koji", 
+            "darkserver", 
+            "tagger", 
+            "pkgdb", 
+            "fedorapaste", 
+            "blockerbugs", 
+            "fedorahosted", 
+            "mirrormanager", 
+            "mirrorlist", 
+            "pkgs", 
+            "fas", 
+            "website", 
+            "docs", 
+            "bodhi", 
+            "ask", 
+            "packages", 
+            "freemedia", 
+            "fedmsg", 
+            "elections", 
+            "mailinglists", 
+            "fedocal"
+        ], 
+        "message": "datacenter work", 
+        "changedate": 1375217840.056848
+    }, 
+    {
         "status": "good", 
         "new_global_status": "good", 
         "service": "koji", 
