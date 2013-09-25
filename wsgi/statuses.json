@@ -58,9 +58,9 @@
             "url": "https://apps.fedoraproject.org/fedocal/"
         }, 
         "fedorahosted": {
-            "message": "Everything seems to be working.", 
+            "message": "Hosted is not responding currently, we are looking into it", 
             "name": "FedoraHosted.org Services", 
-            "status": "good", 
+            "status": "major", 
             "url": "https://fedorahosted.org/web/"
         }, 
         "fedorapaste": {

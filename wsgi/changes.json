@@ -1,5 +1,13 @@
 [
     {
+        "status": "major", 
+        "new_global_status": "major", 
+        "service": "fedorahosted", 
+        "changetype": "single", 
+        "message": "Hosted is not responding currently, we are looking into it", 
+        "changedate": 1380115607.117286
+    }, 
+    {
         "status": "good", 
         "new_global_status": "good", 
         "changetype": "multiple", 
