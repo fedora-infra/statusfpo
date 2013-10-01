@@ -22,15 +22,15 @@
             "url": "http://qa.fedoraproject.org/blockerbugs/"
         }, 
         "bodhi": {
-            "message": "Scheduled maintenance in progress: https://fedorahosted.org/fedora-infrastructure/ticket/4029", 
+            "message": "Everything seems to be working.", 
             "name": "Package Updates Manager", 
-            "status": "scheduled", 
+            "status": "good", 
             "url": "https://admin.fedoraproject.org/updates/"
         }, 
         "darkserver": {
-            "message": "Scheduled maintenance in progress: https://fedorahosted.org/fedora-infrastructure/ticket/4029", 
+            "message": "Everything seems to be working.", 
             "name": "Darkserver", 
-            "status": "scheduled", 
+            "status": "good", 
             "url": "https://fedoraproject.org/wiki/Darkserver"
         }, 
         "docs": {
@@ -82,9 +82,9 @@
             "url": "http://fedoraproject.org/wiki/FreeMedia"
         }, 
         "koji": {
-            "message": "Scheduled maintenance in progress: https://fedorahosted.org/fedora-infrastructure/ticket/4029", 
+            "message": "Everything seems to be working.", 
             "name": "The Koji Buildsystem", 
-            "status": "scheduled", 
+            "status": "good", 
             "url": "http://koji.fedoraproject.org/koji/"
         }, 
         "mailinglists": {
@@ -125,9 +125,9 @@
         }, 
         "pkgs": {
             "mailinglists": "Fedora mailing lists", 
-            "message": "Scheduled maintenance in progress: https://fedorahosted.org/fedora-infrastructure/ticket/4029", 
+            "message": "Everything seems to be working.", 
             "name": "Package maintainers git repositories", 
-            "status": "scheduled", 
+            "status": "good", 
             "url": "http://pkgs.fedoraproject.org/"
         }, 
         "tagger": {
