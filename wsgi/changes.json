@@ -1,5 +1,13 @@
 [
     {
+        "status": "major", 
+        "new_global_status": "major", 
+        "service": "mirrormanager", 
+        "changetype": "single", 
+        "message": "master mirrors down", 
+        "changedate": 1382586984.027698
+    }, 
+    {
         "status": "good", 
         "new_global_status": "good", 
         "changetype": "multiple", 
