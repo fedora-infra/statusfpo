@@ -100,9 +100,9 @@
             "url": "http://mirrors.fedoraproject.org/publiclist/"
         }, 
         "mirrormanager": {
-            "message": "master mirrors down", 
+            "message": "Everything seems to be working.", 
             "name": "Mirror Manager", 
-            "status": "major", 
+            "status": "good", 
             "url": "http://mirrors.fedoraproject.org/"
         }, 
         "packages": {
