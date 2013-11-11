@@ -64,9 +64,9 @@
             "url": "https://apps.fedoraproject.org/fedocal/"
         }, 
         "fedorahosted": {
-            "message": "Everything seems to be working.", 
+            "message": "Mailing list server is down, we are looking into it", 
             "name": "FedoraHosted.org Services", 
-            "status": "good", 
+            "status": "major", 
             "url": "https://fedorahosted.org/web/"
         }, 
         "fedorapaste": {

@@ -1,5 +1,13 @@
 [
     {
+        "status": "major", 
+        "new_global_status": "major", 
+        "service": "fedorahosted", 
+        "changetype": "single", 
+        "message": "Mailing list server is down, we are looking into it", 
+        "changedate": 1384177210.949037
+    }, 
+    {
         "status": "good", 
         "new_global_status": "good", 
         "service": "mirrormanager", 
