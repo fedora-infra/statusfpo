@@ -1,5 +1,13 @@
 [
     {
+        "status": "scheduled", 
+        "new_global_status": "scheduled", 
+        "service": "ask", 
+        "changetype": "single", 
+        "message": "planned outage", 
+        "changedate": 1390255223.951158
+    }, 
+    {
         "status": "good", 
         "new_global_status": "good", 
         "changetype": "multiple", 
