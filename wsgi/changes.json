@@ -1,5 +1,13 @@
 [
     {
+        "status": "good", 
+        "new_global_status": "good", 
+        "service": "ask", 
+        "changetype": "single", 
+        "message": "Everything seems to be working.", 
+        "changedate": 1390261930.754654
+    }, 
+    {
         "status": "scheduled", 
         "new_global_status": "scheduled", 
         "service": "ask", 
