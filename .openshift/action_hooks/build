@@ -24,6 +24,16 @@
 cd $OPENSHIFT_REPO_DIR/wsgi
 rm -f static/index.html
 rm -f static/changes.rss
+if [ ! -f $OPENSHIFT_REPO_DIR/../virtenv ];
+then
+    mkdir $OPENSHIFT_REPO_DIR/../virtenv
+    (
+        cd $OPENSHIFT_REPO_DIR/../virtenv
+        virtualenv .
+        bin/pip install jinja2
+        bin/pip install argparse
+    )
+fi
 $OPENSHIFT_REPO_DIR/../virtenv/bin/python generate.py html >static/index.html
 $OPENSHIFT_REPO_DIR/../virtenv/bin/python generate.py rss >static/changes.rss
 $OPENSHIFT_REPO_DIR/../virtenv/bin/python generate.py mobile >static/m.html
