@@ -7,3 +7,4 @@ Do not push any generated status.html/index.html/changes.rss in this git reposit
 Please use manage.py to perform all management to the status page.
 
 For more info, please see the documentation at: http://infrastructure.fedoraproject.org/infra/docs/status-fedora.txt
+
