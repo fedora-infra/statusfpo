@@ -94,9 +94,9 @@
             "url": "http://lists.fedoraproject.org/"
         }, 
         "mirrorlist": {
-            "message": "Everything seems to be working.", 
+            "message": "We are looking into issues accessing mirrorlist.", 
             "name": "Mirror List", 
-            "status": "good", 
+            "status": "major", 
             "url": "http://mirrors.fedoraproject.org/publiclist/"
         }, 
         "mirrormanager": {

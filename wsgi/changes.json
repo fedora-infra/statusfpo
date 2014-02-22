@@ -1,5 +1,13 @@
 [
     {
+        "status": "major", 
+        "new_global_status": "major", 
+        "service": "mirrorlist", 
+        "changetype": "single", 
+        "message": "We are looking into issues accessing mirrorlist.", 
+        "changedate": 1393103545.540423
+    }, 
+    {
         "status": "good", 
         "new_global_status": "good", 
         "service": "people", 
