@@ -1,5 +1,13 @@
 [
     {
+        "status": "good", 
+        "new_global_status": "good", 
+        "service": "mirrorlist", 
+        "changetype": "single", 
+        "message": "Everything seems to be working.", 
+        "changedate": 1393104866.593235
+    }, 
+    {
         "status": "major", 
         "new_global_status": "major", 
         "service": "mirrorlist", 
