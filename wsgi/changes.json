@@ -1,5 +1,13 @@
 [
     {
+        "status": "good", 
+        "new_global_status": "good", 
+        "service": "pkgs", 
+        "changetype": "single", 
+        "message": "Everything seems to be working.", 
+        "changedate": 1397236430.455172
+    }, 
+    {
         "status": "major", 
         "new_global_status": "major", 
         "service": "pkgs", 
