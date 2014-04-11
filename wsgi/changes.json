@@ -1,5 +1,13 @@
 [
     {
+        "status": "major", 
+        "new_global_status": "major", 
+        "service": "pkgs", 
+        "changetype": "single", 
+        "message": "virthost issue", 
+        "changedate": 1397234647.711557
+    }, 
+    {
         "status": "good", 
         "new_global_status": "good", 
         "changetype": "multiple", 
