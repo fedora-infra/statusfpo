@@ -1,5 +1,5 @@
 {
-    "global_info": "", 
+    "global_info": "Due to a storage migration, some users may be seeing intermediate outages on some of our services. Announcement: http://da.gd/aro8", 
     "global_status": "minor", 
     "global_verbose_status": "Minor service disruption", 
     "services": {
@@ -82,9 +82,9 @@
             "url": "http://fedoraproject.org/wiki/FreeMedia"
         }, 
         "koji": {
-            "message": "Everything seems to be working.", 
+            "message": "Possibly affected by storage migration", 
             "name": "The Koji Buildsystem", 
-            "status": "good", 
+            "status": "minor", 
             "url": "http://koji.fedoraproject.org/koji/"
         }, 
         "mailinglists": {
@@ -125,9 +125,9 @@
         }, 
         "pkgs": {
             "mailinglists": "Fedora mailing lists", 
-            "message": "Everything seems to be working.", 
+            "message": "Possibly affected by storage migration", 
             "name": "Package maintainers git repositories", 
-            "status": "good", 
+            "status": "minor", 
             "url": "http://pkgs.fedoraproject.org/"
         }, 
         "tagger": {
@@ -143,9 +143,9 @@
             "url": "http://fedoraproject.org/"
         }, 
         "wiki": {
-            "message": "Everything seems to be working.", 
+            "message": "Possibly affected by storage migration", 
             "name": "Fedora Wiki", 
-            "status": "good", 
+            "status": "minor", 
             "url": "https://fedoraproject.org/wiki/Fedora_Project_Wiki"
         }, 
         "zodbot": {

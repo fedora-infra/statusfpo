@@ -1,5 +1,17 @@
 [
     {
+        "status": "minor", 
+        "new_global_status": "minor", 
+        "changetype": "multiple", 
+        "services": [
+            "wiki", 
+            "koji", 
+            "pkgs"
+        ], 
+        "message": "Possibly affected by storage migration", 
+        "changedate": 1398812966.337448
+    }, 
+    {
         "status": "good", 
         "new_global_status": "good", 
         "service": "pkgs", 
