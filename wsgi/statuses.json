@@ -1,5 +1,5 @@
 {
-    "global_info": "Due to a storage migration, some users may be seeing intermediate outages on some of our services. Announcement: http://da.gd/aro8", 
+    "global_info": "Due to a storage migration, some users may be seeing intermediate outages on some of our services. Announcement: <a href='http://da.gd/aro8'>http://da.gd/aro8</a>", 
     "global_status": "minor", 
     "global_verbose_status": "Minor service disruption", 
     "services": {
