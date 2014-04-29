@@ -82,9 +82,9 @@
             "url": "http://fedoraproject.org/wiki/FreeMedia"
         }, 
         "koji": {
-            "message": "Possibly affected by storage migration", 
+            "message": "Everything seems to be working.", 
             "name": "The Koji Buildsystem", 
-            "status": "minor", 
+            "status": "good", 
             "url": "http://koji.fedoraproject.org/koji/"
         }, 
         "mailinglists": {
@@ -125,9 +125,9 @@
         }, 
         "pkgs": {
             "mailinglists": "Fedora mailing lists", 
-            "message": "Possibly affected by storage migration", 
+            "message": "Everything seems to be working.", 
             "name": "Package maintainers git repositories", 
-            "status": "minor", 
+            "status": "good", 
             "url": "http://pkgs.fedoraproject.org/"
         }, 
         "tagger": {
@@ -143,9 +143,9 @@
             "url": "http://fedoraproject.org/"
         }, 
         "wiki": {
-            "message": "Possibly affected by storage migration", 
+            "message": "Everything seems to be working.", 
             "name": "Fedora Wiki", 
-            "status": "minor", 
+            "status": "good", 
             "url": "https://fedoraproject.org/wiki/Fedora_Project_Wiki"
         }, 
         "zodbot": {

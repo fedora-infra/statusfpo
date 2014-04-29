@@ -1,5 +1,17 @@
 [
     {
+        "status": "good", 
+        "new_global_status": "good", 
+        "changetype": "multiple", 
+        "services": [
+            "wiki", 
+            "koji", 
+            "pkgs"
+        ], 
+        "message": "Everything seems to be working.", 
+        "changedate": 1398814928.368213
+    }, 
+    {
         "status": "minor", 
         "new_global_status": "minor", 
         "changetype": "multiple", 
