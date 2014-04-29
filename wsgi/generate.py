@@ -83,7 +83,7 @@ def generateMobile():
     return generateMobilePage(getInfo('statuses.json'))
 
 def doMinify(original):
-    return original.replace("> ",">").replace(" <","<").replace(" >",">").replace("< ","<").replace(" :",":").replace(" ;",";").replace("; ",";").replace("{ ","{").replace(" }","}").replace(" {","{").replace("} ","}").replace("  "," ").replace("\t","")
+    return original.replace("> ",">").replace(" >",">").replace("< ","<").replace(" :",":").replace(" ;",";").replace("; ",";").replace("{ ","{").replace(" }","}").replace(" {","{").replace("} ","}").replace("  "," ").replace("\t","")
 
 def minify(contents, skip):
     if skip:
