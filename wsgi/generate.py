@@ -58,13 +58,13 @@ def generateFeedPage(feedtype, changes, statuses):
 def generateHtmlPage(statuses):
     env = Environment(loader=FileSystemLoader('.'))
     global_status = getVerboseStatus(getGlobalStatus(statuses['services']))
-    return env.get_template('template.html').render(statuses=statuses['services'], global_status=getGlobalStatus(statuses['services']), global_info=statuses['global_info'], verbose_global_status=global_status)
+    return env.get_template('template.html').render(statuses=statuses['services'], global_status=getGlobalStatus(statuses['services']), global_info=statuses['global_info'], verbose_global_status=global_status, year=datetime.datetime.now().year)
 
 def generateMobilePage(statuses):
     env = Environment(loader=FileSystemLoader('.'))
     global_status = getVerboseStatus(getGlobalStatus(statuses['services']))
     failed_services = getFailedServices(statuses['services'])
-    return env.get_template('mobile.html').render(statuses=statuses['services'], global_status=getGlobalStatus(statuses['services']), global_info=statuses['global_info'], verbose_global_status=global_status, failed_services=failed_services)
+    return env.get_template('mobile.html').render(statuses=statuses['services'], global_status=getGlobalStatus(statuses['services']), global_info=statuses['global_info'], verbose_global_status=global_status, failed_services=failed_services, year=datetime.datetime.now().year)
 
 def getFailedServices(statuses):
     toReturn = []
