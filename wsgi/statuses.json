@@ -118,16 +118,16 @@
             "url": "https://fedorapeople.org/"
         }, 
         "pkgdb": {
-            "message": "Everything seems to be working.", 
+            "message": "Upgrade to pkgdb2", 
             "name": "Package Database", 
-            "status": "good", 
+            "status": "minor", 
             "url": "https://admin.fedoraproject.org/pkgdb/"
         }, 
         "pkgs": {
             "mailinglists": "Fedora mailing lists", 
-            "message": "Everything seems to be working.", 
+            "message": "Upgrade to pkgdb2", 
             "name": "Package maintainers git repositories", 
-            "status": "good", 
+            "status": "minor", 
             "url": "http://pkgs.fedoraproject.org/"
         }, 
         "tagger": {

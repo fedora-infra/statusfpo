@@ -1,5 +1,16 @@
 [
     {
+        "status": "minor", 
+        "new_global_status": "minor", 
+        "changetype": "multiple", 
+        "services": [
+            "pkgdb", 
+            "pkgs"
+        ], 
+        "message": "Upgrade to pkgdb2", 
+        "changedate": 1400068731.066788
+    }, 
+    {
         "status": "good", 
         "new_global_status": "good", 
         "changetype": "multiple", 
