@@ -2,6 +2,14 @@
     {
         "status": "minor", 
         "new_global_status": "minor", 
+        "service": "bodhi", 
+        "changetype": "single", 
+        "message": "Upgrade to pkgdb2", 
+        "changedate": 1400074796.222449
+    }, 
+    {
+        "status": "minor", 
+        "new_global_status": "minor", 
         "changetype": "multiple", 
         "services": [
             "pkgdb", 
