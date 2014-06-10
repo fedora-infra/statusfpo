@@ -58,9 +58,9 @@
             "url": "https://admin.fedoraproject.org/accounts/"
         }, 
         "fedmsg": {
-            "message": "Everything seems to be working.", 
+            "message": "Migrating zodbot and fedmsg-irc to a new host", 
             "name": "Fedora Messaging Bus", 
-            "status": "good", 
+            "status": "minor", 
             "url": "https://admin.fedoraproject.org/pkgdb/acls/name/fedmsg"
         }, 
         "fedocal": {
@@ -155,9 +155,9 @@
             "url": "https://fedoraproject.org/wiki/Fedora_Project_Wiki"
         }, 
         "zodbot": {
-            "message": "Everything seems to be working.", 
+            "message": "Migrating zodbot and fedmsg-irc to a new host", 
             "name": "Zodbot IRC bot", 
-            "status": "good", 
+            "status": "minor", 
             "url": "https://fedoraproject.org/wiki/Zodbot"
         }
     }
