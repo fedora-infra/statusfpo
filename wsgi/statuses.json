@@ -58,7 +58,7 @@
             "url": "https://admin.fedoraproject.org/accounts/"
         }, 
         "fedmsg": {
-            "message": "datanommer and cloud connectivity down for migrations", 
+            "message": "outbound raw zmq messages down to vpn issues", 
             "name": "Fedora Messaging Bus", 
             "status": "minor", 
             "url": "https://admin.fedoraproject.org/pkgdb/acls/name/fedmsg"

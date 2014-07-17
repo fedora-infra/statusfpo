@@ -4,6 +4,14 @@
         "new_global_status": "minor", 
         "service": "fedmsg", 
         "changetype": "single", 
+        "message": "outbound raw zmq messages down to vpn issues", 
+        "changedate": 1405612847.971252
+    }, 
+    {
+        "status": "minor", 
+        "new_global_status": "minor", 
+        "service": "fedmsg", 
+        "changetype": "single", 
         "message": "datanommer and cloud connectivity down for migrations", 
         "changedate": 1405609588.844599
     }, 
