@@ -58,9 +58,9 @@
             "url": "https://admin.fedoraproject.org/accounts/"
         }, 
         "fedmsg": {
-            "message": "outbound raw zmq messages down to vpn issues", 
+            "message": "Everything seems to be working.", 
             "name": "Fedora Messaging Bus", 
-            "status": "minor", 
+            "status": "good", 
             "url": "https://admin.fedoraproject.org/pkgdb/acls/name/fedmsg"
         }, 
         "fedocal": {
