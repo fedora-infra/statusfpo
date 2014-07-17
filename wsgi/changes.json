@@ -1,5 +1,13 @@
 [
     {
+        "status": "minor", 
+        "new_global_status": "minor", 
+        "service": "fedmsg", 
+        "changetype": "single", 
+        "message": "datanommer and cloud connectivity down for migrations", 
+        "changedate": 1405609588.844599
+    }, 
+    {
         "status": "good", 
         "new_global_status": "good", 
         "service": "copr", 

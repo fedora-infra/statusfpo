@@ -58,9 +58,9 @@
             "url": "https://admin.fedoraproject.org/accounts/"
         }, 
         "fedmsg": {
-            "message": "Everything seems to be working.", 
+            "message": "datanommer and cloud connectivity down for migrations", 
             "name": "Fedora Messaging Bus", 
-            "status": "good", 
+            "status": "minor", 
             "url": "https://admin.fedoraproject.org/pkgdb/acls/name/fedmsg"
         }, 
         "fedocal": {
