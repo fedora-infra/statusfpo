@@ -4,9 +4,9 @@
     "global_verbose_status": "Minor service disruption", 
     "services": {
         "ask": {
-            "message": "Everything seems to be working.", 
+            "message": "We are investigating an outage affecting ask.fp.o and apps.fp.o/packages", 
             "name": "Ask Fedora", 
-            "status": "good", 
+            "status": "major", 
             "url": "http://ask.fedoraproject.org/"
         }, 
         "badges": {
@@ -112,9 +112,9 @@
             "url": "http://mirrors.fedoraproject.org/"
         }, 
         "packages": {
-            "message": "Everything seems to be working.", 
+            "message": "We are investigating an outage affecting ask.fp.o and apps.fp.o/packages", 
             "name": "Fedora Packages App", 
-            "status": "good", 
+            "status": "major", 
             "url": "https://apps.fedoraproject.org/packages"
         }, 
         "people": {
