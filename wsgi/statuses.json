@@ -1,5 +1,5 @@
 {
-    "global_info": "We will be having a planned outage at 2014-07-24 18:00 UTC. See <a href='https://fedorahosted.org/fedora-infrastructure/ticket/4453'>Infrastructure ticket 4453</a> for details.", 
+    "global_info": "", 
     "global_status": "minor", 
     "global_verbose_status": "Minor service disruption", 
     "services": {
