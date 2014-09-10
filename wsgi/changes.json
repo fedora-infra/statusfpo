@@ -1,5 +1,13 @@
 [
     {
+        "status": "minor", 
+        "new_global_status": "minor", 
+        "service": "fedorahosted", 
+        "changetype": "single", 
+        "message": "Fedora hosted is having some problem with apache", 
+        "changedate": 1410343532.698618
+    }, 
+    {
         "status": "good", 
         "new_global_status": "good", 
         "service": "copr", 
