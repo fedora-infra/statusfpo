@@ -70,7 +70,7 @@
             "url": "https://apps.fedoraproject.org/fedocal/"
         }, 
         "fedorahosted": {
-            "message": "Fedora hosted is having some problem with apache", 
+            "message": "Fedora hosted is having some problems with apache", 
             "name": "FedoraHosted.org Services", 
             "status": "minor", 
             "url": "https://fedorahosted.org/web/"
