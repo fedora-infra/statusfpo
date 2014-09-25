@@ -1,5 +1,13 @@
 [
     {
+        "status": "major", 
+        "new_global_status": "major", 
+        "service": "copr", 
+        "changetype": "single", 
+        "message": "outage", 
+        "changedate": 1411659784.066886
+    }, 
+    {
         "status": "good", 
         "new_global_status": "good", 
         "service": "fedorahosted", 
