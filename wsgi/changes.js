@@ -1,5 +1,16 @@
 callback([
     {
+        "status": "good", 
+        "new_global_status": "good", 
+        "changetype": "multiple", 
+        "services": [
+            "badges", 
+            "fedmsg"
+        ], 
+        "message": "Everything seems to be working.", 
+        "changedate": 1411753279.722945
+    }, 
+    {
         "status": "scheduled", 
         "new_global_status": "scheduled", 
         "changetype": "multiple", 
