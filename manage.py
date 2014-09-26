@@ -99,8 +99,14 @@ if __name__ == '__main__':
     f = open('.fsrootdir/statuses.json', 'w')
     f.write(json.dumps(services, sort_keys=True, indent = 4))
     f.close()
+    f = open('.fsrootdir/statuses.js', 'w')
+    f.write('callback(%s);' % json.dumps(services, sort_keys=True, indent = 4))
+    f.close()
     f = open('.fsrootdir/changes.json', 'w')
     f.write(json.dumps(changes, indent = 4))
+    f.close()
+    f = open('.fsrootdir/changes.js', 'w')
+    f.write('callback(%s);' % json.dumps(changes, indent = 4))
     f.close()
 
     if not args.no_git:
