@@ -10,9 +10,9 @@ callback({
             "url": "http://ask.fedoraproject.org/"
         }, 
         "badges": {
-            "message": "Everything seems to be working.", 
+            "message": "Migrating the datanommer database to a new host.", 
             "name": "Badges", 
-            "status": "good", 
+            "status": "scheduled", 
             "url": "http:/badges.fedoraproject.org/"
         }, 
         "blockerbugs": {
@@ -58,9 +58,9 @@ callback({
             "url": "https://admin.fedoraproject.org/accounts/"
         }, 
         "fedmsg": {
-            "message": "Everything seems to be working.", 
+            "message": "Migrating the datanommer database to a new host.", 
             "name": "Fedora Messaging Bus", 
-            "status": "good", 
+            "status": "scheduled", 
             "url": "https://admin.fedoraproject.org/pkgdb/acls/name/fedmsg"
         }, 
         "fedocal": {

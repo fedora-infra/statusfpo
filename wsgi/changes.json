@@ -1,5 +1,16 @@
 [
     {
+        "status": "scheduled", 
+        "new_global_status": "scheduled", 
+        "changetype": "multiple", 
+        "services": [
+            "fedmsg", 
+            "badges"
+        ], 
+        "message": "Migrating the datanommer database to a new host.", 
+        "changedate": 1411744165.552994
+    }, 
+    {
         "status": "good", 
         "new_global_status": "good", 
         "service": "copr", 
