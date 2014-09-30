@@ -1,5 +1,5 @@
 callback({
-    "global_info": "", 
+    "global_info": "Scheduled outage in progress", 
     "global_status": "minor", 
     "global_verbose_status": "Minor service disruption", 
     "services": {
