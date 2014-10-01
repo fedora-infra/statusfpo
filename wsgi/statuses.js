@@ -1,5 +1,5 @@
 callback({
-    "global_info": "Reboot of class B: https://fedorahosted.org/fedora-infrastructure/ticket/4547", 
+    "global_info": "", 
     "global_status": "minor", 
     "global_verbose_status": "Minor service disruption", 
     "services": {
@@ -22,9 +22,9 @@ callback({
             "url": "http://qa.fedoraproject.org/blockerbugs/"
         }, 
         "bodhi": {
-            "message": "Scheduled downtime in progress", 
+            "message": "Everything seems to be working.", 
             "name": "Package Updates Manager", 
-            "status": "minor", 
+            "status": "good", 
             "url": "https://admin.fedoraproject.org/updates/"
         }, 
         "copr": {
@@ -34,9 +34,9 @@ callback({
             "url": "https://copr.fedoraproject.org/"
         }, 
         "darkserver": {
-            "message": "Scheduled downtime in progress", 
+            "message": "Everything seems to be working.", 
             "name": "Darkserver", 
-            "status": "minor", 
+            "status": "good", 
             "url": "https://fedoraproject.org/wiki/Darkserver"
         }, 
         "docs": {
@@ -88,9 +88,9 @@ callback({
             "url": "http://fedoraproject.org/wiki/FreeMedia"
         }, 
         "koji": {
-            "message": "Scheduled downtime in progress", 
+            "message": "Everything seems to be working.", 
             "name": "The Koji Buildsystem", 
-            "status": "minor", 
+            "status": "good", 
             "url": "http://koji.fedoraproject.org/koji/"
         }, 
         "mailinglists": {
@@ -131,9 +131,9 @@ callback({
         }, 
         "pkgs": {
             "mailinglists": "Fedora mailing lists", 
-            "message": "Scheduled downtime in progress", 
+            "message": "Everything seems to be working.", 
             "name": "Package maintainers git repositories", 
-            "status": "minor", 
+            "status": "good", 
             "url": "http://pkgs.fedoraproject.org/"
         }, 
         "tagger": {
