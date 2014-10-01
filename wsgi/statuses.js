@@ -1,5 +1,5 @@
 callback({
-    "global_info": "Scheduled outage in progress", 
+    "global_info": "Reboot of class B: https://fedorahosted.org/fedora-infrastructure/ticket/4547", 
     "global_status": "minor", 
     "global_verbose_status": "Minor service disruption", 
     "services": {
@@ -22,9 +22,9 @@ callback({
             "url": "http://qa.fedoraproject.org/blockerbugs/"
         }, 
         "bodhi": {
-            "message": "Everything seems to be working.", 
+            "message": "Scheduled downtime in progress", 
             "name": "Package Updates Manager", 
-            "status": "good", 
+            "status": "minor", 
             "url": "https://admin.fedoraproject.org/updates/"
         }, 
         "copr": {
@@ -34,9 +34,9 @@ callback({
             "url": "https://copr.fedoraproject.org/"
         }, 
         "darkserver": {
-            "message": "Everything seems to be working.", 
+            "message": "Scheduled downtime in progress", 
             "name": "Darkserver", 
-            "status": "good", 
+            "status": "minor", 
             "url": "https://fedoraproject.org/wiki/Darkserver"
         }, 
         "docs": {
@@ -88,9 +88,9 @@ callback({
             "url": "http://fedoraproject.org/wiki/FreeMedia"
         }, 
         "koji": {
-            "message": "Everything seems to be working.", 
+            "message": "Scheduled downtime in progress", 
             "name": "The Koji Buildsystem", 
-            "status": "good", 
+            "status": "minor", 
             "url": "http://koji.fedoraproject.org/koji/"
         }, 
         "mailinglists": {
@@ -131,9 +131,9 @@ callback({
         }, 
         "pkgs": {
             "mailinglists": "Fedora mailing lists", 
-            "message": "Everything seems to be working.", 
+            "message": "Scheduled downtime in progress", 
             "name": "Package maintainers git repositories", 
-            "status": "good", 
+            "status": "minor", 
             "url": "http://pkgs.fedoraproject.org/"
         }, 
         "tagger": {

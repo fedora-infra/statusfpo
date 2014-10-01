@@ -1,5 +1,18 @@
 callback([
     {
+        "status": "minor", 
+        "new_global_status": "minor", 
+        "changetype": "multiple", 
+        "services": [
+            "bodhi", 
+            "koji", 
+            "pkgs", 
+            "darkserver"
+        ], 
+        "message": "Scheduled downtime in progress", 
+        "changedate": 1412197113.795611
+    }, 
+    {
         "status": "good", 
         "new_global_status": "good", 
         "changetype": "multiple", 
