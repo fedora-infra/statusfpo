@@ -1,5 +1,13 @@
 [
     {
+        "status": "minor", 
+        "new_global_status": "minor", 
+        "service": "copr", 
+        "changetype": "single", 
+        "message": "Backend down for hardware maintenance, builds will continue when back", 
+        "changedate": 1412688906.084514
+    }, 
+    {
         "status": "good", 
         "new_global_status": "good", 
         "service": "copr", 
