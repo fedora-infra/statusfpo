@@ -1,5 +1,31 @@
 callback([
     {
+        "status": "scheduled", 
+        "new_global_status": "scheduled", 
+        "changetype": "multiple", 
+        "services": [
+            "ask", 
+            "badges", 
+            "blockerbugs", 
+            "bodhi", 
+            "koji", 
+            "pkgs", 
+            "darkserver", 
+            "docs", 
+            "elections", 
+            "fedmsg", 
+            "fas", 
+            "fedocal", 
+            "fedorahosted", 
+            "people", 
+            "mirrormanager", 
+            "pkgdb", 
+            "wiki"
+        ], 
+        "message": "Scheduled reboots in progress", 
+        "changedate": 1415224678.161075
+    }, 
+    {
         "status": "good", 
         "new_global_status": "good", 
         "service": "copr", 

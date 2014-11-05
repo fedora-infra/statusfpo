@@ -1,30 +1,30 @@
 callback({
-    "global_info": "", 
+    "global_info": "Outage ticket: https://fedorahosted.org/fedora-infrastructure/ticket/4587", 
     "global_status": "minor", 
     "global_verbose_status": "Minor service disruption", 
     "services": {
         "ask": {
-            "message": "Everything seems to be working.", 
+            "message": "Scheduled reboots in progress", 
             "name": "Ask Fedora", 
-            "status": "good", 
+            "status": "scheduled", 
             "url": "http://ask.fedoraproject.org/"
         }, 
         "badges": {
-            "message": "Everything seems to be working.", 
+            "message": "Scheduled reboots in progress", 
             "name": "Badges", 
-            "status": "good", 
+            "status": "scheduled", 
             "url": "http:/badges.fedoraproject.org/"
         }, 
         "blockerbugs": {
-            "message": "Everything seems to be working.", 
+            "message": "Scheduled reboots in progress", 
             "name": "Blockerbugs", 
-            "status": "good", 
+            "status": "scheduled", 
             "url": "http://qa.fedoraproject.org/blockerbugs/"
         }, 
         "bodhi": {
-            "message": "Everything seems to be working.", 
+            "message": "Scheduled reboots in progress", 
             "name": "Package Updates Manager", 
-            "status": "good", 
+            "status": "scheduled", 
             "url": "https://admin.fedoraproject.org/updates/"
         }, 
         "copr": {
@@ -34,45 +34,45 @@ callback({
             "url": "https://copr.fedoraproject.org/"
         }, 
         "darkserver": {
-            "message": "Everything seems to be working.", 
+            "message": "Scheduled reboots in progress", 
             "name": "Darkserver", 
-            "status": "good", 
+            "status": "scheduled", 
             "url": "https://fedoraproject.org/wiki/Darkserver"
         }, 
         "docs": {
-            "message": "Everything seems to be working.", 
+            "message": "Scheduled reboots in progress", 
             "name": "Documentation website", 
-            "status": "good", 
+            "status": "scheduled", 
             "url": "http://docs.fedoraproject.org/"
         }, 
         "elections": {
-            "message": "Everything seems to be working.", 
+            "message": "Scheduled reboots in progress", 
             "name": "Fedora elections", 
-            "status": "good", 
+            "status": "scheduled", 
             "url": "https://admin.fedoraproject.org/voting/"
         }, 
         "fas": {
-            "message": "Everything seems to be working.", 
+            "message": "Scheduled reboots in progress", 
             "name": "Account System", 
-            "status": "good", 
+            "status": "scheduled", 
             "url": "https://admin.fedoraproject.org/accounts/"
         }, 
         "fedmsg": {
-            "message": "Everything seems to be working.", 
+            "message": "Scheduled reboots in progress", 
             "name": "Fedora Messaging Bus", 
-            "status": "good", 
+            "status": "scheduled", 
             "url": "https://admin.fedoraproject.org/pkgdb/acls/name/fedmsg"
         }, 
         "fedocal": {
-            "message": "Everything seems to be working.", 
+            "message": "Scheduled reboots in progress", 
             "name": "Fedora Calendar", 
-            "status": "good", 
+            "status": "scheduled", 
             "url": "https://apps.fedoraproject.org/fedocal/"
         }, 
         "fedorahosted": {
-            "message": "Everything seems to be working.", 
+            "message": "Scheduled reboots in progress", 
             "name": "FedoraHosted.org Services", 
-            "status": "good", 
+            "status": "scheduled", 
             "url": "https://fedorahosted.org/web/"
         }, 
         "fedorapaste": {
@@ -88,9 +88,9 @@ callback({
             "url": "http://fedoraproject.org/wiki/FreeMedia"
         }, 
         "koji": {
-            "message": "Everything seems to be working.", 
+            "message": "Scheduled reboots in progress", 
             "name": "The Koji Buildsystem", 
-            "status": "good", 
+            "status": "scheduled", 
             "url": "http://koji.fedoraproject.org/koji/"
         }, 
         "mailinglists": {
@@ -106,9 +106,9 @@ callback({
             "url": "http://mirrors.fedoraproject.org/publiclist/"
         }, 
         "mirrormanager": {
-            "message": "Everything seems to be working.", 
+            "message": "Scheduled reboots in progress", 
             "name": "Mirror Manager", 
-            "status": "good", 
+            "status": "scheduled", 
             "url": "http://mirrors.fedoraproject.org/"
         }, 
         "packages": {
@@ -118,22 +118,22 @@ callback({
             "url": "https://apps.fedoraproject.org/packages"
         }, 
         "people": {
-            "message": "Everything seems to be working.", 
+            "message": "Scheduled reboots in progress", 
             "name": "Fedora People", 
-            "status": "good", 
+            "status": "scheduled", 
             "url": "https://fedorapeople.org/"
         }, 
         "pkgdb": {
-            "message": "Everything seems to be working.", 
+            "message": "Scheduled reboots in progress", 
             "name": "Package Database", 
-            "status": "good", 
+            "status": "scheduled", 
             "url": "https://admin.fedoraproject.org/pkgdb/"
         }, 
         "pkgs": {
             "mailinglists": "Fedora mailing lists", 
-            "message": "Everything seems to be working.", 
+            "message": "Scheduled reboots in progress", 
             "name": "Package maintainers git repositories", 
-            "status": "good", 
+            "status": "scheduled", 
             "url": "http://pkgs.fedoraproject.org/"
         }, 
         "tagger": {
@@ -149,9 +149,9 @@ callback({
             "url": "http://fedoraproject.org/"
         }, 
         "wiki": {
-            "message": "Everything seems to be working.", 
+            "message": "Scheduled reboots in progress", 
             "name": "Fedora Wiki", 
-            "status": "good", 
+            "status": "scheduled", 
             "url": "https://fedoraproject.org/wiki/Fedora_Project_Wiki"
         }, 
         "zodbot": {
