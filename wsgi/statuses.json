@@ -9,6 +9,12 @@
             "status": "scheduled", 
             "url": "http://ask.fedoraproject.org/"
         }, 
+        "authentication: {
+            "message": "Scheduled reboots in progress",
+            "name": "FedOAuth",
+            "status": "scheduled",
+            "url": "https://id.fedoraproject.org/"
+        },
         "badges": {
             "message": "Scheduled reboots in progress", 
             "name": "Badges", 
