@@ -9,7 +9,7 @@
             "status": "scheduled", 
             "url": "http://ask.fedoraproject.org/"
         }, 
-        "authentication: {
+        "authentication": {
             "message": "Scheduled reboots in progress",
             "name": "FedOAuth",
             "status": "scheduled",
