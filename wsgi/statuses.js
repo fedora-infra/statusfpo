@@ -1,5 +1,5 @@
 callback({
-    "global_info": "Outage ticket: https://fedorahosted.org/fedora-infrastructure/ticket/4587", 
+    "global_info": "", 
     "global_status": "minor", 
     "global_verbose_status": "Minor service disruption", 
     "services": {
