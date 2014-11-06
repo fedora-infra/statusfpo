@@ -100,9 +100,9 @@ callback({
             "url": "http://koji.fedoraproject.org/koji/"
         }, 
         "mailinglists": {
-            "message": "Everything seems to be working.", 
+            "message": "Mails not being sent", 
             "name": "Mailing Lists", 
-            "status": "good", 
+            "status": "major", 
             "url": "http://lists.fedoraproject.org/"
         }, 
         "mirrorlist": {
