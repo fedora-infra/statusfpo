@@ -1,5 +1,32 @@
 callback([
     {
+        "status": "good", 
+        "new_global_status": "good", 
+        "changetype": "multiple", 
+        "services": [
+            "wiki", 
+            "people", 
+            "koji", 
+            "darkserver", 
+            "pkgdb", 
+            "blockerbugs", 
+            "badges", 
+            "fedorahosted", 
+            "mirrormanager", 
+            "authentication", 
+            "pkgs", 
+            "fas", 
+            "docs", 
+            "bodhi", 
+            "ask", 
+            "fedmsg", 
+            "elections", 
+            "fedocal"
+        ], 
+        "message": "Everything seems to be working.", 
+        "changedate": 1415236722.925676
+    }, 
+    {
         "status": "scheduled", 
         "new_global_status": "scheduled", 
         "changetype": "multiple", 
