@@ -1,5 +1,13 @@
 [
     {
+        "status": "good", 
+        "new_global_status": "good", 
+        "service": "packages", 
+        "changetype": "single", 
+        "message": "Everything seems to be working.", 
+        "changedate": 1415308555.341
+    }, 
+    {
         "status": "major", 
         "new_global_status": "major", 
         "service": "packages", 
