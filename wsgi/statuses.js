@@ -118,9 +118,9 @@ callback({
             "url": "http://mirrors.fedoraproject.org/"
         }, 
         "packages": {
-            "message": "Everything seems to be working.", 
+            "message": "Down while rebuilding the xapian DB.", 
             "name": "Fedora Packages App", 
-            "status": "good", 
+            "status": "major", 
             "url": "https://apps.fedoraproject.org/packages"
         }, 
         "people": {

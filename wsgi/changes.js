@@ -1,5 +1,13 @@
 callback([
     {
+        "status": "major", 
+        "new_global_status": "major", 
+        "service": "packages", 
+        "changetype": "single", 
+        "message": "Down while rebuilding the xapian DB.", 
+        "changedate": 1415293069.963006
+    }, 
+    {
         "status": "good", 
         "new_global_status": "good", 
         "changetype": "multiple", 
