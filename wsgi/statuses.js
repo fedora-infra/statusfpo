@@ -4,166 +4,166 @@ callback({
     "global_verbose_status": "Minor service disruption", 
     "services": {
         "ask": {
-            "message": "Mails not being sent", 
+            "message": "Email queue catching up slowly", 
             "name": "Ask Fedora", 
-            "status": "major", 
+            "status": "minor", 
             "url": "http://ask.fedoraproject.org/"
         }, 
         "authentication": {
-            "message": "Mails not being sent", 
+            "message": "Email queue catching up slowly", 
             "name": "FedOAuth", 
-            "status": "major", 
+            "status": "minor", 
             "url": "https://id.fedoraproject.org/"
         }, 
         "badges": {
-            "message": "Mails not being sent", 
+            "message": "Email queue catching up slowly", 
             "name": "Badges", 
-            "status": "major", 
+            "status": "minor", 
             "url": "http:/badges.fedoraproject.org/"
         }, 
         "blockerbugs": {
-            "message": "Mails not being sent", 
+            "message": "Email queue catching up slowly", 
             "name": "Blockerbugs", 
-            "status": "major", 
+            "status": "minor", 
             "url": "http://qa.fedoraproject.org/blockerbugs/"
         }, 
         "bodhi": {
-            "message": "Mails not being sent", 
+            "message": "Email queue catching up slowly", 
             "name": "Package Updates Manager", 
-            "status": "major", 
+            "status": "minor", 
             "url": "https://admin.fedoraproject.org/updates/"
         }, 
         "copr": {
-            "message": "Mails not being sent", 
+            "message": "Email queue catching up slowly", 
             "name": "COPR Build System", 
-            "status": "major", 
+            "status": "minor", 
             "url": "https://copr.fedoraproject.org/"
         }, 
         "darkserver": {
-            "message": "Mails not being sent", 
+            "message": "Email queue catching up slowly", 
             "name": "Darkserver", 
-            "status": "major", 
+            "status": "minor", 
             "url": "https://fedoraproject.org/wiki/Darkserver"
         }, 
         "docs": {
-            "message": "Mails not being sent", 
+            "message": "Email queue catching up slowly", 
             "name": "Documentation website", 
-            "status": "major", 
+            "status": "minor", 
             "url": "http://docs.fedoraproject.org/"
         }, 
         "elections": {
-            "message": "Mails not being sent", 
+            "message": "Email queue catching up slowly", 
             "name": "Fedora elections", 
-            "status": "major", 
+            "status": "minor", 
             "url": "https://admin.fedoraproject.org/voting/"
         }, 
         "fas": {
-            "message": "Mails not being sent", 
+            "message": "Email queue catching up slowly", 
             "name": "Account System", 
-            "status": "major", 
+            "status": "minor", 
             "url": "https://admin.fedoraproject.org/accounts/"
         }, 
         "fedmsg": {
-            "message": "Mails not being sent", 
+            "message": "Email queue catching up slowly", 
             "name": "Fedora Messaging Bus", 
-            "status": "major", 
+            "status": "minor", 
             "url": "https://admin.fedoraproject.org/pkgdb/acls/name/fedmsg"
         }, 
         "fedocal": {
-            "message": "Mails not being sent", 
+            "message": "Email queue catching up slowly", 
             "name": "Fedora Calendar", 
-            "status": "major", 
+            "status": "minor", 
             "url": "https://apps.fedoraproject.org/fedocal/"
         }, 
         "fedorahosted": {
-            "message": "Mails not being sent", 
+            "message": "Email queue catching up slowly", 
             "name": "FedoraHosted.org Services", 
-            "status": "major", 
+            "status": "minor", 
             "url": "https://fedorahosted.org/web/"
         }, 
         "fedorapaste": {
-            "message": "Mails not being sent", 
+            "message": "Email queue catching up slowly", 
             "name": "Fedora pastebin service", 
-            "status": "major", 
+            "status": "minor", 
             "url": "https://paste.fedorahosted.org/"
         }, 
         "freemedia": {
-            "message": "Mails not being sent", 
+            "message": "Email queue catching up slowly", 
             "name": "FreeMedia", 
-            "status": "major", 
+            "status": "minor", 
             "url": "http://fedoraproject.org/wiki/FreeMedia"
         }, 
         "koji": {
-            "message": "Mails not being sent", 
+            "message": "Email queue catching up slowly", 
             "name": "The Koji Buildsystem", 
-            "status": "major", 
+            "status": "minor", 
             "url": "http://koji.fedoraproject.org/koji/"
         }, 
         "mailinglists": {
-            "message": "Mails not being sent", 
+            "message": "Email queue catching up slowly", 
             "name": "Mailing Lists", 
-            "status": "major", 
+            "status": "minor", 
             "url": "http://lists.fedoraproject.org/"
         }, 
         "mirrorlist": {
-            "message": "Mails not being sent", 
+            "message": "Email queue catching up slowly", 
             "name": "Mirror List", 
-            "status": "major", 
+            "status": "minor", 
             "url": "http://mirrors.fedoraproject.org/publiclist/"
         }, 
         "mirrormanager": {
-            "message": "Mails not being sent", 
+            "message": "Email queue catching up slowly", 
             "name": "Mirror Manager", 
-            "status": "major", 
+            "status": "minor", 
             "url": "http://mirrors.fedoraproject.org/"
         }, 
         "packages": {
-            "message": "Mails not being sent", 
+            "message": "Email queue catching up slowly", 
             "name": "Fedora Packages App", 
-            "status": "major", 
+            "status": "minor", 
             "url": "https://apps.fedoraproject.org/packages"
         }, 
         "people": {
-            "message": "Mails not being sent", 
+            "message": "Email queue catching up slowly", 
             "name": "Fedora People", 
-            "status": "major", 
+            "status": "minor", 
             "url": "https://fedorapeople.org/"
         }, 
         "pkgdb": {
-            "message": "Mails not being sent", 
+            "message": "Email queue catching up slowly", 
             "name": "Package Database", 
-            "status": "major", 
+            "status": "minor", 
             "url": "https://admin.fedoraproject.org/pkgdb/"
         }, 
         "pkgs": {
             "mailinglists": "Fedora mailing lists", 
-            "message": "Mails not being sent", 
+            "message": "Email queue catching up slowly", 
             "name": "Package maintainers git repositories", 
-            "status": "major", 
+            "status": "minor", 
             "url": "http://pkgs.fedoraproject.org/"
         }, 
         "tagger": {
-            "message": "Mails not being sent", 
+            "message": "Email queue catching up slowly", 
             "name": "Tagger", 
-            "status": "major", 
+            "status": "minor", 
             "url": "https://apps.fedoraproject.org/tagger/"
         }, 
         "website": {
-            "message": "Mails not being sent", 
+            "message": "Email queue catching up slowly", 
             "name": "Fedora websites", 
-            "status": "major", 
+            "status": "minor", 
             "url": "http://fedoraproject.org/"
         }, 
         "wiki": {
-            "message": "Mails not being sent", 
+            "message": "Email queue catching up slowly", 
             "name": "Fedora Wiki", 
-            "status": "major", 
+            "status": "minor", 
             "url": "https://fedoraproject.org/wiki/Fedora_Project_Wiki"
         }, 
         "zodbot": {
-            "message": "Mails not being sent", 
+            "message": "Email queue catching up slowly", 
             "name": "Zodbot IRC bot", 
-            "status": "major", 
+            "status": "minor", 
             "url": "https://fedoraproject.org/wiki/Zodbot"
         }
     }
