@@ -4,166 +4,166 @@ callback({
     "global_verbose_status": "Minor service disruption", 
     "services": {
         "ask": {
-            "message": "Everything seems to be working.", 
+            "message": "NFS mounts behaving poorly.  Some services disrupted.", 
             "name": "Ask Fedora", 
-            "status": "good", 
+            "status": "minor", 
             "url": "http://ask.fedoraproject.org/"
         }, 
         "authentication": {
-            "message": "Everything seems to be working.", 
+            "message": "NFS mounts behaving poorly.  Some services disrupted.", 
             "name": "FedOAuth", 
-            "status": "good", 
+            "status": "minor", 
             "url": "https://id.fedoraproject.org/"
         }, 
         "badges": {
-            "message": "Everything seems to be working.", 
+            "message": "NFS mounts behaving poorly.  Some services disrupted.", 
             "name": "Badges", 
-            "status": "good", 
+            "status": "minor", 
             "url": "http:/badges.fedoraproject.org/"
         }, 
         "blockerbugs": {
-            "message": "Everything seems to be working.", 
+            "message": "NFS mounts behaving poorly.  Some services disrupted.", 
             "name": "Blockerbugs", 
-            "status": "good", 
+            "status": "minor", 
             "url": "http://qa.fedoraproject.org/blockerbugs/"
         }, 
         "bodhi": {
-            "message": "Everything seems to be working.", 
+            "message": "NFS mounts behaving poorly.  Some services disrupted.", 
             "name": "Package Updates Manager", 
-            "status": "good", 
+            "status": "minor", 
             "url": "https://admin.fedoraproject.org/updates/"
         }, 
         "copr": {
-            "message": "Everything seems to be working.", 
+            "message": "NFS mounts behaving poorly.  Some services disrupted.", 
             "name": "COPR Build System", 
-            "status": "good", 
+            "status": "minor", 
             "url": "https://copr.fedoraproject.org/"
         }, 
         "darkserver": {
-            "message": "Everything seems to be working.", 
+            "message": "NFS mounts behaving poorly.  Some services disrupted.", 
             "name": "Darkserver", 
-            "status": "good", 
+            "status": "minor", 
             "url": "https://fedoraproject.org/wiki/Darkserver"
         }, 
         "docs": {
-            "message": "Everything seems to be working.", 
+            "message": "NFS mounts behaving poorly.  Some services disrupted.", 
             "name": "Documentation website", 
-            "status": "good", 
+            "status": "minor", 
             "url": "http://docs.fedoraproject.org/"
         }, 
         "elections": {
-            "message": "Everything seems to be working.", 
+            "message": "NFS mounts behaving poorly.  Some services disrupted.", 
             "name": "Fedora elections", 
-            "status": "good", 
+            "status": "minor", 
             "url": "https://admin.fedoraproject.org/voting/"
         }, 
         "fas": {
-            "message": "Everything seems to be working.", 
+            "message": "NFS mounts behaving poorly.  Some services disrupted.", 
             "name": "Account System", 
-            "status": "good", 
+            "status": "minor", 
             "url": "https://admin.fedoraproject.org/accounts/"
         }, 
         "fedmsg": {
-            "message": "Everything seems to be working.", 
+            "message": "NFS mounts behaving poorly.  Some services disrupted.", 
             "name": "Fedora Messaging Bus", 
-            "status": "good", 
+            "status": "minor", 
             "url": "https://admin.fedoraproject.org/pkgdb/acls/name/fedmsg"
         }, 
         "fedocal": {
-            "message": "Everything seems to be working.", 
+            "message": "NFS mounts behaving poorly.  Some services disrupted.", 
             "name": "Fedora Calendar", 
-            "status": "good", 
+            "status": "minor", 
             "url": "https://apps.fedoraproject.org/fedocal/"
         }, 
         "fedorahosted": {
-            "message": "Everything seems to be working.", 
+            "message": "NFS mounts behaving poorly.  Some services disrupted.", 
             "name": "FedoraHosted.org Services", 
-            "status": "good", 
+            "status": "minor", 
             "url": "https://fedorahosted.org/web/"
         }, 
         "fedorapaste": {
-            "message": "Everything seems to be working.", 
+            "message": "NFS mounts behaving poorly.  Some services disrupted.", 
             "name": "Fedora pastebin service", 
-            "status": "good", 
+            "status": "minor", 
             "url": "https://paste.fedorahosted.org/"
         }, 
         "freemedia": {
-            "message": "Everything seems to be working.", 
+            "message": "NFS mounts behaving poorly.  Some services disrupted.", 
             "name": "FreeMedia", 
-            "status": "good", 
+            "status": "minor", 
             "url": "http://fedoraproject.org/wiki/FreeMedia"
         }, 
         "koji": {
-            "message": "Everything seems to be working.", 
+            "message": "NFS mounts behaving poorly.  Some services disrupted.", 
             "name": "The Koji Buildsystem", 
-            "status": "good", 
+            "status": "minor", 
             "url": "http://koji.fedoraproject.org/koji/"
         }, 
         "mailinglists": {
-            "message": "Everything seems to be working.", 
+            "message": "NFS mounts behaving poorly.  Some services disrupted.", 
             "name": "Mailing Lists", 
-            "status": "good", 
+            "status": "minor", 
             "url": "http://lists.fedoraproject.org/"
         }, 
         "mirrorlist": {
-            "message": "Everything seems to be working.", 
+            "message": "NFS mounts behaving poorly.  Some services disrupted.", 
             "name": "Mirror List", 
-            "status": "good", 
+            "status": "minor", 
             "url": "http://mirrors.fedoraproject.org/publiclist/"
         }, 
         "mirrormanager": {
-            "message": "Everything seems to be working.", 
+            "message": "NFS mounts behaving poorly.  Some services disrupted.", 
             "name": "Mirror Manager", 
-            "status": "good", 
+            "status": "minor", 
             "url": "http://mirrors.fedoraproject.org/"
         }, 
         "packages": {
-            "message": "Everything seems to be working.", 
+            "message": "NFS mounts behaving poorly.  Some services disrupted.", 
             "name": "Fedora Packages App", 
-            "status": "good", 
+            "status": "minor", 
             "url": "https://apps.fedoraproject.org/packages"
         }, 
         "people": {
-            "message": "Everything seems to be working.", 
+            "message": "NFS mounts behaving poorly.  Some services disrupted.", 
             "name": "Fedora People", 
-            "status": "good", 
+            "status": "minor", 
             "url": "https://fedorapeople.org/"
         }, 
         "pkgdb": {
-            "message": "Everything seems to be working.", 
+            "message": "NFS mounts behaving poorly.  Some services disrupted.", 
             "name": "Package Database", 
-            "status": "good", 
+            "status": "minor", 
             "url": "https://admin.fedoraproject.org/pkgdb/"
         }, 
         "pkgs": {
             "mailinglists": "Fedora mailing lists", 
-            "message": "Everything seems to be working.", 
+            "message": "NFS mounts behaving poorly.  Some services disrupted.", 
             "name": "Package maintainers git repositories", 
-            "status": "good", 
+            "status": "minor", 
             "url": "http://pkgs.fedoraproject.org/"
         }, 
         "tagger": {
-            "message": "Everything seems to be working.", 
+            "message": "NFS mounts behaving poorly.  Some services disrupted.", 
             "name": "Tagger", 
-            "status": "good", 
+            "status": "minor", 
             "url": "https://apps.fedoraproject.org/tagger/"
         }, 
         "website": {
-            "message": "Everything seems to be working.", 
+            "message": "NFS mounts behaving poorly.  Some services disrupted.", 
             "name": "Fedora websites", 
-            "status": "good", 
+            "status": "minor", 
             "url": "http://fedoraproject.org/"
         }, 
         "wiki": {
-            "message": "Everything seems to be working.", 
+            "message": "NFS mounts behaving poorly.  Some services disrupted.", 
             "name": "Fedora Wiki", 
-            "status": "good", 
+            "status": "minor", 
             "url": "https://fedoraproject.org/wiki/Fedora_Project_Wiki"
         }, 
         "zodbot": {
-            "message": "Everything seems to be working.", 
+            "message": "NFS mounts behaving poorly.  Some services disrupted.", 
             "name": "Zodbot IRC bot", 
-            "status": "good", 
+            "status": "minor", 
             "url": "https://fedoraproject.org/wiki/Zodbot"
         }
     }
