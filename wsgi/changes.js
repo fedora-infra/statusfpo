@@ -1,5 +1,13 @@
 callback([
     {
+        "status": "major", 
+        "new_global_status": "major", 
+        "service": "ask", 
+        "changetype": "single", 
+        "message": "Issue with backend server, an admin will investigate asap", 
+        "changedate": 1416050608.591928
+    }, 
+    {
         "status": "good", 
         "new_global_status": "good", 
         "changetype": "multiple", 

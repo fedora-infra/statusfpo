@@ -4,9 +4,9 @@
     "global_verbose_status": "Minor service disruption", 
     "services": {
         "ask": {
-            "message": "Everything seems to be working.", 
+            "message": "Issue with backend server, an admin will investigate asap", 
             "name": "Ask Fedora", 
-            "status": "good", 
+            "status": "major", 
             "url": "http://ask.fedoraproject.org/"
         }, 
         "authentication": {
