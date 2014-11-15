@@ -118,9 +118,9 @@ callback({
             "url": "http://mirrors.fedoraproject.org/"
         }, 
         "packages": {
-            "message": "Everything seems to be working.", 
+            "message": "Issue with backend server, an admin will investigate asap", 
             "name": "Fedora Packages App", 
-            "status": "good", 
+            "status": "major", 
             "url": "https://apps.fedoraproject.org/packages"
         }, 
         "people": {
