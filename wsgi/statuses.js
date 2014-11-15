@@ -4,9 +4,9 @@ callback({
     "global_verbose_status": "Minor service disruption", 
     "services": {
         "ask": {
-            "message": "Issue with backend server, an admin will investigate asap", 
+            "message": "Everything seems to be working.", 
             "name": "Ask Fedora", 
-            "status": "major", 
+            "status": "good", 
             "url": "http://ask.fedoraproject.org/"
         }, 
         "authentication": {
@@ -118,9 +118,9 @@ callback({
             "url": "http://mirrors.fedoraproject.org/"
         }, 
         "packages": {
-            "message": "Issue with backend server, an admin will investigate asap", 
+            "message": "Everything seems to be working.", 
             "name": "Fedora Packages App", 
-            "status": "major", 
+            "status": "good", 
             "url": "https://apps.fedoraproject.org/packages"
         }, 
         "people": {
@@ -155,9 +155,9 @@ callback({
             "url": "http://fedoraproject.org/"
         }, 
         "wiki": {
-            "message": "Issue with saving, an admin will investigate asap", 
+            "message": "Everything seems to be working.", 
             "name": "Fedora Wiki", 
-            "status": "major", 
+            "status": "good", 
             "url": "https://fedoraproject.org/wiki/Fedora_Project_Wiki"
         }, 
         "zodbot": {
