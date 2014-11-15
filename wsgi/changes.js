@@ -2,6 +2,14 @@ callback([
     {
         "status": "major", 
         "new_global_status": "major", 
+        "service": "wiki", 
+        "changetype": "single", 
+        "message": "Issue with saving, an admin will investigate asap", 
+        "changedate": 1416053048.01019
+    }, 
+    {
+        "status": "major", 
+        "new_global_status": "major", 
         "service": "packages", 
         "changetype": "single", 
         "message": "Issue with backend server, an admin will investigate asap", 
