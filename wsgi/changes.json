@@ -1,5 +1,13 @@
 [
     {
+        "status": "major", 
+        "new_global_status": "major", 
+        "service": "bodhi", 
+        "changetype": "single", 
+        "message": "outage", 
+        "changedate": 1418164919.170836
+    }, 
+    {
         "status": "good", 
         "new_global_status": "good", 
         "changetype": "multiple", 
