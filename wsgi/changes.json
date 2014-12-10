@@ -1,5 +1,13 @@
 [
     {
+        "status": "good", 
+        "new_global_status": "good", 
+        "service": "bodhi", 
+        "changetype": "single", 
+        "message": "Everything seems to be working.", 
+        "changedate": 1418225564.351025
+    }, 
+    {
         "status": "major", 
         "new_global_status": "major", 
         "service": "bodhi", 
