@@ -1,5 +1,13 @@
 [
     {
+        "status": "major", 
+        "new_global_status": "major", 
+        "service": "bodhi", 
+        "changetype": "single", 
+        "message": "dropping in and out of service", 
+        "changedate": 1418205730.026393
+    }, 
+    {
         "status": "good", 
         "new_global_status": "good", 
         "service": "bodhi", 
