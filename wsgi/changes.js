@@ -1,5 +1,13 @@
 callback([
     {
+        "status": "major", 
+        "new_global_status": "major", 
+        "service": "mailinglists", 
+        "changetype": "single", 
+        "message": "lists.fedorahosted.org down", 
+        "changedate": 1418695775.878968
+    }, 
+    {
         "status": "good", 
         "new_global_status": "good", 
         "changetype": "multiple", 
