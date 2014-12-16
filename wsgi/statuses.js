@@ -1,169 +1,169 @@
 callback({
-    "global_info": "Database migrations in progress", 
+    "global_info": "", 
     "global_status": "minor", 
     "global_verbose_status": "Minor service disruption", 
     "services": {
         "ask": {
-            "message": "Database migrations in progress", 
+            "message": "Everything seems to be working.", 
             "name": "Ask Fedora", 
-            "status": "scheduled", 
+            "status": "good", 
             "url": "http://ask.fedoraproject.org/"
         }, 
         "authentication": {
-            "message": "Database migrations in progress", 
+            "message": "Everything seems to be working.", 
             "name": "FedOAuth", 
-            "status": "scheduled", 
+            "status": "good", 
             "url": "https://id.fedoraproject.org/"
         }, 
         "badges": {
-            "message": "Database migrations in progress", 
+            "message": "Everything seems to be working.", 
             "name": "Badges", 
-            "status": "scheduled", 
+            "status": "good", 
             "url": "http:/badges.fedoraproject.org/"
         }, 
         "blockerbugs": {
-            "message": "Database migrations in progress", 
+            "message": "Everything seems to be working.", 
             "name": "Blockerbugs", 
-            "status": "scheduled", 
+            "status": "good", 
             "url": "http://qa.fedoraproject.org/blockerbugs/"
         }, 
         "bodhi": {
-            "message": "Database migrations in progress", 
+            "message": "Everything seems to be working.", 
             "name": "Package Updates Manager", 
-            "status": "scheduled", 
+            "status": "good", 
             "url": "https://admin.fedoraproject.org/updates/"
         }, 
         "copr": {
-            "message": "Database migrations in progress", 
+            "message": "Everything seems to be working.", 
             "name": "COPR Build System", 
-            "status": "scheduled", 
+            "status": "good", 
             "url": "https://copr.fedoraproject.org/"
         }, 
         "darkserver": {
-            "message": "Database migrations in progress", 
+            "message": "Everything seems to be working.", 
             "name": "Darkserver", 
-            "status": "scheduled", 
+            "status": "good", 
             "url": "https://fedoraproject.org/wiki/Darkserver"
         }, 
         "docs": {
-            "message": "Database migrations in progress", 
+            "message": "Everything seems to be working.", 
             "name": "Documentation website", 
-            "status": "scheduled", 
+            "status": "good", 
             "url": "http://docs.fedoraproject.org/"
         }, 
         "elections": {
-            "message": "Database migrations in progress", 
+            "message": "Everything seems to be working.", 
             "name": "Fedora elections", 
-            "status": "scheduled", 
+            "status": "good", 
             "url": "https://admin.fedoraproject.org/voting/"
         }, 
         "fas": {
-            "message": "Database migrations in progress", 
+            "message": "Everything seems to be working.", 
             "name": "Account System", 
-            "status": "scheduled", 
+            "status": "good", 
             "url": "https://admin.fedoraproject.org/accounts/"
         }, 
         "fedmsg": {
-            "message": "Database migrations in progress", 
+            "message": "Everything seems to be working.", 
             "name": "Fedora Messaging Bus", 
-            "status": "scheduled", 
+            "status": "good", 
             "url": "https://admin.fedoraproject.org/pkgdb/acls/name/fedmsg"
         }, 
         "fedocal": {
-            "message": "Database migrations in progress", 
+            "message": "Everything seems to be working.", 
             "name": "Fedora Calendar", 
-            "status": "scheduled", 
+            "status": "good", 
             "url": "https://apps.fedoraproject.org/fedocal/"
         }, 
         "fedorahosted": {
-            "message": "Database migrations in progress", 
+            "message": "Everything seems to be working.", 
             "name": "FedoraHosted.org Services", 
-            "status": "scheduled", 
+            "status": "good", 
             "url": "https://fedorahosted.org/web/"
         }, 
         "fedorapaste": {
-            "message": "Database migrations in progress", 
+            "message": "Everything seems to be working.", 
             "name": "Fedora pastebin service", 
-            "status": "scheduled", 
+            "status": "good", 
             "url": "https://paste.fedorahosted.org/"
         }, 
         "freemedia": {
-            "message": "Database migrations in progress", 
+            "message": "Everything seems to be working.", 
             "name": "FreeMedia", 
-            "status": "scheduled", 
+            "status": "good", 
             "url": "http://fedoraproject.org/wiki/FreeMedia"
         }, 
         "koji": {
-            "message": "Database migrations in progress", 
+            "message": "Everything seems to be working.", 
             "name": "The Koji Buildsystem", 
-            "status": "scheduled", 
+            "status": "good", 
             "url": "http://koji.fedoraproject.org/koji/"
         }, 
         "mailinglists": {
-            "message": "Database migrations in progress", 
+            "message": "Everything seems to be working.", 
             "name": "Mailing Lists", 
-            "status": "scheduled", 
+            "status": "good", 
             "url": "http://lists.fedoraproject.org/"
         }, 
         "mirrorlist": {
-            "message": "Database migrations in progress", 
+            "message": "Everything seems to be working.", 
             "name": "Mirror List", 
-            "status": "scheduled", 
+            "status": "good", 
             "url": "http://mirrors.fedoraproject.org/publiclist/"
         }, 
         "mirrormanager": {
-            "message": "Database migrations in progress", 
+            "message": "Everything seems to be working.", 
             "name": "Mirror Manager", 
-            "status": "scheduled", 
+            "status": "good", 
             "url": "http://mirrors.fedoraproject.org/"
         }, 
         "packages": {
-            "message": "Database migrations in progress", 
+            "message": "Everything seems to be working.", 
             "name": "Fedora Packages App", 
-            "status": "scheduled", 
+            "status": "good", 
             "url": "https://apps.fedoraproject.org/packages"
         }, 
         "people": {
-            "message": "Database migrations in progress", 
+            "message": "Everything seems to be working.", 
             "name": "Fedora People", 
-            "status": "scheduled", 
+            "status": "good", 
             "url": "https://fedorapeople.org/"
         }, 
         "pkgdb": {
-            "message": "Database migrations in progress", 
+            "message": "Everything seems to be working.", 
             "name": "Package Database", 
-            "status": "scheduled", 
+            "status": "good", 
             "url": "https://admin.fedoraproject.org/pkgdb/"
         }, 
         "pkgs": {
             "mailinglists": "Fedora mailing lists", 
-            "message": "Database migrations in progress", 
+            "message": "Everything seems to be working.", 
             "name": "Package maintainers git repositories", 
-            "status": "scheduled", 
+            "status": "good", 
             "url": "http://pkgs.fedoraproject.org/"
         }, 
         "tagger": {
-            "message": "Database migrations in progress", 
+            "message": "Everything seems to be working.", 
             "name": "Tagger", 
-            "status": "scheduled", 
+            "status": "good", 
             "url": "https://apps.fedoraproject.org/tagger/"
         }, 
         "website": {
-            "message": "Database migrations in progress", 
+            "message": "Everything seems to be working.", 
             "name": "Fedora websites", 
-            "status": "scheduled", 
+            "status": "good", 
             "url": "http://fedoraproject.org/"
         }, 
         "wiki": {
-            "message": "Database migrations in progress", 
+            "message": "Everything seems to be working.", 
             "name": "Fedora Wiki", 
-            "status": "scheduled", 
+            "status": "good", 
             "url": "https://fedoraproject.org/wiki/Fedora_Project_Wiki"
         }, 
         "zodbot": {
-            "message": "Database migrations in progress", 
+            "message": "Everything seems to be working.", 
             "name": "Zodbot IRC bot", 
-            "status": "scheduled", 
+            "status": "good", 
             "url": "https://fedoraproject.org/wiki/Zodbot"
         }
     }
