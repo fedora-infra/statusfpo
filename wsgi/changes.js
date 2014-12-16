@@ -1,5 +1,13 @@
 callback([
     {
+        "status": "scheduled", 
+        "new_global_status": "scheduled", 
+        "service": "fas", 
+        "changetype": "single", 
+        "message": "fas db migration in progress", 
+        "changedate": 1418767256.468845
+    }, 
+    {
         "status": "good", 
         "new_global_status": "good", 
         "service": "mailinglists", 

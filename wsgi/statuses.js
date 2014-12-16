@@ -58,9 +58,9 @@ callback({
             "url": "https://admin.fedoraproject.org/voting/"
         }, 
         "fas": {
-            "message": "Everything seems to be working.", 
+            "message": "fas db migration in progress", 
             "name": "Account System", 
-            "status": "good", 
+            "status": "scheduled", 
             "url": "https://admin.fedoraproject.org/accounts/"
         }, 
         "fedmsg": {
