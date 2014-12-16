@@ -100,9 +100,9 @@
             "url": "http://koji.fedoraproject.org/koji/"
         }, 
         "mailinglists": {
-            "message": "lists.fedorahosted.org down", 
+            "message": "Everything seems to be working.", 
             "name": "Mailing Lists", 
-            "status": "major", 
+            "status": "good", 
             "url": "http://lists.fedoraproject.org/"
         }, 
         "mirrorlist": {
