@@ -1,5 +1,13 @@
 [
     {
+        "status": "scheduled", 
+        "new_global_status": "scheduled", 
+        "service": "koji", 
+        "changetype": "single", 
+        "message": "scheduled outage", 
+        "changedate": 1419278582.374116
+    }, 
+    {
         "status": "good", 
         "new_global_status": "good", 
         "changetype": "multiple", 
