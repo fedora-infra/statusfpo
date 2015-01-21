@@ -1,5 +1,13 @@
 callback([
     {
+        "status": "good", 
+        "new_global_status": "good", 
+        "service": "packages", 
+        "changetype": "single", 
+        "message": "Everything seems to be working.", 
+        "changedate": 1421879441.363022
+    }, 
+    {
         "status": "scheduled", 
         "new_global_status": "scheduled", 
         "service": "packages", 
