@@ -1,5 +1,13 @@
 [
     {
+        "status": "scheduled", 
+        "new_global_status": "scheduled", 
+        "service": "packages", 
+        "changetype": "single", 
+        "message": "Rebuilding xapian database", 
+        "changedate": 1421863664.590579
+    }, 
+    {
         "status": "good", 
         "new_global_status": "good", 
         "service": "koji", 
