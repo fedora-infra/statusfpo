@@ -106,9 +106,9 @@ callback({
             "url": "http://lists.fedoraproject.org/"
         }, 
         "mirrorlist": {
-            "message": "Everything seems to be working.", 
+            "message": "Mirrorlist servers down, being worked on", 
             "name": "Mirror List", 
-            "status": "good", 
+            "status": "major", 
             "url": "http://mirrors.fedoraproject.org/publiclist/"
         }, 
         "mirrormanager": {

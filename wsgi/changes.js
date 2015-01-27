@@ -1,5 +1,13 @@
 callback([
     {
+        "status": "major", 
+        "new_global_status": "major", 
+        "service": "mirrorlist", 
+        "changetype": "single", 
+        "message": "Mirrorlist servers down, being worked on", 
+        "changedate": 1422385004.525724
+    }, 
+    {
         "status": "good", 
         "new_global_status": "good", 
         "service": "packages", 
