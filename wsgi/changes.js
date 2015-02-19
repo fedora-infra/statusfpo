@@ -1,5 +1,16 @@
 callback([
     {
+        "status": "scheduled", 
+        "new_global_status": "scheduled", 
+        "changetype": "multiple", 
+        "services": [
+            "pkgs", 
+            "koji"
+        ], 
+        "message": "Gitolite migration in progress", 
+        "changedate": 1424336373.662891
+    }, 
+    {
         "status": "good", 
         "new_global_status": "good", 
         "service": "copr", 
