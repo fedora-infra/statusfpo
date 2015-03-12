@@ -1,5 +1,5 @@
 {
-    "global_info": "Maintenance ticket: https://fedorahosted.org/fedora-infrastructure/ticket/4681", 
+    "global_info": "", 
     "global_status": "minor", 
     "global_verbose_status": "Minor service disruption", 
     "services": {
