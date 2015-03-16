@@ -1,5 +1,16 @@
 callback([
     {
+        "status": "scheduled", 
+        "new_global_status": "scheduled", 
+        "changetype": "multiple", 
+        "services": [
+            "fedmsg", 
+            "badges"
+        ], 
+        "message": "Datanommer database upgrade.", 
+        "changedate": 1426536404.841793
+    }, 
+    {
         "status": "good", 
         "new_global_status": "good", 
         "changetype": "multiple", 

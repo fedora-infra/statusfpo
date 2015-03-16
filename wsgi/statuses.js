@@ -16,9 +16,9 @@ callback({
             "url": "https://id.fedoraproject.org/"
         }, 
         "badges": {
-            "message": "Everything seems to be working.", 
+            "message": "Datanommer database upgrade.", 
             "name": "Badges", 
-            "status": "good", 
+            "status": "scheduled", 
             "url": "http:/badges.fedoraproject.org/"
         }, 
         "blockerbugs": {
@@ -64,9 +64,9 @@ callback({
             "url": "https://admin.fedoraproject.org/accounts/"
         }, 
         "fedmsg": {
-            "message": "Everything seems to be working.", 
+            "message": "Datanommer database upgrade.", 
             "name": "Fedora Messaging Bus", 
-            "status": "good", 
+            "status": "scheduled", 
             "url": "https://admin.fedoraproject.org/pkgdb/acls/name/fedmsg"
         }, 
         "fedocal": {
