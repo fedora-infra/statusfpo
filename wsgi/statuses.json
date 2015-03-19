@@ -34,9 +34,9 @@
             "url": "https://admin.fedoraproject.org/updates/"
         }, 
         "copr": {
-            "message": "Copr backend is currently down", 
+            "message": "Everything seems to be working.", 
             "name": "COPR Build System", 
-            "status": "major", 
+            "status": "good", 
             "url": "https://copr.fedoraproject.org/"
         }, 
         "darkserver": {
