@@ -1,5 +1,13 @@
 callback([
     {
+        "status": "major", 
+        "new_global_status": "major", 
+        "service": "ask", 
+        "changetype": "single", 
+        "message": "upgrade in progress", 
+        "changedate": 1427472760.149981
+    }, 
+    {
         "status": "good", 
         "new_global_status": "good", 
         "service": "copr", 

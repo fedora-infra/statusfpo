@@ -4,9 +4,9 @@ callback({
     "global_verbose_status": "Minor service disruption", 
     "services": {
         "ask": {
-            "message": "Everything seems to be working.", 
+            "message": "upgrade in progress", 
             "name": "Ask Fedora", 
-            "status": "good", 
+            "status": "major", 
             "url": "http://ask.fedoraproject.org/"
         }, 
         "authentication": {
