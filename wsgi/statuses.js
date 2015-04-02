@@ -137,9 +137,9 @@ callback({
         }, 
         "pkgs": {
             "mailinglists": "Fedora mailing lists", 
-            "message": "Everything seems to be working.", 
+            "message": "lookaside/cgit down", 
             "name": "Package maintainers git repositories", 
-            "status": "good", 
+            "status": "major", 
             "url": "http://pkgs.fedoraproject.org/"
         }, 
         "tagger": {

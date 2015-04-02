@@ -1,5 +1,13 @@
 [
     {
+        "status": "major", 
+        "new_global_status": "major", 
+        "service": "pkgs", 
+        "changetype": "single", 
+        "message": "lookaside/cgit down", 
+        "changedate": 1428002764.943971
+    }, 
+    {
         "status": "good", 
         "new_global_status": "good", 
         "service": "ask", 
