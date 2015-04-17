@@ -1,5 +1,13 @@
 callback([
     {
+        "status": "minor", 
+        "new_global_status": "minor", 
+        "service": "bodhi", 
+        "changetype": "single", 
+        "message": "Load issues, being looked into", 
+        "changedate": 1429258066.890904
+    }, 
+    {
         "status": "good", 
         "new_global_status": "good", 
         "changetype": "multiple", 
