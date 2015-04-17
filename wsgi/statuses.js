@@ -28,9 +28,9 @@ callback({
             "url": "http://qa.fedoraproject.org/blockerbugs/"
         }, 
         "bodhi": {
-            "message": "Load issues, being looked into", 
+            "message": "Everything seems to be working.", 
             "name": "Package Updates Manager", 
-            "status": "minor", 
+            "status": "good", 
             "url": "https://admin.fedoraproject.org/updates/"
         }, 
         "copr": {
