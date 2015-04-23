@@ -4,166 +4,166 @@
     "global_verbose_status": "Minor service disruption", 
     "services": {
         "ask": {
-            "message": "Unplanned outage in one of our datacenter, may affect most of our application depending on your location", 
+            "message": "Everything seems to be working.", 
             "name": "Ask Fedora", 
-            "status": "minor", 
+            "status": "good", 
             "url": "http://ask.fedoraproject.org/"
         }, 
         "authentication": {
-            "message": "Unplanned outage in one of our datacenter, may affect most of our application depending on your location", 
+            "message": "Everything seems to be working.", 
             "name": "FedOAuth", 
-            "status": "minor", 
+            "status": "good", 
             "url": "https://id.fedoraproject.org/"
         }, 
         "badges": {
-            "message": "Unplanned outage in one of our datacenter, may affect most of our application depending on your location", 
+            "message": "Everything seems to be working.", 
             "name": "Badges", 
-            "status": "minor", 
+            "status": "good", 
             "url": "http:/badges.fedoraproject.org/"
         }, 
         "blockerbugs": {
-            "message": "Unplanned outage in one of our datacenter, may affect most of our application depending on your location", 
+            "message": "Everything seems to be working.", 
             "name": "Blockerbugs", 
-            "status": "minor", 
+            "status": "good", 
             "url": "http://qa.fedoraproject.org/blockerbugs/"
         }, 
         "bodhi": {
-            "message": "Unplanned outage in one of our datacenter, may affect most of our application depending on your location", 
+            "message": "Everything seems to be working.", 
             "name": "Package Updates Manager", 
-            "status": "minor", 
+            "status": "good", 
             "url": "https://admin.fedoraproject.org/updates/"
         }, 
         "copr": {
-            "message": "Unplanned outage in one of our datacenter, may affect most of our application depending on your location", 
+            "message": "Everything seems to be working.", 
             "name": "COPR Build System", 
-            "status": "minor", 
+            "status": "good", 
             "url": "https://copr.fedoraproject.org/"
         }, 
         "darkserver": {
-            "message": "Unplanned outage in one of our datacenter, may affect most of our application depending on your location", 
+            "message": "Everything seems to be working.", 
             "name": "Darkserver", 
-            "status": "minor", 
+            "status": "good", 
             "url": "https://fedoraproject.org/wiki/Darkserver"
         }, 
         "docs": {
-            "message": "Unplanned outage in one of our datacenter, may affect most of our application depending on your location", 
+            "message": "Everything seems to be working.", 
             "name": "Documentation website", 
-            "status": "minor", 
+            "status": "good", 
             "url": "http://docs.fedoraproject.org/"
         }, 
         "elections": {
-            "message": "Unplanned outage in one of our datacenter, may affect most of our application depending on your location", 
+            "message": "Everything seems to be working.", 
             "name": "Fedora elections", 
-            "status": "minor", 
+            "status": "good", 
             "url": "https://admin.fedoraproject.org/voting/"
         }, 
         "fas": {
-            "message": "Unplanned outage in one of our datacenter, may affect most of our application depending on your location", 
+            "message": "Everything seems to be working.", 
             "name": "Account System", 
-            "status": "minor", 
+            "status": "good", 
             "url": "https://admin.fedoraproject.org/accounts/"
         }, 
         "fedmsg": {
-            "message": "Unplanned outage in one of our datacenter, may affect most of our application depending on your location", 
+            "message": "Everything seems to be working.", 
             "name": "Fedora Messaging Bus", 
-            "status": "minor", 
+            "status": "good", 
             "url": "https://admin.fedoraproject.org/pkgdb/acls/name/fedmsg"
         }, 
         "fedocal": {
-            "message": "Unplanned outage in one of our datacenter, may affect most of our application depending on your location", 
+            "message": "Everything seems to be working.", 
             "name": "Fedora Calendar", 
-            "status": "minor", 
+            "status": "good", 
             "url": "https://apps.fedoraproject.org/fedocal/"
         }, 
         "fedorahosted": {
-            "message": "Unplanned outage in one of our datacenter, may affect most of our application depending on your location", 
+            "message": "Everything seems to be working.", 
             "name": "FedoraHosted.org Services", 
-            "status": "minor", 
+            "status": "good", 
             "url": "https://fedorahosted.org/web/"
         }, 
         "fedorapaste": {
-            "message": "Unplanned outage in one of our datacenter, may affect most of our application depending on your location", 
+            "message": "Everything seems to be working.", 
             "name": "Fedora pastebin service", 
-            "status": "minor", 
+            "status": "good", 
             "url": "https://paste.fedorahosted.org/"
         }, 
         "freemedia": {
-            "message": "Unplanned outage in one of our datacenter, may affect most of our application depending on your location", 
+            "message": "Everything seems to be working.", 
             "name": "FreeMedia", 
-            "status": "minor", 
+            "status": "good", 
             "url": "http://fedoraproject.org/wiki/FreeMedia"
         }, 
         "koji": {
-            "message": "Unplanned outage in one of our datacenter, may affect most of our application depending on your location", 
+            "message": "Everything seems to be working.", 
             "name": "The Koji Buildsystem", 
-            "status": "minor", 
+            "status": "good", 
             "url": "http://koji.fedoraproject.org/koji/"
         }, 
         "mailinglists": {
-            "message": "Unplanned outage in one of our datacenter, may affect most of our application depending on your location", 
+            "message": "Everything seems to be working.", 
             "name": "Mailing Lists", 
-            "status": "minor", 
+            "status": "good", 
             "url": "http://lists.fedoraproject.org/"
         }, 
         "mirrorlist": {
-            "message": "Unplanned outage in one of our datacenter, may affect most of our application depending on your location", 
+            "message": "Everything seems to be working.", 
             "name": "Mirror List", 
-            "status": "minor", 
+            "status": "good", 
             "url": "http://mirrors.fedoraproject.org/publiclist/"
         }, 
         "mirrormanager": {
-            "message": "Unplanned outage in one of our datacenter, may affect most of our application depending on your location", 
+            "message": "Everything seems to be working.", 
             "name": "Mirror Manager", 
-            "status": "minor", 
+            "status": "good", 
             "url": "http://mirrors.fedoraproject.org/"
         }, 
         "packages": {
-            "message": "Unplanned outage in one of our datacenter, may affect most of our application depending on your location", 
+            "message": "Everything seems to be working.", 
             "name": "Fedora Packages App", 
-            "status": "minor", 
+            "status": "good", 
             "url": "https://apps.fedoraproject.org/packages"
         }, 
         "people": {
-            "message": "Unplanned outage in one of our datacenter, may affect most of our application depending on your location", 
+            "message": "Everything seems to be working.", 
             "name": "Fedora People", 
-            "status": "minor", 
+            "status": "good", 
             "url": "https://fedorapeople.org/"
         }, 
         "pkgdb": {
-            "message": "Unplanned outage in one of our datacenter, may affect most of our application depending on your location", 
+            "message": "Everything seems to be working.", 
             "name": "Package Database", 
-            "status": "minor", 
+            "status": "good", 
             "url": "https://admin.fedoraproject.org/pkgdb/"
         }, 
         "pkgs": {
             "mailinglists": "Fedora mailing lists", 
-            "message": "Unplanned outage in one of our datacenter, may affect most of our application depending on your location", 
+            "message": "Everything seems to be working.", 
             "name": "Package maintainers git repositories", 
-            "status": "minor", 
+            "status": "good", 
             "url": "http://pkgs.fedoraproject.org/"
         }, 
         "tagger": {
-            "message": "Unplanned outage in one of our datacenter, may affect most of our application depending on your location", 
+            "message": "Everything seems to be working.", 
             "name": "Tagger", 
-            "status": "minor", 
+            "status": "good", 
             "url": "https://apps.fedoraproject.org/tagger/"
         }, 
         "website": {
-            "message": "Unplanned outage in one of our datacenter, may affect most of our application depending on your location", 
+            "message": "Everything seems to be working.", 
             "name": "Fedora websites", 
-            "status": "minor", 
+            "status": "good", 
             "url": "http://fedoraproject.org/"
         }, 
         "wiki": {
-            "message": "Unplanned outage in one of our datacenter, may affect most of our application depending on your location", 
+            "message": "Everything seems to be working.", 
             "name": "Fedora Wiki", 
-            "status": "minor", 
+            "status": "good", 
             "url": "https://fedoraproject.org/wiki/Fedora_Project_Wiki"
         }, 
         "zodbot": {
-            "message": "Unplanned outage in one of our datacenter, may affect most of our application depending on your location", 
+            "message": "Everything seems to be working.", 
             "name": "Zodbot IRC bot", 
-            "status": "minor", 
+            "status": "good", 
             "url": "https://fedoraproject.org/wiki/Zodbot"
         }
     }
