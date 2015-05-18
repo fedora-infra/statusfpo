@@ -1,5 +1,13 @@
 callback([
     {
+        "status": "minor", 
+        "new_global_status": "minor", 
+        "service": "copr", 
+        "changetype": "single", 
+        "message": "Currently being migrated", 
+        "changedate": 1431947678.79725
+    }, 
+    {
         "status": "good", 
         "new_global_status": "good", 
         "changetype": "multiple", 
