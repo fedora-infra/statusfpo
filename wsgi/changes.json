@@ -1,5 +1,13 @@
 [
     {
+        "status": "minor", 
+        "new_global_status": "minor", 
+        "service": "copr", 
+        "changetype": "single", 
+        "message": "Migrations underway. Services will be restored later today", 
+        "changedate": 1432016741.784542
+    }, 
+    {
         "status": "good", 
         "new_global_status": "good", 
         "service": "copr", 
