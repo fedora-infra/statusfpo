@@ -34,9 +34,9 @@ callback({
             "url": "https://admin.fedoraproject.org/updates/"
         }, 
         "copr": {
-            "message": "Everything seems to be working.", 
+            "message": "Network issues in PHX - Copr queue jobs, but is not processing the queue. We are working on this issue.", 
             "name": "COPR Build System", 
-            "status": "good", 
+            "status": "major", 
             "url": "https://copr.fedoraproject.org/"
         }, 
         "darkserver": {
