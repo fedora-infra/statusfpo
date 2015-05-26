@@ -4,6 +4,14 @@
         "new_global_status": "major", 
         "service": "copr", 
         "changetype": "single", 
+        "message": "Network issues in PHX - Copr queue jobs, but is not processing the queue. We are working on this issue.", 
+        "changedate": 1432621045.111955
+    }, 
+    {
+        "status": "major", 
+        "new_global_status": "major", 
+        "service": "copr", 
+        "changetype": "single", 
         "message": "Network issues", 
         "changedate": 1432621015.58319
     }, 

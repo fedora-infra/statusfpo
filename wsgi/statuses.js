@@ -34,7 +34,7 @@ callback({
             "url": "https://admin.fedoraproject.org/updates/"
         }, 
         "copr": {
-            "message": "Network issues", 
+            "message": "Network issues in PHX - Copr queue jobs, but is not processing the queue. We are working on this issue.", 
             "name": "COPR Build System", 
             "status": "major", 
             "url": "https://copr.fedoraproject.org/"
