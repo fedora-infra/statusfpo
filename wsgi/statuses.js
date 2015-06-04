@@ -34,9 +34,9 @@ callback({
             "url": "https://admin.fedoraproject.org/updates/"
         }, 
         "copr": {
-            "message": "COPR frontend is back, builds will get back soon", 
+            "message": "Everything seems to be working.", 
             "name": "COPR Build System", 
-            "status": "minor", 
+            "status": "good", 
             "url": "https://copr.fedoraproject.org/"
         }, 
         "darkserver": {
