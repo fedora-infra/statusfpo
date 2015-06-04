@@ -1,5 +1,13 @@
 callback([
     {
+        "status": "minor", 
+        "new_global_status": "minor", 
+        "service": "copr", 
+        "changetype": "single", 
+        "message": "COPR frontend is back, builds will get back soon", 
+        "changedate": 1433421947.499779
+    }, 
+    {
         "status": "major", 
         "new_global_status": "major", 
         "service": "copr", 
