@@ -34,7 +34,7 @@ callback({
             "url": "https://admin.fedoraproject.org/updates/"
         }, 
         "copr": {
-            "message": "Everything seems to be working.", 
+            "message": "COPR is down, we are working on it", 
             "name": "COPR Build System", 
             "status": "major", 
             "url": "https://copr.fedoraproject.org/"

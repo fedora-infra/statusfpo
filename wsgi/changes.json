@@ -4,6 +4,14 @@
         "new_global_status": "major", 
         "service": "copr", 
         "changetype": "single", 
+        "message": "COPR is down, we are working on it", 
+        "changedate": 1433391582.862703
+    }, 
+    {
+        "status": "major", 
+        "new_global_status": "major", 
+        "service": "copr", 
+        "changetype": "single", 
         "message": "Everything seems to be working.", 
         "changedate": 1433380504.185031
     }, 
