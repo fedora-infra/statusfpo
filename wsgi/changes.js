@@ -8,6 +8,7 @@ callback([
             "people", 
             "zodbot", 
             "koji", 
+            "koschei", 
             "darkserver", 
             "tagger", 
             "pkgdb", 
