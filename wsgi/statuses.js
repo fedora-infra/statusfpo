@@ -93,6 +93,12 @@ callback({
             "status": "good", 
             "url": "http://fedoraproject.org/wiki/FreeMedia"
         }, 
+        "koschei": {
+            "message": "Everything seems to be working.", 
+            "name": "Koschei Continuous Integration", 
+            "status": "good", 
+            "url": "https://apps.fedoraproject.org/koschei/"
+        }, 
         "koji": {
             "message": "Everything seems to be working.", 
             "name": "The Koji Buildsystem", 
