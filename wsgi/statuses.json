@@ -1,7 +1,7 @@
 {
     "global_info": "", 
-    "global_status": "minor", 
-    "global_verbose_status": "Minor service disruption", 
+    "global_status": "good", 
+    "global_verbose_status": "All systems go", 
     "services": {
         "ask": {
             "message": "Everything seems to be working.", 
@@ -92,6 +92,12 @@
             "name": "FreeMedia", 
             "status": "good", 
             "url": "http://fedoraproject.org/wiki/FreeMedia"
+        }, 
+        "koschei": {
+            "message": "Everything seems to be working.", 
+            "name": "Koschei Continuous Integration", 
+            "status": "good", 
+            "url": "https://apps.fedoraproject.org/koschei/"
         }, 
         "koji": {
             "message": "Everything seems to be working.", 
