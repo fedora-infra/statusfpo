@@ -1,5 +1,13 @@
 callback([
     {
+        "status": "major", 
+        "new_global_status": "major", 
+        "service": "koschei", 
+        "changetype": "single", 
+        "message": "There are problems with the web frontend. We are currently working towards fixing them.", 
+        "changedate": 1435578778.8563
+    }, 
+    {
         "status": "good", 
         "new_global_status": "good", 
         "changetype": "multiple", 
@@ -8,7 +16,6 @@ callback([
             "people", 
             "zodbot", 
             "koji", 
-            "koschei", 
             "darkserver", 
             "tagger", 
             "pkgdb", 

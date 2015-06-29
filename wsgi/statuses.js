@@ -1,7 +1,7 @@
 callback({
     "global_info": "", 
-    "global_status": "minor", 
-    "global_verbose_status": "Minor service disruption", 
+    "global_status": "good", 
+    "global_verbose_status": "All systems go", 
     "services": {
         "ask": {
             "message": "Everything seems to be working.", 
@@ -93,17 +93,17 @@ callback({
             "status": "good", 
             "url": "http://fedoraproject.org/wiki/FreeMedia"
         }, 
-        "koschei": {
-            "message": "Everything seems to be working.", 
-            "name": "Koschei Continuous Integration", 
-            "status": "good", 
-            "url": "https://apps.fedoraproject.org/koschei/"
-        }, 
         "koji": {
             "message": "Everything seems to be working.", 
             "name": "The Koji Buildsystem", 
             "status": "good", 
             "url": "http://koji.fedoraproject.org/koji/"
+        }, 
+        "koschei": {
+            "message": "There are problems with the web frontend. We are currently working towards fixing them.", 
+            "name": "Koschei Continuous Integration", 
+            "status": "major", 
+            "url": "https://apps.fedoraproject.org/koschei/"
         }, 
         "mailinglists": {
             "message": "Everything seems to be working.", 
