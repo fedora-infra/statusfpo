@@ -100,9 +100,9 @@ callback({
             "url": "http://koji.fedoraproject.org/koji/"
         }, 
         "koschei": {
-            "message": "There are problems with the web frontend. We are currently working towards fixing them.", 
+            "message": "Everything seems to be working.", 
             "name": "Koschei Continuous Integration", 
-            "status": "major", 
+            "status": "good", 
             "url": "https://apps.fedoraproject.org/koschei/"
         }, 
         "mailinglists": {
