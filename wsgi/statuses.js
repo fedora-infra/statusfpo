@@ -130,9 +130,9 @@ callback({
             "url": "https://apps.fedoraproject.org/packages"
         }, 
         "people": {
-            "message": "Everything seems to be working.", 
+            "message": "Fedora People is getting migrated. More info: https://fedorahosted.org/fedora-infrastructure/ticket/4810", 
             "name": "Fedora People", 
-            "status": "good", 
+            "status": "scheduled", 
             "url": "https://fedorapeople.org/"
         }, 
         "pkgdb": {

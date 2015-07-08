@@ -1,5 +1,13 @@
 callback([
     {
+        "status": "scheduled", 
+        "new_global_status": "scheduled", 
+        "service": "people", 
+        "changetype": "single", 
+        "message": "Fedora People is getting migrated. More info: https://fedorahosted.org/fedora-infrastructure/ticket/4810", 
+        "changedate": 1436389698.852274
+    }, 
+    {
         "status": "good", 
         "new_global_status": "good", 
         "service": "koschei", 
