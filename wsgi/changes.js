@@ -1,5 +1,13 @@
 callback([
     {
+        "status": "major", 
+        "new_global_status": "major", 
+        "service": "copr", 
+        "changetype": "single", 
+        "message": "COPR is not running any builds, being looked into", 
+        "changedate": 1436626886.425936
+    }, 
+    {
         "status": "good", 
         "new_global_status": "good", 
         "service": "people", 
