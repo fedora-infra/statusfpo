@@ -10,9 +10,9 @@
             "url": "http://ask.fedoraproject.org/"
         }, 
         "authentication": {
-            "message": "Authentication infrastructure upgrade: https://fedorahosted.org/fedora-infrastructure/ticket/4814", 
+            "message": "Everything seems to be working.", 
             "name": "FedOAuth", 
-            "status": "scheduled", 
+            "status": "good", 
             "url": "https://id.fedoraproject.org/"
         }, 
         "badges": {
