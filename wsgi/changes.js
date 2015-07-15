@@ -1,5 +1,27 @@
 callback([
     {
+        "status": "good", 
+        "new_global_status": "scheduled", 
+        "changetype": "multiple", 
+        "services": [
+            "tagger", 
+            "pkgdb", 
+            "blockerbugs", 
+            "badges", 
+            "fedorahosted", 
+            "mirrormanager", 
+            "koschei", 
+            "pkgs", 
+            "copr", 
+            "bodhi", 
+            "ask", 
+            "elections", 
+            "fedocal"
+        ], 
+        "message": "Everything seems to be working.", 
+        "changedate": 1436953969.523944
+    }, 
+    {
         "status": "scheduled", 
         "new_global_status": "scheduled", 
         "changetype": "multiple", 
