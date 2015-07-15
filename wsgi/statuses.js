@@ -11,7 +11,7 @@ callback({
         }, 
         "authentication": {
             "message": "Everything seems to be working.", 
-            "name": "FedOAuth", 
+            "name": "Ipsilon", 
             "status": "good", 
             "url": "https://id.fedoraproject.org/"
         }, 
