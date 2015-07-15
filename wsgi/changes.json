@@ -1,5 +1,28 @@
 [
     {
+        "status": "scheduled", 
+        "new_global_status": "scheduled", 
+        "changetype": "multiple", 
+        "services": [
+            "tagger", 
+            "pkgdb", 
+            "blockerbugs", 
+            "badges", 
+            "fedorahosted", 
+            "mirrormanager", 
+            "koschei", 
+            "authentication", 
+            "pkgs", 
+            "copr", 
+            "bodhi", 
+            "ask", 
+            "elections", 
+            "fedocal"
+        ], 
+        "message": "Authentication infrastructure upgrade: https://fedorahosted.org/fedora-infrastructure/ticket/4814", 
+        "changedate": 1436947479.724408
+    }, 
+    {
         "status": "good", 
         "new_global_status": "good", 
         "service": "copr", 
