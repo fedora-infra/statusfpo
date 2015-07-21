@@ -34,9 +34,9 @@ callback({
             "url": "https://admin.fedoraproject.org/updates/"
         }, 
         "copr": {
-            "message": "Everything seems to be working.", 
+            "message": "server updates", 
             "name": "COPR Build System", 
-            "status": "good", 
+            "status": "scheduled", 
             "url": "https://copr.fedoraproject.org/"
         }, 
         "darkserver": {
@@ -94,15 +94,15 @@ callback({
             "url": "http://fedoraproject.org/wiki/FreeMedia"
         }, 
         "koji": {
-            "message": "Everything seems to be working.", 
+            "message": "server updates", 
             "name": "The Koji Buildsystem", 
-            "status": "good", 
+            "status": "scheduled", 
             "url": "http://koji.fedoraproject.org/koji/"
         }, 
         "koschei": {
-            "message": "Everything seems to be working.", 
+            "message": "server updates", 
             "name": "Koschei Continuous Integration", 
-            "status": "good", 
+            "status": "scheduled", 
             "url": "https://apps.fedoraproject.org/koschei/"
         }, 
         "mailinglists": {
@@ -143,9 +143,9 @@ callback({
         }, 
         "pkgs": {
             "mailinglists": "Fedora mailing lists", 
-            "message": "Everything seems to be working.", 
+            "message": "server updates", 
             "name": "Package maintainers git repositories", 
-            "status": "good", 
+            "status": "scheduled", 
             "url": "http://pkgs.fedoraproject.org/"
         }, 
         "tagger": {

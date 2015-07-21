@@ -1,5 +1,18 @@
 callback([
     {
+        "status": "scheduled", 
+        "new_global_status": "scheduled", 
+        "changetype": "multiple", 
+        "services": [
+            "koschei", 
+            "koji", 
+            "pkgs", 
+            "copr"
+        ], 
+        "message": "server updates", 
+        "changedate": 1437512409.004318
+    }, 
+    {
         "status": "good", 
         "new_global_status": "good", 
         "service": "authentication", 
