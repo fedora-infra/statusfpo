@@ -94,15 +94,15 @@
             "url": "http://fedoraproject.org/wiki/FreeMedia"
         }, 
         "koji": {
-            "message": "server updates", 
+            "message": "Everything seems to be working.", 
             "name": "The Koji Buildsystem", 
-            "status": "scheduled", 
+            "status": "good", 
             "url": "http://koji.fedoraproject.org/koji/"
         }, 
         "koschei": {
-            "message": "server updates", 
+            "message": "Everything seems to be working.", 
             "name": "Koschei Continuous Integration", 
-            "status": "scheduled", 
+            "status": "good", 
             "url": "https://apps.fedoraproject.org/koschei/"
         }, 
         "mailinglists": {
@@ -143,9 +143,9 @@
         }, 
         "pkgs": {
             "mailinglists": "Fedora mailing lists", 
-            "message": "server updates", 
+            "message": "Everything seems to be working.", 
             "name": "Package maintainers git repositories", 
-            "status": "scheduled", 
+            "status": "good", 
             "url": "http://pkgs.fedoraproject.org/"
         }, 
         "tagger": {
