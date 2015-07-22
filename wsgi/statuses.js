@@ -1,66 +1,66 @@
 callback({
-    "global_info": "", 
+    "global_info": "Updates in progress: https://fedorahosted.org/fedora-infrastructure/ticket/4832", 
     "global_status": "good", 
     "global_verbose_status": "All systems go", 
     "services": {
         "ask": {
-            "message": "Everything seems to be working.", 
+            "message": "Updates in progress: https://fedorahosted.org/fedora-infrastructure/ticket/4832", 
             "name": "Ask Fedora", 
-            "status": "good", 
+            "status": "scheduled", 
             "url": "http://ask.fedoraproject.org/"
         }, 
         "authentication": {
-            "message": "Everything seems to be working.", 
+            "message": "Updates in progress: https://fedorahosted.org/fedora-infrastructure/ticket/4832", 
             "name": "Ipsilon", 
-            "status": "good", 
+            "status": "scheduled", 
             "url": "https://id.fedoraproject.org/"
         }, 
         "badges": {
-            "message": "Everything seems to be working.", 
+            "message": "Updates in progress: https://fedorahosted.org/fedora-infrastructure/ticket/4832", 
             "name": "Badges", 
-            "status": "good", 
+            "status": "scheduled", 
             "url": "http:/badges.fedoraproject.org/"
         }, 
         "blockerbugs": {
-            "message": "Everything seems to be working.", 
+            "message": "Updates in progress: https://fedorahosted.org/fedora-infrastructure/ticket/4832", 
             "name": "Blockerbugs", 
-            "status": "good", 
+            "status": "scheduled", 
             "url": "http://qa.fedoraproject.org/blockerbugs/"
         }, 
         "bodhi": {
-            "message": "Everything seems to be working.", 
+            "message": "Updates in progress: https://fedorahosted.org/fedora-infrastructure/ticket/4832", 
             "name": "Package Updates Manager", 
-            "status": "good", 
+            "status": "scheduled", 
             "url": "https://admin.fedoraproject.org/updates/"
         }, 
         "copr": {
-            "message": "Everything seems to be working.", 
+            "message": "Updates in progress: https://fedorahosted.org/fedora-infrastructure/ticket/4832", 
             "name": "COPR Build System", 
-            "status": "good", 
+            "status": "scheduled", 
             "url": "https://copr.fedoraproject.org/"
         }, 
         "darkserver": {
-            "message": "Everything seems to be working.", 
+            "message": "Updates in progress: https://fedorahosted.org/fedora-infrastructure/ticket/4832", 
             "name": "Darkserver", 
-            "status": "good", 
+            "status": "scheduled", 
             "url": "https://fedoraproject.org/wiki/Darkserver"
         }, 
         "docs": {
-            "message": "Everything seems to be working.", 
+            "message": "Updates in progress: https://fedorahosted.org/fedora-infrastructure/ticket/4832", 
             "name": "Documentation website", 
-            "status": "good", 
+            "status": "scheduled", 
             "url": "http://docs.fedoraproject.org/"
         }, 
         "elections": {
-            "message": "Everything seems to be working.", 
+            "message": "Updates in progress: https://fedorahosted.org/fedora-infrastructure/ticket/4832", 
             "name": "Fedora elections", 
-            "status": "good", 
+            "status": "scheduled", 
             "url": "https://admin.fedoraproject.org/voting/"
         }, 
         "fas": {
-            "message": "Everything seems to be working.", 
+            "message": "Updates in progress: https://fedorahosted.org/fedora-infrastructure/ticket/4832", 
             "name": "Account System", 
-            "status": "good", 
+            "status": "scheduled", 
             "url": "https://admin.fedoraproject.org/accounts/"
         }, 
         "fedmsg": {
@@ -70,27 +70,27 @@ callback({
             "url": "https://admin.fedoraproject.org/pkgdb/acls/name/fedmsg"
         }, 
         "fedocal": {
-            "message": "Everything seems to be working.", 
+            "message": "Updates in progress: https://fedorahosted.org/fedora-infrastructure/ticket/4832", 
             "name": "Fedora Calendar", 
-            "status": "good", 
+            "status": "scheduled", 
             "url": "https://apps.fedoraproject.org/fedocal/"
         }, 
         "fedorahosted": {
-            "message": "Everything seems to be working.", 
+            "message": "Updates in progress: https://fedorahosted.org/fedora-infrastructure/ticket/4832", 
             "name": "FedoraHosted.org Services", 
-            "status": "good", 
+            "status": "scheduled", 
             "url": "https://fedorahosted.org/web/"
         }, 
         "fedorapaste": {
-            "message": "Everything seems to be working.", 
+            "message": "Updates in progress: https://fedorahosted.org/fedora-infrastructure/ticket/4832", 
             "name": "Fedora pastebin service", 
-            "status": "good", 
+            "status": "scheduled", 
             "url": "https://paste.fedorahosted.org/"
         }, 
         "freemedia": {
-            "message": "Everything seems to be working.", 
+            "message": "Updates in progress: https://fedorahosted.org/fedora-infrastructure/ticket/4832", 
             "name": "FreeMedia", 
-            "status": "good", 
+            "status": "scheduled", 
             "url": "http://fedoraproject.org/wiki/FreeMedia"
         }, 
         "koji": {
@@ -106,70 +106,70 @@ callback({
             "url": "https://apps.fedoraproject.org/koschei/"
         }, 
         "mailinglists": {
-            "message": "Everything seems to be working.", 
+            "message": "Updates in progress: https://fedorahosted.org/fedora-infrastructure/ticket/4832", 
             "name": "Mailing Lists", 
-            "status": "good", 
+            "status": "scheduled", 
             "url": "http://lists.fedoraproject.org/"
         }, 
         "mirrorlist": {
-            "message": "Everything seems to be working.", 
+            "message": "Updates in progress: https://fedorahosted.org/fedora-infrastructure/ticket/4832", 
             "name": "Mirror List", 
-            "status": "good", 
+            "status": "scheduled", 
             "url": "http://mirrors.fedoraproject.org/publiclist/"
         }, 
         "mirrormanager": {
-            "message": "Everything seems to be working.", 
+            "message": "Updates in progress: https://fedorahosted.org/fedora-infrastructure/ticket/4832", 
             "name": "Mirror Manager", 
-            "status": "good", 
+            "status": "scheduled", 
             "url": "http://mirrors.fedoraproject.org/"
         }, 
         "packages": {
-            "message": "Everything seems to be working.", 
+            "message": "Updates in progress: https://fedorahosted.org/fedora-infrastructure/ticket/4832", 
             "name": "Fedora Packages App", 
-            "status": "good", 
+            "status": "scheduled", 
             "url": "https://apps.fedoraproject.org/packages"
         }, 
         "people": {
-            "message": "Everything seems to be working.", 
+            "message": "Updates in progress: https://fedorahosted.org/fedora-infrastructure/ticket/4832", 
             "name": "Fedora People", 
-            "status": "good", 
+            "status": "scheduled", 
             "url": "https://fedorapeople.org/"
         }, 
         "pkgdb": {
-            "message": "Everything seems to be working.", 
+            "message": "Updates in progress: https://fedorahosted.org/fedora-infrastructure/ticket/4832", 
             "name": "Package Database", 
-            "status": "good", 
+            "status": "scheduled", 
             "url": "https://admin.fedoraproject.org/pkgdb/"
         }, 
         "pkgs": {
             "mailinglists": "Fedora mailing lists", 
-            "message": "Everything seems to be working.", 
+            "message": "Updates in progress: https://fedorahosted.org/fedora-infrastructure/ticket/4832", 
             "name": "Package maintainers git repositories", 
-            "status": "good", 
+            "status": "scheduled", 
             "url": "http://pkgs.fedoraproject.org/"
         }, 
         "tagger": {
-            "message": "Everything seems to be working.", 
+            "message": "Updates in progress: https://fedorahosted.org/fedora-infrastructure/ticket/4832", 
             "name": "Tagger", 
-            "status": "good", 
+            "status": "scheduled", 
             "url": "https://apps.fedoraproject.org/tagger/"
         }, 
         "website": {
-            "message": "Everything seems to be working.", 
+            "message": "Updates in progress: https://fedorahosted.org/fedora-infrastructure/ticket/4832", 
             "name": "Fedora websites", 
-            "status": "good", 
+            "status": "scheduled", 
             "url": "http://fedoraproject.org/"
         }, 
         "wiki": {
-            "message": "Everything seems to be working.", 
+            "message": "Updates in progress: https://fedorahosted.org/fedora-infrastructure/ticket/4832", 
             "name": "Fedora Wiki", 
-            "status": "good", 
+            "status": "scheduled", 
             "url": "https://fedoraproject.org/wiki/Fedora_Project_Wiki"
         }, 
         "zodbot": {
-            "message": "Everything seems to be working.", 
+            "message": "Updates in progress: https://fedorahosted.org/fedora-infrastructure/ticket/4832", 
             "name": "Zodbot IRC bot", 
-            "status": "good", 
+            "status": "scheduled", 
             "url": "https://fedoraproject.org/wiki/Zodbot"
         }
     }
