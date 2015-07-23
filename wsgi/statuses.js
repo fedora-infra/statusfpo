@@ -1,5 +1,5 @@
 callback({
-    "global_info": "Updates in progress: https://fedorahosted.org/fedora-infrastructure/ticket/4832", 
+    "global_info": "", 
     "global_status": "good", 
     "global_verbose_status": "All systems go", 
     "services": {
