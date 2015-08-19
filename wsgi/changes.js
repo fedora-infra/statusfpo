@@ -1,5 +1,13 @@
 callback([
     {
+        "status": "major", 
+        "new_global_status": "major", 
+        "service": "bodhi", 
+        "changetype": "single", 
+        "message": "Bodhi2 migration in progress.", 
+        "changedate": 1440000244.28668
+    }, 
+    {
         "status": "good", 
         "new_global_status": "good", 
         "changetype": "multiple", 
