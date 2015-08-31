@@ -1,5 +1,5 @@
 callback({
-    "global_info": "", 
+    "global_info": "Fedora Infra Cloud reboots in progress: https://fedorahosted.org/fedora-infrastructure/ticket/4871", 
     "global_status": "good", 
     "global_verbose_status": "All systems go", 
     "services": {
@@ -34,9 +34,9 @@ callback({
             "url": "https://admin.fedoraproject.org/updates/"
         }, 
         "copr": {
-            "message": "Everything seems to be working.", 
+            "message": "Fedora Infra Cloud reboots in progress: https://fedorahosted.org/fedora-infrastructure/ticket/4871", 
             "name": "COPR Build System", 
-            "status": "good", 
+            "status": "scheduled", 
             "url": "https://copr.fedoraproject.org/"
         }, 
         "darkserver": {

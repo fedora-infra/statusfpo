@@ -1,5 +1,13 @@
 callback([
     {
+        "status": "scheduled", 
+        "new_global_status": "scheduled", 
+        "service": "copr", 
+        "changetype": "single", 
+        "message": "Fedora Infra Cloud reboots in progress: https://fedorahosted.org/fedora-infrastructure/ticket/4871", 
+        "changedate": 1440982809.01376
+    }, 
+    {
         "status": "good", 
         "new_global_status": "good", 
         "service": "bodhi", 
