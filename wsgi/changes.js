@@ -1,5 +1,13 @@
 callback([
     {
+        "status": "major", 
+        "new_global_status": "major", 
+        "service": "copr", 
+        "changetype": "single", 
+        "message": "Code issue prevent COPR from starting new jobs", 
+        "changedate": 1441020663.5664
+    }, 
+    {
         "status": "good", 
         "new_global_status": "good", 
         "service": "copr", 

@@ -34,9 +34,9 @@ callback({
             "url": "https://admin.fedoraproject.org/updates/"
         }, 
         "copr": {
-            "message": "Everything seems to be working.", 
+            "message": "Code issue prevent COPR from starting new jobs", 
             "name": "COPR Build System", 
-            "status": "good", 
+            "status": "major", 
             "url": "https://copr.fedoraproject.org/"
         }, 
         "darkserver": {
