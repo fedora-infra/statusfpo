@@ -1,5 +1,17 @@
 [
     {
+        "status": "scheduled", 
+        "new_global_status": "scheduled", 
+        "changetype": "multiple", 
+        "services": [
+            "koji", 
+            "koschei", 
+            "pkgs"
+        ], 
+        "message": "planned outage", 
+        "changedate": 1441141208.023392
+    }, 
+    {
         "status": "good", 
         "new_global_status": "good", 
         "service": "copr", 

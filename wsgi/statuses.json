@@ -94,15 +94,15 @@
             "url": "http://fedoraproject.org/wiki/FreeMedia"
         }, 
         "koji": {
-            "message": "Everything seems to be working.", 
+            "message": "planned outage", 
             "name": "The Koji Buildsystem", 
-            "status": "good", 
+            "status": "scheduled", 
             "url": "http://koji.fedoraproject.org/koji/"
         }, 
         "koschei": {
-            "message": "Everything seems to be working.", 
+            "message": "planned outage", 
             "name": "Koschei Continuous Integration", 
-            "status": "good", 
+            "status": "scheduled", 
             "url": "https://apps.fedoraproject.org/koschei/"
         }, 
         "mailinglists": {
@@ -143,9 +143,9 @@
         }, 
         "pkgs": {
             "mailinglists": "Fedora mailing lists", 
-            "message": "Everything seems to be working.", 
+            "message": "planned outage", 
             "name": "Package maintainers git repositories", 
-            "status": "good", 
+            "status": "scheduled", 
             "url": "http://pkgs.fedoraproject.org/"
         }, 
         "tagger": {
