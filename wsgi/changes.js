@@ -1,5 +1,13 @@
 callback([
     {
+        "status": "major", 
+        "new_global_status": "major", 
+        "service": "bodhi", 
+        "changetype": "single", 
+        "message": "bugzilla outage", 
+        "changedate": 1442845079.602965
+    }, 
+    {
         "status": "good", 
         "new_global_status": "good", 
         "service": "bodhi", 
