@@ -34,9 +34,9 @@ callback({
             "url": "https://admin.fedoraproject.org/updates/"
         }, 
         "copr": {
-            "message": "Everything seems to be working.", 
+            "message": "Scheduled maintenance in progress: https://fedorahosted.org/fedora-infrastructure/ticket/4908", 
             "name": "COPR Build System", 
-            "status": "good", 
+            "status": "scheduled", 
             "url": "https://copr.fedoraproject.org/"
         }, 
         "darkserver": {
