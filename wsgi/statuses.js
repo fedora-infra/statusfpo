@@ -34,9 +34,9 @@ callback({
             "url": "https://admin.fedoraproject.org/updates/"
         }, 
         "copr": {
-            "message": "COPR back, processing backlog: https://fedorahosted.org/fedora-infrastructure/ticket/4908", 
+            "message": "Everything seems to be working.", 
             "name": "COPR Build System", 
-            "status": "scheduled", 
+            "status": "good", 
             "url": "https://copr.fedoraproject.org/"
         }, 
         "darkserver": {
