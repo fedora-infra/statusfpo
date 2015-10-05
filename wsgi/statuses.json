@@ -34,7 +34,7 @@
             "url": "https://admin.fedoraproject.org/updates/"
         }, 
         "copr": {
-            "message": "Scheduled maintenance in progress: https://fedorahosted.org/fedora-infrastructure/ticket/4908", 
+            "message": "COPR back, processing backlog: https://fedorahosted.org/fedora-infrastructure/ticket/4908", 
             "name": "COPR Build System", 
             "status": "scheduled", 
             "url": "https://copr.fedoraproject.org/"

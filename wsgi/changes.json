@@ -4,6 +4,14 @@
         "new_global_status": "scheduled", 
         "service": "copr", 
         "changetype": "single", 
+        "message": "COPR back, processing backlog: https://fedorahosted.org/fedora-infrastructure/ticket/4908", 
+        "changedate": 1444022597.210956
+    }, 
+    {
+        "status": "scheduled", 
+        "new_global_status": "scheduled", 
+        "service": "copr", 
+        "changetype": "single", 
         "message": "Scheduled maintenance in progress: https://fedorahosted.org/fedora-infrastructure/ticket/4908", 
         "changedate": 1444003249.288776
     }, 
