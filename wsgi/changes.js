@@ -1,5 +1,13 @@
 callback([
     {
+        "status": "major", 
+        "new_global_status": "major", 
+        "service": "ask", 
+        "changetype": "single", 
+        "message": "Database issues going on, being looked into", 
+        "changedate": 1444093432.181811
+    }, 
+    {
         "status": "good", 
         "new_global_status": "good", 
         "service": "copr", 
