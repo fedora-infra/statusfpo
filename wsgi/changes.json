@@ -1,5 +1,13 @@
 [
     {
+        "status": "minor", 
+        "new_global_status": "minor", 
+        "service": "ask", 
+        "changetype": "single", 
+        "message": "Askbot getting back", 
+        "changedate": 1444095238.074876
+    }, 
+    {
         "status": "major", 
         "new_global_status": "major", 
         "service": "ask", 

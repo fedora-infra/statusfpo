@@ -4,9 +4,9 @@
     "global_verbose_status": "All systems go", 
     "services": {
         "ask": {
-            "message": "Database issues going on, being looked into", 
+            "message": "Askbot getting back", 
             "name": "Ask Fedora", 
-            "status": "major", 
+            "status": "minor", 
             "url": "http://ask.fedoraproject.org/"
         }, 
         "authentication": {
