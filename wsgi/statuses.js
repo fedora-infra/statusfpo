@@ -1,5 +1,5 @@
 callback({
-    "global_info": "scheduled outage in progress", 
+    "global_info": "", 
     "global_status": "good", 
     "global_verbose_status": "All systems go", 
     "services": {
