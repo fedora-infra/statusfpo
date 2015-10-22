@@ -34,9 +34,9 @@ callback({
             "url": "https://admin.fedoraproject.org/updates/"
         }, 
         "copr": {
-            "message": "Everything seems to be working.", 
+            "message": "No new builds running, being checked into", 
             "name": "COPR Build System", 
-            "status": "good", 
+            "status": "major", 
             "url": "https://copr.fedoraproject.org/"
         }, 
         "darkserver": {
