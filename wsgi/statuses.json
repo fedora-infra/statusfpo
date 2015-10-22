@@ -34,7 +34,7 @@
             "url": "https://admin.fedoraproject.org/updates/"
         }, 
         "copr": {
-            "message": "No new builds running, being checked into", 
+            "message": "COPR is backlogged due to builds not running for a long time, recovering now", 
             "name": "COPR Build System", 
             "status": "major", 
             "url": "https://copr.fedoraproject.org/"
