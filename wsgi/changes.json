@@ -2,6 +2,14 @@
     {
         "status": "major", 
         "new_global_status": "major", 
+        "service": "copr", 
+        "changetype": "single", 
+        "message": "Issues with depending packages, being looked at", 
+        "changedate": 1445627871.203963
+    }, 
+    {
+        "status": "major", 
+        "new_global_status": "major", 
         "service": "koji", 
         "changetype": "single", 
         "message": "Disk full, being worked on", 
