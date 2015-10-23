@@ -1,6 +1,14 @@
 [
     {
         "status": "good", 
+        "new_global_status": "good", 
+        "service": "koji", 
+        "changetype": "single", 
+        "message": "Everything seems to be working.", 
+        "changedate": 1445641975.511647
+    }, 
+    {
+        "status": "good", 
         "new_global_status": "major", 
         "service": "copr", 
         "changetype": "single", 
