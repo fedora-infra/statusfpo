@@ -94,9 +94,9 @@
             "url": "http://fedoraproject.org/wiki/FreeMedia"
         }, 
         "koji": {
-            "message": "Everything seems to be working.", 
+            "message": "Disk full, being worked on", 
             "name": "The Koji Buildsystem", 
-            "status": "good", 
+            "status": "major", 
             "url": "http://koji.fedoraproject.org/koji/"
         }, 
         "koschei": {
