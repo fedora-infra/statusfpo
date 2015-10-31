@@ -1,5 +1,19 @@
 [
     {
+        "status": "major", 
+        "new_global_status": "major", 
+        "changetype": "multiple", 
+        "services": [
+            "wiki", 
+            "koji", 
+            "mirrormanager", 
+            "pkgs", 
+            "packages"
+        ], 
+        "message": "Backend storage has gone offline, being looked at.", 
+        "changedate": 1446273026.442198
+    }, 
+    {
         "status": "good", 
         "new_global_status": "good", 
         "service": "koji", 
