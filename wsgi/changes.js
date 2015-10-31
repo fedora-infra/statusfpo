@@ -2,6 +2,22 @@ callback([
     {
         "status": "major", 
         "new_global_status": "major", 
+        "changetype": "multiple", 
+        "services": [
+            "wiki", 
+            "koji", 
+            "mirrormanager", 
+            "pkgs", 
+            "packages", 
+            "bodhi", 
+            "copr"
+        ], 
+        "message": "Power outage impacting backend storage, being worked on.", 
+        "changedate": 1446286537.845625
+    }, 
+    {
+        "status": "major", 
+        "new_global_status": "major", 
         "service": "copr", 
         "changetype": "single", 
         "message": "Backend storage has gone offline. Next update at 10UTC or when more info is available.", 

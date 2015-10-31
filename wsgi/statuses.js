@@ -28,13 +28,13 @@ callback({
             "url": "http://qa.fedoraproject.org/blockerbugs/"
         }, 
         "bodhi": {
-            "message": "Backend storage has gone offline. Next update at 10UTC or when more info is available.", 
+            "message": "Power outage impacting backend storage, being worked on.", 
             "name": "Package Updates Manager", 
             "status": "major", 
             "url": "https://admin.fedoraproject.org/updates/"
         }, 
         "copr": {
-            "message": "Backend storage has gone offline. Next update at 10UTC or when more info is available.", 
+            "message": "Power outage impacting backend storage, being worked on.", 
             "name": "COPR Build System", 
             "status": "major", 
             "url": "https://copr.fedoraproject.org/"
@@ -94,7 +94,7 @@ callback({
             "url": "http://fedoraproject.org/wiki/FreeMedia"
         }, 
         "koji": {
-            "message": "Backend storage has gone offline. Next update at 10UTC or when more info is available.", 
+            "message": "Power outage impacting backend storage, being worked on.", 
             "name": "The Koji Buildsystem", 
             "status": "major", 
             "url": "http://koji.fedoraproject.org/koji/"
@@ -118,13 +118,13 @@ callback({
             "url": "http://mirrors.fedoraproject.org/publiclist/"
         }, 
         "mirrormanager": {
-            "message": "Backend storage has gone offline. Next update at 10UTC or when more info is available.", 
+            "message": "Power outage impacting backend storage, being worked on.", 
             "name": "Mirror Manager", 
             "status": "major", 
             "url": "http://mirrors.fedoraproject.org/"
         }, 
         "packages": {
-            "message": "Backend storage has gone offline. Next update at 10UTC or when more info is available.", 
+            "message": "Power outage impacting backend storage, being worked on.", 
             "name": "Fedora Packages App", 
             "status": "major", 
             "url": "https://apps.fedoraproject.org/packages"
@@ -143,7 +143,7 @@ callback({
         }, 
         "pkgs": {
             "mailinglists": "Fedora mailing lists", 
-            "message": "Backend storage has gone offline. Next update at 10UTC or when more info is available.", 
+            "message": "Power outage impacting backend storage, being worked on.", 
             "name": "Package maintainers git repositories", 
             "status": "major", 
             "url": "http://pkgs.fedoraproject.org/"
@@ -161,7 +161,7 @@ callback({
             "url": "http://fedoraproject.org/"
         }, 
         "wiki": {
-            "message": "Backend storage has gone offline. Next update at 10UTC or when more info is available.", 
+            "message": "Power outage impacting backend storage, being worked on.", 
             "name": "Fedora Wiki", 
             "status": "major", 
             "url": "https://fedoraproject.org/wiki/Fedora_Project_Wiki"
