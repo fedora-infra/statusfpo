@@ -34,7 +34,7 @@ callback({
             "url": "https://admin.fedoraproject.org/updates/"
         }, 
         "copr": {
-            "message": "COPR workers down, being looked at", 
+            "message": "Backend storage has gone offline. Next update at 10UTC or when more info is available.", 
             "name": "COPR Build System", 
             "status": "major", 
             "url": "https://copr.fedoraproject.org/"

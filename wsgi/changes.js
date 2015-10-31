@@ -4,6 +4,14 @@ callback([
         "new_global_status": "major", 
         "service": "copr", 
         "changetype": "single", 
+        "message": "Backend storage has gone offline. Next update at 10UTC or when more info is available.", 
+        "changedate": 1446280428.873282
+    }, 
+    {
+        "status": "major", 
+        "new_global_status": "major", 
+        "service": "copr", 
+        "changetype": "single", 
         "message": "COPR workers down, being looked at", 
         "changedate": 1446280153.311405
     }, 
