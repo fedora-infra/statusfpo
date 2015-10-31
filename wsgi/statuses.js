@@ -34,7 +34,7 @@ callback({
             "url": "https://admin.fedoraproject.org/updates/"
         }, 
         "copr": {
-            "message": "Backlog being processed.",
+            "message": "Backlog being processed.", 
             "name": "COPR Build System", 
             "status": "minor", 
             "url": "https://copr.fedoraproject.org/"
@@ -94,9 +94,9 @@ callback({
             "url": "http://fedoraproject.org/wiki/FreeMedia"
         }, 
         "koji": {
-            "message": "Higher build times due to some buildservers down.", 
+            "message": "Everything seems to be working.", 
             "name": "The Koji Buildsystem", 
-            "status": "minor", 
+            "status": "good", 
             "url": "http://koji.fedoraproject.org/koji/"
         }, 
         "koschei": {
