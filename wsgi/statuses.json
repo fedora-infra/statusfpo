@@ -94,9 +94,9 @@
             "url": "http://fedoraproject.org/wiki/FreeMedia"
         }, 
         "koji": {
-            "message": "Backend storage recovering, services being recovered.", 
+            "message": "Higher build times due to some buildservers down.",
             "name": "The Koji Buildsystem", 
-            "status": "major", 
+            "status": "minor", 
             "url": "http://koji.fedoraproject.org/koji/"
         }, 
         "koschei": {
