@@ -28,13 +28,13 @@ callback({
             "url": "http://qa.fedoraproject.org/blockerbugs/"
         }, 
         "bodhi": {
-            "message": "Power outage impacting backend storage, being worked on.", 
+            "message": "Backend storage recovering, services being recovered.", 
             "name": "Package Updates Manager", 
             "status": "major", 
             "url": "https://admin.fedoraproject.org/updates/"
         }, 
         "copr": {
-            "message": "Power outage impacting backend storage, being worked on.", 
+            "message": "Backend storage recovering, services being recovered.", 
             "name": "COPR Build System", 
             "status": "major", 
             "url": "https://copr.fedoraproject.org/"
@@ -94,7 +94,7 @@ callback({
             "url": "http://fedoraproject.org/wiki/FreeMedia"
         }, 
         "koji": {
-            "message": "Power outage impacting backend storage, being worked on.", 
+            "message": "Backend storage recovering, services being recovered.", 
             "name": "The Koji Buildsystem", 
             "status": "major", 
             "url": "http://koji.fedoraproject.org/koji/"
@@ -118,13 +118,13 @@ callback({
             "url": "http://mirrors.fedoraproject.org/publiclist/"
         }, 
         "mirrormanager": {
-            "message": "Power outage impacting backend storage, being worked on.", 
+            "message": "Backend storage recovering, services being recovered.", 
             "name": "Mirror Manager", 
             "status": "major", 
             "url": "http://mirrors.fedoraproject.org/"
         }, 
         "packages": {
-            "message": "Power outage impacting backend storage, being worked on.", 
+            "message": "Backend storage recovering, services being recovered.", 
             "name": "Fedora Packages App", 
             "status": "major", 
             "url": "https://apps.fedoraproject.org/packages"
@@ -143,7 +143,7 @@ callback({
         }, 
         "pkgs": {
             "mailinglists": "Fedora mailing lists", 
-            "message": "Power outage impacting backend storage, being worked on.", 
+            "message": "Backend storage recovering, services being recovered.", 
             "name": "Package maintainers git repositories", 
             "status": "major", 
             "url": "http://pkgs.fedoraproject.org/"
@@ -161,7 +161,7 @@ callback({
             "url": "http://fedoraproject.org/"
         }, 
         "wiki": {
-            "message": "Power outage impacting backend storage, being worked on.", 
+            "message": "Backend storage recovering, services being recovered.", 
             "name": "Fedora Wiki", 
             "status": "major", 
             "url": "https://fedoraproject.org/wiki/Fedora_Project_Wiki"

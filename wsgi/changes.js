@@ -12,6 +12,22 @@ callback([
             "bodhi", 
             "copr"
         ], 
+        "message": "Backend storage recovering, services being recovered.", 
+        "changedate": 1446289010.203149
+    }, 
+    {
+        "status": "major", 
+        "new_global_status": "major", 
+        "changetype": "multiple", 
+        "services": [
+            "wiki", 
+            "koji", 
+            "mirrormanager", 
+            "pkgs", 
+            "packages", 
+            "bodhi", 
+            "copr"
+        ], 
         "message": "Power outage impacting backend storage, being worked on.", 
         "changedate": 1446286537.845625
     }, 
