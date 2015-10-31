@@ -2,6 +2,14 @@ callback([
     {
         "status": "major", 
         "new_global_status": "major", 
+        "service": "copr", 
+        "changetype": "single", 
+        "message": "COPR workers down, being looked at", 
+        "changedate": 1446280153.311405
+    }, 
+    {
+        "status": "major", 
+        "new_global_status": "major", 
         "changetype": "multiple", 
         "services": [
             "wiki", 
