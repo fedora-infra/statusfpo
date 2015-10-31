@@ -34,7 +34,7 @@
             "url": "https://admin.fedoraproject.org/updates/"
         }, 
         "copr": {
-            "message": "Backlog being processes.",
+            "message": "Backlog being processed.",
             "name": "COPR Build System", 
             "status": "minor", 
             "url": "https://copr.fedoraproject.org/"
