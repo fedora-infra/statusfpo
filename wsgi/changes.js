@@ -1,5 +1,19 @@
 callback([
     {
+        "status": "good", 
+        "new_global_status": "major", 
+        "changetype": "multiple", 
+        "services": [
+            "wiki", 
+            "mirrormanager", 
+            "pkgs", 
+            "packages", 
+            "bodhi"
+        ], 
+        "message": "Everything seems to be working.", 
+        "changedate": 1446290504.73746
+    }, 
+    {
         "status": "major", 
         "new_global_status": "major", 
         "changetype": "multiple", 
