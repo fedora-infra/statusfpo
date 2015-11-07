@@ -1,5 +1,13 @@
 callback([
     {
+        "status": "major", 
+        "new_global_status": "major", 
+        "service": "wiki", 
+        "changetype": "single", 
+        "message": "Database outage", 
+        "changedate": 1446912749.858399
+    }, 
+    {
         "status": "good", 
         "new_global_status": "good", 
         "changetype": "multiple", 

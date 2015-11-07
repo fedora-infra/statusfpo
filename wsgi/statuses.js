@@ -161,9 +161,9 @@ callback({
             "url": "http://fedoraproject.org/"
         }, 
         "wiki": {
-            "message": "Everything seems to be working.", 
+            "message": "Database outage", 
             "name": "Fedora Wiki", 
-            "status": "good", 
+            "status": "major", 
             "url": "https://fedoraproject.org/wiki/Fedora_Project_Wiki"
         }, 
         "zodbot": {
