@@ -28,15 +28,15 @@
             "url": "http://qa.fedoraproject.org/blockerbugs/"
         }, 
         "bodhi": {
-            "message": "Storage outage, being worked on", 
+            "message": "Everything seems to be working.", 
             "name": "Package Updates Manager", 
-            "status": "major", 
+            "status": "good", 
             "url": "https://admin.fedoraproject.org/updates/"
         }, 
         "copr": {
-            "message": "Storage outage, being worked on", 
+            "message": "Everything seems to be working.", 
             "name": "COPR Build System", 
-            "status": "major", 
+            "status": "good", 
             "url": "https://copr.fedoraproject.org/"
         }, 
         "darkserver": {
@@ -82,9 +82,9 @@
             "url": "https://fedorahosted.org/web/"
         }, 
         "fedorapaste": {
-            "message": "Storage outage, being worked on",
+            "message": "Everything seems to be working.", 
             "name": "Fedora pastebin service", 
-            "status": "major", 
+            "status": "good", 
             "url": "https://paste.fedorahosted.org/"
         }, 
         "freemedia": {
@@ -94,9 +94,9 @@
             "url": "http://fedoraproject.org/wiki/FreeMedia"
         }, 
         "koji": {
-            "message": "Storage outage, being worked on", 
+            "message": "Everything seems to be working.", 
             "name": "The Koji Buildsystem", 
-            "status": "major", 
+            "status": "good", 
             "url": "http://koji.fedoraproject.org/koji/"
         }, 
         "koschei": {
@@ -161,9 +161,9 @@
             "url": "http://fedoraproject.org/"
         }, 
         "wiki": {
-            "message": "Storage outage, being worked on", 
+            "message": "Everything seems to be working.", 
             "name": "Fedora Wiki", 
-            "status": "major", 
+            "status": "good", 
             "url": "https://fedoraproject.org/wiki/Fedora_Project_Wiki"
         }, 
         "zodbot": {

@@ -1,5 +1,19 @@
 [
     {
+        "status": "good", 
+        "new_global_status": "good", 
+        "changetype": "multiple", 
+        "services": [
+            "wiki", 
+            "koji", 
+            "fedorapaste", 
+            "copr", 
+            "bodhi"
+        ], 
+        "message": "Everything seems to be working.", 
+        "changedate": 1446920282.856103
+    }, 
+    {
         "status": "major", 
         "new_global_status": "major", 
         "service": "bodhi", 
