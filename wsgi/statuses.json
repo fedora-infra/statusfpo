@@ -82,9 +82,9 @@
             "url": "https://fedorahosted.org/web/"
         }, 
         "fedorapaste": {
-            "message": "Everything seems to be working.", 
+            "message": "Storage outage, being worked on",
             "name": "Fedora pastebin service", 
-            "status": "good", 
+            "status": "major", 
             "url": "https://paste.fedorahosted.org/"
         }, 
         "freemedia": {
