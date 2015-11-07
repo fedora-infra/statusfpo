@@ -2,6 +2,18 @@ callback([
     {
         "status": "major", 
         "new_global_status": "major", 
+        "changetype": "multiple", 
+        "services": [
+            "copr", 
+            "koji", 
+            "wiki"
+        ], 
+        "message": "Storage outage, being worked on", 
+        "changedate": 1446913615.735032
+    }, 
+    {
+        "status": "major", 
+        "new_global_status": "major", 
         "service": "wiki", 
         "changetype": "single", 
         "message": "Database outage", 
