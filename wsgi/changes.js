@@ -2,6 +2,14 @@ callback([
     {
         "status": "major", 
         "new_global_status": "major", 
+        "service": "bodhi", 
+        "changetype": "single", 
+        "message": "Storage outage, being worked on", 
+        "changedate": 1446913676.596467
+    }, 
+    {
+        "status": "major", 
+        "new_global_status": "major", 
         "changetype": "multiple", 
         "services": [
             "copr", 

@@ -28,9 +28,9 @@ callback({
             "url": "http://qa.fedoraproject.org/blockerbugs/"
         }, 
         "bodhi": {
-            "message": "Everything seems to be working.", 
+            "message": "Storage outage, being worked on", 
             "name": "Package Updates Manager", 
-            "status": "good", 
+            "status": "major", 
             "url": "https://admin.fedoraproject.org/updates/"
         }, 
         "copr": {
