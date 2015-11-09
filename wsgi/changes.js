@@ -1,5 +1,13 @@
 callback([
     {
+        "status": "minor", 
+        "new_global_status": "minor", 
+        "service": "copr", 
+        "changetype": "single", 
+        "message": "Working again, running through backlog", 
+        "changedate": 1447108957.622257
+    }, 
+    {
         "status": "major", 
         "new_global_status": "major", 
         "service": "copr", 

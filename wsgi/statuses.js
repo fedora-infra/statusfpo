@@ -34,9 +34,9 @@ callback({
             "url": "https://admin.fedoraproject.org/updates/"
         }, 
         "copr": {
-            "message": "Backend issues, being worked on", 
+            "message": "Working again, running through backlog", 
             "name": "COPR Build System", 
-            "status": "major", 
+            "status": "minor", 
             "url": "https://copr.fedoraproject.org/"
         }, 
         "darkserver": {
