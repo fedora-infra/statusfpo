@@ -1,5 +1,13 @@
 [
     {
+        "status": "major", 
+        "new_global_status": "major", 
+        "service": "copr", 
+        "changetype": "single", 
+        "message": "technical issues, the queue is processed slower than usually, working on it", 
+        "changedate": 1447148590.235509
+    }, 
+    {
         "status": "minor", 
         "new_global_status": "minor", 
         "service": "copr", 
