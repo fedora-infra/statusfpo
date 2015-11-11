@@ -34,9 +34,9 @@
             "url": "https://admin.fedoraproject.org/updates/"
         }, 
         "copr": {
-            "message": "technical issues, the queue is processed slower than usually, working on it", 
+            "message": "Queue processing normally, some functions may not work as expected, being worked on.", 
             "name": "COPR Build System", 
-            "status": "major", 
+            "status": "minor", 
             "url": "https://copr.fedoraproject.org/"
         }, 
         "darkserver": {

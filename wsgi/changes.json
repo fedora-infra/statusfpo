@@ -1,5 +1,13 @@
 [
     {
+        "status": "minor", 
+        "new_global_status": "minor", 
+        "service": "copr", 
+        "changetype": "single", 
+        "message": "Queue processing normally, some functions may not work as expected, being worked on.", 
+        "changedate": 1447251036.02584
+    }, 
+    {
         "status": "major", 
         "new_global_status": "major", 
         "service": "copr", 
