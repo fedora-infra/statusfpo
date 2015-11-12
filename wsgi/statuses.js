@@ -34,9 +34,9 @@ callback({
             "url": "https://admin.fedoraproject.org/updates/"
         }, 
         "copr": {
-            "message": "Queue processing normally, some functions may not work as expected, being worked on.", 
+            "message": "Everything seems to be working.", 
             "name": "COPR Build System", 
-            "status": "minor", 
+            "status": "good", 
             "url": "https://copr.fedoraproject.org/"
         }, 
         "darkserver": {
