@@ -1,5 +1,13 @@
 [
     {
+        "status": "scheduled", 
+        "new_global_status": "scheduled", 
+        "service": "packages", 
+        "changetype": "single", 
+        "message": "Rebuilding index for an upgrade.", 
+        "changedate": 1447951375.272315
+    }, 
+    {
         "status": "good", 
         "new_global_status": "good", 
         "service": "copr", 
