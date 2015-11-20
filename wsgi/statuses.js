@@ -124,9 +124,9 @@ callback({
             "url": "http://mirrors.fedoraproject.org/"
         }, 
         "packages": {
-            "message": "Rebuilding index for an upgrade.", 
+            "message": "Everything seems to be working.", 
             "name": "Fedora Packages App", 
-            "status": "scheduled", 
+            "status": "good", 
             "url": "https://apps.fedoraproject.org/packages"
         }, 
         "people": {
