@@ -1,5 +1,16 @@
 [
     {
+        "status": "scheduled", 
+        "new_global_status": "scheduled", 
+        "changetype": "multiple", 
+        "services": [
+            "koji", 
+            "pkgs"
+        ], 
+        "message": "Scheduled reboots in progress", 
+        "changedate": 1448398903.083323
+    }, 
+    {
         "status": "good", 
         "new_global_status": "good", 
         "service": "copr", 
