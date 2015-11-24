@@ -94,9 +94,9 @@ callback({
             "url": "http://fedoraproject.org/wiki/FreeMedia"
         }, 
         "koji": {
-            "message": "Scheduled reboots in progress", 
+            "message": "Everything seems to be working.", 
             "name": "The Koji Buildsystem", 
-            "status": "scheduled", 
+            "status": "good", 
             "url": "http://koji.fedoraproject.org/koji/"
         }, 
         "koschei": {
@@ -143,9 +143,9 @@ callback({
         }, 
         "pkgs": {
             "mailinglists": "Fedora mailing lists", 
-            "message": "Scheduled reboots in progress", 
+            "message": "Everything seems to be working.", 
             "name": "Package maintainers git repositories", 
-            "status": "scheduled", 
+            "status": "good", 
             "url": "http://pkgs.fedoraproject.org/"
         }, 
         "tagger": {
