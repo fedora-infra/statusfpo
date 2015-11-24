@@ -34,7 +34,7 @@ callback({
             "url": "https://admin.fedoraproject.org/updates/"
         }, 
         "copr": {
-            "message": "Scheduled Fedora Infra Cloud upgrade busy", 
+            "message": "Scheduled Fedora Infra Cloud upgrade in progress", 
             "name": "COPR Build System", 
             "status": "scheduled", 
             "url": "https://copr.fedoraproject.org/"
