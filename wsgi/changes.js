@@ -1,5 +1,13 @@
 callback([
     {
+        "status": "scheduled", 
+        "new_global_status": "scheduled", 
+        "service": "copr", 
+        "changetype": "single", 
+        "message": "Scheduled Fedora Infra Cloud upgrade busy", 
+        "changedate": 1448323223.441509
+    }, 
+    {
         "status": "good", 
         "new_global_status": "good", 
         "service": "packages", 
