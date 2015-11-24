@@ -1,5 +1,13 @@
 [
     {
+        "status": "major", 
+        "new_global_status": "major", 
+        "service": "copr", 
+        "changetype": "single", 
+        "message": "COPR triggers a bug in OpenStack. Being debugged.", 
+        "changedate": 1448349484.205338
+    }, 
+    {
         "status": "good", 
         "new_global_status": "good", 
         "service": "copr", 
