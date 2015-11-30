@@ -1,5 +1,13 @@
 callback([
     {
+        "status": "scheduled", 
+        "new_global_status": "scheduled", 
+        "service": "copr", 
+        "changetype": "single", 
+        "message": "Scheduled cloud outage in progress", 
+        "changedate": 1448927941.525777
+    }, 
+    {
         "status": "good", 
         "new_global_status": "good", 
         "changetype": "multiple", 
