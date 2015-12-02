@@ -1,5 +1,17 @@
 callback([
     {
+        "status": "good", 
+        "new_global_status": "good", 
+        "changetype": "multiple", 
+        "services": [
+            "zodbot", 
+            "fedorahosted", 
+            "mailinglists"
+        ], 
+        "message": "Everything seems to be working.", 
+        "changedate": 1449027332.614434
+    }, 
+    {
         "status": "scheduled", 
         "new_global_status": "scheduled", 
         "changetype": "multiple", 
