@@ -76,9 +76,9 @@
             "url": "https://apps.fedoraproject.org/fedocal/"
         }, 
         "fedorahosted": {
-            "message": "Everything seems to be working.", 
+            "message": "Scheduled maintenance in progress", 
             "name": "FedoraHosted.org Services", 
-            "status": "good", 
+            "status": "scheduled", 
             "url": "https://fedorahosted.org/web/"
         }, 
         "fedorapaste": {
@@ -106,9 +106,9 @@
             "url": "https://apps.fedoraproject.org/koschei/"
         }, 
         "mailinglists": {
-            "message": "Everything seems to be working.", 
+            "message": "Scheduled maintenance in progress", 
             "name": "Mailing Lists", 
-            "status": "good", 
+            "status": "scheduled", 
             "url": "http://lists.fedoraproject.org/"
         }, 
         "mirrorlist": {
@@ -167,9 +167,9 @@
             "url": "https://fedoraproject.org/wiki/Fedora_Project_Wiki"
         }, 
         "zodbot": {
-            "message": "Everything seems to be working.", 
+            "message": "Scheduled maintenance in progress", 
             "name": "Zodbot IRC bot", 
-            "status": "good", 
+            "status": "scheduled", 
             "url": "https://fedoraproject.org/wiki/Zodbot"
         }
     }

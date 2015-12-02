@@ -1,5 +1,17 @@
 [
     {
+        "status": "scheduled", 
+        "new_global_status": "scheduled", 
+        "changetype": "multiple", 
+        "services": [
+            "zodbot", 
+            "mailinglists", 
+            "fedorahosted"
+        ], 
+        "message": "Scheduled maintenance in progress", 
+        "changedate": 1449025261.361829
+    }, 
+    {
         "status": "good", 
         "new_global_status": "good", 
         "service": "copr", 
