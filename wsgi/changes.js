@@ -1,5 +1,16 @@
 callback([
     {
+        "status": "good", 
+        "new_global_status": "minor", 
+        "changetype": "multiple", 
+        "services": [
+            "pkgdb", 
+            "packages"
+        ], 
+        "message": "Everything seems to be working.", 
+        "changedate": 1449161485.879185
+    }, 
+    {
         "status": "minor", 
         "new_global_status": "minor", 
         "changetype": "multiple", 
