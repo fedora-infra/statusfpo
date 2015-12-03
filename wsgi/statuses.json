@@ -124,9 +124,9 @@
             "url": "http://mirrors.fedoraproject.org/"
         }, 
         "packages": {
-            "message": "Everything seems to be working.", 
+            "message": "Parts using bugzilla will not work due to SSL issues at Red Hat Bugzilla", 
             "name": "Fedora Packages App", 
-            "status": "good", 
+            "status": "minor", 
             "url": "https://apps.fedoraproject.org/packages"
         }, 
         "people": {
@@ -136,9 +136,9 @@
             "url": "https://fedorapeople.org/"
         }, 
         "pkgdb": {
-            "message": "Everything seems to be working.", 
+            "message": "Parts using bugzilla will not work due to SSL issues at Red Hat Bugzilla", 
             "name": "Package Database", 
-            "status": "good", 
+            "status": "minor", 
             "url": "https://admin.fedoraproject.org/pkgdb/"
         }, 
         "pkgs": {

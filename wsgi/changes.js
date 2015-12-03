@@ -2,6 +2,17 @@ callback([
     {
         "status": "minor", 
         "new_global_status": "minor", 
+        "changetype": "multiple", 
+        "services": [
+            "packages", 
+            "pkgdb"
+        ], 
+        "message": "Parts using bugzilla will not work due to SSL issues at Red Hat Bugzilla", 
+        "changedate": 1449153019.193584
+    }, 
+    {
+        "status": "minor", 
+        "new_global_status": "minor", 
         "service": "koji", 
         "changetype": "single", 
         "message": "Koji is slow with builds due to lots of queued up builds", 
