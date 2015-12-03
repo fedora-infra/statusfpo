@@ -1,5 +1,13 @@
 [
     {
+        "status": "minor", 
+        "new_global_status": "minor", 
+        "service": "koschei", 
+        "changetype": "single", 
+        "message": "Build scheduling paused until koji caught up", 
+        "changedate": 1449180706.051633
+    }, 
+    {
         "status": "good", 
         "new_global_status": "minor", 
         "changetype": "multiple", 

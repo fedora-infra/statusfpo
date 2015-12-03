@@ -100,9 +100,9 @@
             "url": "http://koji.fedoraproject.org/koji/"
         }, 
         "koschei": {
-            "message": "Everything seems to be working.", 
+            "message": "Build scheduling paused until koji caught up", 
             "name": "Koschei Continuous Integration", 
-            "status": "good", 
+            "status": "minor", 
             "url": "https://apps.fedoraproject.org/koschei/"
         }, 
         "mailinglists": {
