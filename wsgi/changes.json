@@ -1,5 +1,13 @@
 [
     {
+        "status": "minor", 
+        "new_global_status": "minor", 
+        "service": "koji", 
+        "changetype": "single", 
+        "message": "Koji is slow with builds due to lots of queued up builds", 
+        "changedate": 1449150638.794072
+    }, 
+    {
         "status": "good", 
         "new_global_status": "good", 
         "changetype": "multiple", 
