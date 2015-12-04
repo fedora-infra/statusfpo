@@ -94,15 +94,15 @@ callback({
             "url": "http://fedoraproject.org/wiki/FreeMedia"
         }, 
         "koji": {
-            "message": "Koji is slow with builds due to lots of queued up builds", 
+            "message": "Everything seems to be working.", 
             "name": "The Koji Buildsystem", 
-            "status": "minor", 
+            "status": "good", 
             "url": "http://koji.fedoraproject.org/koji/"
         }, 
         "koschei": {
-            "message": "Build scheduling paused until koji caught up", 
+            "message": "Everything seems to be working.", 
             "name": "Koschei Continuous Integration", 
-            "status": "minor", 
+            "status": "good", 
             "url": "https://apps.fedoraproject.org/koschei/"
         }, 
         "mailinglists": {
