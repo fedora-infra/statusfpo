@@ -34,9 +34,9 @@
             "url": "https://admin.fedoraproject.org/updates/"
         }, 
         "copr": {
-            "message": "Issue with OpenStack backend storage, being worked on", 
+            "message": "Backend having issues, being looked at", 
             "name": "COPR Build System", 
-            "status": "major", 
+            "status": "minor", 
             "url": "https://copr.fedoraproject.org/"
         }, 
         "darkserver": {
