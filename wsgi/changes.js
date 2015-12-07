@@ -1,5 +1,13 @@
 callback([
     {
+        "status": "major", 
+        "new_global_status": "major", 
+        "service": "copr", 
+        "changetype": "single", 
+        "message": "Issue with OpenStack backend storage, being worked on", 
+        "changedate": 1449518009.50684
+    }, 
+    {
         "status": "good", 
         "new_global_status": "good", 
         "changetype": "multiple", 
