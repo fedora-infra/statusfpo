@@ -1,5 +1,13 @@
 [
     {
+        "status": "scheduled", 
+        "new_global_status": "scheduled", 
+        "service": "copr", 
+        "changetype": "single", 
+        "message": "Backend storage being upraded", 
+        "changedate": 1449597647.980942
+    }, 
+    {
         "status": "good", 
         "new_global_status": "good", 
         "service": "copr", 
