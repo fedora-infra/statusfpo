@@ -34,7 +34,7 @@
             "url": "https://admin.fedoraproject.org/updates/"
         }, 
         "copr": {
-            "message": "Backend storage being upraded", 
+            "message": "Storage upgrade finished, backlog processing now", 
             "name": "COPR Build System", 
             "status": "scheduled", 
             "url": "https://copr.fedoraproject.org/"
