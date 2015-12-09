@@ -112,9 +112,9 @@ callback({
             "url": "http://lists.fedoraproject.org/"
         }, 
         "mirrorlist": {
-            "message": "Older package metadata stuck, causing metalink checksums to not match. Being worked on.", 
+            "message": "Everything seems to be working.", 
             "name": "Mirror List", 
-            "status": "major", 
+            "status": "good", 
             "url": "http://mirrors.fedoraproject.org/publiclist/"
         }, 
         "mirrormanager": {
