@@ -1,5 +1,13 @@
 callback([
     {
+        "status": "major", 
+        "new_global_status": "major", 
+        "service": "mirrorlist", 
+        "changetype": "single", 
+        "message": "Older package metadata stuck, causing metalink checksums to not match. Being worked on.", 
+        "changedate": 1449684502.373221
+    }, 
+    {
         "status": "good", 
         "new_global_status": "good", 
         "service": "copr", 
