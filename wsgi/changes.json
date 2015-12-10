@@ -1,5 +1,13 @@
 [
     {
+        "status": "minor", 
+        "new_global_status": "minor", 
+        "service": "copr", 
+        "changetype": "single", 
+        "message": "Filesystem corruptions fixed. Backlog being processed now", 
+        "changedate": 1449712842.677667
+    }, 
+    {
         "status": "major", 
         "new_global_status": "major", 
         "service": "copr", 
