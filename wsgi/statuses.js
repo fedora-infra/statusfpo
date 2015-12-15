@@ -155,9 +155,9 @@ callback({
             "url": "https://apps.fedoraproject.org/tagger/"
         }, 
         "website": {
-            "message": "Websites being rebuild", 
+            "message": "Everything seems to be working.", 
             "name": "Fedora websites", 
-            "status": "major", 
+            "status": "good", 
             "url": "http://fedoraproject.org/"
         }, 
         "wiki": {
