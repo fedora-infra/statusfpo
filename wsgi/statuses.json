@@ -155,9 +155,9 @@
             "url": "https://apps.fedoraproject.org/tagger/"
         }, 
         "website": {
-            "message": "Everything seems to be working.", 
+            "message": "Websites being rebuild", 
             "name": "Fedora websites", 
-            "status": "good", 
+            "status": "major", 
             "url": "http://fedoraproject.org/"
         }, 
         "wiki": {

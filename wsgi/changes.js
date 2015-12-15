@@ -1,5 +1,13 @@
 callback([
     {
+        "status": "major", 
+        "new_global_status": "major", 
+        "service": "website", 
+        "changetype": "single", 
+        "message": "Websites being rebuild", 
+        "changedate": 1450218852.446691
+    }, 
+    {
         "status": "good", 
         "new_global_status": "good", 
         "service": "copr", 
