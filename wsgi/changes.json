@@ -1,5 +1,13 @@
 [
     {
+        "status": "major", 
+        "new_global_status": "major", 
+        "service": "koji", 
+        "changetype": "single", 
+        "message": "unscheduled outage", 
+        "changedate": 1450304836.580202
+    }, 
+    {
         "status": "good", 
         "new_global_status": "good", 
         "service": "website", 
