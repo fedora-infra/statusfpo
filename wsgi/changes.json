@@ -1,5 +1,16 @@
 [
     {
+        "status": "scheduled", 
+        "new_global_status": "scheduled", 
+        "changetype": "multiple", 
+        "services": [
+            "pkgs", 
+            "pkgdb"
+        ], 
+        "message": "Scheduled upgrade in progress", 
+        "changedate": 1450364800.268031
+    }, 
+    {
         "status": "good", 
         "new_global_status": "good", 
         "service": "mirrorlist", 
