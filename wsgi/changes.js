@@ -1,5 +1,13 @@
 callback([
     {
+        "status": "major", 
+        "new_global_status": "major", 
+        "service": "mirrorlist", 
+        "changetype": "single", 
+        "message": "Failed upgrade, being worked on", 
+        "changedate": 1450361117.98116
+    }, 
+    {
         "status": "good", 
         "new_global_status": "good", 
         "service": "koji", 
