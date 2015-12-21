@@ -106,9 +106,9 @@ callback({
             "url": "https://apps.fedoraproject.org/koschei/"
         }, 
         "mailinglists": {
-            "message": "Everything seems to be working.", 
+            "message": "Scheduled mailman reboot in progress", 
             "name": "Mailing Lists", 
-            "status": "good", 
+            "status": "scheduled", 
             "url": "http://lists.fedoraproject.org/"
         }, 
         "mirrorlist": {
