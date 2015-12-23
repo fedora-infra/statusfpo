@@ -106,9 +106,9 @@
             "url": "https://apps.fedoraproject.org/koschei/"
         }, 
         "mailinglists": {
-            "message": "Everything seems to be working.", 
+            "message": "lists.fedorahosted.org server unavailable, being worked on", 
             "name": "Mailing Lists", 
-            "status": "good", 
+            "status": "minor", 
             "url": "http://lists.fedoraproject.org/"
         }, 
         "mirrorlist": {

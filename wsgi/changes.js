@@ -2,6 +2,14 @@ callback([
     {
         "status": "minor", 
         "new_global_status": "minor", 
+        "service": "mailinglists", 
+        "changetype": "single", 
+        "message": "lists.fedorahosted.org server unavailable, being worked on", 
+        "changedate": 1450847346.886755
+    }, 
+    {
+        "status": "minor", 
+        "new_global_status": "minor", 
         "service": "copr", 
         "changetype": "single", 
         "message": "PPC64LE buildhost gone, PPC64LE COPR builds will not work. Being worked on", 
