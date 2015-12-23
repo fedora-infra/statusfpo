@@ -106,9 +106,9 @@ callback({
             "url": "https://apps.fedoraproject.org/koschei/"
         }, 
         "mailinglists": {
-            "message": "Everything seems to be working.", 
+            "message": "lists.fedorahosted.org offline due to emergency outage (hardware checks). Mails will be queued", 
             "name": "Mailing Lists", 
-            "status": "good", 
+            "status": "scheduled", 
             "url": "http://lists.fedoraproject.org/"
         }, 
         "mirrorlist": {

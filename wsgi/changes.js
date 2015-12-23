@@ -1,5 +1,13 @@
 callback([
     {
+        "status": "scheduled", 
+        "new_global_status": "minor", 
+        "service": "mailinglists", 
+        "changetype": "single", 
+        "message": "lists.fedorahosted.org offline due to emergency outage (hardware checks). Mails will be queued", 
+        "changedate": 1450855454.512375
+    }, 
+    {
         "status": "good", 
         "new_global_status": "minor", 
         "service": "mailinglists", 
