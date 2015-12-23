@@ -106,9 +106,9 @@ callback({
             "url": "https://apps.fedoraproject.org/koschei/"
         }, 
         "mailinglists": {
-            "message": "lists.fedorahosted.org server unavailable, being worked on", 
+            "message": "Everything seems to be working.", 
             "name": "Mailing Lists", 
-            "status": "minor", 
+            "status": "good", 
             "url": "http://lists.fedoraproject.org/"
         }, 
         "mirrorlist": {
