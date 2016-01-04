@@ -34,9 +34,9 @@ callback({
             "url": "https://admin.fedoraproject.org/updates/"
         }, 
         "copr": {
-            "message": "PPC64LE buildhost gone, PPC64LE COPR builds will not work. Being worked on", 
+            "message": "COPR getting upgraded to F23", 
             "name": "COPR Build System", 
-            "status": "minor", 
+            "status": "scheduled", 
             "url": "https://copr.fedoraproject.org/"
         }, 
         "darkserver": {
