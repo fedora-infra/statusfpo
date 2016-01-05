@@ -76,9 +76,9 @@ callback({
             "url": "https://apps.fedoraproject.org/fedocal/"
         }, 
         "fedorahosted": {
-            "message": "Everything seems to be working.", 
+            "message": "unplanned outage", 
             "name": "FedoraHosted.org Services", 
-            "status": "good", 
+            "status": "major", 
             "url": "https://fedorahosted.org/web/"
         }, 
         "fedorapaste": {
@@ -106,9 +106,9 @@ callback({
             "url": "https://apps.fedoraproject.org/koschei/"
         }, 
         "mailinglists": {
-            "message": "Everything seems to be working.", 
+            "message": "unplanned outage", 
             "name": "Mailing Lists", 
-            "status": "good", 
+            "status": "major", 
             "url": "http://lists.fedoraproject.org/"
         }, 
         "mirrorlist": {

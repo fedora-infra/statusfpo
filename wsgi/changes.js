@@ -1,5 +1,16 @@
 callback([
     {
+        "status": "major", 
+        "new_global_status": "major", 
+        "changetype": "multiple", 
+        "services": [
+            "fedorahosted", 
+            "mailinglists"
+        ], 
+        "message": "unplanned outage", 
+        "changedate": 1451974816.453367
+    }, 
+    {
         "status": "good", 
         "new_global_status": "good", 
         "service": "copr", 
