@@ -130,9 +130,9 @@ callback({
             "url": "https://apps.fedoraproject.org/packages"
         }, 
         "people": {
-            "message": "Network outage in host datacenter", 
+            "message": "Everything seems to be working.", 
             "name": "Fedora People", 
-            "status": "major", 
+            "status": "good", 
             "url": "https://fedorapeople.org/"
         }, 
         "pkgdb": {
