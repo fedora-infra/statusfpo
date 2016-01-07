@@ -130,9 +130,9 @@
             "url": "https://apps.fedoraproject.org/packages"
         }, 
         "people": {
-            "message": "Everything seems to be working.", 
+            "message": "Network outage in host datacenter", 
             "name": "Fedora People", 
-            "status": "good", 
+            "status": "major", 
             "url": "https://fedorapeople.org/"
         }, 
         "pkgdb": {

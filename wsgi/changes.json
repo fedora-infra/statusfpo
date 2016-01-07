@@ -1,5 +1,13 @@
 [
     {
+        "status": "major", 
+        "new_global_status": "major", 
+        "service": "people", 
+        "changetype": "single", 
+        "message": "Network outage in host datacenter", 
+        "changedate": 1452170146.210731
+    }, 
+    {
         "status": "good", 
         "new_global_status": "good", 
         "changetype": "multiple", 
