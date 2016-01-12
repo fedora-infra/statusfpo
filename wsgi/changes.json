@@ -1,5 +1,13 @@
 [
     {
+        "status": "scheduled", 
+        "new_global_status": "scheduled", 
+        "service": "copr", 
+        "changetype": "single", 
+        "message": "Scheduled outage in progress", 
+        "changedate": 1452564466.946705
+    }, 
+    {
         "status": "good", 
         "new_global_status": "good", 
         "service": "people", 
