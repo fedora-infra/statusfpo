@@ -1,5 +1,13 @@
 [
     {
+        "status": "scheduled", 
+        "new_global_status": "scheduled", 
+        "service": "copr", 
+        "changetype": "single", 
+        "message": "Tasks not running due to planned outage", 
+        "changedate": 1453234319.51958
+    }, 
+    {
         "status": "good", 
         "new_global_status": "good", 
         "service": "copr", 
