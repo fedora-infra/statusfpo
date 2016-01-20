@@ -34,9 +34,9 @@ callback({
             "url": "https://admin.fedoraproject.org/updates/"
         }, 
         "copr": {
-            "message": "Tasks not running due to planned outage", 
+            "message": "Everything seems to be working.", 
             "name": "COPR Build System", 
-            "status": "scheduled", 
+            "status": "good", 
             "url": "https://copr.fedoraproject.org/"
         }, 
         "darkserver": {
