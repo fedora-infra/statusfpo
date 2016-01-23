@@ -1,5 +1,13 @@
 [
     {
+        "status": "minor", 
+        "new_global_status": "minor", 
+        "service": "copr", 
+        "changetype": "single", 
+        "message": "Backlog created in builds because of crash. Catching up now.", 
+        "changedate": 1453580099.266629
+    }, 
+    {
         "status": "good", 
         "new_global_status": "good", 
         "service": "copr", 
