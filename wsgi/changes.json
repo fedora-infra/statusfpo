@@ -1,5 +1,13 @@
 [
     {
+        "status": "minor", 
+        "new_global_status": "minor", 
+        "service": "mirrorlist", 
+        "changetype": "single", 
+        "message": "F23 secondary metalink broken, fixes syncing out.", 
+        "changedate": 1453766635.87695
+    }, 
+    {
         "status": "good", 
         "new_global_status": "good", 
         "service": "copr", 
