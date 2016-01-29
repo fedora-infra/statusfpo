@@ -40,9 +40,9 @@ callback({
             "url": "https://copr.fedoraproject.org/"
         }, 
         "darkserver": {
-            "message": "Everything seems to be working.", 
+            "message": "Scheduled upgrade in progress", 
             "name": "Darkserver", 
-            "status": "good", 
+            "status": "scheduled", 
             "url": "https://fedoraproject.org/wiki/Darkserver"
         }, 
         "docs": {

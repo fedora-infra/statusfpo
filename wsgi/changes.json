@@ -1,5 +1,13 @@
 [
     {
+        "status": "scheduled", 
+        "new_global_status": "scheduled", 
+        "service": "darkserver", 
+        "changetype": "single", 
+        "message": "Scheduled upgrade in progress", 
+        "changedate": 1454063857.040384
+    }, 
+    {
         "status": "good", 
         "new_global_status": "good", 
         "service": "mirrorlist", 
