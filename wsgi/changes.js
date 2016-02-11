@@ -1,5 +1,13 @@
 callback([
     {
+        "status": "scheduled", 
+        "new_global_status": "scheduled", 
+        "service": "copr", 
+        "changetype": "single", 
+        "message": "scheduled maintenance in progress", 
+        "changedate": 1455176950.350461
+    }, 
+    {
         "status": "good", 
         "new_global_status": "good", 
         "service": "darkserver", 
