@@ -1,5 +1,13 @@
 callback([
     {
+        "status": "scheduled", 
+        "new_global_status": "scheduled", 
+        "service": "people", 
+        "changetype": "single", 
+        "message": "migration", 
+        "changedate": 1455206396.257286
+    }, 
+    {
         "status": "good", 
         "new_global_status": "good", 
         "service": "copr", 
