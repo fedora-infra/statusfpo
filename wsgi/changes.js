@@ -4,6 +4,14 @@ callback([
         "new_global_status": "major", 
         "service": "wiki", 
         "changetype": "single", 
+        "message": "Anti-spam operations caused blocks for many users. Being dealt with at the moment.", 
+        "changedate": 1455634946.229668
+    }, 
+    {
+        "status": "major", 
+        "new_global_status": "major", 
+        "service": "wiki", 
+        "changetype": "single", 
         "message": "Anti-spam operations caused blocks  for many users. Please hold on to your hats while we deal with these pesky spammers.", 
         "changedate": 1455634901.361525
     }, 
