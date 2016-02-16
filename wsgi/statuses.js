@@ -161,9 +161,9 @@ callback({
             "url": "http://fedoraproject.org/"
         }, 
         "wiki": {
-            "message": "Anti-spam operations caused blocks for many users. Being dealt with at the moment.", 
+            "message": "Everything seems to be working.", 
             "name": "Fedora Wiki", 
-            "status": "major", 
+            "status": "good", 
             "url": "https://fedoraproject.org/wiki/Fedora_Project_Wiki"
         }, 
         "zodbot": {
