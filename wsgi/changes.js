@@ -1,5 +1,13 @@
 callback([
     {
+        "status": "major", 
+        "new_global_status": "major", 
+        "service": "wiki", 
+        "changetype": "single", 
+        "message": "Anti-spam operations caused blocks  for many users. Please hold on to your hats while we deal with these pesky spammers.", 
+        "changedate": 1455634901.361525
+    }, 
+    {
         "status": "good", 
         "new_global_status": "good", 
         "service": "people", 
