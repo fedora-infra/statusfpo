@@ -1,5 +1,17 @@
 callback([
     {
+        "status": "good", 
+        "new_global_status": "good", 
+        "changetype": "multiple", 
+        "services": [
+            "koji", 
+            "pkgdb", 
+            "koschei"
+        ], 
+        "message": "Everything seems to be working.", 
+        "changedate": 1456335115.158932
+    }, 
+    {
         "status": "major", 
         "new_global_status": "major", 
         "changetype": "multiple", 
