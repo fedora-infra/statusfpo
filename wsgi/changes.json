@@ -2,6 +2,17 @@
     {
         "status": "major", 
         "new_global_status": "major", 
+        "changetype": "multiple", 
+        "services": [
+            "bodhi", 
+            "koschei"
+        ], 
+        "message": "Koji database outage", 
+        "changedate": 1456304655.67504
+    }, 
+    {
+        "status": "major", 
+        "new_global_status": "major", 
         "service": "koji", 
         "changetype": "single", 
         "message": "database outage", 

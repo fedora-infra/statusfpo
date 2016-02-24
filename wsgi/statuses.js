@@ -28,9 +28,9 @@ callback({
             "url": "http://qa.fedoraproject.org/blockerbugs/"
         }, 
         "bodhi": {
-            "message": "Everything seems to be working.", 
+            "message": "Koji database outage", 
             "name": "Package Updates Manager", 
-            "status": "good", 
+            "status": "major", 
             "url": "https://admin.fedoraproject.org/updates/"
         }, 
         "copr": {
@@ -100,9 +100,9 @@ callback({
             "url": "http://koji.fedoraproject.org/koji/"
         }, 
         "koschei": {
-            "message": "Everything seems to be working.", 
+            "message": "Koji database outage", 
             "name": "Koschei Continuous Integration", 
-            "status": "good", 
+            "status": "major", 
             "url": "https://apps.fedoraproject.org/koschei/"
         }, 
         "mailinglists": {
