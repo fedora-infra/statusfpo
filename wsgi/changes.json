@@ -1,5 +1,13 @@
 [
     {
+        "status": "major", 
+        "new_global_status": "major", 
+        "service": "koji", 
+        "changetype": "single", 
+        "message": "database outage", 
+        "changedate": 1456287311.71209
+    }, 
+    {
         "status": "good", 
         "new_global_status": "good", 
         "service": "koji", 

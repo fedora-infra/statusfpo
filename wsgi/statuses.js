@@ -94,9 +94,9 @@ callback({
             "url": "http://fedoraproject.org/wiki/FreeMedia"
         }, 
         "koji": {
-            "message": "Everything seems to be working.", 
+            "message": "database outage", 
             "name": "The Koji Buildsystem", 
-            "status": "good", 
+            "status": "major", 
             "url": "http://koji.fedoraproject.org/koji/"
         }, 
         "koschei": {
