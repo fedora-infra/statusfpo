@@ -1,5 +1,17 @@
 callback([
     {
+        "status": "major", 
+        "new_global_status": "major", 
+        "changetype": "multiple", 
+        "services": [
+            "koji", 
+            "koschei", 
+            "pkgdb"
+        ], 
+        "message": "Koji database outage", 
+        "changedate": 1456410434.345639
+    }, 
+    {
         "status": "good", 
         "new_global_status": "good", 
         "changetype": "multiple", 
