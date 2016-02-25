@@ -94,15 +94,15 @@ callback({
             "url": "http://fedoraproject.org/wiki/FreeMedia"
         }, 
         "koji": {
-            "message": "Koji database outage", 
+            "message": "Everything seems to be working.", 
             "name": "The Koji Buildsystem", 
-            "status": "major", 
+            "status": "good", 
             "url": "http://koji.fedoraproject.org/koji/"
         }, 
         "koschei": {
-            "message": "Koji database outage", 
+            "message": "Everything seems to be working.", 
             "name": "Koschei Continuous Integration", 
-            "status": "major", 
+            "status": "good", 
             "url": "https://apps.fedoraproject.org/koschei/"
         }, 
         "mailinglists": {
@@ -136,9 +136,9 @@ callback({
             "url": "https://fedorapeople.org/"
         }, 
         "pkgdb": {
-            "message": "Koji database outage", 
+            "message": "Everything seems to be working.", 
             "name": "Package Database", 
-            "status": "major", 
+            "status": "good", 
             "url": "https://admin.fedoraproject.org/pkgdb/"
         }, 
         "pkgs": {
