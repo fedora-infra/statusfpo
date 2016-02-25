@@ -1,5 +1,13 @@
 [
     {
+        "status": "major", 
+        "new_global_status": "major", 
+        "service": "koschei", 
+        "changetype": "single", 
+        "message": "Issue with restarting server after storage outage", 
+        "changedate": 1456415175.104674
+    }, 
+    {
         "status": "good", 
         "new_global_status": "good", 
         "changetype": "multiple", 

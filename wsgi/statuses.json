@@ -100,9 +100,9 @@
             "url": "http://koji.fedoraproject.org/koji/"
         }, 
         "koschei": {
-            "message": "Everything seems to be working.", 
+            "message": "Issue with restarting server after storage outage", 
             "name": "Koschei Continuous Integration", 
-            "status": "good", 
+            "status": "major", 
             "url": "https://apps.fedoraproject.org/koschei/"
         }, 
         "mailinglists": {
