@@ -1,5 +1,13 @@
 [
     {
+        "status": "major", 
+        "new_global_status": "major", 
+        "service": "koji", 
+        "changetype": "single", 
+        "message": "storage problem", 
+        "changedate": 1457229564.994502
+    }, 
+    {
         "status": "good", 
         "new_global_status": "good", 
         "service": "koschei", 
