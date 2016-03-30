@@ -33,6 +33,12 @@
             "status": "good", 
             "url": "https://admin.fedoraproject.org/updates/"
         }, 
+        "cloud": {
+            "message": "Everything seems to be working.", 
+            "name": "Fedora Infrastructure Cloud",
+            "status": "good", 
+            "url": "https://fedorainfracloud.org/"
+        }, 
         "copr": {
             "message": "Everything seems to be working.", 
             "name": "COPR Build System", 
