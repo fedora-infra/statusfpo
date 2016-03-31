@@ -10,9 +10,9 @@ callback({
             "url": "http://ask.fedoraproject.org/"
         }, 
         "authentication": {
-            "message": "account system outage", 
+            "message": "Everything seems to be working.", 
             "name": "Ipsilon", 
-            "status": "major", 
+            "status": "good", 
             "url": "https://id.fedoraproject.org/"
         }, 
         "badges": {
@@ -64,9 +64,9 @@ callback({
             "url": "https://admin.fedoraproject.org/voting/"
         }, 
         "fas": {
-            "message": "account system outage", 
+            "message": "Everything seems to be working.", 
             "name": "Account System", 
-            "status": "major", 
+            "status": "good", 
             "url": "https://admin.fedoraproject.org/accounts/"
         }, 
         "fedmsg": {
