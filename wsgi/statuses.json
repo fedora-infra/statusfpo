@@ -10,9 +10,9 @@
             "url": "http://ask.fedoraproject.org/"
         }, 
         "authentication": {
-            "message": "Everything seems to be working.", 
+            "message": "account system outage", 
             "name": "Ipsilon", 
-            "status": "good", 
+            "status": "major", 
             "url": "https://id.fedoraproject.org/"
         }, 
         "badges": {
@@ -35,7 +35,7 @@
         }, 
         "cloud": {
             "message": "Everything seems to be working.", 
-            "name": "Fedora Infrastructure Cloud",
+            "name": "Fedora Infrastructure Cloud", 
             "status": "good", 
             "url": "https://fedorainfracloud.org/"
         }, 
@@ -64,9 +64,9 @@
             "url": "https://admin.fedoraproject.org/voting/"
         }, 
         "fas": {
-            "message": "Everything seems to be working.", 
+            "message": "account system outage", 
             "name": "Account System", 
-            "status": "good", 
+            "status": "major", 
             "url": "https://admin.fedoraproject.org/accounts/"
         }, 
         "fedmsg": {
