@@ -1,5 +1,16 @@
 callback([
     {
+        "status": "good", 
+        "new_global_status": "good", 
+        "changetype": "multiple", 
+        "services": [
+            "cloud", 
+            "copr"
+        ], 
+        "message": "Everything seems to be working.", 
+        "changedate": 1460085805.3471
+    }, 
+    {
         "status": "scheduled", 
         "new_global_status": "scheduled", 
         "changetype": "multiple", 
