@@ -1,5 +1,16 @@
 [
     {
+        "status": "scheduled", 
+        "new_global_status": "scheduled", 
+        "changetype": "multiple", 
+        "services": [
+            "cloud", 
+            "copr"
+        ], 
+        "message": "Scheduled reboot of Infra Cloud in progress", 
+        "changedate": 1460080811.022719
+    }, 
+    {
         "status": "good", 
         "new_global_status": "good", 
         "changetype": "multiple", 
