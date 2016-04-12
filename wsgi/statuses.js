@@ -28,9 +28,9 @@ callback({
             "url": "http://qa.fedoraproject.org/blockerbugs/"
         }, 
         "bodhi": {
-            "message": "Everything seems to be working.", 
+            "message": "scheduled outage", 
             "name": "Package Updates Manager", 
-            "status": "good", 
+            "status": "scheduled", 
             "url": "https://admin.fedoraproject.org/updates/"
         }, 
         "cloud": {
@@ -46,9 +46,9 @@ callback({
             "url": "https://copr.fedoraproject.org/"
         }, 
         "darkserver": {
-            "message": "Everything seems to be working.", 
+            "message": "scheduled outage", 
             "name": "Darkserver", 
-            "status": "good", 
+            "status": "scheduled", 
             "url": "https://fedoraproject.org/wiki/Darkserver"
         }, 
         "docs": {
@@ -100,15 +100,15 @@ callback({
             "url": "http://fedoraproject.org/wiki/FreeMedia"
         }, 
         "koji": {
-            "message": "Everything seems to be working.", 
+            "message": "scheduled outage", 
             "name": "The Koji Buildsystem", 
-            "status": "good", 
+            "status": "scheduled", 
             "url": "http://koji.fedoraproject.org/koji/"
         }, 
         "koschei": {
-            "message": "Everything seems to be working.", 
+            "message": "scheduled outage", 
             "name": "Koschei Continuous Integration", 
-            "status": "good", 
+            "status": "scheduled", 
             "url": "https://apps.fedoraproject.org/koschei/"
         }, 
         "mailinglists": {
@@ -142,16 +142,16 @@ callback({
             "url": "https://fedorapeople.org/"
         }, 
         "pkgdb": {
-            "message": "Everything seems to be working.", 
+            "message": "scheduled outage", 
             "name": "Package Database", 
-            "status": "good", 
+            "status": "scheduled", 
             "url": "https://admin.fedoraproject.org/pkgdb/"
         }, 
         "pkgs": {
             "mailinglists": "Fedora mailing lists", 
-            "message": "Everything seems to be working.", 
+            "message": "scheduled outage", 
             "name": "Package maintainers git repositories", 
-            "status": "good", 
+            "status": "scheduled", 
             "url": "http://pkgs.fedoraproject.org/"
         }, 
         "tagger": {

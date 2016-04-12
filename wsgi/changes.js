@@ -1,5 +1,20 @@
 callback([
     {
+        "status": "scheduled", 
+        "new_global_status": "scheduled", 
+        "changetype": "multiple", 
+        "services": [
+            "darkserver", 
+            "pkgdb", 
+            "koschei", 
+            "koji", 
+            "pkgs", 
+            "bodhi"
+        ], 
+        "message": "scheduled outage", 
+        "changedate": 1460494877.791828
+    }, 
+    {
         "status": "good", 
         "new_global_status": "good", 
         "changetype": "multiple", 
