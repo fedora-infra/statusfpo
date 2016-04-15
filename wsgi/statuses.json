@@ -28,9 +28,9 @@
             "url": "http://qa.fedoraproject.org/blockerbugs/"
         }, 
         "bodhi": {
-            "message": "Everything seems to be working.", 
+            "message": "Server outage, being looked at", 
             "name": "Package Updates Manager", 
-            "status": "good", 
+            "status": "major", 
             "url": "https://admin.fedoraproject.org/updates/"
         }, 
         "cloud": {
@@ -100,15 +100,15 @@
             "url": "http://fedoraproject.org/wiki/FreeMedia"
         }, 
         "koji": {
-            "message": "Everything seems to be working.", 
+            "message": "Server outage, being looked at", 
             "name": "The Koji Buildsystem", 
-            "status": "good", 
+            "status": "major", 
             "url": "http://koji.fedoraproject.org/koji/"
         }, 
         "koschei": {
-            "message": "Everything seems to be working.", 
+            "message": "Server outage, being looked at", 
             "name": "Koschei Continuous Integration", 
-            "status": "good", 
+            "status": "major", 
             "url": "https://apps.fedoraproject.org/koschei/"
         }, 
         "mailinglists": {
@@ -149,9 +149,9 @@
         }, 
         "pkgs": {
             "mailinglists": "Fedora mailing lists", 
-            "message": "Everything seems to be working.", 
+            "message": "Server outage, being looked at", 
             "name": "Package maintainers git repositories", 
-            "status": "good", 
+            "status": "major", 
             "url": "http://pkgs.fedoraproject.org/"
         }, 
         "tagger": {

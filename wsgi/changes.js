@@ -1,5 +1,18 @@
 callback([
     {
+        "status": "major", 
+        "new_global_status": "major", 
+        "changetype": "multiple", 
+        "services": [
+            "koji", 
+            "pkgs", 
+            "bodhi", 
+            "koschei"
+        ], 
+        "message": "Server outage, being looked at", 
+        "changedate": 1460730533.19211
+    }, 
+    {
         "status": "good", 
         "new_global_status": "good", 
         "changetype": "multiple", 
