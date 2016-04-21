@@ -167,9 +167,9 @@
             "url": "http://fedoraproject.org/"
         }, 
         "wiki": {
-            "message": "Wiki crashed, will be looked at after antispam systems have been fixed.", 
+            "message": "Everything seems to be working.", 
             "name": "Fedora Wiki", 
-            "status": "major", 
+            "status": "good", 
             "url": "https://fedoraproject.org/wiki/Fedora_Project_Wiki"
         }, 
         "zodbot": {
