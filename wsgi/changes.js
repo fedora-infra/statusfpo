@@ -1,5 +1,13 @@
 callback([
     {
+        "status": "major", 
+        "new_global_status": "major", 
+        "service": "wiki", 
+        "changetype": "single", 
+        "message": "Wiki crashed, will be looked at after antispam systems have been fixed.", 
+        "changedate": 1461266187.575721
+    }, 
+    {
         "status": "good", 
         "new_global_status": "good", 
         "changetype": "multiple", 

@@ -167,9 +167,9 @@ callback({
             "url": "http://fedoraproject.org/"
         }, 
         "wiki": {
-            "message": "Everything seems to be working.", 
+            "message": "Wiki crashed, will be looked at after antispam systems have been fixed.", 
             "name": "Fedora Wiki", 
-            "status": "good", 
+            "status": "major", 
             "url": "https://fedoraproject.org/wiki/Fedora_Project_Wiki"
         }, 
         "zodbot": {
