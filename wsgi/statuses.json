@@ -40,9 +40,9 @@
             "url": "https://fedorainfracloud.org/"
         }, 
         "copr": {
-            "message": "Build system network outage. Being looked into", 
+            "message": "Everything seems to be working.", 
             "name": "COPR Build System", 
-            "status": "major", 
+            "status": "good", 
             "url": "https://copr.fedoraproject.org/"
         }, 
         "darkserver": {
@@ -100,9 +100,9 @@
             "url": "http://fedoraproject.org/wiki/FreeMedia"
         }, 
         "koji": {
-            "message": "Build system network outage. Being looked into", 
+            "message": "Everything seems to be working.", 
             "name": "The Koji Buildsystem", 
-            "status": "major", 
+            "status": "good", 
             "url": "http://koji.fedoraproject.org/koji/"
         }, 
         "koschei": {
