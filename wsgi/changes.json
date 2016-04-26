@@ -1,5 +1,16 @@
 [
     {
+        "status": "major", 
+        "new_global_status": "major", 
+        "changetype": "multiple", 
+        "services": [
+            "copr", 
+            "koji"
+        ], 
+        "message": "Build system network outage. Being looked into", 
+        "changedate": 1461676952.497572
+    }, 
+    {
         "status": "good", 
         "new_global_status": "good", 
         "service": "wiki", 
