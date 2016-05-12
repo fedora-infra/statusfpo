@@ -1,5 +1,13 @@
 callback([
     {
+        "status": "scheduled", 
+        "new_global_status": "scheduled", 
+        "service": "koschei", 
+        "changetype": "single", 
+        "message": "Scheduled reinstall in progress", 
+        "changedate": 1463066568.731787
+    }, 
+    {
         "status": "good", 
         "new_global_status": "good", 
         "changetype": "multiple", 
