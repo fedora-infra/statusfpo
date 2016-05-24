@@ -1,5 +1,18 @@
 callback([
     {
+        "status": "good", 
+        "new_global_status": "good", 
+        "changetype": "multiple", 
+        "services": [
+            "koji", 
+            "koschei", 
+            "pkgs", 
+            "bodhi"
+        ], 
+        "message": "Everything seems to be working.", 
+        "changedate": 1464125746.627533
+    }, 
+    {
         "status": "scheduled", 
         "new_global_status": "scheduled", 
         "changetype": "multiple", 
