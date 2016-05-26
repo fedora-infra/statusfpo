@@ -1,5 +1,16 @@
 [
     {
+        "status": "scheduled", 
+        "new_global_status": "scheduled", 
+        "changetype": "multiple", 
+        "services": [
+            "cloud", 
+            "copr"
+        ], 
+        "message": "Scheduled maintenance in progress", 
+        "changedate": 1464230002.314902
+    }, 
+    {
         "status": "good", 
         "new_global_status": "good", 
         "changetype": "multiple", 
