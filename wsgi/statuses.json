@@ -34,13 +34,13 @@
             "url": "https://admin.fedoraproject.org/updates/"
         }, 
         "cloud": {
-            "message": "Cloud IS DOWN", 
+            "message": "Network outage going on, being worked on.", 
             "name": "Fedora Infrastructure Cloud", 
             "status": "major", 
             "url": "https://fedorainfracloud.org/"
         }, 
         "copr": {
-            "message": "Cloud IS DOWN", 
+            "message": "Network outage going on, being worked on.", 
             "name": "COPR Build System", 
             "status": "major", 
             "url": "https://copr.fedoraproject.org/"

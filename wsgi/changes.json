@@ -2,6 +2,17 @@
     {
         "status": "major", 
         "new_global_status": "major", 
+        "changetype": "multiple", 
+        "services": [
+            "copr", 
+            "cloud"
+        ], 
+        "message": "Network outage going on, being worked on.", 
+        "changedate": 1467344304.219327
+    }, 
+    {
+        "status": "major", 
+        "new_global_status": "major", 
         "service": "cloud", 
         "changetype": "single", 
         "message": "Cloud IS DOWN", 
