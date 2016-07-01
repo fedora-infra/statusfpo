@@ -2,6 +2,14 @@ callback([
     {
         "status": "major", 
         "new_global_status": "major", 
+        "service": "cloud", 
+        "changetype": "single", 
+        "message": "Cloud IS DOWN", 
+        "changedate": 1467335955.358016
+    }, 
+    {
+        "status": "major", 
+        "new_global_status": "major", 
         "service": "copr", 
         "changetype": "single", 
         "message": "Cloud IS DOWN", 

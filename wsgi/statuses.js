@@ -34,9 +34,9 @@ callback({
             "url": "https://admin.fedoraproject.org/updates/"
         }, 
         "cloud": {
-            "message": "Everything seems to be working.", 
+            "message": "Cloud IS DOWN", 
             "name": "Fedora Infrastructure Cloud", 
-            "status": "good", 
+            "status": "major", 
             "url": "https://fedorainfracloud.org/"
         }, 
         "copr": {
