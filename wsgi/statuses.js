@@ -173,9 +173,9 @@ callback({
             "url": "https://fedoraproject.org/wiki/Fedora_Project_Wiki"
         }, 
         "zodbot": {
-            "message": "Everything seems to be working.", 
+            "message": "K-lined by freenode.  We're working with staff to resolve it.", 
             "name": "Zodbot IRC bot", 
-            "status": "good", 
+            "status": "major", 
             "url": "https://fedoraproject.org/wiki/Zodbot"
         }
     }

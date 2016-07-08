@@ -1,5 +1,13 @@
 callback([
     {
+        "status": "major", 
+        "new_global_status": "major", 
+        "service": "zodbot", 
+        "changetype": "single", 
+        "message": "K-lined by freenode.  We're working with staff to resolve it.", 
+        "changedate": 1467989473.59656
+    }, 
+    {
         "status": "good", 
         "new_global_status": "good", 
         "service": "copr", 
