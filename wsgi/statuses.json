@@ -173,9 +173,9 @@
             "url": "https://fedoraproject.org/wiki/Fedora_Project_Wiki"
         }, 
         "zodbot": {
-            "message": "K-line lifted, reconnecting", 
+            "message": "Everything seems to be working.", 
             "name": "Zodbot IRC bot", 
-            "status": "major", 
+            "status": "good", 
             "url": "https://fedoraproject.org/wiki/Zodbot"
         }
     }
