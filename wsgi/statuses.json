@@ -173,7 +173,7 @@
             "url": "https://fedoraproject.org/wiki/Fedora_Project_Wiki"
         }, 
         "zodbot": {
-            "message": "K-lined by freenode.  We're working with staff to resolve it.", 
+            "message": "K-line lifted, reconnecting", 
             "name": "Zodbot IRC bot", 
             "status": "major", 
             "url": "https://fedoraproject.org/wiki/Zodbot"

@@ -4,6 +4,14 @@ callback([
         "new_global_status": "major", 
         "service": "zodbot", 
         "changetype": "single", 
+        "message": "K-line lifted, reconnecting", 
+        "changedate": 1467991300.906268
+    }, 
+    {
+        "status": "major", 
+        "new_global_status": "major", 
+        "service": "zodbot", 
+        "changetype": "single", 
         "message": "K-lined by freenode.  We're working with staff to resolve it.", 
         "changedate": 1467989473.59656
     }, 
