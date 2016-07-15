@@ -1,5 +1,13 @@
 callback([
     {
+        "status": "major", 
+        "new_global_status": "major", 
+        "service": "mailinglists", 
+        "changetype": "single", 
+        "message": "Messages are stuck in the pipeline. Being looked at.", 
+        "changedate": 1468594615.415503
+    }, 
+    {
         "status": "good", 
         "new_global_status": "good", 
         "service": "zodbot", 
