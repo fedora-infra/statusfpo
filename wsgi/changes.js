@@ -1,5 +1,13 @@
 callback([
     {
+        "status": "minor", 
+        "new_global_status": "minor", 
+        "service": "mailinglists", 
+        "changetype": "single", 
+        "message": "Pipeline running again, emails are trickling out.", 
+        "changedate": 1468596242.830648
+    }, 
+    {
         "status": "major", 
         "new_global_status": "major", 
         "service": "mailinglists", 

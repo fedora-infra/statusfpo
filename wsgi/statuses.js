@@ -112,9 +112,9 @@ callback({
             "url": "https://apps.fedoraproject.org/koschei/"
         }, 
         "mailinglists": {
-            "message": "Messages are stuck in the pipeline. Being looked at.", 
+            "message": "Pipeline running again, emails are trickling out.", 
             "name": "Mailing Lists", 
-            "status": "major", 
+            "status": "minor", 
             "url": "http://lists.fedoraproject.org/"
         }, 
         "mirrorlist": {
