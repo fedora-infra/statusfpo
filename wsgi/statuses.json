@@ -112,9 +112,9 @@
             "url": "https://apps.fedoraproject.org/koschei/"
         }, 
         "mailinglists": {
-            "message": "Pipeline running again, emails are trickling out.", 
+            "message": "Everything seems to be working.", 
             "name": "Mailing Lists", 
-            "status": "minor", 
+            "status": "good", 
             "url": "http://lists.fedoraproject.org/"
         }, 
         "mirrorlist": {
