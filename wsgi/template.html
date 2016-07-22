@@ -11,6 +11,7 @@
 
 {% block content %}
 <div class="constraint">
+  <p align="center">(This page is manually updated with known outages)</p>
   {% for service in statuses %}
   <div class="content topmargin {% if statuses[service].status == "good" %} green 
                                 {% elif statuses[service].status == "scheduled" %} orange 
