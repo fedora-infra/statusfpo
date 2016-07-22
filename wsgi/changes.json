@@ -1,5 +1,16 @@
 [
     {
+        "status": "scheduled", 
+        "new_global_status": "scheduled", 
+        "changetype": "multiple", 
+        "services": [
+            "cloud", 
+            "copr"
+        ], 
+        "message": "Infra cloud update in progress", 
+        "changedate": 1469152729.015423
+    }, 
+    {
         "status": "good", 
         "new_global_status": "good", 
         "changetype": "multiple", 
