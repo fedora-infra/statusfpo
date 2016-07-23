@@ -4,178 +4,178 @@ callback({
     "global_verbose_status": "All systems go", 
     "services": {
         "ask": {
-            "message": "Network disruption to main datacenter", 
+            "message": "Unknown network outage occured", 
             "name": "Ask Fedora", 
-            "status": "major", 
+            "status": "minor", 
             "url": "http://ask.fedoraproject.org/"
         }, 
         "authentication": {
-            "message": "Network disruption to main datacenter", 
+            "message": "Unknown network outage occured", 
             "name": "Ipsilon", 
-            "status": "major", 
+            "status": "minor", 
             "url": "https://id.fedoraproject.org/"
         }, 
         "badges": {
-            "message": "Network disruption to main datacenter", 
+            "message": "Unknown network outage occured", 
             "name": "Badges", 
-            "status": "major", 
+            "status": "minor", 
             "url": "http:/badges.fedoraproject.org/"
         }, 
         "blockerbugs": {
-            "message": "Network disruption to main datacenter", 
+            "message": "Unknown network outage occured", 
             "name": "Blockerbugs", 
-            "status": "major", 
+            "status": "minor", 
             "url": "http://qa.fedoraproject.org/blockerbugs/"
         }, 
         "bodhi": {
-            "message": "Network disruption to main datacenter", 
+            "message": "Unknown network outage occured", 
             "name": "Package Updates Manager", 
-            "status": "major", 
+            "status": "minor", 
             "url": "https://admin.fedoraproject.org/updates/"
         }, 
         "cloud": {
-            "message": "Network disruption to main datacenter", 
+            "message": "Unknown network outage occured", 
             "name": "Fedora Infrastructure Cloud", 
-            "status": "major", 
+            "status": "minor", 
             "url": "https://fedorainfracloud.org/"
         }, 
         "copr": {
-            "message": "Network disruption to main datacenter", 
+            "message": "Unknown network outage occured", 
             "name": "COPR Build System", 
-            "status": "major", 
+            "status": "minor", 
             "url": "https://copr.fedoraproject.org/"
         }, 
         "darkserver": {
-            "message": "Network disruption to main datacenter", 
+            "message": "Unknown network outage occured", 
             "name": "Darkserver", 
-            "status": "major", 
+            "status": "minor", 
             "url": "https://fedoraproject.org/wiki/Darkserver"
         }, 
         "docs": {
-            "message": "Network disruption to main datacenter", 
+            "message": "Unknown network outage occured", 
             "name": "Documentation website", 
-            "status": "major", 
+            "status": "minor", 
             "url": "http://docs.fedoraproject.org/"
         }, 
         "elections": {
-            "message": "Network disruption to main datacenter", 
+            "message": "Unknown network outage occured", 
             "name": "Fedora elections", 
-            "status": "major", 
+            "status": "minor", 
             "url": "https://admin.fedoraproject.org/voting/"
         }, 
         "fas": {
-            "message": "Network disruption to main datacenter", 
+            "message": "Unknown network outage occured", 
             "name": "Account System", 
-            "status": "major", 
+            "status": "minor", 
             "url": "https://admin.fedoraproject.org/accounts/"
         }, 
         "fedmsg": {
-            "message": "Network disruption to main datacenter", 
+            "message": "Unknown network outage occured", 
             "name": "Fedora Messaging Bus", 
-            "status": "major", 
+            "status": "minor", 
             "url": "https://admin.fedoraproject.org/pkgdb/acls/name/fedmsg"
         }, 
         "fedocal": {
-            "message": "Network disruption to main datacenter", 
+            "message": "Unknown network outage occured", 
             "name": "Fedora Calendar", 
-            "status": "major", 
+            "status": "minor", 
             "url": "https://apps.fedoraproject.org/fedocal/"
         }, 
         "fedorahosted": {
-            "message": "Network disruption to main datacenter", 
+            "message": "Unknown network outage occured", 
             "name": "FedoraHosted.org Services", 
-            "status": "major", 
+            "status": "minor", 
             "url": "https://fedorahosted.org/web/"
         }, 
         "fedorapaste": {
-            "message": "Network disruption to main datacenter", 
+            "message": "Unknown network outage occured", 
             "name": "Fedora pastebin service", 
-            "status": "major", 
+            "status": "minor", 
             "url": "https://paste.fedorahosted.org/"
         }, 
         "freemedia": {
-            "message": "Network disruption to main datacenter", 
+            "message": "Unknown network outage occured", 
             "name": "FreeMedia", 
-            "status": "major", 
+            "status": "minor", 
             "url": "http://fedoraproject.org/wiki/FreeMedia"
         }, 
         "koji": {
-            "message": "Network disruption to main datacenter", 
+            "message": "Unknown network outage occured", 
             "name": "The Koji Buildsystem", 
-            "status": "major", 
+            "status": "minor", 
             "url": "http://koji.fedoraproject.org/koji/"
         }, 
         "koschei": {
-            "message": "Network disruption to main datacenter", 
+            "message": "Unknown network outage occured", 
             "name": "Koschei Continuous Integration", 
-            "status": "major", 
+            "status": "minor", 
             "url": "https://apps.fedoraproject.org/koschei/"
         }, 
         "mailinglists": {
-            "message": "Network disruption to main datacenter", 
+            "message": "Unknown network outage occured", 
             "name": "Mailing Lists", 
-            "status": "major", 
+            "status": "minor", 
             "url": "http://lists.fedoraproject.org/"
         }, 
         "mirrorlist": {
-            "message": "Network disruption to main datacenter", 
+            "message": "Unknown network outage occured", 
             "name": "Mirror List", 
-            "status": "major", 
+            "status": "minor", 
             "url": "http://mirrors.fedoraproject.org/publiclist/"
         }, 
         "mirrormanager": {
-            "message": "Network disruption to main datacenter", 
+            "message": "Unknown network outage occured", 
             "name": "Mirror Manager", 
-            "status": "major", 
+            "status": "minor", 
             "url": "http://mirrors.fedoraproject.org/"
         }, 
         "packages": {
-            "message": "Network disruption to main datacenter", 
+            "message": "Unknown network outage occured", 
             "name": "Fedora Packages App", 
-            "status": "major", 
+            "status": "minor", 
             "url": "https://apps.fedoraproject.org/packages"
         }, 
         "people": {
-            "message": "Network disruption to main datacenter", 
+            "message": "Unknown network outage occured", 
             "name": "Fedora People", 
-            "status": "major", 
+            "status": "minor", 
             "url": "https://fedorapeople.org/"
         }, 
         "pkgdb": {
-            "message": "Network disruption to main datacenter", 
+            "message": "Unknown network outage occured", 
             "name": "Package Database", 
-            "status": "major", 
+            "status": "minor", 
             "url": "https://admin.fedoraproject.org/pkgdb/"
         }, 
         "pkgs": {
             "mailinglists": "Fedora mailing lists", 
-            "message": "Network disruption to main datacenter", 
+            "message": "Unknown network outage occured", 
             "name": "Package maintainers git repositories", 
-            "status": "major", 
+            "status": "minor", 
             "url": "http://pkgs.fedoraproject.org/"
         }, 
         "tagger": {
-            "message": "Network disruption to main datacenter", 
+            "message": "Unknown network outage occured", 
             "name": "Tagger", 
-            "status": "major", 
+            "status": "minor", 
             "url": "https://apps.fedoraproject.org/tagger/"
         }, 
         "website": {
-            "message": "Network disruption to main datacenter", 
+            "message": "Unknown network outage occured", 
             "name": "Fedora websites", 
-            "status": "major", 
+            "status": "minor", 
             "url": "http://fedoraproject.org/"
         }, 
         "wiki": {
-            "message": "Network disruption to main datacenter", 
+            "message": "Unknown network outage occured", 
             "name": "Fedora Wiki", 
-            "status": "major", 
+            "status": "minor", 
             "url": "https://fedoraproject.org/wiki/Fedora_Project_Wiki"
         }, 
         "zodbot": {
-            "message": "Network disruption to main datacenter", 
+            "message": "Unknown network outage occured", 
             "name": "Zodbot IRC bot", 
-            "status": "major", 
+            "status": "minor", 
             "url": "https://fedoraproject.org/wiki/Zodbot"
         }
     }
