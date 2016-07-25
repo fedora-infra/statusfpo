@@ -1,5 +1,17 @@
 [
     {
+        "status": "scheduled", 
+        "new_global_status": "scheduled", 
+        "changetype": "multiple", 
+        "services": [
+            "koji", 
+            "pkgs", 
+            "bodhi"
+        ], 
+        "message": "scheduled outages in progress", 
+        "changedate": 1469480460.379098
+    }, 
+    {
         "status": "good", 
         "new_global_status": "good", 
         "changetype": "multiple", 
