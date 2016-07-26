@@ -28,9 +28,9 @@
             "url": "http://qa.fedoraproject.org/blockerbugs/"
         }, 
         "bodhi": {
-            "message": "scheduled outages in progress", 
+            "message": "Everything seems to be working.", 
             "name": "Package Updates Manager", 
-            "status": "scheduled", 
+            "status": "good", 
             "url": "https://admin.fedoraproject.org/updates/"
         }, 
         "cloud": {
@@ -100,9 +100,9 @@
             "url": "http://fedoraproject.org/wiki/FreeMedia"
         }, 
         "koji": {
-            "message": "scheduled outages in progress", 
+            "message": "Everything seems to be working.", 
             "name": "The Koji Buildsystem", 
-            "status": "scheduled", 
+            "status": "good", 
             "url": "http://koji.fedoraproject.org/koji/"
         }, 
         "koschei": {
@@ -149,9 +149,9 @@
         }, 
         "pkgs": {
             "mailinglists": "Fedora mailing lists", 
-            "message": "scheduled outages in progress", 
+            "message": "Everything seems to be working.", 
             "name": "Package maintainers git repositories", 
-            "status": "scheduled", 
+            "status": "good", 
             "url": "http://pkgs.fedoraproject.org/"
         }, 
         "tagger": {
