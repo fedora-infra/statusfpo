@@ -1,6 +1,14 @@
 callback([
     {
         "status": "good", 
+        "new_global_status": "good", 
+        "service": "fedorahosted", 
+        "changetype": "single", 
+        "message": "Everything seems to be working.", 
+        "changedate": 1469675689.887942
+    }, 
+    {
+        "status": "good", 
         "new_global_status": "scheduled", 
         "changetype": "multiple", 
         "services": [
