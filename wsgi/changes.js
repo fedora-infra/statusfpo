@@ -1,5 +1,13 @@
 callback([
     {
+        "status": "major", 
+        "new_global_status": "major", 
+        "service": "copr", 
+        "changetype": "single", 
+        "message": "scheduling issues", 
+        "changedate": 1472695571.867844
+    }, 
+    {
         "status": "good", 
         "new_global_status": "good", 
         "service": "copr", 
