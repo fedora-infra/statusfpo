@@ -1,5 +1,16 @@
 [
     {
+        "status": "scheduled", 
+        "new_global_status": "scheduled", 
+        "changetype": "multiple", 
+        "services": [
+            "cloud", 
+            "copr"
+        ], 
+        "message": "Scheduled reboots in progress", 
+        "changedate": 1474352026.089788
+    }, 
+    {
         "status": "good", 
         "new_global_status": "good", 
         "service": "copr", 

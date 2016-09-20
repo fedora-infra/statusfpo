@@ -34,15 +34,15 @@ callback({
             "url": "https://admin.fedoraproject.org/updates/"
         }, 
         "cloud": {
-            "message": "Everything seems to be working.", 
+            "message": "Scheduled reboots in progress", 
             "name": "Fedora Infrastructure Cloud", 
-            "status": "good", 
+            "status": "scheduled", 
             "url": "https://fedorainfracloud.org/"
         }, 
         "copr": {
-            "message": "Everything seems to be working.", 
+            "message": "Scheduled reboots in progress", 
             "name": "COPR Build System", 
-            "status": "good", 
+            "status": "scheduled", 
             "url": "https://copr.fedoraproject.org/"
         }, 
         "darkserver": {
