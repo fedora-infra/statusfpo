@@ -1,5 +1,17 @@
 [
     {
+        "status": "scheduled", 
+        "new_global_status": "scheduled", 
+        "changetype": "multiple", 
+        "services": [
+            "koschei", 
+            "koji", 
+            "darkserver"
+        ], 
+        "message": "planned outage", 
+        "changedate": 1474405236.424753
+    }, 
+    {
         "status": "good", 
         "new_global_status": "good", 
         "changetype": "multiple", 
