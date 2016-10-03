@@ -4,9 +4,9 @@ callback({
     "global_verbose_status": "All systems go", 
     "services": {
         "ask": {
-            "message": "ask down", 
+            "message": "Everything seems to be working.", 
             "name": "Ask Fedora", 
-            "status": "major", 
+            "status": "good", 
             "url": "http://ask.fedoraproject.org/"
         }, 
         "authentication": {
