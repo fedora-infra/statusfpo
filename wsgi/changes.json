@@ -1,5 +1,13 @@
 [
     {
+        "status": "major", 
+        "new_global_status": "major", 
+        "service": "ask", 
+        "changetype": "single", 
+        "message": "ask down", 
+        "changedate": 1475516819.073458
+    }, 
+    {
         "status": "good", 
         "new_global_status": "good", 
         "changetype": "multiple", 
