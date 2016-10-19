@@ -1,5 +1,13 @@
 [
     {
+        "status": "major", 
+        "new_global_status": "major", 
+        "service": "koschei", 
+        "changetype": "single", 
+        "message": "koschei outage", 
+        "changedate": 1476900382.319252
+    }, 
+    {
         "status": "good", 
         "new_global_status": "good", 
         "changetype": "multiple", 
