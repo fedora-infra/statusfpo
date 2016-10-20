@@ -106,9 +106,9 @@ callback({
             "url": "http://koji.fedoraproject.org/koji/"
         }, 
         "koschei": {
-            "message": "koschei outage", 
+            "message": "Everything seems to be working.", 
             "name": "Koschei Continuous Integration", 
-            "status": "major", 
+            "status": "good", 
             "url": "https://apps.fedoraproject.org/koschei/"
         }, 
         "mailinglists": {
