@@ -1,5 +1,13 @@
 [
     {
+        "status": "scheduled", 
+        "new_global_status": "scheduled", 
+        "service": "bodhi", 
+        "changetype": "single", 
+        "message": "Bodhi upgrade in progress", 
+        "changedate": 1477610300.236415
+    }, 
+    {
         "status": "good", 
         "new_global_status": "good", 
         "service": "koschei", 
