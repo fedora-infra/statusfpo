@@ -99,6 +99,12 @@
             "status": "good", 
             "url": "http://fedoraproject.org/wiki/FreeMedia"
         }, 
+        "krb": {
+            "message": "Everything seems to be working.", 
+            "name": "Kerberos", 
+            "status": "good", 
+            "url": "https://id.fedoraproject.org/"
+        }, 
         "koji": {
             "message": "Everything seems to be working.", 
             "name": "The Koji Buildsystem", 
