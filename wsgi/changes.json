@@ -1,5 +1,13 @@
 [
     {
+        "status": "major", 
+        "new_global_status": "major", 
+        "service": "bodhi", 
+        "changetype": "single", 
+        "message": "Update went wrong, being fixed", 
+        "changedate": 1480527443.272973
+    }, 
+    {
         "status": "good", 
         "new_global_status": "good", 
         "service": "bodhi", 

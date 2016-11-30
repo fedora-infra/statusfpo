@@ -28,9 +28,9 @@
             "url": "http://qa.fedoraproject.org/blockerbugs/"
         }, 
         "bodhi": {
-            "message": "Everything seems to be working.", 
+            "message": "Update went wrong, being fixed", 
             "name": "Package Updates Manager", 
-            "status": "good", 
+            "status": "major", 
             "url": "https://admin.fedoraproject.org/updates/"
         }, 
         "cloud": {
@@ -99,12 +99,6 @@
             "status": "good", 
             "url": "http://fedoraproject.org/wiki/FreeMedia"
         }, 
-        "krb": {
-            "message": "Everything seems to be working.", 
-            "name": "Kerberos", 
-            "status": "good", 
-            "url": "https://id.fedoraproject.org/"
-        }, 
         "koji": {
             "message": "Everything seems to be working.", 
             "name": "The Koji Buildsystem", 
@@ -116,6 +110,12 @@
             "name": "Koschei Continuous Integration", 
             "status": "good", 
             "url": "https://apps.fedoraproject.org/koschei/"
+        }, 
+        "krb": {
+            "message": "Everything seems to be working.", 
+            "name": "Kerberos", 
+            "status": "good", 
+            "url": "https://id.fedoraproject.org/"
         }, 
         "mailinglists": {
             "message": "Everything seems to be working.", 
