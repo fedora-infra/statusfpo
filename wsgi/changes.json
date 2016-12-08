@@ -1,5 +1,13 @@
 [
     {
+        "status": "good", 
+        "new_global_status": "good", 
+        "service": "copr", 
+        "changetype": "single", 
+        "message": "all systems operational", 
+        "changedate": 1481207086.148491
+    }, 
+    {
         "status": "major", 
         "new_global_status": "major", 
         "service": "copr", 

@@ -40,9 +40,9 @@ callback({
             "url": "https://fedorainfracloud.org/"
         }, 
         "copr": {
-            "message": "Service will not sign packages", 
+            "message": "all systems operational", 
             "name": "COPR Build System", 
-            "status": "major", 
+            "status": "good", 
             "url": "https://copr.fedoraproject.org/"
         }, 
         "darkserver": {
