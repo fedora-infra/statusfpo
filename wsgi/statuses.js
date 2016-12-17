@@ -82,9 +82,9 @@ callback({
             "url": "https://apps.fedoraproject.org/fedocal/"
         }, 
         "fedorahosted": {
-            "message": "osuosl network outage", 
+            "message": "Everything seems to be working.", 
             "name": "FedoraHosted.org Services", 
-            "status": "major", 
+            "status": "good", 
             "url": "https://fedorahosted.org/web/"
         }, 
         "fedorapaste": {
