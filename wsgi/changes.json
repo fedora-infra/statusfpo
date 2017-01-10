@@ -1,5 +1,13 @@
 [
     {
+        "status": "major", 
+        "new_global_status": "major", 
+        "service": "koji", 
+        "changetype": "single", 
+        "message": "koji db issues", 
+        "changedate": 1484076283.151738
+    }, 
+    {
         "status": "good", 
         "new_global_status": "good", 
         "service": "fedorahosted", 
