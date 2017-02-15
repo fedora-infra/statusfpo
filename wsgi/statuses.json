@@ -88,9 +88,9 @@
             "url": "https://fedorahosted.org/web/"
         }, 
         "fedorapaste": {
-            "message": "Everything seems to be working.", 
+            "message": "We are moving to Modern Paste!", 
             "name": "Fedora pastebin service", 
-            "status": "good", 
+            "status": "scheduled", 
             "url": "https://paste.fedorahosted.org/"
         }, 
         "freemedia": {

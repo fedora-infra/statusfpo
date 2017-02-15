@@ -1,5 +1,13 @@
 callback([
     {
+        "status": "scheduled", 
+        "new_global_status": "scheduled", 
+        "service": "fedorapaste", 
+        "changetype": "single", 
+        "message": "We are moving to Modern Paste!", 
+        "changedate": 1487191784.068443
+    }, 
+    {
         "status": "good", 
         "new_global_status": "good", 
         "changetype": "multiple", 
