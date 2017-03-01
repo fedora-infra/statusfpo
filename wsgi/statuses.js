@@ -148,9 +148,9 @@ callback({
             "url": "https://fedorapeople.org/"
         }, 
         "pkgdb": {
-            "message": "Everything seems to be working.", 
+            "message": "Temporarily down for branching", 
             "name": "Package Database", 
-            "status": "good", 
+            "status": "scheduled", 
             "url": "https://admin.fedoraproject.org/pkgdb/"
         }, 
         "pkgs": {

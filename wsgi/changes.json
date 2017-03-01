@@ -1,5 +1,13 @@
 [
     {
+        "status": "scheduled", 
+        "new_global_status": "scheduled", 
+        "service": "pkgdb", 
+        "changetype": "single", 
+        "message": "Temporarily down for branching", 
+        "changedate": 1488329946.379369
+    }, 
+    {
         "status": "good", 
         "new_global_status": "good", 
         "service": "fedorapaste", 
