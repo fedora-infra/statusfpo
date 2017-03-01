@@ -1,5 +1,13 @@
 callback([
     {
+        "status": "good", 
+        "new_global_status": "good", 
+        "service": "pkgdb", 
+        "changetype": "single", 
+        "message": "Everything seems to be working.", 
+        "changedate": 1488332438.310871
+    }, 
+    {
         "status": "scheduled", 
         "new_global_status": "scheduled", 
         "service": "pkgdb", 
