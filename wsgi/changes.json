@@ -2,6 +2,14 @@
     {
         "changetype": "single",
         "service": "copr",
+        "status": "good",
+        "new_global_status": "good",
+        "message": "Everything seems to be working.",
+        "changedate": 1491590590.1931193
+    },
+    {
+        "changetype": "single",
+        "service": "copr",
         "status": "major",
         "new_global_status": "major",
         "message": "backend instance outage",
