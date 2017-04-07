@@ -1,5 +1,13 @@
 callback([
     {
+        "changetype": "single",
+        "service": "copr",
+        "status": "major",
+        "new_global_status": "major",
+        "message": "backend instance outage",
+        "changedate": 1491587140.5216165
+    },
+    {
         "new_global_status": "good",
         "changedate": 1491520763.7244625,
         "message": "Everything seems to be working.",
