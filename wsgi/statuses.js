@@ -1,5 +1,5 @@
 callback({
-    "global_info": "Red Hat Bugzilla is having problems, being worked on",
+    "global_info": "",
     "global_status": "good",
     "global_verbose_status": "All systems go",
     "services": {
@@ -28,9 +28,9 @@ callback({
             "url": "http://qa.fedoraproject.org/blockerbugs/"
         },
         "bodhi": {
-            "message": "Red Hat bugzilla is down, bug information is not being retrieved. Being worked on",
+            "message": "Everything seems to be working.",
             "name": "Package Updates Manager",
-            "status": "minor",
+            "status": "good",
             "url": "https://admin.fedoraproject.org/updates/"
         },
         "cloud": {
