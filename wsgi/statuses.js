@@ -28,9 +28,9 @@ callback({
             "url": "http://qa.fedoraproject.org/blockerbugs/"
         },
         "bodhi": {
-            "message": "Everything seems to be working.",
+            "message": "Red Hat bugzilla is down, bug information is not being retrieved. Being worked on",
             "name": "Package Updates Manager",
-            "status": "good",
+            "status": "minor",
             "url": "https://admin.fedoraproject.org/updates/"
         },
         "cloud": {
@@ -148,9 +148,9 @@ callback({
             "url": "https://fedorapeople.org/"
         },
         "pkgdb": {
-            "message": "Everything seems to be working.",
+            "message": "Red Hat bugzilla is down, bug information is not being retrieved. Being worked on",
             "name": "Package Database",
-            "status": "good",
+            "status": "minor",
             "url": "https://admin.fedoraproject.org/pkgdb/"
         },
         "pkgs": {

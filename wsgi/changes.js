@@ -2,6 +2,17 @@ callback([
     {
         "changetype": "multiple",
         "services": [
+            "bodhi",
+            "pkgdb"
+        ],
+        "status": "minor",
+        "new_global_status": "minor",
+        "message": "Red Hat bugzilla is down, bug information is not being retrieved. Being worked on",
+        "changedate": 1492861966.4937692
+    },
+    {
+        "changetype": "multiple",
+        "services": [
             "ask",
             "authentication",
             "badges",
