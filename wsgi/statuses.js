@@ -148,9 +148,9 @@ callback({
             "url": "https://fedorapeople.org/"
         },
         "pkgdb": {
-            "message": "Red Hat bugzilla is down, bug information is not being retrieved. Being worked on",
+            "message": "Everything seems to be working.",
             "name": "Package Database",
-            "status": "minor",
+            "status": "good",
             "url": "https://admin.fedoraproject.org/pkgdb/"
         },
         "pkgs": {

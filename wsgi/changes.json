@@ -1,13 +1,10 @@
 [
     {
-        "changetype": "multiple",
-        "services": [
-            "bodhi",
-            "pkgdb"
-        ],
+        "changetype": "single",
+        "service": "bodhi",
         "status": "minor",
         "new_global_status": "minor",
-        "message": "Red Hat bugzilla is down, bug information is not being retrieved. Being worked on",
+        "message": "Red Hat bugzilla is having problems, bug information might not be retrieved. Being worked on",
         "changedate": 1492861966.4937692
     },
     {
