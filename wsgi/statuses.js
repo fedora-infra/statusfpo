@@ -1,5 +1,5 @@
 callback({
-    "global_info": "",
+    "global_info": "Red Hat bugzilla is unavailable at this moment, and being worked on",
     "global_status": "good",
     "global_verbose_status": "All systems go",
     "services": {
