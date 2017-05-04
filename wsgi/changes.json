@@ -2,6 +2,17 @@
     {
         "changetype": "multiple",
         "services": [
+            "cloud",
+            "copr"
+        ],
+        "status": "scheduled",
+        "new_global_status": "scheduled",
+        "message": "Scheduled update/reboot in progress: https://pagure.io/fedora-infrastructure/issue/6026",
+        "changedate": 1493877705.875975
+    },
+    {
+        "changetype": "multiple",
+        "services": [
             "ask",
             "authentication",
             "badges",
