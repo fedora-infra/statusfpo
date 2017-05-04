@@ -34,15 +34,15 @@ callback({
             "url": "https://admin.fedoraproject.org/updates/"
         },
         "cloud": {
-            "message": "Scheduled update/reboot in progress: https://pagure.io/fedora-infrastructure/issue/6026",
+            "message": "Everything seems to be working.",
             "name": "Fedora Infrastructure Cloud",
-            "status": "scheduled",
+            "status": "good",
             "url": "https://fedorainfracloud.org/"
         },
         "copr": {
-            "message": "Scheduled update/reboot in progress: https://pagure.io/fedora-infrastructure/issue/6026",
+            "message": "Everything seems to be working.",
             "name": "COPR Build System",
-            "status": "scheduled",
+            "status": "good",
             "url": "https://copr.fedoraproject.org/"
         },
         "darkserver": {
