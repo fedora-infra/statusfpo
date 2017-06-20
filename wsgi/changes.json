@@ -2,6 +2,19 @@
     {
         "changetype": "multiple",
         "services": [
+            "koji",
+            "koschei",
+            "pkgs",
+            "bodhi"
+        ],
+        "status": "scheduled",
+        "new_global_status": "scheduled",
+        "message": "planned buildsystem outage",
+        "changedate": 1497992415.519782
+    },
+    {
+        "changetype": "multiple",
+        "services": [
             "cloud",
             "copr"
         ],
