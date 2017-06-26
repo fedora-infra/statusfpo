@@ -2,6 +2,17 @@
     {
         "changetype": "multiple",
         "services": [
+            "cloud",
+            "copr"
+        ],
+        "status": "scheduled",
+        "new_global_status": "scheduled",
+        "message": "Scheduled updates in progress",
+        "changedate": 1498512356.6740384
+    },
+    {
+        "changetype": "multiple",
+        "services": [
             "ask",
             "authentication",
             "badges",
