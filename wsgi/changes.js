@@ -1,5 +1,13 @@
 callback([
     {
+        "changetype": "single",
+        "service": "mailinglists",
+        "status": "minor",
+        "new_global_status": "minor",
+        "message": "Incoming email processing delayed, being looked at",
+        "changedate": 1499873132.805016
+    },
+    {
         "services": [
             "copr",
             "cloud"
