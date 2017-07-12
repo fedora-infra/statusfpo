@@ -118,9 +118,9 @@ callback({
             "url": "https://id.fedoraproject.org/"
         },
         "mailinglists": {
-            "message": "Incoming email processing delayed, being looked at",
+            "message": "Everything seems to be working.",
             "name": "Mailing Lists",
-            "status": "minor",
+            "status": "good",
             "url": "http://lists.fedoraproject.org/"
         },
         "mirrorlist": {
