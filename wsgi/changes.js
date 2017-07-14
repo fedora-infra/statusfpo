@@ -2,6 +2,14 @@ callback([
     {
         "changetype": "single",
         "service": "koji",
+        "status": "minor",
+        "new_global_status": "minor",
+        "message": "s390x builders coming back now, backlog of builds will being processed",
+        "changedate": 1500005432.1829715
+    },
+    {
+        "changetype": "single",
+        "service": "koji",
         "status": "major",
         "new_global_status": "major",
         "message": "s390x builders offline, blocking all nonarch builds that include s390x, escalated",
