@@ -100,7 +100,7 @@ callback({
             "url": "http://fedoraproject.org/wiki/FreeMedia"
         },
         "koji": {
-            "message": "s390x builders coming back now, backlog of builds will being processed",
+            "message": "s390x builders coming back now, backlog of builds is being processed",
             "name": "The Koji Buildsystem",
             "status": "minor",
             "url": "http://koji.fedoraproject.org/koji/"

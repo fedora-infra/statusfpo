@@ -4,6 +4,14 @@
         "service": "koji",
         "status": "minor",
         "new_global_status": "minor",
+        "message": "s390x builders coming back now, backlog of builds is being processed",
+        "changedate": 1500005478.842641
+    },
+    {
+        "changetype": "single",
+        "service": "koji",
+        "status": "minor",
+        "new_global_status": "minor",
         "message": "s390x builders coming back now, backlog of builds will being processed",
         "changedate": 1500005432.1829715
     },
