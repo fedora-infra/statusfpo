@@ -100,9 +100,9 @@ callback({
             "url": "http://fedoraproject.org/wiki/FreeMedia"
         },
         "koji": {
-            "message": "Everything seems to be working.",
+            "message": "s390x builders offline, blocking all nonarch builds that include s390x, escalated",
             "name": "The Koji Buildsystem",
-            "status": "good",
+            "status": "major",
             "url": "http://koji.fedoraproject.org/koji/"
         },
         "koschei": {

@@ -1,6 +1,14 @@
 callback([
     {
         "changetype": "single",
+        "service": "koji",
+        "status": "major",
+        "new_global_status": "major",
+        "message": "s390x builders offline, blocking all nonarch builds that include s390x, escalated",
+        "changedate": 1499992472.2618759
+    },
+    {
+        "changetype": "single",
         "service": "mailinglists",
         "status": "good",
         "new_global_status": "good",
