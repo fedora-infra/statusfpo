@@ -100,9 +100,9 @@
             "url": "http://fedoraproject.org/wiki/FreeMedia"
         },
         "koji": {
-            "message": "s390x builders coming back now, backlog of builds is being processed",
+            "message": "Everything seems to be working.",
             "name": "The Koji Buildsystem",
-            "status": "minor",
+            "status": "good",
             "url": "http://koji.fedoraproject.org/koji/"
         },
         "koschei": {

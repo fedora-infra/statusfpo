@@ -2,6 +2,14 @@
     {
         "changetype": "single",
         "service": "koji",
+        "status": "good",
+        "new_global_status": "good",
+        "message": "Everything seems to be working.",
+        "changedate": 1500034415.702598
+    },
+    {
+        "changetype": "single",
+        "service": "koji",
         "status": "minor",
         "new_global_status": "minor",
         "message": "s390x builders coming back now, backlog of builds is being processed",
