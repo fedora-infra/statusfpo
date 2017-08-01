@@ -28,9 +28,9 @@
             "url": "http://qa.fedoraproject.org/blockerbugs/"
         }, 
         "bodhi": {
-            "message": "Down for scheduled koji database maintenance", 
+            "message": "Everything seems to be working.", 
             "name": "Package Updates Manager", 
-            "status": "scheduled", 
+            "status": "good", 
             "url": "https://admin.fedoraproject.org/updates/"
         }, 
         "cloud": {
@@ -100,15 +100,15 @@
             "url": "http://fedoraproject.org/wiki/FreeMedia"
         }, 
         "koji": {
-            "message": "Down for scheduled koji database maintenance", 
+            "message": "Everything seems to be working.", 
             "name": "The Koji Buildsystem", 
-            "status": "scheduled", 
+            "status": "good", 
             "url": "http://koji.fedoraproject.org/koji/"
         }, 
         "koschei": {
-            "message": "Down for scheduled koji database maintenance", 
+            "message": "Everything seems to be working.", 
             "name": "Koschei Continuous Integration", 
-            "status": "scheduled", 
+            "status": "good", 
             "url": "https://apps.fedoraproject.org/koschei/"
         }, 
         "krb": {
