@@ -118,9 +118,9 @@ callback({
             "url": "https://id.fedoraproject.org/"
         },
         "mailinglists": {
-            "message": "mailinglists database work",
+            "message": "Everything seems to be working.",
             "name": "Mailing Lists",
-            "status": "scheduled",
+            "status": "good",
             "url": "http://lists.fedoraproject.org/"
         },
         "mirrorlist": {
