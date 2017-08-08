@@ -4,184 +4,184 @@ callback({
     "global_verbose_status": "All systems go",
     "services": {
         "ask": {
-            "message": "NFS storage being unresponsive, being looked at",
+            "message": "Everything seems to be working.",
             "name": "Ask Fedora",
-            "status": "major",
+            "status": "good",
             "url": "http://ask.fedoraproject.org/"
         },
         "authentication": {
-            "message": "NFS storage being unresponsive, being looked at",
+            "message": "Everything seems to be working.",
             "name": "Ipsilon",
-            "status": "major",
+            "status": "good",
             "url": "https://id.fedoraproject.org/"
         },
         "badges": {
-            "message": "NFS storage being unresponsive, being looked at",
+            "message": "Everything seems to be working.",
             "name": "Badges",
-            "status": "major",
+            "status": "good",
             "url": "http:/badges.fedoraproject.org/"
         },
         "blockerbugs": {
-            "message": "NFS storage being unresponsive, being looked at",
+            "message": "Everything seems to be working.",
             "name": "Blockerbugs",
-            "status": "major",
+            "status": "good",
             "url": "http://qa.fedoraproject.org/blockerbugs/"
         },
         "bodhi": {
-            "message": "NFS storage being unresponsive, being looked at",
+            "message": "Scheduled reboots in progress",
             "name": "Package Updates Manager",
-            "status": "major",
+            "status": "scheduled",
             "url": "https://admin.fedoraproject.org/updates/"
         },
         "cloud": {
-            "message": "NFS storage being unresponsive, being looked at",
+            "message": "Everything seems to be working.",
             "name": "Fedora Infrastructure Cloud",
-            "status": "major",
+            "status": "good",
             "url": "https://fedorainfracloud.org/"
         },
         "copr": {
-            "message": "NFS storage being unresponsive, being looked at",
+            "message": "Everything seems to be working.",
             "name": "COPR Build System",
-            "status": "major",
+            "status": "good",
             "url": "https://copr.fedoraproject.org/"
         },
         "darkserver": {
-            "message": "NFS storage being unresponsive, being looked at",
+            "message": "Everything seems to be working.",
             "name": "Darkserver",
-            "status": "major",
+            "status": "good",
             "url": "https://fedoraproject.org/wiki/Darkserver"
         },
         "docs": {
-            "message": "NFS storage being unresponsive, being looked at",
+            "message": "Everything seems to be working.",
             "name": "Documentation website",
-            "status": "major",
+            "status": "good",
             "url": "http://docs.fedoraproject.org/"
         },
         "elections": {
-            "message": "NFS storage being unresponsive, being looked at",
+            "message": "Everything seems to be working.",
             "name": "Fedora elections",
-            "status": "major",
+            "status": "good",
             "url": "https://admin.fedoraproject.org/voting/"
         },
         "fas": {
-            "message": "NFS storage being unresponsive, being looked at",
+            "message": "Everything seems to be working.",
             "name": "Account System",
-            "status": "major",
+            "status": "good",
             "url": "https://admin.fedoraproject.org/accounts/"
         },
         "fedmsg": {
-            "message": "NFS storage being unresponsive, being looked at",
+            "message": "Everything seems to be working.",
             "name": "Fedora Messaging Bus",
-            "status": "major",
+            "status": "good",
             "url": "https://admin.fedoraproject.org/pkgdb/acls/name/fedmsg"
         },
         "fedocal": {
-            "message": "NFS storage being unresponsive, being looked at",
+            "message": "Everything seems to be working.",
             "name": "Fedora Calendar",
-            "status": "major",
+            "status": "good",
             "url": "https://apps.fedoraproject.org/fedocal/"
         },
         "fedorahosted": {
-            "message": "NFS storage being unresponsive, being looked at",
+            "message": "Everything seems to be working.",
             "name": "FedoraHosted.org Services",
-            "status": "major",
+            "status": "good",
             "url": "https://fedorahosted.org/web/"
         },
         "fedorapaste": {
-            "message": "NFS storage being unresponsive, being looked at",
+            "message": "Everything seems to be working.",
             "name": "Fedora pastebin service",
-            "status": "major",
+            "status": "good",
             "url": "https://paste.fedorahosted.org/"
         },
         "freemedia": {
-            "message": "NFS storage being unresponsive, being looked at",
+            "message": "Everything seems to be working.",
             "name": "FreeMedia",
-            "status": "major",
+            "status": "good",
             "url": "http://fedoraproject.org/wiki/FreeMedia"
         },
         "koji": {
-            "message": "NFS storage being unresponsive, being looked at",
+            "message": "Scheduled reboots in progress",
             "name": "The Koji Buildsystem",
-            "status": "major",
+            "status": "scheduled",
             "url": "http://koji.fedoraproject.org/koji/"
         },
         "koschei": {
-            "message": "NFS storage being unresponsive, being looked at",
+            "message": "Scheduled reboots in progress",
             "name": "Koschei Continuous Integration",
-            "status": "major",
+            "status": "scheduled",
             "url": "https://apps.fedoraproject.org/koschei/"
         },
         "krb": {
-            "message": "NFS storage being unresponsive, being looked at",
+            "message": "Everything seems to be working.",
             "name": "Kerberos",
-            "status": "major",
+            "status": "good",
             "url": "https://id.fedoraproject.org/"
         },
         "mailinglists": {
-            "message": "NFS storage being unresponsive, being looked at",
+            "message": "Everything seems to be working.",
             "name": "Mailing Lists",
-            "status": "major",
+            "status": "good",
             "url": "http://lists.fedoraproject.org/"
         },
         "mirrorlist": {
-            "message": "NFS storage being unresponsive, being looked at",
+            "message": "Everything seems to be working.",
             "name": "Mirror List",
-            "status": "major",
+            "status": "good",
             "url": "http://mirrors.fedoraproject.org/publiclist/"
         },
         "mirrormanager": {
-            "message": "NFS storage being unresponsive, being looked at",
+            "message": "Everything seems to be working.",
             "name": "Mirror Manager",
-            "status": "major",
+            "status": "good",
             "url": "http://mirrors.fedoraproject.org/"
         },
         "packages": {
-            "message": "NFS storage being unresponsive, being looked at",
+            "message": "Everything seems to be working.",
             "name": "Fedora Packages App",
-            "status": "major",
+            "status": "good",
             "url": "https://apps.fedoraproject.org/packages"
         },
         "people": {
-            "message": "NFS storage being unresponsive, being looked at",
+            "message": "Everything seems to be working.",
             "name": "Fedora People",
-            "status": "major",
+            "status": "good",
             "url": "https://fedorapeople.org/"
         },
         "pkgdb": {
-            "message": "NFS storage being unresponsive, being looked at",
+            "message": "Everything seems to be working.",
             "name": "Package Database",
-            "status": "major",
+            "status": "good",
             "url": "https://admin.fedoraproject.org/pkgdb/"
         },
         "pkgs": {
             "mailinglists": "Fedora mailing lists",
-            "message": "NFS storage being unresponsive, being looked at",
+            "message": "Everything seems to be working.",
             "name": "Package maintainers git repositories",
-            "status": "major",
+            "status": "good",
             "url": "http://pkgs.fedoraproject.org/"
         },
         "tagger": {
-            "message": "NFS storage being unresponsive, being looked at",
+            "message": "Everything seems to be working.",
             "name": "Tagger",
-            "status": "major",
+            "status": "good",
             "url": "https://apps.fedoraproject.org/tagger/"
         },
         "website": {
-            "message": "NFS storage being unresponsive, being looked at",
+            "message": "Everything seems to be working.",
             "name": "Fedora websites",
-            "status": "major",
+            "status": "good",
             "url": "http://fedoraproject.org/"
         },
         "wiki": {
-            "message": "NFS storage being unresponsive, being looked at",
+            "message": "Everything seems to be working.",
             "name": "Fedora Wiki",
-            "status": "major",
+            "status": "good",
             "url": "https://fedoraproject.org/wiki/Fedora_Project_Wiki"
         },
         "zodbot": {
-            "message": "NFS storage being unresponsive, being looked at",
+            "message": "Everything seems to be working.",
             "name": "Zodbot IRC bot",
-            "status": "major",
+            "status": "good",
             "url": "https://fedoraproject.org/wiki/Zodbot"
         }
     }

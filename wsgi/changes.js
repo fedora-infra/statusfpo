@@ -2,6 +2,57 @@ callback([
     {
         "changetype": "multiple",
         "services": [
+            "koschei",
+            "bodhi",
+            "koji"
+        ],
+        "status": "scheduled",
+        "new_global_status": "scheduled",
+        "message": "Scheduled reboots in progress",
+        "changedate": 1502235071.2036397
+    },
+    {
+        "changetype": "multiple",
+        "services": [
+            "ask",
+            "authentication",
+            "badges",
+            "blockerbugs",
+            "bodhi",
+            "cloud",
+            "copr",
+            "darkserver",
+            "docs",
+            "elections",
+            "fas",
+            "fedmsg",
+            "fedocal",
+            "fedorahosted",
+            "fedorapaste",
+            "freemedia",
+            "koji",
+            "koschei",
+            "krb",
+            "mailinglists",
+            "mirrorlist",
+            "mirrormanager",
+            "packages",
+            "people",
+            "pkgdb",
+            "pkgs",
+            "tagger",
+            "website",
+            "wiki",
+            "zodbot"
+        ],
+        "status": "good",
+        "new_global_status": "good",
+        "message": "Everything seems to be working.",
+        "changedate": 1502235062.1149325
+    },
+    {
+        "changetype": "multiple",
+        "services": [
             "ask",
             "authentication",
             "badges",
