@@ -1,5 +1,17 @@
 callback([
     {
+        "changetype": "multiple",
+        "services": [
+            "koschei",
+            "bodhi",
+            "koji"
+        ],
+        "status": "scheduled",
+        "new_global_status": "scheduled",
+        "message": "Scheduled reboots in progress",
+        "changedate": 1502226144.748629
+    },
+    {
         "changetype": "single",
         "service": "mailinglists",
         "status": "good",
