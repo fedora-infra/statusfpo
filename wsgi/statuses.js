@@ -28,9 +28,9 @@ callback({
             "url": "http://qa.fedoraproject.org/blockerbugs/"
         },
         "bodhi": {
-            "message": "Scheduled reboots in progress",
+            "message": "Everything seems to be working.",
             "name": "Package Updates Manager",
-            "status": "scheduled",
+            "status": "good",
             "url": "https://admin.fedoraproject.org/updates/"
         },
         "cloud": {
@@ -100,15 +100,15 @@ callback({
             "url": "http://fedoraproject.org/wiki/FreeMedia"
         },
         "koji": {
-            "message": "Scheduled reboots in progress",
+            "message": "Everything seems to be working.",
             "name": "The Koji Buildsystem",
-            "status": "scheduled",
+            "status": "good",
             "url": "http://koji.fedoraproject.org/koji/"
         },
         "koschei": {
-            "message": "Scheduled reboots in progress",
+            "message": "Everything seems to be working.",
             "name": "Koschei Continuous Integration",
-            "status": "scheduled",
+            "status": "good",
             "url": "https://apps.fedoraproject.org/koschei/"
         },
         "krb": {
