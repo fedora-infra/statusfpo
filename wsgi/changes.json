@@ -2,6 +2,17 @@
     {
         "changetype": "multiple",
         "services": [
+            "cloud",
+            "copr"
+        ],
+        "status": "good",
+        "new_global_status": "good",
+        "message": "Everything seems to be working.",
+        "changedate": 1502497496.922436
+    },
+    {
+        "changetype": "multiple",
+        "services": [
             "copr",
             "cloud"
         ],
