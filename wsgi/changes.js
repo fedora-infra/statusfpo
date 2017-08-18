@@ -1,5 +1,13 @@
 callback([
     {
+        "changetype": "single",
+        "service": "wiki",
+        "status": "major",
+        "new_global_status": "major",
+        "message": "Looking into database server connectivity issues",
+        "changedate": 1503033811.0287077
+    },
+    {
         "changetype": "multiple",
         "services": [
             "cloud",
