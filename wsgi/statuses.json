@@ -173,9 +173,9 @@
             "url": "http://fedoraproject.org/"
         },
         "wiki": {
-            "message": "Looking into database server connectivity issues",
+            "message": "Recovering database server connectivity issues, expect some slowness",
             "name": "Fedora Wiki",
-            "status": "major",
+            "status": "minor",
             "url": "https://fedoraproject.org/wiki/Fedora_Project_Wiki"
         },
         "zodbot": {

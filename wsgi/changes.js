@@ -2,6 +2,14 @@ callback([
     {
         "changetype": "single",
         "service": "wiki",
+        "status": "minor",
+        "new_global_status": "minor",
+        "message": "Recovering database server connectivity issues, expect some slowness",
+        "changedate": 1503034222.1620278
+    },
+    {
+        "changetype": "single",
+        "service": "wiki",
         "status": "major",
         "new_global_status": "major",
         "message": "Looking into database server connectivity issues",
