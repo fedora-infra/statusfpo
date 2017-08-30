@@ -2,6 +2,14 @@
     {
         "changetype": "single",
         "service": "pkgs",
+        "status": "good",
+        "new_global_status": "good",
+        "message": "Everything seems to be working.",
+        "changedate": 1504119790.7855704
+    },
+    {
+        "changetype": "single",
+        "service": "pkgs",
         "status": "major",
         "new_global_status": "major",
         "message": "src.fedoraproject.org / pkgs down",
