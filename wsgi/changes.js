@@ -1,6 +1,14 @@
 callback([
     {
         "changetype": "single",
+        "service": "pkgs",
+        "status": "major",
+        "new_global_status": "major",
+        "message": "src.fedoraproject.org / pkgs down",
+        "changedate": 1504118924.845832
+    },
+    {
+        "changetype": "single",
         "service": "wiki",
         "status": "good",
         "new_global_status": "good",
