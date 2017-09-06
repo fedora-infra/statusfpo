@@ -1,68 +1,106 @@
 callback([
     {
-        "changetype": "single",
-        "service": "pkgs",
-        "status": "good",
-        "new_global_status": "good",
-        "message": "Everything seems to be working.",
-        "changedate": 1504119790.7855704
-    },
-    {
-        "changetype": "single",
-        "service": "pkgs",
+        "services": [
+            "fedmsg",
+            "koschei",
+            "copr",
+            "tagger",
+            "mirrorlist",
+            "elections",
+            "fedorapaste",
+            "freemedia",
+            "authentication",
+            "cloud",
+            "mailinglists",
+            "pkgdb",
+            "fedorahosted",
+            "packages",
+            "bodhi",
+            "fas",
+            "fedocal",
+            "mirrormanager",
+            "docs",
+            "website",
+            "zodbot",
+            "wiki",
+            "krb",
+            "pkgs",
+            "ask",
+            "badges",
+            "koji",
+            "people",
+            "darkserver",
+            "blockerbugs"
+        ],
         "status": "major",
-        "new_global_status": "major",
-        "message": "src.fedoraproject.org / pkgs down",
-        "changedate": 1504118924.845832
-    },
-    {
-        "changetype": "single",
-        "service": "wiki",
-        "status": "good",
-        "new_global_status": "good",
-        "message": "Everything seems to be working.",
-        "changedate": 1503034664.025052
-    },
-    {
-        "changetype": "single",
-        "service": "wiki",
-        "status": "minor",
-        "new_global_status": "minor",
-        "message": "Recovering database server connectivity issues, expect some slowness",
-        "changedate": 1503034222.1620278
-    },
-    {
-        "changetype": "single",
-        "service": "wiki",
-        "status": "major",
-        "new_global_status": "major",
-        "message": "Looking into database server connectivity issues",
-        "changedate": 1503033811.0287077
-    },
-    {
+        "message": "DNSSEC issues have been reported against fedoraproject.org and are being investigated",
+        "changedate": 1504702183.5042634,
         "changetype": "multiple",
+        "new_global_status": "major"
+    },
+    {
+        "status": "good",
+        "service": "pkgs",
+        "message": "Everything seems to be working.",
+        "changedate": 1504119790.7855704,
+        "changetype": "single",
+        "new_global_status": "good"
+    },
+    {
+        "status": "major",
+        "service": "pkgs",
+        "message": "src.fedoraproject.org / pkgs down",
+        "changedate": 1504118924.845832,
+        "changetype": "single",
+        "new_global_status": "major"
+    },
+    {
+        "status": "good",
+        "service": "wiki",
+        "message": "Everything seems to be working.",
+        "changedate": 1503034664.025052,
+        "changetype": "single",
+        "new_global_status": "good"
+    },
+    {
+        "status": "minor",
+        "service": "wiki",
+        "message": "Recovering database server connectivity issues, expect some slowness",
+        "changedate": 1503034222.1620278,
+        "changetype": "single",
+        "new_global_status": "minor"
+    },
+    {
+        "status": "major",
+        "service": "wiki",
+        "message": "Looking into database server connectivity issues",
+        "changedate": 1503033811.0287077,
+        "changetype": "single",
+        "new_global_status": "major"
+    },
+    {
         "services": [
             "cloud",
             "copr"
         ],
         "status": "good",
-        "new_global_status": "good",
         "message": "Everything seems to be working.",
-        "changedate": 1502497496.922436
+        "changedate": 1502497496.922436,
+        "changetype": "multiple",
+        "new_global_status": "good"
     },
     {
-        "changetype": "multiple",
         "services": [
             "copr",
             "cloud"
         ],
         "status": "scheduled",
-        "new_global_status": "scheduled",
         "message": "Scheduled maintenance in progress",
-        "changedate": 1502485760.2615054
+        "changedate": 1502485760.2615054,
+        "changetype": "multiple",
+        "new_global_status": "scheduled"
     },
     {
-        "changetype": "multiple",
         "services": [
             "ask",
             "authentication",
@@ -96,12 +134,12 @@ callback([
             "zodbot"
         ],
         "status": "good",
-        "new_global_status": "good",
         "message": "Everything seems to be working.",
-        "changedate": 1502333334.211173
+        "changedate": 1502333334.211173,
+        "changetype": "multiple",
+        "new_global_status": "good"
     },
     {
-        "changetype": "multiple",
         "services": [
             "ask",
             "authentication",
@@ -135,36 +173,36 @@ callback([
             "zodbot"
         ],
         "status": "scheduled",
-        "new_global_status": "scheduled",
         "message": "server updates",
-        "changedate": 1502312553.4470384
+        "changedate": 1502312553.4470384,
+        "changetype": "multiple",
+        "new_global_status": "scheduled"
     },
     {
-        "changetype": "multiple",
         "services": [
             "bodhi",
             "koji",
             "koschei"
         ],
         "status": "good",
-        "new_global_status": "good",
         "message": "Everything seems to be working.",
-        "changedate": 1502241647.66671
+        "changedate": 1502241647.66671,
+        "changetype": "multiple",
+        "new_global_status": "good"
     },
     {
-        "changetype": "multiple",
         "services": [
             "koschei",
             "bodhi",
             "koji"
         ],
         "status": "scheduled",
-        "new_global_status": "scheduled",
         "message": "Scheduled reboots in progress",
-        "changedate": 1502235071.2036397
+        "changedate": 1502235071.2036397,
+        "changetype": "multiple",
+        "new_global_status": "scheduled"
     },
     {
-        "changetype": "multiple",
         "services": [
             "ask",
             "authentication",
@@ -198,12 +236,12 @@ callback([
             "zodbot"
         ],
         "status": "good",
-        "new_global_status": "good",
         "message": "Everything seems to be working.",
-        "changedate": 1502235062.1149325
+        "changedate": 1502235062.1149325,
+        "changetype": "multiple",
+        "new_global_status": "good"
     },
     {
-        "changetype": "multiple",
         "services": [
             "ask",
             "authentication",
@@ -237,128 +275,127 @@ callback([
             "zodbot"
         ],
         "status": "major",
-        "new_global_status": "major",
         "message": "NFS storage being unresponsive, being looked at",
-        "changedate": 1502230190.6960716
+        "changedate": 1502230190.6960716,
+        "changetype": "multiple",
+        "new_global_status": "major"
     },
     {
-        "changetype": "multiple",
         "services": [
             "koschei",
             "bodhi",
             "koji"
         ],
         "status": "scheduled",
-        "new_global_status": "scheduled",
         "message": "Scheduled reboots in progress",
-        "changedate": 1502226144.748629
-    },
-    {
-        "changetype": "single",
-        "service": "mailinglists",
-        "status": "good",
-        "new_global_status": "good",
-        "message": "Everything seems to be working.",
-        "changedate": 1502118252.973875
-    },
-    {
-        "changetype": "single",
-        "service": "mailinglists",
-        "status": "scheduled",
-        "new_global_status": "scheduled",
-        "message": "mailinglists database work",
-        "changedate": 1501881191.4611883
-    },
-    {
-        "status": "good",
-        "new_global_status": "good",
+        "changedate": 1502226144.748629,
         "changetype": "multiple",
+        "new_global_status": "scheduled"
+    },
+    {
+        "status": "good",
+        "service": "mailinglists",
+        "message": "Everything seems to be working.",
+        "changedate": 1502118252.973875,
+        "changetype": "single",
+        "new_global_status": "good"
+    },
+    {
+        "status": "scheduled",
+        "service": "mailinglists",
+        "message": "mailinglists database work",
+        "changedate": 1501881191.4611883,
+        "changetype": "single",
+        "new_global_status": "scheduled"
+    },
+    {
+        "status": "good",
         "services": [
             "koji",
             "bodhi",
             "koschei"
         ],
         "message": "Everything seems to be working.",
-        "changedate": 1501624342.148569
+        "changedate": 1501624342.148569,
+        "changetype": "multiple",
+        "new_global_status": "good"
     },
     {
         "status": "scheduled",
-        "new_global_status": "scheduled",
-        "changetype": "multiple",
         "services": [
             "koji",
             "bodhi",
             "koschei"
         ],
         "message": "Down for scheduled koji database maintenance",
-        "changedate": 1501621311.608752
+        "changedate": 1501621311.608752,
+        "changetype": "multiple",
+        "new_global_status": "scheduled"
     },
     {
         "status": "good",
-        "new_global_status": "good",
         "service": "koji",
-        "changetype": "single",
         "message": "Everything seems to be working.",
-        "changedate": 1500034415.702598
+        "changedate": 1500034415.702598,
+        "changetype": "single",
+        "new_global_status": "good"
     },
     {
         "status": "minor",
-        "new_global_status": "minor",
         "service": "koji",
-        "changetype": "single",
         "message": "s390x builders coming back now, backlog of builds is being processed",
-        "changedate": 1500005478.842641
+        "changedate": 1500005478.842641,
+        "changetype": "single",
+        "new_global_status": "minor"
     },
     {
         "status": "major",
-        "new_global_status": "major",
         "service": "koji",
-        "changetype": "single",
         "message": "s390x builders offline, blocking all nonarch builds that include s390x, escalated",
-        "changedate": 1499992472.2618759
+        "changedate": 1499992472.2618759,
+        "changetype": "single",
+        "new_global_status": "major"
     },
     {
         "status": "good",
-        "new_global_status": "good",
         "service": "mailinglists",
-        "changetype": "single",
         "message": "Everything seems to be working.",
-        "changedate": 1499902730.0635335
+        "changedate": 1499902730.0635335,
+        "changetype": "single",
+        "new_global_status": "good"
     },
     {
         "status": "minor",
-        "new_global_status": "minor",
         "service": "mailinglists",
-        "changetype": "single",
         "message": "Incoming email processing delayed, being looked at",
-        "changedate": 1499873221.4790897
+        "changedate": 1499873221.4790897,
+        "changetype": "single",
+        "new_global_status": "minor"
     },
     {
         "status": "good",
-        "new_global_status": "good",
-        "changetype": "multiple",
         "services": [
             "copr",
             "cloud"
         ],
         "message": "Everything seems to be working.",
-        "changedate": 1498527260.562527
+        "changedate": 1498527260.562527,
+        "changetype": "multiple",
+        "new_global_status": "good"
     },
     {
         "status": "scheduled",
-        "new_global_status": "scheduled",
-        "changetype": "multiple",
         "services": [
             "cloud",
             "copr"
         ],
         "message": "Scheduled updates in progress",
-        "changedate": 1498512356.6740384
+        "changedate": 1498512356.6740384,
+        "changetype": "multiple",
+        "new_global_status": "scheduled"
     },
     {
         "status": "good",
-        "new_global_status": "good",
-        "changetype": "multiple",
         "services": [
             "ask",
             "authentication",
@@ -392,12 +429,12 @@ callback([
             "zodbot"
         ],
         "message": "Everything seems to be working.",
-        "changedate": 1498093176.6001916
+        "changedate": 1498093176.6001916,
+        "changetype": "multiple",
+        "new_global_status": "good"
     },
     {
         "status": "scheduled",
-        "new_global_status": "scheduled",
-        "changetype": "multiple",
         "services": [
             "ask",
             "authentication",
@@ -431,12 +468,12 @@ callback([
             "zodbot"
         ],
         "message": "server reboots",
-        "changedate": 1498078923.8001587
+        "changedate": 1498078923.8001587,
+        "changetype": "multiple",
+        "new_global_status": "scheduled"
     },
     {
         "status": "good",
-        "new_global_status": "good",
-        "changetype": "multiple",
         "services": [
             "bodhi",
             "koji",
@@ -444,12 +481,12 @@ callback([
             "pkgs"
         ],
         "message": "Everything seems to be working.",
-        "changedate": 1498007647.1294005
+        "changedate": 1498007647.1294005,
+        "changetype": "multiple",
+        "new_global_status": "good"
     },
     {
         "status": "scheduled",
-        "new_global_status": "scheduled",
-        "changetype": "multiple",
         "services": [
             "koji",
             "koschei",
@@ -457,34 +494,34 @@ callback([
             "bodhi"
         ],
         "message": "planned buildsystem outage",
-        "changedate": 1497992415.519782
+        "changedate": 1497992415.519782,
+        "changetype": "multiple",
+        "new_global_status": "scheduled"
     },
     {
         "status": "good",
-        "new_global_status": "good",
-        "changetype": "multiple",
         "services": [
             "cloud",
             "copr"
         ],
         "message": "Everything seems to be working.",
-        "changedate": 1493890102.5029988
+        "changedate": 1493890102.5029988,
+        "changetype": "multiple",
+        "new_global_status": "good"
     },
     {
         "status": "scheduled",
-        "new_global_status": "scheduled",
-        "changetype": "multiple",
         "services": [
             "cloud",
             "copr"
         ],
         "message": "Scheduled update/reboot in progress: https://pagure.io/fedora-infrastructure/issue/6026",
-        "changedate": 1493877705.875975
+        "changedate": 1493877705.875975,
+        "changetype": "multiple",
+        "new_global_status": "scheduled"
     },
     {
         "status": "good",
-        "new_global_status": "good",
-        "changetype": "multiple",
         "services": [
             "ask",
             "authentication",
@@ -518,12 +555,12 @@ callback([
             "zodbot"
         ],
         "message": "Everything seems to be working.",
-        "changedate": 1493862811.9792717
+        "changedate": 1493862811.9792717,
+        "changetype": "multiple",
+        "new_global_status": "good"
     },
     {
         "status": "minor",
-        "new_global_status": "minor",
-        "changetype": "multiple",
         "services": [
             "ask",
             "authentication",
@@ -557,12 +594,12 @@ callback([
             "zodbot"
         ],
         "message": "Everything seems to be working.",
-        "changedate": 1493862694.7277944
+        "changedate": 1493862694.7277944,
+        "changetype": "multiple",
+        "new_global_status": "minor"
     },
     {
         "status": "scheduled",
-        "new_global_status": "scheduled",
-        "changetype": "multiple",
         "services": [
             "ask",
             "authentication",
@@ -596,12 +633,12 @@ callback([
             "zodbot"
         ],
         "message": "server reboots",
-        "changedate": 1493845350.5211866
+        "changedate": 1493845350.5211866,
+        "changetype": "multiple",
+        "new_global_status": "scheduled"
     },
     {
         "status": "good",
-        "new_global_status": "good",
-        "changetype": "multiple",
         "services": [
             "bodhi",
             "koji",
@@ -609,12 +646,12 @@ callback([
             "pkgs"
         ],
         "message": "Everything seems to be working.",
-        "changedate": 1493766674.4929051
+        "changedate": 1493766674.4929051,
+        "changetype": "multiple",
+        "new_global_status": "good"
     },
     {
         "status": "scheduled",
-        "new_global_status": "scheduled",
-        "changetype": "multiple",
         "services": [
             "koji",
             "koschei",
@@ -622,28 +659,28 @@ callback([
             "bodhi"
         ],
         "message": "planned buildsystem outage",
-        "changedate": 1493758806.8827972
+        "changedate": 1493758806.8827972,
+        "changetype": "multiple",
+        "new_global_status": "scheduled"
     },
     {
         "status": "good",
-        "new_global_status": "good",
         "service": "bodhi",
-        "changetype": "single",
         "message": "Everything seems to be working.",
-        "changedate": 1492886648.7151916
+        "changedate": 1492886648.7151916,
+        "changetype": "single",
+        "new_global_status": "good"
     },
     {
         "status": "minor",
-        "new_global_status": "minor",
         "service": "bodhi",
-        "changetype": "single",
         "message": "Red Hat bugzilla is having problems, bug information might not be retrieved. Being worked on",
-        "changedate": 1492861966.4937692
+        "changedate": 1492861966.4937692,
+        "changetype": "single",
+        "new_global_status": "minor"
     },
     {
         "status": "good",
-        "new_global_status": "good",
-        "changetype": "multiple",
         "services": [
             "ask",
             "authentication",
@@ -677,12 +714,12 @@ callback([
             "zodbot"
         ],
         "message": "Everything seems to be working.",
-        "changedate": 1492828935.0590217
+        "changedate": 1492828935.0590217,
+        "changetype": "multiple",
+        "new_global_status": "good"
     },
     {
         "status": "major",
-        "new_global_status": "major",
-        "changetype": "multiple",
         "services": [
             "ask",
             "authentication",
@@ -716,12 +753,12 @@ callback([
             "zodbot"
         ],
         "message": "Network outage at main data center, being worked on",
-        "changedate": 1492787588.414246
+        "changedate": 1492787588.414246,
+        "changetype": "multiple",
+        "new_global_status": "major"
     },
     {
         "status": "major",
-        "new_global_status": "major",
-        "changetype": "multiple",
         "services": [
             "ask",
             "authentication",
@@ -755,12 +792,12 @@ callback([
             "zodbot"
         ],
         "message": "Power outage at main data center, being worked on",
-        "changedate": 1492786898.6854658
+        "changedate": 1492786898.6854658,
+        "changetype": "multiple",
+        "new_global_status": "major"
     },
     {
         "status": "major",
-        "new_global_status": "major",
-        "changetype": "multiple",
         "services": [
             "ask",
             "authentication",
@@ -794,44 +831,44 @@ callback([
             "zodbot"
         ],
         "message": "Network problems, being worked on",
-        "changedate": 1492786008.665856
-    },
-    {
-        "status": "good",
-        "new_global_status": "good",
-        "service": "copr",
-        "changetype": "single",
-        "message": "Everything seems to be working.",
-        "changedate": 1491590590.1931193
-    },
-    {
-        "status": "major",
-        "new_global_status": "major",
-        "service": "copr",
-        "changetype": "single",
-        "message": "backend instance outage",
-        "changedate": 1491587140.5216165
-    },
-    {
-        "status": "good",
-        "new_global_status": "good",
-        "service": "koji",
-        "changetype": "single",
-        "message": "Everything seems to be working.",
-        "changedate": 1491520763.7244625
-    },
-    {
-        "status": "major",
-        "new_global_status": "major",
-        "service": "koji",
-        "changetype": "single",
-        "message": "Network outage, being worked on",
-        "changedate": 1491519248.9379332
-    },
-    {
-        "status": "good",
-        "new_global_status": "good",
+        "changedate": 1492786008.665856,
         "changetype": "multiple",
+        "new_global_status": "major"
+    },
+    {
+        "status": "good",
+        "service": "copr",
+        "message": "Everything seems to be working.",
+        "changedate": 1491590590.1931193,
+        "changetype": "single",
+        "new_global_status": "good"
+    },
+    {
+        "status": "major",
+        "service": "copr",
+        "message": "backend instance outage",
+        "changedate": 1491587140.5216165,
+        "changetype": "single",
+        "new_global_status": "major"
+    },
+    {
+        "status": "good",
+        "service": "koji",
+        "message": "Everything seems to be working.",
+        "changedate": 1491520763.7244625,
+        "changetype": "single",
+        "new_global_status": "good"
+    },
+    {
+        "status": "major",
+        "service": "koji",
+        "message": "Network outage, being worked on",
+        "changedate": 1491519248.9379332,
+        "changetype": "single",
+        "new_global_status": "major"
+    },
+    {
+        "status": "good",
         "services": [
             "wiki",
             "people",
@@ -865,12 +902,12 @@ callback([
             "krb"
         ],
         "message": "Everything seems to be working.",
-        "changedate": 1489030014.957999
+        "changedate": 1489030014.957999,
+        "changetype": "multiple",
+        "new_global_status": "good"
     },
     {
         "status": "major",
-        "new_global_status": "major",
-        "changetype": "multiple",
         "services": [
             "wiki",
             "people",
@@ -904,44 +941,44 @@ callback([
             "krb"
         ],
         "message": "network issues",
-        "changedate": 1489027544.258568
-    },
-    {
-        "status": "good",
-        "new_global_status": "good",
-        "service": "pkgdb",
-        "changetype": "single",
-        "message": "Everything seems to be working.",
-        "changedate": 1488332438.310871
-    },
-    {
-        "status": "scheduled",
-        "new_global_status": "scheduled",
-        "service": "pkgdb",
-        "changetype": "single",
-        "message": "Temporarily down for branching",
-        "changedate": 1488329946.379369
-    },
-    {
-        "status": "good",
-        "new_global_status": "good",
-        "service": "fedorapaste",
-        "changetype": "single",
-        "message": "Everything seems to be working.",
-        "changedate": 1487410967.146526
-    },
-    {
-        "status": "scheduled",
-        "new_global_status": "scheduled",
-        "service": "fedorapaste",
-        "changetype": "single",
-        "message": "We are moving to Modern Paste!",
-        "changedate": 1487191784.068443
-    },
-    {
-        "status": "good",
-        "new_global_status": "good",
+        "changedate": 1489027544.258568,
         "changetype": "multiple",
+        "new_global_status": "major"
+    },
+    {
+        "status": "good",
+        "service": "pkgdb",
+        "message": "Everything seems to be working.",
+        "changedate": 1488332438.310871,
+        "changetype": "single",
+        "new_global_status": "good"
+    },
+    {
+        "status": "scheduled",
+        "service": "pkgdb",
+        "message": "Temporarily down for branching",
+        "changedate": 1488329946.379369,
+        "changetype": "single",
+        "new_global_status": "scheduled"
+    },
+    {
+        "status": "good",
+        "service": "fedorapaste",
+        "message": "Everything seems to be working.",
+        "changedate": 1487410967.146526,
+        "changetype": "single",
+        "new_global_status": "good"
+    },
+    {
+        "status": "scheduled",
+        "service": "fedorapaste",
+        "message": "We are moving to Modern Paste!",
+        "changedate": 1487191784.068443,
+        "changetype": "single",
+        "new_global_status": "scheduled"
+    },
+    {
+        "status": "good",
         "services": [
             "wiki",
             "people",
@@ -975,12 +1012,12 @@ callback([
             "krb"
         ],
         "message": "Everything seems to be working.",
-        "changedate": 1485384988.951454
+        "changedate": 1485384988.951454,
+        "changetype": "multiple",
+        "new_global_status": "good"
     },
     {
         "status": "scheduled",
-        "new_global_status": "scheduled",
-        "changetype": "multiple",
         "services": [
             "wiki",
             "people",
@@ -1014,12 +1051,12 @@ callback([
             "krb"
         ],
         "message": "planned server reboots",
-        "changedate": 1485378017.645942
+        "changedate": 1485378017.645942,
+        "changetype": "multiple",
+        "new_global_status": "scheduled"
     },
     {
         "status": "good",
-        "new_global_status": "good",
-        "changetype": "multiple",
         "services": [
             "wiki",
             "people",
@@ -1053,12 +1090,12 @@ callback([
             "krb"
         ],
         "message": "Everything seems to be working.",
-        "changedate": 1484700509.046814
+        "changedate": 1484700509.046814,
+        "changetype": "multiple",
+        "new_global_status": "good"
     },
     {
         "status": "major",
-        "new_global_status": "major",
-        "changetype": "multiple",
         "services": [
             "wiki",
             "people",
@@ -1092,44 +1129,44 @@ callback([
             "krb"
         ],
         "message": "network outage at main DC",
-        "changedate": 1484700461.911668
-    },
-    {
-        "status": "good",
-        "new_global_status": "good",
-        "service": "koji",
-        "changetype": "single",
-        "message": "Everything seems to be working.",
-        "changedate": 1484076706.379574
-    },
-    {
-        "status": "major",
-        "new_global_status": "major",
-        "service": "koji",
-        "changetype": "single",
-        "message": "koji db issues",
-        "changedate": 1484076283.151738
-    },
-    {
-        "status": "good",
-        "new_global_status": "good",
-        "service": "fedorahosted",
-        "changetype": "single",
-        "message": "Everything seems to be working.",
-        "changedate": 1482005746.564695
-    },
-    {
-        "status": "major",
-        "new_global_status": "major",
-        "service": "fedorahosted",
-        "changetype": "single",
-        "message": "osuosl network outage",
-        "changedate": 1481996052.811382
-    },
-    {
-        "status": "good",
-        "new_global_status": "good",
+        "changedate": 1484700461.911668,
         "changetype": "multiple",
+        "new_global_status": "major"
+    },
+    {
+        "status": "good",
+        "service": "koji",
+        "message": "Everything seems to be working.",
+        "changedate": 1484076706.379574,
+        "changetype": "single",
+        "new_global_status": "good"
+    },
+    {
+        "status": "major",
+        "service": "koji",
+        "message": "koji db issues",
+        "changedate": 1484076283.151738,
+        "changetype": "single",
+        "new_global_status": "major"
+    },
+    {
+        "status": "good",
+        "service": "fedorahosted",
+        "message": "Everything seems to be working.",
+        "changedate": 1482005746.564695,
+        "changetype": "single",
+        "new_global_status": "good"
+    },
+    {
+        "status": "major",
+        "service": "fedorahosted",
+        "message": "osuosl network outage",
+        "changedate": 1481996052.811382,
+        "changetype": "single",
+        "new_global_status": "major"
+    },
+    {
+        "status": "good",
         "services": [
             "wiki",
             "people",
@@ -1163,12 +1200,12 @@ callback([
             "krb"
         ],
         "message": "Everything seems to be working.",
-        "changedate": 1481749229.376753
+        "changedate": 1481749229.376753,
+        "changetype": "multiple",
+        "new_global_status": "good"
     },
     {
         "status": "major",
-        "new_global_status": "major",
-        "changetype": "multiple",
         "services": [
             "wiki",
             "people",
@@ -1202,50 +1239,50 @@ callback([
             "krb"
         ],
         "message": "dns issues, being worked on",
-        "changedate": 1481748539.078904
+        "changedate": 1481748539.078904,
+        "changetype": "multiple",
+        "new_global_status": "major"
     },
     {
         "status": "good",
-        "new_global_status": "good",
         "service": "copr",
-        "changetype": "single",
         "message": "all systems operational",
-        "changedate": 1481207086.148491
+        "changedate": 1481207086.148491,
+        "changetype": "single",
+        "new_global_status": "good"
     },
     {
         "status": "major",
-        "new_global_status": "major",
         "service": "copr",
-        "changetype": "single",
         "message": "Service will not sign packages",
-        "changedate": 1481140507.357188
+        "changedate": 1481140507.357188,
+        "changetype": "single",
+        "new_global_status": "major"
     },
     {
         "status": "good",
-        "new_global_status": "good",
-        "changetype": "multiple",
         "services": [
             "cloud",
             "copr"
         ],
         "message": "Everything seems to be working.",
-        "changedate": 1480642107.856275
+        "changedate": 1480642107.856275,
+        "changetype": "multiple",
+        "new_global_status": "good"
     },
     {
         "status": "scheduled",
-        "new_global_status": "scheduled",
-        "changetype": "multiple",
         "services": [
             "cloud",
             "copr"
         ],
         "message": "Schedule maintenance ",
-        "changedate": 1480626016.250975
+        "changedate": 1480626016.250975,
+        "changetype": "multiple",
+        "new_global_status": "scheduled"
     },
     {
         "status": "good",
-        "new_global_status": "good",
-        "changetype": "multiple",
         "services": [
             "wiki",
             "people",
@@ -1279,12 +1316,12 @@ callback([
             "krb"
         ],
         "message": "Everything seems to be working.",
-        "changedate": 1480558072.176929
+        "changedate": 1480558072.176929,
+        "changetype": "multiple",
+        "new_global_status": "good"
     },
     {
         "status": "scheduled",
-        "new_global_status": "scheduled",
-        "changetype": "multiple",
         "services": [
             "wiki",
             "people",
@@ -1318,60 +1355,60 @@ callback([
             "krb"
         ],
         "message": "Scheduled reboots in progress",
-        "changedate": 1480539546.245024
+        "changedate": 1480539546.245024,
+        "changetype": "multiple",
+        "new_global_status": "scheduled"
     },
     {
         "status": "good",
-        "new_global_status": "good",
         "service": "bodhi",
-        "changetype": "single",
         "message": "Everything seems to be working.",
-        "changedate": 1480529249.590809
+        "changedate": 1480529249.590809,
+        "changetype": "single",
+        "new_global_status": "good"
     },
     {
         "status": "major",
-        "new_global_status": "major",
         "service": "bodhi",
-        "changetype": "single",
         "message": "Update went wrong, being fixed",
-        "changedate": 1480527443.272973
+        "changedate": 1480527443.272973,
+        "changetype": "single",
+        "new_global_status": "major"
     },
     {
         "status": "good",
-        "new_global_status": "good",
         "service": "bodhi",
-        "changetype": "single",
         "message": "Everything seems to be working.",
-        "changedate": 1477615484.309619
+        "changedate": 1477615484.309619,
+        "changetype": "single",
+        "new_global_status": "good"
     },
     {
         "status": "scheduled",
-        "new_global_status": "scheduled",
         "service": "bodhi",
-        "changetype": "single",
         "message": "Bodhi upgrade in progress",
-        "changedate": 1477610300.236415
+        "changedate": 1477610300.236415,
+        "changetype": "single",
+        "new_global_status": "scheduled"
     },
     {
         "status": "good",
-        "new_global_status": "good",
         "service": "koschei",
-        "changetype": "single",
         "message": "Everything seems to be working.",
-        "changedate": 1476971283.623962
+        "changedate": 1476971283.623962,
+        "changetype": "single",
+        "new_global_status": "good"
     },
     {
         "status": "major",
-        "new_global_status": "major",
         "service": "koschei",
-        "changetype": "single",
         "message": "koschei outage",
-        "changedate": 1476900382.319252
+        "changedate": 1476900382.319252,
+        "changetype": "single",
+        "new_global_status": "major"
     },
     {
         "status": "good",
-        "new_global_status": "good",
-        "changetype": "multiple",
         "services": [
             "wiki",
             "people",
@@ -1404,12 +1441,12 @@ callback([
             "fedocal"
         ],
         "message": "Everything seems to be working.",
-        "changedate": 1475948088.865446
+        "changedate": 1475948088.865446,
+        "changetype": "multiple",
+        "new_global_status": "good"
     },
     {
         "status": "major",
-        "new_global_status": "major",
-        "changetype": "multiple",
         "services": [
             "wiki",
             "people",
@@ -1442,28 +1479,28 @@ callback([
             "fedocal"
         ],
         "message": "Major network outage",
-        "changedate": 1475943405.399825
+        "changedate": 1475943405.399825,
+        "changetype": "multiple",
+        "new_global_status": "major"
     },
     {
         "status": "good",
-        "new_global_status": "good",
         "service": "ask",
-        "changetype": "single",
         "message": "Everything seems to be working.",
-        "changedate": 1475517058.76343
+        "changedate": 1475517058.76343,
+        "changetype": "single",
+        "new_global_status": "good"
     },
     {
         "status": "major",
-        "new_global_status": "major",
         "service": "ask",
-        "changetype": "single",
         "message": "ask down",
-        "changedate": 1475516819.073458
+        "changedate": 1475516819.073458,
+        "changetype": "single",
+        "new_global_status": "major"
     },
     {
         "status": "good",
-        "new_global_status": "good",
-        "changetype": "multiple",
         "services": [
             "wiki",
             "people",
@@ -1496,12 +1533,12 @@ callback([
             "fedocal"
         ],
         "message": "Everything seems to be working.",
-        "changedate": 1474501946.369969
+        "changedate": 1474501946.369969,
+        "changetype": "multiple",
+        "new_global_status": "good"
     },
     {
         "status": "scheduled",
-        "new_global_status": "scheduled",
-        "changetype": "multiple",
         "services": [
             "wiki",
             "people",
@@ -1534,98 +1571,98 @@ callback([
             "fedocal"
         ],
         "message": "planned outage",
-        "changedate": 1474491484.17255
+        "changedate": 1474491484.17255,
+        "changetype": "multiple",
+        "new_global_status": "scheduled"
     },
     {
         "status": "good",
-        "new_global_status": "good",
-        "changetype": "multiple",
         "services": [
             "koji",
             "darkserver",
             "koschei"
         ],
         "message": "Everything seems to be working.",
-        "changedate": 1474411119.026607
+        "changedate": 1474411119.026607,
+        "changetype": "multiple",
+        "new_global_status": "good"
     },
     {
         "status": "scheduled",
-        "new_global_status": "scheduled",
-        "changetype": "multiple",
         "services": [
             "koschei",
             "koji",
             "darkserver"
         ],
         "message": "planned outage",
-        "changedate": 1474405236.424753
+        "changedate": 1474405236.424753,
+        "changetype": "multiple",
+        "new_global_status": "scheduled"
     },
     {
         "status": "good",
-        "new_global_status": "good",
-        "changetype": "multiple",
         "services": [
             "cloud",
             "copr"
         ],
         "message": "Everything seems to be working.",
-        "changedate": 1474362757.961519
+        "changedate": 1474362757.961519,
+        "changetype": "multiple",
+        "new_global_status": "good"
     },
     {
         "status": "scheduled",
-        "new_global_status": "scheduled",
-        "changetype": "multiple",
         "services": [
             "cloud",
             "copr"
         ],
         "message": "Scheduled reboots in progress",
-        "changedate": 1474352026.089788
+        "changedate": 1474352026.089788,
+        "changetype": "multiple",
+        "new_global_status": "scheduled"
     },
     {
         "status": "good",
-        "new_global_status": "good",
         "service": "copr",
-        "changetype": "single",
         "message": "Everything seems to be working.",
-        "changedate": 1472740092.581924
+        "changedate": 1472740092.581924,
+        "changetype": "single",
+        "new_global_status": "good"
     },
     {
         "status": "major",
-        "new_global_status": "major",
         "service": "copr",
-        "changetype": "single",
         "message": "scheduling issues",
-        "changedate": 1472695571.867844
+        "changedate": 1472695571.867844,
+        "changetype": "single",
+        "new_global_status": "major"
     },
     {
         "status": "good",
-        "new_global_status": "good",
         "service": "copr",
-        "changetype": "single",
         "message": "Everything seems to be working.",
-        "changedate": 1471900947.052441
+        "changedate": 1471900947.052441,
+        "changetype": "single",
+        "new_global_status": "good"
     },
     {
         "status": "scheduled",
-        "new_global_status": "scheduled",
         "service": "copr",
-        "changetype": "single",
         "message": "scheduled outage of backend",
-        "changedate": 1471899652.505684
-    },
-    {
-        "status": "good",
-        "new_global_status": "good",
-        "service": "fedorahosted",
+        "changedate": 1471899652.505684,
         "changetype": "single",
-        "message": "Everything seems to be working.",
-        "changedate": 1469675689.887942
+        "new_global_status": "scheduled"
     },
     {
         "status": "good",
-        "new_global_status": "scheduled",
-        "changetype": "multiple",
+        "service": "fedorahosted",
+        "message": "Everything seems to be working.",
+        "changedate": 1469675689.887942,
+        "changetype": "single",
+        "new_global_status": "good"
+    },
+    {
+        "status": "good",
         "services": [
             "wiki",
             "people",
@@ -1657,12 +1694,12 @@ callback([
             "fedocal"
         ],
         "message": "Everything seems to be working.",
-        "changedate": 1469668241.901491
+        "changedate": 1469668241.901491,
+        "changetype": "multiple",
+        "new_global_status": "scheduled"
     },
     {
         "status": "scheduled",
-        "new_global_status": "scheduled",
-        "changetype": "multiple",
         "services": [
             "wiki",
             "people",
@@ -1695,36 +1732,36 @@ callback([
             "fedocal"
         ],
         "message": "Scheduled reboots in progress",
-        "changedate": 1469653210.867752
+        "changedate": 1469653210.867752,
+        "changetype": "multiple",
+        "new_global_status": "scheduled"
     },
     {
         "status": "good",
-        "new_global_status": "good",
-        "changetype": "multiple",
         "services": [
             "koji",
             "pkgs",
             "bodhi"
         ],
         "message": "Everything seems to be working.",
-        "changedate": 1469492941.776905
+        "changedate": 1469492941.776905,
+        "changetype": "multiple",
+        "new_global_status": "good"
     },
     {
         "status": "scheduled",
-        "new_global_status": "scheduled",
-        "changetype": "multiple",
         "services": [
             "koji",
             "pkgs",
             "bodhi"
         ],
         "message": "scheduled outages in progress",
-        "changedate": 1469480460.379098
+        "changedate": 1469480460.379098,
+        "changetype": "multiple",
+        "new_global_status": "scheduled"
     },
     {
         "status": "good",
-        "new_global_status": "good",
-        "changetype": "multiple",
         "services": [
             "wiki",
             "people",
@@ -1757,12 +1794,12 @@ callback([
             "fedocal"
         ],
         "message": "Everything seems to be working.",
-        "changedate": 1469288029.762557
+        "changedate": 1469288029.762557,
+        "changetype": "multiple",
+        "new_global_status": "good"
     },
     {
         "status": "minor",
-        "new_global_status": "minor",
-        "changetype": "multiple",
         "services": [
             "wiki",
             "people",
@@ -1795,12 +1832,12 @@ callback([
             "fedocal"
         ],
         "message": "Unknown network outage occured",
-        "changedate": 1469286550.15872
+        "changedate": 1469286550.15872,
+        "changetype": "multiple",
+        "new_global_status": "minor"
     },
     {
         "status": "major",
-        "new_global_status": "major",
-        "changetype": "multiple",
         "services": [
             "wiki",
             "people",
@@ -1833,34 +1870,34 @@ callback([
             "fedocal"
         ],
         "message": "Network disruption to main datacenter",
-        "changedate": 1469285194.709712
+        "changedate": 1469285194.709712,
+        "changetype": "multiple",
+        "new_global_status": "major"
     },
     {
         "status": "good",
-        "new_global_status": "good",
-        "changetype": "multiple",
         "services": [
             "cloud",
             "copr"
         ],
         "message": "Everything seems to be working.",
-        "changedate": 1469173506.114823
+        "changedate": 1469173506.114823,
+        "changetype": "multiple",
+        "new_global_status": "good"
     },
     {
         "status": "scheduled",
-        "new_global_status": "scheduled",
-        "changetype": "multiple",
         "services": [
             "cloud",
             "copr"
         ],
         "message": "Infra cloud update in progress",
-        "changedate": 1469152729.015423
+        "changedate": 1469152729.015423,
+        "changetype": "multiple",
+        "new_global_status": "scheduled"
     },
     {
         "status": "good",
-        "new_global_status": "good",
-        "changetype": "multiple",
         "services": [
             "wiki",
             "people",
@@ -1893,12 +1930,12 @@ callback([
             "fedocal"
         ],
         "message": "Everything seems to be working.",
-        "changedate": 1469117043.772922
+        "changedate": 1469117043.772922,
+        "changetype": "multiple",
+        "new_global_status": "good"
     },
     {
         "status": "major",
-        "new_global_status": "major",
-        "changetype": "multiple",
         "services": [
             "wiki",
             "people",
@@ -1931,114 +1968,114 @@ callback([
             "fedocal"
         ],
         "message": "Datacenter has network issues, being looked into.",
-        "changedate": 1469116044.360151
+        "changedate": 1469116044.360151,
+        "changetype": "multiple",
+        "new_global_status": "major"
     },
     {
         "status": "good",
-        "new_global_status": "good",
         "service": "mailinglists",
-        "changetype": "single",
         "message": "Everything seems to be working.",
-        "changedate": 1468598130.665449
+        "changedate": 1468598130.665449,
+        "changetype": "single",
+        "new_global_status": "good"
     },
     {
         "status": "minor",
-        "new_global_status": "minor",
         "service": "mailinglists",
-        "changetype": "single",
         "message": "Pipeline running again, emails are trickling out.",
-        "changedate": 1468596242.830648
+        "changedate": 1468596242.830648,
+        "changetype": "single",
+        "new_global_status": "minor"
     },
     {
         "status": "major",
-        "new_global_status": "major",
         "service": "mailinglists",
-        "changetype": "single",
         "message": "Messages are stuck in the pipeline. Being looked at.",
-        "changedate": 1468594615.415503
+        "changedate": 1468594615.415503,
+        "changetype": "single",
+        "new_global_status": "major"
     },
     {
         "status": "good",
-        "new_global_status": "good",
         "service": "zodbot",
-        "changetype": "single",
         "message": "Everything seems to be working.",
-        "changedate": 1467992636.241619
+        "changedate": 1467992636.241619,
+        "changetype": "single",
+        "new_global_status": "good"
     },
     {
         "status": "major",
-        "new_global_status": "major",
         "service": "zodbot",
-        "changetype": "single",
         "message": "K-line lifted, reconnecting",
-        "changedate": 1467991300.906268
+        "changedate": 1467991300.906268,
+        "changetype": "single",
+        "new_global_status": "major"
     },
     {
         "status": "major",
-        "new_global_status": "major",
         "service": "zodbot",
-        "changetype": "single",
         "message": "K-lined by freenode.  We're working with staff to resolve it.",
-        "changedate": 1467989473.59656
+        "changedate": 1467989473.59656,
+        "changetype": "single",
+        "new_global_status": "major"
     },
     {
         "status": "good",
-        "new_global_status": "good",
         "service": "copr",
-        "changetype": "single",
         "message": "Everything seems to be working.",
-        "changedate": 1467739732.196826
+        "changedate": 1467739732.196826,
+        "changetype": "single",
+        "new_global_status": "good"
     },
     {
         "status": "major",
-        "new_global_status": "major",
         "service": "copr",
-        "changetype": "single",
         "message": "dist-git unavailable, being looked into",
-        "changedate": 1467739376.880067
+        "changedate": 1467739376.880067,
+        "changetype": "single",
+        "new_global_status": "major"
     },
     {
         "status": "good",
-        "new_global_status": "good",
-        "changetype": "multiple",
         "services": [
             "cloud",
             "copr"
         ],
         "message": "Everything seems to be working.",
-        "changedate": 1467345801.25167
+        "changedate": 1467345801.25167,
+        "changetype": "multiple",
+        "new_global_status": "good"
     },
     {
         "status": "major",
-        "new_global_status": "major",
-        "changetype": "multiple",
         "services": [
             "copr",
             "cloud"
         ],
         "message": "Network outage going on, being worked on.",
-        "changedate": 1467344304.219327
+        "changedate": 1467344304.219327,
+        "changetype": "multiple",
+        "new_global_status": "major"
     },
     {
         "status": "major",
-        "new_global_status": "major",
         "service": "cloud",
-        "changetype": "single",
         "message": "Cloud IS DOWN",
-        "changedate": 1467335955.358016
+        "changedate": 1467335955.358016,
+        "changetype": "single",
+        "new_global_status": "major"
     },
     {
         "status": "major",
-        "new_global_status": "major",
         "service": "copr",
-        "changetype": "single",
         "message": "Cloud IS DOWN",
-        "changedate": 1467335843.69666
+        "changedate": 1467335843.69666,
+        "changetype": "single",
+        "new_global_status": "major"
     },
     {
         "status": "good",
-        "new_global_status": "good",
-        "changetype": "multiple",
         "services": [
             "wiki",
             "people",
@@ -2071,12 +2108,12 @@ callback([
             "fedocal"
         ],
         "message": "Everything seems to be working.",
-        "changedate": 1464384657.980117
+        "changedate": 1464384657.980117,
+        "changetype": "multiple",
+        "new_global_status": "good"
     },
     {
         "status": "scheduled",
-        "new_global_status": "scheduled",
-        "changetype": "multiple",
         "services": [
             "wiki",
             "people",
@@ -2109,34 +2146,34 @@ callback([
             "fedocal"
         ],
         "message": "Everything seems to be working.",
-        "changedate": 1464383344.513612
+        "changedate": 1464383344.513612,
+        "changetype": "multiple",
+        "new_global_status": "scheduled"
     },
     {
         "status": "good",
-        "new_global_status": "good",
-        "changetype": "multiple",
         "services": [
             "cloud",
             "copr"
         ],
         "message": "Everything seems to be working.",
-        "changedate": 1464233977.205075
+        "changedate": 1464233977.205075,
+        "changetype": "multiple",
+        "new_global_status": "good"
     },
     {
         "status": "scheduled",
-        "new_global_status": "scheduled",
-        "changetype": "multiple",
         "services": [
             "cloud",
             "copr"
         ],
         "message": "Scheduled maintenance in progress",
-        "changedate": 1464230002.314902
+        "changedate": 1464230002.314902,
+        "changetype": "multiple",
+        "new_global_status": "scheduled"
     },
     {
         "status": "good",
-        "new_global_status": "good",
-        "changetype": "multiple",
         "services": [
             "wiki",
             "people",
@@ -2169,12 +2206,12 @@ callback([
             "fedocal"
         ],
         "message": "Everything seems to be working.",
-        "changedate": 1464220609.936098
+        "changedate": 1464220609.936098,
+        "changetype": "multiple",
+        "new_global_status": "good"
     },
     {
         "status": "scheduled",
-        "new_global_status": "scheduled",
-        "changetype": "multiple",
         "services": [
             "wiki",
             "people",
@@ -2207,12 +2244,12 @@ callback([
             "fedocal"
         ],
         "message": "Scheduled reboots in progress",
-        "changedate": 1464210129.865406
+        "changedate": 1464210129.865406,
+        "changetype": "multiple",
+        "new_global_status": "scheduled"
     },
     {
         "status": "good",
-        "new_global_status": "good",
-        "changetype": "multiple",
         "services": [
             "koji",
             "koschei",
@@ -2220,12 +2257,12 @@ callback([
             "bodhi"
         ],
         "message": "Everything seems to be working.",
-        "changedate": 1464125746.627533
+        "changedate": 1464125746.627533,
+        "changetype": "multiple",
+        "new_global_status": "good"
     },
     {
         "status": "scheduled",
-        "new_global_status": "scheduled",
-        "changetype": "multiple",
         "services": [
             "pkgs",
             "koschei",
@@ -2233,66 +2270,66 @@ callback([
             "bodhi"
         ],
         "message": "Scheduled reboots in progress",
-        "changedate": 1464123474.475633
+        "changedate": 1464123474.475633,
+        "changetype": "multiple",
+        "new_global_status": "scheduled"
     },
     {
         "status": "good",
-        "new_global_status": "good",
         "service": "koschei",
-        "changetype": "single",
         "message": "Everything seems to be working.",
-        "changedate": 1463076863.599213
+        "changedate": 1463076863.599213,
+        "changetype": "single",
+        "new_global_status": "good"
     },
     {
         "status": "scheduled",
-        "new_global_status": "scheduled",
         "service": "koschei",
-        "changetype": "single",
         "message": "Scheduled reinstall in progress",
-        "changedate": 1463066568.731787
+        "changedate": 1463066568.731787,
+        "changetype": "single",
+        "new_global_status": "scheduled"
     },
     {
         "status": "good",
-        "new_global_status": "good",
-        "changetype": "multiple",
         "services": [
             "koji",
             "copr"
         ],
         "message": "Everything seems to be working.",
-        "changedate": 1461678506.739429
+        "changedate": 1461678506.739429,
+        "changetype": "multiple",
+        "new_global_status": "good"
     },
     {
         "status": "major",
-        "new_global_status": "major",
-        "changetype": "multiple",
         "services": [
             "copr",
             "koji"
         ],
         "message": "Build system network outage. Being looked into",
-        "changedate": 1461676952.497572
+        "changedate": 1461676952.497572,
+        "changetype": "multiple",
+        "new_global_status": "major"
     },
     {
         "status": "good",
-        "new_global_status": "good",
         "service": "wiki",
-        "changetype": "single",
         "message": "Everything seems to be working.",
-        "changedate": 1461269826.983101
+        "changedate": 1461269826.983101,
+        "changetype": "single",
+        "new_global_status": "good"
     },
     {
         "status": "major",
-        "new_global_status": "major",
         "service": "wiki",
-        "changetype": "single",
         "message": "Wiki crashed, will be looked at after antispam systems have been fixed.",
-        "changedate": 1461266187.575721
+        "changedate": 1461266187.575721,
+        "changetype": "single",
+        "new_global_status": "major"
     },
     {
         "status": "good",
-        "new_global_status": "good",
-        "changetype": "multiple",
         "services": [
             "wiki",
             "people",
@@ -2325,12 +2362,12 @@ callback([
             "fedocal"
         ],
         "message": "Everything seems to be working.",
-        "changedate": 1461244940.250511
+        "changedate": 1461244940.250511,
+        "changetype": "multiple",
+        "new_global_status": "good"
     },
     {
         "status": "scheduled",
-        "new_global_status": "scheduled",
-        "changetype": "multiple",
         "services": [
             "wiki",
             "people",
@@ -2363,12 +2400,12 @@ callback([
             "fedocal"
         ],
         "message": "Scheduled switch maintenance. Short outage may occur.",
-        "changedate": 1461243252.417396
+        "changedate": 1461243252.417396,
+        "changetype": "multiple",
+        "new_global_status": "scheduled"
     },
     {
         "status": "good",
-        "new_global_status": "good",
-        "changetype": "multiple",
         "services": [
             "koji",
             "koschei",
@@ -2376,12 +2413,12 @@ callback([
             "bodhi"
         ],
         "message": "Everything seems to be working.",
-        "changedate": 1460732704.981839
+        "changedate": 1460732704.981839,
+        "changetype": "multiple",
+        "new_global_status": "good"
     },
     {
         "status": "major",
-        "new_global_status": "major",
-        "changetype": "multiple",
         "services": [
             "koji",
             "pkgs",
@@ -2389,12 +2426,12 @@ callback([
             "koschei"
         ],
         "message": "Server outage, being looked at",
-        "changedate": 1460730533.19211
+        "changedate": 1460730533.19211,
+        "changetype": "multiple",
+        "new_global_status": "major"
     },
     {
         "status": "good",
-        "new_global_status": "good",
-        "changetype": "multiple",
         "services": [
             "wiki",
             "people",
@@ -2427,12 +2464,12 @@ callback([
             "fedocal"
         ],
         "message": "Everything seems to be working.",
-        "changedate": 1460590525.302984
+        "changedate": 1460590525.302984,
+        "changetype": "multiple",
+        "new_global_status": "good"
     },
     {
         "status": "scheduled",
-        "new_global_status": "scheduled",
-        "changetype": "multiple",
         "services": [
             "wiki",
             "people",
@@ -2465,12 +2502,12 @@ callback([
             "fedocal"
         ],
         "message": "Scheduled reboots in progress",
-        "changedate": 1460581211.147338
+        "changedate": 1460581211.147338,
+        "changetype": "multiple",
+        "new_global_status": "scheduled"
     },
     {
         "status": "good",
-        "new_global_status": "good",
-        "changetype": "multiple",
         "services": [
             "koji",
             "darkserver",
@@ -2480,12 +2517,12 @@ callback([
             "bodhi"
         ],
         "message": "Everything seems to be working.",
-        "changedate": 1460499775.801525
+        "changedate": 1460499775.801525,
+        "changetype": "multiple",
+        "new_global_status": "good"
     },
     {
         "status": "scheduled",
-        "new_global_status": "scheduled",
-        "changetype": "multiple",
         "services": [
             "darkserver",
             "pkgdb",
@@ -2495,221 +2532,221 @@ callback([
             "bodhi"
         ],
         "message": "scheduled outage",
-        "changedate": 1460494877.791828
+        "changedate": 1460494877.791828,
+        "changetype": "multiple",
+        "new_global_status": "scheduled"
     },
     {
         "status": "good",
-        "new_global_status": "good",
-        "changetype": "multiple",
         "services": [
             "cloud",
             "copr"
         ],
         "message": "Everything seems to be working.",
-        "changedate": 1460085805.3471
+        "changedate": 1460085805.3471,
+        "changetype": "multiple",
+        "new_global_status": "good"
     },
     {
         "status": "scheduled",
-        "new_global_status": "scheduled",
-        "changetype": "multiple",
         "services": [
             "cloud",
             "copr"
         ],
         "message": "Scheduled reboot of Infra Cloud in progress",
-        "changedate": 1460080811.022719
+        "changedate": 1460080811.022719,
+        "changetype": "multiple",
+        "new_global_status": "scheduled"
     },
     {
         "status": "good",
-        "new_global_status": "good",
-        "changetype": "multiple",
         "services": [
             "authentication",
             "fas"
         ],
         "message": "Everything seems to be working.",
-        "changedate": 1459438577.800475
+        "changedate": 1459438577.800475,
+        "changetype": "multiple",
+        "new_global_status": "good"
     },
     {
         "status": "major",
-        "new_global_status": "major",
-        "changetype": "multiple",
         "services": [
             "fas",
             "authentication"
         ],
         "message": "account system outage",
-        "changedate": 1459438149.869028
+        "changedate": 1459438149.869028,
+        "changetype": "multiple",
+        "new_global_status": "major"
     },
     {
         "status": "good",
-        "new_global_status": "good",
         "service": "copr",
-        "changetype": "single",
         "message": "Everything seems to be working.",
-        "changedate": 1459358265.680275
+        "changedate": 1459358265.680275,
+        "changetype": "single",
+        "new_global_status": "good"
     },
     {
         "status": "major",
-        "new_global_status": "major",
         "service": "copr",
-        "changetype": "single",
         "message": "cloud outage",
-        "changedate": 1459356946.166958
+        "changedate": 1459356946.166958,
+        "changetype": "single",
+        "new_global_status": "major"
     },
     {
         "status": "good",
-        "new_global_status": "good",
-        "changetype": "multiple",
         "services": [
             "koji",
             "koschei"
         ],
         "message": "Everything seems to be working.",
-        "changedate": 1458439786.975653
+        "changedate": 1458439786.975653,
+        "changetype": "multiple",
+        "new_global_status": "good"
     },
     {
         "status": "major",
-        "new_global_status": "major",
-        "changetype": "multiple",
         "services": [
             "koji",
             "koschei"
         ],
         "message": "kojipkgs outage",
-        "changedate": 1458439418.300353
+        "changedate": 1458439418.300353,
+        "changetype": "multiple",
+        "new_global_status": "major"
     },
     {
         "status": "good",
-        "new_global_status": "good",
         "service": "koji",
-        "changetype": "single",
         "message": "Everything seems to be working.",
-        "changedate": 1457231230.642017
+        "changedate": 1457231230.642017,
+        "changetype": "single",
+        "new_global_status": "good"
     },
     {
         "status": "major",
-        "new_global_status": "major",
         "service": "koji",
-        "changetype": "single",
         "message": "storage problem",
-        "changedate": 1457229564.994502
+        "changedate": 1457229564.994502,
+        "changetype": "single",
+        "new_global_status": "major"
     },
     {
         "status": "good",
-        "new_global_status": "good",
         "service": "koschei",
-        "changetype": "single",
         "message": "Everything seems to be working.",
-        "changedate": 1456518262.28893
+        "changedate": 1456518262.28893,
+        "changetype": "single",
+        "new_global_status": "good"
     },
     {
         "status": "major",
-        "new_global_status": "major",
         "service": "koschei",
-        "changetype": "single",
         "message": "Issue with restarting server after storage outage",
-        "changedate": 1456415175.104674
+        "changedate": 1456415175.104674,
+        "changetype": "single",
+        "new_global_status": "major"
     },
     {
         "status": "good",
-        "new_global_status": "good",
-        "changetype": "multiple",
         "services": [
             "koji",
             "pkgdb",
             "koschei"
         ],
         "message": "Everything seems to be working.",
-        "changedate": 1456412532.753643
+        "changedate": 1456412532.753643,
+        "changetype": "multiple",
+        "new_global_status": "good"
     },
     {
         "status": "major",
-        "new_global_status": "major",
-        "changetype": "multiple",
         "services": [
             "koji",
             "koschei",
             "pkgdb"
         ],
         "message": "Koji database outage",
-        "changedate": 1456410434.345639
+        "changedate": 1456410434.345639,
+        "changetype": "multiple",
+        "new_global_status": "major"
     },
     {
         "status": "good",
-        "new_global_status": "good",
-        "changetype": "multiple",
         "services": [
             "koji",
             "pkgdb",
             "koschei"
         ],
         "message": "Everything seems to be working.",
-        "changedate": 1456335115.158932
+        "changedate": 1456335115.158932,
+        "changetype": "multiple",
+        "new_global_status": "good"
     },
     {
         "status": "major",
-        "new_global_status": "major",
-        "changetype": "multiple",
         "services": [
             "koji",
             "koschei",
             "pkgdb"
         ],
         "message": "Koji database outage",
-        "changedate": 1456327924.922069
+        "changedate": 1456327924.922069,
+        "changetype": "multiple",
+        "new_global_status": "major"
     },
     {
         "status": "good",
-        "new_global_status": "good",
-        "changetype": "multiple",
         "services": [
             "koji",
             "koschei",
             "bodhi"
         ],
         "message": "Everything seems to be working.",
-        "changedate": 1456307897.74565
+        "changedate": 1456307897.74565,
+        "changetype": "multiple",
+        "new_global_status": "good"
     },
     {
         "status": "major",
-        "new_global_status": "major",
-        "changetype": "multiple",
         "services": [
             "bodhi",
             "koschei"
         ],
         "message": "Koji database outage",
-        "changedate": 1456304655.67504
-    },
-    {
-        "status": "major",
-        "new_global_status": "major",
-        "service": "koji",
-        "changetype": "single",
-        "message": "database outage",
-        "changedate": 1456287311.71209
-    },
-    {
-        "status": "good",
-        "new_global_status": "good",
-        "service": "koji",
-        "changetype": "single",
-        "message": "Everything seems to be working.",
-        "changedate": 1456285505.83541
-    },
-    {
-        "status": "major",
-        "new_global_status": "major",
-        "service": "koji",
-        "changetype": "single",
-        "message": "database outage",
-        "changedate": 1456281528.686581
-    },
-    {
-        "status": "good",
-        "new_global_status": "good",
+        "changedate": 1456304655.67504,
         "changetype": "multiple",
+        "new_global_status": "major"
+    },
+    {
+        "status": "major",
+        "service": "koji",
+        "message": "database outage",
+        "changedate": 1456287311.71209,
+        "changetype": "single",
+        "new_global_status": "major"
+    },
+    {
+        "status": "good",
+        "service": "koji",
+        "message": "Everything seems to be working.",
+        "changedate": 1456285505.83541,
+        "changetype": "single",
+        "new_global_status": "good"
+    },
+    {
+        "status": "major",
+        "service": "koji",
+        "message": "database outage",
+        "changedate": 1456281528.686581,
+        "changetype": "single",
+        "new_global_status": "major"
+    },
+    {
+        "status": "good",
         "services": [
             "wiki",
             "people",
@@ -2741,12 +2778,12 @@ callback([
             "fedocal"
         ],
         "message": "Everything seems to be working.",
-        "changedate": 1455766378.291539
+        "changedate": 1455766378.291539,
+        "changetype": "multiple",
+        "new_global_status": "good"
     },
     {
         "status": "scheduled",
-        "new_global_status": "scheduled",
-        "changetype": "multiple",
         "services": [
             "wiki",
             "people",
@@ -2778,164 +2815,164 @@ callback([
             "fedocal"
         ],
         "message": "scheduled outage",
-        "changedate": 1455746516.02783
-    },
-    {
-        "status": "good",
-        "new_global_status": "good",
-        "service": "wiki",
-        "changetype": "single",
-        "message": "Everything seems to be working.",
-        "changedate": 1455635423.249398
-    },
-    {
-        "status": "major",
-        "new_global_status": "major",
-        "service": "wiki",
-        "changetype": "single",
-        "message": "Anti-spam operations caused blocks for many users. Being dealt with at the moment.",
-        "changedate": 1455634946.229668
-    },
-    {
-        "status": "major",
-        "new_global_status": "major",
-        "service": "wiki",
-        "changetype": "single",
-        "message": "Anti-spam operations caused blocks  for many users. Please hold on to your hats while we deal with these pesky spammers.",
-        "changedate": 1455634901.361525
-    },
-    {
-        "status": "good",
-        "new_global_status": "good",
-        "service": "people",
-        "changetype": "single",
-        "message": "Everything seems to be working.",
-        "changedate": 1455209327.296323
-    },
-    {
-        "status": "scheduled",
-        "new_global_status": "scheduled",
-        "service": "people",
-        "changetype": "single",
-        "message": "migration",
-        "changedate": 1455206396.257286
-    },
-    {
-        "status": "good",
-        "new_global_status": "good",
-        "service": "copr",
-        "changetype": "single",
-        "message": "Everything seems to be working.",
-        "changedate": 1455191769.284533
-    },
-    {
-        "status": "scheduled",
-        "new_global_status": "scheduled",
-        "service": "copr",
-        "changetype": "single",
-        "message": "scheduled maintenance in progress",
-        "changedate": 1455176950.350461
-    },
-    {
-        "status": "good",
-        "new_global_status": "good",
-        "service": "darkserver",
-        "changetype": "single",
-        "message": "Everything seems to be working.",
-        "changedate": 1454074666.875848
-    },
-    {
-        "status": "scheduled",
-        "new_global_status": "scheduled",
-        "service": "darkserver",
-        "changetype": "single",
-        "message": "Scheduled upgrade in progress",
-        "changedate": 1454063857.040384
-    },
-    {
-        "status": "good",
-        "new_global_status": "good",
-        "service": "mirrorlist",
-        "changetype": "single",
-        "message": "Everything seems to be working.",
-        "changedate": 1453767847.378572
-    },
-    {
-        "status": "minor",
-        "new_global_status": "minor",
-        "service": "mirrorlist",
-        "changetype": "single",
-        "message": "F23 secondary metalink broken, fixes syncing out.",
-        "changedate": 1453766635.87695
-    },
-    {
-        "status": "good",
-        "new_global_status": "good",
-        "service": "copr",
-        "changetype": "single",
-        "message": "Everything seems to be working.",
-        "changedate": 1453605629.399663
-    },
-    {
-        "status": "minor",
-        "new_global_status": "minor",
-        "service": "copr",
-        "changetype": "single",
-        "message": "Backlog created in builds because of crash. Catching up now.",
-        "changedate": 1453580099.266629
-    },
-    {
-        "status": "good",
-        "new_global_status": "good",
-        "service": "copr",
-        "changetype": "single",
-        "message": "Everything seems to be working.",
-        "changedate": 1453258617.468634
-    },
-    {
-        "status": "scheduled",
-        "new_global_status": "scheduled",
-        "service": "copr",
-        "changetype": "single",
-        "message": "Tasks not running due to planned outage",
-        "changedate": 1453234319.51958
-    },
-    {
-        "status": "good",
-        "new_global_status": "good",
-        "service": "copr",
-        "changetype": "single",
-        "message": "Everything seems to be working.",
-        "changedate": 1452571486.674194
-    },
-    {
-        "status": "scheduled",
-        "new_global_status": "scheduled",
-        "service": "copr",
-        "changetype": "single",
-        "message": "Scheduled outage in progress",
-        "changedate": 1452564466.946705
-    },
-    {
-        "status": "good",
-        "new_global_status": "good",
-        "service": "people",
-        "changetype": "single",
-        "message": "Everything seems to be working.",
-        "changedate": 1452172781.434239
-    },
-    {
-        "status": "major",
-        "new_global_status": "major",
-        "service": "people",
-        "changetype": "single",
-        "message": "Network outage in host datacenter",
-        "changedate": 1452170146.210731
-    },
-    {
-        "status": "good",
-        "new_global_status": "good",
+        "changedate": 1455746516.02783,
         "changetype": "multiple",
+        "new_global_status": "scheduled"
+    },
+    {
+        "status": "good",
+        "service": "wiki",
+        "message": "Everything seems to be working.",
+        "changedate": 1455635423.249398,
+        "changetype": "single",
+        "new_global_status": "good"
+    },
+    {
+        "status": "major",
+        "service": "wiki",
+        "message": "Anti-spam operations caused blocks for many users. Being dealt with at the moment.",
+        "changedate": 1455634946.229668,
+        "changetype": "single",
+        "new_global_status": "major"
+    },
+    {
+        "status": "major",
+        "service": "wiki",
+        "message": "Anti-spam operations caused blocks  for many users. Please hold on to your hats while we deal with these pesky spammers.",
+        "changedate": 1455634901.361525,
+        "changetype": "single",
+        "new_global_status": "major"
+    },
+    {
+        "status": "good",
+        "service": "people",
+        "message": "Everything seems to be working.",
+        "changedate": 1455209327.296323,
+        "changetype": "single",
+        "new_global_status": "good"
+    },
+    {
+        "status": "scheduled",
+        "service": "people",
+        "message": "migration",
+        "changedate": 1455206396.257286,
+        "changetype": "single",
+        "new_global_status": "scheduled"
+    },
+    {
+        "status": "good",
+        "service": "copr",
+        "message": "Everything seems to be working.",
+        "changedate": 1455191769.284533,
+        "changetype": "single",
+        "new_global_status": "good"
+    },
+    {
+        "status": "scheduled",
+        "service": "copr",
+        "message": "scheduled maintenance in progress",
+        "changedate": 1455176950.350461,
+        "changetype": "single",
+        "new_global_status": "scheduled"
+    },
+    {
+        "status": "good",
+        "service": "darkserver",
+        "message": "Everything seems to be working.",
+        "changedate": 1454074666.875848,
+        "changetype": "single",
+        "new_global_status": "good"
+    },
+    {
+        "status": "scheduled",
+        "service": "darkserver",
+        "message": "Scheduled upgrade in progress",
+        "changedate": 1454063857.040384,
+        "changetype": "single",
+        "new_global_status": "scheduled"
+    },
+    {
+        "status": "good",
+        "service": "mirrorlist",
+        "message": "Everything seems to be working.",
+        "changedate": 1453767847.378572,
+        "changetype": "single",
+        "new_global_status": "good"
+    },
+    {
+        "status": "minor",
+        "service": "mirrorlist",
+        "message": "F23 secondary metalink broken, fixes syncing out.",
+        "changedate": 1453766635.87695,
+        "changetype": "single",
+        "new_global_status": "minor"
+    },
+    {
+        "status": "good",
+        "service": "copr",
+        "message": "Everything seems to be working.",
+        "changedate": 1453605629.399663,
+        "changetype": "single",
+        "new_global_status": "good"
+    },
+    {
+        "status": "minor",
+        "service": "copr",
+        "message": "Backlog created in builds because of crash. Catching up now.",
+        "changedate": 1453580099.266629,
+        "changetype": "single",
+        "new_global_status": "minor"
+    },
+    {
+        "status": "good",
+        "service": "copr",
+        "message": "Everything seems to be working.",
+        "changedate": 1453258617.468634,
+        "changetype": "single",
+        "new_global_status": "good"
+    },
+    {
+        "status": "scheduled",
+        "service": "copr",
+        "message": "Tasks not running due to planned outage",
+        "changedate": 1453234319.51958,
+        "changetype": "single",
+        "new_global_status": "scheduled"
+    },
+    {
+        "status": "good",
+        "service": "copr",
+        "message": "Everything seems to be working.",
+        "changedate": 1452571486.674194,
+        "changetype": "single",
+        "new_global_status": "good"
+    },
+    {
+        "status": "scheduled",
+        "service": "copr",
+        "message": "Scheduled outage in progress",
+        "changedate": 1452564466.946705,
+        "changetype": "single",
+        "new_global_status": "scheduled"
+    },
+    {
+        "status": "good",
+        "service": "people",
+        "message": "Everything seems to be working.",
+        "changedate": 1452172781.434239,
+        "changetype": "single",
+        "new_global_status": "good"
+    },
+    {
+        "status": "major",
+        "service": "people",
+        "message": "Network outage in host datacenter",
+        "changedate": 1452170146.210731,
+        "changetype": "single",
+        "new_global_status": "major"
+    },
+    {
+        "status": "good",
         "services": [
             "wiki",
             "people",
@@ -2967,12 +3004,12 @@ callback([
             "fedocal"
         ],
         "message": "Everything seems to be working.",
-        "changedate": 1452050885.205798
+        "changedate": 1452050885.205798,
+        "changetype": "multiple",
+        "new_global_status": "good"
     },
     {
         "status": "scheduled",
-        "new_global_status": "scheduled",
-        "changetype": "multiple",
         "services": [
             "wiki",
             "people",
@@ -3004,345 +3041,345 @@ callback([
             "fedocal"
         ],
         "message": "Login service maintenance in progress",
-        "changedate": 1452045658.601351
+        "changedate": 1452045658.601351,
+        "changetype": "multiple",
+        "new_global_status": "scheduled"
     },
     {
         "status": "good",
-        "new_global_status": "good",
-        "changetype": "multiple",
         "services": [
             "fedorahosted",
             "mailinglists"
         ],
         "message": "Everything seems to be working.",
-        "changedate": 1451977062.649073
+        "changedate": 1451977062.649073,
+        "changetype": "multiple",
+        "new_global_status": "good"
     },
     {
         "status": "major",
-        "new_global_status": "major",
-        "changetype": "multiple",
         "services": [
             "fedorahosted",
             "mailinglists"
         ],
         "message": "unplanned outage",
-        "changedate": 1451974816.453367
+        "changedate": 1451974816.453367,
+        "changetype": "multiple",
+        "new_global_status": "major"
     },
     {
         "status": "good",
-        "new_global_status": "good",
         "service": "copr",
-        "changetype": "single",
         "message": "Everything seems to be working.",
-        "changedate": 1451915300.250706
+        "changedate": 1451915300.250706,
+        "changetype": "single",
+        "new_global_status": "good"
     },
     {
         "status": "scheduled",
-        "new_global_status": "scheduled",
         "service": "copr",
-        "changetype": "single",
         "message": "COPR getting upgraded to F23",
-        "changedate": 1451903570.888318
+        "changedate": 1451903570.888318,
+        "changetype": "single",
+        "new_global_status": "scheduled"
     },
     {
         "status": "good",
-        "new_global_status": "minor",
         "service": "mailinglists",
-        "changetype": "single",
         "message": "Everything seems to be working.",
-        "changedate": 1450860611.477042
+        "changedate": 1450860611.477042,
+        "changetype": "single",
+        "new_global_status": "minor"
     },
     {
         "status": "scheduled",
-        "new_global_status": "minor",
         "service": "mailinglists",
-        "changetype": "single",
         "message": "lists.fedorahosted.org offline due to emergency outage (hardware checks). Mails will be queued",
-        "changedate": 1450855454.512375
+        "changedate": 1450855454.512375,
+        "changetype": "single",
+        "new_global_status": "minor"
     },
     {
         "status": "good",
-        "new_global_status": "minor",
         "service": "mailinglists",
-        "changetype": "single",
         "message": "Everything seems to be working.",
-        "changedate": 1450849656.392307
+        "changedate": 1450849656.392307,
+        "changetype": "single",
+        "new_global_status": "minor"
     },
     {
         "status": "minor",
-        "new_global_status": "minor",
         "service": "mailinglists",
-        "changetype": "single",
         "message": "lists.fedorahosted.org server unavailable, being worked on",
-        "changedate": 1450847346.886755
+        "changedate": 1450847346.886755,
+        "changetype": "single",
+        "new_global_status": "minor"
     },
     {
         "status": "minor",
-        "new_global_status": "minor",
         "service": "copr",
-        "changetype": "single",
         "message": "PPC64LE buildhost gone, PPC64LE COPR builds will not work. Being worked on",
-        "changedate": 1450579626.145252
+        "changedate": 1450579626.145252,
+        "changetype": "single",
+        "new_global_status": "minor"
     },
     {
         "status": "major",
-        "new_global_status": "major",
         "service": "copr",
-        "changetype": "single",
         "message": "PPC buildhost gone, brought all builds to a stop. Being looked at.",
-        "changedate": 1450576856.891897
+        "changedate": 1450576856.891897,
+        "changetype": "single",
+        "new_global_status": "major"
     },
     {
         "status": "good",
-        "new_global_status": "good",
-        "changetype": "multiple",
         "services": [
             "pkgdb",
             "pkgs"
         ],
         "message": "Everything seems to be working.",
-        "changedate": 1450373527.097745
+        "changedate": 1450373527.097745,
+        "changetype": "multiple",
+        "new_global_status": "good"
     },
     {
         "status": "scheduled",
-        "new_global_status": "scheduled",
-        "changetype": "multiple",
         "services": [
             "pkgs",
             "pkgdb"
         ],
         "message": "Scheduled upgrade in progress",
-        "changedate": 1450364800.268031
-    },
-    {
-        "status": "good",
-        "new_global_status": "good",
-        "service": "mirrorlist",
-        "changetype": "single",
-        "message": "Everything seems to be working.",
-        "changedate": 1450361515.053553
-    },
-    {
-        "status": "major",
-        "new_global_status": "major",
-        "service": "mirrorlist",
-        "changetype": "single",
-        "message": "Failed upgrade, being worked on",
-        "changedate": 1450361117.98116
-    },
-    {
-        "status": "good",
-        "new_global_status": "good",
-        "service": "koji",
-        "changetype": "single",
-        "message": "Everything seems to be working.",
-        "changedate": 1450305398.587961
-    },
-    {
-        "status": "major",
-        "new_global_status": "major",
-        "service": "koji",
-        "changetype": "single",
-        "message": "unscheduled outage",
-        "changedate": 1450304836.580202
-    },
-    {
-        "status": "good",
-        "new_global_status": "good",
-        "service": "website",
-        "changetype": "single",
-        "message": "Everything seems to be working.",
-        "changedate": 1450220678.760519
-    },
-    {
-        "status": "major",
-        "new_global_status": "major",
-        "service": "website",
-        "changetype": "single",
-        "message": "Websites being rebuild",
-        "changedate": 1450218852.446691
-    },
-    {
-        "status": "good",
-        "new_global_status": "good",
-        "service": "copr",
-        "changetype": "single",
-        "message": "Everything seems to be working.",
-        "changedate": 1449714277.291002
-    },
-    {
-        "status": "minor",
-        "new_global_status": "minor",
-        "service": "copr",
-        "changetype": "single",
-        "message": "Filesystem corruptions fixed. Backlog being processed now",
-        "changedate": 1449712842.677667
-    },
-    {
-        "status": "major",
-        "new_global_status": "major",
-        "service": "copr",
-        "changetype": "single",
-        "message": "File system corruption caused by storage issues, being worked on.",
-        "changedate": 1449705963.999833
-    },
-    {
-        "status": "good",
-        "new_global_status": "good",
-        "service": "mirrorlist",
-        "changetype": "single",
-        "message": "Everything seems to be working.",
-        "changedate": 1449689183.894417
-    },
-    {
-        "status": "major",
-        "new_global_status": "major",
-        "service": "mirrorlist",
-        "changetype": "single",
-        "message": "Older package metadata stuck, causing metalink checksums to not match. Being worked on.",
-        "changedate": 1449684502.373221
-    },
-    {
-        "status": "good",
-        "new_global_status": "good",
-        "service": "copr",
-        "changetype": "single",
-        "message": "Everything seems to be working.",
-        "changedate": 1449607116.892749
-    },
-    {
-        "status": "scheduled",
-        "new_global_status": "scheduled",
-        "service": "copr",
-        "changetype": "single",
-        "message": "Storage upgrade finished, backlog processing now",
-        "changedate": 1449605117.569015
-    },
-    {
-        "status": "scheduled",
-        "new_global_status": "scheduled",
-        "service": "copr",
-        "changetype": "single",
-        "message": "Backend storage being upraded",
-        "changedate": 1449597647.980942
-    },
-    {
-        "status": "good",
-        "new_global_status": "good",
-        "service": "copr",
-        "changetype": "single",
-        "message": "Everything seems to be working.",
-        "changedate": 1449564868.271549
-    },
-    {
-        "status": "minor",
-        "new_global_status": "minor",
-        "service": "copr",
-        "changetype": "single",
-        "message": "Backend having issues, being looked at",
-        "changedate": 1449529981.236801
-    },
-    {
-        "status": "major",
-        "new_global_status": "major",
-        "service": "copr",
-        "changetype": "single",
-        "message": "Issue with OpenStack backend storage, being worked on",
-        "changedate": 1449518009.50684
-    },
-    {
-        "status": "good",
-        "new_global_status": "good",
+        "changedate": 1450364800.268031,
         "changetype": "multiple",
+        "new_global_status": "scheduled"
+    },
+    {
+        "status": "good",
+        "service": "mirrorlist",
+        "message": "Everything seems to be working.",
+        "changedate": 1450361515.053553,
+        "changetype": "single",
+        "new_global_status": "good"
+    },
+    {
+        "status": "major",
+        "service": "mirrorlist",
+        "message": "Failed upgrade, being worked on",
+        "changedate": 1450361117.98116,
+        "changetype": "single",
+        "new_global_status": "major"
+    },
+    {
+        "status": "good",
+        "service": "koji",
+        "message": "Everything seems to be working.",
+        "changedate": 1450305398.587961,
+        "changetype": "single",
+        "new_global_status": "good"
+    },
+    {
+        "status": "major",
+        "service": "koji",
+        "message": "unscheduled outage",
+        "changedate": 1450304836.580202,
+        "changetype": "single",
+        "new_global_status": "major"
+    },
+    {
+        "status": "good",
+        "service": "website",
+        "message": "Everything seems to be working.",
+        "changedate": 1450220678.760519,
+        "changetype": "single",
+        "new_global_status": "good"
+    },
+    {
+        "status": "major",
+        "service": "website",
+        "message": "Websites being rebuild",
+        "changedate": 1450218852.446691,
+        "changetype": "single",
+        "new_global_status": "major"
+    },
+    {
+        "status": "good",
+        "service": "copr",
+        "message": "Everything seems to be working.",
+        "changedate": 1449714277.291002,
+        "changetype": "single",
+        "new_global_status": "good"
+    },
+    {
+        "status": "minor",
+        "service": "copr",
+        "message": "Filesystem corruptions fixed. Backlog being processed now",
+        "changedate": 1449712842.677667,
+        "changetype": "single",
+        "new_global_status": "minor"
+    },
+    {
+        "status": "major",
+        "service": "copr",
+        "message": "File system corruption caused by storage issues, being worked on.",
+        "changedate": 1449705963.999833,
+        "changetype": "single",
+        "new_global_status": "major"
+    },
+    {
+        "status": "good",
+        "service": "mirrorlist",
+        "message": "Everything seems to be working.",
+        "changedate": 1449689183.894417,
+        "changetype": "single",
+        "new_global_status": "good"
+    },
+    {
+        "status": "major",
+        "service": "mirrorlist",
+        "message": "Older package metadata stuck, causing metalink checksums to not match. Being worked on.",
+        "changedate": 1449684502.373221,
+        "changetype": "single",
+        "new_global_status": "major"
+    },
+    {
+        "status": "good",
+        "service": "copr",
+        "message": "Everything seems to be working.",
+        "changedate": 1449607116.892749,
+        "changetype": "single",
+        "new_global_status": "good"
+    },
+    {
+        "status": "scheduled",
+        "service": "copr",
+        "message": "Storage upgrade finished, backlog processing now",
+        "changedate": 1449605117.569015,
+        "changetype": "single",
+        "new_global_status": "scheduled"
+    },
+    {
+        "status": "scheduled",
+        "service": "copr",
+        "message": "Backend storage being upraded",
+        "changedate": 1449597647.980942,
+        "changetype": "single",
+        "new_global_status": "scheduled"
+    },
+    {
+        "status": "good",
+        "service": "copr",
+        "message": "Everything seems to be working.",
+        "changedate": 1449564868.271549,
+        "changetype": "single",
+        "new_global_status": "good"
+    },
+    {
+        "status": "minor",
+        "service": "copr",
+        "message": "Backend having issues, being looked at",
+        "changedate": 1449529981.236801,
+        "changetype": "single",
+        "new_global_status": "minor"
+    },
+    {
+        "status": "major",
+        "service": "copr",
+        "message": "Issue with OpenStack backend storage, being worked on",
+        "changedate": 1449518009.50684,
+        "changetype": "single",
+        "new_global_status": "major"
+    },
+    {
+        "status": "good",
         "services": [
             "koji",
             "koschei"
         ],
         "message": "Everything seems to be working.",
-        "changedate": 1449197939.299575
+        "changedate": 1449197939.299575,
+        "changetype": "multiple",
+        "new_global_status": "good"
     },
     {
         "status": "minor",
-        "new_global_status": "minor",
         "service": "koschei",
-        "changetype": "single",
         "message": "Build scheduling paused until koji caught up",
-        "changedate": 1449180706.051633
+        "changedate": 1449180706.051633,
+        "changetype": "single",
+        "new_global_status": "minor"
     },
     {
         "status": "good",
-        "new_global_status": "minor",
-        "changetype": "multiple",
         "services": [
             "pkgdb",
             "packages"
         ],
         "message": "Everything seems to be working.",
-        "changedate": 1449161485.879185
+        "changedate": 1449161485.879185,
+        "changetype": "multiple",
+        "new_global_status": "minor"
     },
     {
         "status": "minor",
-        "new_global_status": "minor",
-        "changetype": "multiple",
         "services": [
             "packages",
             "pkgdb"
         ],
         "message": "Parts using bugzilla will not work due to SSL issues at Red Hat Bugzilla",
-        "changedate": 1449153019.193584
+        "changedate": 1449153019.193584,
+        "changetype": "multiple",
+        "new_global_status": "minor"
     },
     {
         "status": "minor",
-        "new_global_status": "minor",
         "service": "koji",
-        "changetype": "single",
         "message": "Koji is slow with builds due to lots of queued up builds",
-        "changedate": 1449150638.794072
+        "changedate": 1449150638.794072,
+        "changetype": "single",
+        "new_global_status": "minor"
     },
     {
         "status": "good",
-        "new_global_status": "good",
-        "changetype": "multiple",
         "services": [
             "zodbot",
             "fedorahosted",
             "mailinglists"
         ],
         "message": "Everything seems to be working.",
-        "changedate": 1449027332.614434
+        "changedate": 1449027332.614434,
+        "changetype": "multiple",
+        "new_global_status": "good"
     },
     {
         "status": "scheduled",
-        "new_global_status": "scheduled",
-        "changetype": "multiple",
         "services": [
             "zodbot",
             "mailinglists",
             "fedorahosted"
         ],
         "message": "Scheduled maintenance in progress",
-        "changedate": 1449025261.361829
+        "changedate": 1449025261.361829,
+        "changetype": "multiple",
+        "new_global_status": "scheduled"
     },
     {
         "status": "good",
-        "new_global_status": "good",
         "service": "copr",
-        "changetype": "single",
         "message": "Everything seems to be working.",
-        "changedate": 1448932814.424979
+        "changedate": 1448932814.424979,
+        "changetype": "single",
+        "new_global_status": "good"
     },
     {
         "status": "scheduled",
-        "new_global_status": "scheduled",
         "service": "copr",
-        "changetype": "single",
         "message": "Scheduled cloud outage in progress",
-        "changedate": 1448927941.525777
+        "changedate": 1448927941.525777,
+        "changetype": "single",
+        "new_global_status": "scheduled"
     },
     {
         "status": "good",
-        "new_global_status": "good",
-        "changetype": "multiple",
         "services": [
             "wiki",
             "people",
@@ -3374,12 +3411,12 @@ callback([
             "fedocal"
         ],
         "message": "Everything seems to be working.",
-        "changedate": 1448500381.454307
+        "changedate": 1448500381.454307,
+        "changetype": "multiple",
+        "new_global_status": "good"
     },
     {
         "status": "scheduled",
-        "new_global_status": "scheduled",
-        "changetype": "multiple",
         "services": [
             "wiki",
             "people",
@@ -3411,122 +3448,122 @@ callback([
             "fedocal"
         ],
         "message": "scheduled",
-        "changedate": 1448485246.583654
+        "changedate": 1448485246.583654,
+        "changetype": "multiple",
+        "new_global_status": "scheduled"
     },
     {
         "status": "good",
-        "new_global_status": "good",
-        "changetype": "multiple",
         "services": [
             "koji",
             "pkgs"
         ],
         "message": "Everything seems to be working.",
-        "changedate": 1448400697.134878
+        "changedate": 1448400697.134878,
+        "changetype": "multiple",
+        "new_global_status": "good"
     },
     {
         "status": "scheduled",
-        "new_global_status": "scheduled",
-        "changetype": "multiple",
         "services": [
             "koji",
             "pkgs"
         ],
         "message": "Scheduled reboots in progress",
-        "changedate": 1448398903.083323
-    },
-    {
-        "status": "good",
-        "new_global_status": "good",
-        "service": "copr",
-        "changetype": "single",
-        "message": "Everything seems to be working.",
-        "changedate": 1448359801.936842
-    },
-    {
-        "status": "major",
-        "new_global_status": "major",
-        "service": "copr",
-        "changetype": "single",
-        "message": "COPR triggers a bug in OpenStack. Being debugged.",
-        "changedate": 1448349484.205338
-    },
-    {
-        "status": "good",
-        "new_global_status": "good",
-        "service": "copr",
-        "changetype": "single",
-        "message": "Everything seems to be working.",
-        "changedate": 1448345368.431744
-    },
-    {
-        "status": "scheduled",
-        "new_global_status": "scheduled",
-        "service": "copr",
-        "changetype": "single",
-        "message": "Scheduled Fedora Infra Cloud upgrade in progress",
-        "changedate": 1448323223.441509
-    },
-    {
-        "status": "good",
-        "new_global_status": "good",
-        "service": "packages",
-        "changetype": "single",
-        "message": "Everything seems to be working.",
-        "changedate": 1447991880.7743
-    },
-    {
-        "status": "scheduled",
-        "new_global_status": "scheduled",
-        "service": "packages",
-        "changetype": "single",
-        "message": "Rebuilding index for an upgrade.",
-        "changedate": 1447951375.272315
-    },
-    {
-        "status": "good",
-        "new_global_status": "good",
-        "service": "copr",
-        "changetype": "single",
-        "message": "Everything seems to be working.",
-        "changedate": 1447323447.047355
-    },
-    {
-        "status": "minor",
-        "new_global_status": "minor",
-        "service": "copr",
-        "changetype": "single",
-        "message": "Queue processing normally, some functions may not work as expected, being worked on.",
-        "changedate": 1447251036.02584
-    },
-    {
-        "status": "major",
-        "new_global_status": "major",
-        "service": "copr",
-        "changetype": "single",
-        "message": "technical issues, the queue is processed slower than usually, working on it",
-        "changedate": 1447148590.235509
-    },
-    {
-        "status": "minor",
-        "new_global_status": "minor",
-        "service": "copr",
-        "changetype": "single",
-        "message": "Working again, running through backlog",
-        "changedate": 1447108957.622257
-    },
-    {
-        "status": "major",
-        "new_global_status": "major",
-        "service": "copr",
-        "changetype": "single",
-        "message": "Backend issues, being worked on",
-        "changedate": 1447104845.036807
-    },
-    {
-        "status": "good",
-        "new_global_status": "good",
+        "changedate": 1448398903.083323,
         "changetype": "multiple",
+        "new_global_status": "scheduled"
+    },
+    {
+        "status": "good",
+        "service": "copr",
+        "message": "Everything seems to be working.",
+        "changedate": 1448359801.936842,
+        "changetype": "single",
+        "new_global_status": "good"
+    },
+    {
+        "status": "major",
+        "service": "copr",
+        "message": "COPR triggers a bug in OpenStack. Being debugged.",
+        "changedate": 1448349484.205338,
+        "changetype": "single",
+        "new_global_status": "major"
+    },
+    {
+        "status": "good",
+        "service": "copr",
+        "message": "Everything seems to be working.",
+        "changedate": 1448345368.431744,
+        "changetype": "single",
+        "new_global_status": "good"
+    },
+    {
+        "status": "scheduled",
+        "service": "copr",
+        "message": "Scheduled Fedora Infra Cloud upgrade in progress",
+        "changedate": 1448323223.441509,
+        "changetype": "single",
+        "new_global_status": "scheduled"
+    },
+    {
+        "status": "good",
+        "service": "packages",
+        "message": "Everything seems to be working.",
+        "changedate": 1447991880.7743,
+        "changetype": "single",
+        "new_global_status": "good"
+    },
+    {
+        "status": "scheduled",
+        "service": "packages",
+        "message": "Rebuilding index for an upgrade.",
+        "changedate": 1447951375.272315,
+        "changetype": "single",
+        "new_global_status": "scheduled"
+    },
+    {
+        "status": "good",
+        "service": "copr",
+        "message": "Everything seems to be working.",
+        "changedate": 1447323447.047355,
+        "changetype": "single",
+        "new_global_status": "good"
+    },
+    {
+        "status": "minor",
+        "service": "copr",
+        "message": "Queue processing normally, some functions may not work as expected, being worked on.",
+        "changedate": 1447251036.02584,
+        "changetype": "single",
+        "new_global_status": "minor"
+    },
+    {
+        "status": "major",
+        "service": "copr",
+        "message": "technical issues, the queue is processed slower than usually, working on it",
+        "changedate": 1447148590.235509,
+        "changetype": "single",
+        "new_global_status": "major"
+    },
+    {
+        "status": "minor",
+        "service": "copr",
+        "message": "Working again, running through backlog",
+        "changedate": 1447108957.622257,
+        "changetype": "single",
+        "new_global_status": "minor"
+    },
+    {
+        "status": "major",
+        "service": "copr",
+        "message": "Backend issues, being worked on",
+        "changedate": 1447104845.036807,
+        "changetype": "single",
+        "new_global_status": "major"
+    },
+    {
+        "status": "good",
         "services": [
             "wiki",
             "koji",
@@ -3535,40 +3572,40 @@ callback([
             "bodhi"
         ],
         "message": "Everything seems to be working.",
-        "changedate": 1446920282.856103
-    },
-    {
-        "status": "major",
-        "new_global_status": "major",
-        "service": "bodhi",
-        "changetype": "single",
-        "message": "Storage outage, being worked on",
-        "changedate": 1446913676.596467
-    },
-    {
-        "status": "major",
-        "new_global_status": "major",
+        "changedate": 1446920282.856103,
         "changetype": "multiple",
+        "new_global_status": "good"
+    },
+    {
+        "status": "major",
+        "service": "bodhi",
+        "message": "Storage outage, being worked on",
+        "changedate": 1446913676.596467,
+        "changetype": "single",
+        "new_global_status": "major"
+    },
+    {
+        "status": "major",
         "services": [
             "copr",
             "koji",
             "wiki"
         ],
         "message": "Storage outage, being worked on",
-        "changedate": 1446913615.735032
+        "changedate": 1446913615.735032,
+        "changetype": "multiple",
+        "new_global_status": "major"
     },
     {
         "status": "major",
-        "new_global_status": "major",
         "service": "wiki",
-        "changetype": "single",
         "message": "Database outage",
-        "changedate": 1446912749.858399
+        "changedate": 1446912749.858399,
+        "changetype": "single",
+        "new_global_status": "major"
     },
     {
         "status": "good",
-        "new_global_status": "good",
-        "changetype": "multiple",
         "services": [
             "wiki",
             "people",
@@ -3600,12 +3637,12 @@ callback([
             "fedocal"
         ],
         "message": "Everything seems to be working.",
-        "changedate": 1446657798.946204
+        "changedate": 1446657798.946204,
+        "changetype": "multiple",
+        "new_global_status": "good"
     },
     {
         "status": "major",
-        "new_global_status": "major",
-        "changetype": "multiple",
         "services": [
             "wiki",
             "people",
@@ -3637,20 +3674,20 @@ callback([
             "fedocal"
         ],
         "message": "Known issue with all services, being worked on",
-        "changedate": 1446657570.039487
-    },
-    {
-        "status": "good",
-        "new_global_status": "minor",
-        "service": "koji",
-        "changetype": "single",
-        "message": "Everything seems to be working.",
-        "changedate": 1446312176.014554
-    },
-    {
-        "status": "good",
-        "new_global_status": "major",
+        "changedate": 1446657570.039487,
         "changetype": "multiple",
+        "new_global_status": "major"
+    },
+    {
+        "status": "good",
+        "service": "koji",
+        "message": "Everything seems to be working.",
+        "changedate": 1446312176.014554,
+        "changetype": "single",
+        "new_global_status": "minor"
+    },
+    {
+        "status": "good",
         "services": [
             "wiki",
             "mirrormanager",
@@ -3659,12 +3696,12 @@ callback([
             "bodhi"
         ],
         "message": "Everything seems to be working.",
-        "changedate": 1446290504.73746
+        "changedate": 1446290504.73746,
+        "changetype": "multiple",
+        "new_global_status": "major"
     },
     {
         "status": "major",
-        "new_global_status": "major",
-        "changetype": "multiple",
         "services": [
             "wiki",
             "koji",
@@ -3675,12 +3712,12 @@ callback([
             "copr"
         ],
         "message": "Backend storage recovering, services being recovered.",
-        "changedate": 1446289010.203149
+        "changedate": 1446289010.203149,
+        "changetype": "multiple",
+        "new_global_status": "major"
     },
     {
         "status": "major",
-        "new_global_status": "major",
-        "changetype": "multiple",
         "services": [
             "wiki",
             "koji",
@@ -3691,28 +3728,28 @@ callback([
             "copr"
         ],
         "message": "Power outage impacting backend storage, being worked on.",
-        "changedate": 1446286537.845625
-    },
-    {
-        "status": "major",
-        "new_global_status": "major",
-        "service": "copr",
-        "changetype": "single",
-        "message": "Backend storage has gone offline. Next update at 10UTC or when more info is available.",
-        "changedate": 1446280428.873282
-    },
-    {
-        "status": "major",
-        "new_global_status": "major",
-        "service": "copr",
-        "changetype": "single",
-        "message": "COPR workers down, being looked at",
-        "changedate": 1446280153.311405
-    },
-    {
-        "status": "major",
-        "new_global_status": "major",
+        "changedate": 1446286537.845625,
         "changetype": "multiple",
+        "new_global_status": "major"
+    },
+    {
+        "status": "major",
+        "service": "copr",
+        "message": "Backend storage has gone offline. Next update at 10UTC or when more info is available.",
+        "changedate": 1446280428.873282,
+        "changetype": "single",
+        "new_global_status": "major"
+    },
+    {
+        "status": "major",
+        "service": "copr",
+        "message": "COPR workers down, being looked at",
+        "changedate": 1446280153.311405,
+        "changetype": "single",
+        "new_global_status": "major"
+    },
+    {
+        "status": "major",
         "services": [
             "wiki",
             "koji",
@@ -3722,12 +3759,12 @@ callback([
             "bodhi"
         ],
         "message": "Backend storage has gone offline. Next update at 10UTC or when more info is available.",
-        "changedate": 1446279879.408919
+        "changedate": 1446279879.408919,
+        "changetype": "multiple",
+        "new_global_status": "major"
     },
     {
         "status": "major",
-        "new_global_status": "major",
-        "changetype": "multiple",
         "services": [
             "wiki",
             "koji",
@@ -3736,84 +3773,84 @@ callback([
             "packages"
         ],
         "message": "Backend storage has gone offline, being looked at.",
-        "changedate": 1446273026.442198
+        "changedate": 1446273026.442198,
+        "changetype": "multiple",
+        "new_global_status": "major"
     },
     {
         "status": "good",
-        "new_global_status": "good",
         "service": "koji",
-        "changetype": "single",
         "message": "Everything seems to be working.",
-        "changedate": 1445641975.511647
+        "changedate": 1445641975.511647,
+        "changetype": "single",
+        "new_global_status": "good"
     },
     {
         "status": "good",
-        "new_global_status": "major",
         "service": "copr",
-        "changetype": "single",
         "message": "Everything seems to be working.",
-        "changedate": 1445635015.727006
+        "changedate": 1445635015.727006,
+        "changetype": "single",
+        "new_global_status": "major"
     },
     {
         "status": "major",
-        "new_global_status": "major",
         "service": "copr",
-        "changetype": "single",
         "message": "Issues with depending packages, being looked at",
-        "changedate": 1445627871.203963
+        "changedate": 1445627871.203963,
+        "changetype": "single",
+        "new_global_status": "major"
     },
     {
         "status": "major",
-        "new_global_status": "major",
         "service": "koji",
-        "changetype": "single",
         "message": "Disk full, being worked on",
-        "changedate": 1445626158.681976
+        "changedate": 1445626158.681976,
+        "changetype": "single",
+        "new_global_status": "major"
     },
     {
         "status": "good",
-        "new_global_status": "good",
         "service": "copr",
-        "changetype": "single",
         "message": "Everything seems to be working.",
-        "changedate": 1445626123.28151
+        "changedate": 1445626123.28151,
+        "changetype": "single",
+        "new_global_status": "good"
     },
     {
         "status": "minor",
-        "new_global_status": "minor",
         "service": "copr",
-        "changetype": "single",
         "message": "COPR again backlogged due to not running for some time, catching up",
-        "changedate": 1445611601.112899
+        "changedate": 1445611601.112899,
+        "changetype": "single",
+        "new_global_status": "minor"
     },
     {
         "status": "good",
-        "new_global_status": "good",
         "service": "copr",
-        "changetype": "single",
         "message": "Everything seems to be working.",
-        "changedate": 1445555095.885498
+        "changedate": 1445555095.885498,
+        "changetype": "single",
+        "new_global_status": "good"
     },
     {
         "status": "major",
-        "new_global_status": "major",
         "service": "copr",
-        "changetype": "single",
         "message": "COPR is backlogged due to builds not running for a long time, recovering now",
-        "changedate": 1445553819.481238
+        "changedate": 1445553819.481238,
+        "changetype": "single",
+        "new_global_status": "major"
     },
     {
         "status": "major",
-        "new_global_status": "major",
         "service": "copr",
-        "changetype": "single",
         "message": "No new builds running, being checked into",
-        "changedate": 1445550137.392847
+        "changedate": 1445550137.392847,
+        "changetype": "single",
+        "new_global_status": "major"
     },
     {
         "status": "good",
-        "new_global_status": "good",
-        "changetype": "multiple",
         "services": [
             "wiki",
             "people",
@@ -3845,12 +3882,12 @@ callback([
             "fedocal"
         ],
         "message": "Everything seems to be working.",
-        "changedate": 1444175550.623483
+        "changedate": 1444175550.623483,
+        "changetype": "multiple",
+        "new_global_status": "good"
     },
     {
         "status": "scheduled",
-        "new_global_status": "scheduled",
-        "changetype": "multiple",
         "services": [
             "wiki",
             "people",
@@ -3882,12 +3919,12 @@ callback([
             "fedocal"
         ],
         "message": "scheduled outage",
-        "changedate": 1444165284.515169
+        "changedate": 1444165284.515169,
+        "changetype": "multiple",
+        "new_global_status": "scheduled"
     },
     {
         "status": "scheduled",
-        "new_global_status": "scheduled",
-        "changetype": "multiple",
         "services": [
             "wiki",
             "people",
@@ -3919,108 +3956,108 @@ callback([
             "fedocal"
         ],
         "message": "Everything seems to be working.",
-        "changedate": 1444165218.789966
+        "changedate": 1444165218.789966,
+        "changetype": "multiple",
+        "new_global_status": "scheduled"
     },
     {
         "status": "good",
-        "new_global_status": "good",
         "service": "ask",
-        "changetype": "single",
         "message": "Everything seems to be working.",
-        "changedate": 1444099159.216927
+        "changedate": 1444099159.216927,
+        "changetype": "single",
+        "new_global_status": "good"
     },
     {
         "status": "minor",
-        "new_global_status": "minor",
         "service": "ask",
-        "changetype": "single",
         "message": "Askbot getting back",
-        "changedate": 1444095238.074876
+        "changedate": 1444095238.074876,
+        "changetype": "single",
+        "new_global_status": "minor"
     },
     {
         "status": "major",
-        "new_global_status": "major",
         "service": "ask",
-        "changetype": "single",
         "message": "Database issues going on, being looked into",
-        "changedate": 1444093432.181811
+        "changedate": 1444093432.181811,
+        "changetype": "single",
+        "new_global_status": "major"
     },
     {
         "status": "good",
-        "new_global_status": "good",
         "service": "copr",
-        "changetype": "single",
         "message": "Everything seems to be working.",
-        "changedate": 1444024846.677075
+        "changedate": 1444024846.677075,
+        "changetype": "single",
+        "new_global_status": "good"
     },
     {
         "status": "scheduled",
-        "new_global_status": "scheduled",
         "service": "copr",
-        "changetype": "single",
         "message": "COPR back, processing backlog: https://fedorahosted.org/fedora-infrastructure/ticket/4908",
-        "changedate": 1444022597.210956
+        "changedate": 1444022597.210956,
+        "changetype": "single",
+        "new_global_status": "scheduled"
     },
     {
         "status": "scheduled",
-        "new_global_status": "scheduled",
         "service": "copr",
-        "changetype": "single",
         "message": "Scheduled maintenance in progress: https://fedorahosted.org/fedora-infrastructure/ticket/4908",
-        "changedate": 1444003249.288776
+        "changedate": 1444003249.288776,
+        "changetype": "single",
+        "new_global_status": "scheduled"
     },
     {
         "status": "good",
-        "new_global_status": "good",
         "service": "copr",
-        "changetype": "single",
         "message": "Everything seems to be working.",
-        "changedate": 1443238300.278573
+        "changedate": 1443238300.278573,
+        "changetype": "single",
+        "new_global_status": "good"
     },
     {
         "status": "major",
-        "new_global_status": "major",
         "service": "copr",
-        "changetype": "single",
         "message": "copr down",
-        "changedate": 1443237228.102265
+        "changedate": 1443237228.102265,
+        "changetype": "single",
+        "new_global_status": "major"
     },
     {
         "status": "good",
-        "new_global_status": "good",
         "service": "bodhi",
-        "changetype": "single",
         "message": "Everything seems to be working.",
-        "changedate": 1442853589.702584
+        "changedate": 1442853589.702584,
+        "changetype": "single",
+        "new_global_status": "good"
     },
     {
         "status": "major",
-        "new_global_status": "major",
         "service": "bodhi",
-        "changetype": "single",
         "message": "bugzilla outage",
-        "changedate": 1442845079.602965
+        "changedate": 1442845079.602965,
+        "changetype": "single",
+        "new_global_status": "major"
     },
     {
         "status": "good",
-        "new_global_status": "good",
         "service": "bodhi",
-        "changetype": "single",
         "message": "Everything seems to be working.",
-        "changedate": 1442757451.174041
+        "changedate": 1442757451.174041,
+        "changetype": "single",
+        "new_global_status": "good"
     },
     {
         "status": "major",
-        "new_global_status": "major",
         "service": "bodhi",
-        "changetype": "single",
         "message": "bugzilla outage",
-        "changedate": 1442709823.805421
+        "changedate": 1442709823.805421,
+        "changetype": "single",
+        "new_global_status": "major"
     },
     {
         "status": "good",
-        "new_global_status": "good",
-        "changetype": "multiple",
         "services": [
             "wiki",
             "people",
@@ -4052,12 +4089,12 @@ callback([
             "fedocal"
         ],
         "message": "Everything seems to be working.",
-        "changedate": 1441237779.872933
+        "changedate": 1441237779.872933,
+        "changetype": "multiple",
+        "new_global_status": "good"
     },
     {
         "status": "scheduled",
-        "new_global_status": "scheduled",
-        "changetype": "multiple",
         "services": [
             "wiki",
             "people",
@@ -4089,84 +4126,84 @@ callback([
             "fedocal"
         ],
         "message": "scheduled outage",
-        "changedate": 1441227606.499797
+        "changedate": 1441227606.499797,
+        "changetype": "multiple",
+        "new_global_status": "scheduled"
     },
     {
         "status": "good",
-        "new_global_status": "good",
-        "changetype": "multiple",
         "services": [
             "koji",
             "koschei",
             "pkgs"
         ],
         "message": "Everything seems to be working.",
-        "changedate": 1441144079.84853
+        "changedate": 1441144079.84853,
+        "changetype": "multiple",
+        "new_global_status": "good"
     },
     {
         "status": "scheduled",
-        "new_global_status": "scheduled",
-        "changetype": "multiple",
         "services": [
             "koji",
             "koschei",
             "pkgs"
         ],
         "message": "planned outage",
-        "changedate": 1441141208.023392
+        "changedate": 1441141208.023392,
+        "changetype": "multiple",
+        "new_global_status": "scheduled"
     },
     {
         "status": "good",
-        "new_global_status": "good",
         "service": "copr",
-        "changetype": "single",
         "message": "Everything seems to be working.",
-        "changedate": 1441024050.37179
+        "changedate": 1441024050.37179,
+        "changetype": "single",
+        "new_global_status": "good"
     },
     {
         "status": "major",
-        "new_global_status": "major",
         "service": "copr",
-        "changetype": "single",
         "message": "Code issue prevent COPR from starting new jobs",
-        "changedate": 1441020663.5664
+        "changedate": 1441020663.5664,
+        "changetype": "single",
+        "new_global_status": "major"
     },
     {
         "status": "good",
-        "new_global_status": "good",
         "service": "copr",
-        "changetype": "single",
         "message": "Everything seems to be working.",
-        "changedate": 1440992263.029814
+        "changedate": 1440992263.029814,
+        "changetype": "single",
+        "new_global_status": "good"
     },
     {
         "status": "scheduled",
-        "new_global_status": "scheduled",
         "service": "copr",
-        "changetype": "single",
         "message": "Fedora Infra Cloud reboots in progress: https://fedorahosted.org/fedora-infrastructure/ticket/4871",
-        "changedate": 1440982809.01376
+        "changedate": 1440982809.01376,
+        "changetype": "single",
+        "new_global_status": "scheduled"
     },
     {
         "status": "good",
-        "new_global_status": "good",
         "service": "bodhi",
-        "changetype": "single",
         "message": "Everything seems to be working.",
-        "changedate": 1440041994.616356
+        "changedate": 1440041994.616356,
+        "changetype": "single",
+        "new_global_status": "good"
     },
     {
         "status": "major",
-        "new_global_status": "major",
         "service": "bodhi",
-        "changetype": "single",
         "message": "Bodhi2 migration in progress.",
-        "changedate": 1440000244.28668
+        "changedate": 1440000244.28668,
+        "changetype": "single",
+        "new_global_status": "major"
     },
     {
         "status": "good",
-        "new_global_status": "good",
-        "changetype": "multiple",
         "services": [
             "wiki",
             "people",
@@ -4195,12 +4232,12 @@ callback([
             "fedocal"
         ],
         "message": "Everything seems to be working.",
-        "changedate": 1437610796.302119
+        "changedate": 1437610796.302119,
+        "changetype": "multiple",
+        "new_global_status": "good"
     },
     {
         "status": "scheduled",
-        "new_global_status": "scheduled",
-        "changetype": "multiple",
         "services": [
             "wiki",
             "people",
@@ -4229,32 +4266,32 @@ callback([
             "fedocal"
         ],
         "message": "Updates in progress: https://fedorahosted.org/fedora-infrastructure/ticket/4832",
-        "changedate": 1437598974.189686
-    },
-    {
-        "status": "good",
-        "new_global_status": "good",
-        "service": "copr",
-        "changetype": "single",
-        "message": "Everything seems to be working.",
-        "changedate": 1437558107.141758
-    },
-    {
-        "status": "good",
-        "new_global_status": "scheduled",
+        "changedate": 1437598974.189686,
         "changetype": "multiple",
+        "new_global_status": "scheduled"
+    },
+    {
+        "status": "good",
+        "service": "copr",
+        "message": "Everything seems to be working.",
+        "changedate": 1437558107.141758,
+        "changetype": "single",
+        "new_global_status": "good"
+    },
+    {
+        "status": "good",
         "services": [
             "koschei",
             "koji",
             "pkgs"
         ],
         "message": "Everything seems to be working.",
-        "changedate": 1437521143.923219
+        "changedate": 1437521143.923219,
+        "changetype": "multiple",
+        "new_global_status": "scheduled"
     },
     {
         "status": "scheduled",
-        "new_global_status": "scheduled",
-        "changetype": "multiple",
         "services": [
             "koschei",
             "koji",
@@ -4262,20 +4299,20 @@ callback([
             "copr"
         ],
         "message": "server updates",
-        "changedate": 1437512409.004318
-    },
-    {
-        "status": "good",
-        "new_global_status": "good",
-        "service": "authentication",
-        "changetype": "single",
-        "message": "Everything seems to be working.",
-        "changedate": 1436965348.178296
-    },
-    {
-        "status": "good",
-        "new_global_status": "scheduled",
+        "changedate": 1437512409.004318,
         "changetype": "multiple",
+        "new_global_status": "scheduled"
+    },
+    {
+        "status": "good",
+        "service": "authentication",
+        "message": "Everything seems to be working.",
+        "changedate": 1436965348.178296,
+        "changetype": "single",
+        "new_global_status": "good"
+    },
+    {
+        "status": "good",
         "services": [
             "tagger",
             "pkgdb",
@@ -4292,12 +4329,12 @@ callback([
             "fedocal"
         ],
         "message": "Everything seems to be working.",
-        "changedate": 1436953969.523944
+        "changedate": 1436953969.523944,
+        "changetype": "multiple",
+        "new_global_status": "scheduled"
     },
     {
         "status": "scheduled",
-        "new_global_status": "scheduled",
-        "changetype": "multiple",
         "services": [
             "tagger",
             "pkgdb",
@@ -4315,60 +4352,60 @@ callback([
             "fedocal"
         ],
         "message": "Authentication infrastructure upgrade: https://fedorahosted.org/fedora-infrastructure/ticket/4814",
-        "changedate": 1436947479.724408
+        "changedate": 1436947479.724408,
+        "changetype": "multiple",
+        "new_global_status": "scheduled"
     },
     {
         "status": "good",
-        "new_global_status": "good",
         "service": "copr",
-        "changetype": "single",
         "message": "Everything seems to be working.",
-        "changedate": 1436633154.864123
+        "changedate": 1436633154.864123,
+        "changetype": "single",
+        "new_global_status": "good"
     },
     {
         "status": "major",
-        "new_global_status": "major",
         "service": "copr",
-        "changetype": "single",
         "message": "COPR is not running any builds, being looked into",
-        "changedate": 1436626886.425936
+        "changedate": 1436626886.425936,
+        "changetype": "single",
+        "new_global_status": "major"
     },
     {
         "status": "good",
-        "new_global_status": "good",
         "service": "people",
-        "changetype": "single",
         "message": "Everything seems to be working.",
-        "changedate": 1436397257.409004
+        "changedate": 1436397257.409004,
+        "changetype": "single",
+        "new_global_status": "good"
     },
     {
         "status": "scheduled",
-        "new_global_status": "scheduled",
         "service": "people",
-        "changetype": "single",
         "message": "Fedora People is getting migrated. More info: https://fedorahosted.org/fedora-infrastructure/ticket/4810",
-        "changedate": 1436389698.852274
+        "changedate": 1436389698.852274,
+        "changetype": "single",
+        "new_global_status": "scheduled"
     },
     {
         "status": "good",
-        "new_global_status": "good",
         "service": "koschei",
-        "changetype": "single",
         "message": "Everything seems to be working.",
-        "changedate": 1435583303.121862
+        "changedate": 1435583303.121862,
+        "changetype": "single",
+        "new_global_status": "good"
     },
     {
         "status": "major",
-        "new_global_status": "major",
         "service": "koschei",
-        "changetype": "single",
         "message": "There are problems with the web frontend. We are currently working towards fixing them.",
-        "changedate": 1435578778.8563
+        "changedate": 1435578778.8563,
+        "changetype": "single",
+        "new_global_status": "major"
     },
     {
         "status": "good",
-        "new_global_status": "good",
-        "changetype": "multiple",
         "services": [
             "wiki",
             "people",
@@ -4399,12 +4436,12 @@ callback([
             "fedocal"
         ],
         "message": "Everything seems to be working.",
-        "changedate": 1435165530.244306
+        "changedate": 1435165530.244306,
+        "changetype": "multiple",
+        "new_global_status": "good"
     },
     {
         "status": "major",
-        "new_global_status": "major",
-        "changetype": "multiple",
         "services": [
             "wiki",
             "people",
@@ -4435,44 +4472,44 @@ callback([
             "fedocal"
         ],
         "message": "Issue with a lot of services, being worked on",
-        "changedate": 1435165263.227254
+        "changedate": 1435165263.227254,
+        "changetype": "multiple",
+        "new_global_status": "major"
     },
     {
         "status": "good",
-        "new_global_status": "good",
         "service": "copr",
-        "changetype": "single",
         "message": "Everything seems to be working.",
-        "changedate": 1435055811.817356
+        "changedate": 1435055811.817356,
+        "changetype": "single",
+        "new_global_status": "good"
     },
     {
         "status": "scheduled",
-        "new_global_status": "scheduled",
         "service": "copr",
-        "changetype": "single",
         "message": "Scheduled maintenance in progress",
-        "changedate": 1435038733.699724
+        "changedate": 1435038733.699724,
+        "changetype": "single",
+        "new_global_status": "scheduled"
     },
     {
         "status": "good",
-        "new_global_status": "good",
         "service": "mirrorlist",
-        "changetype": "single",
         "message": "Everything seems to be working.",
-        "changedate": 1434820032.41737
+        "changedate": 1434820032.41737,
+        "changetype": "single",
+        "new_global_status": "good"
     },
     {
         "status": "major",
-        "new_global_status": "major",
         "service": "mirrorlist",
-        "changetype": "single",
         "message": "some issues being worked",
-        "changedate": 1434734106.685462
+        "changedate": 1434734106.685462,
+        "changetype": "single",
+        "new_global_status": "major"
     },
     {
         "status": "good",
-        "new_global_status": "good",
-        "changetype": "multiple",
         "services": [
             "wiki",
             "people",
@@ -4503,12 +4540,12 @@ callback([
             "fedocal"
         ],
         "message": "Everything seems to be working.",
-        "changedate": 1434734031.935995
+        "changedate": 1434734031.935995,
+        "changetype": "multiple",
+        "new_global_status": "good"
     },
     {
         "status": "major",
-        "new_global_status": "major",
-        "changetype": "multiple",
         "services": [
             "wiki",
             "people",
@@ -4539,12 +4576,12 @@ callback([
             "fedocal"
         ],
         "message": "Everything seems to be working.",
-        "changedate": 1434724240.806125
+        "changedate": 1434724240.806125,
+        "changetype": "multiple",
+        "new_global_status": "major"
     },
     {
         "status": "good",
-        "new_global_status": "good",
-        "changetype": "multiple",
         "services": [
             "wiki",
             "people",
@@ -4575,12 +4612,12 @@ callback([
             "fedocal"
         ],
         "message": "Everything seems to be working.",
-        "changedate": 1433911085.449011
+        "changedate": 1433911085.449011,
+        "changetype": "multiple",
+        "new_global_status": "good"
     },
     {
         "status": "scheduled",
-        "new_global_status": "scheduled",
-        "changetype": "multiple",
         "services": [
             "wiki",
             "people",
@@ -4611,44 +4648,44 @@ callback([
             "fedocal"
         ],
         "message": "storage outage",
-        "changedate": 1433890770.711986
+        "changedate": 1433890770.711986,
+        "changetype": "multiple",
+        "new_global_status": "scheduled"
     },
     {
         "status": "good",
-        "new_global_status": "good",
         "service": "copr",
-        "changetype": "single",
         "message": "Everything seems to be working.",
-        "changedate": 1433424225.296115
+        "changedate": 1433424225.296115,
+        "changetype": "single",
+        "new_global_status": "good"
     },
     {
         "status": "minor",
-        "new_global_status": "minor",
         "service": "copr",
-        "changetype": "single",
         "message": "COPR frontend is back, builds will get back soon",
-        "changedate": 1433421947.499779
+        "changedate": 1433421947.499779,
+        "changetype": "single",
+        "new_global_status": "minor"
     },
     {
         "status": "major",
-        "new_global_status": "major",
         "service": "copr",
-        "changetype": "single",
         "message": "COPR is down, we are working on it",
-        "changedate": 1433391582.862703
+        "changedate": 1433391582.862703,
+        "changetype": "single",
+        "new_global_status": "major"
     },
     {
         "status": "major",
-        "new_global_status": "major",
         "service": "copr",
-        "changetype": "single",
         "message": "Everything seems to be working.",
-        "changedate": 1433380504.185031
+        "changedate": 1433380504.185031,
+        "changetype": "single",
+        "new_global_status": "major"
     },
     {
         "status": "good",
-        "new_global_status": "good",
-        "changetype": "multiple",
         "services": [
             "wiki",
             "people",
@@ -4679,12 +4716,12 @@ callback([
             "fedocal"
         ],
         "message": "Everything seems to be working.",
-        "changedate": 1433380458.105367
+        "changedate": 1433380458.105367,
+        "changetype": "multiple",
+        "new_global_status": "good"
     },
     {
         "status": "scheduled",
-        "new_global_status": "scheduled",
-        "changetype": "multiple",
         "services": [
             "wiki",
             "people",
@@ -4715,84 +4752,84 @@ callback([
             "fedocal"
         ],
         "message": "Mass reboots in progress",
-        "changedate": 1433365332.584307
-    },
-    {
-        "status": "good",
-        "new_global_status": "good",
-        "service": "copr",
-        "changetype": "single",
-        "message": "Everything seems to be working.",
-        "changedate": 1432674197.130564
-    },
-    {
-        "status": "major",
-        "new_global_status": "major",
-        "service": "copr",
-        "changetype": "single",
-        "message": "Network issues in PHX - Copr queue jobs, but is not processing the queue. We are working on this issue.",
-        "changedate": 1432633213.086551
-    },
-    {
-        "status": "good",
-        "new_global_status": "good",
-        "service": "copr",
-        "changetype": "single",
-        "message": "Everything seems to be working.",
-        "changedate": 1432624633.423908
-    },
-    {
-        "status": "major",
-        "new_global_status": "major",
-        "service": "copr",
-        "changetype": "single",
-        "message": "Network issues in PHX - Copr queue jobs, but is not processing the queue. We are working on this issue.",
-        "changedate": 1432621045.111955
-    },
-    {
-        "status": "major",
-        "new_global_status": "major",
-        "service": "copr",
-        "changetype": "single",
-        "message": "Network issues",
-        "changedate": 1432621015.58319
-    },
-    {
-        "status": "good",
-        "new_global_status": "good",
-        "service": "copr",
-        "changetype": "single",
-        "message": "Everything seems to be working.",
-        "changedate": 1432048743.859951
-    },
-    {
-        "status": "minor",
-        "new_global_status": "minor",
-        "service": "copr",
-        "changetype": "single",
-        "message": "Migrations underway. Services will be restored later today",
-        "changedate": 1432016741.784542
-    },
-    {
-        "status": "good",
-        "new_global_status": "good",
-        "service": "copr",
-        "changetype": "single",
-        "message": "Everything seems to be working.",
-        "changedate": 1431952359.226199
-    },
-    {
-        "status": "minor",
-        "new_global_status": "minor",
-        "service": "copr",
-        "changetype": "single",
-        "message": "Currently being migrated",
-        "changedate": 1431947678.79725
-    },
-    {
-        "status": "good",
-        "new_global_status": "good",
+        "changedate": 1433365332.584307,
         "changetype": "multiple",
+        "new_global_status": "scheduled"
+    },
+    {
+        "status": "good",
+        "service": "copr",
+        "message": "Everything seems to be working.",
+        "changedate": 1432674197.130564,
+        "changetype": "single",
+        "new_global_status": "good"
+    },
+    {
+        "status": "major",
+        "service": "copr",
+        "message": "Network issues in PHX - Copr queue jobs, but is not processing the queue. We are working on this issue.",
+        "changedate": 1432633213.086551,
+        "changetype": "single",
+        "new_global_status": "major"
+    },
+    {
+        "status": "good",
+        "service": "copr",
+        "message": "Everything seems to be working.",
+        "changedate": 1432624633.423908,
+        "changetype": "single",
+        "new_global_status": "good"
+    },
+    {
+        "status": "major",
+        "service": "copr",
+        "message": "Network issues in PHX - Copr queue jobs, but is not processing the queue. We are working on this issue.",
+        "changedate": 1432621045.111955,
+        "changetype": "single",
+        "new_global_status": "major"
+    },
+    {
+        "status": "major",
+        "service": "copr",
+        "message": "Network issues",
+        "changedate": 1432621015.58319,
+        "changetype": "single",
+        "new_global_status": "major"
+    },
+    {
+        "status": "good",
+        "service": "copr",
+        "message": "Everything seems to be working.",
+        "changedate": 1432048743.859951,
+        "changetype": "single",
+        "new_global_status": "good"
+    },
+    {
+        "status": "minor",
+        "service": "copr",
+        "message": "Migrations underway. Services will be restored later today",
+        "changedate": 1432016741.784542,
+        "changetype": "single",
+        "new_global_status": "minor"
+    },
+    {
+        "status": "good",
+        "service": "copr",
+        "message": "Everything seems to be working.",
+        "changedate": 1431952359.226199,
+        "changetype": "single",
+        "new_global_status": "good"
+    },
+    {
+        "status": "minor",
+        "service": "copr",
+        "message": "Currently being migrated",
+        "changedate": 1431947678.79725,
+        "changetype": "single",
+        "new_global_status": "minor"
+    },
+    {
+        "status": "good",
         "services": [
             "wiki",
             "people",
@@ -4823,12 +4860,12 @@ callback([
             "fedocal"
         ],
         "message": "Everything seems to be working.",
-        "changedate": 1430989150.429581
+        "changedate": 1430989150.429581,
+        "changetype": "multiple",
+        "new_global_status": "good"
     },
     {
         "status": "major",
-        "new_global_status": "major",
-        "changetype": "multiple",
         "services": [
             "wiki",
             "people",
@@ -4859,12 +4896,12 @@ callback([
             "fedocal"
         ],
         "message": "Network trouble, being looked in to",
-        "changedate": 1430987648.315148
+        "changedate": 1430987648.315148,
+        "changetype": "multiple",
+        "new_global_status": "major"
     },
     {
         "status": "good",
-        "new_global_status": "good",
-        "changetype": "multiple",
         "services": [
             "wiki",
             "people",
@@ -4895,12 +4932,12 @@ callback([
             "fedocal"
         ],
         "message": "Everything seems to be working.",
-        "changedate": 1429788780.608953
+        "changedate": 1429788780.608953,
+        "changetype": "multiple",
+        "new_global_status": "good"
     },
     {
         "status": "minor",
-        "new_global_status": "minor",
-        "changetype": "multiple",
         "services": [
             "wiki",
             "people",
@@ -4931,44 +4968,44 @@ callback([
             "fedocal"
         ],
         "message": "Unplanned outage in one of our datacenter, may affect most of our application depending on your location",
-        "changedate": 1429785415.567624
+        "changedate": 1429785415.567624,
+        "changetype": "multiple",
+        "new_global_status": "minor"
     },
     {
         "status": "good",
-        "new_global_status": "good",
         "service": "bodhi",
-        "changetype": "single",
         "message": "Everything seems to be working.",
-        "changedate": 1429269899.131735
+        "changedate": 1429269899.131735,
+        "changetype": "single",
+        "new_global_status": "good"
     },
     {
         "status": "major",
-        "new_global_status": "major",
         "service": "bodhi",
-        "changetype": "single",
         "message": "Load issues, being looked into",
-        "changedate": 1429262468.207487
+        "changedate": 1429262468.207487,
+        "changetype": "single",
+        "new_global_status": "major"
     },
     {
         "status": "good",
-        "new_global_status": "good",
         "service": "bodhi",
-        "changetype": "single",
         "message": "Everything seems to be working.",
-        "changedate": 1429259013.325973
+        "changedate": 1429259013.325973,
+        "changetype": "single",
+        "new_global_status": "good"
     },
     {
         "status": "minor",
-        "new_global_status": "minor",
         "service": "bodhi",
-        "changetype": "single",
         "message": "Load issues, being looked into",
-        "changedate": 1429258066.890904
+        "changedate": 1429258066.890904,
+        "changetype": "single",
+        "new_global_status": "minor"
     },
     {
         "status": "good",
-        "new_global_status": "good",
-        "changetype": "multiple",
         "services": [
             "wiki",
             "people",
@@ -4999,12 +5036,12 @@ callback([
             "fedocal"
         ],
         "message": "Everything seems to be working.",
-        "changedate": 1429076737.836838
+        "changedate": 1429076737.836838,
+        "changetype": "multiple",
+        "new_global_status": "good"
     },
     {
         "status": "major",
-        "new_global_status": "major",
-        "changetype": "multiple",
         "services": [
             "wiki",
             "people",
@@ -5035,114 +5072,114 @@ callback([
             "fedocal"
         ],
         "message": "Network issues",
-        "changedate": 1429068863.405626
+        "changedate": 1429068863.405626,
+        "changetype": "multiple",
+        "new_global_status": "major"
     },
     {
         "status": "good",
-        "new_global_status": "good",
         "service": "koji",
-        "changetype": "single",
         "message": "Everything seems to be working.",
-        "changedate": 1428776472.194095
+        "changedate": 1428776472.194095,
+        "changetype": "single",
+        "new_global_status": "good"
     },
     {
         "status": "scheduled",
-        "new_global_status": "scheduled",
         "service": "koji",
-        "changetype": "single",
         "message": "database work",
-        "changedate": 1428775207.428278
+        "changedate": 1428775207.428278,
+        "changetype": "single",
+        "new_global_status": "scheduled"
     },
     {
         "status": "good",
-        "new_global_status": "good",
         "service": "pkgs",
-        "changetype": "single",
         "message": "Everything seems to be working.",
-        "changedate": 1428002998.549571
+        "changedate": 1428002998.549571,
+        "changetype": "single",
+        "new_global_status": "good"
     },
     {
         "status": "major",
-        "new_global_status": "major",
         "service": "pkgs",
-        "changetype": "single",
         "message": "lookaside/cgit down",
-        "changedate": 1428002764.943971
+        "changedate": 1428002764.943971,
+        "changetype": "single",
+        "new_global_status": "major"
     },
     {
         "status": "good",
-        "new_global_status": "good",
         "service": "ask",
-        "changetype": "single",
         "message": "Everything seems to be working.",
-        "changedate": 1427489441.697936
+        "changedate": 1427489441.697936,
+        "changetype": "single",
+        "new_global_status": "good"
     },
     {
         "status": "major",
-        "new_global_status": "major",
         "service": "ask",
-        "changetype": "single",
         "message": "upgrade in progress",
-        "changedate": 1427472760.149981
+        "changedate": 1427472760.149981,
+        "changetype": "single",
+        "new_global_status": "major"
     },
     {
         "status": "good",
-        "new_global_status": "good",
         "service": "copr",
-        "changetype": "single",
         "message": "Everything seems to be working.",
-        "changedate": 1426811713.219948
+        "changedate": 1426811713.219948,
+        "changetype": "single",
+        "new_global_status": "good"
     },
     {
         "status": "minor",
-        "new_global_status": "minor",
         "service": "copr",
-        "changetype": "single",
         "message": "Backend crunching through backlog",
-        "changedate": 1426799803.790803
+        "changedate": 1426799803.790803,
+        "changetype": "single",
+        "new_global_status": "minor"
     },
     {
         "status": "good",
-        "new_global_status": "good",
         "service": "copr",
-        "changetype": "single",
         "message": "Everything seems to be working.",
-        "changedate": 1426799362.852927
+        "changedate": 1426799362.852927,
+        "changetype": "single",
+        "new_global_status": "good"
     },
     {
         "status": "major",
-        "new_global_status": "major",
         "service": "copr",
-        "changetype": "single",
         "message": "Copr backend is currently down",
-        "changedate": 1426793642.988247
+        "changedate": 1426793642.988247,
+        "changetype": "single",
+        "new_global_status": "major"
     },
     {
         "status": "good",
-        "new_global_status": "good",
-        "changetype": "multiple",
         "services": [
             "badges",
             "fedmsg"
         ],
         "message": "Everything seems to be working.",
-        "changedate": 1426540601.662045
+        "changedate": 1426540601.662045,
+        "changetype": "multiple",
+        "new_global_status": "good"
     },
     {
         "status": "scheduled",
-        "new_global_status": "scheduled",
-        "changetype": "multiple",
         "services": [
             "fedmsg",
             "badges"
         ],
         "message": "Datanommer database upgrade.",
-        "changedate": 1426536404.841793
+        "changedate": 1426536404.841793,
+        "changetype": "multiple",
+        "new_global_status": "scheduled"
     },
     {
         "status": "good",
-        "new_global_status": "good",
-        "changetype": "multiple",
         "services": [
             "wiki",
             "people",
@@ -5173,12 +5210,12 @@ callback([
             "fedocal"
         ],
         "message": "Everything seems to be working.",
-        "changedate": 1426121156.170411
+        "changedate": 1426121156.170411,
+        "changetype": "multiple",
+        "new_global_status": "good"
     },
     {
         "status": "scheduled",
-        "new_global_status": "scheduled",
-        "changetype": "multiple",
         "services": [
             "wiki",
             "people",
@@ -5209,50 +5246,50 @@ callback([
             "fedocal"
         ],
         "message": "Scheduled reboots in progress",
-        "changedate": 1426107607.895318
+        "changedate": 1426107607.895318,
+        "changetype": "multiple",
+        "new_global_status": "scheduled"
     },
     {
         "status": "good",
-        "new_global_status": "good",
-        "changetype": "multiple",
         "services": [
             "koji",
             "pkgs"
         ],
         "message": "Everything seems to be working.",
-        "changedate": 1424353103.347142
+        "changedate": 1424353103.347142,
+        "changetype": "multiple",
+        "new_global_status": "good"
     },
     {
         "status": "scheduled",
-        "new_global_status": "scheduled",
-        "changetype": "multiple",
         "services": [
             "pkgs",
             "koji"
         ],
         "message": "Gitolite migration in progress",
-        "changedate": 1424336373.662891
+        "changedate": 1424336373.662891,
+        "changetype": "multiple",
+        "new_global_status": "scheduled"
     },
     {
         "status": "good",
-        "new_global_status": "good",
         "service": "copr",
-        "changetype": "single",
         "message": "Everything seems to be working.",
-        "changedate": 1423529901.814181
+        "changedate": 1423529901.814181,
+        "changetype": "single",
+        "new_global_status": "good"
     },
     {
         "status": "major",
-        "new_global_status": "major",
         "service": "copr",
-        "changetype": "single",
         "message": "backend is down",
-        "changedate": 1423517412.329103
+        "changedate": 1423517412.329103,
+        "changetype": "single",
+        "new_global_status": "major"
     },
     {
         "status": "good",
-        "new_global_status": "good",
-        "changetype": "multiple",
         "services": [
             "wiki",
             "people",
@@ -5283,12 +5320,12 @@ callback([
             "fedocal"
         ],
         "message": "Everything seems to be working.",
-        "changedate": 1422408874.110653
+        "changedate": 1422408874.110653,
+        "changetype": "multiple",
+        "new_global_status": "good"
     },
     {
         "status": "major",
-        "new_global_status": "major",
-        "changetype": "multiple",
         "services": [
             "wiki",
             "people",
@@ -5319,60 +5356,60 @@ callback([
             "fedocal"
         ],
         "message": "rebooting servers",
-        "changedate": 1422401782.616078
+        "changedate": 1422401782.616078,
+        "changetype": "multiple",
+        "new_global_status": "major"
     },
     {
         "status": "good",
-        "new_global_status": "good",
         "service": "mirrorlist",
-        "changetype": "single",
         "message": "Everything seems to be working.",
-        "changedate": 1422386185.214612
+        "changedate": 1422386185.214612,
+        "changetype": "single",
+        "new_global_status": "good"
     },
     {
         "status": "major",
-        "new_global_status": "major",
         "service": "mirrorlist",
-        "changetype": "single",
         "message": "Mirrorlist servers down, being worked on",
-        "changedate": 1422385004.525724
+        "changedate": 1422385004.525724,
+        "changetype": "single",
+        "new_global_status": "major"
     },
     {
         "status": "good",
-        "new_global_status": "good",
         "service": "packages",
-        "changetype": "single",
         "message": "Everything seems to be working.",
-        "changedate": 1421879441.363022
+        "changedate": 1421879441.363022,
+        "changetype": "single",
+        "new_global_status": "good"
     },
     {
         "status": "scheduled",
-        "new_global_status": "scheduled",
         "service": "packages",
-        "changetype": "single",
         "message": "Rebuilding xapian database",
-        "changedate": 1421863664.590579
+        "changedate": 1421863664.590579,
+        "changetype": "single",
+        "new_global_status": "scheduled"
     },
     {
         "status": "good",
-        "new_global_status": "good",
         "service": "koji",
-        "changetype": "single",
         "message": "Everything seems to be working.",
-        "changedate": 1419285292.196991
+        "changedate": 1419285292.196991,
+        "changetype": "single",
+        "new_global_status": "good"
     },
     {
         "status": "scheduled",
-        "new_global_status": "scheduled",
         "service": "koji",
-        "changetype": "single",
         "message": "scheduled outage",
-        "changedate": 1419278582.374116
+        "changedate": 1419278582.374116,
+        "changetype": "single",
+        "new_global_status": "scheduled"
     },
     {
         "status": "good",
-        "new_global_status": "good",
-        "changetype": "multiple",
         "services": [
             "wiki",
             "people",
@@ -5403,12 +5440,12 @@ callback([
             "fedocal"
         ],
         "message": "Everything seems to be working.",
-        "changedate": 1418874070.355612
+        "changedate": 1418874070.355612,
+        "changetype": "multiple",
+        "new_global_status": "good"
     },
     {
         "status": "scheduled",
-        "new_global_status": "scheduled",
-        "changetype": "multiple",
         "services": [
             "wiki",
             "people",
@@ -5439,12 +5476,12 @@ callback([
             "fedocal"
         ],
         "message": "Scheduled outage",
-        "changedate": 1418853613.238823
+        "changedate": 1418853613.238823,
+        "changetype": "multiple",
+        "new_global_status": "scheduled"
     },
     {
         "status": "good",
-        "new_global_status": "good",
-        "changetype": "multiple",
         "services": [
             "wiki",
             "people",
@@ -5475,12 +5512,12 @@ callback([
             "fedocal"
         ],
         "message": "Everything seems to be working.",
-        "changedate": 1418773882.856139
+        "changedate": 1418773882.856139,
+        "changetype": "multiple",
+        "new_global_status": "good"
     },
     {
         "status": "scheduled",
-        "new_global_status": "scheduled",
-        "changetype": "multiple",
         "services": [
             "wiki",
             "people",
@@ -5511,12 +5548,12 @@ callback([
             "fedocal"
         ],
         "message": "Database migrations in progress",
-        "changedate": 1418769169.184463
+        "changedate": 1418769169.184463,
+        "changetype": "multiple",
+        "new_global_status": "scheduled"
     },
     {
         "status": "major",
-        "new_global_status": "major",
-        "changetype": "multiple",
         "services": [
             "wiki",
             "people",
@@ -5547,12 +5584,12 @@ callback([
             "fedocal"
         ],
         "message": "Database migrations in progress",
-        "changedate": 1418769108.205808
+        "changedate": 1418769108.205808,
+        "changetype": "multiple",
+        "new_global_status": "major"
     },
     {
         "status": "major",
-        "new_global_status": "major",
-        "changetype": "multiple",
         "services": [
             "wiki",
             "people",
@@ -5583,36 +5620,36 @@ callback([
             "fedocal"
         ],
         "message": "DAtabae migrations in progress",
-        "changedate": 1418769096.458666
+        "changedate": 1418769096.458666,
+        "changetype": "multiple",
+        "new_global_status": "major"
     },
     {
         "status": "scheduled",
-        "new_global_status": "scheduled",
         "service": "fas",
-        "changetype": "single",
         "message": "fas db migration in progress",
-        "changedate": 1418767256.468845
+        "changedate": 1418767256.468845,
+        "changetype": "single",
+        "new_global_status": "scheduled"
     },
     {
         "status": "good",
-        "new_global_status": "good",
         "service": "mailinglists",
-        "changetype": "single",
         "message": "Everything seems to be working.",
-        "changedate": 1418704155.873864
+        "changedate": 1418704155.873864,
+        "changetype": "single",
+        "new_global_status": "good"
     },
     {
         "status": "major",
-        "new_global_status": "major",
         "service": "mailinglists",
-        "changetype": "single",
         "message": "lists.fedorahosted.org down",
-        "changedate": 1418695775.878968
+        "changedate": 1418695775.878968,
+        "changetype": "single",
+        "new_global_status": "major"
     },
     {
         "status": "good",
-        "new_global_status": "good",
-        "changetype": "multiple",
         "services": [
             "wiki",
             "people",
@@ -5643,12 +5680,12 @@ callback([
             "fedocal"
         ],
         "message": "Everything seems to be working.",
-        "changedate": 1418695628.620295
+        "changedate": 1418695628.620295,
+        "changetype": "multiple",
+        "new_global_status": "good"
     },
     {
         "status": "scheduled",
-        "new_global_status": "scheduled",
-        "changetype": "multiple",
         "services": [
             "wiki",
             "people",
@@ -5679,44 +5716,44 @@ callback([
             "fedocal"
         ],
         "message": "Everything seems to be working.",
-        "changedate": 1418680779.655306
-    },
-    {
-        "status": "good",
-        "new_global_status": "good",
-        "service": "bodhi",
-        "changetype": "single",
-        "message": "Everything seems to be working.",
-        "changedate": 1418225564.351025
-    },
-    {
-        "status": "major",
-        "new_global_status": "major",
-        "service": "bodhi",
-        "changetype": "single",
-        "message": "dropping in and out of service",
-        "changedate": 1418205730.026393
-    },
-    {
-        "status": "good",
-        "new_global_status": "good",
-        "service": "bodhi",
-        "changetype": "single",
-        "message": "Everything seems to be working.",
-        "changedate": 1418174495.958753
-    },
-    {
-        "status": "major",
-        "new_global_status": "major",
-        "service": "bodhi",
-        "changetype": "single",
-        "message": "outage",
-        "changedate": 1418164919.170836
-    },
-    {
-        "status": "good",
-        "new_global_status": "good",
+        "changedate": 1418680779.655306,
         "changetype": "multiple",
+        "new_global_status": "scheduled"
+    },
+    {
+        "status": "good",
+        "service": "bodhi",
+        "message": "Everything seems to be working.",
+        "changedate": 1418225564.351025,
+        "changetype": "single",
+        "new_global_status": "good"
+    },
+    {
+        "status": "major",
+        "service": "bodhi",
+        "message": "dropping in and out of service",
+        "changedate": 1418205730.026393,
+        "changetype": "single",
+        "new_global_status": "major"
+    },
+    {
+        "status": "good",
+        "service": "bodhi",
+        "message": "Everything seems to be working.",
+        "changedate": 1418174495.958753,
+        "changetype": "single",
+        "new_global_status": "good"
+    },
+    {
+        "status": "major",
+        "service": "bodhi",
+        "message": "outage",
+        "changedate": 1418164919.170836,
+        "changetype": "single",
+        "new_global_status": "major"
+    },
+    {
+        "status": "good",
         "services": [
             "wiki",
             "people",
@@ -5746,12 +5783,12 @@ callback([
             "fedocal"
         ],
         "message": "Everything seems to be working.",
-        "changedate": 1418164856.071211
+        "changedate": 1418164856.071211,
+        "changetype": "multiple",
+        "new_global_status": "good"
     },
     {
         "status": "major",
-        "new_global_status": "major",
-        "changetype": "multiple",
         "services": [
             "wiki",
             "people",
@@ -5782,48 +5819,48 @@ callback([
             "fedocal"
         ],
         "message": "High traffic due to F21 release, try again later",
-        "changedate": 1418140895.502942
+        "changedate": 1418140895.502942,
+        "changetype": "multiple",
+        "new_global_status": "major"
     },
     {
         "status": "good",
-        "new_global_status": "good",
-        "changetype": "multiple",
         "services": [
             "wiki",
             "ask",
             "packages"
         ],
         "message": "Everything seems to be working.",
-        "changedate": 1416055906.782474
+        "changedate": 1416055906.782474,
+        "changetype": "multiple",
+        "new_global_status": "good"
     },
     {
         "status": "major",
-        "new_global_status": "major",
         "service": "wiki",
-        "changetype": "single",
         "message": "Issue with saving, an admin will investigate asap",
-        "changedate": 1416053048.01019
+        "changedate": 1416053048.01019,
+        "changetype": "single",
+        "new_global_status": "major"
     },
     {
         "status": "major",
-        "new_global_status": "major",
         "service": "packages",
-        "changetype": "single",
         "message": "Issue with backend server, an admin will investigate asap",
-        "changedate": 1416050654.892686
+        "changedate": 1416050654.892686,
+        "changetype": "single",
+        "new_global_status": "major"
     },
     {
         "status": "major",
-        "new_global_status": "major",
         "service": "ask",
-        "changetype": "single",
         "message": "Issue with backend server, an admin will investigate asap",
-        "changedate": 1416050608.591928
+        "changedate": 1416050608.591928,
+        "changetype": "single",
+        "new_global_status": "major"
     },
     {
         "status": "good",
-        "new_global_status": "good",
-        "changetype": "multiple",
         "services": [
             "wiki",
             "people",
@@ -5854,12 +5891,12 @@ callback([
             "fedocal"
         ],
         "message": "Everything seems to be working.",
-        "changedate": 1415395992.005421
+        "changedate": 1415395992.005421,
+        "changetype": "multiple",
+        "new_global_status": "good"
     },
     {
         "status": "minor",
-        "new_global_status": "minor",
-        "changetype": "multiple",
         "services": [
             "wiki",
             "people",
@@ -5890,28 +5927,28 @@ callback([
             "fedocal"
         ],
         "message": "NFS mounts behaving poorly.  Some services disrupted.",
-        "changedate": 1415393700.881776
+        "changedate": 1415393700.881776,
+        "changetype": "multiple",
+        "new_global_status": "minor"
     },
     {
         "status": "good",
-        "new_global_status": "good",
         "service": "packages",
-        "changetype": "single",
         "message": "Everything seems to be working.",
-        "changedate": 1415308555.341
+        "changedate": 1415308555.341,
+        "changetype": "single",
+        "new_global_status": "good"
     },
     {
         "status": "major",
-        "new_global_status": "major",
         "service": "packages",
-        "changetype": "single",
         "message": "Down while rebuilding the xapian DB.",
-        "changedate": 1415293069.963006
+        "changedate": 1415293069.963006,
+        "changetype": "single",
+        "new_global_status": "major"
     },
     {
         "status": "good",
-        "new_global_status": "good",
-        "changetype": "multiple",
         "services": [
             "wiki",
             "people",
@@ -5942,12 +5979,12 @@ callback([
             "fedocal"
         ],
         "message": "Everything seems to be working.",
-        "changedate": 1415285690.248218
+        "changedate": 1415285690.248218,
+        "changetype": "multiple",
+        "new_global_status": "good"
     },
     {
         "status": "minor",
-        "new_global_status": "minor",
-        "changetype": "multiple",
         "services": [
             "wiki",
             "people",
@@ -5978,12 +6015,12 @@ callback([
             "fedocal"
         ],
         "message": "Email queue catching up slowly",
-        "changedate": 1415283740.660825
+        "changedate": 1415283740.660825,
+        "changetype": "multiple",
+        "new_global_status": "minor"
     },
     {
         "status": "major",
-        "new_global_status": "major",
-        "changetype": "multiple",
         "services": [
             "wiki",
             "people",
@@ -6013,20 +6050,20 @@ callback([
             "fedocal"
         ],
         "message": "Mails not being sent",
-        "changedate": 1415280777.37707
+        "changedate": 1415280777.37707,
+        "changetype": "multiple",
+        "new_global_status": "major"
     },
     {
         "status": "major",
-        "new_global_status": "major",
         "service": "mailinglists",
-        "changetype": "single",
         "message": "Mails not being sent",
-        "changedate": 1415280692.131897
+        "changedate": 1415280692.131897,
+        "changetype": "single",
+        "new_global_status": "major"
     },
     {
         "status": "good",
-        "new_global_status": "good",
-        "changetype": "multiple",
         "services": [
             "wiki",
             "people",
@@ -6048,12 +6085,12 @@ callback([
             "fedocal"
         ],
         "message": "Everything seems to be working.",
-        "changedate": 1415236722.925676
+        "changedate": 1415236722.925676,
+        "changetype": "multiple",
+        "new_global_status": "good"
     },
     {
         "status": "scheduled",
-        "new_global_status": "scheduled",
-        "changetype": "multiple",
         "services": [
             "ask",
             "badges",
@@ -6074,52 +6111,52 @@ callback([
             "wiki"
         ],
         "message": "Scheduled reboots in progress",
-        "changedate": 1415224678.161075
-    },
-    {
-        "status": "good",
-        "new_global_status": "good",
-        "service": "copr",
-        "changetype": "single",
-        "message": "Everything seems to be working.",
-        "changedate": 1412732400.306581
-    },
-    {
-        "status": "minor",
-        "new_global_status": "minor",
-        "service": "copr",
-        "changetype": "single",
-        "message": "Backend down for hardware maintenance, builds will continue when back",
-        "changedate": 1412688906.084514
-    },
-    {
-        "status": "good",
-        "new_global_status": "good",
-        "service": "copr",
-        "changetype": "single",
-        "message": "Everything seems to be working.",
-        "changedate": 1412366720.296255
-    },
-    {
-        "status": "minor",
-        "new_global_status": "minor",
-        "service": "copr",
-        "changetype": "single",
-        "message": "Cloud has limited capacity, COPR might be slow with getting new builds ran.",
-        "changedate": 1412350234.30302
-    },
-    {
-        "status": "minor",
-        "new_global_status": "minor",
-        "service": "copr",
-        "changetype": "single",
-        "message": "COPR Backend down temporarily, no builds executed. Will be ran when backend gets back.",
-        "changedate": 1412347212.189102
-    },
-    {
-        "status": "good",
-        "new_global_status": "good",
+        "changedate": 1415224678.161075,
         "changetype": "multiple",
+        "new_global_status": "scheduled"
+    },
+    {
+        "status": "good",
+        "service": "copr",
+        "message": "Everything seems to be working.",
+        "changedate": 1412732400.306581,
+        "changetype": "single",
+        "new_global_status": "good"
+    },
+    {
+        "status": "minor",
+        "service": "copr",
+        "message": "Backend down for hardware maintenance, builds will continue when back",
+        "changedate": 1412688906.084514,
+        "changetype": "single",
+        "new_global_status": "minor"
+    },
+    {
+        "status": "good",
+        "service": "copr",
+        "message": "Everything seems to be working.",
+        "changedate": 1412366720.296255,
+        "changetype": "single",
+        "new_global_status": "good"
+    },
+    {
+        "status": "minor",
+        "service": "copr",
+        "message": "Cloud has limited capacity, COPR might be slow with getting new builds ran.",
+        "changedate": 1412350234.30302,
+        "changetype": "single",
+        "new_global_status": "minor"
+    },
+    {
+        "status": "minor",
+        "service": "copr",
+        "message": "COPR Backend down temporarily, no builds executed. Will be ran when backend gets back.",
+        "changedate": 1412347212.189102,
+        "changetype": "single",
+        "new_global_status": "minor"
+    },
+    {
+        "status": "good",
         "services": [
             "koji",
             "darkserver",
@@ -6127,12 +6164,12 @@ callback([
             "bodhi"
         ],
         "message": "Everything seems to be working.",
-        "changedate": 1412207312.582836
+        "changedate": 1412207312.582836,
+        "changetype": "multiple",
+        "new_global_status": "good"
     },
     {
         "status": "minor",
-        "new_global_status": "minor",
-        "changetype": "multiple",
         "services": [
             "bodhi",
             "koji",
@@ -6140,12 +6177,12 @@ callback([
             "darkserver"
         ],
         "message": "Scheduled downtime in progress",
-        "changedate": 1412197113.795611
+        "changedate": 1412197113.795611,
+        "changetype": "multiple",
+        "new_global_status": "minor"
     },
     {
         "status": "good",
-        "new_global_status": "good",
-        "changetype": "multiple",
         "services": [
             "wiki",
             "people",
@@ -6175,12 +6212,12 @@ callback([
             "fedocal"
         ],
         "message": "Everything seems to be working.",
-        "changedate": 1412119839.716022
+        "changedate": 1412119839.716022,
+        "changetype": "multiple",
+        "new_global_status": "good"
     },
     {
         "status": "scheduled",
-        "new_global_status": "scheduled",
-        "changetype": "multiple",
         "services": [
             "wiki",
             "people",
@@ -6210,90 +6247,90 @@ callback([
             "fedocal"
         ],
         "message": "scheduled outage in progress",
-        "changedate": 1412110846.258976
+        "changedate": 1412110846.258976,
+        "changetype": "multiple",
+        "new_global_status": "scheduled"
     },
     {
         "status": "good",
-        "new_global_status": "good",
-        "changetype": "multiple",
         "services": [
             "badges",
             "fedmsg"
         ],
         "message": "Everything seems to be working.",
-        "changedate": 1411753279.722945
+        "changedate": 1411753279.722945,
+        "changetype": "multiple",
+        "new_global_status": "good"
     },
     {
         "status": "scheduled",
-        "new_global_status": "scheduled",
-        "changetype": "multiple",
         "services": [
             "fedmsg",
             "badges"
         ],
         "message": "Migrating the datanommer database to a new host.",
-        "changedate": 1411744165.552994
-    },
-    {
-        "status": "good",
-        "new_global_status": "good",
-        "service": "copr",
-        "changetype": "single",
-        "message": "Everything seems to be working.",
-        "changedate": 1411661561.7141
-    },
-    {
-        "status": "major",
-        "new_global_status": "major",
-        "service": "copr",
-        "changetype": "single",
-        "message": "outage",
-        "changedate": 1411659784.066886
-    },
-    {
-        "status": "good",
-        "new_global_status": "good",
-        "service": "fedorahosted",
-        "changetype": "single",
-        "message": "Everything seems to be working.",
-        "changedate": 1410362399.376365
-    },
-    {
-        "status": "minor",
-        "new_global_status": "minor",
-        "service": "fedorahosted",
-        "changetype": "single",
-        "message": "Fedora hosted is having some problems with apache",
-        "changedate": 1410343584.974021
-    },
-    {
-        "status": "minor",
-        "new_global_status": "minor",
-        "service": "fedorahosted",
-        "changetype": "single",
-        "message": "Fedora hosted is having some problem with apache",
-        "changedate": 1410343532.698618
-    },
-    {
-        "status": "good",
-        "new_global_status": "good",
-        "service": "copr",
-        "changetype": "single",
-        "message": "Everything seems to be working.",
-        "changedate": 1409281931.274856
-    },
-    {
-        "status": "major",
-        "new_global_status": "major",
-        "service": "copr",
-        "changetype": "single",
-        "message": "outage",
-        "changedate": 1409276913.797239
-    },
-    {
-        "status": "good",
-        "new_global_status": "good",
+        "changedate": 1411744165.552994,
         "changetype": "multiple",
+        "new_global_status": "scheduled"
+    },
+    {
+        "status": "good",
+        "service": "copr",
+        "message": "Everything seems to be working.",
+        "changedate": 1411661561.7141,
+        "changetype": "single",
+        "new_global_status": "good"
+    },
+    {
+        "status": "major",
+        "service": "copr",
+        "message": "outage",
+        "changedate": 1411659784.066886,
+        "changetype": "single",
+        "new_global_status": "major"
+    },
+    {
+        "status": "good",
+        "service": "fedorahosted",
+        "message": "Everything seems to be working.",
+        "changedate": 1410362399.376365,
+        "changetype": "single",
+        "new_global_status": "good"
+    },
+    {
+        "status": "minor",
+        "service": "fedorahosted",
+        "message": "Fedora hosted is having some problems with apache",
+        "changedate": 1410343584.974021,
+        "changetype": "single",
+        "new_global_status": "minor"
+    },
+    {
+        "status": "minor",
+        "service": "fedorahosted",
+        "message": "Fedora hosted is having some problem with apache",
+        "changedate": 1410343532.698618,
+        "changetype": "single",
+        "new_global_status": "minor"
+    },
+    {
+        "status": "good",
+        "service": "copr",
+        "message": "Everything seems to be working.",
+        "changedate": 1409281931.274856,
+        "changetype": "single",
+        "new_global_status": "good"
+    },
+    {
+        "status": "major",
+        "service": "copr",
+        "message": "outage",
+        "changedate": 1409276913.797239,
+        "changetype": "single",
+        "new_global_status": "major"
+    },
+    {
+        "status": "good",
         "services": [
             "wiki",
             "people",
@@ -6323,12 +6360,12 @@ callback([
             "fedocal"
         ],
         "message": "Everything seems to be working.",
-        "changedate": 1406250587.369206
+        "changedate": 1406250587.369206,
+        "changetype": "multiple",
+        "new_global_status": "good"
     },
     {
         "status": "scheduled",
-        "new_global_status": "scheduled",
-        "changetype": "multiple",
         "services": [
             "wiki",
             "people",
@@ -6358,50 +6395,50 @@ callback([
             "fedocal"
         ],
         "message": "We are having a planned outage. Please see <a href='https://fedorahosted.org/fedora-infrastructure/ticket/4453'>#4453</a> for more details.",
-        "changedate": 1406225503.417472
+        "changedate": 1406225503.417472,
+        "changetype": "multiple",
+        "new_global_status": "scheduled"
     },
     {
         "status": "good",
-        "new_global_status": "good",
         "service": "koji",
-        "changetype": "single",
         "message": "Everything seems to be working.",
-        "changedate": 1406073156.595696
+        "changedate": 1406073156.595696,
+        "changetype": "single",
+        "new_global_status": "good"
     },
     {
         "status": "major",
-        "new_global_status": "major",
         "service": "koji",
-        "changetype": "single",
         "message": "koji down",
-        "changedate": 1406072961.331648
+        "changedate": 1406072961.331648,
+        "changetype": "single",
+        "new_global_status": "major"
     },
     {
         "status": "good",
-        "new_global_status": "good",
-        "changetype": "multiple",
         "services": [
             "ask",
             "packages"
         ],
         "message": "Everything seems to be working.",
-        "changedate": 1405900786.103152
+        "changedate": 1405900786.103152,
+        "changetype": "multiple",
+        "new_global_status": "good"
     },
     {
         "status": "major",
-        "new_global_status": "major",
-        "changetype": "multiple",
         "services": [
             "ask",
             "packages"
         ],
         "message": "We are investigating an outage affecting ask.fp.o and apps.fp.o/packages",
-        "changedate": 1405899942.119707
+        "changedate": 1405899942.119707,
+        "changetype": "multiple",
+        "new_global_status": "major"
     },
     {
         "status": "good",
-        "new_global_status": "good",
-        "changetype": "multiple",
         "services": [
             "wiki",
             "people",
@@ -6431,12 +6468,12 @@ callback([
             "fedocal"
         ],
         "message": "Everything seems to be working.",
-        "changedate": 1405680993.18177
+        "changedate": 1405680993.18177,
+        "changetype": "multiple",
+        "new_global_status": "good"
     },
     {
         "status": "major",
-        "new_global_status": "major",
-        "changetype": "multiple",
         "services": [
             "wiki",
             "people",
@@ -6466,90 +6503,90 @@ callback([
             "fedocal"
         ],
         "message": "koji",
-        "changedate": 1405680584.327917
+        "changedate": 1405680584.327917,
+        "changetype": "multiple",
+        "new_global_status": "major"
     },
     {
         "status": "good",
-        "new_global_status": "good",
         "service": "fedmsg",
-        "changetype": "single",
         "message": "Everything seems to be working.",
-        "changedate": 1405622270.751615
+        "changedate": 1405622270.751615,
+        "changetype": "single",
+        "new_global_status": "good"
     },
     {
         "status": "minor",
-        "new_global_status": "minor",
         "service": "fedmsg",
-        "changetype": "single",
         "message": "outbound raw zmq messages down to vpn issues",
-        "changedate": 1405612847.971252
+        "changedate": 1405612847.971252,
+        "changetype": "single",
+        "new_global_status": "minor"
     },
     {
         "status": "minor",
-        "new_global_status": "minor",
         "service": "fedmsg",
-        "changetype": "single",
         "message": "datanommer and cloud connectivity down for migrations",
-        "changedate": 1405609588.844599
+        "changedate": 1405609588.844599,
+        "changetype": "single",
+        "new_global_status": "minor"
     },
     {
         "status": "good",
-        "new_global_status": "good",
         "service": "copr",
-        "changetype": "single",
         "message": "Everything seems to be working.",
-        "changedate": 1403275962.626396
+        "changedate": 1403275962.626396,
+        "changetype": "single",
+        "new_global_status": "good"
     },
     {
         "status": "scheduled",
-        "new_global_status": "scheduled",
         "service": "copr",
-        "changetype": "single",
         "message": "Upgrading underlying OS from Fedora 19 to Fedora 20.",
-        "changedate": 1403272272.974649
+        "changedate": 1403272272.974649,
+        "changetype": "single",
+        "new_global_status": "scheduled"
     },
     {
         "status": "good",
-        "new_global_status": "good",
-        "changetype": "multiple",
         "services": [
             "zodbot",
             "fedmsg"
         ],
         "message": "Everything seems to be working.",
-        "changedate": 1402429805.164734
+        "changedate": 1402429805.164734,
+        "changetype": "multiple",
+        "new_global_status": "good"
     },
     {
         "status": "minor",
-        "new_global_status": "minor",
-        "changetype": "multiple",
         "services": [
             "zodbot",
             "fedmsg"
         ],
         "message": "Migrating zodbot and fedmsg-irc to a new host",
-        "changedate": 1402420809.712485
+        "changedate": 1402420809.712485,
+        "changetype": "multiple",
+        "new_global_status": "minor"
     },
     {
         "status": "good",
-        "new_global_status": "good",
         "service": "copr",
-        "changetype": "single",
         "message": "Everything seems to be working.",
-        "changedate": 1401978676.59412
+        "changedate": 1401978676.59412,
+        "changetype": "single",
+        "new_global_status": "good"
     },
     {
         "status": "major",
-        "new_global_status": "major",
         "service": "copr",
-        "changetype": "single",
         "message": "Fedora Cloud issues, which prohibit creation of builders",
-        "changedate": 1401968012.587891
+        "changedate": 1401968012.587891,
+        "changetype": "single",
+        "new_global_status": "major"
     },
     {
         "status": "good",
-        "new_global_status": "good",
-        "changetype": "multiple",
         "services": [
             "wiki",
             "people",
@@ -6578,12 +6615,12 @@ callback([
             "fedocal"
         ],
         "message": "Everything seems to be working.",
-        "changedate": 1400625512.537313
+        "changedate": 1400625512.537313,
+        "changetype": "multiple",
+        "new_global_status": "good"
     },
     {
         "status": "scheduled",
-        "new_global_status": "scheduled",
-        "changetype": "multiple",
         "services": [
             "wiki",
             "people",
@@ -6612,83 +6649,83 @@ callback([
             "fedocal"
         ],
         "message": "planned outage",
-        "changedate": 1400619557.709283
+        "changedate": 1400619557.709283,
+        "changetype": "multiple",
+        "new_global_status": "scheduled"
     },
     {
         "status": "good",
-        "new_global_status": "good",
-        "changetype": "multiple",
         "services": [
             "pkgdb",
             "pkgs",
             "bodhi"
         ],
         "message": "Everything seems to be working.",
-        "changedate": 1400090086.503968
-    },
-    {
-        "status": "minor",
-        "new_global_status": "minor",
-        "service": "bodhi",
-        "changetype": "single",
-        "message": "Upgrade to pkgdb2",
-        "changedate": 1400074796.222449
-    },
-    {
-        "status": "minor",
-        "new_global_status": "minor",
+        "changedate": 1400090086.503968,
         "changetype": "multiple",
+        "new_global_status": "good"
+    },
+    {
+        "status": "minor",
+        "service": "bodhi",
+        "message": "Upgrade to pkgdb2",
+        "changedate": 1400074796.222449,
+        "changetype": "single",
+        "new_global_status": "minor"
+    },
+    {
+        "status": "minor",
         "services": [
             "pkgdb",
             "pkgs"
         ],
         "message": "Upgrade to pkgdb2",
-        "changedate": 1400068731.066788
+        "changedate": 1400068731.066788,
+        "changetype": "multiple",
+        "new_global_status": "minor"
     },
     {
         "status": "good",
-        "new_global_status": "good",
-        "changetype": "multiple",
         "services": [
             "wiki",
             "koji",
             "pkgs"
         ],
         "message": "Everything seems to be working.",
-        "changedate": 1398814928.368213
+        "changedate": 1398814928.368213,
+        "changetype": "multiple",
+        "new_global_status": "good"
     },
     {
         "status": "minor",
-        "new_global_status": "minor",
-        "changetype": "multiple",
         "services": [
             "wiki",
             "koji",
             "pkgs"
         ],
         "message": "Possibly affected by storage migration",
-        "changedate": 1398812966.337448
+        "changedate": 1398812966.337448,
+        "changetype": "multiple",
+        "new_global_status": "minor"
     },
     {
         "status": "good",
-        "new_global_status": "good",
         "service": "pkgs",
-        "changetype": "single",
         "message": "Everything seems to be working.",
-        "changedate": 1397236430.455172
+        "changedate": 1397236430.455172,
+        "changetype": "single",
+        "new_global_status": "good"
     },
     {
         "status": "major",
-        "new_global_status": "major",
         "service": "pkgs",
-        "changetype": "single",
         "message": "virthost issue",
-        "changedate": 1397234647.711557
+        "changedate": 1397234647.711557,
+        "changetype": "single",
+        "new_global_status": "major"
     },
     {
         "status": "good",
-        "new_global_status": "good",
-        "changetype": "multiple",
         "services": [
             "wiki",
             "people",
@@ -6717,12 +6754,12 @@ callback([
             "fedocal"
         ],
         "message": "Everything seems to be working.",
-        "changedate": 1396396681.578426
+        "changedate": 1396396681.578426,
+        "changetype": "multiple",
+        "new_global_status": "good"
     },
     {
         "status": "scheduled",
-        "new_global_status": "scheduled",
-        "changetype": "multiple",
         "services": [
             "wiki",
             "people",
@@ -6751,28 +6788,28 @@ callback([
             "fedocal"
         ],
         "message": "planned outage",
-        "changedate": 1396385783.459966
+        "changedate": 1396385783.459966,
+        "changetype": "multiple",
+        "new_global_status": "scheduled"
     },
     {
         "status": "good",
-        "new_global_status": "good",
         "service": "bodhi",
-        "changetype": "single",
         "message": "Everything seems to be working.",
-        "changedate": 1396313426.535043
+        "changedate": 1396313426.535043,
+        "changetype": "single",
+        "new_global_status": "good"
     },
     {
         "status": "major",
-        "new_global_status": "major",
         "service": "bodhi",
-        "changetype": "single",
         "message": "Unplanned outage, we are looking into it",
-        "changedate": 1396311851.685163
+        "changedate": 1396311851.685163,
+        "changetype": "single",
+        "new_global_status": "major"
     },
     {
         "status": "good",
-        "new_global_status": "good",
-        "changetype": "multiple",
         "services": [
             "wiki",
             "people",
@@ -6801,12 +6838,12 @@ callback([
             "fedocal"
         ],
         "message": "Everything seems to be working.",
-        "changedate": 1394668446.656394
+        "changedate": 1394668446.656394,
+        "changetype": "multiple",
+        "new_global_status": "good"
     },
     {
         "status": "major",
-        "new_global_status": "major",
-        "changetype": "multiple",
         "services": [
             "wiki",
             "people",
@@ -6835,60 +6872,60 @@ callback([
             "fedocal"
         ],
         "message": "network issues",
-        "changedate": 1394667545.644755
+        "changedate": 1394667545.644755,
+        "changetype": "multiple",
+        "new_global_status": "major"
     },
     {
         "status": "good",
-        "new_global_status": "good",
         "service": "mirrorlist",
-        "changetype": "single",
         "message": "Everything seems to be working.",
-        "changedate": 1393104866.593235
+        "changedate": 1393104866.593235,
+        "changetype": "single",
+        "new_global_status": "good"
     },
     {
         "status": "major",
-        "new_global_status": "major",
         "service": "mirrorlist",
-        "changetype": "single",
         "message": "We are looking into issues accessing mirrorlist.",
-        "changedate": 1393103545.540423
+        "changedate": 1393103545.540423,
+        "changetype": "single",
+        "new_global_status": "major"
     },
     {
         "status": "good",
-        "new_global_status": "good",
         "service": "people",
-        "changetype": "single",
         "message": "Everything seems to be working.",
-        "changedate": 1390342857.578992
+        "changedate": 1390342857.578992,
+        "changetype": "single",
+        "new_global_status": "good"
     },
     {
         "status": "scheduled",
-        "new_global_status": "scheduled",
         "service": "people",
-        "changetype": "single",
         "message": "planned outage",
-        "changedate": 1390341745.578545
+        "changedate": 1390341745.578545,
+        "changetype": "single",
+        "new_global_status": "scheduled"
     },
     {
         "status": "good",
-        "new_global_status": "good",
         "service": "ask",
-        "changetype": "single",
         "message": "Everything seems to be working.",
-        "changedate": 1390261930.754654
+        "changedate": 1390261930.754654,
+        "changetype": "single",
+        "new_global_status": "good"
     },
     {
         "status": "scheduled",
-        "new_global_status": "scheduled",
         "service": "ask",
-        "changetype": "single",
         "message": "planned outage",
-        "changedate": 1390255223.951158
+        "changedate": 1390255223.951158,
+        "changetype": "single",
+        "new_global_status": "scheduled"
     },
     {
         "status": "good",
-        "new_global_status": "good",
-        "changetype": "multiple",
         "services": [
             "wiki",
             "people",
@@ -6917,12 +6954,12 @@ callback([
             "fedocal"
         ],
         "message": "Everything seems to be working.",
-        "changedate": 1387413703.263191
+        "changedate": 1387413703.263191,
+        "changetype": "multiple",
+        "new_global_status": "good"
     },
     {
         "status": "major",
-        "new_global_status": "major",
-        "changetype": "multiple",
         "services": [
             "wiki",
             "people",
@@ -6951,12 +6988,12 @@ callback([
             "fedocal"
         ],
         "message": "ftp storage outage",
-        "changedate": 1387412277.659663
+        "changedate": 1387412277.659663,
+        "changetype": "multiple",
+        "new_global_status": "major"
     },
     {
         "status": "good",
-        "new_global_status": "good",
-        "changetype": "multiple",
         "services": [
             "wiki",
             "people",
@@ -6985,12 +7022,12 @@ callback([
             "fedocal"
         ],
         "message": "Everything seems to be working.",
-        "changedate": 1385427530.650006
+        "changedate": 1385427530.650006,
+        "changetype": "multiple",
+        "new_global_status": "good"
     },
     {
         "status": "scheduled",
-        "new_global_status": "scheduled",
-        "changetype": "multiple",
         "services": [
             "wiki",
             "people",
@@ -7019,28 +7056,28 @@ callback([
             "fedocal"
         ],
         "message": "planned outage in effect",
-        "changedate": 1385416870.724646
+        "changedate": 1385416870.724646,
+        "changetype": "multiple",
+        "new_global_status": "scheduled"
     },
     {
         "status": "good",
-        "new_global_status": "good",
         "service": "mirrorlist",
-        "changetype": "single",
         "message": "Everything seems to be working.",
-        "changedate": 1385162224.494129
+        "changedate": 1385162224.494129,
+        "changetype": "single",
+        "new_global_status": "good"
     },
     {
         "status": "major",
-        "new_global_status": "major",
         "service": "mirrorlist",
-        "changetype": "single",
         "message": "18 and 19 repos issue",
-        "changedate": 1385151359.348678
+        "changedate": 1385151359.348678,
+        "changetype": "single",
+        "new_global_status": "major"
     },
     {
         "status": "good",
-        "new_global_status": "good",
-        "changetype": "multiple",
         "services": [
             "wiki",
             "people",
@@ -7069,12 +7106,12 @@ callback([
             "fedocal"
         ],
         "message": "Everything seems to be working.",
-        "changedate": 1384998841.072156
+        "changedate": 1384998841.072156,
+        "changetype": "multiple",
+        "new_global_status": "good"
     },
     {
         "status": "scheduled",
-        "new_global_status": "scheduled",
-        "changetype": "multiple",
         "services": [
             "wiki",
             "people",
@@ -7103,44 +7140,44 @@ callback([
             "fedocal"
         ],
         "message": "planned outage in effect",
-        "changedate": 1384984897.510414
-    },
-    {
-        "status": "good",
-        "new_global_status": "good",
-        "service": "fedorahosted",
-        "changetype": "single",
-        "message": "Everything seems to be working.",
-        "changedate": 1384178532.870741
-    },
-    {
-        "status": "major",
-        "new_global_status": "major",
-        "service": "fedorahosted",
-        "changetype": "single",
-        "message": "Mailing list server is down, we are looking into it",
-        "changedate": 1384177210.949037
-    },
-    {
-        "status": "good",
-        "new_global_status": "good",
-        "service": "mirrormanager",
-        "changetype": "single",
-        "message": "Everything seems to be working.",
-        "changedate": 1382590311.484153
-    },
-    {
-        "status": "major",
-        "new_global_status": "major",
-        "service": "mirrormanager",
-        "changetype": "single",
-        "message": "master mirrors down",
-        "changedate": 1382586984.027698
-    },
-    {
-        "status": "good",
-        "new_global_status": "good",
+        "changedate": 1384984897.510414,
         "changetype": "multiple",
+        "new_global_status": "scheduled"
+    },
+    {
+        "status": "good",
+        "service": "fedorahosted",
+        "message": "Everything seems to be working.",
+        "changedate": 1384178532.870741,
+        "changetype": "single",
+        "new_global_status": "good"
+    },
+    {
+        "status": "major",
+        "service": "fedorahosted",
+        "message": "Mailing list server is down, we are looking into it",
+        "changedate": 1384177210.949037,
+        "changetype": "single",
+        "new_global_status": "major"
+    },
+    {
+        "status": "good",
+        "service": "mirrormanager",
+        "message": "Everything seems to be working.",
+        "changedate": 1382590311.484153,
+        "changetype": "single",
+        "new_global_status": "good"
+    },
+    {
+        "status": "major",
+        "service": "mirrormanager",
+        "message": "master mirrors down",
+        "changedate": 1382586984.027698,
+        "changetype": "single",
+        "new_global_status": "major"
+    },
+    {
+        "status": "good",
         "services": [
             "wiki",
             "people",
@@ -7169,12 +7206,12 @@ callback([
             "fedocal"
         ],
         "message": "Everything seems to be working.",
-        "changedate": 1380758584.787564
+        "changedate": 1380758584.787564,
+        "changetype": "multiple",
+        "new_global_status": "good"
     },
     {
         "status": "scheduled",
-        "new_global_status": "scheduled",
-        "changetype": "multiple",
         "services": [
             "wiki",
             "people",
@@ -7203,12 +7240,12 @@ callback([
             "fedocal"
         ],
         "message": "http://tinyurl.com/nb9e6vq",
-        "changedate": 1380747644.862847
+        "changedate": 1380747644.862847,
+        "changetype": "multiple",
+        "new_global_status": "scheduled"
     },
     {
         "status": "good",
-        "new_global_status": "good",
-        "changetype": "multiple",
         "services": [
             "koji",
             "darkserver",
@@ -7216,12 +7253,12 @@ callback([
             "bodhi"
         ],
         "message": "Everything seems to be working.",
-        "changedate": 1380667055.831804
+        "changedate": 1380667055.831804,
+        "changetype": "multiple",
+        "new_global_status": "good"
     },
     {
         "status": "scheduled",
-        "new_global_status": "scheduled",
-        "changetype": "multiple",
         "services": [
             "bodhi",
             "koji",
@@ -7229,28 +7266,28 @@ callback([
             "darkserver"
         ],
         "message": "Scheduled maintenance in progress: https://fedorahosted.org/fedora-infrastructure/ticket/4029",
-        "changedate": 1380659433.517993
+        "changedate": 1380659433.517993,
+        "changetype": "multiple",
+        "new_global_status": "scheduled"
     },
     {
         "status": "good",
-        "new_global_status": "good",
         "service": "fedorahosted",
-        "changetype": "single",
         "message": "Everything seems to be working.",
-        "changedate": 1380116399.881315
+        "changedate": 1380116399.881315,
+        "changetype": "single",
+        "new_global_status": "good"
     },
     {
         "status": "major",
-        "new_global_status": "major",
         "service": "fedorahosted",
-        "changetype": "single",
         "message": "Hosted is not responding currently, we are looking into it",
-        "changedate": 1380115607.117286
+        "changedate": 1380115607.117286,
+        "changetype": "single",
+        "new_global_status": "major"
     },
     {
         "status": "good",
-        "new_global_status": "good",
-        "changetype": "multiple",
         "services": [
             "wiki",
             "people",
@@ -7278,12 +7315,12 @@ callback([
             "fedocal"
         ],
         "message": "Everything seems to be working.",
-        "changedate": 1375235081.138576
+        "changedate": 1375235081.138576,
+        "changetype": "multiple",
+        "new_global_status": "good"
     },
     {
         "status": "scheduled",
-        "new_global_status": "scheduled",
-        "changetype": "multiple",
         "services": [
             "wiki",
             "people",
@@ -7311,100 +7348,100 @@ callback([
             "fedocal"
         ],
         "message": "datacenter work",
-        "changedate": 1375217840.056848
+        "changedate": 1375217840.056848,
+        "changetype": "multiple",
+        "new_global_status": "scheduled"
     },
     {
         "status": "good",
-        "new_global_status": "good",
         "service": "koji",
-        "changetype": "single",
         "message": "Everything seems to be working.",
-        "changedate": 1374265905.057178
+        "changedate": 1374265905.057178,
+        "changetype": "single",
+        "new_global_status": "good"
     },
     {
         "status": "scheduled",
-        "new_global_status": "scheduled",
         "service": "koji",
-        "changetype": "single",
         "message": "storage migration",
-        "changedate": 1374181249.969005
+        "changedate": 1374181249.969005,
+        "changetype": "single",
+        "new_global_status": "scheduled"
     },
     {
         "status": "good",
-        "new_global_status": "good",
         "service": "mirrorlist",
-        "changetype": "single",
         "message": "Everything seems to be working.",
-        "changedate": 1371435099.110773
+        "changedate": 1371435099.110773,
+        "changetype": "single",
+        "new_global_status": "good"
     },
     {
         "status": "major",
-        "new_global_status": "major",
         "service": "mirrorlist",
-        "changetype": "single",
         "message": "Mirrormanager data is stale, should be fixed around 02:00 UTC",
-        "changedate": 1371430039.936669
+        "changedate": 1371430039.936669,
+        "changetype": "single",
+        "new_global_status": "major"
     },
     {
         "status": "major",
-        "new_global_status": "major",
         "service": "mirrorlist",
-        "changetype": "single",
         "message": "Mirrorlist information outdated",
-        "changedate": 1371397079.775827
+        "changedate": 1371397079.775827,
+        "changetype": "single",
+        "new_global_status": "major"
     },
     {
         "status": "major",
-        "new_global_status": "major",
         "service": "mirrorlist",
-        "changetype": "single",
         "message": "Mirrorlist information outdated. Should be fixed around 14:30 UTC.",
-        "changedate": 1371390563.448993
+        "changedate": 1371390563.448993,
+        "changetype": "single",
+        "new_global_status": "major"
     },
     {
         "status": "major",
-        "new_global_status": "major",
         "service": "mirrorlist",
-        "changetype": "single",
         "message": "Issues exist with mirrorlist making it return invalid/stale data",
-        "changedate": 1371379939.273047
+        "changedate": 1371379939.273047,
+        "changetype": "single",
+        "new_global_status": "major"
     },
     {
         "status": "good",
-        "new_global_status": "good",
         "service": "mirrorlist",
-        "changetype": "single",
         "message": "Everything seems to be working.",
-        "changedate": 1371281869.404385
+        "changedate": 1371281869.404385,
+        "changetype": "single",
+        "new_global_status": "good"
     },
     {
         "status": "minor",
-        "new_global_status": "minor",
         "service": "mirrorlist",
-        "changetype": "single",
         "message": "rawhide/x86_64 down",
-        "changedate": 1371280563.435639
+        "changedate": 1371280563.435639,
+        "changetype": "single",
+        "new_global_status": "minor"
     },
     {
         "status": "good",
-        "new_global_status": "good",
         "service": "people",
-        "changetype": "single",
         "message": "Everything seems to be working.",
-        "changedate": 1370941677.00138
+        "changedate": 1370941677.00138,
+        "changetype": "single",
+        "new_global_status": "good"
     },
     {
         "status": "minor",
-        "new_global_status": "minor",
         "service": "people",
-        "changetype": "single",
         "message": "Requesting the root index for a user returns 403: https://fedorahosted.org/fedora-infrastructure/ticket/3842",
-        "changedate": 1370938259.13067
+        "changedate": 1370938259.13067,
+        "changetype": "single",
+        "new_global_status": "minor"
     },
     {
         "status": "good",
-        "new_global_status": "good",
-        "changetype": "multiple",
         "services": [
             "wiki",
             "people",
@@ -7432,12 +7469,12 @@ callback([
             "fedocal"
         ],
         "message": "Everything seems to be working.",
-        "changedate": 1370910323.46638
+        "changedate": 1370910323.46638,
+        "changetype": "multiple",
+        "new_global_status": "good"
     },
     {
         "status": "scheduled",
-        "new_global_status": "scheduled",
-        "changetype": "multiple",
         "services": [
             "wiki",
             "people",
@@ -7465,28 +7502,28 @@ callback([
             "fedocal"
         ],
         "message": "Upgrades in progress",
-        "changedate": 1370897754.56487
+        "changedate": 1370897754.56487,
+        "changetype": "multiple",
+        "new_global_status": "scheduled"
     },
     {
         "status": "good",
-        "new_global_status": "good",
         "service": "ask",
-        "changetype": "single",
         "message": "Everything seems to be working.",
-        "changedate": 1369757373.341695
+        "changedate": 1369757373.341695,
+        "changetype": "single",
+        "new_global_status": "good"
     },
     {
         "status": "scheduled",
-        "new_global_status": "scheduled",
         "service": "ask",
-        "changetype": "single",
         "message": "upgrade",
-        "changedate": 1369756712.17086
+        "changedate": 1369756712.17086,
+        "changetype": "single",
+        "new_global_status": "scheduled"
     },
     {
         "status": "good",
-        "new_global_status": "good",
-        "changetype": "multiple",
         "services": [
             "wiki",
             "people",
@@ -7507,300 +7544,300 @@ callback([
             "fedocal"
         ],
         "message": "Everything seems to be working.",
-        "changedate": 1367968244.280666
-    },
-    {
-        "status": "scheduled",
-        "new_global_status": "scheduled",
-        "service": "tagger",
-        "changetype": "single",
-        "message": "Scheduled downtime",
-        "changedate": 1367960378.817551
-    },
-    {
-        "status": "scheduled",
-        "new_global_status": "scheduled",
-        "service": "fedmsg",
-        "changetype": "single",
-        "message": "Scheduled downtime",
-        "changedate": 1367960355.141363
-    },
-    {
-        "status": "scheduled",
-        "new_global_status": "scheduled",
-        "service": "fedorapaste",
-        "changetype": "single",
-        "message": "Scheduled downtime",
-        "changedate": 1367960347.302787
-    },
-    {
-        "status": "scheduled",
-        "new_global_status": "scheduled",
-        "service": "koji",
-        "changetype": "single",
-        "message": "Scheduled downtime",
-        "changedate": 1367960217.780481
-    },
-    {
-        "status": "scheduled",
-        "new_global_status": "scheduled",
-        "service": "fedocal",
-        "changetype": "single",
-        "message": "Scheduled downtime",
-        "changedate": 1367960134.811373
-    },
-    {
-        "status": "scheduled",
-        "new_global_status": "scheduled",
-        "service": "fedorahosted",
-        "changetype": "single",
-        "message": "Scheduled downtime",
-        "changedate": 1367960130.004594
-    },
-    {
-        "status": "scheduled",
-        "new_global_status": "scheduled",
-        "service": "wiki",
-        "changetype": "single",
-        "message": "Scheduled downtime",
-        "changedate": 1367960012.958374
-    },
-    {
-        "status": "scheduled",
-        "new_global_status": "scheduled",
-        "service": "pkgdb",
-        "changetype": "single",
-        "message": "Scheduled downtime",
-        "changedate": 1367959993.917179
-    },
-    {
-        "status": "scheduled",
-        "new_global_status": "scheduled",
-        "service": "mirrorlist",
-        "changetype": "single",
-        "message": "Scheduled downtime",
-        "changedate": 1367959985.894214
-    },
-    {
-        "status": "scheduled",
-        "new_global_status": "scheduled",
-        "service": "mirrormanager",
-        "changetype": "single",
-        "message": "Scheduled downtime",
-        "changedate": 1367959981.402128
-    },
-    {
-        "status": "scheduled",
-        "new_global_status": "scheduled",
-        "service": "people",
-        "changetype": "single",
-        "message": "Scheduled downtime",
-        "changedate": 1367959969.834415
-    },
-    {
-        "status": "scheduled",
-        "new_global_status": "scheduled",
-        "service": "fas",
-        "changetype": "single",
-        "message": "Scheduled downtime",
-        "changedate": 1367959962.21943
-    },
-    {
-        "status": "scheduled",
-        "new_global_status": "scheduled",
-        "service": "docs",
-        "changetype": "single",
-        "message": "Scheduled downtime",
-        "changedate": 1367959943.328869
-    },
-    {
-        "status": "scheduled",
-        "new_global_status": "scheduled",
-        "service": "pkgs",
-        "changetype": "single",
-        "message": "Scheduled downtime",
-        "changedate": 1367959927.988485
-    },
-    {
-        "status": "scheduled",
-        "new_global_status": "scheduled",
-        "service": "blockerbugs",
-        "changetype": "single",
-        "message": "Scheduled downtime",
-        "changedate": 1367959919.231615
-    },
-    {
-        "status": "scheduled",
-        "new_global_status": "scheduled",
-        "service": "bodhi",
-        "changetype": "single",
-        "message": "Scheduled downtime",
-        "changedate": 1367959902.783063
-    },
-    {
-        "status": "scheduled",
-        "new_global_status": "scheduled",
-        "service": "ask",
-        "changetype": "single",
-        "message": "Scheduled downtime",
-        "changedate": 1367959859.292157
-    },
-    {
-        "status": "good",
-        "new_global_status": "good",
-        "service": "mailinglists",
-        "changetype": "single",
-        "message": "Everything seems to be working.",
-        "changedate": 1367490033.861371
-    },
-    {
-        "status": "scheduled",
-        "new_global_status": "scheduled",
-        "service": "mailinglists",
-        "changetype": "single",
-        "message": "Scheduled migration in progress",
-        "changedate": 1367442085.465389
-    },
-    {
-        "status": "good",
-        "new_global_status": "good",
-        "service": "fedorahosted",
-        "changetype": "single",
-        "message": "Everything seems to be working.",
-        "changedate": 1367010463.023474
-    },
-    {
-        "status": "scheduled",
-        "new_global_status": "scheduled",
-        "service": "fedorahosted",
-        "changetype": "single",
-        "message": "migration outage",
-        "changedate": 1367002829.157529
-    },
-    {
-        "status": "good",
-        "new_global_status": "good",
-        "service": "mailinglists",
-        "changetype": "single",
-        "message": "Everything seems to be working.",
-        "changedate": 1366694002.67789
-    },
-    {
-        "status": "major",
-        "new_global_status": "major",
-        "service": "mailinglists",
-        "changetype": "single",
-        "message": "working on slowdowns",
-        "changedate": 1366646115.412964
-    },
-    {
-        "status": "good",
-        "new_global_status": "good",
-        "service": "mailinglists",
-        "changetype": "single",
-        "message": "Everything seems to be working.",
-        "changedate": 1365194561.338393
-    },
-    {
-        "status": "minor",
-        "new_global_status": "minor",
-        "service": "mailinglists",
-        "changetype": "single",
-        "message": "processing backlog",
-        "changedate": 1365186453.703369
-    },
-    {
-        "status": "major",
-        "new_global_status": "major",
-        "service": "mailinglists",
-        "changetype": "single",
-        "message": "outage in progress",
-        "changedate": 1365179078.41563
-    },
-    {
-        "status": "good",
-        "new_global_status": "good",
-        "service": "fedorahosted",
-        "changetype": "single",
-        "message": "Everything seems to be working.",
-        "changedate": 1363991220.9523
-    },
-    {
-        "status": "scheduled",
-        "new_global_status": "scheduled",
-        "service": "fedorahosted",
-        "changetype": "single",
-        "message": "Currently in scheduled outage",
-        "changedate": 1363985983.409561
-    },
-    {
-        "status": "good",
-        "new_global_status": "good",
-        "service": "mirrorlist",
-        "changetype": "single",
-        "message": "Everything seems to be working.",
-        "changedate": 1363809236.964576
-    },
-    {
-        "status": "major",
-        "new_global_status": "major",
-        "service": "mirrorlist",
-        "changetype": "single",
-        "message": "outage in progress",
-        "changedate": 1363808516.206465
-    },
-    {
-        "status": "good",
-        "new_global_status": "good",
-        "service": "fedorahosted",
-        "changetype": "single",
-        "message": "Everything seems to be working.",
-        "changedate": 1363718151.43372
-    },
-    {
-        "status": "minor",
-        "new_global_status": "minor",
-        "service": "fedorahosted",
-        "changetype": "single",
-        "message": "Problems seem to be solved",
-        "changedate": 1363695752.03326
-    },
-    {
-        "status": "major",
-        "new_global_status": "major",
-        "service": "fedorahosted",
-        "changetype": "single",
-        "message": "Service down or slow, looking into it",
-        "changedate": 1363693935.054059
-    },
-    {
-        "status": "good",
-        "new_global_status": "good",
-        "service": "fedorahosted",
-        "changetype": "single",
-        "message": "Everything seems to be working.",
-        "changedate": 1363656069.14989
-    },
-    {
-        "status": "minor",
-        "new_global_status": "minor",
-        "service": "fedorahosted",
-        "changetype": "single",
-        "message": "Everything is up, but slow. In case of problems, contact #fedora-admin",
-        "changedate": 1363645749.0883
-    },
-    {
-        "status": "major",
-        "new_global_status": "major",
-        "service": "fedorahosted",
-        "changetype": "single",
-        "message": "outage in progress",
-        "changedate": 1363622369.632481
-    },
-    {
-        "status": "good",
-        "new_global_status": "good",
+        "changedate": 1367968244.280666,
         "changetype": "multiple",
+        "new_global_status": "good"
+    },
+    {
+        "status": "scheduled",
+        "service": "tagger",
+        "message": "Scheduled downtime",
+        "changedate": 1367960378.817551,
+        "changetype": "single",
+        "new_global_status": "scheduled"
+    },
+    {
+        "status": "scheduled",
+        "service": "fedmsg",
+        "message": "Scheduled downtime",
+        "changedate": 1367960355.141363,
+        "changetype": "single",
+        "new_global_status": "scheduled"
+    },
+    {
+        "status": "scheduled",
+        "service": "fedorapaste",
+        "message": "Scheduled downtime",
+        "changedate": 1367960347.302787,
+        "changetype": "single",
+        "new_global_status": "scheduled"
+    },
+    {
+        "status": "scheduled",
+        "service": "koji",
+        "message": "Scheduled downtime",
+        "changedate": 1367960217.780481,
+        "changetype": "single",
+        "new_global_status": "scheduled"
+    },
+    {
+        "status": "scheduled",
+        "service": "fedocal",
+        "message": "Scheduled downtime",
+        "changedate": 1367960134.811373,
+        "changetype": "single",
+        "new_global_status": "scheduled"
+    },
+    {
+        "status": "scheduled",
+        "service": "fedorahosted",
+        "message": "Scheduled downtime",
+        "changedate": 1367960130.004594,
+        "changetype": "single",
+        "new_global_status": "scheduled"
+    },
+    {
+        "status": "scheduled",
+        "service": "wiki",
+        "message": "Scheduled downtime",
+        "changedate": 1367960012.958374,
+        "changetype": "single",
+        "new_global_status": "scheduled"
+    },
+    {
+        "status": "scheduled",
+        "service": "pkgdb",
+        "message": "Scheduled downtime",
+        "changedate": 1367959993.917179,
+        "changetype": "single",
+        "new_global_status": "scheduled"
+    },
+    {
+        "status": "scheduled",
+        "service": "mirrorlist",
+        "message": "Scheduled downtime",
+        "changedate": 1367959985.894214,
+        "changetype": "single",
+        "new_global_status": "scheduled"
+    },
+    {
+        "status": "scheduled",
+        "service": "mirrormanager",
+        "message": "Scheduled downtime",
+        "changedate": 1367959981.402128,
+        "changetype": "single",
+        "new_global_status": "scheduled"
+    },
+    {
+        "status": "scheduled",
+        "service": "people",
+        "message": "Scheduled downtime",
+        "changedate": 1367959969.834415,
+        "changetype": "single",
+        "new_global_status": "scheduled"
+    },
+    {
+        "status": "scheduled",
+        "service": "fas",
+        "message": "Scheduled downtime",
+        "changedate": 1367959962.21943,
+        "changetype": "single",
+        "new_global_status": "scheduled"
+    },
+    {
+        "status": "scheduled",
+        "service": "docs",
+        "message": "Scheduled downtime",
+        "changedate": 1367959943.328869,
+        "changetype": "single",
+        "new_global_status": "scheduled"
+    },
+    {
+        "status": "scheduled",
+        "service": "pkgs",
+        "message": "Scheduled downtime",
+        "changedate": 1367959927.988485,
+        "changetype": "single",
+        "new_global_status": "scheduled"
+    },
+    {
+        "status": "scheduled",
+        "service": "blockerbugs",
+        "message": "Scheduled downtime",
+        "changedate": 1367959919.231615,
+        "changetype": "single",
+        "new_global_status": "scheduled"
+    },
+    {
+        "status": "scheduled",
+        "service": "bodhi",
+        "message": "Scheduled downtime",
+        "changedate": 1367959902.783063,
+        "changetype": "single",
+        "new_global_status": "scheduled"
+    },
+    {
+        "status": "scheduled",
+        "service": "ask",
+        "message": "Scheduled downtime",
+        "changedate": 1367959859.292157,
+        "changetype": "single",
+        "new_global_status": "scheduled"
+    },
+    {
+        "status": "good",
+        "service": "mailinglists",
+        "message": "Everything seems to be working.",
+        "changedate": 1367490033.861371,
+        "changetype": "single",
+        "new_global_status": "good"
+    },
+    {
+        "status": "scheduled",
+        "service": "mailinglists",
+        "message": "Scheduled migration in progress",
+        "changedate": 1367442085.465389,
+        "changetype": "single",
+        "new_global_status": "scheduled"
+    },
+    {
+        "status": "good",
+        "service": "fedorahosted",
+        "message": "Everything seems to be working.",
+        "changedate": 1367010463.023474,
+        "changetype": "single",
+        "new_global_status": "good"
+    },
+    {
+        "status": "scheduled",
+        "service": "fedorahosted",
+        "message": "migration outage",
+        "changedate": 1367002829.157529,
+        "changetype": "single",
+        "new_global_status": "scheduled"
+    },
+    {
+        "status": "good",
+        "service": "mailinglists",
+        "message": "Everything seems to be working.",
+        "changedate": 1366694002.67789,
+        "changetype": "single",
+        "new_global_status": "good"
+    },
+    {
+        "status": "major",
+        "service": "mailinglists",
+        "message": "working on slowdowns",
+        "changedate": 1366646115.412964,
+        "changetype": "single",
+        "new_global_status": "major"
+    },
+    {
+        "status": "good",
+        "service": "mailinglists",
+        "message": "Everything seems to be working.",
+        "changedate": 1365194561.338393,
+        "changetype": "single",
+        "new_global_status": "good"
+    },
+    {
+        "status": "minor",
+        "service": "mailinglists",
+        "message": "processing backlog",
+        "changedate": 1365186453.703369,
+        "changetype": "single",
+        "new_global_status": "minor"
+    },
+    {
+        "status": "major",
+        "service": "mailinglists",
+        "message": "outage in progress",
+        "changedate": 1365179078.41563,
+        "changetype": "single",
+        "new_global_status": "major"
+    },
+    {
+        "status": "good",
+        "service": "fedorahosted",
+        "message": "Everything seems to be working.",
+        "changedate": 1363991220.9523,
+        "changetype": "single",
+        "new_global_status": "good"
+    },
+    {
+        "status": "scheduled",
+        "service": "fedorahosted",
+        "message": "Currently in scheduled outage",
+        "changedate": 1363985983.409561,
+        "changetype": "single",
+        "new_global_status": "scheduled"
+    },
+    {
+        "status": "good",
+        "service": "mirrorlist",
+        "message": "Everything seems to be working.",
+        "changedate": 1363809236.964576,
+        "changetype": "single",
+        "new_global_status": "good"
+    },
+    {
+        "status": "major",
+        "service": "mirrorlist",
+        "message": "outage in progress",
+        "changedate": 1363808516.206465,
+        "changetype": "single",
+        "new_global_status": "major"
+    },
+    {
+        "status": "good",
+        "service": "fedorahosted",
+        "message": "Everything seems to be working.",
+        "changedate": 1363718151.43372,
+        "changetype": "single",
+        "new_global_status": "good"
+    },
+    {
+        "status": "minor",
+        "service": "fedorahosted",
+        "message": "Problems seem to be solved",
+        "changedate": 1363695752.03326,
+        "changetype": "single",
+        "new_global_status": "minor"
+    },
+    {
+        "status": "major",
+        "service": "fedorahosted",
+        "message": "Service down or slow, looking into it",
+        "changedate": 1363693935.054059,
+        "changetype": "single",
+        "new_global_status": "major"
+    },
+    {
+        "status": "good",
+        "service": "fedorahosted",
+        "message": "Everything seems to be working.",
+        "changedate": 1363656069.14989,
+        "changetype": "single",
+        "new_global_status": "good"
+    },
+    {
+        "status": "minor",
+        "service": "fedorahosted",
+        "message": "Everything is up, but slow. In case of problems, contact #fedora-admin",
+        "changedate": 1363645749.0883,
+        "changetype": "single",
+        "new_global_status": "minor"
+    },
+    {
+        "status": "major",
+        "service": "fedorahosted",
+        "message": "outage in progress",
+        "changedate": 1363622369.632481,
+        "changetype": "single",
+        "new_global_status": "major"
+    },
+    {
+        "status": "good",
         "services": [
             "website",
             "wiki",
@@ -7817,310 +7854,310 @@ callback([
             "pkgdb"
         ],
         "message": "Everything seems to be working.",
-        "changedate": 1362018548.296237
+        "changedate": 1362018548.296237,
+        "changetype": "multiple",
+        "new_global_status": "good"
     },
     {
         "status": "scheduled",
-        "new_global_status": "scheduled",
         "service": "mirrorlist",
-        "changetype": "single",
         "message": "Planned outage",
-        "changedate": 1362002288.963735
+        "changedate": 1362002288.963735,
+        "changetype": "single",
+        "new_global_status": "scheduled"
     },
     {
         "status": "scheduled",
-        "new_global_status": "scheduled",
         "service": "freemedia",
-        "changetype": "single",
         "message": "Planned outage",
-        "changedate": 1362002267.352363
+        "changedate": 1362002267.352363,
+        "changetype": "single",
+        "new_global_status": "scheduled"
     },
     {
         "status": "scheduled",
-        "new_global_status": "scheduled",
         "service": "wiki",
-        "changetype": "single",
         "message": "Planned outage",
-        "changedate": 1362001276.111334
+        "changedate": 1362001276.111334,
+        "changetype": "single",
+        "new_global_status": "scheduled"
     },
     {
         "status": "scheduled",
-        "new_global_status": "scheduled",
         "service": "pkgdb",
-        "changetype": "single",
         "message": "Planned outage",
-        "changedate": 1362001260.406408
+        "changedate": 1362001260.406408,
+        "changetype": "single",
+        "new_global_status": "scheduled"
     },
     {
         "status": "scheduled",
-        "new_global_status": "scheduled",
         "service": "mirrormanager",
-        "changetype": "single",
         "message": "Planned outage",
-        "changedate": 1362001245.88797
+        "changedate": 1362001245.88797,
+        "changetype": "single",
+        "new_global_status": "scheduled"
     },
     {
         "status": "scheduled",
-        "new_global_status": "scheduled",
         "service": "website",
-        "changetype": "single",
         "message": "Planned outage",
-        "changedate": 1362001230.083599
+        "changedate": 1362001230.083599,
+        "changetype": "single",
+        "new_global_status": "scheduled"
     },
     {
         "status": "scheduled",
-        "new_global_status": "scheduled",
         "service": "people",
-        "changetype": "single",
         "message": "Planned outage",
-        "changedate": 1362001214.018912
+        "changedate": 1362001214.018912,
+        "changetype": "single",
+        "new_global_status": "scheduled"
     },
     {
         "status": "scheduled",
-        "new_global_status": "scheduled",
         "service": "fedorahosted",
-        "changetype": "single",
         "message": "Planned outage",
-        "changedate": 1362001200.589752
+        "changedate": 1362001200.589752,
+        "changetype": "single",
+        "new_global_status": "scheduled"
     },
     {
         "status": "scheduled",
-        "new_global_status": "scheduled",
         "service": "fas",
-        "changetype": "single",
         "message": "Planned outage",
-        "changedate": 1362001176.748647
+        "changedate": 1362001176.748647,
+        "changetype": "single",
+        "new_global_status": "scheduled"
     },
     {
         "status": "scheduled",
-        "new_global_status": "scheduled",
         "service": "pkgs",
-        "changetype": "single",
         "message": "Planned outage",
-        "changedate": 1362001153.63576
+        "changedate": 1362001153.63576,
+        "changetype": "single",
+        "new_global_status": "scheduled"
     },
     {
         "status": "scheduled",
-        "new_global_status": "scheduled",
         "service": "koji",
-        "changetype": "single",
         "message": "Planned outage",
-        "changedate": 1362001146.283427
+        "changedate": 1362001146.283427,
+        "changetype": "single",
+        "new_global_status": "scheduled"
     },
     {
         "status": "scheduled",
-        "new_global_status": "scheduled",
         "service": "bodhi",
-        "changetype": "single",
         "message": "Planned outage",
-        "changedate": 1362001110.736903
+        "changedate": 1362001110.736903,
+        "changetype": "single",
+        "new_global_status": "scheduled"
     },
     {
         "status": "scheduled",
-        "new_global_status": "scheduled",
         "service": "ask",
-        "changetype": "single",
         "message": "Planned outage",
-        "changedate": 1362001032.661747
+        "changedate": 1362001032.661747,
+        "changetype": "single",
+        "new_global_status": "scheduled"
     },
     {
         "status": "good",
-        "new_global_status": "good",
-        "changetype": "multiple",
         "services": [
             "freemedia",
             "elections",
             "pkgdb"
         ],
         "message": "Everything seems to be working.",
-        "changedate": 1361911699.585266
-    },
-    {
-        "status": "major",
-        "new_global_status": "major",
-        "service": "freemedia",
-        "changetype": "single",
-        "message": "We're investigating an outage affecting this service.",
-        "changedate": 1361909353.415043
-    },
-    {
-        "status": "major",
-        "new_global_status": "major",
-        "service": "pkgdb",
-        "changetype": "single",
-        "message": "We're investigating an outage affecting this service.",
-        "changedate": 1361908929.345981
-    },
-    {
-        "status": "major",
-        "new_global_status": "major",
-        "service": "elections",
-        "changetype": "single",
-        "message": "We're investigating an outage affecting this service.",
-        "changedate": 1361908923.197585
-    },
-    {
-        "status": "major",
-        "new_global_status": "major",
-        "service": "elections",
-        "changetype": "single",
-        "message": "We're investing an outage affecting this service.",
-        "changedate": 1361908640.006756
-    },
-    {
-        "status": "major",
-        "new_global_status": "major",
-        "service": "pkgdb",
-        "changetype": "single",
-        "message": "We're investing an outage affecting this service.",
-        "changedate": 1361908602.768416
-    },
-    {
-        "status": "good",
-        "new_global_status": "good",
-        "service": "mirrorlist",
-        "changetype": "single",
-        "message": "Everything seems to be working.",
-        "changedate": 1361400563.408422
-    },
-    {
-        "status": "major",
-        "new_global_status": "major",
-        "service": "mirrorlist",
-        "changetype": "single",
-        "message": "outage in progress",
-        "changedate": 1361396690.246318
-    },
-    {
-        "status": "good",
-        "new_global_status": "good",
-        "service": "fedorahosted",
-        "changetype": "single",
-        "message": "Everything seems to be working.",
-        "changedate": 1360675860.912642
-    },
-    {
-        "status": "major",
-        "new_global_status": "major",
-        "service": "fedorahosted",
-        "changetype": "single",
-        "message": "The services seem to be down, we are looking into it",
-        "changedate": 1360673019.070995
-    },
-    {
-        "status": "good",
-        "new_global_status": "good",
+        "changedate": 1361911699.585266,
         "changetype": "multiple",
+        "new_global_status": "good"
+    },
+    {
+        "status": "major",
+        "service": "freemedia",
+        "message": "We're investigating an outage affecting this service.",
+        "changedate": 1361909353.415043,
+        "changetype": "single",
+        "new_global_status": "major"
+    },
+    {
+        "status": "major",
+        "service": "pkgdb",
+        "message": "We're investigating an outage affecting this service.",
+        "changedate": 1361908929.345981,
+        "changetype": "single",
+        "new_global_status": "major"
+    },
+    {
+        "status": "major",
+        "service": "elections",
+        "message": "We're investigating an outage affecting this service.",
+        "changedate": 1361908923.197585,
+        "changetype": "single",
+        "new_global_status": "major"
+    },
+    {
+        "status": "major",
+        "service": "elections",
+        "message": "We're investing an outage affecting this service.",
+        "changedate": 1361908640.006756,
+        "changetype": "single",
+        "new_global_status": "major"
+    },
+    {
+        "status": "major",
+        "service": "pkgdb",
+        "message": "We're investing an outage affecting this service.",
+        "changedate": 1361908602.768416,
+        "changetype": "single",
+        "new_global_status": "major"
+    },
+    {
+        "status": "good",
+        "service": "mirrorlist",
+        "message": "Everything seems to be working.",
+        "changedate": 1361400563.408422,
+        "changetype": "single",
+        "new_global_status": "good"
+    },
+    {
+        "status": "major",
+        "service": "mirrorlist",
+        "message": "outage in progress",
+        "changedate": 1361396690.246318,
+        "changetype": "single",
+        "new_global_status": "major"
+    },
+    {
+        "status": "good",
+        "service": "fedorahosted",
+        "message": "Everything seems to be working.",
+        "changedate": 1360675860.912642,
+        "changetype": "single",
+        "new_global_status": "good"
+    },
+    {
+        "status": "major",
+        "service": "fedorahosted",
+        "message": "The services seem to be down, we are looking into it",
+        "changedate": 1360673019.070995,
+        "changetype": "single",
+        "new_global_status": "major"
+    },
+    {
+        "status": "good",
         "services": [
             "mailinglists",
             "fedorahosted"
         ],
         "message": "Everything seems to be working.",
-        "changedate": 1360662010.815803
+        "changedate": 1360662010.815803,
+        "changetype": "multiple",
+        "new_global_status": "good"
     },
     {
         "status": "major",
-        "new_global_status": "major",
         "service": "mailinglists",
-        "changetype": "single",
         "message": "network outage in progress",
-        "changedate": 1360649432.646872
+        "changedate": 1360649432.646872,
+        "changetype": "single",
+        "new_global_status": "major"
     },
     {
         "status": "major",
-        "new_global_status": "major",
         "service": "fedorahosted",
-        "changetype": "single",
         "message": "network outage in progress",
-        "changedate": 1360649394.666191
+        "changedate": 1360649394.666191,
+        "changetype": "single",
+        "new_global_status": "major"
     },
     {
         "status": "good",
-        "new_global_status": "good",
         "service": "zodbot",
-        "changetype": "single",
         "message": "Everything seems to be working.",
-        "changedate": 1360631551.275009
+        "changedate": 1360631551.275009,
+        "changetype": "single",
+        "new_global_status": "good"
     },
     {
         "status": "minor",
-        "new_global_status": "minor",
         "service": "zodbot",
-        "changetype": "single",
         "message": "Fedora plugin not working, we are looking into it",
-        "changedate": 1360592827.787175
+        "changedate": 1360592827.787175,
+        "changetype": "single",
+        "new_global_status": "minor"
     },
     {
         "status": "good",
-        "new_global_status": "good",
         "service": "fedorahosted",
-        "changetype": "single",
         "message": "Everything seems to be working.",
-        "changedate": 1360576834.253012
+        "changedate": 1360576834.253012,
+        "changetype": "single",
+        "new_global_status": "good"
     },
     {
         "status": "major",
-        "new_global_status": "major",
         "service": "fedorahosted",
-        "changetype": "single",
         "message": "Servers are down, looking into it",
-        "changedate": 1360570521.796482
+        "changedate": 1360570521.796482,
+        "changetype": "single",
+        "new_global_status": "major"
     },
     {
         "status": "good",
-        "new_global_status": "good",
-        "changetype": "multiple",
         "services": [
             "mirrormanager",
             "mirrorlist"
         ],
         "message": "Everything seems to be working.",
-        "changedate": 1359603305.704024
+        "changedate": 1359603305.704024,
+        "changetype": "multiple",
+        "new_global_status": "good"
     },
     {
         "status": "major",
-        "new_global_status": "major",
         "service": "mirrorlist",
-        "changetype": "single",
         "message": "outage in progress",
-        "changedate": 1359599888.174522
+        "changedate": 1359599888.174522,
+        "changetype": "single",
+        "new_global_status": "major"
     },
     {
         "status": "major",
-        "new_global_status": "major",
         "service": "mirrormanager",
-        "changetype": "single",
         "message": "outage in progress",
-        "changedate": 1359594757.667461
+        "changedate": 1359594757.667461,
+        "changetype": "single",
+        "new_global_status": "major"
     },
     {
         "status": "good",
-        "new_global_status": "good",
-        "changetype": "multiple",
         "services": [
             "pkgs",
             "bodhi",
             "koji"
         ],
         "message": "Everything seems to be working.",
-        "changedate": 1359589735.114083
+        "changedate": 1359589735.114083,
+        "changetype": "multiple",
+        "new_global_status": "good"
     },
     {
         "status": "scheduled",
-        "new_global_status": "scheduled",
-        "changetype": "multiple",
         "services": [
             "pkgs",
             "koji",
             "bodhi"
         ],
         "message": "Scheduled downtime",
-        "changedate": 1359583778.90607
+        "changedate": 1359583778.90607,
+        "changetype": "multiple",
+        "new_global_status": "scheduled"
     },
     {
         "status": "good",
-        "new_global_status": "good",
-        "changetype": "multiple",
         "services": [
             "wiki",
             "people",
@@ -8145,12 +8182,12 @@ callback([
             "mailinglists"
         ],
         "message": "Everything seems to be working.",
-        "changedate": 1359583737.153793
+        "changedate": 1359583737.153793,
+        "changetype": "multiple",
+        "new_global_status": "good"
     },
     {
         "status": "scheduled",
-        "new_global_status": "scheduled",
-        "changetype": "multiple",
         "services": [
             "wiki",
             "people",
@@ -8175,12 +8212,12 @@ callback([
             "mailinglists"
         ],
         "message": "Scheduled downtime",
-        "changedate": 1359582677.393529
+        "changedate": 1359582677.393529,
+        "changetype": "multiple",
+        "new_global_status": "scheduled"
     },
     {
         "status": "good",
-        "new_global_status": "good",
-        "changetype": "multiple",
         "services": [
             "wiki",
             "people",
@@ -8205,12 +8242,12 @@ callback([
             "mailinglists"
         ],
         "message": "Everything seems to be working.",
-        "changedate": 1359504508.47202
+        "changedate": 1359504508.47202,
+        "changetype": "multiple",
+        "new_global_status": "good"
     },
     {
         "status": "major",
-        "new_global_status": "major",
-        "changetype": "multiple",
         "services": [
             "wiki",
             "people",
@@ -8235,28 +8272,28 @@ callback([
             "mailinglists"
         ],
         "message": "planned outage ongoing",
-        "changedate": 1359496884.539857
+        "changedate": 1359496884.539857,
+        "changetype": "multiple",
+        "new_global_status": "major"
     },
     {
         "status": "good",
-        "new_global_status": "good",
         "service": "mailinglists",
-        "changetype": "single",
         "message": "Everything seems to be working.",
-        "changedate": 1359154150.748242
+        "changedate": 1359154150.748242,
+        "changetype": "single",
+        "new_global_status": "good"
     },
     {
         "status": "major",
-        "new_global_status": "major",
         "service": "mailinglists",
-        "changetype": "single",
         "message": "storage issue",
-        "changedate": 1359150889.724279
+        "changedate": 1359150889.724279,
+        "changetype": "single",
+        "new_global_status": "major"
     },
     {
         "status": "good",
-        "new_global_status": "good",
-        "changetype": "multiple",
         "services": [
             "wiki",
             "people",
@@ -8281,12 +8318,12 @@ callback([
             "mailinglists"
         ],
         "message": "Everything seems to be working.",
-        "changedate": 1359059982.416336
+        "changedate": 1359059982.416336,
+        "changetype": "multiple",
+        "new_global_status": "good"
     },
     {
         "status": "major",
-        "new_global_status": "major",
-        "changetype": "multiple",
         "services": [
             "wiki",
             "people",
@@ -8311,68 +8348,68 @@ callback([
             "mailinglists"
         ],
         "message": "dns outage/sporadic",
-        "changedate": 1359051455.292929
+        "changedate": 1359051455.292929,
+        "changetype": "multiple",
+        "new_global_status": "major"
     },
     {
         "status": "good",
-        "new_global_status": "good",
         "service": "packages",
-        "changetype": "single",
         "message": "Everything seems to be working.",
-        "changedate": 1358776071.219419
+        "changedate": 1358776071.219419,
+        "changetype": "single",
+        "new_global_status": "good"
     },
     {
         "status": "major",
-        "new_global_status": "major",
         "service": "packages",
-        "changetype": "single",
         "message": "The service is unavailable, we are looking into it",
-        "changedate": 1358775663.265307
+        "changedate": 1358775663.265307,
+        "changetype": "single",
+        "new_global_status": "major"
     },
     {
         "status": "good",
-        "new_global_status": "good",
         "service": "ask",
-        "changetype": "single",
         "message": "Everything seems to be working.",
-        "changedate": 1358648358.038787
+        "changedate": 1358648358.038787,
+        "changetype": "single",
+        "new_global_status": "good"
     },
     {
         "status": "minor",
-        "new_global_status": "minor",
         "service": "ask",
-        "changetype": "single",
         "message": "Ask seems to be coming back up now",
-        "changedate": 1358648022.441046
+        "changedate": 1358648022.441046,
+        "changetype": "single",
+        "new_global_status": "minor"
     },
     {
         "status": "major",
-        "new_global_status": "major",
         "service": "ask",
-        "changetype": "single",
         "message": "Ask is down at the moment, we are looking into this",
-        "changedate": 1358642050.927325
+        "changedate": 1358642050.927325,
+        "changetype": "single",
+        "new_global_status": "major"
     },
     {
         "status": "good",
-        "new_global_status": "good",
         "service": "mailinglists",
-        "changetype": "single",
         "message": "Everything seems to be working.",
-        "changedate": 1356982844.154237
+        "changedate": 1356982844.154237,
+        "changetype": "single",
+        "new_global_status": "good"
     },
     {
         "status": "major",
-        "new_global_status": "major",
         "service": "mailinglists",
-        "changetype": "single",
         "message": "fedorahosted lists down",
-        "changedate": 1356981483.180751
+        "changedate": 1356981483.180751,
+        "changetype": "single",
+        "new_global_status": "major"
     },
     {
         "status": "good",
-        "new_global_status": "good",
-        "changetype": "multiple",
         "services": [
             "wiki",
             "people",
@@ -8397,12 +8434,12 @@ callback([
             "mailinglists"
         ],
         "message": "Everything seems to be working.",
-        "changedate": 1356475675.858256
+        "changedate": 1356475675.858256,
+        "changetype": "multiple",
+        "new_global_status": "good"
     },
     {
         "status": "major",
-        "new_global_status": "major",
-        "changetype": "multiple",
         "services": [
             "wiki",
             "people",
@@ -8427,60 +8464,60 @@ callback([
             "mailinglists"
         ],
         "message": "mirrorlist outage",
-        "changedate": 1356475076.168781
-    },
-    {
-        "status": "good",
-        "new_global_status": "good",
-        "service": "wiki",
-        "changetype": "single",
-        "message": "Everything seems to be working.",
-        "changedate": 1356362854.4014
-    },
-    {
-        "status": "good",
-        "new_global_status": "major",
-        "service": "mirrormanager",
-        "changetype": "single",
-        "message": "Everything seems to be working.",
-        "changedate": 1356362832.823378
-    },
-    {
-        "status": "major",
-        "new_global_status": "major",
-        "service": "wiki",
-        "changetype": "single",
-        "message": "Everything seems to be working.",
-        "changedate": 1356362686.908468
-    },
-    {
-        "status": "major",
-        "new_global_status": "major",
-        "service": "mirrormanager",
-        "changetype": "single",
-        "message": "Everything seems to be working.",
-        "changedate": 1356362629.92776
-    },
-    {
-        "status": "major",
-        "new_global_status": "major",
-        "service": "wiki",
-        "changetype": "single",
-        "message": "down due to overloard from mirror manager",
-        "changedate": 1356360914.176786
-    },
-    {
-        "status": "major",
-        "new_global_status": "major",
-        "service": "mirrormanager",
-        "changetype": "single",
-        "message": "mirror manager application is crashing",
-        "changedate": 1356360744.267989
-    },
-    {
-        "status": "good",
-        "new_global_status": "good",
+        "changedate": 1356475076.168781,
         "changetype": "multiple",
+        "new_global_status": "major"
+    },
+    {
+        "status": "good",
+        "service": "wiki",
+        "message": "Everything seems to be working.",
+        "changedate": 1356362854.4014,
+        "changetype": "single",
+        "new_global_status": "good"
+    },
+    {
+        "status": "good",
+        "service": "mirrormanager",
+        "message": "Everything seems to be working.",
+        "changedate": 1356362832.823378,
+        "changetype": "single",
+        "new_global_status": "major"
+    },
+    {
+        "status": "major",
+        "service": "wiki",
+        "message": "Everything seems to be working.",
+        "changedate": 1356362686.908468,
+        "changetype": "single",
+        "new_global_status": "major"
+    },
+    {
+        "status": "major",
+        "service": "mirrormanager",
+        "message": "Everything seems to be working.",
+        "changedate": 1356362629.92776,
+        "changetype": "single",
+        "new_global_status": "major"
+    },
+    {
+        "status": "major",
+        "service": "wiki",
+        "message": "down due to overloard from mirror manager",
+        "changedate": 1356360914.176786,
+        "changetype": "single",
+        "new_global_status": "major"
+    },
+    {
+        "status": "major",
+        "service": "mirrormanager",
+        "message": "mirror manager application is crashing",
+        "changedate": 1356360744.267989,
+        "changetype": "single",
+        "new_global_status": "major"
+    },
+    {
+        "status": "good",
         "services": [
             "wiki",
             "people",
@@ -8505,12 +8542,12 @@ callback([
             "mailinglists"
         ],
         "message": "Everything seems to be working.",
-        "changedate": 1356018490.102794
+        "changedate": 1356018490.102794,
+        "changetype": "multiple",
+        "new_global_status": "good"
     },
     {
         "status": "major",
-        "new_global_status": "major",
-        "changetype": "multiple",
         "services": [
             "wiki",
             "people",
@@ -8535,12 +8572,12 @@ callback([
             "mailinglists"
         ],
         "message": "dl.fedoraproject.org not working",
-        "changedate": 1356017685.64597
+        "changedate": 1356017685.64597,
+        "changetype": "multiple",
+        "new_global_status": "major"
     },
     {
         "status": "good",
-        "new_global_status": "good",
-        "changetype": "multiple",
         "services": [
             "wiki",
             "people",
@@ -8565,12 +8602,12 @@ callback([
             "mailinglists"
         ],
         "message": "Everything seems to be working.",
-        "changedate": 1354896205.591253
+        "changedate": 1354896205.591253,
+        "changetype": "multiple",
+        "new_global_status": "good"
     },
     {
         "status": "scheduled",
-        "new_global_status": "scheduled",
-        "changetype": "multiple",
         "services": [
             "wiki",
             "people",
@@ -8595,158 +8632,158 @@ callback([
             "mailinglists"
         ],
         "message": "scheduled storage outage",
-        "changedate": 1354892503.539004
+        "changedate": 1354892503.539004,
+        "changetype": "multiple",
+        "new_global_status": "scheduled"
     },
     {
         "status": "good",
-        "new_global_status": "good",
         "service": "fas",
-        "changetype": "single",
         "message": "Everything seems to be working.",
-        "changedate": 1354309733.505698
+        "changedate": 1354309733.505698,
+        "changetype": "single",
+        "new_global_status": "good"
     },
     {
         "status": "major",
-        "new_global_status": "major",
         "service": "fas",
-        "changetype": "single",
         "message": "admin.fedoraproject.org outage, being looked into",
-        "changedate": 1354307314.748903
+        "changedate": 1354307314.748903,
+        "changetype": "single",
+        "new_global_status": "major"
     },
     {
         "status": "good",
-        "new_global_status": "good",
         "service": "mailinglists",
-        "changetype": "single",
         "message": "Everything seems to be working.",
-        "changedate": 1353603864.609952
+        "changedate": 1353603864.609952,
+        "changetype": "single",
+        "new_global_status": "good"
     },
     {
         "status": "scheduled",
-        "new_global_status": "scheduled",
         "service": "mailinglists",
-        "changetype": "single",
         "message": "scheduled migration outage",
-        "changedate": 1353560685.597869
+        "changedate": 1353560685.597869,
+        "changetype": "single",
+        "new_global_status": "scheduled"
     },
     {
         "status": "good",
-        "new_global_status": "good",
         "service": "people",
-        "changetype": "single",
         "message": "Everything seems to be working.",
-        "changedate": 1350644852.186943
+        "changedate": 1350644852.186943,
+        "changetype": "single",
+        "new_global_status": "good"
     },
     {
         "status": "major",
-        "new_global_status": "major",
         "service": "people",
-        "changetype": "single",
         "message": "Network connectivity issue.",
-        "changedate": 1350643236.875525
+        "changedate": 1350643236.875525,
+        "changetype": "single",
+        "new_global_status": "major"
     },
     {
         "status": "good",
-        "new_global_status": "good",
         "service": "pkgs",
-        "changetype": "single",
         "message": "Everything seems to be working.",
-        "changedate": 1350022337.850594
+        "changedate": 1350022337.850594,
+        "changetype": "single",
+        "new_global_status": "good"
     },
     {
         "status": "minor",
-        "new_global_status": "minor",
         "service": "pkgs",
-        "changetype": "single",
         "message": "Recovering from a short cgit outage, service might be flaky for a few minutes.",
-        "changedate": 1350021963.585158
+        "changedate": 1350021963.585158,
+        "changetype": "single",
+        "new_global_status": "minor"
     },
     {
         "status": "major",
         "changetype": "single",
-        "message": "Looking into a pkgs cgit outage.",
         "service": "pkgs",
+        "message": "Looking into a pkgs cgit outage.",
         "changedate": 1350020317.600746
     },
     {
         "status": "good",
-        "new_global_status": "good",
-        "changetype": "multiple",
         "services": [
             "mirrormanager",
             "mirrorlist"
         ],
         "message": "Everything seems to be working.",
-        "changedate": 1349293525.937229
-    },
-    {
-        "status": "major",
-        "new_global_status": "major",
-        "service": "mirrorlist",
-        "changetype": "single",
-        "message": "outage, being worked",
-        "changedate": 1349291950.985915
-    },
-    {
-        "status": "major",
-        "new_global_status": "major",
-        "service": "mirrormanager",
-        "changetype": "single",
-        "message": "outage, being worked",
-        "changedate": 1349291934.5783
-    },
-    {
-        "status": "good",
-        "new_global_status": "good",
-        "service": "bodhi",
-        "changetype": "single",
-        "message": "Everything seems to be working.",
-        "changedate": 1349214159.732136
-    },
-    {
-        "status": "good",
-        "new_global_status": "major",
-        "service": "pkgs",
-        "changetype": "single",
-        "message": "Everything seems to be working.",
-        "changedate": 1349211668.185147
-    },
-    {
-        "status": "good",
-        "new_global_status": "major",
-        "service": "koji",
-        "changetype": "single",
-        "message": "Everything seems to be working.",
-        "changedate": 1349211664.784387
-    },
-    {
-        "status": "major",
-        "new_global_status": "major",
-        "service": "bodhi",
-        "changetype": "single",
-        "message": "scheduled maint: https://fedorahosted.org/fedora-infrastructure/ticket/3489",
-        "changedate": 1349211611.475525
-    },
-    {
-        "status": "major",
-        "new_global_status": "major",
-        "service": "pkgs",
-        "changetype": "single",
-        "message": "scheduled maint: https://fedorahosted.org/fedora-infrastructure/ticket/3489",
-        "changedate": 1349211257.077288
-    },
-    {
-        "status": "major",
-        "new_global_status": "major",
-        "service": "koji",
-        "changetype": "single",
-        "message": "scheduled maint: https://fedorahosted.org/fedora-infrastructure/ticket/3489",
-        "changedate": 1349211226.466342
-    },
-    {
-        "status": "good",
-        "new_global_status": "good",
+        "changedate": 1349293525.937229,
         "changetype": "multiple",
+        "new_global_status": "good"
+    },
+    {
+        "status": "major",
+        "service": "mirrorlist",
+        "message": "outage, being worked",
+        "changedate": 1349291950.985915,
+        "changetype": "single",
+        "new_global_status": "major"
+    },
+    {
+        "status": "major",
+        "service": "mirrormanager",
+        "message": "outage, being worked",
+        "changedate": 1349291934.5783,
+        "changetype": "single",
+        "new_global_status": "major"
+    },
+    {
+        "status": "good",
+        "service": "bodhi",
+        "message": "Everything seems to be working.",
+        "changedate": 1349214159.732136,
+        "changetype": "single",
+        "new_global_status": "good"
+    },
+    {
+        "status": "good",
+        "service": "pkgs",
+        "message": "Everything seems to be working.",
+        "changedate": 1349211668.185147,
+        "changetype": "single",
+        "new_global_status": "major"
+    },
+    {
+        "status": "good",
+        "service": "koji",
+        "message": "Everything seems to be working.",
+        "changedate": 1349211664.784387,
+        "changetype": "single",
+        "new_global_status": "major"
+    },
+    {
+        "status": "major",
+        "service": "bodhi",
+        "message": "scheduled maint: https://fedorahosted.org/fedora-infrastructure/ticket/3489",
+        "changedate": 1349211611.475525,
+        "changetype": "single",
+        "new_global_status": "major"
+    },
+    {
+        "status": "major",
+        "service": "pkgs",
+        "message": "scheduled maint: https://fedorahosted.org/fedora-infrastructure/ticket/3489",
+        "changedate": 1349211257.077288,
+        "changetype": "single",
+        "new_global_status": "major"
+    },
+    {
+        "status": "major",
+        "service": "koji",
+        "message": "scheduled maint: https://fedorahosted.org/fedora-infrastructure/ticket/3489",
+        "changedate": 1349211226.466342,
+        "changetype": "single",
+        "new_global_status": "major"
+    },
+    {
+        "status": "good",
         "services": [
             "wiki",
             "zodbot",
@@ -8770,12 +8807,12 @@ callback([
             "mailinglists"
         ],
         "message": "Everything seems to be working.",
-        "changedate": 1349131200.751026
+        "changedate": 1349131200.751026,
+        "changetype": "multiple",
+        "new_global_status": "good"
     },
     {
         "status": "major",
-        "new_global_status": "major",
-        "changetype": "multiple",
         "services": [
             "wiki",
             "zodbot",
@@ -8799,136 +8836,138 @@ callback([
             "mailinglists"
         ],
         "message": "Planned outage: https://fedorahosted.org/fedora-infrastructure/ticket/3488",
-        "changedate": 1349125257.021869
+        "changedate": 1349125257.021869,
+        "changetype": "multiple",
+        "new_global_status": "major"
     },
     {
         "status": "good",
-        "new_global_status": "good",
         "service": "wiki",
-        "changetype": "single",
         "message": "Everything seems to be working.",
-        "changedate": 1348860927.928917
+        "changedate": 1348860927.928917,
+        "changetype": "single",
+        "new_global_status": "good"
     },
     {
         "status": "major",
-        "new_global_status": "major",
         "service": "wiki",
-        "changetype": "single",
         "message": "issues, investigating",
-        "changedate": 1348860205.523897
+        "changedate": 1348860205.523897,
+        "changetype": "single",
+        "new_global_status": "major"
     },
     {
         "status": "good",
-        "new_global_status": "good",
         "service": "wiki",
-        "changetype": "single",
         "message": "Everything seems to be working.",
-        "changedate": 1348601911.257961
+        "changedate": 1348601911.257961,
+        "changetype": "single",
+        "new_global_status": "good"
     },
     {
         "status": "major",
-        "new_global_status": "major",
         "service": "wiki",
-        "changetype": "single",
         "message": "Database issues, looking into it",
-        "changedate": 1348600708.713839
+        "changedate": 1348600708.713839,
+        "changetype": "single",
+        "new_global_status": "major"
     },
     {
         "status": "good",
         "changetype": "single",
-        "message": "Everything seems to be working.",
         "service": "koji",
+        "message": "Everything seems to be working.",
         "changedate": 1348510190.761871
     },
     {
         "status": "major",
         "changetype": "single",
-        "message": "database issues, restarting",
         "service": "koji",
+        "message": "database issues, restarting",
         "changedate": 1348510010.065968
     },
     {
         "status": "good",
         "changetype": "single",
-        "message": "Everything seems to be working.",
         "service": "fas",
+        "message": "Everything seems to be working.",
         "changedate": 1348504943.058378
     },
     {
         "status": "major",
         "changetype": "single",
-        "message": "restarting to fix issue",
         "service": "fas",
+        "message": "restarting to fix issue",
         "changedate": 1348503442.156915
     },
     {
         "status": "good",
         "changetype": "single",
-        "message": "Everything seems to be working.",
         "service": "ask",
+        "message": "Everything seems to be working.",
         "changedate": 1348398606.185092
     },
     {
         "status": "major",
         "changetype": "single",
-        "message": "Looking into an ask.fp.o outage.",
         "service": "ask",
+        "message": "Looking into an ask.fp.o outage.",
         "changedate": 1348398374.761944
     },
     {
         "status": "good",
         "changetype": "single",
-        "message": "Everything seems to be working.",
         "service": "zodbot",
+        "message": "Everything seems to be working.",
         "changedate": 1348079735.505647
     },
     {
         "status": "minor",
         "changetype": "single",
-        "message": "Restarting...",
         "service": "zodbot",
+        "message": "Restarting...",
         "changedate": 1348078743.000692
     },
     {
         "status": "good",
         "changetype": "single",
-        "message": "Everything seems to be working.",
         "service": "koji",
+        "message": "Everything seems to be working.",
         "changedate": 1347996641.379646
     },
     {
         "status": "major",
         "changetype": "single",
-        "message": "web issues",
         "service": "koji",
+        "message": "web issues",
         "changedate": 1347996442.760751
     },
     {
         "status": "good",
         "changetype": "single",
-        "message": "Everything seems to be working.",
         "service": "pkgdb",
+        "message": "Everything seems to be working.",
         "changedate": 1347411836.093004
     },
     {
         "status": "major",
         "changetype": "single",
-        "message": "storage issues",
         "service": "pkgdb",
+        "message": "storage issues",
         "changedate": 1347409400.269728
     },
     {
         "status": "good",
         "changetype": "single",
-        "message": "Everything seems to be working.",
         "service": "fedorahosted",
+        "message": "Everything seems to be working.",
         "changedate": 1346331236.920674
     },
     {
         "status": "major",
         "changetype": "single",
-        "message": "Major service disruption, looking into it",
         "service": "fedorahosted",
+        "message": "Major service disruption, looking into it",
         "changedate": 1346328723.409159
     },
     {
@@ -8955,8 +8994,8 @@ callback([
             "mailinglists"
         ],
         "status": "good",
-        "changetype": "multiple",
+        "changedate": 1346176177.143926,
         "message": "Everything seems to be working.",
-        "changedate": 1346176177.143926
+        "changetype": "multiple"
     }
 ]);
