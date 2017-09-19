@@ -1,5 +1,13 @@
 callback([
     {
+        "changetype": "single",
+        "service": "mailinglists",
+        "status": "minor",
+        "new_global_status": "minor",
+        "message": "Mailing lists email sending crashed since late Sunday. Cause fixed, emails going out now.",
+        "changedate": 1505832456.8349714
+    },
+    {
         "changetype": "multiple",
         "services": [
             "ask",

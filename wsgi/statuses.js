@@ -118,9 +118,9 @@ callback({
             "url": "https://id.fedoraproject.org/"
         },
         "mailinglists": {
-            "message": "Everything seems to be working.",
+            "message": "Mailing lists email sending crashed since late Sunday. Cause fixed, emails going out now.",
             "name": "Mailing Lists",
-            "status": "good",
+            "status": "minor",
             "url": "http://lists.fedoraproject.org/"
         },
         "mirrorlist": {
