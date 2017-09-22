@@ -2,6 +2,14 @@ callback([
     {
         "changetype": "single",
         "service": "mailinglists",
+        "status": "good",
+        "new_global_status": "good",
+        "message": "Everything seems to be working.",
+        "changedate": 1506117653.92017
+    },
+    {
+        "changetype": "single",
+        "service": "mailinglists",
         "status": "minor",
         "new_global_status": "minor",
         "message": "Mailing lists email sending crashed since late Sunday. Cause fixed, emails going out now.",

@@ -118,9 +118,9 @@
             "url": "https://id.fedoraproject.org/"
         },
         "mailinglists": {
-            "message": "Mailing lists email sending crashed since late Sunday. Cause fixed, emails going out now.",
+            "message": "Everything seems to be working.",
             "name": "Mailing Lists",
-            "status": "minor",
+            "status": "good",
             "url": "http://lists.fedoraproject.org/"
         },
         "mirrorlist": {
