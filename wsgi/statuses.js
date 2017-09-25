@@ -4,184 +4,184 @@ callback({
     "global_verbose_status": "All systems go",
     "services": {
         "ask": {
-            "message": "fedorainfracloud node down, several services affected",
+            "message": "Everything seems to be working.",
             "name": "Ask Fedora",
-            "status": "major",
+            "status": "good",
             "url": "http://ask.fedoraproject.org/"
         },
         "authentication": {
-            "message": "fedorainfracloud node down, several services affected",
+            "message": "Everything seems to be working.",
             "name": "Ipsilon",
-            "status": "major",
+            "status": "good",
             "url": "https://id.fedoraproject.org/"
         },
         "badges": {
-            "message": "fedorainfracloud node down, several services affected",
+            "message": "Everything seems to be working.",
             "name": "Badges",
-            "status": "major",
+            "status": "good",
             "url": "http:/badges.fedoraproject.org/"
         },
         "blockerbugs": {
-            "message": "fedorainfracloud node down, several services affected",
+            "message": "Everything seems to be working.",
             "name": "Blockerbugs",
-            "status": "major",
+            "status": "good",
             "url": "http://qa.fedoraproject.org/blockerbugs/"
         },
         "bodhi": {
-            "message": "fedorainfracloud node down, several services affected",
+            "message": "Everything seems to be working.",
             "name": "Package Updates Manager",
-            "status": "major",
+            "status": "good",
             "url": "https://admin.fedoraproject.org/updates/"
         },
         "cloud": {
-            "message": "fedorainfracloud node down, several services affected",
+            "message": "Everything seems to be working.",
             "name": "Fedora Infrastructure Cloud",
-            "status": "major",
+            "status": "good",
             "url": "https://fedorainfracloud.org/"
         },
         "copr": {
-            "message": "fedorainfracloud node down, several services affected",
+            "message": "Everything seems to be working.",
             "name": "COPR Build System",
-            "status": "major",
+            "status": "good",
             "url": "https://copr.fedoraproject.org/"
         },
         "darkserver": {
-            "message": "fedorainfracloud node down, several services affected",
+            "message": "Everything seems to be working.",
             "name": "Darkserver",
-            "status": "major",
+            "status": "good",
             "url": "https://fedoraproject.org/wiki/Darkserver"
         },
         "docs": {
-            "message": "fedorainfracloud node down, several services affected",
+            "message": "Everything seems to be working.",
             "name": "Documentation website",
-            "status": "major",
+            "status": "good",
             "url": "http://docs.fedoraproject.org/"
         },
         "elections": {
-            "message": "fedorainfracloud node down, several services affected",
+            "message": "Everything seems to be working.",
             "name": "Fedora elections",
-            "status": "major",
+            "status": "good",
             "url": "https://admin.fedoraproject.org/voting/"
         },
         "fas": {
-            "message": "fedorainfracloud node down, several services affected",
+            "message": "Everything seems to be working.",
             "name": "Account System",
-            "status": "major",
+            "status": "good",
             "url": "https://admin.fedoraproject.org/accounts/"
         },
         "fedmsg": {
-            "message": "fedorainfracloud node down, several services affected",
+            "message": "Everything seems to be working.",
             "name": "Fedora Messaging Bus",
-            "status": "major",
+            "status": "good",
             "url": "https://admin.fedoraproject.org/pkgdb/acls/name/fedmsg"
         },
         "fedocal": {
-            "message": "fedorainfracloud node down, several services affected",
+            "message": "Everything seems to be working.",
             "name": "Fedora Calendar",
-            "status": "major",
+            "status": "good",
             "url": "https://apps.fedoraproject.org/fedocal/"
         },
         "fedorahosted": {
-            "message": "fedorainfracloud node down, several services affected",
+            "message": "Everything seems to be working.",
             "name": "FedoraHosted.org Services",
-            "status": "major",
+            "status": "good",
             "url": "https://fedorahosted.org/web/"
         },
         "fedorapaste": {
-            "message": "fedorainfracloud node down, several services affected",
+            "message": "Everything seems to be working.",
             "name": "Fedora pastebin service",
-            "status": "major",
+            "status": "good",
             "url": "https://paste.fedorahosted.org/"
         },
         "freemedia": {
-            "message": "fedorainfracloud node down, several services affected",
+            "message": "Everything seems to be working.",
             "name": "FreeMedia",
-            "status": "major",
+            "status": "good",
             "url": "http://fedoraproject.org/wiki/FreeMedia"
         },
         "koji": {
-            "message": "fedorainfracloud node down, several services affected",
+            "message": "Everything seems to be working.",
             "name": "The Koji Buildsystem",
-            "status": "major",
+            "status": "good",
             "url": "http://koji.fedoraproject.org/koji/"
         },
         "koschei": {
-            "message": "fedorainfracloud node down, several services affected",
+            "message": "Everything seems to be working.",
             "name": "Koschei Continuous Integration",
-            "status": "major",
+            "status": "good",
             "url": "https://apps.fedoraproject.org/koschei/"
         },
         "krb": {
-            "message": "fedorainfracloud node down, several services affected",
+            "message": "Everything seems to be working.",
             "name": "Kerberos",
-            "status": "major",
+            "status": "good",
             "url": "https://id.fedoraproject.org/"
         },
         "mailinglists": {
-            "message": "fedorainfracloud node down, several services affected",
+            "message": "Everything seems to be working.",
             "name": "Mailing Lists",
-            "status": "major",
+            "status": "good",
             "url": "http://lists.fedoraproject.org/"
         },
         "mirrorlist": {
-            "message": "fedorainfracloud node down, several services affected",
+            "message": "Everything seems to be working.",
             "name": "Mirror List",
-            "status": "major",
+            "status": "good",
             "url": "http://mirrors.fedoraproject.org/publiclist/"
         },
         "mirrormanager": {
-            "message": "fedorainfracloud node down, several services affected",
+            "message": "Everything seems to be working.",
             "name": "Mirror Manager",
-            "status": "major",
+            "status": "good",
             "url": "http://mirrors.fedoraproject.org/"
         },
         "packages": {
-            "message": "fedorainfracloud node down, several services affected",
+            "message": "Everything seems to be working.",
             "name": "Fedora Packages App",
-            "status": "major",
+            "status": "good",
             "url": "https://apps.fedoraproject.org/packages"
         },
         "people": {
-            "message": "fedorainfracloud node down, several services affected",
+            "message": "Everything seems to be working.",
             "name": "Fedora People",
-            "status": "major",
+            "status": "good",
             "url": "https://fedorapeople.org/"
         },
         "pkgdb": {
-            "message": "fedorainfracloud node down, several services affected",
+            "message": "Everything seems to be working.",
             "name": "Package Database",
-            "status": "major",
+            "status": "good",
             "url": "https://admin.fedoraproject.org/pkgdb/"
         },
         "pkgs": {
             "mailinglists": "Fedora mailing lists",
-            "message": "fedorainfracloud node down, several services affected",
+            "message": "Everything seems to be working.",
             "name": "Package maintainers git repositories",
-            "status": "major",
+            "status": "good",
             "url": "http://pkgs.fedoraproject.org/"
         },
         "tagger": {
-            "message": "fedorainfracloud node down, several services affected",
+            "message": "Everything seems to be working.",
             "name": "Tagger",
-            "status": "major",
+            "status": "good",
             "url": "https://apps.fedoraproject.org/tagger/"
         },
         "website": {
-            "message": "fedorainfracloud node down, several services affected",
+            "message": "Everything seems to be working.",
             "name": "Fedora websites",
-            "status": "major",
+            "status": "good",
             "url": "http://fedoraproject.org/"
         },
         "wiki": {
-            "message": "fedorainfracloud node down, several services affected",
+            "message": "Everything seems to be working.",
             "name": "Fedora Wiki",
-            "status": "major",
+            "status": "good",
             "url": "https://fedoraproject.org/wiki/Fedora_Project_Wiki"
         },
         "zodbot": {
-            "message": "fedorainfracloud node down, several services affected",
+            "message": "Everything seems to be working.",
             "name": "Zodbot IRC bot",
-            "status": "major",
+            "status": "good",
             "url": "https://fedoraproject.org/wiki/Zodbot"
         }
     }
