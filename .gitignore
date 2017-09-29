@@ -1,2 +1,5 @@
 *.pyc
 *.pyo
+generated/index.html
+generated/changes.rss
+generated/m.rss
