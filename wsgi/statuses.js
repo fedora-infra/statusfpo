@@ -1,7 +1,7 @@
 callback({
     "global_info": "",
-    "global_status": "good",
-    "global_verbose_status": "All systems go",
+    "global_status": "major",
+    "global_verbose_status": "Major service disruption",
     "services": {
         "ask": {
             "message": "storage issues download services affected",
