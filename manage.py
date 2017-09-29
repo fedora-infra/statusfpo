@@ -147,11 +147,11 @@ if __name__ == '__main__':
             sys.exit(6)
 
         if not args.no_push:
-            result = subprocess.call('aws s3 cp generated/ s3://status.fedoraproject.org/ --recursive', shell=True)
+            result = subprocess.call('aws --profile statusfpo s3 cp generated/ s3://status.fedoraproject.org/ --recursive', shell=True)
             if result != 0:
                 print('An error occured during push')
                 sys.exit(6)
-            result = subprocess.call(['aws', 'cloudfront', 'create-invalidation', '--distribution-id', 'E2ROJ0IZ3EJ66H', '--paths', '/index.html', '/changes.rss', '/m.html'])
+            result = subprocess.call(['aws', '--profile', 'statusfpo', 'cloudfront', 'create-invalidation', '--distribution-id', 'E2ROJ0IZ3EJ66H', '--paths', '/index.html', '/changes.rss', '/m.html'])
             if result != 0:
                 print('An error occured during push')
                 sys.exit(6)
