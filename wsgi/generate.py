@@ -28,7 +28,7 @@ from jinja2 import Environment, FileSystemLoader
 from util_functions import *
 
 def getInfo(filename):
-    f = open(filename, 'r')
+    f = open('%s' % filename, 'r')
     info = json.loads(f.read())
     f.close()
     return info
@@ -99,6 +99,7 @@ def minify(contents, skip):
 if __name__ == '__main__':
     parser = argparse.ArgumentParser(description='Generate the static files')
     parser.add_argument('type', help='The type of page to generate, either html, mobile or rss')
+    parser.add_argument('output', help='Output file')
     parser.add_argument('--no-minify', action='store_true', help='Disable the minification, to ease debugging')
     args = parser.parse_args()
 
@@ -110,12 +111,16 @@ if __name__ == '__main__':
     f.write(json.dumps(the_json, sort_keys=True, indent = 4))
     f.close()
 
+    generated = None
     if args.type == 'html':
-        print(minify(generateHtml(), args.no_minify))
+        generated = minify(generateHtml(), args.no_minify)
     elif args.type == 'rss':
-        print(minify(generateFeed('rss'), args.no_minify))
+        generated = minify(generateFeed('rss'), args.no_minify)
     elif args.type == 'mobile':
-        print(minify(generateMobile(), args.no_minify))
+        generated = minify(generateMobile(), args.no_minify)
     else:
         print('Error: invalid type (html/rss)')
         sys.exit(1)
+
+    with open(args.output, 'w') as f:
+        f.write(generated)

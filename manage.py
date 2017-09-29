@@ -34,6 +34,8 @@ if __name__ == '__main__':
     parser.add_argument('new_message', help='The new status message. Use - to use "Everything seems to be working"')
     parser.add_argument('service', help='The service(s) to modify. Use - to update every service', nargs='+')
     parser.add_argument('--no-git', action='store_true', help='Do not commit and push to git')
+    parser.add_argument('--no-update', action='store_true', help='Do not generate new content')
+    parser.add_argument('--no-push', action='store_true', help='Do not push changes live')
     parser.add_argument('--global-info', help='Set the global information message')
     args = parser.parse_args()
 
@@ -129,3 +131,27 @@ if __name__ == '__main__':
     if result != 0:
         print('An error occured during git push, please try again!')
         sys.exit(6)
+
+    if not args.no_update:
+        result = subprocess.call('python generate.py html ../generated/index.html', shell=True, cwd='wsgi')
+        if result != 0:
+            print('An error occured during update')
+            sys.exit(6)
+        result = subprocess.call('python generate.py rss ../generated/changes.rss', shell=True, cwd='wsgi')
+        if result != 0:
+            print('An error occured during update')
+            sys.exit(6)
+        result = subprocess.call('python generate.py mobile ../generated/m.rss', shell=True, cwd='wsgi')
+        if result != 0:
+            print('An error occured during update')
+            sys.exit(6)
+
+        if not args.no_push:
+            result = subprocess.call('aws s3 cp generated/ s3://status.fedoraproject.org/ --recursive', shell=True)
+            if result != 0:
+                print('An error occured during push')
+                sys.exit(6)
+            result = subprocess.call(['aws', 'cloudfront', 'create-invalidation', '--distribution-id', 'E2ROJ0IZ3EJ66H', '--paths', '/index.html', '/changes.rss', '/m.html'])
+            if result != 0:
+                print('An error occured during push')
+                sys.exit(6)
