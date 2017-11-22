@@ -1,7 +1,7 @@
 {
     "global_info": "",
-    "global_status": "major",
-    "global_verbose_status": "Major service disruption",
+    "global_status": "good",
+    "global_verbose_status": "All systems go",
     "services": {
         "ask": {
             "message": "Everything seems to be working.",
@@ -173,9 +173,9 @@
             "url": "http://fedoraproject.org/"
         },
         "wiki": {
-            "message": "Everything seems to be working.",
+            "message": "planned wiki outage",
             "name": "Fedora Wiki",
-            "status": "good",
+            "status": "scheduled",
             "url": "https://fedoraproject.org/wiki/Fedora_Project_Wiki"
         },
         "zodbot": {

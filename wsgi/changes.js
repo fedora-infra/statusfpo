@@ -1,5 +1,13 @@
 callback([
     {
+        "changetype": "single",
+        "service": "wiki",
+        "status": "scheduled",
+        "new_global_status": "scheduled",
+        "message": "planned wiki outage",
+        "changedate": 1511384411.4448128
+    },
+    {
         "changetype": "multiple",
         "services": [
             "ask",
