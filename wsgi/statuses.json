@@ -173,9 +173,9 @@
             "url": "http://fedoraproject.org/"
         },
         "wiki": {
-            "message": "planned wiki outage",
+            "message": "Everything seems to be working.",
             "name": "Fedora Wiki",
-            "status": "scheduled",
+            "status": "good",
             "url": "https://fedoraproject.org/wiki/Fedora_Project_Wiki"
         },
         "zodbot": {
