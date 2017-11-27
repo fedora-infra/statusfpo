@@ -1,5 +1,6 @@
+/.aws
 *.pyc
 *.pyo
-generated/index.html
+generated/*.html
 generated/changes.rss
 generated/m.rss
