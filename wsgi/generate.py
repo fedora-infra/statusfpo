@@ -55,10 +55,10 @@ def generateFeedPage(feedtype, changes, statuses):
     global_status = getVerboseStatus(getGlobalStatus(statuses['services']))
     return env.get_template(feedtype).render(changes=changes, currenttime=strftime("%a, %d %b %Y %H:%M:%S +0000", gmtime()))
 
-def generateHtmlPage(statuses):
+def generateHtmlPage(statuses, template='template.html'):
     env = Environment(loader=FileSystemLoader('.'))
     global_status = getVerboseStatus(getGlobalStatus(statuses['services']))
-    return env.get_template('template.html').render(statuses=statuses['services'], global_status=getGlobalStatus(statuses['services']), global_info=statuses['global_info'], verbose_global_status=global_status, year=datetime.datetime.now().year)
+    return env.get_template(template).render(statuses=statuses['services'], global_status=getGlobalStatus(statuses['services']), global_info=statuses['global_info'], verbose_global_status=global_status, year=datetime.datetime.now().year)
 
 def generateMobilePage(statuses):
     env = Environment(loader=FileSystemLoader('.'))
@@ -73,8 +73,8 @@ def getFailedServices(statuses):
             toReturn.append(statuses[service]['name'] + ' (' + statuses[service]['status'] + ')')
     return ', '.join(toReturn)
 
-def generateHtml():
-    return generateHtmlPage(getInfo('statuses.json'))
+def generateHtml(template='template.html'):
+    return generateHtmlPage(getInfo('statuses.json'), template=template)
 
 def generateFeed(feedtype):
     return generateFeedPage(feedtype + '.html', getInfo('changes.json'), getInfo('statuses.json'))
@@ -114,6 +114,8 @@ if __name__ == '__main__':
     generated = None
     if args.type == 'html':
         generated = minify(generateHtml(), args.no_minify)
+    elif args.type == 'maint':
+        generated = minify(generateHtml('q4maint.html'), args.no_minify)
     elif args.type == 'rss':
         generated = minify(generateFeed('rss'), args.no_minify)
     elif args.type == 'mobile':

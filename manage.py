@@ -137,6 +137,10 @@ if __name__ == '__main__':
         if result != 0:
             print('An error occured during update')
             sys.exit(6)
+        result = subprocess.call('python generate.py maint ../generated/q4maint.html', shell=True, cwd='wsgi')
+        if result != 0:
+            print('An error occured during update')
+            sys.exit(6)
         result = subprocess.call('python generate.py rss ../generated/changes.rss', shell=True, cwd='wsgi')
         if result != 0:
             print('An error occured during update')

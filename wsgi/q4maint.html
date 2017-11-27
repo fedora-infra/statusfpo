@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Fedora Infrastructure - Status - 2017 Q4 maintenance</title>
+    <style type="text/css">
+      {% include 'style.css' %}
+    </style>
+    <meta http-equiv="refresh" content="60" />
+    <link rel="shortcut icon" href="/status-{{global_status}}.ico">
+  </head>
+  <body>
+    <div id="header">
+      <div class="navbar">
+        <div class="constraint">
+          <h1 class="name"><a href="/">Fedora Infrastructure Status</a></h1>
+          <ul>
+            <li><a href="https://apps.fedoraproject.org/calendar/list/infrastructure-outages/">Outages Calendar</a></li>
+            <li><a href="irc://irc.freenode.net/fedora-admin">#fedora-admin on irc.freenode.net</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="headercontent minor-incident">
+        <div class="constraint">
+          <h1 class="nomargin">Infrastructure 2017 Q4 maintenance</h1>
+        </div>
+      </div>
+    </div>
+
+    <div class="headerstatus">
+     <div class="constraint">
+       <h3 class="nomargin">During the week of 2017-12-04 - 2017-12-08, all Fedora Infrastructure servers get moved</h3>
+       <p>This page gives information about when what boxes will be down, and when they are finished moving.</p>
+     </div>
+    </div>
+
+    <div class="constraint">
+      <div class="content topmargin orange">
+        <div class="header">
+          <b>Monday</b>
+          <span class="right">2017-12-04</span>
+        </div>
+        <div class="pad">
+          <ul>
+            <li>All hosts updated</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="content topmargin orange">
+        <div class="header">
+          <b>Tuesday</b>
+          <span class="right">2017-12-05</span>
+        </div>
+        <div class="pad">
+          <ul>
+            <li>ARM boxes moving</li>
+            <li>PPC boxes moving</li>
+            <li>Releng boxes moving</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="content topmargin orange">
+        <div class="header">
+          <b>Wednesday</b>
+          <span class="right">2017-12-06</span>
+        </div>
+        <div class="pad">
+          <ul>
+            <li>Production boxes moving</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="content topmargin orange">
+        <div class="header">
+          <b>Thursday</b>
+          <span class="right">2017-12-07</span>
+        </div>
+        <div class="pad">
+          <ul>
+            <li>QA boxes movin</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="content topmargin orange">
+        <div class="header">
+          <b>Friday</b>
+          <span class="right">2017-12-08</span>
+        </div>
+        <div class="pad">
+          <ul>
+            <li>Cloud boxes moving</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <div id="footer" class="constraint">
+      <p class="left">
+        &copy; {{year}} Red Hat, Inc., Patrick Uiterwijk<br>
+      </p>
+      <p class="right">
+        Silk Icons by <a href="http://www.famfamfam.com/lab/icons/silk/">famfamfam</a><br />
+        <a href="http://git.fedorahosted.org/git/fedora-status">Open Source</a>
+      </p>
+    </div>
+
+    <script src="https://apps.fedoraproject.org/fedmenu/js/jquery-1.11.2.min.js"></script>
+    <script src="https://apps.fedoraproject.org/fedmenu/js/fedmenu.js"></script>
+    <script>
+      fedmenu({
+          'url': 'https://apps.fedoraproject.org/js/data.js',
+          'mimeType': 'application/javascript',
+          'position': 'bottom-right',
+      });
+    </script>
+
+  </body>
+</html>
