@@ -1,5 +1,16 @@
 callback([
     {
+        "changetype": "multiple",
+        "services": [
+            "copr",
+            "cloud"
+        ],
+        "status": "major",
+        "new_global_status": "major",
+        "message": "outage",
+        "changedate": 1512411592.2301729
+    },
+    {
         "changetype": "single",
         "service": "wiki",
         "status": "good",

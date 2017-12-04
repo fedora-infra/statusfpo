@@ -34,15 +34,15 @@ callback({
             "url": "https://admin.fedoraproject.org/updates/"
         },
         "cloud": {
-            "message": "Everything seems to be working.",
+            "message": "outage",
             "name": "Fedora Infrastructure Cloud",
-            "status": "good",
+            "status": "major",
             "url": "https://fedorainfracloud.org/"
         },
         "copr": {
-            "message": "Everything seems to be working.",
+            "message": "outage",
             "name": "COPR Build System",
-            "status": "good",
+            "status": "major",
             "url": "https://copr.fedoraproject.org/"
         },
         "darkserver": {
