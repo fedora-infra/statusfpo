@@ -1,7 +1,7 @@
 callback({
     "global_info": "",
-    "global_status": "major",
-    "global_verbose_status": "Major service disruption",
+    "global_status": "scheduled",
+    "global_verbose_status": "There are scheduled downtimes in progress",
     "services": {
         "ask": {
             "message": "Everything seems to be working.",
@@ -100,7 +100,7 @@ callback({
             "url": "http://fedoraproject.org/wiki/FreeMedia"
         },
         "koji": {
-            "message": "Builders disabled, tasks will be picked up after move",
+            "message": "Builders disabled, tasks will be picked up after todays move",
             "name": "The Koji Buildsystem",
             "status": "scheduled",
             "url": "http://koji.fedoraproject.org/koji/"

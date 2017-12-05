@@ -1,56 +1,61 @@
 callback([
     {
-        "changedate": 1512471588.815899,
         "status": "scheduled",
-        "changetype": "single",
+        "new_global_status": "scheduled",
         "service": "koji",
-        "message": "Builders disabled, tasks will be picked up after move",
-        "new_global_status": "scheduled"
+        "changetype": "single",
+        "message": "Builders disabled, tasks will be picked up after todays move",
+        "changedate": 1512472178.736587
     },
     {
-        "changedate": 1512413833.0405214,
+        "status": "scheduled",
+        "new_global_status": "scheduled",
+        "service": "koji",
+        "changetype": "single",
+        "message": "Builders disabled, tasks will be picked up after move",
+        "changedate": 1512471588.815899
+    },
+    {
         "status": "good",
-        "changetype": "multiple",
         "new_global_status": "good",
-        "message": "Everything seems to be working.",
         "services": [
             "cloud",
             "copr"
-        ]
+        ],
+        "changetype": "multiple",
+        "message": "Everything seems to be working.",
+        "changedate": 1512413833.0405214
     },
     {
-        "changedate": 1512411592.2301729,
         "status": "major",
-        "changetype": "multiple",
         "new_global_status": "major",
-        "message": "outage",
         "services": [
             "copr",
             "cloud"
-        ]
+        ],
+        "changetype": "multiple",
+        "message": "outage",
+        "changedate": 1512411592.2301729
     },
     {
-        "changedate": 1511398544.1413684,
         "status": "good",
-        "changetype": "single",
+        "new_global_status": "good",
         "service": "wiki",
+        "changetype": "single",
         "message": "Everything seems to be working.",
-        "new_global_status": "good"
+        "changedate": 1511398544.1413684
     },
     {
-        "changedate": 1511384411.4448128,
         "status": "scheduled",
-        "changetype": "single",
+        "new_global_status": "scheduled",
         "service": "wiki",
+        "changetype": "single",
         "message": "planned wiki outage",
-        "new_global_status": "scheduled"
+        "changedate": 1511384411.4448128
     },
     {
-        "changedate": 1506723125.9483964,
         "status": "good",
-        "changetype": "multiple",
         "new_global_status": "good",
-        "message": "Everything seems to be working.",
         "services": [
             "ask",
             "authentication",
@@ -82,53 +87,53 @@ callback([
             "website",
             "wiki",
             "zodbot"
-        ]
+        ],
+        "changetype": "multiple",
+        "message": "Everything seems to be working.",
+        "changedate": 1506723125.9483964
     },
     {
-        "changedate": 1506721426.009994,
         "status": "major",
-        "changetype": "multiple",
         "new_global_status": "major",
+        "services": [
+            "ask",
+            "authentication",
+            "badges",
+            "blockerbugs",
+            "bodhi",
+            "cloud",
+            "copr",
+            "darkserver",
+            "docs",
+            "elections",
+            "fas",
+            "fedmsg",
+            "fedocal",
+            "fedorahosted",
+            "fedorapaste",
+            "freemedia",
+            "koji",
+            "koschei",
+            "krb",
+            "mailinglists",
+            "mirrorlist",
+            "mirrormanager",
+            "packages",
+            "people",
+            "pkgdb",
+            "pkgs",
+            "tagger",
+            "website",
+            "wiki",
+            "zodbot"
+        ],
+        "changetype": "multiple",
         "message": "storage issues download services affected",
-        "services": [
-            "ask",
-            "authentication",
-            "badges",
-            "blockerbugs",
-            "bodhi",
-            "cloud",
-            "copr",
-            "darkserver",
-            "docs",
-            "elections",
-            "fas",
-            "fedmsg",
-            "fedocal",
-            "fedorahosted",
-            "fedorapaste",
-            "freemedia",
-            "koji",
-            "koschei",
-            "krb",
-            "mailinglists",
-            "mirrorlist",
-            "mirrormanager",
-            "packages",
-            "people",
-            "pkgdb",
-            "pkgs",
-            "tagger",
-            "website",
-            "wiki",
-            "zodbot"
-        ]
+        "changedate": 1506721426.009994
     },
     {
-        "changedate": 1506366140.839465,
         "status": "good",
-        "changetype": "multiple",
         "new_global_status": "good",
-        "message": "Everything seems to be working.",
         "services": [
             "ask",
             "authentication",
@@ -160,69 +165,69 @@ callback([
             "website",
             "wiki",
             "zodbot"
-        ]
+        ],
+        "changetype": "multiple",
+        "message": "Everything seems to be working.",
+        "changedate": 1506366140.839465
     },
     {
-        "changedate": 1506357755.4819229,
         "status": "major",
-        "changetype": "multiple",
         "new_global_status": "major",
+        "services": [
+            "ask",
+            "authentication",
+            "badges",
+            "blockerbugs",
+            "bodhi",
+            "cloud",
+            "copr",
+            "darkserver",
+            "docs",
+            "elections",
+            "fas",
+            "fedmsg",
+            "fedocal",
+            "fedorahosted",
+            "fedorapaste",
+            "freemedia",
+            "koji",
+            "koschei",
+            "krb",
+            "mailinglists",
+            "mirrorlist",
+            "mirrormanager",
+            "packages",
+            "people",
+            "pkgdb",
+            "pkgs",
+            "tagger",
+            "website",
+            "wiki",
+            "zodbot"
+        ],
+        "changetype": "multiple",
         "message": "fedorainfracloud node down, several services affected",
-        "services": [
-            "ask",
-            "authentication",
-            "badges",
-            "blockerbugs",
-            "bodhi",
-            "cloud",
-            "copr",
-            "darkserver",
-            "docs",
-            "elections",
-            "fas",
-            "fedmsg",
-            "fedocal",
-            "fedorahosted",
-            "fedorapaste",
-            "freemedia",
-            "koji",
-            "koschei",
-            "krb",
-            "mailinglists",
-            "mirrorlist",
-            "mirrormanager",
-            "packages",
-            "people",
-            "pkgdb",
-            "pkgs",
-            "tagger",
-            "website",
-            "wiki",
-            "zodbot"
-        ]
+        "changedate": 1506357755.4819229
     },
     {
-        "changedate": 1506117653.92017,
         "status": "good",
-        "changetype": "single",
-        "service": "mailinglists",
-        "message": "Everything seems to be working.",
-        "new_global_status": "good"
-    },
-    {
-        "changedate": 1505832456.8349714,
-        "status": "minor",
-        "changetype": "single",
-        "service": "mailinglists",
-        "message": "Mailing lists email sending crashed since late Sunday. Cause fixed, emails going out now.",
-        "new_global_status": "minor"
-    },
-    {
-        "changedate": 1504712032.4885163,
-        "status": "good",
-        "changetype": "multiple",
         "new_global_status": "good",
+        "service": "mailinglists",
+        "changetype": "single",
         "message": "Everything seems to be working.",
+        "changedate": 1506117653.92017
+    },
+    {
+        "status": "minor",
+        "new_global_status": "minor",
+        "service": "mailinglists",
+        "changetype": "single",
+        "message": "Mailing lists email sending crashed since late Sunday. Cause fixed, emails going out now.",
+        "changedate": 1505832456.8349714
+    },
+    {
+        "status": "good",
+        "new_global_status": "good",
         "services": [
             "ask",
             "authentication",
@@ -254,14 +259,14 @@ callback([
             "website",
             "wiki",
             "zodbot"
-        ]
+        ],
+        "changetype": "multiple",
+        "message": "Everything seems to be working.",
+        "changedate": 1504712032.4885163
     },
     {
-        "changedate": 1504702183.5042634,
         "status": "major",
-        "changetype": "multiple",
         "new_global_status": "major",
-        "message": "DNSSEC issues have been reported against fedoraproject.org and are being investigated",
         "services": [
             "fedmsg",
             "koschei",
@@ -293,655 +298,655 @@ callback([
             "people",
             "darkserver",
             "blockerbugs"
-        ]
+        ],
+        "changetype": "multiple",
+        "message": "DNSSEC issues have been reported against fedoraproject.org and are being investigated",
+        "changedate": 1504702183.5042634
     },
     {
-        "changedate": 1504119790.7855704,
         "status": "good",
-        "changetype": "single",
+        "new_global_status": "good",
         "service": "pkgs",
+        "changetype": "single",
         "message": "Everything seems to be working.",
-        "new_global_status": "good"
+        "changedate": 1504119790.7855704
     },
     {
-        "changedate": 1504118924.845832,
         "status": "major",
-        "changetype": "single",
+        "new_global_status": "major",
         "service": "pkgs",
+        "changetype": "single",
         "message": "src.fedoraproject.org / pkgs down",
-        "new_global_status": "major"
+        "changedate": 1504118924.845832
     },
     {
-        "changedate": 1503034664.025052,
         "status": "good",
-        "changetype": "single",
+        "new_global_status": "good",
         "service": "wiki",
+        "changetype": "single",
         "message": "Everything seems to be working.",
-        "new_global_status": "good"
+        "changedate": 1503034664.025052
     },
     {
-        "changedate": 1503034222.1620278,
         "status": "minor",
-        "changetype": "single",
-        "service": "wiki",
-        "message": "Recovering database server connectivity issues, expect some slowness",
-        "new_global_status": "minor"
-    },
-    {
-        "changedate": 1503033811.0287077,
-        "status": "major",
-        "changetype": "single",
-        "service": "wiki",
-        "message": "Looking into database server connectivity issues",
-        "new_global_status": "major"
-    },
-    {
-        "changedate": 1502497496.922436,
-        "status": "good",
-        "changetype": "multiple",
-        "new_global_status": "good",
-        "message": "Everything seems to be working.",
-        "services": [
-            "cloud",
-            "copr"
-        ]
-    },
-    {
-        "changedate": 1502485760.2615054,
-        "status": "scheduled",
-        "changetype": "multiple",
-        "new_global_status": "scheduled",
-        "message": "Scheduled maintenance in progress",
-        "services": [
-            "copr",
-            "cloud"
-        ]
-    },
-    {
-        "changedate": 1502333334.211173,
-        "status": "good",
-        "changetype": "multiple",
-        "new_global_status": "good",
-        "message": "Everything seems to be working.",
-        "services": [
-            "ask",
-            "authentication",
-            "badges",
-            "blockerbugs",
-            "bodhi",
-            "cloud",
-            "copr",
-            "darkserver",
-            "docs",
-            "elections",
-            "fas",
-            "fedmsg",
-            "fedocal",
-            "fedorahosted",
-            "fedorapaste",
-            "freemedia",
-            "koji",
-            "koschei",
-            "krb",
-            "mailinglists",
-            "mirrorlist",
-            "mirrormanager",
-            "packages",
-            "people",
-            "pkgdb",
-            "pkgs",
-            "tagger",
-            "website",
-            "wiki",
-            "zodbot"
-        ]
-    },
-    {
-        "changedate": 1502312553.4470384,
-        "status": "scheduled",
-        "changetype": "multiple",
-        "new_global_status": "scheduled",
-        "message": "server updates",
-        "services": [
-            "ask",
-            "authentication",
-            "badges",
-            "blockerbugs",
-            "bodhi",
-            "cloud",
-            "copr",
-            "darkserver",
-            "docs",
-            "elections",
-            "fas",
-            "fedmsg",
-            "fedocal",
-            "fedorahosted",
-            "fedorapaste",
-            "freemedia",
-            "koji",
-            "koschei",
-            "krb",
-            "mailinglists",
-            "mirrorlist",
-            "mirrormanager",
-            "packages",
-            "people",
-            "pkgdb",
-            "pkgs",
-            "tagger",
-            "website",
-            "wiki",
-            "zodbot"
-        ]
-    },
-    {
-        "changedate": 1502241647.66671,
-        "status": "good",
-        "changetype": "multiple",
-        "new_global_status": "good",
-        "message": "Everything seems to be working.",
-        "services": [
-            "bodhi",
-            "koji",
-            "koschei"
-        ]
-    },
-    {
-        "changedate": 1502235071.2036397,
-        "status": "scheduled",
-        "changetype": "multiple",
-        "new_global_status": "scheduled",
-        "message": "Scheduled reboots in progress",
-        "services": [
-            "koschei",
-            "bodhi",
-            "koji"
-        ]
-    },
-    {
-        "changedate": 1502235062.1149325,
-        "status": "good",
-        "changetype": "multiple",
-        "new_global_status": "good",
-        "message": "Everything seems to be working.",
-        "services": [
-            "ask",
-            "authentication",
-            "badges",
-            "blockerbugs",
-            "bodhi",
-            "cloud",
-            "copr",
-            "darkserver",
-            "docs",
-            "elections",
-            "fas",
-            "fedmsg",
-            "fedocal",
-            "fedorahosted",
-            "fedorapaste",
-            "freemedia",
-            "koji",
-            "koschei",
-            "krb",
-            "mailinglists",
-            "mirrorlist",
-            "mirrormanager",
-            "packages",
-            "people",
-            "pkgdb",
-            "pkgs",
-            "tagger",
-            "website",
-            "wiki",
-            "zodbot"
-        ]
-    },
-    {
-        "changedate": 1502230190.6960716,
-        "status": "major",
-        "changetype": "multiple",
-        "new_global_status": "major",
-        "message": "NFS storage being unresponsive, being looked at",
-        "services": [
-            "ask",
-            "authentication",
-            "badges",
-            "blockerbugs",
-            "bodhi",
-            "cloud",
-            "copr",
-            "darkserver",
-            "docs",
-            "elections",
-            "fas",
-            "fedmsg",
-            "fedocal",
-            "fedorahosted",
-            "fedorapaste",
-            "freemedia",
-            "koji",
-            "koschei",
-            "krb",
-            "mailinglists",
-            "mirrorlist",
-            "mirrormanager",
-            "packages",
-            "people",
-            "pkgdb",
-            "pkgs",
-            "tagger",
-            "website",
-            "wiki",
-            "zodbot"
-        ]
-    },
-    {
-        "changedate": 1502226144.748629,
-        "status": "scheduled",
-        "changetype": "multiple",
-        "new_global_status": "scheduled",
-        "message": "Scheduled reboots in progress",
-        "services": [
-            "koschei",
-            "bodhi",
-            "koji"
-        ]
-    },
-    {
-        "changedate": 1502118252.973875,
-        "status": "good",
-        "changetype": "single",
-        "service": "mailinglists",
-        "message": "Everything seems to be working.",
-        "new_global_status": "good"
-    },
-    {
-        "changedate": 1501881191.4611883,
-        "status": "scheduled",
-        "changetype": "single",
-        "service": "mailinglists",
-        "message": "mailinglists database work",
-        "new_global_status": "scheduled"
-    },
-    {
-        "changedate": 1501624342.148569,
-        "status": "good",
-        "changetype": "multiple",
-        "new_global_status": "good",
-        "message": "Everything seems to be working.",
-        "services": [
-            "koji",
-            "bodhi",
-            "koschei"
-        ]
-    },
-    {
-        "changedate": 1501621311.608752,
-        "status": "scheduled",
-        "changetype": "multiple",
-        "new_global_status": "scheduled",
-        "message": "Down for scheduled koji database maintenance",
-        "services": [
-            "koji",
-            "bodhi",
-            "koschei"
-        ]
-    },
-    {
-        "changedate": 1500034415.702598,
-        "status": "good",
-        "changetype": "single",
-        "service": "koji",
-        "message": "Everything seems to be working.",
-        "new_global_status": "good"
-    },
-    {
-        "changedate": 1500005478.842641,
-        "status": "minor",
-        "changetype": "single",
-        "service": "koji",
-        "message": "s390x builders coming back now, backlog of builds is being processed",
-        "new_global_status": "minor"
-    },
-    {
-        "changedate": 1499992472.2618759,
-        "status": "major",
-        "changetype": "single",
-        "service": "koji",
-        "message": "s390x builders offline, blocking all nonarch builds that include s390x, escalated",
-        "new_global_status": "major"
-    },
-    {
-        "changedate": 1499902730.0635335,
-        "status": "good",
-        "changetype": "single",
-        "service": "mailinglists",
-        "message": "Everything seems to be working.",
-        "new_global_status": "good"
-    },
-    {
-        "changedate": 1499873221.4790897,
-        "status": "minor",
-        "changetype": "single",
-        "service": "mailinglists",
-        "message": "Incoming email processing delayed, being looked at",
-        "new_global_status": "minor"
-    },
-    {
-        "changedate": 1498527260.562527,
-        "status": "good",
-        "changetype": "multiple",
-        "new_global_status": "good",
-        "message": "Everything seems to be working.",
-        "services": [
-            "copr",
-            "cloud"
-        ]
-    },
-    {
-        "changedate": 1498512356.6740384,
-        "status": "scheduled",
-        "changetype": "multiple",
-        "new_global_status": "scheduled",
-        "message": "Scheduled updates in progress",
-        "services": [
-            "cloud",
-            "copr"
-        ]
-    },
-    {
-        "changedate": 1498093176.6001916,
-        "status": "good",
-        "changetype": "multiple",
-        "new_global_status": "good",
-        "message": "Everything seems to be working.",
-        "services": [
-            "ask",
-            "authentication",
-            "badges",
-            "blockerbugs",
-            "bodhi",
-            "cloud",
-            "copr",
-            "darkserver",
-            "docs",
-            "elections",
-            "fas",
-            "fedmsg",
-            "fedocal",
-            "fedorahosted",
-            "fedorapaste",
-            "freemedia",
-            "koji",
-            "koschei",
-            "krb",
-            "mailinglists",
-            "mirrorlist",
-            "mirrormanager",
-            "packages",
-            "people",
-            "pkgdb",
-            "pkgs",
-            "tagger",
-            "website",
-            "wiki",
-            "zodbot"
-        ]
-    },
-    {
-        "changedate": 1498078923.8001587,
-        "status": "scheduled",
-        "changetype": "multiple",
-        "new_global_status": "scheduled",
-        "message": "server reboots",
-        "services": [
-            "ask",
-            "authentication",
-            "badges",
-            "blockerbugs",
-            "bodhi",
-            "cloud",
-            "copr",
-            "darkserver",
-            "docs",
-            "elections",
-            "fas",
-            "fedmsg",
-            "fedocal",
-            "fedorahosted",
-            "fedorapaste",
-            "freemedia",
-            "koji",
-            "koschei",
-            "krb",
-            "mailinglists",
-            "mirrorlist",
-            "mirrormanager",
-            "packages",
-            "people",
-            "pkgdb",
-            "pkgs",
-            "tagger",
-            "website",
-            "wiki",
-            "zodbot"
-        ]
-    },
-    {
-        "changedate": 1498007647.1294005,
-        "status": "good",
-        "changetype": "multiple",
-        "new_global_status": "good",
-        "message": "Everything seems to be working.",
-        "services": [
-            "bodhi",
-            "koji",
-            "koschei",
-            "pkgs"
-        ]
-    },
-    {
-        "changedate": 1497992415.519782,
-        "status": "scheduled",
-        "changetype": "multiple",
-        "new_global_status": "scheduled",
-        "message": "planned buildsystem outage",
-        "services": [
-            "koji",
-            "koschei",
-            "pkgs",
-            "bodhi"
-        ]
-    },
-    {
-        "changedate": 1493890102.5029988,
-        "status": "good",
-        "changetype": "multiple",
-        "new_global_status": "good",
-        "message": "Everything seems to be working.",
-        "services": [
-            "cloud",
-            "copr"
-        ]
-    },
-    {
-        "changedate": 1493877705.875975,
-        "status": "scheduled",
-        "changetype": "multiple",
-        "new_global_status": "scheduled",
-        "message": "Scheduled update/reboot in progress: https://pagure.io/fedora-infrastructure/issue/6026",
-        "services": [
-            "cloud",
-            "copr"
-        ]
-    },
-    {
-        "changedate": 1493862811.9792717,
-        "status": "good",
-        "changetype": "multiple",
-        "new_global_status": "good",
-        "message": "Everything seems to be working.",
-        "services": [
-            "ask",
-            "authentication",
-            "badges",
-            "blockerbugs",
-            "bodhi",
-            "cloud",
-            "copr",
-            "darkserver",
-            "docs",
-            "elections",
-            "fas",
-            "fedmsg",
-            "fedocal",
-            "fedorahosted",
-            "fedorapaste",
-            "freemedia",
-            "koji",
-            "koschei",
-            "krb",
-            "mailinglists",
-            "mirrorlist",
-            "mirrormanager",
-            "packages",
-            "people",
-            "pkgdb",
-            "pkgs",
-            "tagger",
-            "website",
-            "wiki",
-            "zodbot"
-        ]
-    },
-    {
-        "changedate": 1493862694.7277944,
-        "status": "minor",
-        "changetype": "multiple",
         "new_global_status": "minor",
-        "message": "Everything seems to be working.",
-        "services": [
-            "ask",
-            "authentication",
-            "badges",
-            "blockerbugs",
-            "bodhi",
-            "cloud",
-            "copr",
-            "darkserver",
-            "docs",
-            "elections",
-            "fas",
-            "fedmsg",
-            "fedocal",
-            "fedorahosted",
-            "fedorapaste",
-            "freemedia",
-            "koji",
-            "koschei",
-            "krb",
-            "mailinglists",
-            "mirrorlist",
-            "mirrormanager",
-            "packages",
-            "people",
-            "pkgdb",
-            "pkgs",
-            "tagger",
-            "website",
-            "wiki",
-            "zodbot"
-        ]
+        "service": "wiki",
+        "changetype": "single",
+        "message": "Recovering database server connectivity issues, expect some slowness",
+        "changedate": 1503034222.1620278
     },
     {
-        "changedate": 1493845350.5211866,
-        "status": "scheduled",
-        "changetype": "multiple",
-        "new_global_status": "scheduled",
-        "message": "server reboots",
-        "services": [
-            "ask",
-            "authentication",
-            "badges",
-            "blockerbugs",
-            "bodhi",
-            "cloud",
-            "copr",
-            "darkserver",
-            "docs",
-            "elections",
-            "fas",
-            "fedmsg",
-            "fedocal",
-            "fedorahosted",
-            "fedorapaste",
-            "freemedia",
-            "koji",
-            "koschei",
-            "krb",
-            "mailinglists",
-            "mirrorlist",
-            "mirrormanager",
-            "packages",
-            "people",
-            "pkgdb",
-            "pkgs",
-            "tagger",
-            "website",
-            "wiki",
-            "zodbot"
-        ]
+        "status": "major",
+        "new_global_status": "major",
+        "service": "wiki",
+        "changetype": "single",
+        "message": "Looking into database server connectivity issues",
+        "changedate": 1503033811.0287077
     },
     {
-        "changedate": 1493766674.4929051,
         "status": "good",
-        "changetype": "multiple",
         "new_global_status": "good",
+        "services": [
+            "cloud",
+            "copr"
+        ],
+        "changetype": "multiple",
         "message": "Everything seems to be working.",
+        "changedate": 1502497496.922436
+    },
+    {
+        "status": "scheduled",
+        "new_global_status": "scheduled",
+        "services": [
+            "copr",
+            "cloud"
+        ],
+        "changetype": "multiple",
+        "message": "Scheduled maintenance in progress",
+        "changedate": 1502485760.2615054
+    },
+    {
+        "status": "good",
+        "new_global_status": "good",
+        "services": [
+            "ask",
+            "authentication",
+            "badges",
+            "blockerbugs",
+            "bodhi",
+            "cloud",
+            "copr",
+            "darkserver",
+            "docs",
+            "elections",
+            "fas",
+            "fedmsg",
+            "fedocal",
+            "fedorahosted",
+            "fedorapaste",
+            "freemedia",
+            "koji",
+            "koschei",
+            "krb",
+            "mailinglists",
+            "mirrorlist",
+            "mirrormanager",
+            "packages",
+            "people",
+            "pkgdb",
+            "pkgs",
+            "tagger",
+            "website",
+            "wiki",
+            "zodbot"
+        ],
+        "changetype": "multiple",
+        "message": "Everything seems to be working.",
+        "changedate": 1502333334.211173
+    },
+    {
+        "status": "scheduled",
+        "new_global_status": "scheduled",
+        "services": [
+            "ask",
+            "authentication",
+            "badges",
+            "blockerbugs",
+            "bodhi",
+            "cloud",
+            "copr",
+            "darkserver",
+            "docs",
+            "elections",
+            "fas",
+            "fedmsg",
+            "fedocal",
+            "fedorahosted",
+            "fedorapaste",
+            "freemedia",
+            "koji",
+            "koschei",
+            "krb",
+            "mailinglists",
+            "mirrorlist",
+            "mirrormanager",
+            "packages",
+            "people",
+            "pkgdb",
+            "pkgs",
+            "tagger",
+            "website",
+            "wiki",
+            "zodbot"
+        ],
+        "changetype": "multiple",
+        "message": "server updates",
+        "changedate": 1502312553.4470384
+    },
+    {
+        "status": "good",
+        "new_global_status": "good",
+        "services": [
+            "bodhi",
+            "koji",
+            "koschei"
+        ],
+        "changetype": "multiple",
+        "message": "Everything seems to be working.",
+        "changedate": 1502241647.66671
+    },
+    {
+        "status": "scheduled",
+        "new_global_status": "scheduled",
+        "services": [
+            "koschei",
+            "bodhi",
+            "koji"
+        ],
+        "changetype": "multiple",
+        "message": "Scheduled reboots in progress",
+        "changedate": 1502235071.2036397
+    },
+    {
+        "status": "good",
+        "new_global_status": "good",
+        "services": [
+            "ask",
+            "authentication",
+            "badges",
+            "blockerbugs",
+            "bodhi",
+            "cloud",
+            "copr",
+            "darkserver",
+            "docs",
+            "elections",
+            "fas",
+            "fedmsg",
+            "fedocal",
+            "fedorahosted",
+            "fedorapaste",
+            "freemedia",
+            "koji",
+            "koschei",
+            "krb",
+            "mailinglists",
+            "mirrorlist",
+            "mirrormanager",
+            "packages",
+            "people",
+            "pkgdb",
+            "pkgs",
+            "tagger",
+            "website",
+            "wiki",
+            "zodbot"
+        ],
+        "changetype": "multiple",
+        "message": "Everything seems to be working.",
+        "changedate": 1502235062.1149325
+    },
+    {
+        "status": "major",
+        "new_global_status": "major",
+        "services": [
+            "ask",
+            "authentication",
+            "badges",
+            "blockerbugs",
+            "bodhi",
+            "cloud",
+            "copr",
+            "darkserver",
+            "docs",
+            "elections",
+            "fas",
+            "fedmsg",
+            "fedocal",
+            "fedorahosted",
+            "fedorapaste",
+            "freemedia",
+            "koji",
+            "koschei",
+            "krb",
+            "mailinglists",
+            "mirrorlist",
+            "mirrormanager",
+            "packages",
+            "people",
+            "pkgdb",
+            "pkgs",
+            "tagger",
+            "website",
+            "wiki",
+            "zodbot"
+        ],
+        "changetype": "multiple",
+        "message": "NFS storage being unresponsive, being looked at",
+        "changedate": 1502230190.6960716
+    },
+    {
+        "status": "scheduled",
+        "new_global_status": "scheduled",
+        "services": [
+            "koschei",
+            "bodhi",
+            "koji"
+        ],
+        "changetype": "multiple",
+        "message": "Scheduled reboots in progress",
+        "changedate": 1502226144.748629
+    },
+    {
+        "status": "good",
+        "new_global_status": "good",
+        "service": "mailinglists",
+        "changetype": "single",
+        "message": "Everything seems to be working.",
+        "changedate": 1502118252.973875
+    },
+    {
+        "status": "scheduled",
+        "new_global_status": "scheduled",
+        "service": "mailinglists",
+        "changetype": "single",
+        "message": "mailinglists database work",
+        "changedate": 1501881191.4611883
+    },
+    {
+        "status": "good",
+        "new_global_status": "good",
+        "services": [
+            "koji",
+            "bodhi",
+            "koschei"
+        ],
+        "changetype": "multiple",
+        "message": "Everything seems to be working.",
+        "changedate": 1501624342.148569
+    },
+    {
+        "status": "scheduled",
+        "new_global_status": "scheduled",
+        "services": [
+            "koji",
+            "bodhi",
+            "koschei"
+        ],
+        "changetype": "multiple",
+        "message": "Down for scheduled koji database maintenance",
+        "changedate": 1501621311.608752
+    },
+    {
+        "status": "good",
+        "new_global_status": "good",
+        "service": "koji",
+        "changetype": "single",
+        "message": "Everything seems to be working.",
+        "changedate": 1500034415.702598
+    },
+    {
+        "status": "minor",
+        "new_global_status": "minor",
+        "service": "koji",
+        "changetype": "single",
+        "message": "s390x builders coming back now, backlog of builds is being processed",
+        "changedate": 1500005478.842641
+    },
+    {
+        "status": "major",
+        "new_global_status": "major",
+        "service": "koji",
+        "changetype": "single",
+        "message": "s390x builders offline, blocking all nonarch builds that include s390x, escalated",
+        "changedate": 1499992472.2618759
+    },
+    {
+        "status": "good",
+        "new_global_status": "good",
+        "service": "mailinglists",
+        "changetype": "single",
+        "message": "Everything seems to be working.",
+        "changedate": 1499902730.0635335
+    },
+    {
+        "status": "minor",
+        "new_global_status": "minor",
+        "service": "mailinglists",
+        "changetype": "single",
+        "message": "Incoming email processing delayed, being looked at",
+        "changedate": 1499873221.4790897
+    },
+    {
+        "status": "good",
+        "new_global_status": "good",
+        "services": [
+            "copr",
+            "cloud"
+        ],
+        "changetype": "multiple",
+        "message": "Everything seems to be working.",
+        "changedate": 1498527260.562527
+    },
+    {
+        "status": "scheduled",
+        "new_global_status": "scheduled",
+        "services": [
+            "cloud",
+            "copr"
+        ],
+        "changetype": "multiple",
+        "message": "Scheduled updates in progress",
+        "changedate": 1498512356.6740384
+    },
+    {
+        "status": "good",
+        "new_global_status": "good",
+        "services": [
+            "ask",
+            "authentication",
+            "badges",
+            "blockerbugs",
+            "bodhi",
+            "cloud",
+            "copr",
+            "darkserver",
+            "docs",
+            "elections",
+            "fas",
+            "fedmsg",
+            "fedocal",
+            "fedorahosted",
+            "fedorapaste",
+            "freemedia",
+            "koji",
+            "koschei",
+            "krb",
+            "mailinglists",
+            "mirrorlist",
+            "mirrormanager",
+            "packages",
+            "people",
+            "pkgdb",
+            "pkgs",
+            "tagger",
+            "website",
+            "wiki",
+            "zodbot"
+        ],
+        "changetype": "multiple",
+        "message": "Everything seems to be working.",
+        "changedate": 1498093176.6001916
+    },
+    {
+        "status": "scheduled",
+        "new_global_status": "scheduled",
+        "services": [
+            "ask",
+            "authentication",
+            "badges",
+            "blockerbugs",
+            "bodhi",
+            "cloud",
+            "copr",
+            "darkserver",
+            "docs",
+            "elections",
+            "fas",
+            "fedmsg",
+            "fedocal",
+            "fedorahosted",
+            "fedorapaste",
+            "freemedia",
+            "koji",
+            "koschei",
+            "krb",
+            "mailinglists",
+            "mirrorlist",
+            "mirrormanager",
+            "packages",
+            "people",
+            "pkgdb",
+            "pkgs",
+            "tagger",
+            "website",
+            "wiki",
+            "zodbot"
+        ],
+        "changetype": "multiple",
+        "message": "server reboots",
+        "changedate": 1498078923.8001587
+    },
+    {
+        "status": "good",
+        "new_global_status": "good",
         "services": [
             "bodhi",
             "koji",
             "koschei",
             "pkgs"
-        ]
+        ],
+        "changetype": "multiple",
+        "message": "Everything seems to be working.",
+        "changedate": 1498007647.1294005
     },
     {
-        "changedate": 1493758806.8827972,
         "status": "scheduled",
-        "changetype": "multiple",
         "new_global_status": "scheduled",
-        "message": "planned buildsystem outage",
         "services": [
             "koji",
             "koschei",
             "pkgs",
             "bodhi"
-        ]
+        ],
+        "changetype": "multiple",
+        "message": "planned buildsystem outage",
+        "changedate": 1497992415.519782
     },
     {
-        "changedate": 1492886648.7151916,
         "status": "good",
-        "changetype": "single",
-        "service": "bodhi",
+        "new_global_status": "good",
+        "services": [
+            "cloud",
+            "copr"
+        ],
+        "changetype": "multiple",
         "message": "Everything seems to be working.",
-        "new_global_status": "good"
+        "changedate": 1493890102.5029988
     },
     {
-        "changedate": 1492861966.4937692,
+        "status": "scheduled",
+        "new_global_status": "scheduled",
+        "services": [
+            "cloud",
+            "copr"
+        ],
+        "changetype": "multiple",
+        "message": "Scheduled update/reboot in progress: https://pagure.io/fedora-infrastructure/issue/6026",
+        "changedate": 1493877705.875975
+    },
+    {
+        "status": "good",
+        "new_global_status": "good",
+        "services": [
+            "ask",
+            "authentication",
+            "badges",
+            "blockerbugs",
+            "bodhi",
+            "cloud",
+            "copr",
+            "darkserver",
+            "docs",
+            "elections",
+            "fas",
+            "fedmsg",
+            "fedocal",
+            "fedorahosted",
+            "fedorapaste",
+            "freemedia",
+            "koji",
+            "koschei",
+            "krb",
+            "mailinglists",
+            "mirrorlist",
+            "mirrormanager",
+            "packages",
+            "people",
+            "pkgdb",
+            "pkgs",
+            "tagger",
+            "website",
+            "wiki",
+            "zodbot"
+        ],
+        "changetype": "multiple",
+        "message": "Everything seems to be working.",
+        "changedate": 1493862811.9792717
+    },
+    {
         "status": "minor",
-        "changetype": "single",
+        "new_global_status": "minor",
+        "services": [
+            "ask",
+            "authentication",
+            "badges",
+            "blockerbugs",
+            "bodhi",
+            "cloud",
+            "copr",
+            "darkserver",
+            "docs",
+            "elections",
+            "fas",
+            "fedmsg",
+            "fedocal",
+            "fedorahosted",
+            "fedorapaste",
+            "freemedia",
+            "koji",
+            "koschei",
+            "krb",
+            "mailinglists",
+            "mirrorlist",
+            "mirrormanager",
+            "packages",
+            "people",
+            "pkgdb",
+            "pkgs",
+            "tagger",
+            "website",
+            "wiki",
+            "zodbot"
+        ],
+        "changetype": "multiple",
+        "message": "Everything seems to be working.",
+        "changedate": 1493862694.7277944
+    },
+    {
+        "status": "scheduled",
+        "new_global_status": "scheduled",
+        "services": [
+            "ask",
+            "authentication",
+            "badges",
+            "blockerbugs",
+            "bodhi",
+            "cloud",
+            "copr",
+            "darkserver",
+            "docs",
+            "elections",
+            "fas",
+            "fedmsg",
+            "fedocal",
+            "fedorahosted",
+            "fedorapaste",
+            "freemedia",
+            "koji",
+            "koschei",
+            "krb",
+            "mailinglists",
+            "mirrorlist",
+            "mirrormanager",
+            "packages",
+            "people",
+            "pkgdb",
+            "pkgs",
+            "tagger",
+            "website",
+            "wiki",
+            "zodbot"
+        ],
+        "changetype": "multiple",
+        "message": "server reboots",
+        "changedate": 1493845350.5211866
+    },
+    {
+        "status": "good",
+        "new_global_status": "good",
+        "services": [
+            "bodhi",
+            "koji",
+            "koschei",
+            "pkgs"
+        ],
+        "changetype": "multiple",
+        "message": "Everything seems to be working.",
+        "changedate": 1493766674.4929051
+    },
+    {
+        "status": "scheduled",
+        "new_global_status": "scheduled",
+        "services": [
+            "koji",
+            "koschei",
+            "pkgs",
+            "bodhi"
+        ],
+        "changetype": "multiple",
+        "message": "planned buildsystem outage",
+        "changedate": 1493758806.8827972
+    },
+    {
+        "status": "good",
+        "new_global_status": "good",
         "service": "bodhi",
+        "changetype": "single",
+        "message": "Everything seems to be working.",
+        "changedate": 1492886648.7151916
+    },
+    {
+        "status": "minor",
+        "new_global_status": "minor",
+        "service": "bodhi",
+        "changetype": "single",
         "message": "Red Hat bugzilla is having problems, bug information might not be retrieved. Being worked on",
-        "new_global_status": "minor"
+        "changedate": 1492861966.4937692
     },
     {
-        "changedate": 1492828935.0590217,
         "status": "good",
-        "changetype": "multiple",
         "new_global_status": "good",
-        "message": "Everything seems to be working.",
         "services": [
             "ask",
             "authentication",
@@ -973,14 +978,53 @@ callback([
             "website",
             "wiki",
             "zodbot"
-        ]
+        ],
+        "changetype": "multiple",
+        "message": "Everything seems to be working.",
+        "changedate": 1492828935.0590217
     },
     {
-        "changedate": 1492787588.414246,
         "status": "major",
-        "changetype": "multiple",
         "new_global_status": "major",
+        "services": [
+            "ask",
+            "authentication",
+            "badges",
+            "blockerbugs",
+            "bodhi",
+            "cloud",
+            "copr",
+            "darkserver",
+            "docs",
+            "elections",
+            "fas",
+            "fedmsg",
+            "fedocal",
+            "fedorahosted",
+            "fedorapaste",
+            "freemedia",
+            "koji",
+            "koschei",
+            "krb",
+            "mailinglists",
+            "mirrorlist",
+            "mirrormanager",
+            "packages",
+            "people",
+            "pkgdb",
+            "pkgs",
+            "tagger",
+            "website",
+            "wiki",
+            "zodbot"
+        ],
+        "changetype": "multiple",
         "message": "Network outage at main data center, being worked on",
+        "changedate": 1492787588.414246
+    },
+    {
+        "status": "major",
+        "new_global_status": "major",
         "services": [
             "ask",
             "authentication",
@@ -1012,14 +1056,14 @@ callback([
             "website",
             "wiki",
             "zodbot"
-        ]
-    },
-    {
-        "changedate": 1492786898.6854658,
-        "status": "major",
+        ],
         "changetype": "multiple",
-        "new_global_status": "major",
         "message": "Power outage at main data center, being worked on",
+        "changedate": 1492786898.6854658
+    },
+    {
+        "status": "major",
+        "new_global_status": "major",
         "services": [
             "ask",
             "authentication",
@@ -1051,85 +1095,46 @@ callback([
             "website",
             "wiki",
             "zodbot"
-        ]
-    },
-    {
-        "changedate": 1492786008.665856,
-        "status": "major",
+        ],
         "changetype": "multiple",
-        "new_global_status": "major",
         "message": "Network problems, being worked on",
-        "services": [
-            "ask",
-            "authentication",
-            "badges",
-            "blockerbugs",
-            "bodhi",
-            "cloud",
-            "copr",
-            "darkserver",
-            "docs",
-            "elections",
-            "fas",
-            "fedmsg",
-            "fedocal",
-            "fedorahosted",
-            "fedorapaste",
-            "freemedia",
-            "koji",
-            "koschei",
-            "krb",
-            "mailinglists",
-            "mirrorlist",
-            "mirrormanager",
-            "packages",
-            "people",
-            "pkgdb",
-            "pkgs",
-            "tagger",
-            "website",
-            "wiki",
-            "zodbot"
-        ]
+        "changedate": 1492786008.665856
     },
     {
-        "changedate": 1491590590.1931193,
         "status": "good",
-        "changetype": "single",
+        "new_global_status": "good",
         "service": "copr",
+        "changetype": "single",
         "message": "Everything seems to be working.",
-        "new_global_status": "good"
+        "changedate": 1491590590.1931193
     },
     {
-        "changedate": 1491587140.5216165,
         "status": "major",
-        "changetype": "single",
+        "new_global_status": "major",
         "service": "copr",
+        "changetype": "single",
         "message": "backend instance outage",
-        "new_global_status": "major"
+        "changedate": 1491587140.5216165
     },
     {
-        "changedate": 1491520763.7244625,
         "status": "good",
-        "changetype": "single",
+        "new_global_status": "good",
         "service": "koji",
+        "changetype": "single",
         "message": "Everything seems to be working.",
-        "new_global_status": "good"
+        "changedate": 1491520763.7244625
     },
     {
-        "changedate": 1491519248.9379332,
         "status": "major",
-        "changetype": "single",
+        "new_global_status": "major",
         "service": "koji",
+        "changetype": "single",
         "message": "Network outage, being worked on",
-        "new_global_status": "major"
+        "changedate": 1491519248.9379332
     },
     {
-        "changedate": 1489030014.957999,
         "status": "good",
-        "changetype": "multiple",
         "new_global_status": "good",
-        "message": "Everything seems to be working.",
         "services": [
             "wiki",
             "people",
@@ -1161,85 +1166,85 @@ callback([
             "mailinglists",
             "fedocal",
             "krb"
-        ]
+        ],
+        "changetype": "multiple",
+        "message": "Everything seems to be working.",
+        "changedate": 1489030014.957999
     },
     {
-        "changedate": 1489027544.258568,
         "status": "major",
-        "changetype": "multiple",
         "new_global_status": "major",
+        "services": [
+            "wiki",
+            "people",
+            "zodbot",
+            "koji",
+            "darkserver",
+            "tagger",
+            "pkgdb",
+            "fedorapaste",
+            "blockerbugs",
+            "badges",
+            "fedorahosted",
+            "mirrormanager",
+            "koschei",
+            "authentication",
+            "mirrorlist",
+            "cloud",
+            "fas",
+            "pkgs",
+            "website",
+            "docs",
+            "copr",
+            "bodhi",
+            "ask",
+            "packages",
+            "freemedia",
+            "fedmsg",
+            "elections",
+            "mailinglists",
+            "fedocal",
+            "krb"
+        ],
+        "changetype": "multiple",
         "message": "network issues",
-        "services": [
-            "wiki",
-            "people",
-            "zodbot",
-            "koji",
-            "darkserver",
-            "tagger",
-            "pkgdb",
-            "fedorapaste",
-            "blockerbugs",
-            "badges",
-            "fedorahosted",
-            "mirrormanager",
-            "koschei",
-            "authentication",
-            "mirrorlist",
-            "cloud",
-            "fas",
-            "pkgs",
-            "website",
-            "docs",
-            "copr",
-            "bodhi",
-            "ask",
-            "packages",
-            "freemedia",
-            "fedmsg",
-            "elections",
-            "mailinglists",
-            "fedocal",
-            "krb"
-        ]
+        "changedate": 1489027544.258568
     },
     {
-        "changedate": 1488332438.310871,
         "status": "good",
-        "changetype": "single",
+        "new_global_status": "good",
         "service": "pkgdb",
+        "changetype": "single",
         "message": "Everything seems to be working.",
-        "new_global_status": "good"
+        "changedate": 1488332438.310871
     },
     {
-        "changedate": 1488329946.379369,
         "status": "scheduled",
-        "changetype": "single",
+        "new_global_status": "scheduled",
         "service": "pkgdb",
+        "changetype": "single",
         "message": "Temporarily down for branching",
-        "new_global_status": "scheduled"
+        "changedate": 1488329946.379369
     },
     {
-        "changedate": 1487410967.146526,
         "status": "good",
-        "changetype": "single",
+        "new_global_status": "good",
         "service": "fedorapaste",
+        "changetype": "single",
         "message": "Everything seems to be working.",
-        "new_global_status": "good"
+        "changedate": 1487410967.146526
     },
     {
-        "changedate": 1487191784.068443,
         "status": "scheduled",
-        "changetype": "single",
+        "new_global_status": "scheduled",
         "service": "fedorapaste",
+        "changetype": "single",
         "message": "We are moving to Modern Paste!",
-        "new_global_status": "scheduled"
+        "changedate": 1487191784.068443
     },
     {
-        "changedate": 1485384988.951454,
         "status": "good",
-        "changetype": "multiple",
         "new_global_status": "good",
-        "message": "Everything seems to be working.",
         "services": [
             "wiki",
             "people",
@@ -1271,53 +1276,53 @@ callback([
             "mailinglists",
             "fedocal",
             "krb"
-        ]
+        ],
+        "changetype": "multiple",
+        "message": "Everything seems to be working.",
+        "changedate": 1485384988.951454
     },
     {
-        "changedate": 1485378017.645942,
         "status": "scheduled",
-        "changetype": "multiple",
         "new_global_status": "scheduled",
+        "services": [
+            "wiki",
+            "people",
+            "zodbot",
+            "koji",
+            "darkserver",
+            "tagger",
+            "pkgdb",
+            "fedorapaste",
+            "blockerbugs",
+            "badges",
+            "fedorahosted",
+            "mirrormanager",
+            "koschei",
+            "authentication",
+            "mirrorlist",
+            "cloud",
+            "fas",
+            "pkgs",
+            "website",
+            "docs",
+            "copr",
+            "bodhi",
+            "ask",
+            "packages",
+            "freemedia",
+            "fedmsg",
+            "elections",
+            "mailinglists",
+            "fedocal",
+            "krb"
+        ],
+        "changetype": "multiple",
         "message": "planned server reboots",
-        "services": [
-            "wiki",
-            "people",
-            "zodbot",
-            "koji",
-            "darkserver",
-            "tagger",
-            "pkgdb",
-            "fedorapaste",
-            "blockerbugs",
-            "badges",
-            "fedorahosted",
-            "mirrormanager",
-            "koschei",
-            "authentication",
-            "mirrorlist",
-            "cloud",
-            "fas",
-            "pkgs",
-            "website",
-            "docs",
-            "copr",
-            "bodhi",
-            "ask",
-            "packages",
-            "freemedia",
-            "fedmsg",
-            "elections",
-            "mailinglists",
-            "fedocal",
-            "krb"
-        ]
+        "changedate": 1485378017.645942
     },
     {
-        "changedate": 1484700509.046814,
         "status": "good",
-        "changetype": "multiple",
         "new_global_status": "good",
-        "message": "Everything seems to be working.",
         "services": [
             "wiki",
             "people",
@@ -1349,85 +1354,85 @@ callback([
             "mailinglists",
             "fedocal",
             "krb"
-        ]
+        ],
+        "changetype": "multiple",
+        "message": "Everything seems to be working.",
+        "changedate": 1484700509.046814
     },
     {
-        "changedate": 1484700461.911668,
         "status": "major",
-        "changetype": "multiple",
         "new_global_status": "major",
+        "services": [
+            "wiki",
+            "people",
+            "zodbot",
+            "koji",
+            "darkserver",
+            "tagger",
+            "pkgdb",
+            "fedorapaste",
+            "blockerbugs",
+            "badges",
+            "fedorahosted",
+            "mirrormanager",
+            "koschei",
+            "authentication",
+            "mirrorlist",
+            "cloud",
+            "fas",
+            "pkgs",
+            "website",
+            "docs",
+            "copr",
+            "bodhi",
+            "ask",
+            "packages",
+            "freemedia",
+            "fedmsg",
+            "elections",
+            "mailinglists",
+            "fedocal",
+            "krb"
+        ],
+        "changetype": "multiple",
         "message": "network outage at main DC",
-        "services": [
-            "wiki",
-            "people",
-            "zodbot",
-            "koji",
-            "darkserver",
-            "tagger",
-            "pkgdb",
-            "fedorapaste",
-            "blockerbugs",
-            "badges",
-            "fedorahosted",
-            "mirrormanager",
-            "koschei",
-            "authentication",
-            "mirrorlist",
-            "cloud",
-            "fas",
-            "pkgs",
-            "website",
-            "docs",
-            "copr",
-            "bodhi",
-            "ask",
-            "packages",
-            "freemedia",
-            "fedmsg",
-            "elections",
-            "mailinglists",
-            "fedocal",
-            "krb"
-        ]
+        "changedate": 1484700461.911668
     },
     {
-        "changedate": 1484076706.379574,
         "status": "good",
-        "changetype": "single",
+        "new_global_status": "good",
         "service": "koji",
+        "changetype": "single",
         "message": "Everything seems to be working.",
-        "new_global_status": "good"
+        "changedate": 1484076706.379574
     },
     {
-        "changedate": 1484076283.151738,
         "status": "major",
-        "changetype": "single",
+        "new_global_status": "major",
         "service": "koji",
+        "changetype": "single",
         "message": "koji db issues",
-        "new_global_status": "major"
+        "changedate": 1484076283.151738
     },
     {
-        "changedate": 1482005746.564695,
         "status": "good",
-        "changetype": "single",
+        "new_global_status": "good",
         "service": "fedorahosted",
+        "changetype": "single",
         "message": "Everything seems to be working.",
-        "new_global_status": "good"
+        "changedate": 1482005746.564695
     },
     {
-        "changedate": 1481996052.811382,
         "status": "major",
-        "changetype": "single",
+        "new_global_status": "major",
         "service": "fedorahosted",
+        "changetype": "single",
         "message": "osuosl network outage",
-        "new_global_status": "major"
+        "changedate": 1481996052.811382
     },
     {
-        "changedate": 1481749229.376753,
         "status": "good",
-        "changetype": "multiple",
         "new_global_status": "good",
-        "message": "Everything seems to be working.",
         "services": [
             "wiki",
             "people",
@@ -1459,347 +1464,217 @@ callback([
             "mailinglists",
             "fedocal",
             "krb"
-        ]
+        ],
+        "changetype": "multiple",
+        "message": "Everything seems to be working.",
+        "changedate": 1481749229.376753
     },
     {
-        "changedate": 1481748539.078904,
         "status": "major",
-        "changetype": "multiple",
         "new_global_status": "major",
+        "services": [
+            "wiki",
+            "people",
+            "zodbot",
+            "koji",
+            "darkserver",
+            "tagger",
+            "pkgdb",
+            "fedorapaste",
+            "blockerbugs",
+            "badges",
+            "fedorahosted",
+            "mirrormanager",
+            "koschei",
+            "authentication",
+            "mirrorlist",
+            "cloud",
+            "fas",
+            "pkgs",
+            "website",
+            "docs",
+            "copr",
+            "bodhi",
+            "ask",
+            "packages",
+            "freemedia",
+            "fedmsg",
+            "elections",
+            "mailinglists",
+            "fedocal",
+            "krb"
+        ],
+        "changetype": "multiple",
         "message": "dns issues, being worked on",
-        "services": [
-            "wiki",
-            "people",
-            "zodbot",
-            "koji",
-            "darkserver",
-            "tagger",
-            "pkgdb",
-            "fedorapaste",
-            "blockerbugs",
-            "badges",
-            "fedorahosted",
-            "mirrormanager",
-            "koschei",
-            "authentication",
-            "mirrorlist",
-            "cloud",
-            "fas",
-            "pkgs",
-            "website",
-            "docs",
-            "copr",
-            "bodhi",
-            "ask",
-            "packages",
-            "freemedia",
-            "fedmsg",
-            "elections",
-            "mailinglists",
-            "fedocal",
-            "krb"
-        ]
+        "changedate": 1481748539.078904
     },
     {
-        "changedate": 1481207086.148491,
         "status": "good",
-        "changetype": "single",
+        "new_global_status": "good",
         "service": "copr",
+        "changetype": "single",
         "message": "all systems operational",
-        "new_global_status": "good"
+        "changedate": 1481207086.148491
     },
     {
-        "changedate": 1481140507.357188,
         "status": "major",
-        "changetype": "single",
-        "service": "copr",
-        "message": "Service will not sign packages",
-        "new_global_status": "major"
-    },
-    {
-        "changedate": 1480642107.856275,
-        "status": "good",
-        "changetype": "multiple",
-        "new_global_status": "good",
-        "message": "Everything seems to be working.",
-        "services": [
-            "cloud",
-            "copr"
-        ]
-    },
-    {
-        "changedate": 1480626016.250975,
-        "status": "scheduled",
-        "changetype": "multiple",
-        "new_global_status": "scheduled",
-        "message": "Schedule maintenance ",
-        "services": [
-            "cloud",
-            "copr"
-        ]
-    },
-    {
-        "changedate": 1480558072.176929,
-        "status": "good",
-        "changetype": "multiple",
-        "new_global_status": "good",
-        "message": "Everything seems to be working.",
-        "services": [
-            "wiki",
-            "people",
-            "zodbot",
-            "koji",
-            "darkserver",
-            "tagger",
-            "pkgdb",
-            "fedorapaste",
-            "blockerbugs",
-            "badges",
-            "fedorahosted",
-            "mirrormanager",
-            "koschei",
-            "authentication",
-            "mirrorlist",
-            "cloud",
-            "fas",
-            "pkgs",
-            "website",
-            "docs",
-            "copr",
-            "bodhi",
-            "ask",
-            "packages",
-            "freemedia",
-            "fedmsg",
-            "elections",
-            "mailinglists",
-            "fedocal",
-            "krb"
-        ]
-    },
-    {
-        "changedate": 1480539546.245024,
-        "status": "scheduled",
-        "changetype": "multiple",
-        "new_global_status": "scheduled",
-        "message": "Scheduled reboots in progress",
-        "services": [
-            "wiki",
-            "people",
-            "zodbot",
-            "koji",
-            "darkserver",
-            "tagger",
-            "pkgdb",
-            "fedorapaste",
-            "blockerbugs",
-            "badges",
-            "fedorahosted",
-            "mirrormanager",
-            "koschei",
-            "authentication",
-            "mirrorlist",
-            "cloud",
-            "fas",
-            "pkgs",
-            "website",
-            "docs",
-            "copr",
-            "bodhi",
-            "ask",
-            "packages",
-            "freemedia",
-            "fedmsg",
-            "elections",
-            "mailinglists",
-            "fedocal",
-            "krb"
-        ]
-    },
-    {
-        "changedate": 1480529249.590809,
-        "status": "good",
-        "changetype": "single",
-        "service": "bodhi",
-        "message": "Everything seems to be working.",
-        "new_global_status": "good"
-    },
-    {
-        "changedate": 1480527443.272973,
-        "status": "major",
-        "changetype": "single",
-        "service": "bodhi",
-        "message": "Update went wrong, being fixed",
-        "new_global_status": "major"
-    },
-    {
-        "changedate": 1477615484.309619,
-        "status": "good",
-        "changetype": "single",
-        "service": "bodhi",
-        "message": "Everything seems to be working.",
-        "new_global_status": "good"
-    },
-    {
-        "changedate": 1477610300.236415,
-        "status": "scheduled",
-        "changetype": "single",
-        "service": "bodhi",
-        "message": "Bodhi upgrade in progress",
-        "new_global_status": "scheduled"
-    },
-    {
-        "changedate": 1476971283.623962,
-        "status": "good",
-        "changetype": "single",
-        "service": "koschei",
-        "message": "Everything seems to be working.",
-        "new_global_status": "good"
-    },
-    {
-        "changedate": 1476900382.319252,
-        "status": "major",
-        "changetype": "single",
-        "service": "koschei",
-        "message": "koschei outage",
-        "new_global_status": "major"
-    },
-    {
-        "changedate": 1475948088.865446,
-        "status": "good",
-        "changetype": "multiple",
-        "new_global_status": "good",
-        "message": "Everything seems to be working.",
-        "services": [
-            "wiki",
-            "people",
-            "zodbot",
-            "koji",
-            "darkserver",
-            "tagger",
-            "pkgdb",
-            "fedorapaste",
-            "blockerbugs",
-            "badges",
-            "fedorahosted",
-            "mirrormanager",
-            "koschei",
-            "authentication",
-            "mirrorlist",
-            "cloud",
-            "fas",
-            "pkgs",
-            "website",
-            "docs",
-            "copr",
-            "bodhi",
-            "ask",
-            "packages",
-            "freemedia",
-            "fedmsg",
-            "elections",
-            "mailinglists",
-            "fedocal"
-        ]
-    },
-    {
-        "changedate": 1475943405.399825,
-        "status": "major",
-        "changetype": "multiple",
         "new_global_status": "major",
-        "message": "Major network outage",
-        "services": [
-            "wiki",
-            "people",
-            "zodbot",
-            "koji",
-            "darkserver",
-            "tagger",
-            "pkgdb",
-            "fedorapaste",
-            "blockerbugs",
-            "badges",
-            "fedorahosted",
-            "mirrormanager",
-            "koschei",
-            "authentication",
-            "mirrorlist",
-            "cloud",
-            "fas",
-            "pkgs",
-            "website",
-            "docs",
-            "copr",
-            "bodhi",
-            "ask",
-            "packages",
-            "freemedia",
-            "fedmsg",
-            "elections",
-            "mailinglists",
-            "fedocal"
-        ]
-    },
-    {
-        "changedate": 1475517058.76343,
-        "status": "good",
+        "service": "copr",
         "changetype": "single",
-        "service": "ask",
-        "message": "Everything seems to be working.",
-        "new_global_status": "good"
+        "message": "Service will not sign packages",
+        "changedate": 1481140507.357188
     },
     {
-        "changedate": 1475516819.073458,
-        "status": "major",
-        "changetype": "single",
-        "service": "ask",
-        "message": "ask down",
-        "new_global_status": "major"
-    },
-    {
-        "changedate": 1474501946.369969,
         "status": "good",
-        "changetype": "multiple",
         "new_global_status": "good",
-        "message": "Everything seems to be working.",
         "services": [
-            "wiki",
-            "people",
-            "zodbot",
-            "koji",
-            "darkserver",
-            "tagger",
-            "pkgdb",
-            "fedorapaste",
-            "blockerbugs",
-            "badges",
-            "fedorahosted",
-            "mirrormanager",
-            "koschei",
-            "authentication",
-            "mirrorlist",
             "cloud",
-            "fas",
-            "pkgs",
-            "website",
-            "docs",
-            "copr",
-            "bodhi",
-            "ask",
-            "packages",
-            "freemedia",
-            "fedmsg",
-            "elections",
-            "mailinglists",
-            "fedocal"
-        ]
+            "copr"
+        ],
+        "changetype": "multiple",
+        "message": "Everything seems to be working.",
+        "changedate": 1480642107.856275
     },
     {
-        "changedate": 1474491484.17255,
         "status": "scheduled",
-        "changetype": "multiple",
         "new_global_status": "scheduled",
-        "message": "planned outage",
+        "services": [
+            "cloud",
+            "copr"
+        ],
+        "changetype": "multiple",
+        "message": "Schedule maintenance ",
+        "changedate": 1480626016.250975
+    },
+    {
+        "status": "good",
+        "new_global_status": "good",
+        "services": [
+            "wiki",
+            "people",
+            "zodbot",
+            "koji",
+            "darkserver",
+            "tagger",
+            "pkgdb",
+            "fedorapaste",
+            "blockerbugs",
+            "badges",
+            "fedorahosted",
+            "mirrormanager",
+            "koschei",
+            "authentication",
+            "mirrorlist",
+            "cloud",
+            "fas",
+            "pkgs",
+            "website",
+            "docs",
+            "copr",
+            "bodhi",
+            "ask",
+            "packages",
+            "freemedia",
+            "fedmsg",
+            "elections",
+            "mailinglists",
+            "fedocal",
+            "krb"
+        ],
+        "changetype": "multiple",
+        "message": "Everything seems to be working.",
+        "changedate": 1480558072.176929
+    },
+    {
+        "status": "scheduled",
+        "new_global_status": "scheduled",
+        "services": [
+            "wiki",
+            "people",
+            "zodbot",
+            "koji",
+            "darkserver",
+            "tagger",
+            "pkgdb",
+            "fedorapaste",
+            "blockerbugs",
+            "badges",
+            "fedorahosted",
+            "mirrormanager",
+            "koschei",
+            "authentication",
+            "mirrorlist",
+            "cloud",
+            "fas",
+            "pkgs",
+            "website",
+            "docs",
+            "copr",
+            "bodhi",
+            "ask",
+            "packages",
+            "freemedia",
+            "fedmsg",
+            "elections",
+            "mailinglists",
+            "fedocal",
+            "krb"
+        ],
+        "changetype": "multiple",
+        "message": "Scheduled reboots in progress",
+        "changedate": 1480539546.245024
+    },
+    {
+        "status": "good",
+        "new_global_status": "good",
+        "service": "bodhi",
+        "changetype": "single",
+        "message": "Everything seems to be working.",
+        "changedate": 1480529249.590809
+    },
+    {
+        "status": "major",
+        "new_global_status": "major",
+        "service": "bodhi",
+        "changetype": "single",
+        "message": "Update went wrong, being fixed",
+        "changedate": 1480527443.272973
+    },
+    {
+        "status": "good",
+        "new_global_status": "good",
+        "service": "bodhi",
+        "changetype": "single",
+        "message": "Everything seems to be working.",
+        "changedate": 1477615484.309619
+    },
+    {
+        "status": "scheduled",
+        "new_global_status": "scheduled",
+        "service": "bodhi",
+        "changetype": "single",
+        "message": "Bodhi upgrade in progress",
+        "changedate": 1477610300.236415
+    },
+    {
+        "status": "good",
+        "new_global_status": "good",
+        "service": "koschei",
+        "changetype": "single",
+        "message": "Everything seems to be working.",
+        "changedate": 1476971283.623962
+    },
+    {
+        "status": "major",
+        "new_global_status": "major",
+        "service": "koschei",
+        "changetype": "single",
+        "message": "koschei outage",
+        "changedate": 1476900382.319252
+    },
+    {
+        "status": "good",
+        "new_global_status": "good",
         "services": [
             "wiki",
             "people",
@@ -1830,100 +1705,230 @@ callback([
             "elections",
             "mailinglists",
             "fedocal"
-        ]
+        ],
+        "changetype": "multiple",
+        "message": "Everything seems to be working.",
+        "changedate": 1475948088.865446
     },
     {
-        "changedate": 1474411119.026607,
-        "status": "good",
+        "status": "major",
+        "new_global_status": "major",
+        "services": [
+            "wiki",
+            "people",
+            "zodbot",
+            "koji",
+            "darkserver",
+            "tagger",
+            "pkgdb",
+            "fedorapaste",
+            "blockerbugs",
+            "badges",
+            "fedorahosted",
+            "mirrormanager",
+            "koschei",
+            "authentication",
+            "mirrorlist",
+            "cloud",
+            "fas",
+            "pkgs",
+            "website",
+            "docs",
+            "copr",
+            "bodhi",
+            "ask",
+            "packages",
+            "freemedia",
+            "fedmsg",
+            "elections",
+            "mailinglists",
+            "fedocal"
+        ],
         "changetype": "multiple",
+        "message": "Major network outage",
+        "changedate": 1475943405.399825
+    },
+    {
+        "status": "good",
         "new_global_status": "good",
+        "service": "ask",
+        "changetype": "single",
         "message": "Everything seems to be working.",
+        "changedate": 1475517058.76343
+    },
+    {
+        "status": "major",
+        "new_global_status": "major",
+        "service": "ask",
+        "changetype": "single",
+        "message": "ask down",
+        "changedate": 1475516819.073458
+    },
+    {
+        "status": "good",
+        "new_global_status": "good",
+        "services": [
+            "wiki",
+            "people",
+            "zodbot",
+            "koji",
+            "darkserver",
+            "tagger",
+            "pkgdb",
+            "fedorapaste",
+            "blockerbugs",
+            "badges",
+            "fedorahosted",
+            "mirrormanager",
+            "koschei",
+            "authentication",
+            "mirrorlist",
+            "cloud",
+            "fas",
+            "pkgs",
+            "website",
+            "docs",
+            "copr",
+            "bodhi",
+            "ask",
+            "packages",
+            "freemedia",
+            "fedmsg",
+            "elections",
+            "mailinglists",
+            "fedocal"
+        ],
+        "changetype": "multiple",
+        "message": "Everything seems to be working.",
+        "changedate": 1474501946.369969
+    },
+    {
+        "status": "scheduled",
+        "new_global_status": "scheduled",
+        "services": [
+            "wiki",
+            "people",
+            "zodbot",
+            "koji",
+            "darkserver",
+            "tagger",
+            "pkgdb",
+            "fedorapaste",
+            "blockerbugs",
+            "badges",
+            "fedorahosted",
+            "mirrormanager",
+            "koschei",
+            "authentication",
+            "mirrorlist",
+            "cloud",
+            "fas",
+            "pkgs",
+            "website",
+            "docs",
+            "copr",
+            "bodhi",
+            "ask",
+            "packages",
+            "freemedia",
+            "fedmsg",
+            "elections",
+            "mailinglists",
+            "fedocal"
+        ],
+        "changetype": "multiple",
+        "message": "planned outage",
+        "changedate": 1474491484.17255
+    },
+    {
+        "status": "good",
+        "new_global_status": "good",
         "services": [
             "koji",
             "darkserver",
             "koschei"
-        ]
+        ],
+        "changetype": "multiple",
+        "message": "Everything seems to be working.",
+        "changedate": 1474411119.026607
     },
     {
-        "changedate": 1474405236.424753,
         "status": "scheduled",
-        "changetype": "multiple",
         "new_global_status": "scheduled",
-        "message": "planned outage",
         "services": [
             "koschei",
             "koji",
             "darkserver"
-        ]
+        ],
+        "changetype": "multiple",
+        "message": "planned outage",
+        "changedate": 1474405236.424753
     },
     {
-        "changedate": 1474362757.961519,
         "status": "good",
-        "changetype": "multiple",
         "new_global_status": "good",
-        "message": "Everything seems to be working.",
         "services": [
             "cloud",
             "copr"
-        ]
-    },
-    {
-        "changedate": 1474352026.089788,
-        "status": "scheduled",
+        ],
         "changetype": "multiple",
+        "message": "Everything seems to be working.",
+        "changedate": 1474362757.961519
+    },
+    {
+        "status": "scheduled",
         "new_global_status": "scheduled",
-        "message": "Scheduled reboots in progress",
         "services": [
             "cloud",
             "copr"
-        ]
+        ],
+        "changetype": "multiple",
+        "message": "Scheduled reboots in progress",
+        "changedate": 1474352026.089788
     },
     {
-        "changedate": 1472740092.581924,
         "status": "good",
-        "changetype": "single",
+        "new_global_status": "good",
         "service": "copr",
+        "changetype": "single",
         "message": "Everything seems to be working.",
-        "new_global_status": "good"
+        "changedate": 1472740092.581924
     },
     {
-        "changedate": 1472695571.867844,
         "status": "major",
-        "changetype": "single",
+        "new_global_status": "major",
         "service": "copr",
+        "changetype": "single",
         "message": "scheduling issues",
-        "new_global_status": "major"
+        "changedate": 1472695571.867844
     },
     {
-        "changedate": 1471900947.052441,
         "status": "good",
-        "changetype": "single",
+        "new_global_status": "good",
         "service": "copr",
+        "changetype": "single",
         "message": "Everything seems to be working.",
-        "new_global_status": "good"
+        "changedate": 1471900947.052441
     },
     {
-        "changedate": 1471899652.505684,
         "status": "scheduled",
-        "changetype": "single",
+        "new_global_status": "scheduled",
         "service": "copr",
+        "changetype": "single",
         "message": "scheduled outage of backend",
-        "new_global_status": "scheduled"
+        "changedate": 1471899652.505684
     },
     {
-        "changedate": 1469675689.887942,
         "status": "good",
-        "changetype": "single",
+        "new_global_status": "good",
         "service": "fedorahosted",
+        "changetype": "single",
         "message": "Everything seems to be working.",
-        "new_global_status": "good"
+        "changedate": 1469675689.887942
     },
     {
-        "changedate": 1469668241.901491,
         "status": "good",
-        "changetype": "multiple",
         "new_global_status": "scheduled",
-        "message": "Everything seems to be working.",
         "services": [
             "wiki",
             "people",
@@ -1953,76 +1958,76 @@ callback([
             "elections",
             "mailinglists",
             "fedocal"
-        ]
+        ],
+        "changetype": "multiple",
+        "message": "Everything seems to be working.",
+        "changedate": 1469668241.901491
     },
     {
-        "changedate": 1469653210.867752,
         "status": "scheduled",
-        "changetype": "multiple",
         "new_global_status": "scheduled",
+        "services": [
+            "wiki",
+            "people",
+            "zodbot",
+            "koji",
+            "darkserver",
+            "tagger",
+            "pkgdb",
+            "fedorapaste",
+            "blockerbugs",
+            "badges",
+            "fedorahosted",
+            "mirrormanager",
+            "koschei",
+            "authentication",
+            "mirrorlist",
+            "cloud",
+            "fas",
+            "pkgs",
+            "website",
+            "docs",
+            "copr",
+            "bodhi",
+            "ask",
+            "packages",
+            "freemedia",
+            "fedmsg",
+            "elections",
+            "mailinglists",
+            "fedocal"
+        ],
+        "changetype": "multiple",
         "message": "Scheduled reboots in progress",
-        "services": [
-            "wiki",
-            "people",
-            "zodbot",
-            "koji",
-            "darkserver",
-            "tagger",
-            "pkgdb",
-            "fedorapaste",
-            "blockerbugs",
-            "badges",
-            "fedorahosted",
-            "mirrormanager",
-            "koschei",
-            "authentication",
-            "mirrorlist",
-            "cloud",
-            "fas",
-            "pkgs",
-            "website",
-            "docs",
-            "copr",
-            "bodhi",
-            "ask",
-            "packages",
-            "freemedia",
-            "fedmsg",
-            "elections",
-            "mailinglists",
-            "fedocal"
-        ]
+        "changedate": 1469653210.867752
     },
     {
-        "changedate": 1469492941.776905,
         "status": "good",
-        "changetype": "multiple",
         "new_global_status": "good",
-        "message": "Everything seems to be working.",
         "services": [
             "koji",
             "pkgs",
             "bodhi"
-        ]
+        ],
+        "changetype": "multiple",
+        "message": "Everything seems to be working.",
+        "changedate": 1469492941.776905
     },
     {
-        "changedate": 1469480460.379098,
         "status": "scheduled",
-        "changetype": "multiple",
         "new_global_status": "scheduled",
+        "services": [
+            "koji",
+            "pkgs",
+            "bodhi"
+        ],
+        "changetype": "multiple",
         "message": "scheduled outages in progress",
-        "services": [
-            "koji",
-            "pkgs",
-            "bodhi"
-        ]
+        "changedate": 1469480460.379098
     },
     {
-        "changedate": 1469288029.762557,
         "status": "good",
-        "changetype": "multiple",
         "new_global_status": "good",
-        "message": "Everything seems to be working.",
         "services": [
             "wiki",
             "people",
@@ -2053,14 +2058,52 @@ callback([
             "elections",
             "mailinglists",
             "fedocal"
-        ]
+        ],
+        "changetype": "multiple",
+        "message": "Everything seems to be working.",
+        "changedate": 1469288029.762557
     },
     {
-        "changedate": 1469286550.15872,
         "status": "minor",
-        "changetype": "multiple",
         "new_global_status": "minor",
+        "services": [
+            "wiki",
+            "people",
+            "zodbot",
+            "koji",
+            "darkserver",
+            "tagger",
+            "pkgdb",
+            "fedorapaste",
+            "blockerbugs",
+            "badges",
+            "fedorahosted",
+            "mirrormanager",
+            "koschei",
+            "authentication",
+            "mirrorlist",
+            "cloud",
+            "fas",
+            "pkgs",
+            "website",
+            "docs",
+            "copr",
+            "bodhi",
+            "ask",
+            "packages",
+            "freemedia",
+            "fedmsg",
+            "elections",
+            "mailinglists",
+            "fedocal"
+        ],
+        "changetype": "multiple",
         "message": "Unknown network outage occured",
+        "changedate": 1469286550.15872
+    },
+    {
+        "status": "major",
+        "new_global_status": "major",
         "services": [
             "wiki",
             "people",
@@ -2091,74 +2134,36 @@ callback([
             "elections",
             "mailinglists",
             "fedocal"
-        ]
-    },
-    {
-        "changedate": 1469285194.709712,
-        "status": "major",
+        ],
         "changetype": "multiple",
-        "new_global_status": "major",
         "message": "Network disruption to main datacenter",
-        "services": [
-            "wiki",
-            "people",
-            "zodbot",
-            "koji",
-            "darkserver",
-            "tagger",
-            "pkgdb",
-            "fedorapaste",
-            "blockerbugs",
-            "badges",
-            "fedorahosted",
-            "mirrormanager",
-            "koschei",
-            "authentication",
-            "mirrorlist",
-            "cloud",
-            "fas",
-            "pkgs",
-            "website",
-            "docs",
-            "copr",
-            "bodhi",
-            "ask",
-            "packages",
-            "freemedia",
-            "fedmsg",
-            "elections",
-            "mailinglists",
-            "fedocal"
-        ]
+        "changedate": 1469285194.709712
     },
     {
-        "changedate": 1469173506.114823,
         "status": "good",
-        "changetype": "multiple",
         "new_global_status": "good",
-        "message": "Everything seems to be working.",
         "services": [
             "cloud",
             "copr"
-        ]
+        ],
+        "changetype": "multiple",
+        "message": "Everything seems to be working.",
+        "changedate": 1469173506.114823
     },
     {
-        "changedate": 1469152729.015423,
         "status": "scheduled",
-        "changetype": "multiple",
         "new_global_status": "scheduled",
+        "services": [
+            "cloud",
+            "copr"
+        ],
+        "changetype": "multiple",
         "message": "Infra cloud update in progress",
-        "services": [
-            "cloud",
-            "copr"
-        ]
+        "changedate": 1469152729.015423
     },
     {
-        "changedate": 1469117043.772922,
         "status": "good",
-        "changetype": "multiple",
         "new_global_status": "good",
-        "message": "Everything seems to be working.",
         "services": [
             "wiki",
             "people",
@@ -2189,408 +2194,408 @@ callback([
             "elections",
             "mailinglists",
             "fedocal"
-        ]
+        ],
+        "changetype": "multiple",
+        "message": "Everything seems to be working.",
+        "changedate": 1469117043.772922
     },
     {
-        "changedate": 1469116044.360151,
         "status": "major",
-        "changetype": "multiple",
         "new_global_status": "major",
+        "services": [
+            "wiki",
+            "people",
+            "zodbot",
+            "koji",
+            "darkserver",
+            "tagger",
+            "pkgdb",
+            "fedorapaste",
+            "blockerbugs",
+            "badges",
+            "fedorahosted",
+            "mirrormanager",
+            "koschei",
+            "authentication",
+            "mirrorlist",
+            "cloud",
+            "fas",
+            "pkgs",
+            "website",
+            "docs",
+            "copr",
+            "bodhi",
+            "ask",
+            "packages",
+            "freemedia",
+            "fedmsg",
+            "elections",
+            "mailinglists",
+            "fedocal"
+        ],
+        "changetype": "multiple",
         "message": "Datacenter has network issues, being looked into.",
-        "services": [
-            "wiki",
-            "people",
-            "zodbot",
-            "koji",
-            "darkserver",
-            "tagger",
-            "pkgdb",
-            "fedorapaste",
-            "blockerbugs",
-            "badges",
-            "fedorahosted",
-            "mirrormanager",
-            "koschei",
-            "authentication",
-            "mirrorlist",
-            "cloud",
-            "fas",
-            "pkgs",
-            "website",
-            "docs",
-            "copr",
-            "bodhi",
-            "ask",
-            "packages",
-            "freemedia",
-            "fedmsg",
-            "elections",
-            "mailinglists",
-            "fedocal"
-        ]
+        "changedate": 1469116044.360151
     },
     {
-        "changedate": 1468598130.665449,
         "status": "good",
-        "changetype": "single",
-        "service": "mailinglists",
-        "message": "Everything seems to be working.",
-        "new_global_status": "good"
-    },
-    {
-        "changedate": 1468596242.830648,
-        "status": "minor",
-        "changetype": "single",
-        "service": "mailinglists",
-        "message": "Pipeline running again, emails are trickling out.",
-        "new_global_status": "minor"
-    },
-    {
-        "changedate": 1468594615.415503,
-        "status": "major",
-        "changetype": "single",
-        "service": "mailinglists",
-        "message": "Messages are stuck in the pipeline. Being looked at.",
-        "new_global_status": "major"
-    },
-    {
-        "changedate": 1467992636.241619,
-        "status": "good",
-        "changetype": "single",
-        "service": "zodbot",
-        "message": "Everything seems to be working.",
-        "new_global_status": "good"
-    },
-    {
-        "changedate": 1467991300.906268,
-        "status": "major",
-        "changetype": "single",
-        "service": "zodbot",
-        "message": "K-line lifted, reconnecting",
-        "new_global_status": "major"
-    },
-    {
-        "changedate": 1467989473.59656,
-        "status": "major",
-        "changetype": "single",
-        "service": "zodbot",
-        "message": "K-lined by freenode.  We're working with staff to resolve it.",
-        "new_global_status": "major"
-    },
-    {
-        "changedate": 1467739732.196826,
-        "status": "good",
-        "changetype": "single",
-        "service": "copr",
-        "message": "Everything seems to be working.",
-        "new_global_status": "good"
-    },
-    {
-        "changedate": 1467739376.880067,
-        "status": "major",
-        "changetype": "single",
-        "service": "copr",
-        "message": "dist-git unavailable, being looked into",
-        "new_global_status": "major"
-    },
-    {
-        "changedate": 1467345801.25167,
-        "status": "good",
-        "changetype": "multiple",
         "new_global_status": "good",
+        "service": "mailinglists",
+        "changetype": "single",
         "message": "Everything seems to be working.",
+        "changedate": 1468598130.665449
+    },
+    {
+        "status": "minor",
+        "new_global_status": "minor",
+        "service": "mailinglists",
+        "changetype": "single",
+        "message": "Pipeline running again, emails are trickling out.",
+        "changedate": 1468596242.830648
+    },
+    {
+        "status": "major",
+        "new_global_status": "major",
+        "service": "mailinglists",
+        "changetype": "single",
+        "message": "Messages are stuck in the pipeline. Being looked at.",
+        "changedate": 1468594615.415503
+    },
+    {
+        "status": "good",
+        "new_global_status": "good",
+        "service": "zodbot",
+        "changetype": "single",
+        "message": "Everything seems to be working.",
+        "changedate": 1467992636.241619
+    },
+    {
+        "status": "major",
+        "new_global_status": "major",
+        "service": "zodbot",
+        "changetype": "single",
+        "message": "K-line lifted, reconnecting",
+        "changedate": 1467991300.906268
+    },
+    {
+        "status": "major",
+        "new_global_status": "major",
+        "service": "zodbot",
+        "changetype": "single",
+        "message": "K-lined by freenode.  We're working with staff to resolve it.",
+        "changedate": 1467989473.59656
+    },
+    {
+        "status": "good",
+        "new_global_status": "good",
+        "service": "copr",
+        "changetype": "single",
+        "message": "Everything seems to be working.",
+        "changedate": 1467739732.196826
+    },
+    {
+        "status": "major",
+        "new_global_status": "major",
+        "service": "copr",
+        "changetype": "single",
+        "message": "dist-git unavailable, being looked into",
+        "changedate": 1467739376.880067
+    },
+    {
+        "status": "good",
+        "new_global_status": "good",
         "services": [
             "cloud",
             "copr"
-        ]
+        ],
+        "changetype": "multiple",
+        "message": "Everything seems to be working.",
+        "changedate": 1467345801.25167
     },
     {
-        "changedate": 1467344304.219327,
         "status": "major",
-        "changetype": "multiple",
         "new_global_status": "major",
-        "message": "Network outage going on, being worked on.",
         "services": [
             "copr",
             "cloud"
-        ]
+        ],
+        "changetype": "multiple",
+        "message": "Network outage going on, being worked on.",
+        "changedate": 1467344304.219327
     },
     {
-        "changedate": 1467335955.358016,
         "status": "major",
-        "changetype": "single",
-        "service": "cloud",
-        "message": "Cloud IS DOWN",
-        "new_global_status": "major"
-    },
-    {
-        "changedate": 1467335843.69666,
-        "status": "major",
-        "changetype": "single",
-        "service": "copr",
-        "message": "Cloud IS DOWN",
-        "new_global_status": "major"
-    },
-    {
-        "changedate": 1464384657.980117,
-        "status": "good",
-        "changetype": "multiple",
-        "new_global_status": "good",
-        "message": "Everything seems to be working.",
-        "services": [
-            "wiki",
-            "people",
-            "zodbot",
-            "koji",
-            "darkserver",
-            "tagger",
-            "pkgdb",
-            "fedorapaste",
-            "blockerbugs",
-            "badges",
-            "fedorahosted",
-            "mirrormanager",
-            "koschei",
-            "authentication",
-            "mirrorlist",
-            "cloud",
-            "fas",
-            "pkgs",
-            "website",
-            "docs",
-            "copr",
-            "bodhi",
-            "ask",
-            "packages",
-            "freemedia",
-            "fedmsg",
-            "elections",
-            "mailinglists",
-            "fedocal"
-        ]
-    },
-    {
-        "changedate": 1464383344.513612,
-        "status": "scheduled",
-        "changetype": "multiple",
-        "new_global_status": "scheduled",
-        "message": "Everything seems to be working.",
-        "services": [
-            "wiki",
-            "people",
-            "zodbot",
-            "koji",
-            "darkserver",
-            "tagger",
-            "pkgdb",
-            "fedorapaste",
-            "blockerbugs",
-            "badges",
-            "fedorahosted",
-            "mirrormanager",
-            "koschei",
-            "authentication",
-            "mirrorlist",
-            "cloud",
-            "fas",
-            "pkgs",
-            "website",
-            "docs",
-            "copr",
-            "bodhi",
-            "ask",
-            "packages",
-            "freemedia",
-            "fedmsg",
-            "elections",
-            "mailinglists",
-            "fedocal"
-        ]
-    },
-    {
-        "changedate": 1464233977.205075,
-        "status": "good",
-        "changetype": "multiple",
-        "new_global_status": "good",
-        "message": "Everything seems to be working.",
-        "services": [
-            "cloud",
-            "copr"
-        ]
-    },
-    {
-        "changedate": 1464230002.314902,
-        "status": "scheduled",
-        "changetype": "multiple",
-        "new_global_status": "scheduled",
-        "message": "Scheduled maintenance in progress",
-        "services": [
-            "cloud",
-            "copr"
-        ]
-    },
-    {
-        "changedate": 1464220609.936098,
-        "status": "good",
-        "changetype": "multiple",
-        "new_global_status": "good",
-        "message": "Everything seems to be working.",
-        "services": [
-            "wiki",
-            "people",
-            "zodbot",
-            "koji",
-            "darkserver",
-            "tagger",
-            "pkgdb",
-            "fedorapaste",
-            "blockerbugs",
-            "badges",
-            "fedorahosted",
-            "mirrormanager",
-            "koschei",
-            "authentication",
-            "mirrorlist",
-            "cloud",
-            "fas",
-            "pkgs",
-            "website",
-            "docs",
-            "copr",
-            "bodhi",
-            "ask",
-            "packages",
-            "freemedia",
-            "fedmsg",
-            "elections",
-            "mailinglists",
-            "fedocal"
-        ]
-    },
-    {
-        "changedate": 1464210129.865406,
-        "status": "scheduled",
-        "changetype": "multiple",
-        "new_global_status": "scheduled",
-        "message": "Scheduled reboots in progress",
-        "services": [
-            "wiki",
-            "people",
-            "zodbot",
-            "koji",
-            "darkserver",
-            "tagger",
-            "pkgdb",
-            "fedorapaste",
-            "blockerbugs",
-            "badges",
-            "fedorahosted",
-            "mirrormanager",
-            "koschei",
-            "authentication",
-            "mirrorlist",
-            "cloud",
-            "fas",
-            "pkgs",
-            "website",
-            "docs",
-            "copr",
-            "bodhi",
-            "ask",
-            "packages",
-            "freemedia",
-            "fedmsg",
-            "elections",
-            "mailinglists",
-            "fedocal"
-        ]
-    },
-    {
-        "changedate": 1464125746.627533,
-        "status": "good",
-        "changetype": "multiple",
-        "new_global_status": "good",
-        "message": "Everything seems to be working.",
-        "services": [
-            "koji",
-            "koschei",
-            "pkgs",
-            "bodhi"
-        ]
-    },
-    {
-        "changedate": 1464123474.475633,
-        "status": "scheduled",
-        "changetype": "multiple",
-        "new_global_status": "scheduled",
-        "message": "Scheduled reboots in progress",
-        "services": [
-            "pkgs",
-            "koschei",
-            "koji",
-            "bodhi"
-        ]
-    },
-    {
-        "changedate": 1463076863.599213,
-        "status": "good",
-        "changetype": "single",
-        "service": "koschei",
-        "message": "Everything seems to be working.",
-        "new_global_status": "good"
-    },
-    {
-        "changedate": 1463066568.731787,
-        "status": "scheduled",
-        "changetype": "single",
-        "service": "koschei",
-        "message": "Scheduled reinstall in progress",
-        "new_global_status": "scheduled"
-    },
-    {
-        "changedate": 1461678506.739429,
-        "status": "good",
-        "changetype": "multiple",
-        "new_global_status": "good",
-        "message": "Everything seems to be working.",
-        "services": [
-            "koji",
-            "copr"
-        ]
-    },
-    {
-        "changedate": 1461676952.497572,
-        "status": "major",
-        "changetype": "multiple",
         "new_global_status": "major",
-        "message": "Build system network outage. Being looked into",
+        "service": "cloud",
+        "changetype": "single",
+        "message": "Cloud IS DOWN",
+        "changedate": 1467335955.358016
+    },
+    {
+        "status": "major",
+        "new_global_status": "major",
+        "service": "copr",
+        "changetype": "single",
+        "message": "Cloud IS DOWN",
+        "changedate": 1467335843.69666
+    },
+    {
+        "status": "good",
+        "new_global_status": "good",
+        "services": [
+            "wiki",
+            "people",
+            "zodbot",
+            "koji",
+            "darkserver",
+            "tagger",
+            "pkgdb",
+            "fedorapaste",
+            "blockerbugs",
+            "badges",
+            "fedorahosted",
+            "mirrormanager",
+            "koschei",
+            "authentication",
+            "mirrorlist",
+            "cloud",
+            "fas",
+            "pkgs",
+            "website",
+            "docs",
+            "copr",
+            "bodhi",
+            "ask",
+            "packages",
+            "freemedia",
+            "fedmsg",
+            "elections",
+            "mailinglists",
+            "fedocal"
+        ],
+        "changetype": "multiple",
+        "message": "Everything seems to be working.",
+        "changedate": 1464384657.980117
+    },
+    {
+        "status": "scheduled",
+        "new_global_status": "scheduled",
+        "services": [
+            "wiki",
+            "people",
+            "zodbot",
+            "koji",
+            "darkserver",
+            "tagger",
+            "pkgdb",
+            "fedorapaste",
+            "blockerbugs",
+            "badges",
+            "fedorahosted",
+            "mirrormanager",
+            "koschei",
+            "authentication",
+            "mirrorlist",
+            "cloud",
+            "fas",
+            "pkgs",
+            "website",
+            "docs",
+            "copr",
+            "bodhi",
+            "ask",
+            "packages",
+            "freemedia",
+            "fedmsg",
+            "elections",
+            "mailinglists",
+            "fedocal"
+        ],
+        "changetype": "multiple",
+        "message": "Everything seems to be working.",
+        "changedate": 1464383344.513612
+    },
+    {
+        "status": "good",
+        "new_global_status": "good",
+        "services": [
+            "cloud",
+            "copr"
+        ],
+        "changetype": "multiple",
+        "message": "Everything seems to be working.",
+        "changedate": 1464233977.205075
+    },
+    {
+        "status": "scheduled",
+        "new_global_status": "scheduled",
+        "services": [
+            "cloud",
+            "copr"
+        ],
+        "changetype": "multiple",
+        "message": "Scheduled maintenance in progress",
+        "changedate": 1464230002.314902
+    },
+    {
+        "status": "good",
+        "new_global_status": "good",
+        "services": [
+            "wiki",
+            "people",
+            "zodbot",
+            "koji",
+            "darkserver",
+            "tagger",
+            "pkgdb",
+            "fedorapaste",
+            "blockerbugs",
+            "badges",
+            "fedorahosted",
+            "mirrormanager",
+            "koschei",
+            "authentication",
+            "mirrorlist",
+            "cloud",
+            "fas",
+            "pkgs",
+            "website",
+            "docs",
+            "copr",
+            "bodhi",
+            "ask",
+            "packages",
+            "freemedia",
+            "fedmsg",
+            "elections",
+            "mailinglists",
+            "fedocal"
+        ],
+        "changetype": "multiple",
+        "message": "Everything seems to be working.",
+        "changedate": 1464220609.936098
+    },
+    {
+        "status": "scheduled",
+        "new_global_status": "scheduled",
+        "services": [
+            "wiki",
+            "people",
+            "zodbot",
+            "koji",
+            "darkserver",
+            "tagger",
+            "pkgdb",
+            "fedorapaste",
+            "blockerbugs",
+            "badges",
+            "fedorahosted",
+            "mirrormanager",
+            "koschei",
+            "authentication",
+            "mirrorlist",
+            "cloud",
+            "fas",
+            "pkgs",
+            "website",
+            "docs",
+            "copr",
+            "bodhi",
+            "ask",
+            "packages",
+            "freemedia",
+            "fedmsg",
+            "elections",
+            "mailinglists",
+            "fedocal"
+        ],
+        "changetype": "multiple",
+        "message": "Scheduled reboots in progress",
+        "changedate": 1464210129.865406
+    },
+    {
+        "status": "good",
+        "new_global_status": "good",
+        "services": [
+            "koji",
+            "koschei",
+            "pkgs",
+            "bodhi"
+        ],
+        "changetype": "multiple",
+        "message": "Everything seems to be working.",
+        "changedate": 1464125746.627533
+    },
+    {
+        "status": "scheduled",
+        "new_global_status": "scheduled",
+        "services": [
+            "pkgs",
+            "koschei",
+            "koji",
+            "bodhi"
+        ],
+        "changetype": "multiple",
+        "message": "Scheduled reboots in progress",
+        "changedate": 1464123474.475633
+    },
+    {
+        "status": "good",
+        "new_global_status": "good",
+        "service": "koschei",
+        "changetype": "single",
+        "message": "Everything seems to be working.",
+        "changedate": 1463076863.599213
+    },
+    {
+        "status": "scheduled",
+        "new_global_status": "scheduled",
+        "service": "koschei",
+        "changetype": "single",
+        "message": "Scheduled reinstall in progress",
+        "changedate": 1463066568.731787
+    },
+    {
+        "status": "good",
+        "new_global_status": "good",
+        "services": [
+            "koji",
+            "copr"
+        ],
+        "changetype": "multiple",
+        "message": "Everything seems to be working.",
+        "changedate": 1461678506.739429
+    },
+    {
+        "status": "major",
+        "new_global_status": "major",
         "services": [
             "copr",
             "koji"
-        ]
+        ],
+        "changetype": "multiple",
+        "message": "Build system network outage. Being looked into",
+        "changedate": 1461676952.497572
     },
     {
-        "changedate": 1461269826.983101,
         "status": "good",
-        "changetype": "single",
+        "new_global_status": "good",
         "service": "wiki",
+        "changetype": "single",
         "message": "Everything seems to be working.",
-        "new_global_status": "good"
+        "changedate": 1461269826.983101
     },
     {
-        "changedate": 1461266187.575721,
         "status": "major",
-        "changetype": "single",
+        "new_global_status": "major",
         "service": "wiki",
+        "changetype": "single",
         "message": "Wiki crashed, will be looked at after antispam systems have been fixed.",
-        "new_global_status": "major"
+        "changedate": 1461266187.575721
     },
     {
-        "changedate": 1461244940.250511,
         "status": "good",
-        "changetype": "multiple",
         "new_global_status": "good",
-        "message": "Everything seems to be working.",
         "services": [
             "wiki",
             "people",
@@ -2621,14 +2626,14 @@ callback([
             "elections",
             "mailinglists",
             "fedocal"
-        ]
+        ],
+        "changetype": "multiple",
+        "message": "Everything seems to be working.",
+        "changedate": 1461244940.250511
     },
     {
-        "changedate": 1461243252.417396,
         "status": "scheduled",
-        "changetype": "multiple",
         "new_global_status": "scheduled",
-        "message": "Scheduled switch maintenance. Short outage may occur.",
         "services": [
             "wiki",
             "people",
@@ -2659,40 +2664,40 @@ callback([
             "elections",
             "mailinglists",
             "fedocal"
-        ]
+        ],
+        "changetype": "multiple",
+        "message": "Scheduled switch maintenance. Short outage may occur.",
+        "changedate": 1461243252.417396
     },
     {
-        "changedate": 1460732704.981839,
         "status": "good",
-        "changetype": "multiple",
         "new_global_status": "good",
-        "message": "Everything seems to be working.",
         "services": [
             "koji",
             "koschei",
             "pkgs",
             "bodhi"
-        ]
+        ],
+        "changetype": "multiple",
+        "message": "Everything seems to be working.",
+        "changedate": 1460732704.981839
     },
     {
-        "changedate": 1460730533.19211,
         "status": "major",
-        "changetype": "multiple",
         "new_global_status": "major",
-        "message": "Server outage, being looked at",
         "services": [
             "koji",
             "pkgs",
             "bodhi",
             "koschei"
-        ]
+        ],
+        "changetype": "multiple",
+        "message": "Server outage, being looked at",
+        "changedate": 1460730533.19211
     },
     {
-        "changedate": 1460590525.302984,
         "status": "good",
-        "changetype": "multiple",
         "new_global_status": "good",
-        "message": "Everything seems to be working.",
         "services": [
             "wiki",
             "people",
@@ -2723,52 +2728,52 @@ callback([
             "elections",
             "mailinglists",
             "fedocal"
-        ]
+        ],
+        "changetype": "multiple",
+        "message": "Everything seems to be working.",
+        "changedate": 1460590525.302984
     },
     {
-        "changedate": 1460581211.147338,
         "status": "scheduled",
-        "changetype": "multiple",
         "new_global_status": "scheduled",
+        "services": [
+            "wiki",
+            "people",
+            "zodbot",
+            "koji",
+            "darkserver",
+            "tagger",
+            "pkgdb",
+            "fedorapaste",
+            "blockerbugs",
+            "badges",
+            "fedorahosted",
+            "mirrormanager",
+            "koschei",
+            "authentication",
+            "mirrorlist",
+            "cloud",
+            "fas",
+            "pkgs",
+            "website",
+            "docs",
+            "copr",
+            "bodhi",
+            "ask",
+            "packages",
+            "freemedia",
+            "fedmsg",
+            "elections",
+            "mailinglists",
+            "fedocal"
+        ],
+        "changetype": "multiple",
         "message": "Scheduled reboots in progress",
-        "services": [
-            "wiki",
-            "people",
-            "zodbot",
-            "koji",
-            "darkserver",
-            "tagger",
-            "pkgdb",
-            "fedorapaste",
-            "blockerbugs",
-            "badges",
-            "fedorahosted",
-            "mirrormanager",
-            "koschei",
-            "authentication",
-            "mirrorlist",
-            "cloud",
-            "fas",
-            "pkgs",
-            "website",
-            "docs",
-            "copr",
-            "bodhi",
-            "ask",
-            "packages",
-            "freemedia",
-            "fedmsg",
-            "elections",
-            "mailinglists",
-            "fedocal"
-        ]
+        "changedate": 1460581211.147338
     },
     {
-        "changedate": 1460499775.801525,
         "status": "good",
-        "changetype": "multiple",
         "new_global_status": "good",
-        "message": "Everything seems to be working.",
         "services": [
             "koji",
             "darkserver",
@@ -2776,871 +2781,871 @@ callback([
             "koschei",
             "pkgs",
             "bodhi"
-        ]
+        ],
+        "changetype": "multiple",
+        "message": "Everything seems to be working.",
+        "changedate": 1460499775.801525
     },
     {
-        "changedate": 1460494877.791828,
         "status": "scheduled",
-        "changetype": "multiple",
         "new_global_status": "scheduled",
+        "services": [
+            "darkserver",
+            "pkgdb",
+            "koschei",
+            "koji",
+            "pkgs",
+            "bodhi"
+        ],
+        "changetype": "multiple",
         "message": "scheduled outage",
-        "services": [
-            "darkserver",
-            "pkgdb",
-            "koschei",
-            "koji",
-            "pkgs",
-            "bodhi"
-        ]
+        "changedate": 1460494877.791828
     },
     {
-        "changedate": 1460085805.3471,
         "status": "good",
-        "changetype": "multiple",
         "new_global_status": "good",
-        "message": "Everything seems to be working.",
         "services": [
             "cloud",
             "copr"
-        ]
+        ],
+        "changetype": "multiple",
+        "message": "Everything seems to be working.",
+        "changedate": 1460085805.3471
     },
     {
-        "changedate": 1460080811.022719,
         "status": "scheduled",
-        "changetype": "multiple",
         "new_global_status": "scheduled",
-        "message": "Scheduled reboot of Infra Cloud in progress",
         "services": [
             "cloud",
             "copr"
-        ]
+        ],
+        "changetype": "multiple",
+        "message": "Scheduled reboot of Infra Cloud in progress",
+        "changedate": 1460080811.022719
     },
     {
-        "changedate": 1459438577.800475,
         "status": "good",
-        "changetype": "multiple",
         "new_global_status": "good",
-        "message": "Everything seems to be working.",
         "services": [
             "authentication",
             "fas"
-        ]
+        ],
+        "changetype": "multiple",
+        "message": "Everything seems to be working.",
+        "changedate": 1459438577.800475
     },
     {
-        "changedate": 1459438149.869028,
         "status": "major",
-        "changetype": "multiple",
         "new_global_status": "major",
-        "message": "account system outage",
         "services": [
             "fas",
             "authentication"
-        ]
+        ],
+        "changetype": "multiple",
+        "message": "account system outage",
+        "changedate": 1459438149.869028
     },
     {
-        "changedate": 1459358265.680275,
         "status": "good",
-        "changetype": "single",
+        "new_global_status": "good",
         "service": "copr",
+        "changetype": "single",
         "message": "Everything seems to be working.",
-        "new_global_status": "good"
+        "changedate": 1459358265.680275
     },
     {
-        "changedate": 1459356946.166958,
         "status": "major",
-        "changetype": "single",
+        "new_global_status": "major",
         "service": "copr",
+        "changetype": "single",
         "message": "cloud outage",
-        "new_global_status": "major"
+        "changedate": 1459356946.166958
     },
     {
-        "changedate": 1458439786.975653,
         "status": "good",
-        "changetype": "multiple",
         "new_global_status": "good",
-        "message": "Everything seems to be working.",
         "services": [
             "koji",
             "koschei"
-        ]
+        ],
+        "changetype": "multiple",
+        "message": "Everything seems to be working.",
+        "changedate": 1458439786.975653
     },
     {
-        "changedate": 1458439418.300353,
         "status": "major",
-        "changetype": "multiple",
         "new_global_status": "major",
+        "services": [
+            "koji",
+            "koschei"
+        ],
+        "changetype": "multiple",
         "message": "kojipkgs outage",
-        "services": [
-            "koji",
-            "koschei"
-        ]
+        "changedate": 1458439418.300353
     },
     {
-        "changedate": 1457231230.642017,
         "status": "good",
-        "changetype": "single",
+        "new_global_status": "good",
         "service": "koji",
+        "changetype": "single",
         "message": "Everything seems to be working.",
-        "new_global_status": "good"
+        "changedate": 1457231230.642017
     },
     {
-        "changedate": 1457229564.994502,
         "status": "major",
-        "changetype": "single",
+        "new_global_status": "major",
         "service": "koji",
+        "changetype": "single",
         "message": "storage problem",
-        "new_global_status": "major"
+        "changedate": 1457229564.994502
     },
     {
-        "changedate": 1456518262.28893,
         "status": "good",
-        "changetype": "single",
+        "new_global_status": "good",
         "service": "koschei",
+        "changetype": "single",
         "message": "Everything seems to be working.",
-        "new_global_status": "good"
+        "changedate": 1456518262.28893
     },
     {
-        "changedate": 1456415175.104674,
         "status": "major",
-        "changetype": "single",
+        "new_global_status": "major",
         "service": "koschei",
+        "changetype": "single",
         "message": "Issue with restarting server after storage outage",
-        "new_global_status": "major"
+        "changedate": 1456415175.104674
     },
     {
-        "changedate": 1456412532.753643,
         "status": "good",
-        "changetype": "multiple",
         "new_global_status": "good",
-        "message": "Everything seems to be working.",
         "services": [
             "koji",
             "pkgdb",
             "koschei"
-        ]
+        ],
+        "changetype": "multiple",
+        "message": "Everything seems to be working.",
+        "changedate": 1456412532.753643
     },
     {
-        "changedate": 1456410434.345639,
         "status": "major",
-        "changetype": "multiple",
         "new_global_status": "major",
-        "message": "Koji database outage",
         "services": [
             "koji",
             "koschei",
             "pkgdb"
-        ]
+        ],
+        "changetype": "multiple",
+        "message": "Koji database outage",
+        "changedate": 1456410434.345639
     },
     {
-        "changedate": 1456335115.158932,
         "status": "good",
-        "changetype": "multiple",
         "new_global_status": "good",
-        "message": "Everything seems to be working.",
         "services": [
             "koji",
             "pkgdb",
             "koschei"
-        ]
+        ],
+        "changetype": "multiple",
+        "message": "Everything seems to be working.",
+        "changedate": 1456335115.158932
     },
     {
-        "changedate": 1456327924.922069,
         "status": "major",
-        "changetype": "multiple",
         "new_global_status": "major",
-        "message": "Koji database outage",
         "services": [
             "koji",
             "koschei",
             "pkgdb"
-        ]
+        ],
+        "changetype": "multiple",
+        "message": "Koji database outage",
+        "changedate": 1456327924.922069
     },
     {
-        "changedate": 1456307897.74565,
         "status": "good",
-        "changetype": "multiple",
         "new_global_status": "good",
-        "message": "Everything seems to be working.",
         "services": [
             "koji",
             "koschei",
             "bodhi"
-        ]
+        ],
+        "changetype": "multiple",
+        "message": "Everything seems to be working.",
+        "changedate": 1456307897.74565
     },
     {
-        "changedate": 1456304655.67504,
         "status": "major",
-        "changetype": "multiple",
         "new_global_status": "major",
-        "message": "Koji database outage",
         "services": [
             "bodhi",
             "koschei"
-        ]
-    },
-    {
-        "changedate": 1456287311.71209,
-        "status": "major",
-        "changetype": "single",
-        "service": "koji",
-        "message": "database outage",
-        "new_global_status": "major"
-    },
-    {
-        "changedate": 1456285505.83541,
-        "status": "good",
-        "changetype": "single",
-        "service": "koji",
-        "message": "Everything seems to be working.",
-        "new_global_status": "good"
-    },
-    {
-        "changedate": 1456281528.686581,
-        "status": "major",
-        "changetype": "single",
-        "service": "koji",
-        "message": "database outage",
-        "new_global_status": "major"
-    },
-    {
-        "changedate": 1455766378.291539,
-        "status": "good",
+        ],
         "changetype": "multiple",
-        "new_global_status": "good",
-        "message": "Everything seems to be working.",
-        "services": [
-            "wiki",
-            "people",
-            "zodbot",
-            "koji",
-            "darkserver",
-            "tagger",
-            "pkgdb",
-            "fedorapaste",
-            "blockerbugs",
-            "badges",
-            "fedorahosted",
-            "mirrormanager",
-            "koschei",
-            "authentication",
-            "mirrorlist",
-            "pkgs",
-            "fas",
-            "website",
-            "docs",
-            "copr",
-            "bodhi",
-            "ask",
-            "packages",
-            "freemedia",
-            "fedmsg",
-            "elections",
-            "mailinglists",
-            "fedocal"
-        ]
+        "message": "Koji database outage",
+        "changedate": 1456304655.67504
     },
     {
-        "changedate": 1455746516.02783,
-        "status": "scheduled",
-        "changetype": "multiple",
-        "new_global_status": "scheduled",
-        "message": "scheduled outage",
-        "services": [
-            "wiki",
-            "people",
-            "zodbot",
-            "koji",
-            "darkserver",
-            "tagger",
-            "pkgdb",
-            "fedorapaste",
-            "blockerbugs",
-            "badges",
-            "fedorahosted",
-            "mirrormanager",
-            "koschei",
-            "authentication",
-            "mirrorlist",
-            "pkgs",
-            "fas",
-            "website",
-            "docs",
-            "copr",
-            "bodhi",
-            "ask",
-            "packages",
-            "freemedia",
-            "fedmsg",
-            "elections",
-            "mailinglists",
-            "fedocal"
-        ]
-    },
-    {
-        "changedate": 1455635423.249398,
-        "status": "good",
-        "changetype": "single",
-        "service": "wiki",
-        "message": "Everything seems to be working.",
-        "new_global_status": "good"
-    },
-    {
-        "changedate": 1455634946.229668,
         "status": "major",
-        "changetype": "single",
-        "service": "wiki",
-        "message": "Anti-spam operations caused blocks for many users. Being dealt with at the moment.",
-        "new_global_status": "major"
-    },
-    {
-        "changedate": 1455634901.361525,
-        "status": "major",
-        "changetype": "single",
-        "service": "wiki",
-        "message": "Anti-spam operations caused blocks  for many users. Please hold on to your hats while we deal with these pesky spammers.",
-        "new_global_status": "major"
-    },
-    {
-        "changedate": 1455209327.296323,
-        "status": "good",
-        "changetype": "single",
-        "service": "people",
-        "message": "Everything seems to be working.",
-        "new_global_status": "good"
-    },
-    {
-        "changedate": 1455206396.257286,
-        "status": "scheduled",
-        "changetype": "single",
-        "service": "people",
-        "message": "migration",
-        "new_global_status": "scheduled"
-    },
-    {
-        "changedate": 1455191769.284533,
-        "status": "good",
-        "changetype": "single",
-        "service": "copr",
-        "message": "Everything seems to be working.",
-        "new_global_status": "good"
-    },
-    {
-        "changedate": 1455176950.350461,
-        "status": "scheduled",
-        "changetype": "single",
-        "service": "copr",
-        "message": "scheduled maintenance in progress",
-        "new_global_status": "scheduled"
-    },
-    {
-        "changedate": 1454074666.875848,
-        "status": "good",
-        "changetype": "single",
-        "service": "darkserver",
-        "message": "Everything seems to be working.",
-        "new_global_status": "good"
-    },
-    {
-        "changedate": 1454063857.040384,
-        "status": "scheduled",
-        "changetype": "single",
-        "service": "darkserver",
-        "message": "Scheduled upgrade in progress",
-        "new_global_status": "scheduled"
-    },
-    {
-        "changedate": 1453767847.378572,
-        "status": "good",
-        "changetype": "single",
-        "service": "mirrorlist",
-        "message": "Everything seems to be working.",
-        "new_global_status": "good"
-    },
-    {
-        "changedate": 1453766635.87695,
-        "status": "minor",
-        "changetype": "single",
-        "service": "mirrorlist",
-        "message": "F23 secondary metalink broken, fixes syncing out.",
-        "new_global_status": "minor"
-    },
-    {
-        "changedate": 1453605629.399663,
-        "status": "good",
-        "changetype": "single",
-        "service": "copr",
-        "message": "Everything seems to be working.",
-        "new_global_status": "good"
-    },
-    {
-        "changedate": 1453580099.266629,
-        "status": "minor",
-        "changetype": "single",
-        "service": "copr",
-        "message": "Backlog created in builds because of crash. Catching up now.",
-        "new_global_status": "minor"
-    },
-    {
-        "changedate": 1453258617.468634,
-        "status": "good",
-        "changetype": "single",
-        "service": "copr",
-        "message": "Everything seems to be working.",
-        "new_global_status": "good"
-    },
-    {
-        "changedate": 1453234319.51958,
-        "status": "scheduled",
-        "changetype": "single",
-        "service": "copr",
-        "message": "Tasks not running due to planned outage",
-        "new_global_status": "scheduled"
-    },
-    {
-        "changedate": 1452571486.674194,
-        "status": "good",
-        "changetype": "single",
-        "service": "copr",
-        "message": "Everything seems to be working.",
-        "new_global_status": "good"
-    },
-    {
-        "changedate": 1452564466.946705,
-        "status": "scheduled",
-        "changetype": "single",
-        "service": "copr",
-        "message": "Scheduled outage in progress",
-        "new_global_status": "scheduled"
-    },
-    {
-        "changedate": 1452172781.434239,
-        "status": "good",
-        "changetype": "single",
-        "service": "people",
-        "message": "Everything seems to be working.",
-        "new_global_status": "good"
-    },
-    {
-        "changedate": 1452170146.210731,
-        "status": "major",
-        "changetype": "single",
-        "service": "people",
-        "message": "Network outage in host datacenter",
-        "new_global_status": "major"
-    },
-    {
-        "changedate": 1452050885.205798,
-        "status": "good",
-        "changetype": "multiple",
-        "new_global_status": "good",
-        "message": "Everything seems to be working.",
-        "services": [
-            "wiki",
-            "people",
-            "zodbot",
-            "koji",
-            "darkserver",
-            "tagger",
-            "pkgdb",
-            "fedorapaste",
-            "blockerbugs",
-            "badges",
-            "fedorahosted",
-            "mirrormanager",
-            "koschei",
-            "authentication",
-            "mirrorlist",
-            "pkgs",
-            "fas",
-            "website",
-            "docs",
-            "copr",
-            "bodhi",
-            "ask",
-            "packages",
-            "freemedia",
-            "fedmsg",
-            "elections",
-            "mailinglists",
-            "fedocal"
-        ]
-    },
-    {
-        "changedate": 1452045658.601351,
-        "status": "scheduled",
-        "changetype": "multiple",
-        "new_global_status": "scheduled",
-        "message": "Login service maintenance in progress",
-        "services": [
-            "wiki",
-            "people",
-            "zodbot",
-            "koji",
-            "darkserver",
-            "tagger",
-            "pkgdb",
-            "fedorapaste",
-            "blockerbugs",
-            "badges",
-            "fedorahosted",
-            "mirrormanager",
-            "koschei",
-            "authentication",
-            "mirrorlist",
-            "pkgs",
-            "fas",
-            "website",
-            "docs",
-            "copr",
-            "bodhi",
-            "ask",
-            "packages",
-            "freemedia",
-            "fedmsg",
-            "elections",
-            "mailinglists",
-            "fedocal"
-        ]
-    },
-    {
-        "changedate": 1451977062.649073,
-        "status": "good",
-        "changetype": "multiple",
-        "new_global_status": "good",
-        "message": "Everything seems to be working.",
-        "services": [
-            "fedorahosted",
-            "mailinglists"
-        ]
-    },
-    {
-        "changedate": 1451974816.453367,
-        "status": "major",
-        "changetype": "multiple",
         "new_global_status": "major",
-        "message": "unplanned outage",
+        "service": "koji",
+        "changetype": "single",
+        "message": "database outage",
+        "changedate": 1456287311.71209
+    },
+    {
+        "status": "good",
+        "new_global_status": "good",
+        "service": "koji",
+        "changetype": "single",
+        "message": "Everything seems to be working.",
+        "changedate": 1456285505.83541
+    },
+    {
+        "status": "major",
+        "new_global_status": "major",
+        "service": "koji",
+        "changetype": "single",
+        "message": "database outage",
+        "changedate": 1456281528.686581
+    },
+    {
+        "status": "good",
+        "new_global_status": "good",
+        "services": [
+            "wiki",
+            "people",
+            "zodbot",
+            "koji",
+            "darkserver",
+            "tagger",
+            "pkgdb",
+            "fedorapaste",
+            "blockerbugs",
+            "badges",
+            "fedorahosted",
+            "mirrormanager",
+            "koschei",
+            "authentication",
+            "mirrorlist",
+            "pkgs",
+            "fas",
+            "website",
+            "docs",
+            "copr",
+            "bodhi",
+            "ask",
+            "packages",
+            "freemedia",
+            "fedmsg",
+            "elections",
+            "mailinglists",
+            "fedocal"
+        ],
+        "changetype": "multiple",
+        "message": "Everything seems to be working.",
+        "changedate": 1455766378.291539
+    },
+    {
+        "status": "scheduled",
+        "new_global_status": "scheduled",
+        "services": [
+            "wiki",
+            "people",
+            "zodbot",
+            "koji",
+            "darkserver",
+            "tagger",
+            "pkgdb",
+            "fedorapaste",
+            "blockerbugs",
+            "badges",
+            "fedorahosted",
+            "mirrormanager",
+            "koschei",
+            "authentication",
+            "mirrorlist",
+            "pkgs",
+            "fas",
+            "website",
+            "docs",
+            "copr",
+            "bodhi",
+            "ask",
+            "packages",
+            "freemedia",
+            "fedmsg",
+            "elections",
+            "mailinglists",
+            "fedocal"
+        ],
+        "changetype": "multiple",
+        "message": "scheduled outage",
+        "changedate": 1455746516.02783
+    },
+    {
+        "status": "good",
+        "new_global_status": "good",
+        "service": "wiki",
+        "changetype": "single",
+        "message": "Everything seems to be working.",
+        "changedate": 1455635423.249398
+    },
+    {
+        "status": "major",
+        "new_global_status": "major",
+        "service": "wiki",
+        "changetype": "single",
+        "message": "Anti-spam operations caused blocks for many users. Being dealt with at the moment.",
+        "changedate": 1455634946.229668
+    },
+    {
+        "status": "major",
+        "new_global_status": "major",
+        "service": "wiki",
+        "changetype": "single",
+        "message": "Anti-spam operations caused blocks  for many users. Please hold on to your hats while we deal with these pesky spammers.",
+        "changedate": 1455634901.361525
+    },
+    {
+        "status": "good",
+        "new_global_status": "good",
+        "service": "people",
+        "changetype": "single",
+        "message": "Everything seems to be working.",
+        "changedate": 1455209327.296323
+    },
+    {
+        "status": "scheduled",
+        "new_global_status": "scheduled",
+        "service": "people",
+        "changetype": "single",
+        "message": "migration",
+        "changedate": 1455206396.257286
+    },
+    {
+        "status": "good",
+        "new_global_status": "good",
+        "service": "copr",
+        "changetype": "single",
+        "message": "Everything seems to be working.",
+        "changedate": 1455191769.284533
+    },
+    {
+        "status": "scheduled",
+        "new_global_status": "scheduled",
+        "service": "copr",
+        "changetype": "single",
+        "message": "scheduled maintenance in progress",
+        "changedate": 1455176950.350461
+    },
+    {
+        "status": "good",
+        "new_global_status": "good",
+        "service": "darkserver",
+        "changetype": "single",
+        "message": "Everything seems to be working.",
+        "changedate": 1454074666.875848
+    },
+    {
+        "status": "scheduled",
+        "new_global_status": "scheduled",
+        "service": "darkserver",
+        "changetype": "single",
+        "message": "Scheduled upgrade in progress",
+        "changedate": 1454063857.040384
+    },
+    {
+        "status": "good",
+        "new_global_status": "good",
+        "service": "mirrorlist",
+        "changetype": "single",
+        "message": "Everything seems to be working.",
+        "changedate": 1453767847.378572
+    },
+    {
+        "status": "minor",
+        "new_global_status": "minor",
+        "service": "mirrorlist",
+        "changetype": "single",
+        "message": "F23 secondary metalink broken, fixes syncing out.",
+        "changedate": 1453766635.87695
+    },
+    {
+        "status": "good",
+        "new_global_status": "good",
+        "service": "copr",
+        "changetype": "single",
+        "message": "Everything seems to be working.",
+        "changedate": 1453605629.399663
+    },
+    {
+        "status": "minor",
+        "new_global_status": "minor",
+        "service": "copr",
+        "changetype": "single",
+        "message": "Backlog created in builds because of crash. Catching up now.",
+        "changedate": 1453580099.266629
+    },
+    {
+        "status": "good",
+        "new_global_status": "good",
+        "service": "copr",
+        "changetype": "single",
+        "message": "Everything seems to be working.",
+        "changedate": 1453258617.468634
+    },
+    {
+        "status": "scheduled",
+        "new_global_status": "scheduled",
+        "service": "copr",
+        "changetype": "single",
+        "message": "Tasks not running due to planned outage",
+        "changedate": 1453234319.51958
+    },
+    {
+        "status": "good",
+        "new_global_status": "good",
+        "service": "copr",
+        "changetype": "single",
+        "message": "Everything seems to be working.",
+        "changedate": 1452571486.674194
+    },
+    {
+        "status": "scheduled",
+        "new_global_status": "scheduled",
+        "service": "copr",
+        "changetype": "single",
+        "message": "Scheduled outage in progress",
+        "changedate": 1452564466.946705
+    },
+    {
+        "status": "good",
+        "new_global_status": "good",
+        "service": "people",
+        "changetype": "single",
+        "message": "Everything seems to be working.",
+        "changedate": 1452172781.434239
+    },
+    {
+        "status": "major",
+        "new_global_status": "major",
+        "service": "people",
+        "changetype": "single",
+        "message": "Network outage in host datacenter",
+        "changedate": 1452170146.210731
+    },
+    {
+        "status": "good",
+        "new_global_status": "good",
+        "services": [
+            "wiki",
+            "people",
+            "zodbot",
+            "koji",
+            "darkserver",
+            "tagger",
+            "pkgdb",
+            "fedorapaste",
+            "blockerbugs",
+            "badges",
+            "fedorahosted",
+            "mirrormanager",
+            "koschei",
+            "authentication",
+            "mirrorlist",
+            "pkgs",
+            "fas",
+            "website",
+            "docs",
+            "copr",
+            "bodhi",
+            "ask",
+            "packages",
+            "freemedia",
+            "fedmsg",
+            "elections",
+            "mailinglists",
+            "fedocal"
+        ],
+        "changetype": "multiple",
+        "message": "Everything seems to be working.",
+        "changedate": 1452050885.205798
+    },
+    {
+        "status": "scheduled",
+        "new_global_status": "scheduled",
+        "services": [
+            "wiki",
+            "people",
+            "zodbot",
+            "koji",
+            "darkserver",
+            "tagger",
+            "pkgdb",
+            "fedorapaste",
+            "blockerbugs",
+            "badges",
+            "fedorahosted",
+            "mirrormanager",
+            "koschei",
+            "authentication",
+            "mirrorlist",
+            "pkgs",
+            "fas",
+            "website",
+            "docs",
+            "copr",
+            "bodhi",
+            "ask",
+            "packages",
+            "freemedia",
+            "fedmsg",
+            "elections",
+            "mailinglists",
+            "fedocal"
+        ],
+        "changetype": "multiple",
+        "message": "Login service maintenance in progress",
+        "changedate": 1452045658.601351
+    },
+    {
+        "status": "good",
+        "new_global_status": "good",
         "services": [
             "fedorahosted",
             "mailinglists"
-        ]
-    },
-    {
-        "changedate": 1451915300.250706,
-        "status": "good",
-        "changetype": "single",
-        "service": "copr",
-        "message": "Everything seems to be working.",
-        "new_global_status": "good"
-    },
-    {
-        "changedate": 1451903570.888318,
-        "status": "scheduled",
-        "changetype": "single",
-        "service": "copr",
-        "message": "COPR getting upgraded to F23",
-        "new_global_status": "scheduled"
-    },
-    {
-        "changedate": 1450860611.477042,
-        "status": "good",
-        "changetype": "single",
-        "service": "mailinglists",
-        "message": "Everything seems to be working.",
-        "new_global_status": "minor"
-    },
-    {
-        "changedate": 1450855454.512375,
-        "status": "scheduled",
-        "changetype": "single",
-        "service": "mailinglists",
-        "message": "lists.fedorahosted.org offline due to emergency outage (hardware checks). Mails will be queued",
-        "new_global_status": "minor"
-    },
-    {
-        "changedate": 1450849656.392307,
-        "status": "good",
-        "changetype": "single",
-        "service": "mailinglists",
-        "message": "Everything seems to be working.",
-        "new_global_status": "minor"
-    },
-    {
-        "changedate": 1450847346.886755,
-        "status": "minor",
-        "changetype": "single",
-        "service": "mailinglists",
-        "message": "lists.fedorahosted.org server unavailable, being worked on",
-        "new_global_status": "minor"
-    },
-    {
-        "changedate": 1450579626.145252,
-        "status": "minor",
-        "changetype": "single",
-        "service": "copr",
-        "message": "PPC64LE buildhost gone, PPC64LE COPR builds will not work. Being worked on",
-        "new_global_status": "minor"
-    },
-    {
-        "changedate": 1450576856.891897,
-        "status": "major",
-        "changetype": "single",
-        "service": "copr",
-        "message": "PPC buildhost gone, brought all builds to a stop. Being looked at.",
-        "new_global_status": "major"
-    },
-    {
-        "changedate": 1450373527.097745,
-        "status": "good",
+        ],
         "changetype": "multiple",
-        "new_global_status": "good",
         "message": "Everything seems to be working.",
+        "changedate": 1451977062.649073
+    },
+    {
+        "status": "major",
+        "new_global_status": "major",
+        "services": [
+            "fedorahosted",
+            "mailinglists"
+        ],
+        "changetype": "multiple",
+        "message": "unplanned outage",
+        "changedate": 1451974816.453367
+    },
+    {
+        "status": "good",
+        "new_global_status": "good",
+        "service": "copr",
+        "changetype": "single",
+        "message": "Everything seems to be working.",
+        "changedate": 1451915300.250706
+    },
+    {
+        "status": "scheduled",
+        "new_global_status": "scheduled",
+        "service": "copr",
+        "changetype": "single",
+        "message": "COPR getting upgraded to F23",
+        "changedate": 1451903570.888318
+    },
+    {
+        "status": "good",
+        "new_global_status": "minor",
+        "service": "mailinglists",
+        "changetype": "single",
+        "message": "Everything seems to be working.",
+        "changedate": 1450860611.477042
+    },
+    {
+        "status": "scheduled",
+        "new_global_status": "minor",
+        "service": "mailinglists",
+        "changetype": "single",
+        "message": "lists.fedorahosted.org offline due to emergency outage (hardware checks). Mails will be queued",
+        "changedate": 1450855454.512375
+    },
+    {
+        "status": "good",
+        "new_global_status": "minor",
+        "service": "mailinglists",
+        "changetype": "single",
+        "message": "Everything seems to be working.",
+        "changedate": 1450849656.392307
+    },
+    {
+        "status": "minor",
+        "new_global_status": "minor",
+        "service": "mailinglists",
+        "changetype": "single",
+        "message": "lists.fedorahosted.org server unavailable, being worked on",
+        "changedate": 1450847346.886755
+    },
+    {
+        "status": "minor",
+        "new_global_status": "minor",
+        "service": "copr",
+        "changetype": "single",
+        "message": "PPC64LE buildhost gone, PPC64LE COPR builds will not work. Being worked on",
+        "changedate": 1450579626.145252
+    },
+    {
+        "status": "major",
+        "new_global_status": "major",
+        "service": "copr",
+        "changetype": "single",
+        "message": "PPC buildhost gone, brought all builds to a stop. Being looked at.",
+        "changedate": 1450576856.891897
+    },
+    {
+        "status": "good",
+        "new_global_status": "good",
         "services": [
             "pkgdb",
             "pkgs"
-        ]
+        ],
+        "changetype": "multiple",
+        "message": "Everything seems to be working.",
+        "changedate": 1450373527.097745
     },
     {
-        "changedate": 1450364800.268031,
         "status": "scheduled",
-        "changetype": "multiple",
         "new_global_status": "scheduled",
-        "message": "Scheduled upgrade in progress",
         "services": [
             "pkgs",
             "pkgdb"
-        ]
-    },
-    {
-        "changedate": 1450361515.053553,
-        "status": "good",
-        "changetype": "single",
-        "service": "mirrorlist",
-        "message": "Everything seems to be working.",
-        "new_global_status": "good"
-    },
-    {
-        "changedate": 1450361117.98116,
-        "status": "major",
-        "changetype": "single",
-        "service": "mirrorlist",
-        "message": "Failed upgrade, being worked on",
-        "new_global_status": "major"
-    },
-    {
-        "changedate": 1450305398.587961,
-        "status": "good",
-        "changetype": "single",
-        "service": "koji",
-        "message": "Everything seems to be working.",
-        "new_global_status": "good"
-    },
-    {
-        "changedate": 1450304836.580202,
-        "status": "major",
-        "changetype": "single",
-        "service": "koji",
-        "message": "unscheduled outage",
-        "new_global_status": "major"
-    },
-    {
-        "changedate": 1450220678.760519,
-        "status": "good",
-        "changetype": "single",
-        "service": "website",
-        "message": "Everything seems to be working.",
-        "new_global_status": "good"
-    },
-    {
-        "changedate": 1450218852.446691,
-        "status": "major",
-        "changetype": "single",
-        "service": "website",
-        "message": "Websites being rebuild",
-        "new_global_status": "major"
-    },
-    {
-        "changedate": 1449714277.291002,
-        "status": "good",
-        "changetype": "single",
-        "service": "copr",
-        "message": "Everything seems to be working.",
-        "new_global_status": "good"
-    },
-    {
-        "changedate": 1449712842.677667,
-        "status": "minor",
-        "changetype": "single",
-        "service": "copr",
-        "message": "Filesystem corruptions fixed. Backlog being processed now",
-        "new_global_status": "minor"
-    },
-    {
-        "changedate": 1449705963.999833,
-        "status": "major",
-        "changetype": "single",
-        "service": "copr",
-        "message": "File system corruption caused by storage issues, being worked on.",
-        "new_global_status": "major"
-    },
-    {
-        "changedate": 1449689183.894417,
-        "status": "good",
-        "changetype": "single",
-        "service": "mirrorlist",
-        "message": "Everything seems to be working.",
-        "new_global_status": "good"
-    },
-    {
-        "changedate": 1449684502.373221,
-        "status": "major",
-        "changetype": "single",
-        "service": "mirrorlist",
-        "message": "Older package metadata stuck, causing metalink checksums to not match. Being worked on.",
-        "new_global_status": "major"
-    },
-    {
-        "changedate": 1449607116.892749,
-        "status": "good",
-        "changetype": "single",
-        "service": "copr",
-        "message": "Everything seems to be working.",
-        "new_global_status": "good"
-    },
-    {
-        "changedate": 1449605117.569015,
-        "status": "scheduled",
-        "changetype": "single",
-        "service": "copr",
-        "message": "Storage upgrade finished, backlog processing now",
-        "new_global_status": "scheduled"
-    },
-    {
-        "changedate": 1449597647.980942,
-        "status": "scheduled",
-        "changetype": "single",
-        "service": "copr",
-        "message": "Backend storage being upraded",
-        "new_global_status": "scheduled"
-    },
-    {
-        "changedate": 1449564868.271549,
-        "status": "good",
-        "changetype": "single",
-        "service": "copr",
-        "message": "Everything seems to be working.",
-        "new_global_status": "good"
-    },
-    {
-        "changedate": 1449529981.236801,
-        "status": "minor",
-        "changetype": "single",
-        "service": "copr",
-        "message": "Backend having issues, being looked at",
-        "new_global_status": "minor"
-    },
-    {
-        "changedate": 1449518009.50684,
-        "status": "major",
-        "changetype": "single",
-        "service": "copr",
-        "message": "Issue with OpenStack backend storage, being worked on",
-        "new_global_status": "major"
-    },
-    {
-        "changedate": 1449197939.299575,
-        "status": "good",
+        ],
         "changetype": "multiple",
+        "message": "Scheduled upgrade in progress",
+        "changedate": 1450364800.268031
+    },
+    {
+        "status": "good",
         "new_global_status": "good",
+        "service": "mirrorlist",
+        "changetype": "single",
         "message": "Everything seems to be working.",
+        "changedate": 1450361515.053553
+    },
+    {
+        "status": "major",
+        "new_global_status": "major",
+        "service": "mirrorlist",
+        "changetype": "single",
+        "message": "Failed upgrade, being worked on",
+        "changedate": 1450361117.98116
+    },
+    {
+        "status": "good",
+        "new_global_status": "good",
+        "service": "koji",
+        "changetype": "single",
+        "message": "Everything seems to be working.",
+        "changedate": 1450305398.587961
+    },
+    {
+        "status": "major",
+        "new_global_status": "major",
+        "service": "koji",
+        "changetype": "single",
+        "message": "unscheduled outage",
+        "changedate": 1450304836.580202
+    },
+    {
+        "status": "good",
+        "new_global_status": "good",
+        "service": "website",
+        "changetype": "single",
+        "message": "Everything seems to be working.",
+        "changedate": 1450220678.760519
+    },
+    {
+        "status": "major",
+        "new_global_status": "major",
+        "service": "website",
+        "changetype": "single",
+        "message": "Websites being rebuild",
+        "changedate": 1450218852.446691
+    },
+    {
+        "status": "good",
+        "new_global_status": "good",
+        "service": "copr",
+        "changetype": "single",
+        "message": "Everything seems to be working.",
+        "changedate": 1449714277.291002
+    },
+    {
+        "status": "minor",
+        "new_global_status": "minor",
+        "service": "copr",
+        "changetype": "single",
+        "message": "Filesystem corruptions fixed. Backlog being processed now",
+        "changedate": 1449712842.677667
+    },
+    {
+        "status": "major",
+        "new_global_status": "major",
+        "service": "copr",
+        "changetype": "single",
+        "message": "File system corruption caused by storage issues, being worked on.",
+        "changedate": 1449705963.999833
+    },
+    {
+        "status": "good",
+        "new_global_status": "good",
+        "service": "mirrorlist",
+        "changetype": "single",
+        "message": "Everything seems to be working.",
+        "changedate": 1449689183.894417
+    },
+    {
+        "status": "major",
+        "new_global_status": "major",
+        "service": "mirrorlist",
+        "changetype": "single",
+        "message": "Older package metadata stuck, causing metalink checksums to not match. Being worked on.",
+        "changedate": 1449684502.373221
+    },
+    {
+        "status": "good",
+        "new_global_status": "good",
+        "service": "copr",
+        "changetype": "single",
+        "message": "Everything seems to be working.",
+        "changedate": 1449607116.892749
+    },
+    {
+        "status": "scheduled",
+        "new_global_status": "scheduled",
+        "service": "copr",
+        "changetype": "single",
+        "message": "Storage upgrade finished, backlog processing now",
+        "changedate": 1449605117.569015
+    },
+    {
+        "status": "scheduled",
+        "new_global_status": "scheduled",
+        "service": "copr",
+        "changetype": "single",
+        "message": "Backend storage being upraded",
+        "changedate": 1449597647.980942
+    },
+    {
+        "status": "good",
+        "new_global_status": "good",
+        "service": "copr",
+        "changetype": "single",
+        "message": "Everything seems to be working.",
+        "changedate": 1449564868.271549
+    },
+    {
+        "status": "minor",
+        "new_global_status": "minor",
+        "service": "copr",
+        "changetype": "single",
+        "message": "Backend having issues, being looked at",
+        "changedate": 1449529981.236801
+    },
+    {
+        "status": "major",
+        "new_global_status": "major",
+        "service": "copr",
+        "changetype": "single",
+        "message": "Issue with OpenStack backend storage, being worked on",
+        "changedate": 1449518009.50684
+    },
+    {
+        "status": "good",
+        "new_global_status": "good",
         "services": [
             "koji",
             "koschei"
-        ]
-    },
-    {
-        "changedate": 1449180706.051633,
-        "status": "minor",
-        "changetype": "single",
-        "service": "koschei",
-        "message": "Build scheduling paused until koji caught up",
-        "new_global_status": "minor"
-    },
-    {
-        "changedate": 1449161485.879185,
-        "status": "good",
+        ],
         "changetype": "multiple",
-        "new_global_status": "minor",
         "message": "Everything seems to be working.",
+        "changedate": 1449197939.299575
+    },
+    {
+        "status": "minor",
+        "new_global_status": "minor",
+        "service": "koschei",
+        "changetype": "single",
+        "message": "Build scheduling paused until koji caught up",
+        "changedate": 1449180706.051633
+    },
+    {
+        "status": "good",
+        "new_global_status": "minor",
         "services": [
             "pkgdb",
             "packages"
-        ]
+        ],
+        "changetype": "multiple",
+        "message": "Everything seems to be working.",
+        "changedate": 1449161485.879185
     },
     {
-        "changedate": 1449153019.193584,
         "status": "minor",
-        "changetype": "multiple",
         "new_global_status": "minor",
-        "message": "Parts using bugzilla will not work due to SSL issues at Red Hat Bugzilla",
         "services": [
             "packages",
             "pkgdb"
-        ]
-    },
-    {
-        "changedate": 1449150638.794072,
-        "status": "minor",
-        "changetype": "single",
-        "service": "koji",
-        "message": "Koji is slow with builds due to lots of queued up builds",
-        "new_global_status": "minor"
-    },
-    {
-        "changedate": 1449027332.614434,
-        "status": "good",
+        ],
         "changetype": "multiple",
+        "message": "Parts using bugzilla will not work due to SSL issues at Red Hat Bugzilla",
+        "changedate": 1449153019.193584
+    },
+    {
+        "status": "minor",
+        "new_global_status": "minor",
+        "service": "koji",
+        "changetype": "single",
+        "message": "Koji is slow with builds due to lots of queued up builds",
+        "changedate": 1449150638.794072
+    },
+    {
+        "status": "good",
         "new_global_status": "good",
-        "message": "Everything seems to be working.",
         "services": [
             "zodbot",
             "fedorahosted",
             "mailinglists"
-        ]
+        ],
+        "changetype": "multiple",
+        "message": "Everything seems to be working.",
+        "changedate": 1449027332.614434
     },
     {
-        "changedate": 1449025261.361829,
         "status": "scheduled",
-        "changetype": "multiple",
         "new_global_status": "scheduled",
-        "message": "Scheduled maintenance in progress",
         "services": [
             "zodbot",
             "mailinglists",
             "fedorahosted"
-        ]
+        ],
+        "changetype": "multiple",
+        "message": "Scheduled maintenance in progress",
+        "changedate": 1449025261.361829
     },
     {
-        "changedate": 1448932814.424979,
         "status": "good",
-        "changetype": "single",
+        "new_global_status": "good",
         "service": "copr",
+        "changetype": "single",
         "message": "Everything seems to be working.",
-        "new_global_status": "good"
+        "changedate": 1448932814.424979
     },
     {
-        "changedate": 1448927941.525777,
         "status": "scheduled",
-        "changetype": "single",
+        "new_global_status": "scheduled",
         "service": "copr",
+        "changetype": "single",
         "message": "Scheduled cloud outage in progress",
-        "new_global_status": "scheduled"
+        "changedate": 1448927941.525777
     },
     {
-        "changedate": 1448500381.454307,
         "status": "good",
-        "changetype": "multiple",
         "new_global_status": "good",
-        "message": "Everything seems to be working.",
         "services": [
             "wiki",
             "people",
@@ -3670,203 +3675,203 @@ callback([
             "elections",
             "mailinglists",
             "fedocal"
-        ]
+        ],
+        "changetype": "multiple",
+        "message": "Everything seems to be working.",
+        "changedate": 1448500381.454307
     },
     {
-        "changedate": 1448485246.583654,
         "status": "scheduled",
-        "changetype": "multiple",
         "new_global_status": "scheduled",
+        "services": [
+            "wiki",
+            "people",
+            "zodbot",
+            "koji",
+            "darkserver",
+            "tagger",
+            "pkgdb",
+            "fedorapaste",
+            "blockerbugs",
+            "badges",
+            "fedorahosted",
+            "mirrormanager",
+            "koschei",
+            "authentication",
+            "mirrorlist",
+            "pkgs",
+            "fas",
+            "website",
+            "docs",
+            "copr",
+            "bodhi",
+            "ask",
+            "packages",
+            "freemedia",
+            "fedmsg",
+            "elections",
+            "mailinglists",
+            "fedocal"
+        ],
+        "changetype": "multiple",
         "message": "scheduled",
-        "services": [
-            "wiki",
-            "people",
-            "zodbot",
-            "koji",
-            "darkserver",
-            "tagger",
-            "pkgdb",
-            "fedorapaste",
-            "blockerbugs",
-            "badges",
-            "fedorahosted",
-            "mirrormanager",
-            "koschei",
-            "authentication",
-            "mirrorlist",
-            "pkgs",
-            "fas",
-            "website",
-            "docs",
-            "copr",
-            "bodhi",
-            "ask",
-            "packages",
-            "freemedia",
-            "fedmsg",
-            "elections",
-            "mailinglists",
-            "fedocal"
-        ]
+        "changedate": 1448485246.583654
     },
     {
-        "changedate": 1448400697.134878,
         "status": "good",
-        "changetype": "multiple",
         "new_global_status": "good",
-        "message": "Everything seems to be working.",
         "services": [
             "koji",
             "pkgs"
-        ]
+        ],
+        "changetype": "multiple",
+        "message": "Everything seems to be working.",
+        "changedate": 1448400697.134878
     },
     {
-        "changedate": 1448398903.083323,
         "status": "scheduled",
-        "changetype": "multiple",
         "new_global_status": "scheduled",
-        "message": "Scheduled reboots in progress",
         "services": [
             "koji",
             "pkgs"
-        ]
-    },
-    {
-        "changedate": 1448359801.936842,
-        "status": "good",
-        "changetype": "single",
-        "service": "copr",
-        "message": "Everything seems to be working.",
-        "new_global_status": "good"
-    },
-    {
-        "changedate": 1448349484.205338,
-        "status": "major",
-        "changetype": "single",
-        "service": "copr",
-        "message": "COPR triggers a bug in OpenStack. Being debugged.",
-        "new_global_status": "major"
-    },
-    {
-        "changedate": 1448345368.431744,
-        "status": "good",
-        "changetype": "single",
-        "service": "copr",
-        "message": "Everything seems to be working.",
-        "new_global_status": "good"
-    },
-    {
-        "changedate": 1448323223.441509,
-        "status": "scheduled",
-        "changetype": "single",
-        "service": "copr",
-        "message": "Scheduled Fedora Infra Cloud upgrade in progress",
-        "new_global_status": "scheduled"
-    },
-    {
-        "changedate": 1447991880.7743,
-        "status": "good",
-        "changetype": "single",
-        "service": "packages",
-        "message": "Everything seems to be working.",
-        "new_global_status": "good"
-    },
-    {
-        "changedate": 1447951375.272315,
-        "status": "scheduled",
-        "changetype": "single",
-        "service": "packages",
-        "message": "Rebuilding index for an upgrade.",
-        "new_global_status": "scheduled"
-    },
-    {
-        "changedate": 1447323447.047355,
-        "status": "good",
-        "changetype": "single",
-        "service": "copr",
-        "message": "Everything seems to be working.",
-        "new_global_status": "good"
-    },
-    {
-        "changedate": 1447251036.02584,
-        "status": "minor",
-        "changetype": "single",
-        "service": "copr",
-        "message": "Queue processing normally, some functions may not work as expected, being worked on.",
-        "new_global_status": "minor"
-    },
-    {
-        "changedate": 1447148590.235509,
-        "status": "major",
-        "changetype": "single",
-        "service": "copr",
-        "message": "technical issues, the queue is processed slower than usually, working on it",
-        "new_global_status": "major"
-    },
-    {
-        "changedate": 1447108957.622257,
-        "status": "minor",
-        "changetype": "single",
-        "service": "copr",
-        "message": "Working again, running through backlog",
-        "new_global_status": "minor"
-    },
-    {
-        "changedate": 1447104845.036807,
-        "status": "major",
-        "changetype": "single",
-        "service": "copr",
-        "message": "Backend issues, being worked on",
-        "new_global_status": "major"
-    },
-    {
-        "changedate": 1446920282.856103,
-        "status": "good",
+        ],
         "changetype": "multiple",
+        "message": "Scheduled reboots in progress",
+        "changedate": 1448398903.083323
+    },
+    {
+        "status": "good",
         "new_global_status": "good",
+        "service": "copr",
+        "changetype": "single",
         "message": "Everything seems to be working.",
+        "changedate": 1448359801.936842
+    },
+    {
+        "status": "major",
+        "new_global_status": "major",
+        "service": "copr",
+        "changetype": "single",
+        "message": "COPR triggers a bug in OpenStack. Being debugged.",
+        "changedate": 1448349484.205338
+    },
+    {
+        "status": "good",
+        "new_global_status": "good",
+        "service": "copr",
+        "changetype": "single",
+        "message": "Everything seems to be working.",
+        "changedate": 1448345368.431744
+    },
+    {
+        "status": "scheduled",
+        "new_global_status": "scheduled",
+        "service": "copr",
+        "changetype": "single",
+        "message": "Scheduled Fedora Infra Cloud upgrade in progress",
+        "changedate": 1448323223.441509
+    },
+    {
+        "status": "good",
+        "new_global_status": "good",
+        "service": "packages",
+        "changetype": "single",
+        "message": "Everything seems to be working.",
+        "changedate": 1447991880.7743
+    },
+    {
+        "status": "scheduled",
+        "new_global_status": "scheduled",
+        "service": "packages",
+        "changetype": "single",
+        "message": "Rebuilding index for an upgrade.",
+        "changedate": 1447951375.272315
+    },
+    {
+        "status": "good",
+        "new_global_status": "good",
+        "service": "copr",
+        "changetype": "single",
+        "message": "Everything seems to be working.",
+        "changedate": 1447323447.047355
+    },
+    {
+        "status": "minor",
+        "new_global_status": "minor",
+        "service": "copr",
+        "changetype": "single",
+        "message": "Queue processing normally, some functions may not work as expected, being worked on.",
+        "changedate": 1447251036.02584
+    },
+    {
+        "status": "major",
+        "new_global_status": "major",
+        "service": "copr",
+        "changetype": "single",
+        "message": "technical issues, the queue is processed slower than usually, working on it",
+        "changedate": 1447148590.235509
+    },
+    {
+        "status": "minor",
+        "new_global_status": "minor",
+        "service": "copr",
+        "changetype": "single",
+        "message": "Working again, running through backlog",
+        "changedate": 1447108957.622257
+    },
+    {
+        "status": "major",
+        "new_global_status": "major",
+        "service": "copr",
+        "changetype": "single",
+        "message": "Backend issues, being worked on",
+        "changedate": 1447104845.036807
+    },
+    {
+        "status": "good",
+        "new_global_status": "good",
         "services": [
             "wiki",
             "koji",
             "fedorapaste",
             "copr",
             "bodhi"
-        ]
-    },
-    {
-        "changedate": 1446913676.596467,
-        "status": "major",
-        "changetype": "single",
-        "service": "bodhi",
-        "message": "Storage outage, being worked on",
-        "new_global_status": "major"
-    },
-    {
-        "changedate": 1446913615.735032,
-        "status": "major",
+        ],
         "changetype": "multiple",
+        "message": "Everything seems to be working.",
+        "changedate": 1446920282.856103
+    },
+    {
+        "status": "major",
         "new_global_status": "major",
+        "service": "bodhi",
+        "changetype": "single",
         "message": "Storage outage, being worked on",
+        "changedate": 1446913676.596467
+    },
+    {
+        "status": "major",
+        "new_global_status": "major",
         "services": [
             "copr",
             "koji",
             "wiki"
-        ]
+        ],
+        "changetype": "multiple",
+        "message": "Storage outage, being worked on",
+        "changedate": 1446913615.735032
     },
     {
-        "changedate": 1446912749.858399,
         "status": "major",
-        "changetype": "single",
+        "new_global_status": "major",
         "service": "wiki",
+        "changetype": "single",
         "message": "Database outage",
-        "new_global_status": "major"
+        "changedate": 1446912749.858399
     },
     {
-        "changedate": 1446657798.946204,
         "status": "good",
-        "changetype": "multiple",
         "new_global_status": "good",
-        "message": "Everything seems to be working.",
         "services": [
             "wiki",
             "people",
@@ -3896,73 +3901,89 @@ callback([
             "elections",
             "mailinglists",
             "fedocal"
-        ]
+        ],
+        "changetype": "multiple",
+        "message": "Everything seems to be working.",
+        "changedate": 1446657798.946204
     },
     {
-        "changedate": 1446657570.039487,
         "status": "major",
-        "changetype": "multiple",
         "new_global_status": "major",
+        "services": [
+            "wiki",
+            "people",
+            "zodbot",
+            "koji",
+            "darkserver",
+            "tagger",
+            "pkgdb",
+            "fedorapaste",
+            "blockerbugs",
+            "badges",
+            "fedorahosted",
+            "mirrormanager",
+            "koschei",
+            "authentication",
+            "mirrorlist",
+            "pkgs",
+            "fas",
+            "website",
+            "docs",
+            "copr",
+            "bodhi",
+            "ask",
+            "packages",
+            "freemedia",
+            "fedmsg",
+            "elections",
+            "mailinglists",
+            "fedocal"
+        ],
+        "changetype": "multiple",
         "message": "Known issue with all services, being worked on",
-        "services": [
-            "wiki",
-            "people",
-            "zodbot",
-            "koji",
-            "darkserver",
-            "tagger",
-            "pkgdb",
-            "fedorapaste",
-            "blockerbugs",
-            "badges",
-            "fedorahosted",
-            "mirrormanager",
-            "koschei",
-            "authentication",
-            "mirrorlist",
-            "pkgs",
-            "fas",
-            "website",
-            "docs",
-            "copr",
-            "bodhi",
-            "ask",
-            "packages",
-            "freemedia",
-            "fedmsg",
-            "elections",
-            "mailinglists",
-            "fedocal"
-        ]
+        "changedate": 1446657570.039487
     },
     {
-        "changedate": 1446312176.014554,
         "status": "good",
-        "changetype": "single",
+        "new_global_status": "minor",
         "service": "koji",
+        "changetype": "single",
         "message": "Everything seems to be working.",
-        "new_global_status": "minor"
+        "changedate": 1446312176.014554
     },
     {
-        "changedate": 1446290504.73746,
         "status": "good",
-        "changetype": "multiple",
         "new_global_status": "major",
+        "services": [
+            "wiki",
+            "mirrormanager",
+            "pkgs",
+            "packages",
+            "bodhi"
+        ],
+        "changetype": "multiple",
         "message": "Everything seems to be working.",
+        "changedate": 1446290504.73746
+    },
+    {
+        "status": "major",
+        "new_global_status": "major",
         "services": [
             "wiki",
+            "koji",
             "mirrormanager",
             "pkgs",
             "packages",
-            "bodhi"
-        ]
-    },
-    {
-        "changedate": 1446289010.203149,
-        "status": "major",
+            "bodhi",
+            "copr"
+        ],
         "changetype": "multiple",
-        "new_global_status": "major",
         "message": "Backend storage recovering, services being recovered.",
+        "changedate": 1446289010.203149
+    },
+    {
+        "status": "major",
+        "new_global_status": "major",
         "services": [
             "wiki",
             "koji",
@@ -3971,46 +3992,30 @@ callback([
             "packages",
             "bodhi",
             "copr"
-        ]
-    },
-    {
-        "changedate": 1446286537.845625,
-        "status": "major",
+        ],
         "changetype": "multiple",
-        "new_global_status": "major",
         "message": "Power outage impacting backend storage, being worked on.",
-        "services": [
-            "wiki",
-            "koji",
-            "mirrormanager",
-            "pkgs",
-            "packages",
-            "bodhi",
-            "copr"
-        ]
+        "changedate": 1446286537.845625
     },
     {
-        "changedate": 1446280428.873282,
         "status": "major",
-        "changetype": "single",
-        "service": "copr",
-        "message": "Backend storage has gone offline. Next update at 10UTC or when more info is available.",
-        "new_global_status": "major"
-    },
-    {
-        "changedate": 1446280153.311405,
-        "status": "major",
-        "changetype": "single",
-        "service": "copr",
-        "message": "COPR workers down, being looked at",
-        "new_global_status": "major"
-    },
-    {
-        "changedate": 1446279879.408919,
-        "status": "major",
-        "changetype": "multiple",
         "new_global_status": "major",
+        "service": "copr",
+        "changetype": "single",
         "message": "Backend storage has gone offline. Next update at 10UTC or when more info is available.",
+        "changedate": 1446280428.873282
+    },
+    {
+        "status": "major",
+        "new_global_status": "major",
+        "service": "copr",
+        "changetype": "single",
+        "message": "COPR workers down, being looked at",
+        "changedate": 1446280153.311405
+    },
+    {
+        "status": "major",
+        "new_global_status": "major",
         "services": [
             "wiki",
             "koji",
@@ -4018,100 +4023,100 @@ callback([
             "pkgs",
             "packages",
             "bodhi"
-        ]
+        ],
+        "changetype": "multiple",
+        "message": "Backend storage has gone offline. Next update at 10UTC or when more info is available.",
+        "changedate": 1446279879.408919
     },
     {
-        "changedate": 1446273026.442198,
         "status": "major",
-        "changetype": "multiple",
         "new_global_status": "major",
-        "message": "Backend storage has gone offline, being looked at.",
         "services": [
             "wiki",
             "koji",
             "mirrormanager",
             "pkgs",
             "packages"
-        ]
+        ],
+        "changetype": "multiple",
+        "message": "Backend storage has gone offline, being looked at.",
+        "changedate": 1446273026.442198
     },
     {
-        "changedate": 1445641975.511647,
         "status": "good",
-        "changetype": "single",
+        "new_global_status": "good",
         "service": "koji",
+        "changetype": "single",
         "message": "Everything seems to be working.",
-        "new_global_status": "good"
+        "changedate": 1445641975.511647
     },
     {
-        "changedate": 1445635015.727006,
         "status": "good",
-        "changetype": "single",
+        "new_global_status": "major",
         "service": "copr",
+        "changetype": "single",
         "message": "Everything seems to be working.",
-        "new_global_status": "major"
+        "changedate": 1445635015.727006
     },
     {
-        "changedate": 1445627871.203963,
         "status": "major",
-        "changetype": "single",
+        "new_global_status": "major",
         "service": "copr",
+        "changetype": "single",
         "message": "Issues with depending packages, being looked at",
-        "new_global_status": "major"
+        "changedate": 1445627871.203963
     },
     {
-        "changedate": 1445626158.681976,
         "status": "major",
-        "changetype": "single",
+        "new_global_status": "major",
         "service": "koji",
+        "changetype": "single",
         "message": "Disk full, being worked on",
-        "new_global_status": "major"
+        "changedate": 1445626158.681976
     },
     {
-        "changedate": 1445626123.28151,
         "status": "good",
-        "changetype": "single",
+        "new_global_status": "good",
         "service": "copr",
+        "changetype": "single",
         "message": "Everything seems to be working.",
-        "new_global_status": "good"
+        "changedate": 1445626123.28151
     },
     {
-        "changedate": 1445611601.112899,
         "status": "minor",
-        "changetype": "single",
+        "new_global_status": "minor",
         "service": "copr",
+        "changetype": "single",
         "message": "COPR again backlogged due to not running for some time, catching up",
-        "new_global_status": "minor"
+        "changedate": 1445611601.112899
     },
     {
-        "changedate": 1445555095.885498,
         "status": "good",
-        "changetype": "single",
+        "new_global_status": "good",
         "service": "copr",
+        "changetype": "single",
         "message": "Everything seems to be working.",
-        "new_global_status": "good"
+        "changedate": 1445555095.885498
     },
     {
-        "changedate": 1445553819.481238,
         "status": "major",
-        "changetype": "single",
+        "new_global_status": "major",
         "service": "copr",
+        "changetype": "single",
         "message": "COPR is backlogged due to builds not running for a long time, recovering now",
-        "new_global_status": "major"
+        "changedate": 1445553819.481238
     },
     {
-        "changedate": 1445550137.392847,
         "status": "major",
-        "changetype": "single",
+        "new_global_status": "major",
         "service": "copr",
+        "changetype": "single",
         "message": "No new builds running, being checked into",
-        "new_global_status": "major"
+        "changedate": 1445550137.392847
     },
     {
-        "changedate": 1444175550.623483,
         "status": "good",
-        "changetype": "multiple",
         "new_global_status": "good",
-        "message": "Everything seems to be working.",
         "services": [
             "wiki",
             "people",
@@ -4141,51 +4146,51 @@ callback([
             "elections",
             "mailinglists",
             "fedocal"
-        ]
+        ],
+        "changetype": "multiple",
+        "message": "Everything seems to be working.",
+        "changedate": 1444175550.623483
     },
     {
-        "changedate": 1444165284.515169,
         "status": "scheduled",
-        "changetype": "multiple",
         "new_global_status": "scheduled",
+        "services": [
+            "wiki",
+            "people",
+            "zodbot",
+            "koji",
+            "darkserver",
+            "tagger",
+            "pkgdb",
+            "fedorapaste",
+            "blockerbugs",
+            "badges",
+            "fedorahosted",
+            "mirrormanager",
+            "koschei",
+            "authentication",
+            "mirrorlist",
+            "pkgs",
+            "fas",
+            "website",
+            "docs",
+            "copr",
+            "bodhi",
+            "ask",
+            "packages",
+            "freemedia",
+            "fedmsg",
+            "elections",
+            "mailinglists",
+            "fedocal"
+        ],
+        "changetype": "multiple",
         "message": "scheduled outage",
-        "services": [
-            "wiki",
-            "people",
-            "zodbot",
-            "koji",
-            "darkserver",
-            "tagger",
-            "pkgdb",
-            "fedorapaste",
-            "blockerbugs",
-            "badges",
-            "fedorahosted",
-            "mirrormanager",
-            "koschei",
-            "authentication",
-            "mirrorlist",
-            "pkgs",
-            "fas",
-            "website",
-            "docs",
-            "copr",
-            "bodhi",
-            "ask",
-            "packages",
-            "freemedia",
-            "fedmsg",
-            "elections",
-            "mailinglists",
-            "fedocal"
-        ]
+        "changedate": 1444165284.515169
     },
     {
-        "changedate": 1444165218.789966,
         "status": "scheduled",
-        "changetype": "multiple",
         "new_global_status": "scheduled",
-        "message": "Everything seems to be working.",
         "services": [
             "wiki",
             "people",
@@ -4215,110 +4220,110 @@ callback([
             "elections",
             "mailinglists",
             "fedocal"
-        ]
-    },
-    {
-        "changedate": 1444099159.216927,
-        "status": "good",
-        "changetype": "single",
-        "service": "ask",
+        ],
+        "changetype": "multiple",
         "message": "Everything seems to be working.",
-        "new_global_status": "good"
+        "changedate": 1444165218.789966
     },
     {
-        "changedate": 1444095238.074876,
+        "status": "good",
+        "new_global_status": "good",
+        "service": "ask",
+        "changetype": "single",
+        "message": "Everything seems to be working.",
+        "changedate": 1444099159.216927
+    },
+    {
         "status": "minor",
-        "changetype": "single",
+        "new_global_status": "minor",
         "service": "ask",
+        "changetype": "single",
         "message": "Askbot getting back",
-        "new_global_status": "minor"
+        "changedate": 1444095238.074876
     },
     {
-        "changedate": 1444093432.181811,
         "status": "major",
-        "changetype": "single",
+        "new_global_status": "major",
         "service": "ask",
+        "changetype": "single",
         "message": "Database issues going on, being looked into",
-        "new_global_status": "major"
+        "changedate": 1444093432.181811
     },
     {
-        "changedate": 1444024846.677075,
         "status": "good",
-        "changetype": "single",
+        "new_global_status": "good",
         "service": "copr",
+        "changetype": "single",
         "message": "Everything seems to be working.",
-        "new_global_status": "good"
+        "changedate": 1444024846.677075
     },
     {
-        "changedate": 1444022597.210956,
         "status": "scheduled",
-        "changetype": "single",
+        "new_global_status": "scheduled",
         "service": "copr",
+        "changetype": "single",
         "message": "COPR back, processing backlog: https://fedorahosted.org/fedora-infrastructure/ticket/4908",
-        "new_global_status": "scheduled"
+        "changedate": 1444022597.210956
     },
     {
-        "changedate": 1444003249.288776,
         "status": "scheduled",
-        "changetype": "single",
+        "new_global_status": "scheduled",
         "service": "copr",
+        "changetype": "single",
         "message": "Scheduled maintenance in progress: https://fedorahosted.org/fedora-infrastructure/ticket/4908",
-        "new_global_status": "scheduled"
+        "changedate": 1444003249.288776
     },
     {
-        "changedate": 1443238300.278573,
         "status": "good",
-        "changetype": "single",
+        "new_global_status": "good",
         "service": "copr",
+        "changetype": "single",
         "message": "Everything seems to be working.",
-        "new_global_status": "good"
+        "changedate": 1443238300.278573
     },
     {
-        "changedate": 1443237228.102265,
         "status": "major",
-        "changetype": "single",
+        "new_global_status": "major",
         "service": "copr",
+        "changetype": "single",
         "message": "copr down",
-        "new_global_status": "major"
+        "changedate": 1443237228.102265
     },
     {
-        "changedate": 1442853589.702584,
         "status": "good",
-        "changetype": "single",
-        "service": "bodhi",
-        "message": "Everything seems to be working.",
-        "new_global_status": "good"
-    },
-    {
-        "changedate": 1442845079.602965,
-        "status": "major",
-        "changetype": "single",
-        "service": "bodhi",
-        "message": "bugzilla outage",
-        "new_global_status": "major"
-    },
-    {
-        "changedate": 1442757451.174041,
-        "status": "good",
-        "changetype": "single",
-        "service": "bodhi",
-        "message": "Everything seems to be working.",
-        "new_global_status": "good"
-    },
-    {
-        "changedate": 1442709823.805421,
-        "status": "major",
-        "changetype": "single",
-        "service": "bodhi",
-        "message": "bugzilla outage",
-        "new_global_status": "major"
-    },
-    {
-        "changedate": 1441237779.872933,
-        "status": "good",
-        "changetype": "multiple",
         "new_global_status": "good",
+        "service": "bodhi",
+        "changetype": "single",
         "message": "Everything seems to be working.",
+        "changedate": 1442853589.702584
+    },
+    {
+        "status": "major",
+        "new_global_status": "major",
+        "service": "bodhi",
+        "changetype": "single",
+        "message": "bugzilla outage",
+        "changedate": 1442845079.602965
+    },
+    {
+        "status": "good",
+        "new_global_status": "good",
+        "service": "bodhi",
+        "changetype": "single",
+        "message": "Everything seems to be working.",
+        "changedate": 1442757451.174041
+    },
+    {
+        "status": "major",
+        "new_global_status": "major",
+        "service": "bodhi",
+        "changetype": "single",
+        "message": "bugzilla outage",
+        "changedate": 1442709823.805421
+    },
+    {
+        "status": "good",
+        "new_global_status": "good",
         "services": [
             "wiki",
             "people",
@@ -4348,232 +4353,232 @@ callback([
             "elections",
             "mailinglists",
             "fedocal"
-        ]
+        ],
+        "changetype": "multiple",
+        "message": "Everything seems to be working.",
+        "changedate": 1441237779.872933
     },
     {
-        "changedate": 1441227606.499797,
         "status": "scheduled",
-        "changetype": "multiple",
         "new_global_status": "scheduled",
+        "services": [
+            "wiki",
+            "people",
+            "zodbot",
+            "koji",
+            "darkserver",
+            "tagger",
+            "pkgdb",
+            "fedorapaste",
+            "blockerbugs",
+            "badges",
+            "fedorahosted",
+            "mirrormanager",
+            "koschei",
+            "authentication",
+            "mirrorlist",
+            "pkgs",
+            "fas",
+            "website",
+            "docs",
+            "copr",
+            "bodhi",
+            "ask",
+            "packages",
+            "freemedia",
+            "fedmsg",
+            "elections",
+            "mailinglists",
+            "fedocal"
+        ],
+        "changetype": "multiple",
         "message": "scheduled outage",
-        "services": [
-            "wiki",
-            "people",
-            "zodbot",
-            "koji",
-            "darkserver",
-            "tagger",
-            "pkgdb",
-            "fedorapaste",
-            "blockerbugs",
-            "badges",
-            "fedorahosted",
-            "mirrormanager",
-            "koschei",
-            "authentication",
-            "mirrorlist",
-            "pkgs",
-            "fas",
-            "website",
-            "docs",
-            "copr",
-            "bodhi",
-            "ask",
-            "packages",
-            "freemedia",
-            "fedmsg",
-            "elections",
-            "mailinglists",
-            "fedocal"
-        ]
+        "changedate": 1441227606.499797
     },
     {
-        "changedate": 1441144079.84853,
         "status": "good",
-        "changetype": "multiple",
         "new_global_status": "good",
-        "message": "Everything seems to be working.",
         "services": [
             "koji",
             "koschei",
             "pkgs"
-        ]
+        ],
+        "changetype": "multiple",
+        "message": "Everything seems to be working.",
+        "changedate": 1441144079.84853
     },
     {
-        "changedate": 1441141208.023392,
         "status": "scheduled",
-        "changetype": "multiple",
         "new_global_status": "scheduled",
+        "services": [
+            "koji",
+            "koschei",
+            "pkgs"
+        ],
+        "changetype": "multiple",
         "message": "planned outage",
-        "services": [
-            "koji",
-            "koschei",
-            "pkgs"
-        ]
+        "changedate": 1441141208.023392
     },
     {
-        "changedate": 1441024050.37179,
         "status": "good",
-        "changetype": "single",
-        "service": "copr",
-        "message": "Everything seems to be working.",
-        "new_global_status": "good"
-    },
-    {
-        "changedate": 1441020663.5664,
-        "status": "major",
-        "changetype": "single",
-        "service": "copr",
-        "message": "Code issue prevent COPR from starting new jobs",
-        "new_global_status": "major"
-    },
-    {
-        "changedate": 1440992263.029814,
-        "status": "good",
-        "changetype": "single",
-        "service": "copr",
-        "message": "Everything seems to be working.",
-        "new_global_status": "good"
-    },
-    {
-        "changedate": 1440982809.01376,
-        "status": "scheduled",
-        "changetype": "single",
-        "service": "copr",
-        "message": "Fedora Infra Cloud reboots in progress: https://fedorahosted.org/fedora-infrastructure/ticket/4871",
-        "new_global_status": "scheduled"
-    },
-    {
-        "changedate": 1440041994.616356,
-        "status": "good",
-        "changetype": "single",
-        "service": "bodhi",
-        "message": "Everything seems to be working.",
-        "new_global_status": "good"
-    },
-    {
-        "changedate": 1440000244.28668,
-        "status": "major",
-        "changetype": "single",
-        "service": "bodhi",
-        "message": "Bodhi2 migration in progress.",
-        "new_global_status": "major"
-    },
-    {
-        "changedate": 1437610796.302119,
-        "status": "good",
-        "changetype": "multiple",
         "new_global_status": "good",
-        "message": "Everything seems to be working.",
-        "services": [
-            "wiki",
-            "people",
-            "zodbot",
-            "darkserver",
-            "tagger",
-            "pkgdb",
-            "fedorapaste",
-            "blockerbugs",
-            "badges",
-            "fedorahosted",
-            "mirrormanager",
-            "authentication",
-            "mirrorlist",
-            "pkgs",
-            "fas",
-            "website",
-            "docs",
-            "copr",
-            "bodhi",
-            "ask",
-            "packages",
-            "freemedia",
-            "elections",
-            "mailinglists",
-            "fedocal"
-        ]
-    },
-    {
-        "changedate": 1437598974.189686,
-        "status": "scheduled",
-        "changetype": "multiple",
-        "new_global_status": "scheduled",
-        "message": "Updates in progress: https://fedorahosted.org/fedora-infrastructure/ticket/4832",
-        "services": [
-            "wiki",
-            "people",
-            "zodbot",
-            "darkserver",
-            "tagger",
-            "fedorapaste",
-            "pkgdb",
-            "badges",
-            "blockerbugs",
-            "fedorahosted",
-            "mirrormanager",
-            "authentication",
-            "mirrorlist",
-            "pkgs",
-            "fas",
-            "website",
-            "docs",
-            "copr",
-            "bodhi",
-            "ask",
-            "freemedia",
-            "packages",
-            "elections",
-            "mailinglists",
-            "fedocal"
-        ]
-    },
-    {
-        "changedate": 1437558107.141758,
-        "status": "good",
-        "changetype": "single",
         "service": "copr",
+        "changetype": "single",
         "message": "Everything seems to be working.",
-        "new_global_status": "good"
+        "changedate": 1441024050.37179
     },
     {
-        "changedate": 1437521143.923219,
+        "status": "major",
+        "new_global_status": "major",
+        "service": "copr",
+        "changetype": "single",
+        "message": "Code issue prevent COPR from starting new jobs",
+        "changedate": 1441020663.5664
+    },
+    {
         "status": "good",
-        "changetype": "multiple",
-        "new_global_status": "scheduled",
+        "new_global_status": "good",
+        "service": "copr",
+        "changetype": "single",
         "message": "Everything seems to be working.",
+        "changedate": 1440992263.029814
+    },
+    {
+        "status": "scheduled",
+        "new_global_status": "scheduled",
+        "service": "copr",
+        "changetype": "single",
+        "message": "Fedora Infra Cloud reboots in progress: https://fedorahosted.org/fedora-infrastructure/ticket/4871",
+        "changedate": 1440982809.01376
+    },
+    {
+        "status": "good",
+        "new_global_status": "good",
+        "service": "bodhi",
+        "changetype": "single",
+        "message": "Everything seems to be working.",
+        "changedate": 1440041994.616356
+    },
+    {
+        "status": "major",
+        "new_global_status": "major",
+        "service": "bodhi",
+        "changetype": "single",
+        "message": "Bodhi2 migration in progress.",
+        "changedate": 1440000244.28668
+    },
+    {
+        "status": "good",
+        "new_global_status": "good",
+        "services": [
+            "wiki",
+            "people",
+            "zodbot",
+            "darkserver",
+            "tagger",
+            "pkgdb",
+            "fedorapaste",
+            "blockerbugs",
+            "badges",
+            "fedorahosted",
+            "mirrormanager",
+            "authentication",
+            "mirrorlist",
+            "pkgs",
+            "fas",
+            "website",
+            "docs",
+            "copr",
+            "bodhi",
+            "ask",
+            "packages",
+            "freemedia",
+            "elections",
+            "mailinglists",
+            "fedocal"
+        ],
+        "changetype": "multiple",
+        "message": "Everything seems to be working.",
+        "changedate": 1437610796.302119
+    },
+    {
+        "status": "scheduled",
+        "new_global_status": "scheduled",
+        "services": [
+            "wiki",
+            "people",
+            "zodbot",
+            "darkserver",
+            "tagger",
+            "fedorapaste",
+            "pkgdb",
+            "badges",
+            "blockerbugs",
+            "fedorahosted",
+            "mirrormanager",
+            "authentication",
+            "mirrorlist",
+            "pkgs",
+            "fas",
+            "website",
+            "docs",
+            "copr",
+            "bodhi",
+            "ask",
+            "freemedia",
+            "packages",
+            "elections",
+            "mailinglists",
+            "fedocal"
+        ],
+        "changetype": "multiple",
+        "message": "Updates in progress: https://fedorahosted.org/fedora-infrastructure/ticket/4832",
+        "changedate": 1437598974.189686
+    },
+    {
+        "status": "good",
+        "new_global_status": "good",
+        "service": "copr",
+        "changetype": "single",
+        "message": "Everything seems to be working.",
+        "changedate": 1437558107.141758
+    },
+    {
+        "status": "good",
+        "new_global_status": "scheduled",
         "services": [
             "koschei",
             "koji",
             "pkgs"
-        ]
+        ],
+        "changetype": "multiple",
+        "message": "Everything seems to be working.",
+        "changedate": 1437521143.923219
     },
     {
-        "changedate": 1437512409.004318,
         "status": "scheduled",
-        "changetype": "multiple",
         "new_global_status": "scheduled",
-        "message": "server updates",
         "services": [
             "koschei",
             "koji",
             "pkgs",
             "copr"
-        ]
+        ],
+        "changetype": "multiple",
+        "message": "server updates",
+        "changedate": 1437512409.004318
     },
     {
-        "changedate": 1436965348.178296,
         "status": "good",
-        "changetype": "single",
+        "new_global_status": "good",
         "service": "authentication",
+        "changetype": "single",
         "message": "Everything seems to be working.",
-        "new_global_status": "good"
+        "changedate": 1436965348.178296
     },
     {
-        "changedate": 1436953969.523944,
         "status": "good",
-        "changetype": "multiple",
         "new_global_status": "scheduled",
-        "message": "Everything seems to be working.",
         "services": [
             "tagger",
             "pkgdb",
@@ -4588,85 +4593,85 @@ callback([
             "ask",
             "elections",
             "fedocal"
-        ]
+        ],
+        "changetype": "multiple",
+        "message": "Everything seems to be working.",
+        "changedate": 1436953969.523944
     },
     {
-        "changedate": 1436947479.724408,
         "status": "scheduled",
-        "changetype": "multiple",
         "new_global_status": "scheduled",
+        "services": [
+            "tagger",
+            "pkgdb",
+            "blockerbugs",
+            "badges",
+            "fedorahosted",
+            "mirrormanager",
+            "koschei",
+            "authentication",
+            "pkgs",
+            "copr",
+            "bodhi",
+            "ask",
+            "elections",
+            "fedocal"
+        ],
+        "changetype": "multiple",
         "message": "Authentication infrastructure upgrade: https://fedorahosted.org/fedora-infrastructure/ticket/4814",
-        "services": [
-            "tagger",
-            "pkgdb",
-            "blockerbugs",
-            "badges",
-            "fedorahosted",
-            "mirrormanager",
-            "koschei",
-            "authentication",
-            "pkgs",
-            "copr",
-            "bodhi",
-            "ask",
-            "elections",
-            "fedocal"
-        ]
+        "changedate": 1436947479.724408
     },
     {
-        "changedate": 1436633154.864123,
         "status": "good",
-        "changetype": "single",
+        "new_global_status": "good",
         "service": "copr",
+        "changetype": "single",
         "message": "Everything seems to be working.",
-        "new_global_status": "good"
+        "changedate": 1436633154.864123
     },
     {
-        "changedate": 1436626886.425936,
         "status": "major",
-        "changetype": "single",
+        "new_global_status": "major",
         "service": "copr",
+        "changetype": "single",
         "message": "COPR is not running any builds, being looked into",
-        "new_global_status": "major"
+        "changedate": 1436626886.425936
     },
     {
-        "changedate": 1436397257.409004,
         "status": "good",
-        "changetype": "single",
+        "new_global_status": "good",
         "service": "people",
+        "changetype": "single",
         "message": "Everything seems to be working.",
-        "new_global_status": "good"
+        "changedate": 1436397257.409004
     },
     {
-        "changedate": 1436389698.852274,
         "status": "scheduled",
-        "changetype": "single",
+        "new_global_status": "scheduled",
         "service": "people",
+        "changetype": "single",
         "message": "Fedora People is getting migrated. More info: https://fedorahosted.org/fedora-infrastructure/ticket/4810",
-        "new_global_status": "scheduled"
+        "changedate": 1436389698.852274
     },
     {
-        "changedate": 1435583303.121862,
         "status": "good",
-        "changetype": "single",
+        "new_global_status": "good",
         "service": "koschei",
+        "changetype": "single",
         "message": "Everything seems to be working.",
-        "new_global_status": "good"
+        "changedate": 1435583303.121862
     },
     {
-        "changedate": 1435578778.8563,
         "status": "major",
-        "changetype": "single",
+        "new_global_status": "major",
         "service": "koschei",
+        "changetype": "single",
         "message": "There are problems with the web frontend. We are currently working towards fixing them.",
-        "new_global_status": "major"
+        "changedate": 1435578778.8563
     },
     {
-        "changedate": 1435165530.244306,
         "status": "good",
-        "changetype": "multiple",
         "new_global_status": "good",
-        "message": "Everything seems to be working.",
         "services": [
             "wiki",
             "people",
@@ -4695,82 +4700,82 @@ callback([
             "elections",
             "mailinglists",
             "fedocal"
-        ]
+        ],
+        "changetype": "multiple",
+        "message": "Everything seems to be working.",
+        "changedate": 1435165530.244306
     },
     {
-        "changedate": 1435165263.227254,
         "status": "major",
-        "changetype": "multiple",
         "new_global_status": "major",
+        "services": [
+            "wiki",
+            "people",
+            "zodbot",
+            "koji",
+            "darkserver",
+            "tagger",
+            "pkgdb",
+            "fedorapaste",
+            "blockerbugs",
+            "badges",
+            "fedorahosted",
+            "mirrormanager",
+            "authentication",
+            "mirrorlist",
+            "pkgs",
+            "fas",
+            "website",
+            "docs",
+            "copr",
+            "bodhi",
+            "ask",
+            "packages",
+            "freemedia",
+            "fedmsg",
+            "elections",
+            "mailinglists",
+            "fedocal"
+        ],
+        "changetype": "multiple",
         "message": "Issue with a lot of services, being worked on",
-        "services": [
-            "wiki",
-            "people",
-            "zodbot",
-            "koji",
-            "darkserver",
-            "tagger",
-            "pkgdb",
-            "fedorapaste",
-            "blockerbugs",
-            "badges",
-            "fedorahosted",
-            "mirrormanager",
-            "authentication",
-            "mirrorlist",
-            "pkgs",
-            "fas",
-            "website",
-            "docs",
-            "copr",
-            "bodhi",
-            "ask",
-            "packages",
-            "freemedia",
-            "fedmsg",
-            "elections",
-            "mailinglists",
-            "fedocal"
-        ]
+        "changedate": 1435165263.227254
     },
     {
-        "changedate": 1435055811.817356,
         "status": "good",
-        "changetype": "single",
+        "new_global_status": "good",
         "service": "copr",
+        "changetype": "single",
         "message": "Everything seems to be working.",
-        "new_global_status": "good"
+        "changedate": 1435055811.817356
     },
     {
-        "changedate": 1435038733.699724,
         "status": "scheduled",
-        "changetype": "single",
+        "new_global_status": "scheduled",
         "service": "copr",
+        "changetype": "single",
         "message": "Scheduled maintenance in progress",
-        "new_global_status": "scheduled"
+        "changedate": 1435038733.699724
     },
     {
-        "changedate": 1434820032.41737,
         "status": "good",
-        "changetype": "single",
+        "new_global_status": "good",
         "service": "mirrorlist",
+        "changetype": "single",
         "message": "Everything seems to be working.",
-        "new_global_status": "good"
+        "changedate": 1434820032.41737
     },
     {
-        "changedate": 1434734106.685462,
         "status": "major",
-        "changetype": "single",
+        "new_global_status": "major",
         "service": "mirrorlist",
+        "changetype": "single",
         "message": "some issues being worked",
-        "new_global_status": "major"
+        "changedate": 1434734106.685462
     },
     {
-        "changedate": 1434734031.935995,
         "status": "good",
-        "changetype": "multiple",
         "new_global_status": "good",
-        "message": "Everything seems to be working.",
         "services": [
             "wiki",
             "people",
@@ -4799,14 +4804,14 @@ callback([
             "elections",
             "mailinglists",
             "fedocal"
-        ]
+        ],
+        "changetype": "multiple",
+        "message": "Everything seems to be working.",
+        "changedate": 1434734031.935995
     },
     {
-        "changedate": 1434724240.806125,
         "status": "major",
-        "changetype": "multiple",
         "new_global_status": "major",
-        "message": "Everything seems to be working.",
         "services": [
             "wiki",
             "people",
@@ -4835,14 +4840,14 @@ callback([
             "elections",
             "mailinglists",
             "fedocal"
-        ]
+        ],
+        "changetype": "multiple",
+        "message": "Everything seems to be working.",
+        "changedate": 1434724240.806125
     },
     {
-        "changedate": 1433911085.449011,
         "status": "good",
-        "changetype": "multiple",
         "new_global_status": "good",
-        "message": "Everything seems to be working.",
         "services": [
             "wiki",
             "people",
@@ -4871,438 +4876,82 @@ callback([
             "elections",
             "mailinglists",
             "fedocal"
-        ]
+        ],
+        "changetype": "multiple",
+        "message": "Everything seems to be working.",
+        "changedate": 1433911085.449011
     },
     {
-        "changedate": 1433890770.711986,
         "status": "scheduled",
-        "changetype": "multiple",
         "new_global_status": "scheduled",
+        "services": [
+            "wiki",
+            "people",
+            "zodbot",
+            "koji",
+            "darkserver",
+            "tagger",
+            "pkgdb",
+            "fedorapaste",
+            "blockerbugs",
+            "badges",
+            "fedorahosted",
+            "mirrormanager",
+            "authentication",
+            "mirrorlist",
+            "pkgs",
+            "fas",
+            "website",
+            "docs",
+            "copr",
+            "bodhi",
+            "ask",
+            "packages",
+            "freemedia",
+            "fedmsg",
+            "elections",
+            "mailinglists",
+            "fedocal"
+        ],
+        "changetype": "multiple",
         "message": "storage outage",
-        "services": [
-            "wiki",
-            "people",
-            "zodbot",
-            "koji",
-            "darkserver",
-            "tagger",
-            "pkgdb",
-            "fedorapaste",
-            "blockerbugs",
-            "badges",
-            "fedorahosted",
-            "mirrormanager",
-            "authentication",
-            "mirrorlist",
-            "pkgs",
-            "fas",
-            "website",
-            "docs",
-            "copr",
-            "bodhi",
-            "ask",
-            "packages",
-            "freemedia",
-            "fedmsg",
-            "elections",
-            "mailinglists",
-            "fedocal"
-        ]
+        "changedate": 1433890770.711986
     },
     {
-        "changedate": 1433424225.296115,
         "status": "good",
-        "changetype": "single",
-        "service": "copr",
-        "message": "Everything seems to be working.",
-        "new_global_status": "good"
-    },
-    {
-        "changedate": 1433421947.499779,
-        "status": "minor",
-        "changetype": "single",
-        "service": "copr",
-        "message": "COPR frontend is back, builds will get back soon",
-        "new_global_status": "minor"
-    },
-    {
-        "changedate": 1433391582.862703,
-        "status": "major",
-        "changetype": "single",
-        "service": "copr",
-        "message": "COPR is down, we are working on it",
-        "new_global_status": "major"
-    },
-    {
-        "changedate": 1433380504.185031,
-        "status": "major",
-        "changetype": "single",
-        "service": "copr",
-        "message": "Everything seems to be working.",
-        "new_global_status": "major"
-    },
-    {
-        "changedate": 1433380458.105367,
-        "status": "good",
-        "changetype": "multiple",
         "new_global_status": "good",
+        "service": "copr",
+        "changetype": "single",
         "message": "Everything seems to be working.",
-        "services": [
-            "wiki",
-            "people",
-            "zodbot",
-            "koji",
-            "darkserver",
-            "tagger",
-            "pkgdb",
-            "fedorapaste",
-            "blockerbugs",
-            "badges",
-            "fedorahosted",
-            "mirrormanager",
-            "authentication",
-            "mirrorlist",
-            "pkgs",
-            "fas",
-            "website",
-            "docs",
-            "copr",
-            "bodhi",
-            "ask",
-            "packages",
-            "freemedia",
-            "fedmsg",
-            "elections",
-            "mailinglists",
-            "fedocal"
-        ]
+        "changedate": 1433424225.296115
     },
     {
-        "changedate": 1433365332.584307,
-        "status": "scheduled",
-        "changetype": "multiple",
-        "new_global_status": "scheduled",
-        "message": "Mass reboots in progress",
-        "services": [
-            "wiki",
-            "people",
-            "zodbot",
-            "koji",
-            "darkserver",
-            "tagger",
-            "pkgdb",
-            "fedorapaste",
-            "blockerbugs",
-            "badges",
-            "fedorahosted",
-            "mirrormanager",
-            "authentication",
-            "mirrorlist",
-            "pkgs",
-            "fas",
-            "website",
-            "docs",
-            "copr",
-            "bodhi",
-            "ask",
-            "packages",
-            "freemedia",
-            "fedmsg",
-            "elections",
-            "mailinglists",
-            "fedocal"
-        ]
-    },
-    {
-        "changedate": 1432674197.130564,
-        "status": "good",
-        "changetype": "single",
-        "service": "copr",
-        "message": "Everything seems to be working.",
-        "new_global_status": "good"
-    },
-    {
-        "changedate": 1432633213.086551,
-        "status": "major",
-        "changetype": "single",
-        "service": "copr",
-        "message": "Network issues in PHX - Copr queue jobs, but is not processing the queue. We are working on this issue.",
-        "new_global_status": "major"
-    },
-    {
-        "changedate": 1432624633.423908,
-        "status": "good",
-        "changetype": "single",
-        "service": "copr",
-        "message": "Everything seems to be working.",
-        "new_global_status": "good"
-    },
-    {
-        "changedate": 1432621045.111955,
-        "status": "major",
-        "changetype": "single",
-        "service": "copr",
-        "message": "Network issues in PHX - Copr queue jobs, but is not processing the queue. We are working on this issue.",
-        "new_global_status": "major"
-    },
-    {
-        "changedate": 1432621015.58319,
-        "status": "major",
-        "changetype": "single",
-        "service": "copr",
-        "message": "Network issues",
-        "new_global_status": "major"
-    },
-    {
-        "changedate": 1432048743.859951,
-        "status": "good",
-        "changetype": "single",
-        "service": "copr",
-        "message": "Everything seems to be working.",
-        "new_global_status": "good"
-    },
-    {
-        "changedate": 1432016741.784542,
         "status": "minor",
-        "changetype": "single",
-        "service": "copr",
-        "message": "Migrations underway. Services will be restored later today",
-        "new_global_status": "minor"
-    },
-    {
-        "changedate": 1431952359.226199,
-        "status": "good",
-        "changetype": "single",
-        "service": "copr",
-        "message": "Everything seems to be working.",
-        "new_global_status": "good"
-    },
-    {
-        "changedate": 1431947678.79725,
-        "status": "minor",
-        "changetype": "single",
-        "service": "copr",
-        "message": "Currently being migrated",
-        "new_global_status": "minor"
-    },
-    {
-        "changedate": 1430989150.429581,
-        "status": "good",
-        "changetype": "multiple",
-        "new_global_status": "good",
-        "message": "Everything seems to be working.",
-        "services": [
-            "wiki",
-            "people",
-            "zodbot",
-            "koji",
-            "darkserver",
-            "tagger",
-            "pkgdb",
-            "fedorapaste",
-            "blockerbugs",
-            "badges",
-            "fedorahosted",
-            "mirrormanager",
-            "authentication",
-            "mirrorlist",
-            "pkgs",
-            "fas",
-            "website",
-            "docs",
-            "copr",
-            "bodhi",
-            "ask",
-            "packages",
-            "freemedia",
-            "fedmsg",
-            "elections",
-            "mailinglists",
-            "fedocal"
-        ]
-    },
-    {
-        "changedate": 1430987648.315148,
-        "status": "major",
-        "changetype": "multiple",
-        "new_global_status": "major",
-        "message": "Network trouble, being looked in to",
-        "services": [
-            "wiki",
-            "people",
-            "zodbot",
-            "koji",
-            "darkserver",
-            "tagger",
-            "pkgdb",
-            "fedorapaste",
-            "blockerbugs",
-            "badges",
-            "fedorahosted",
-            "mirrormanager",
-            "authentication",
-            "mirrorlist",
-            "pkgs",
-            "fas",
-            "website",
-            "docs",
-            "copr",
-            "bodhi",
-            "ask",
-            "packages",
-            "freemedia",
-            "fedmsg",
-            "elections",
-            "mailinglists",
-            "fedocal"
-        ]
-    },
-    {
-        "changedate": 1429788780.608953,
-        "status": "good",
-        "changetype": "multiple",
-        "new_global_status": "good",
-        "message": "Everything seems to be working.",
-        "services": [
-            "wiki",
-            "people",
-            "zodbot",
-            "koji",
-            "darkserver",
-            "tagger",
-            "pkgdb",
-            "fedorapaste",
-            "blockerbugs",
-            "badges",
-            "fedorahosted",
-            "mirrormanager",
-            "authentication",
-            "mirrorlist",
-            "pkgs",
-            "fas",
-            "website",
-            "docs",
-            "copr",
-            "bodhi",
-            "ask",
-            "packages",
-            "freemedia",
-            "fedmsg",
-            "elections",
-            "mailinglists",
-            "fedocal"
-        ]
-    },
-    {
-        "changedate": 1429785415.567624,
-        "status": "minor",
-        "changetype": "multiple",
         "new_global_status": "minor",
-        "message": "Unplanned outage in one of our datacenter, may affect most of our application depending on your location",
-        "services": [
-            "wiki",
-            "people",
-            "zodbot",
-            "koji",
-            "darkserver",
-            "tagger",
-            "pkgdb",
-            "fedorapaste",
-            "blockerbugs",
-            "badges",
-            "fedorahosted",
-            "mirrormanager",
-            "authentication",
-            "mirrorlist",
-            "pkgs",
-            "fas",
-            "website",
-            "docs",
-            "copr",
-            "bodhi",
-            "ask",
-            "packages",
-            "freemedia",
-            "fedmsg",
-            "elections",
-            "mailinglists",
-            "fedocal"
-        ]
-    },
-    {
-        "changedate": 1429269899.131735,
-        "status": "good",
+        "service": "copr",
         "changetype": "single",
-        "service": "bodhi",
-        "message": "Everything seems to be working.",
-        "new_global_status": "good"
+        "message": "COPR frontend is back, builds will get back soon",
+        "changedate": 1433421947.499779
     },
     {
-        "changedate": 1429262468.207487,
         "status": "major",
-        "changetype": "single",
-        "service": "bodhi",
-        "message": "Load issues, being looked into",
-        "new_global_status": "major"
-    },
-    {
-        "changedate": 1429259013.325973,
-        "status": "good",
-        "changetype": "single",
-        "service": "bodhi",
-        "message": "Everything seems to be working.",
-        "new_global_status": "good"
-    },
-    {
-        "changedate": 1429258066.890904,
-        "status": "minor",
-        "changetype": "single",
-        "service": "bodhi",
-        "message": "Load issues, being looked into",
-        "new_global_status": "minor"
-    },
-    {
-        "changedate": 1429076737.836838,
-        "status": "good",
-        "changetype": "multiple",
-        "new_global_status": "good",
-        "message": "Everything seems to be working.",
-        "services": [
-            "wiki",
-            "people",
-            "zodbot",
-            "koji",
-            "darkserver",
-            "tagger",
-            "pkgdb",
-            "fedorapaste",
-            "blockerbugs",
-            "badges",
-            "fedorahosted",
-            "mirrormanager",
-            "authentication",
-            "mirrorlist",
-            "pkgs",
-            "fas",
-            "website",
-            "docs",
-            "copr",
-            "bodhi",
-            "ask",
-            "packages",
-            "freemedia",
-            "fedmsg",
-            "elections",
-            "mailinglists",
-            "fedocal"
-        ]
-    },
-    {
-        "changedate": 1429068863.405626,
-        "status": "major",
-        "changetype": "multiple",
         "new_global_status": "major",
-        "message": "Network issues",
+        "service": "copr",
+        "changetype": "single",
+        "message": "COPR is down, we are working on it",
+        "changedate": 1433391582.862703
+    },
+    {
+        "status": "major",
+        "new_global_status": "major",
+        "service": "copr",
+        "changetype": "single",
+        "message": "Everything seems to be working.",
+        "changedate": 1433380504.185031
+    },
+    {
+        "status": "good",
+        "new_global_status": "good",
         "services": [
             "wiki",
             "people",
@@ -5331,116 +4980,472 @@ callback([
             "elections",
             "mailinglists",
             "fedocal"
-        ]
-    },
-    {
-        "changedate": 1428776472.194095,
-        "status": "good",
-        "changetype": "single",
-        "service": "koji",
-        "message": "Everything seems to be working.",
-        "new_global_status": "good"
-    },
-    {
-        "changedate": 1428775207.428278,
-        "status": "scheduled",
-        "changetype": "single",
-        "service": "koji",
-        "message": "database work",
-        "new_global_status": "scheduled"
-    },
-    {
-        "changedate": 1428002998.549571,
-        "status": "good",
-        "changetype": "single",
-        "service": "pkgs",
-        "message": "Everything seems to be working.",
-        "new_global_status": "good"
-    },
-    {
-        "changedate": 1428002764.943971,
-        "status": "major",
-        "changetype": "single",
-        "service": "pkgs",
-        "message": "lookaside/cgit down",
-        "new_global_status": "major"
-    },
-    {
-        "changedate": 1427489441.697936,
-        "status": "good",
-        "changetype": "single",
-        "service": "ask",
-        "message": "Everything seems to be working.",
-        "new_global_status": "good"
-    },
-    {
-        "changedate": 1427472760.149981,
-        "status": "major",
-        "changetype": "single",
-        "service": "ask",
-        "message": "upgrade in progress",
-        "new_global_status": "major"
-    },
-    {
-        "changedate": 1426811713.219948,
-        "status": "good",
-        "changetype": "single",
-        "service": "copr",
-        "message": "Everything seems to be working.",
-        "new_global_status": "good"
-    },
-    {
-        "changedate": 1426799803.790803,
-        "status": "minor",
-        "changetype": "single",
-        "service": "copr",
-        "message": "Backend crunching through backlog",
-        "new_global_status": "minor"
-    },
-    {
-        "changedate": 1426799362.852927,
-        "status": "good",
-        "changetype": "single",
-        "service": "copr",
-        "message": "Everything seems to be working.",
-        "new_global_status": "good"
-    },
-    {
-        "changedate": 1426793642.988247,
-        "status": "major",
-        "changetype": "single",
-        "service": "copr",
-        "message": "Copr backend is currently down",
-        "new_global_status": "major"
-    },
-    {
-        "changedate": 1426540601.662045,
-        "status": "good",
+        ],
         "changetype": "multiple",
-        "new_global_status": "good",
         "message": "Everything seems to be working.",
+        "changedate": 1433380458.105367
+    },
+    {
+        "status": "scheduled",
+        "new_global_status": "scheduled",
+        "services": [
+            "wiki",
+            "people",
+            "zodbot",
+            "koji",
+            "darkserver",
+            "tagger",
+            "pkgdb",
+            "fedorapaste",
+            "blockerbugs",
+            "badges",
+            "fedorahosted",
+            "mirrormanager",
+            "authentication",
+            "mirrorlist",
+            "pkgs",
+            "fas",
+            "website",
+            "docs",
+            "copr",
+            "bodhi",
+            "ask",
+            "packages",
+            "freemedia",
+            "fedmsg",
+            "elections",
+            "mailinglists",
+            "fedocal"
+        ],
+        "changetype": "multiple",
+        "message": "Mass reboots in progress",
+        "changedate": 1433365332.584307
+    },
+    {
+        "status": "good",
+        "new_global_status": "good",
+        "service": "copr",
+        "changetype": "single",
+        "message": "Everything seems to be working.",
+        "changedate": 1432674197.130564
+    },
+    {
+        "status": "major",
+        "new_global_status": "major",
+        "service": "copr",
+        "changetype": "single",
+        "message": "Network issues in PHX - Copr queue jobs, but is not processing the queue. We are working on this issue.",
+        "changedate": 1432633213.086551
+    },
+    {
+        "status": "good",
+        "new_global_status": "good",
+        "service": "copr",
+        "changetype": "single",
+        "message": "Everything seems to be working.",
+        "changedate": 1432624633.423908
+    },
+    {
+        "status": "major",
+        "new_global_status": "major",
+        "service": "copr",
+        "changetype": "single",
+        "message": "Network issues in PHX - Copr queue jobs, but is not processing the queue. We are working on this issue.",
+        "changedate": 1432621045.111955
+    },
+    {
+        "status": "major",
+        "new_global_status": "major",
+        "service": "copr",
+        "changetype": "single",
+        "message": "Network issues",
+        "changedate": 1432621015.58319
+    },
+    {
+        "status": "good",
+        "new_global_status": "good",
+        "service": "copr",
+        "changetype": "single",
+        "message": "Everything seems to be working.",
+        "changedate": 1432048743.859951
+    },
+    {
+        "status": "minor",
+        "new_global_status": "minor",
+        "service": "copr",
+        "changetype": "single",
+        "message": "Migrations underway. Services will be restored later today",
+        "changedate": 1432016741.784542
+    },
+    {
+        "status": "good",
+        "new_global_status": "good",
+        "service": "copr",
+        "changetype": "single",
+        "message": "Everything seems to be working.",
+        "changedate": 1431952359.226199
+    },
+    {
+        "status": "minor",
+        "new_global_status": "minor",
+        "service": "copr",
+        "changetype": "single",
+        "message": "Currently being migrated",
+        "changedate": 1431947678.79725
+    },
+    {
+        "status": "good",
+        "new_global_status": "good",
+        "services": [
+            "wiki",
+            "people",
+            "zodbot",
+            "koji",
+            "darkserver",
+            "tagger",
+            "pkgdb",
+            "fedorapaste",
+            "blockerbugs",
+            "badges",
+            "fedorahosted",
+            "mirrormanager",
+            "authentication",
+            "mirrorlist",
+            "pkgs",
+            "fas",
+            "website",
+            "docs",
+            "copr",
+            "bodhi",
+            "ask",
+            "packages",
+            "freemedia",
+            "fedmsg",
+            "elections",
+            "mailinglists",
+            "fedocal"
+        ],
+        "changetype": "multiple",
+        "message": "Everything seems to be working.",
+        "changedate": 1430989150.429581
+    },
+    {
+        "status": "major",
+        "new_global_status": "major",
+        "services": [
+            "wiki",
+            "people",
+            "zodbot",
+            "koji",
+            "darkserver",
+            "tagger",
+            "pkgdb",
+            "fedorapaste",
+            "blockerbugs",
+            "badges",
+            "fedorahosted",
+            "mirrormanager",
+            "authentication",
+            "mirrorlist",
+            "pkgs",
+            "fas",
+            "website",
+            "docs",
+            "copr",
+            "bodhi",
+            "ask",
+            "packages",
+            "freemedia",
+            "fedmsg",
+            "elections",
+            "mailinglists",
+            "fedocal"
+        ],
+        "changetype": "multiple",
+        "message": "Network trouble, being looked in to",
+        "changedate": 1430987648.315148
+    },
+    {
+        "status": "good",
+        "new_global_status": "good",
+        "services": [
+            "wiki",
+            "people",
+            "zodbot",
+            "koji",
+            "darkserver",
+            "tagger",
+            "pkgdb",
+            "fedorapaste",
+            "blockerbugs",
+            "badges",
+            "fedorahosted",
+            "mirrormanager",
+            "authentication",
+            "mirrorlist",
+            "pkgs",
+            "fas",
+            "website",
+            "docs",
+            "copr",
+            "bodhi",
+            "ask",
+            "packages",
+            "freemedia",
+            "fedmsg",
+            "elections",
+            "mailinglists",
+            "fedocal"
+        ],
+        "changetype": "multiple",
+        "message": "Everything seems to be working.",
+        "changedate": 1429788780.608953
+    },
+    {
+        "status": "minor",
+        "new_global_status": "minor",
+        "services": [
+            "wiki",
+            "people",
+            "zodbot",
+            "koji",
+            "darkserver",
+            "tagger",
+            "pkgdb",
+            "fedorapaste",
+            "blockerbugs",
+            "badges",
+            "fedorahosted",
+            "mirrormanager",
+            "authentication",
+            "mirrorlist",
+            "pkgs",
+            "fas",
+            "website",
+            "docs",
+            "copr",
+            "bodhi",
+            "ask",
+            "packages",
+            "freemedia",
+            "fedmsg",
+            "elections",
+            "mailinglists",
+            "fedocal"
+        ],
+        "changetype": "multiple",
+        "message": "Unplanned outage in one of our datacenter, may affect most of our application depending on your location",
+        "changedate": 1429785415.567624
+    },
+    {
+        "status": "good",
+        "new_global_status": "good",
+        "service": "bodhi",
+        "changetype": "single",
+        "message": "Everything seems to be working.",
+        "changedate": 1429269899.131735
+    },
+    {
+        "status": "major",
+        "new_global_status": "major",
+        "service": "bodhi",
+        "changetype": "single",
+        "message": "Load issues, being looked into",
+        "changedate": 1429262468.207487
+    },
+    {
+        "status": "good",
+        "new_global_status": "good",
+        "service": "bodhi",
+        "changetype": "single",
+        "message": "Everything seems to be working.",
+        "changedate": 1429259013.325973
+    },
+    {
+        "status": "minor",
+        "new_global_status": "minor",
+        "service": "bodhi",
+        "changetype": "single",
+        "message": "Load issues, being looked into",
+        "changedate": 1429258066.890904
+    },
+    {
+        "status": "good",
+        "new_global_status": "good",
+        "services": [
+            "wiki",
+            "people",
+            "zodbot",
+            "koji",
+            "darkserver",
+            "tagger",
+            "pkgdb",
+            "fedorapaste",
+            "blockerbugs",
+            "badges",
+            "fedorahosted",
+            "mirrormanager",
+            "authentication",
+            "mirrorlist",
+            "pkgs",
+            "fas",
+            "website",
+            "docs",
+            "copr",
+            "bodhi",
+            "ask",
+            "packages",
+            "freemedia",
+            "fedmsg",
+            "elections",
+            "mailinglists",
+            "fedocal"
+        ],
+        "changetype": "multiple",
+        "message": "Everything seems to be working.",
+        "changedate": 1429076737.836838
+    },
+    {
+        "status": "major",
+        "new_global_status": "major",
+        "services": [
+            "wiki",
+            "people",
+            "zodbot",
+            "koji",
+            "darkserver",
+            "tagger",
+            "pkgdb",
+            "fedorapaste",
+            "blockerbugs",
+            "badges",
+            "fedorahosted",
+            "mirrormanager",
+            "authentication",
+            "mirrorlist",
+            "pkgs",
+            "fas",
+            "website",
+            "docs",
+            "copr",
+            "bodhi",
+            "ask",
+            "packages",
+            "freemedia",
+            "fedmsg",
+            "elections",
+            "mailinglists",
+            "fedocal"
+        ],
+        "changetype": "multiple",
+        "message": "Network issues",
+        "changedate": 1429068863.405626
+    },
+    {
+        "status": "good",
+        "new_global_status": "good",
+        "service": "koji",
+        "changetype": "single",
+        "message": "Everything seems to be working.",
+        "changedate": 1428776472.194095
+    },
+    {
+        "status": "scheduled",
+        "new_global_status": "scheduled",
+        "service": "koji",
+        "changetype": "single",
+        "message": "database work",
+        "changedate": 1428775207.428278
+    },
+    {
+        "status": "good",
+        "new_global_status": "good",
+        "service": "pkgs",
+        "changetype": "single",
+        "message": "Everything seems to be working.",
+        "changedate": 1428002998.549571
+    },
+    {
+        "status": "major",
+        "new_global_status": "major",
+        "service": "pkgs",
+        "changetype": "single",
+        "message": "lookaside/cgit down",
+        "changedate": 1428002764.943971
+    },
+    {
+        "status": "good",
+        "new_global_status": "good",
+        "service": "ask",
+        "changetype": "single",
+        "message": "Everything seems to be working.",
+        "changedate": 1427489441.697936
+    },
+    {
+        "status": "major",
+        "new_global_status": "major",
+        "service": "ask",
+        "changetype": "single",
+        "message": "upgrade in progress",
+        "changedate": 1427472760.149981
+    },
+    {
+        "status": "good",
+        "new_global_status": "good",
+        "service": "copr",
+        "changetype": "single",
+        "message": "Everything seems to be working.",
+        "changedate": 1426811713.219948
+    },
+    {
+        "status": "minor",
+        "new_global_status": "minor",
+        "service": "copr",
+        "changetype": "single",
+        "message": "Backend crunching through backlog",
+        "changedate": 1426799803.790803
+    },
+    {
+        "status": "good",
+        "new_global_status": "good",
+        "service": "copr",
+        "changetype": "single",
+        "message": "Everything seems to be working.",
+        "changedate": 1426799362.852927
+    },
+    {
+        "status": "major",
+        "new_global_status": "major",
+        "service": "copr",
+        "changetype": "single",
+        "message": "Copr backend is currently down",
+        "changedate": 1426793642.988247
+    },
+    {
+        "status": "good",
+        "new_global_status": "good",
         "services": [
             "badges",
             "fedmsg"
-        ]
+        ],
+        "changetype": "multiple",
+        "message": "Everything seems to be working.",
+        "changedate": 1426540601.662045
     },
     {
-        "changedate": 1426536404.841793,
         "status": "scheduled",
-        "changetype": "multiple",
         "new_global_status": "scheduled",
-        "message": "Datanommer database upgrade.",
         "services": [
             "fedmsg",
             "badges"
-        ]
+        ],
+        "changetype": "multiple",
+        "message": "Datanommer database upgrade.",
+        "changedate": 1426536404.841793
     },
     {
-        "changedate": 1426121156.170411,
         "status": "good",
-        "changetype": "multiple",
         "new_global_status": "good",
-        "message": "Everything seems to be working.",
         "services": [
             "wiki",
             "people",
@@ -5469,14 +5474,14 @@ callback([
             "elections",
             "mailinglists",
             "fedocal"
-        ]
+        ],
+        "changetype": "multiple",
+        "message": "Everything seems to be working.",
+        "changedate": 1426121156.170411
     },
     {
-        "changedate": 1426107607.895318,
         "status": "scheduled",
-        "changetype": "multiple",
         "new_global_status": "scheduled",
-        "message": "Scheduled reboots in progress",
         "services": [
             "wiki",
             "people",
@@ -5505,52 +5510,52 @@ callback([
             "elections",
             "mailinglists",
             "fedocal"
-        ]
+        ],
+        "changetype": "multiple",
+        "message": "Scheduled reboots in progress",
+        "changedate": 1426107607.895318
     },
     {
-        "changedate": 1424353103.347142,
         "status": "good",
-        "changetype": "multiple",
         "new_global_status": "good",
-        "message": "Everything seems to be working.",
         "services": [
             "koji",
             "pkgs"
-        ]
+        ],
+        "changetype": "multiple",
+        "message": "Everything seems to be working.",
+        "changedate": 1424353103.347142
     },
     {
-        "changedate": 1424336373.662891,
         "status": "scheduled",
-        "changetype": "multiple",
         "new_global_status": "scheduled",
-        "message": "Gitolite migration in progress",
         "services": [
             "pkgs",
             "koji"
-        ]
+        ],
+        "changetype": "multiple",
+        "message": "Gitolite migration in progress",
+        "changedate": 1424336373.662891
     },
     {
-        "changedate": 1423529901.814181,
         "status": "good",
-        "changetype": "single",
+        "new_global_status": "good",
         "service": "copr",
+        "changetype": "single",
         "message": "Everything seems to be working.",
-        "new_global_status": "good"
+        "changedate": 1423529901.814181
     },
     {
-        "changedate": 1423517412.329103,
         "status": "major",
-        "changetype": "single",
+        "new_global_status": "major",
         "service": "copr",
+        "changetype": "single",
         "message": "backend is down",
-        "new_global_status": "major"
+        "changedate": 1423517412.329103
     },
     {
-        "changedate": 1422408874.110653,
         "status": "good",
-        "changetype": "multiple",
         "new_global_status": "good",
-        "message": "Everything seems to be working.",
         "services": [
             "wiki",
             "people",
@@ -5579,98 +5584,98 @@ callback([
             "elections",
             "mailinglists",
             "fedocal"
-        ]
+        ],
+        "changetype": "multiple",
+        "message": "Everything seems to be working.",
+        "changedate": 1422408874.110653
     },
     {
-        "changedate": 1422401782.616078,
         "status": "major",
-        "changetype": "multiple",
         "new_global_status": "major",
+        "services": [
+            "wiki",
+            "people",
+            "zodbot",
+            "koji",
+            "darkserver",
+            "tagger",
+            "pkgdb",
+            "fedorapaste",
+            "blockerbugs",
+            "badges",
+            "fedorahosted",
+            "mirrormanager",
+            "authentication",
+            "mirrorlist",
+            "pkgs",
+            "fas",
+            "website",
+            "docs",
+            "copr",
+            "bodhi",
+            "ask",
+            "packages",
+            "freemedia",
+            "fedmsg",
+            "elections",
+            "mailinglists",
+            "fedocal"
+        ],
+        "changetype": "multiple",
         "message": "rebooting servers",
-        "services": [
-            "wiki",
-            "people",
-            "zodbot",
-            "koji",
-            "darkserver",
-            "tagger",
-            "pkgdb",
-            "fedorapaste",
-            "blockerbugs",
-            "badges",
-            "fedorahosted",
-            "mirrormanager",
-            "authentication",
-            "mirrorlist",
-            "pkgs",
-            "fas",
-            "website",
-            "docs",
-            "copr",
-            "bodhi",
-            "ask",
-            "packages",
-            "freemedia",
-            "fedmsg",
-            "elections",
-            "mailinglists",
-            "fedocal"
-        ]
+        "changedate": 1422401782.616078
     },
     {
-        "changedate": 1422386185.214612,
         "status": "good",
-        "changetype": "single",
+        "new_global_status": "good",
         "service": "mirrorlist",
+        "changetype": "single",
         "message": "Everything seems to be working.",
-        "new_global_status": "good"
+        "changedate": 1422386185.214612
     },
     {
-        "changedate": 1422385004.525724,
         "status": "major",
-        "changetype": "single",
+        "new_global_status": "major",
         "service": "mirrorlist",
+        "changetype": "single",
         "message": "Mirrorlist servers down, being worked on",
-        "new_global_status": "major"
+        "changedate": 1422385004.525724
     },
     {
-        "changedate": 1421879441.363022,
         "status": "good",
-        "changetype": "single",
+        "new_global_status": "good",
         "service": "packages",
+        "changetype": "single",
         "message": "Everything seems to be working.",
-        "new_global_status": "good"
+        "changedate": 1421879441.363022
     },
     {
-        "changedate": 1421863664.590579,
         "status": "scheduled",
-        "changetype": "single",
+        "new_global_status": "scheduled",
         "service": "packages",
+        "changetype": "single",
         "message": "Rebuilding xapian database",
-        "new_global_status": "scheduled"
+        "changedate": 1421863664.590579
     },
     {
-        "changedate": 1419285292.196991,
         "status": "good",
-        "changetype": "single",
+        "new_global_status": "good",
         "service": "koji",
+        "changetype": "single",
         "message": "Everything seems to be working.",
-        "new_global_status": "good"
+        "changedate": 1419285292.196991
     },
     {
-        "changedate": 1419278582.374116,
         "status": "scheduled",
-        "changetype": "single",
+        "new_global_status": "scheduled",
         "service": "koji",
+        "changetype": "single",
         "message": "scheduled outage",
-        "new_global_status": "scheduled"
+        "changedate": 1419278582.374116
     },
     {
-        "changedate": 1418874070.355612,
         "status": "good",
-        "changetype": "multiple",
         "new_global_status": "good",
-        "message": "Everything seems to be working.",
         "services": [
             "wiki",
             "people",
@@ -5699,86 +5704,86 @@ callback([
             "elections",
             "mailinglists",
             "fedocal"
-        ]
+        ],
+        "changetype": "multiple",
+        "message": "Everything seems to be working.",
+        "changedate": 1418874070.355612
     },
     {
-        "changedate": 1418853613.238823,
         "status": "scheduled",
-        "changetype": "multiple",
         "new_global_status": "scheduled",
+        "services": [
+            "wiki",
+            "people",
+            "zodbot",
+            "koji",
+            "darkserver",
+            "tagger",
+            "pkgdb",
+            "fedorapaste",
+            "blockerbugs",
+            "badges",
+            "fedorahosted",
+            "mirrormanager",
+            "authentication",
+            "mirrorlist",
+            "pkgs",
+            "fas",
+            "website",
+            "docs",
+            "copr",
+            "bodhi",
+            "ask",
+            "packages",
+            "freemedia",
+            "fedmsg",
+            "elections",
+            "mailinglists",
+            "fedocal"
+        ],
+        "changetype": "multiple",
         "message": "Scheduled outage",
-        "services": [
-            "wiki",
-            "people",
-            "zodbot",
-            "koji",
-            "darkserver",
-            "tagger",
-            "pkgdb",
-            "fedorapaste",
-            "blockerbugs",
-            "badges",
-            "fedorahosted",
-            "mirrormanager",
-            "authentication",
-            "mirrorlist",
-            "pkgs",
-            "fas",
-            "website",
-            "docs",
-            "copr",
-            "bodhi",
-            "ask",
-            "packages",
-            "freemedia",
-            "fedmsg",
-            "elections",
-            "mailinglists",
-            "fedocal"
-        ]
+        "changedate": 1418853613.238823
     },
     {
-        "changedate": 1418773882.856139,
         "status": "good",
-        "changetype": "multiple",
         "new_global_status": "good",
+        "services": [
+            "wiki",
+            "people",
+            "zodbot",
+            "koji",
+            "darkserver",
+            "tagger",
+            "pkgdb",
+            "fedorapaste",
+            "blockerbugs",
+            "badges",
+            "fedorahosted",
+            "mirrormanager",
+            "authentication",
+            "mirrorlist",
+            "pkgs",
+            "fas",
+            "website",
+            "docs",
+            "copr",
+            "bodhi",
+            "ask",
+            "packages",
+            "freemedia",
+            "fedmsg",
+            "elections",
+            "mailinglists",
+            "fedocal"
+        ],
+        "changetype": "multiple",
         "message": "Everything seems to be working.",
-        "services": [
-            "wiki",
-            "people",
-            "zodbot",
-            "koji",
-            "darkserver",
-            "tagger",
-            "pkgdb",
-            "fedorapaste",
-            "blockerbugs",
-            "badges",
-            "fedorahosted",
-            "mirrormanager",
-            "authentication",
-            "mirrorlist",
-            "pkgs",
-            "fas",
-            "website",
-            "docs",
-            "copr",
-            "bodhi",
-            "ask",
-            "packages",
-            "freemedia",
-            "fedmsg",
-            "elections",
-            "mailinglists",
-            "fedocal"
-        ]
+        "changedate": 1418773882.856139
     },
     {
-        "changedate": 1418769169.184463,
         "status": "scheduled",
-        "changetype": "multiple",
         "new_global_status": "scheduled",
-        "message": "Database migrations in progress",
         "services": [
             "wiki",
             "people",
@@ -5807,14 +5812,14 @@ callback([
             "elections",
             "mailinglists",
             "fedocal"
-        ]
+        ],
+        "changetype": "multiple",
+        "message": "Database migrations in progress",
+        "changedate": 1418769169.184463
     },
     {
-        "changedate": 1418769108.205808,
         "status": "major",
-        "changetype": "multiple",
         "new_global_status": "major",
-        "message": "Database migrations in progress",
         "services": [
             "wiki",
             "people",
@@ -5843,213 +5848,74 @@ callback([
             "elections",
             "mailinglists",
             "fedocal"
-        ]
+        ],
+        "changetype": "multiple",
+        "message": "Database migrations in progress",
+        "changedate": 1418769108.205808
     },
     {
-        "changedate": 1418769096.458666,
         "status": "major",
-        "changetype": "multiple",
         "new_global_status": "major",
+        "services": [
+            "wiki",
+            "people",
+            "zodbot",
+            "koji",
+            "darkserver",
+            "tagger",
+            "pkgdb",
+            "fedorapaste",
+            "blockerbugs",
+            "badges",
+            "fedorahosted",
+            "mirrormanager",
+            "authentication",
+            "mirrorlist",
+            "pkgs",
+            "fas",
+            "website",
+            "docs",
+            "copr",
+            "bodhi",
+            "ask",
+            "packages",
+            "freemedia",
+            "fedmsg",
+            "elections",
+            "mailinglists",
+            "fedocal"
+        ],
+        "changetype": "multiple",
         "message": "DAtabae migrations in progress",
-        "services": [
-            "wiki",
-            "people",
-            "zodbot",
-            "koji",
-            "darkserver",
-            "tagger",
-            "pkgdb",
-            "fedorapaste",
-            "blockerbugs",
-            "badges",
-            "fedorahosted",
-            "mirrormanager",
-            "authentication",
-            "mirrorlist",
-            "pkgs",
-            "fas",
-            "website",
-            "docs",
-            "copr",
-            "bodhi",
-            "ask",
-            "packages",
-            "freemedia",
-            "fedmsg",
-            "elections",
-            "mailinglists",
-            "fedocal"
-        ]
+        "changedate": 1418769096.458666
     },
     {
-        "changedate": 1418767256.468845,
         "status": "scheduled",
-        "changetype": "single",
-        "service": "fas",
-        "message": "fas db migration in progress",
-        "new_global_status": "scheduled"
-    },
-    {
-        "changedate": 1418704155.873864,
-        "status": "good",
-        "changetype": "single",
-        "service": "mailinglists",
-        "message": "Everything seems to be working.",
-        "new_global_status": "good"
-    },
-    {
-        "changedate": 1418695775.878968,
-        "status": "major",
-        "changetype": "single",
-        "service": "mailinglists",
-        "message": "lists.fedorahosted.org down",
-        "new_global_status": "major"
-    },
-    {
-        "changedate": 1418695628.620295,
-        "status": "good",
-        "changetype": "multiple",
-        "new_global_status": "good",
-        "message": "Everything seems to be working.",
-        "services": [
-            "wiki",
-            "people",
-            "zodbot",
-            "koji",
-            "darkserver",
-            "tagger",
-            "pkgdb",
-            "fedorapaste",
-            "blockerbugs",
-            "badges",
-            "fedorahosted",
-            "mirrormanager",
-            "authentication",
-            "mirrorlist",
-            "pkgs",
-            "fas",
-            "website",
-            "docs",
-            "copr",
-            "bodhi",
-            "ask",
-            "packages",
-            "freemedia",
-            "fedmsg",
-            "elections",
-            "mailinglists",
-            "fedocal"
-        ]
-    },
-    {
-        "changedate": 1418680779.655306,
-        "status": "scheduled",
-        "changetype": "multiple",
         "new_global_status": "scheduled",
-        "message": "Everything seems to be working.",
-        "services": [
-            "wiki",
-            "people",
-            "zodbot",
-            "koji",
-            "darkserver",
-            "tagger",
-            "pkgdb",
-            "fedorapaste",
-            "blockerbugs",
-            "badges",
-            "fedorahosted",
-            "mirrormanager",
-            "authentication",
-            "mirrorlist",
-            "pkgs",
-            "fas",
-            "website",
-            "docs",
-            "copr",
-            "bodhi",
-            "ask",
-            "packages",
-            "freemedia",
-            "fedmsg",
-            "elections",
-            "mailinglists",
-            "fedocal"
-        ]
+        "service": "fas",
+        "changetype": "single",
+        "message": "fas db migration in progress",
+        "changedate": 1418767256.468845
     },
     {
-        "changedate": 1418225564.351025,
         "status": "good",
-        "changetype": "single",
-        "service": "bodhi",
-        "message": "Everything seems to be working.",
-        "new_global_status": "good"
-    },
-    {
-        "changedate": 1418205730.026393,
-        "status": "major",
-        "changetype": "single",
-        "service": "bodhi",
-        "message": "dropping in and out of service",
-        "new_global_status": "major"
-    },
-    {
-        "changedate": 1418174495.958753,
-        "status": "good",
-        "changetype": "single",
-        "service": "bodhi",
-        "message": "Everything seems to be working.",
-        "new_global_status": "good"
-    },
-    {
-        "changedate": 1418164919.170836,
-        "status": "major",
-        "changetype": "single",
-        "service": "bodhi",
-        "message": "outage",
-        "new_global_status": "major"
-    },
-    {
-        "changedate": 1418164856.071211,
-        "status": "good",
-        "changetype": "multiple",
         "new_global_status": "good",
+        "service": "mailinglists",
+        "changetype": "single",
         "message": "Everything seems to be working.",
-        "services": [
-            "wiki",
-            "people",
-            "zodbot",
-            "koji",
-            "darkserver",
-            "tagger",
-            "pkgdb",
-            "fedorapaste",
-            "blockerbugs",
-            "badges",
-            "fedorahosted",
-            "mirrormanager",
-            "authentication",
-            "mirrorlist",
-            "pkgs",
-            "fas",
-            "docs",
-            "copr",
-            "bodhi",
-            "ask",
-            "packages",
-            "freemedia",
-            "fedmsg",
-            "elections",
-            "mailinglists",
-            "fedocal"
-        ]
+        "changedate": 1418704155.873864
     },
     {
-        "changedate": 1418140895.502942,
         "status": "major",
-        "changetype": "multiple",
         "new_global_status": "major",
-        "message": "High traffic due to F21 release, try again later",
+        "service": "mailinglists",
+        "changetype": "single",
+        "message": "lists.fedorahosted.org down",
+        "changedate": 1418695775.878968
+    },
+    {
+        "status": "good",
+        "new_global_status": "good",
         "services": [
             "wiki",
             "people",
@@ -6078,210 +5944,349 @@ callback([
             "elections",
             "mailinglists",
             "fedocal"
-        ]
+        ],
+        "changetype": "multiple",
+        "message": "Everything seems to be working.",
+        "changedate": 1418695628.620295
     },
     {
-        "changedate": 1416055906.782474,
-        "status": "good",
+        "status": "scheduled",
+        "new_global_status": "scheduled",
+        "services": [
+            "wiki",
+            "people",
+            "zodbot",
+            "koji",
+            "darkserver",
+            "tagger",
+            "pkgdb",
+            "fedorapaste",
+            "blockerbugs",
+            "badges",
+            "fedorahosted",
+            "mirrormanager",
+            "authentication",
+            "mirrorlist",
+            "pkgs",
+            "fas",
+            "website",
+            "docs",
+            "copr",
+            "bodhi",
+            "ask",
+            "packages",
+            "freemedia",
+            "fedmsg",
+            "elections",
+            "mailinglists",
+            "fedocal"
+        ],
         "changetype": "multiple",
-        "new_global_status": "good",
         "message": "Everything seems to be working.",
+        "changedate": 1418680779.655306
+    },
+    {
+        "status": "good",
+        "new_global_status": "good",
+        "service": "bodhi",
+        "changetype": "single",
+        "message": "Everything seems to be working.",
+        "changedate": 1418225564.351025
+    },
+    {
+        "status": "major",
+        "new_global_status": "major",
+        "service": "bodhi",
+        "changetype": "single",
+        "message": "dropping in and out of service",
+        "changedate": 1418205730.026393
+    },
+    {
+        "status": "good",
+        "new_global_status": "good",
+        "service": "bodhi",
+        "changetype": "single",
+        "message": "Everything seems to be working.",
+        "changedate": 1418174495.958753
+    },
+    {
+        "status": "major",
+        "new_global_status": "major",
+        "service": "bodhi",
+        "changetype": "single",
+        "message": "outage",
+        "changedate": 1418164919.170836
+    },
+    {
+        "status": "good",
+        "new_global_status": "good",
+        "services": [
+            "wiki",
+            "people",
+            "zodbot",
+            "koji",
+            "darkserver",
+            "tagger",
+            "pkgdb",
+            "fedorapaste",
+            "blockerbugs",
+            "badges",
+            "fedorahosted",
+            "mirrormanager",
+            "authentication",
+            "mirrorlist",
+            "pkgs",
+            "fas",
+            "docs",
+            "copr",
+            "bodhi",
+            "ask",
+            "packages",
+            "freemedia",
+            "fedmsg",
+            "elections",
+            "mailinglists",
+            "fedocal"
+        ],
+        "changetype": "multiple",
+        "message": "Everything seems to be working.",
+        "changedate": 1418164856.071211
+    },
+    {
+        "status": "major",
+        "new_global_status": "major",
+        "services": [
+            "wiki",
+            "people",
+            "zodbot",
+            "koji",
+            "darkserver",
+            "tagger",
+            "pkgdb",
+            "fedorapaste",
+            "blockerbugs",
+            "badges",
+            "fedorahosted",
+            "mirrormanager",
+            "authentication",
+            "mirrorlist",
+            "pkgs",
+            "fas",
+            "website",
+            "docs",
+            "copr",
+            "bodhi",
+            "ask",
+            "packages",
+            "freemedia",
+            "fedmsg",
+            "elections",
+            "mailinglists",
+            "fedocal"
+        ],
+        "changetype": "multiple",
+        "message": "High traffic due to F21 release, try again later",
+        "changedate": 1418140895.502942
+    },
+    {
+        "status": "good",
+        "new_global_status": "good",
         "services": [
             "wiki",
             "ask",
             "packages"
-        ]
-    },
-    {
-        "changedate": 1416053048.01019,
-        "status": "major",
-        "changetype": "single",
-        "service": "wiki",
-        "message": "Issue with saving, an admin will investigate asap",
-        "new_global_status": "major"
-    },
-    {
-        "changedate": 1416050654.892686,
-        "status": "major",
-        "changetype": "single",
-        "service": "packages",
-        "message": "Issue with backend server, an admin will investigate asap",
-        "new_global_status": "major"
-    },
-    {
-        "changedate": 1416050608.591928,
-        "status": "major",
-        "changetype": "single",
-        "service": "ask",
-        "message": "Issue with backend server, an admin will investigate asap",
-        "new_global_status": "major"
-    },
-    {
-        "changedate": 1415395992.005421,
-        "status": "good",
+        ],
         "changetype": "multiple",
-        "new_global_status": "good",
         "message": "Everything seems to be working.",
-        "services": [
-            "wiki",
-            "people",
-            "zodbot",
-            "koji",
-            "darkserver",
-            "tagger",
-            "pkgdb",
-            "fedorapaste",
-            "blockerbugs",
-            "badges",
-            "fedorahosted",
-            "mirrormanager",
-            "authentication",
-            "mirrorlist",
-            "pkgs",
-            "fas",
-            "website",
-            "docs",
-            "copr",
-            "bodhi",
-            "ask",
-            "packages",
-            "freemedia",
-            "fedmsg",
-            "elections",
-            "mailinglists",
-            "fedocal"
-        ]
+        "changedate": 1416055906.782474
     },
     {
-        "changedate": 1415393700.881776,
-        "status": "minor",
-        "changetype": "multiple",
-        "new_global_status": "minor",
-        "message": "NFS mounts behaving poorly.  Some services disrupted.",
-        "services": [
-            "wiki",
-            "people",
-            "zodbot",
-            "koji",
-            "darkserver",
-            "tagger",
-            "pkgdb",
-            "fedorapaste",
-            "blockerbugs",
-            "badges",
-            "fedorahosted",
-            "mirrormanager",
-            "authentication",
-            "mirrorlist",
-            "pkgs",
-            "fas",
-            "website",
-            "docs",
-            "copr",
-            "bodhi",
-            "ask",
-            "packages",
-            "freemedia",
-            "fedmsg",
-            "elections",
-            "mailinglists",
-            "fedocal"
-        ]
-    },
-    {
-        "changedate": 1415308555.341,
-        "status": "good",
-        "changetype": "single",
-        "service": "packages",
-        "message": "Everything seems to be working.",
-        "new_global_status": "good"
-    },
-    {
-        "changedate": 1415293069.963006,
         "status": "major",
-        "changetype": "single",
-        "service": "packages",
-        "message": "Down while rebuilding the xapian DB.",
-        "new_global_status": "major"
-    },
-    {
-        "changedate": 1415285690.248218,
-        "status": "good",
-        "changetype": "multiple",
-        "new_global_status": "good",
-        "message": "Everything seems to be working.",
-        "services": [
-            "wiki",
-            "people",
-            "zodbot",
-            "koji",
-            "darkserver",
-            "tagger",
-            "pkgdb",
-            "fedorapaste",
-            "blockerbugs",
-            "badges",
-            "fedorahosted",
-            "mirrormanager",
-            "authentication",
-            "mirrorlist",
-            "pkgs",
-            "fas",
-            "website",
-            "docs",
-            "copr",
-            "bodhi",
-            "ask",
-            "packages",
-            "freemedia",
-            "fedmsg",
-            "elections",
-            "mailinglists",
-            "fedocal"
-        ]
-    },
-    {
-        "changedate": 1415283740.660825,
-        "status": "minor",
-        "changetype": "multiple",
-        "new_global_status": "minor",
-        "message": "Email queue catching up slowly",
-        "services": [
-            "wiki",
-            "people",
-            "zodbot",
-            "koji",
-            "darkserver",
-            "tagger",
-            "pkgdb",
-            "fedorapaste",
-            "blockerbugs",
-            "badges",
-            "fedorahosted",
-            "mirrormanager",
-            "authentication",
-            "mirrorlist",
-            "pkgs",
-            "fas",
-            "website",
-            "docs",
-            "copr",
-            "bodhi",
-            "ask",
-            "packages",
-            "freemedia",
-            "fedmsg",
-            "elections",
-            "mailinglists",
-            "fedocal"
-        ]
-    },
-    {
-        "changedate": 1415280777.37707,
-        "status": "major",
-        "changetype": "multiple",
         "new_global_status": "major",
-        "message": "Mails not being sent",
+        "service": "wiki",
+        "changetype": "single",
+        "message": "Issue with saving, an admin will investigate asap",
+        "changedate": 1416053048.01019
+    },
+    {
+        "status": "major",
+        "new_global_status": "major",
+        "service": "packages",
+        "changetype": "single",
+        "message": "Issue with backend server, an admin will investigate asap",
+        "changedate": 1416050654.892686
+    },
+    {
+        "status": "major",
+        "new_global_status": "major",
+        "service": "ask",
+        "changetype": "single",
+        "message": "Issue with backend server, an admin will investigate asap",
+        "changedate": 1416050608.591928
+    },
+    {
+        "status": "good",
+        "new_global_status": "good",
+        "services": [
+            "wiki",
+            "people",
+            "zodbot",
+            "koji",
+            "darkserver",
+            "tagger",
+            "pkgdb",
+            "fedorapaste",
+            "blockerbugs",
+            "badges",
+            "fedorahosted",
+            "mirrormanager",
+            "authentication",
+            "mirrorlist",
+            "pkgs",
+            "fas",
+            "website",
+            "docs",
+            "copr",
+            "bodhi",
+            "ask",
+            "packages",
+            "freemedia",
+            "fedmsg",
+            "elections",
+            "mailinglists",
+            "fedocal"
+        ],
+        "changetype": "multiple",
+        "message": "Everything seems to be working.",
+        "changedate": 1415395992.005421
+    },
+    {
+        "status": "minor",
+        "new_global_status": "minor",
+        "services": [
+            "wiki",
+            "people",
+            "zodbot",
+            "koji",
+            "darkserver",
+            "tagger",
+            "pkgdb",
+            "fedorapaste",
+            "blockerbugs",
+            "badges",
+            "fedorahosted",
+            "mirrormanager",
+            "authentication",
+            "mirrorlist",
+            "pkgs",
+            "fas",
+            "website",
+            "docs",
+            "copr",
+            "bodhi",
+            "ask",
+            "packages",
+            "freemedia",
+            "fedmsg",
+            "elections",
+            "mailinglists",
+            "fedocal"
+        ],
+        "changetype": "multiple",
+        "message": "NFS mounts behaving poorly.  Some services disrupted.",
+        "changedate": 1415393700.881776
+    },
+    {
+        "status": "good",
+        "new_global_status": "good",
+        "service": "packages",
+        "changetype": "single",
+        "message": "Everything seems to be working.",
+        "changedate": 1415308555.341
+    },
+    {
+        "status": "major",
+        "new_global_status": "major",
+        "service": "packages",
+        "changetype": "single",
+        "message": "Down while rebuilding the xapian DB.",
+        "changedate": 1415293069.963006
+    },
+    {
+        "status": "good",
+        "new_global_status": "good",
+        "services": [
+            "wiki",
+            "people",
+            "zodbot",
+            "koji",
+            "darkserver",
+            "tagger",
+            "pkgdb",
+            "fedorapaste",
+            "blockerbugs",
+            "badges",
+            "fedorahosted",
+            "mirrormanager",
+            "authentication",
+            "mirrorlist",
+            "pkgs",
+            "fas",
+            "website",
+            "docs",
+            "copr",
+            "bodhi",
+            "ask",
+            "packages",
+            "freemedia",
+            "fedmsg",
+            "elections",
+            "mailinglists",
+            "fedocal"
+        ],
+        "changetype": "multiple",
+        "message": "Everything seems to be working.",
+        "changedate": 1415285690.248218
+    },
+    {
+        "status": "minor",
+        "new_global_status": "minor",
+        "services": [
+            "wiki",
+            "people",
+            "zodbot",
+            "koji",
+            "darkserver",
+            "tagger",
+            "pkgdb",
+            "fedorapaste",
+            "blockerbugs",
+            "badges",
+            "fedorahosted",
+            "mirrormanager",
+            "authentication",
+            "mirrorlist",
+            "pkgs",
+            "fas",
+            "website",
+            "docs",
+            "copr",
+            "bodhi",
+            "ask",
+            "packages",
+            "freemedia",
+            "fedmsg",
+            "elections",
+            "mailinglists",
+            "fedocal"
+        ],
+        "changetype": "multiple",
+        "message": "Email queue catching up slowly",
+        "changedate": 1415283740.660825
+    },
+    {
+        "status": "major",
+        "new_global_status": "major",
         "services": [
             "wiki",
             "people",
@@ -6309,22 +6314,22 @@ callback([
             "fedmsg",
             "elections",
             "fedocal"
-        ]
-    },
-    {
-        "changedate": 1415280692.131897,
-        "status": "major",
-        "changetype": "single",
-        "service": "mailinglists",
-        "message": "Mails not being sent",
-        "new_global_status": "major"
-    },
-    {
-        "changedate": 1415236722.925676,
-        "status": "good",
+        ],
         "changetype": "multiple",
+        "message": "Mails not being sent",
+        "changedate": 1415280777.37707
+    },
+    {
+        "status": "major",
+        "new_global_status": "major",
+        "service": "mailinglists",
+        "changetype": "single",
+        "message": "Mails not being sent",
+        "changedate": 1415280692.131897
+    },
+    {
+        "status": "good",
         "new_global_status": "good",
-        "message": "Everything seems to be working.",
         "services": [
             "wiki",
             "people",
@@ -6344,14 +6349,14 @@ callback([
             "fedmsg",
             "elections",
             "fedocal"
-        ]
+        ],
+        "changetype": "multiple",
+        "message": "Everything seems to be working.",
+        "changedate": 1415236722.925676
     },
     {
-        "changedate": 1415224678.161075,
         "status": "scheduled",
-        "changetype": "multiple",
         "new_global_status": "scheduled",
-        "message": "Scheduled reboots in progress",
         "services": [
             "ask",
             "badges",
@@ -6370,80 +6375,80 @@ callback([
             "mirrormanager",
             "pkgdb",
             "wiki"
-        ]
-    },
-    {
-        "changedate": 1412732400.306581,
-        "status": "good",
-        "changetype": "single",
-        "service": "copr",
-        "message": "Everything seems to be working.",
-        "new_global_status": "good"
-    },
-    {
-        "changedate": 1412688906.084514,
-        "status": "minor",
-        "changetype": "single",
-        "service": "copr",
-        "message": "Backend down for hardware maintenance, builds will continue when back",
-        "new_global_status": "minor"
-    },
-    {
-        "changedate": 1412366720.296255,
-        "status": "good",
-        "changetype": "single",
-        "service": "copr",
-        "message": "Everything seems to be working.",
-        "new_global_status": "good"
-    },
-    {
-        "changedate": 1412350234.30302,
-        "status": "minor",
-        "changetype": "single",
-        "service": "copr",
-        "message": "Cloud has limited capacity, COPR might be slow with getting new builds ran.",
-        "new_global_status": "minor"
-    },
-    {
-        "changedate": 1412347212.189102,
-        "status": "minor",
-        "changetype": "single",
-        "service": "copr",
-        "message": "COPR Backend down temporarily, no builds executed. Will be ran when backend gets back.",
-        "new_global_status": "minor"
-    },
-    {
-        "changedate": 1412207312.582836,
-        "status": "good",
+        ],
         "changetype": "multiple",
+        "message": "Scheduled reboots in progress",
+        "changedate": 1415224678.161075
+    },
+    {
+        "status": "good",
         "new_global_status": "good",
+        "service": "copr",
+        "changetype": "single",
         "message": "Everything seems to be working.",
+        "changedate": 1412732400.306581
+    },
+    {
+        "status": "minor",
+        "new_global_status": "minor",
+        "service": "copr",
+        "changetype": "single",
+        "message": "Backend down for hardware maintenance, builds will continue when back",
+        "changedate": 1412688906.084514
+    },
+    {
+        "status": "good",
+        "new_global_status": "good",
+        "service": "copr",
+        "changetype": "single",
+        "message": "Everything seems to be working.",
+        "changedate": 1412366720.296255
+    },
+    {
+        "status": "minor",
+        "new_global_status": "minor",
+        "service": "copr",
+        "changetype": "single",
+        "message": "Cloud has limited capacity, COPR might be slow with getting new builds ran.",
+        "changedate": 1412350234.30302
+    },
+    {
+        "status": "minor",
+        "new_global_status": "minor",
+        "service": "copr",
+        "changetype": "single",
+        "message": "COPR Backend down temporarily, no builds executed. Will be ran when backend gets back.",
+        "changedate": 1412347212.189102
+    },
+    {
+        "status": "good",
+        "new_global_status": "good",
         "services": [
             "koji",
             "darkserver",
             "pkgs",
             "bodhi"
-        ]
+        ],
+        "changetype": "multiple",
+        "message": "Everything seems to be working.",
+        "changedate": 1412207312.582836
     },
     {
-        "changedate": 1412197113.795611,
         "status": "minor",
-        "changetype": "multiple",
         "new_global_status": "minor",
-        "message": "Scheduled downtime in progress",
         "services": [
             "bodhi",
             "koji",
             "pkgs",
             "darkserver"
-        ]
+        ],
+        "changetype": "multiple",
+        "message": "Scheduled downtime in progress",
+        "changedate": 1412197113.795611
     },
     {
-        "changedate": 1412119839.716022,
         "status": "good",
-        "changetype": "multiple",
         "new_global_status": "good",
-        "message": "Everything seems to be working.",
         "services": [
             "wiki",
             "people",
@@ -6471,14 +6476,14 @@ callback([
             "elections",
             "mailinglists",
             "fedocal"
-        ]
+        ],
+        "changetype": "multiple",
+        "message": "Everything seems to be working.",
+        "changedate": 1412119839.716022
     },
     {
-        "changedate": 1412110846.258976,
         "status": "scheduled",
-        "changetype": "multiple",
         "new_global_status": "scheduled",
-        "message": "scheduled outage in progress",
         "services": [
             "wiki",
             "people",
@@ -6506,92 +6511,92 @@ callback([
             "elections",
             "mailinglists",
             "fedocal"
-        ]
+        ],
+        "changetype": "multiple",
+        "message": "scheduled outage in progress",
+        "changedate": 1412110846.258976
     },
     {
-        "changedate": 1411753279.722945,
         "status": "good",
-        "changetype": "multiple",
         "new_global_status": "good",
-        "message": "Everything seems to be working.",
         "services": [
             "badges",
             "fedmsg"
-        ]
+        ],
+        "changetype": "multiple",
+        "message": "Everything seems to be working.",
+        "changedate": 1411753279.722945
     },
     {
-        "changedate": 1411744165.552994,
         "status": "scheduled",
-        "changetype": "multiple",
         "new_global_status": "scheduled",
-        "message": "Migrating the datanommer database to a new host.",
         "services": [
             "fedmsg",
             "badges"
-        ]
+        ],
+        "changetype": "multiple",
+        "message": "Migrating the datanommer database to a new host.",
+        "changedate": 1411744165.552994
     },
     {
-        "changedate": 1411661561.7141,
         "status": "good",
-        "changetype": "single",
+        "new_global_status": "good",
         "service": "copr",
+        "changetype": "single",
         "message": "Everything seems to be working.",
-        "new_global_status": "good"
+        "changedate": 1411661561.7141
     },
     {
-        "changedate": 1411659784.066886,
         "status": "major",
-        "changetype": "single",
+        "new_global_status": "major",
         "service": "copr",
+        "changetype": "single",
         "message": "outage",
-        "new_global_status": "major"
+        "changedate": 1411659784.066886
     },
     {
-        "changedate": 1410362399.376365,
         "status": "good",
-        "changetype": "single",
+        "new_global_status": "good",
         "service": "fedorahosted",
+        "changetype": "single",
         "message": "Everything seems to be working.",
-        "new_global_status": "good"
+        "changedate": 1410362399.376365
     },
     {
-        "changedate": 1410343584.974021,
         "status": "minor",
-        "changetype": "single",
+        "new_global_status": "minor",
         "service": "fedorahosted",
+        "changetype": "single",
         "message": "Fedora hosted is having some problems with apache",
-        "new_global_status": "minor"
+        "changedate": 1410343584.974021
     },
     {
-        "changedate": 1410343532.698618,
         "status": "minor",
-        "changetype": "single",
+        "new_global_status": "minor",
         "service": "fedorahosted",
+        "changetype": "single",
         "message": "Fedora hosted is having some problem with apache",
-        "new_global_status": "minor"
+        "changedate": 1410343532.698618
     },
     {
-        "changedate": 1409281931.274856,
         "status": "good",
-        "changetype": "single",
+        "new_global_status": "good",
         "service": "copr",
+        "changetype": "single",
         "message": "Everything seems to be working.",
-        "new_global_status": "good"
+        "changedate": 1409281931.274856
     },
     {
-        "changedate": 1409276913.797239,
         "status": "major",
-        "changetype": "single",
+        "new_global_status": "major",
         "service": "copr",
+        "changetype": "single",
         "message": "outage",
-        "new_global_status": "major"
+        "changedate": 1409276913.797239
     },
     {
-        "changedate": 1406250587.369206,
         "status": "good",
-        "changetype": "multiple",
         "new_global_status": "good",
-        "message": "Everything seems to be working.",
         "services": [
             "wiki",
             "people",
@@ -6619,87 +6624,87 @@ callback([
             "elections",
             "mailinglists",
             "fedocal"
-        ]
+        ],
+        "changetype": "multiple",
+        "message": "Everything seems to be working.",
+        "changedate": 1406250587.369206
     },
     {
-        "changedate": 1406225503.417472,
         "status": "scheduled",
-        "changetype": "multiple",
         "new_global_status": "scheduled",
+        "services": [
+            "wiki",
+            "people",
+            "zodbot",
+            "koji",
+            "darkserver",
+            "tagger",
+            "pkgdb",
+            "fedorapaste",
+            "blockerbugs",
+            "badges",
+            "fedorahosted",
+            "mirrormanager",
+            "mirrorlist",
+            "pkgs",
+            "fas",
+            "website",
+            "docs",
+            "copr",
+            "bodhi",
+            "ask",
+            "packages",
+            "freemedia",
+            "fedmsg",
+            "elections",
+            "mailinglists",
+            "fedocal"
+        ],
+        "changetype": "multiple",
         "message": "We are having a planned outage. Please see <a href='https://fedorahosted.org/fedora-infrastructure/ticket/4453'>#4453</a> for more details.",
-        "services": [
-            "wiki",
-            "people",
-            "zodbot",
-            "koji",
-            "darkserver",
-            "tagger",
-            "pkgdb",
-            "fedorapaste",
-            "blockerbugs",
-            "badges",
-            "fedorahosted",
-            "mirrormanager",
-            "mirrorlist",
-            "pkgs",
-            "fas",
-            "website",
-            "docs",
-            "copr",
-            "bodhi",
-            "ask",
-            "packages",
-            "freemedia",
-            "fedmsg",
-            "elections",
-            "mailinglists",
-            "fedocal"
-        ]
+        "changedate": 1406225503.417472
     },
     {
-        "changedate": 1406073156.595696,
         "status": "good",
-        "changetype": "single",
+        "new_global_status": "good",
         "service": "koji",
+        "changetype": "single",
         "message": "Everything seems to be working.",
-        "new_global_status": "good"
+        "changedate": 1406073156.595696
     },
     {
-        "changedate": 1406072961.331648,
         "status": "major",
-        "changetype": "single",
+        "new_global_status": "major",
         "service": "koji",
+        "changetype": "single",
         "message": "koji down",
-        "new_global_status": "major"
+        "changedate": 1406072961.331648
     },
     {
-        "changedate": 1405900786.103152,
         "status": "good",
-        "changetype": "multiple",
         "new_global_status": "good",
-        "message": "Everything seems to be working.",
         "services": [
             "ask",
             "packages"
-        ]
+        ],
+        "changetype": "multiple",
+        "message": "Everything seems to be working.",
+        "changedate": 1405900786.103152
     },
     {
-        "changedate": 1405899942.119707,
         "status": "major",
-        "changetype": "multiple",
         "new_global_status": "major",
+        "services": [
+            "ask",
+            "packages"
+        ],
+        "changetype": "multiple",
         "message": "We are investigating an outage affecting ask.fp.o and apps.fp.o/packages",
-        "services": [
-            "ask",
-            "packages"
-        ]
+        "changedate": 1405899942.119707
     },
     {
-        "changedate": 1405680993.18177,
         "status": "good",
-        "changetype": "multiple",
         "new_global_status": "good",
-        "message": "Everything seems to be working.",
         "services": [
             "wiki",
             "people",
@@ -6727,127 +6732,127 @@ callback([
             "elections",
             "mailinglists",
             "fedocal"
-        ]
+        ],
+        "changetype": "multiple",
+        "message": "Everything seems to be working.",
+        "changedate": 1405680993.18177
     },
     {
-        "changedate": 1405680584.327917,
         "status": "major",
-        "changetype": "multiple",
         "new_global_status": "major",
+        "services": [
+            "wiki",
+            "people",
+            "zodbot",
+            "koji",
+            "darkserver",
+            "tagger",
+            "pkgdb",
+            "fedorapaste",
+            "blockerbugs",
+            "badges",
+            "fedorahosted",
+            "mirrormanager",
+            "mirrorlist",
+            "pkgs",
+            "fas",
+            "website",
+            "docs",
+            "copr",
+            "bodhi",
+            "ask",
+            "packages",
+            "freemedia",
+            "fedmsg",
+            "elections",
+            "mailinglists",
+            "fedocal"
+        ],
+        "changetype": "multiple",
         "message": "koji",
-        "services": [
-            "wiki",
-            "people",
-            "zodbot",
-            "koji",
-            "darkserver",
-            "tagger",
-            "pkgdb",
-            "fedorapaste",
-            "blockerbugs",
-            "badges",
-            "fedorahosted",
-            "mirrormanager",
-            "mirrorlist",
-            "pkgs",
-            "fas",
-            "website",
-            "docs",
-            "copr",
-            "bodhi",
-            "ask",
-            "packages",
-            "freemedia",
-            "fedmsg",
-            "elections",
-            "mailinglists",
-            "fedocal"
-        ]
+        "changedate": 1405680584.327917
     },
     {
-        "changedate": 1405622270.751615,
         "status": "good",
-        "changetype": "single",
+        "new_global_status": "good",
         "service": "fedmsg",
+        "changetype": "single",
         "message": "Everything seems to be working.",
-        "new_global_status": "good"
+        "changedate": 1405622270.751615
     },
     {
-        "changedate": 1405612847.971252,
         "status": "minor",
-        "changetype": "single",
+        "new_global_status": "minor",
         "service": "fedmsg",
+        "changetype": "single",
         "message": "outbound raw zmq messages down to vpn issues",
-        "new_global_status": "minor"
+        "changedate": 1405612847.971252
     },
     {
-        "changedate": 1405609588.844599,
         "status": "minor",
-        "changetype": "single",
+        "new_global_status": "minor",
         "service": "fedmsg",
+        "changetype": "single",
         "message": "datanommer and cloud connectivity down for migrations",
-        "new_global_status": "minor"
+        "changedate": 1405609588.844599
     },
     {
-        "changedate": 1403275962.626396,
         "status": "good",
-        "changetype": "single",
+        "new_global_status": "good",
         "service": "copr",
+        "changetype": "single",
         "message": "Everything seems to be working.",
-        "new_global_status": "good"
+        "changedate": 1403275962.626396
     },
     {
-        "changedate": 1403272272.974649,
         "status": "scheduled",
-        "changetype": "single",
+        "new_global_status": "scheduled",
         "service": "copr",
+        "changetype": "single",
         "message": "Upgrading underlying OS from Fedora 19 to Fedora 20.",
-        "new_global_status": "scheduled"
+        "changedate": 1403272272.974649
     },
     {
-        "changedate": 1402429805.164734,
         "status": "good",
-        "changetype": "multiple",
         "new_global_status": "good",
-        "message": "Everything seems to be working.",
         "services": [
             "zodbot",
             "fedmsg"
-        ]
+        ],
+        "changetype": "multiple",
+        "message": "Everything seems to be working.",
+        "changedate": 1402429805.164734
     },
     {
-        "changedate": 1402420809.712485,
         "status": "minor",
-        "changetype": "multiple",
         "new_global_status": "minor",
+        "services": [
+            "zodbot",
+            "fedmsg"
+        ],
+        "changetype": "multiple",
         "message": "Migrating zodbot and fedmsg-irc to a new host",
-        "services": [
-            "zodbot",
-            "fedmsg"
-        ]
+        "changedate": 1402420809.712485
     },
     {
-        "changedate": 1401978676.59412,
         "status": "good",
-        "changetype": "single",
+        "new_global_status": "good",
         "service": "copr",
+        "changetype": "single",
         "message": "Everything seems to be working.",
-        "new_global_status": "good"
+        "changedate": 1401978676.59412
     },
     {
-        "changedate": 1401968012.587891,
         "status": "major",
-        "changetype": "single",
+        "new_global_status": "major",
         "service": "copr",
+        "changetype": "single",
         "message": "Fedora Cloud issues, which prohibit creation of builders",
-        "new_global_status": "major"
+        "changedate": 1401968012.587891
     },
     {
-        "changedate": 1400625512.537313,
         "status": "good",
-        "changetype": "multiple",
         "new_global_status": "good",
-        "message": "Everything seems to be working.",
         "services": [
             "wiki",
             "people",
@@ -6874,14 +6879,14 @@ callback([
             "elections",
             "mailinglists",
             "fedocal"
-        ]
+        ],
+        "changetype": "multiple",
+        "message": "Everything seems to be working.",
+        "changedate": 1400625512.537313
     },
     {
-        "changedate": 1400619557.709283,
         "status": "scheduled",
-        "changetype": "multiple",
         "new_global_status": "scheduled",
-        "message": "planned outage",
         "services": [
             "wiki",
             "people",
@@ -6908,85 +6913,85 @@ callback([
             "elections",
             "mailinglists",
             "fedocal"
-        ]
+        ],
+        "changetype": "multiple",
+        "message": "planned outage",
+        "changedate": 1400619557.709283
     },
     {
-        "changedate": 1400090086.503968,
         "status": "good",
-        "changetype": "multiple",
         "new_global_status": "good",
-        "message": "Everything seems to be working.",
         "services": [
             "pkgdb",
             "pkgs",
             "bodhi"
-        ]
-    },
-    {
-        "changedate": 1400074796.222449,
-        "status": "minor",
-        "changetype": "single",
-        "service": "bodhi",
-        "message": "Upgrade to pkgdb2",
-        "new_global_status": "minor"
-    },
-    {
-        "changedate": 1400068731.066788,
-        "status": "minor",
+        ],
         "changetype": "multiple",
+        "message": "Everything seems to be working.",
+        "changedate": 1400090086.503968
+    },
+    {
+        "status": "minor",
         "new_global_status": "minor",
+        "service": "bodhi",
+        "changetype": "single",
         "message": "Upgrade to pkgdb2",
+        "changedate": 1400074796.222449
+    },
+    {
+        "status": "minor",
+        "new_global_status": "minor",
         "services": [
             "pkgdb",
             "pkgs"
-        ]
+        ],
+        "changetype": "multiple",
+        "message": "Upgrade to pkgdb2",
+        "changedate": 1400068731.066788
     },
     {
-        "changedate": 1398814928.368213,
         "status": "good",
-        "changetype": "multiple",
         "new_global_status": "good",
-        "message": "Everything seems to be working.",
         "services": [
             "wiki",
             "koji",
             "pkgs"
-        ]
+        ],
+        "changetype": "multiple",
+        "message": "Everything seems to be working.",
+        "changedate": 1398814928.368213
     },
     {
-        "changedate": 1398812966.337448,
         "status": "minor",
-        "changetype": "multiple",
         "new_global_status": "minor",
+        "services": [
+            "wiki",
+            "koji",
+            "pkgs"
+        ],
+        "changetype": "multiple",
         "message": "Possibly affected by storage migration",
-        "services": [
-            "wiki",
-            "koji",
-            "pkgs"
-        ]
+        "changedate": 1398812966.337448
     },
     {
-        "changedate": 1397236430.455172,
         "status": "good",
-        "changetype": "single",
+        "new_global_status": "good",
         "service": "pkgs",
+        "changetype": "single",
         "message": "Everything seems to be working.",
-        "new_global_status": "good"
+        "changedate": 1397236430.455172
     },
     {
-        "changedate": 1397234647.711557,
         "status": "major",
-        "changetype": "single",
+        "new_global_status": "major",
         "service": "pkgs",
+        "changetype": "single",
         "message": "virthost issue",
-        "new_global_status": "major"
+        "changedate": 1397234647.711557
     },
     {
-        "changedate": 1396396681.578426,
         "status": "good",
-        "changetype": "multiple",
         "new_global_status": "good",
-        "message": "Everything seems to be working.",
         "services": [
             "wiki",
             "people",
@@ -7013,14 +7018,14 @@ callback([
             "elections",
             "mailinglists",
             "fedocal"
-        ]
-    },
-    {
-        "changedate": 1396385783.459966,
-        "status": "scheduled",
+        ],
         "changetype": "multiple",
+        "message": "Everything seems to be working.",
+        "changedate": 1396396681.578426
+    },
+    {
+        "status": "scheduled",
         "new_global_status": "scheduled",
-        "message": "planned outage",
         "services": [
             "wiki",
             "people",
@@ -7047,30 +7052,30 @@ callback([
             "elections",
             "mailinglists",
             "fedocal"
-        ]
+        ],
+        "changetype": "multiple",
+        "message": "planned outage",
+        "changedate": 1396385783.459966
     },
     {
-        "changedate": 1396313426.535043,
         "status": "good",
-        "changetype": "single",
+        "new_global_status": "good",
         "service": "bodhi",
+        "changetype": "single",
         "message": "Everything seems to be working.",
-        "new_global_status": "good"
+        "changedate": 1396313426.535043
     },
     {
-        "changedate": 1396311851.685163,
         "status": "major",
-        "changetype": "single",
+        "new_global_status": "major",
         "service": "bodhi",
+        "changetype": "single",
         "message": "Unplanned outage, we are looking into it",
-        "new_global_status": "major"
+        "changedate": 1396311851.685163
     },
     {
-        "changedate": 1394668446.656394,
         "status": "good",
-        "changetype": "multiple",
         "new_global_status": "good",
-        "message": "Everything seems to be working.",
         "services": [
             "wiki",
             "people",
@@ -7097,164 +7102,164 @@ callback([
             "elections",
             "mailinglists",
             "fedocal"
-        ]
+        ],
+        "changetype": "multiple",
+        "message": "Everything seems to be working.",
+        "changedate": 1394668446.656394
     },
     {
-        "changedate": 1394667545.644755,
         "status": "major",
-        "changetype": "multiple",
         "new_global_status": "major",
+        "services": [
+            "wiki",
+            "people",
+            "zodbot",
+            "koji",
+            "darkserver",
+            "tagger",
+            "pkgdb",
+            "fedorapaste",
+            "blockerbugs",
+            "badges",
+            "fedorahosted",
+            "mirrormanager",
+            "mirrorlist",
+            "pkgs",
+            "fas",
+            "website",
+            "docs",
+            "bodhi",
+            "ask",
+            "packages",
+            "freemedia",
+            "fedmsg",
+            "elections",
+            "mailinglists",
+            "fedocal"
+        ],
+        "changetype": "multiple",
         "message": "network issues",
-        "services": [
-            "wiki",
-            "people",
-            "zodbot",
-            "koji",
-            "darkserver",
-            "tagger",
-            "pkgdb",
-            "fedorapaste",
-            "blockerbugs",
-            "badges",
-            "fedorahosted",
-            "mirrormanager",
-            "mirrorlist",
-            "pkgs",
-            "fas",
-            "website",
-            "docs",
-            "bodhi",
-            "ask",
-            "packages",
-            "freemedia",
-            "fedmsg",
-            "elections",
-            "mailinglists",
-            "fedocal"
-        ]
+        "changedate": 1394667545.644755
     },
     {
-        "changedate": 1393104866.593235,
         "status": "good",
-        "changetype": "single",
-        "service": "mirrorlist",
-        "message": "Everything seems to be working.",
-        "new_global_status": "good"
-    },
-    {
-        "changedate": 1393103545.540423,
-        "status": "major",
-        "changetype": "single",
-        "service": "mirrorlist",
-        "message": "We are looking into issues accessing mirrorlist.",
-        "new_global_status": "major"
-    },
-    {
-        "changedate": 1390342857.578992,
-        "status": "good",
-        "changetype": "single",
-        "service": "people",
-        "message": "Everything seems to be working.",
-        "new_global_status": "good"
-    },
-    {
-        "changedate": 1390341745.578545,
-        "status": "scheduled",
-        "changetype": "single",
-        "service": "people",
-        "message": "planned outage",
-        "new_global_status": "scheduled"
-    },
-    {
-        "changedate": 1390261930.754654,
-        "status": "good",
-        "changetype": "single",
-        "service": "ask",
-        "message": "Everything seems to be working.",
-        "new_global_status": "good"
-    },
-    {
-        "changedate": 1390255223.951158,
-        "status": "scheduled",
-        "changetype": "single",
-        "service": "ask",
-        "message": "planned outage",
-        "new_global_status": "scheduled"
-    },
-    {
-        "changedate": 1387413703.263191,
-        "status": "good",
-        "changetype": "multiple",
         "new_global_status": "good",
+        "service": "mirrorlist",
+        "changetype": "single",
         "message": "Everything seems to be working.",
-        "services": [
-            "wiki",
-            "people",
-            "zodbot",
-            "koji",
-            "darkserver",
-            "tagger",
-            "pkgdb",
-            "fedorapaste",
-            "blockerbugs",
-            "badges",
-            "fedorahosted",
-            "mirrormanager",
-            "mirrorlist",
-            "pkgs",
-            "fas",
-            "website",
-            "docs",
-            "bodhi",
-            "ask",
-            "packages",
-            "freemedia",
-            "fedmsg",
-            "elections",
-            "mailinglists",
-            "fedocal"
-        ]
+        "changedate": 1393104866.593235
     },
     {
-        "changedate": 1387412277.659663,
         "status": "major",
-        "changetype": "multiple",
         "new_global_status": "major",
+        "service": "mirrorlist",
+        "changetype": "single",
+        "message": "We are looking into issues accessing mirrorlist.",
+        "changedate": 1393103545.540423
+    },
+    {
+        "status": "good",
+        "new_global_status": "good",
+        "service": "people",
+        "changetype": "single",
+        "message": "Everything seems to be working.",
+        "changedate": 1390342857.578992
+    },
+    {
+        "status": "scheduled",
+        "new_global_status": "scheduled",
+        "service": "people",
+        "changetype": "single",
+        "message": "planned outage",
+        "changedate": 1390341745.578545
+    },
+    {
+        "status": "good",
+        "new_global_status": "good",
+        "service": "ask",
+        "changetype": "single",
+        "message": "Everything seems to be working.",
+        "changedate": 1390261930.754654
+    },
+    {
+        "status": "scheduled",
+        "new_global_status": "scheduled",
+        "service": "ask",
+        "changetype": "single",
+        "message": "planned outage",
+        "changedate": 1390255223.951158
+    },
+    {
+        "status": "good",
+        "new_global_status": "good",
+        "services": [
+            "wiki",
+            "people",
+            "zodbot",
+            "koji",
+            "darkserver",
+            "tagger",
+            "pkgdb",
+            "fedorapaste",
+            "blockerbugs",
+            "badges",
+            "fedorahosted",
+            "mirrormanager",
+            "mirrorlist",
+            "pkgs",
+            "fas",
+            "website",
+            "docs",
+            "bodhi",
+            "ask",
+            "packages",
+            "freemedia",
+            "fedmsg",
+            "elections",
+            "mailinglists",
+            "fedocal"
+        ],
+        "changetype": "multiple",
+        "message": "Everything seems to be working.",
+        "changedate": 1387413703.263191
+    },
+    {
+        "status": "major",
+        "new_global_status": "major",
+        "services": [
+            "wiki",
+            "people",
+            "zodbot",
+            "koji",
+            "darkserver",
+            "tagger",
+            "pkgdb",
+            "fedorapaste",
+            "blockerbugs",
+            "badges",
+            "fedorahosted",
+            "mirrormanager",
+            "mirrorlist",
+            "pkgs",
+            "fas",
+            "website",
+            "docs",
+            "bodhi",
+            "ask",
+            "packages",
+            "freemedia",
+            "fedmsg",
+            "elections",
+            "mailinglists",
+            "fedocal"
+        ],
+        "changetype": "multiple",
         "message": "ftp storage outage",
-        "services": [
-            "wiki",
-            "people",
-            "zodbot",
-            "koji",
-            "darkserver",
-            "tagger",
-            "pkgdb",
-            "fedorapaste",
-            "blockerbugs",
-            "badges",
-            "fedorahosted",
-            "mirrormanager",
-            "mirrorlist",
-            "pkgs",
-            "fas",
-            "website",
-            "docs",
-            "bodhi",
-            "ask",
-            "packages",
-            "freemedia",
-            "fedmsg",
-            "elections",
-            "mailinglists",
-            "fedocal"
-        ]
+        "changedate": 1387412277.659663
     },
     {
-        "changedate": 1385427530.650006,
         "status": "good",
-        "changetype": "multiple",
         "new_global_status": "good",
-        "message": "Everything seems to be working.",
         "services": [
             "wiki",
             "people",
@@ -7281,14 +7286,14 @@ callback([
             "elections",
             "mailinglists",
             "fedocal"
-        ]
-    },
-    {
-        "changedate": 1385416870.724646,
-        "status": "scheduled",
+        ],
         "changetype": "multiple",
+        "message": "Everything seems to be working.",
+        "changedate": 1385427530.650006
+    },
+    {
+        "status": "scheduled",
         "new_global_status": "scheduled",
-        "message": "planned outage in effect",
         "services": [
             "wiki",
             "people",
@@ -7315,30 +7320,30 @@ callback([
             "elections",
             "mailinglists",
             "fedocal"
-        ]
+        ],
+        "changetype": "multiple",
+        "message": "planned outage in effect",
+        "changedate": 1385416870.724646
     },
     {
-        "changedate": 1385162224.494129,
         "status": "good",
-        "changetype": "single",
+        "new_global_status": "good",
         "service": "mirrorlist",
+        "changetype": "single",
         "message": "Everything seems to be working.",
-        "new_global_status": "good"
+        "changedate": 1385162224.494129
     },
     {
-        "changedate": 1385151359.348678,
         "status": "major",
-        "changetype": "single",
+        "new_global_status": "major",
         "service": "mirrorlist",
+        "changetype": "single",
         "message": "18 and 19 repos issue",
-        "new_global_status": "major"
+        "changedate": 1385151359.348678
     },
     {
-        "changedate": 1384998841.072156,
         "status": "good",
-        "changetype": "multiple",
         "new_global_status": "good",
-        "message": "Everything seems to be working.",
         "services": [
             "wiki",
             "people",
@@ -7365,80 +7370,80 @@ callback([
             "elections",
             "mailinglists",
             "fedocal"
-        ]
+        ],
+        "changetype": "multiple",
+        "message": "Everything seems to be working.",
+        "changedate": 1384998841.072156
     },
     {
-        "changedate": 1384984897.510414,
         "status": "scheduled",
-        "changetype": "multiple",
         "new_global_status": "scheduled",
+        "services": [
+            "wiki",
+            "people",
+            "zodbot",
+            "koji",
+            "darkserver",
+            "tagger",
+            "pkgdb",
+            "fedorapaste",
+            "blockerbugs",
+            "badges",
+            "fedorahosted",
+            "mirrormanager",
+            "mirrorlist",
+            "pkgs",
+            "fas",
+            "website",
+            "docs",
+            "bodhi",
+            "ask",
+            "packages",
+            "freemedia",
+            "fedmsg",
+            "elections",
+            "mailinglists",
+            "fedocal"
+        ],
+        "changetype": "multiple",
         "message": "planned outage in effect",
-        "services": [
-            "wiki",
-            "people",
-            "zodbot",
-            "koji",
-            "darkserver",
-            "tagger",
-            "pkgdb",
-            "fedorapaste",
-            "blockerbugs",
-            "badges",
-            "fedorahosted",
-            "mirrormanager",
-            "mirrorlist",
-            "pkgs",
-            "fas",
-            "website",
-            "docs",
-            "bodhi",
-            "ask",
-            "packages",
-            "freemedia",
-            "fedmsg",
-            "elections",
-            "mailinglists",
-            "fedocal"
-        ]
+        "changedate": 1384984897.510414
     },
     {
-        "changedate": 1384178532.870741,
         "status": "good",
-        "changetype": "single",
+        "new_global_status": "good",
         "service": "fedorahosted",
+        "changetype": "single",
         "message": "Everything seems to be working.",
-        "new_global_status": "good"
+        "changedate": 1384178532.870741
     },
     {
-        "changedate": 1384177210.949037,
         "status": "major",
-        "changetype": "single",
+        "new_global_status": "major",
         "service": "fedorahosted",
+        "changetype": "single",
         "message": "Mailing list server is down, we are looking into it",
-        "new_global_status": "major"
+        "changedate": 1384177210.949037
     },
     {
-        "changedate": 1382590311.484153,
         "status": "good",
-        "changetype": "single",
+        "new_global_status": "good",
         "service": "mirrormanager",
+        "changetype": "single",
         "message": "Everything seems to be working.",
-        "new_global_status": "good"
+        "changedate": 1382590311.484153
     },
     {
-        "changedate": 1382586984.027698,
         "status": "major",
-        "changetype": "single",
+        "new_global_status": "major",
         "service": "mirrormanager",
+        "changetype": "single",
         "message": "master mirrors down",
-        "new_global_status": "major"
+        "changedate": 1382586984.027698
     },
     {
-        "changedate": 1380758584.787564,
         "status": "good",
-        "changetype": "multiple",
         "new_global_status": "good",
-        "message": "Everything seems to be working.",
         "services": [
             "wiki",
             "people",
@@ -7465,14 +7470,14 @@ callback([
             "elections",
             "mailinglists",
             "fedocal"
-        ]
+        ],
+        "changetype": "multiple",
+        "message": "Everything seems to be working.",
+        "changedate": 1380758584.787564
     },
     {
-        "changedate": 1380747644.862847,
         "status": "scheduled",
-        "changetype": "multiple",
         "new_global_status": "scheduled",
-        "message": "http://tinyurl.com/nb9e6vq",
         "services": [
             "wiki",
             "people",
@@ -7499,56 +7504,56 @@ callback([
             "elections",
             "mailinglists",
             "fedocal"
-        ]
+        ],
+        "changetype": "multiple",
+        "message": "http://tinyurl.com/nb9e6vq",
+        "changedate": 1380747644.862847
     },
     {
-        "changedate": 1380667055.831804,
         "status": "good",
-        "changetype": "multiple",
         "new_global_status": "good",
-        "message": "Everything seems to be working.",
         "services": [
             "koji",
             "darkserver",
             "pkgs",
             "bodhi"
-        ]
+        ],
+        "changetype": "multiple",
+        "message": "Everything seems to be working.",
+        "changedate": 1380667055.831804
     },
     {
-        "changedate": 1380659433.517993,
         "status": "scheduled",
-        "changetype": "multiple",
         "new_global_status": "scheduled",
-        "message": "Scheduled maintenance in progress: https://fedorahosted.org/fedora-infrastructure/ticket/4029",
         "services": [
             "bodhi",
             "koji",
             "pkgs",
             "darkserver"
-        ]
+        ],
+        "changetype": "multiple",
+        "message": "Scheduled maintenance in progress: https://fedorahosted.org/fedora-infrastructure/ticket/4029",
+        "changedate": 1380659433.517993
     },
     {
-        "changedate": 1380116399.881315,
         "status": "good",
-        "changetype": "single",
+        "new_global_status": "good",
         "service": "fedorahosted",
+        "changetype": "single",
         "message": "Everything seems to be working.",
-        "new_global_status": "good"
+        "changedate": 1380116399.881315
     },
     {
-        "changedate": 1380115607.117286,
         "status": "major",
-        "changetype": "single",
+        "new_global_status": "major",
         "service": "fedorahosted",
+        "changetype": "single",
         "message": "Hosted is not responding currently, we are looking into it",
-        "new_global_status": "major"
+        "changedate": 1380115607.117286
     },
     {
-        "changedate": 1375235081.138576,
         "status": "good",
-        "changetype": "multiple",
         "new_global_status": "good",
-        "message": "Everything seems to be working.",
         "services": [
             "wiki",
             "people",
@@ -7574,168 +7579,135 @@ callback([
             "elections",
             "mailinglists",
             "fedocal"
-        ]
+        ],
+        "changetype": "multiple",
+        "message": "Everything seems to be working.",
+        "changedate": 1375235081.138576
     },
     {
-        "changedate": 1375217840.056848,
         "status": "scheduled",
-        "changetype": "multiple",
         "new_global_status": "scheduled",
+        "services": [
+            "wiki",
+            "people",
+            "zodbot",
+            "koji",
+            "darkserver",
+            "tagger",
+            "pkgdb",
+            "fedorapaste",
+            "blockerbugs",
+            "fedorahosted",
+            "mirrormanager",
+            "mirrorlist",
+            "pkgs",
+            "fas",
+            "website",
+            "docs",
+            "bodhi",
+            "ask",
+            "packages",
+            "freemedia",
+            "fedmsg",
+            "elections",
+            "mailinglists",
+            "fedocal"
+        ],
+        "changetype": "multiple",
         "message": "datacenter work",
-        "services": [
-            "wiki",
-            "people",
-            "zodbot",
-            "koji",
-            "darkserver",
-            "tagger",
-            "pkgdb",
-            "fedorapaste",
-            "blockerbugs",
-            "fedorahosted",
-            "mirrormanager",
-            "mirrorlist",
-            "pkgs",
-            "fas",
-            "website",
-            "docs",
-            "bodhi",
-            "ask",
-            "packages",
-            "freemedia",
-            "fedmsg",
-            "elections",
-            "mailinglists",
-            "fedocal"
-        ]
+        "changedate": 1375217840.056848
     },
     {
-        "changedate": 1374265905.057178,
         "status": "good",
-        "changetype": "single",
-        "service": "koji",
-        "message": "Everything seems to be working.",
-        "new_global_status": "good"
-    },
-    {
-        "changedate": 1374181249.969005,
-        "status": "scheduled",
-        "changetype": "single",
-        "service": "koji",
-        "message": "storage migration",
-        "new_global_status": "scheduled"
-    },
-    {
-        "changedate": 1371435099.110773,
-        "status": "good",
-        "changetype": "single",
-        "service": "mirrorlist",
-        "message": "Everything seems to be working.",
-        "new_global_status": "good"
-    },
-    {
-        "changedate": 1371430039.936669,
-        "status": "major",
-        "changetype": "single",
-        "service": "mirrorlist",
-        "message": "Mirrormanager data is stale, should be fixed around 02:00 UTC",
-        "new_global_status": "major"
-    },
-    {
-        "changedate": 1371397079.775827,
-        "status": "major",
-        "changetype": "single",
-        "service": "mirrorlist",
-        "message": "Mirrorlist information outdated",
-        "new_global_status": "major"
-    },
-    {
-        "changedate": 1371390563.448993,
-        "status": "major",
-        "changetype": "single",
-        "service": "mirrorlist",
-        "message": "Mirrorlist information outdated. Should be fixed around 14:30 UTC.",
-        "new_global_status": "major"
-    },
-    {
-        "changedate": 1371379939.273047,
-        "status": "major",
-        "changetype": "single",
-        "service": "mirrorlist",
-        "message": "Issues exist with mirrorlist making it return invalid/stale data",
-        "new_global_status": "major"
-    },
-    {
-        "changedate": 1371281869.404385,
-        "status": "good",
-        "changetype": "single",
-        "service": "mirrorlist",
-        "message": "Everything seems to be working.",
-        "new_global_status": "good"
-    },
-    {
-        "changedate": 1371280563.435639,
-        "status": "minor",
-        "changetype": "single",
-        "service": "mirrorlist",
-        "message": "rawhide/x86_64 down",
-        "new_global_status": "minor"
-    },
-    {
-        "changedate": 1370941677.00138,
-        "status": "good",
-        "changetype": "single",
-        "service": "people",
-        "message": "Everything seems to be working.",
-        "new_global_status": "good"
-    },
-    {
-        "changedate": 1370938259.13067,
-        "status": "minor",
-        "changetype": "single",
-        "service": "people",
-        "message": "Requesting the root index for a user returns 403: https://fedorahosted.org/fedora-infrastructure/ticket/3842",
-        "new_global_status": "minor"
-    },
-    {
-        "changedate": 1370910323.46638,
-        "status": "good",
-        "changetype": "multiple",
         "new_global_status": "good",
+        "service": "koji",
+        "changetype": "single",
         "message": "Everything seems to be working.",
-        "services": [
-            "wiki",
-            "people",
-            "zodbot",
-            "koji",
-            "darkserver",
-            "tagger",
-            "pkgdb",
-            "fedorapaste",
-            "blockerbugs",
-            "fedorahosted",
-            "mirrormanager",
-            "mirrorlist",
-            "pkgs",
-            "fas",
-            "website",
-            "docs",
-            "bodhi",
-            "ask",
-            "packages",
-            "freemedia",
-            "fedmsg",
-            "elections",
-            "mailinglists",
-            "fedocal"
-        ]
+        "changedate": 1374265905.057178
     },
     {
-        "changedate": 1370897754.56487,
         "status": "scheduled",
-        "changetype": "multiple",
         "new_global_status": "scheduled",
-        "message": "Upgrades in progress",
+        "service": "koji",
+        "changetype": "single",
+        "message": "storage migration",
+        "changedate": 1374181249.969005
+    },
+    {
+        "status": "good",
+        "new_global_status": "good",
+        "service": "mirrorlist",
+        "changetype": "single",
+        "message": "Everything seems to be working.",
+        "changedate": 1371435099.110773
+    },
+    {
+        "status": "major",
+        "new_global_status": "major",
+        "service": "mirrorlist",
+        "changetype": "single",
+        "message": "Mirrormanager data is stale, should be fixed around 02:00 UTC",
+        "changedate": 1371430039.936669
+    },
+    {
+        "status": "major",
+        "new_global_status": "major",
+        "service": "mirrorlist",
+        "changetype": "single",
+        "message": "Mirrorlist information outdated",
+        "changedate": 1371397079.775827
+    },
+    {
+        "status": "major",
+        "new_global_status": "major",
+        "service": "mirrorlist",
+        "changetype": "single",
+        "message": "Mirrorlist information outdated. Should be fixed around 14:30 UTC.",
+        "changedate": 1371390563.448993
+    },
+    {
+        "status": "major",
+        "new_global_status": "major",
+        "service": "mirrorlist",
+        "changetype": "single",
+        "message": "Issues exist with mirrorlist making it return invalid/stale data",
+        "changedate": 1371379939.273047
+    },
+    {
+        "status": "good",
+        "new_global_status": "good",
+        "service": "mirrorlist",
+        "changetype": "single",
+        "message": "Everything seems to be working.",
+        "changedate": 1371281869.404385
+    },
+    {
+        "status": "minor",
+        "new_global_status": "minor",
+        "service": "mirrorlist",
+        "changetype": "single",
+        "message": "rawhide/x86_64 down",
+        "changedate": 1371280563.435639
+    },
+    {
+        "status": "good",
+        "new_global_status": "good",
+        "service": "people",
+        "changetype": "single",
+        "message": "Everything seems to be working.",
+        "changedate": 1370941677.00138
+    },
+    {
+        "status": "minor",
+        "new_global_status": "minor",
+        "service": "people",
+        "changetype": "single",
+        "message": "Requesting the root index for a user returns 403: https://fedorahosted.org/fedora-infrastructure/ticket/3842",
+        "changedate": 1370938259.13067
+    },
+    {
+        "status": "good",
+        "new_global_status": "good",
         "services": [
             "wiki",
             "people",
@@ -7761,30 +7733,63 @@ callback([
             "elections",
             "mailinglists",
             "fedocal"
-        ]
-    },
-    {
-        "changedate": 1369757373.341695,
-        "status": "good",
-        "changetype": "single",
-        "service": "ask",
-        "message": "Everything seems to be working.",
-        "new_global_status": "good"
-    },
-    {
-        "changedate": 1369756712.17086,
-        "status": "scheduled",
-        "changetype": "single",
-        "service": "ask",
-        "message": "upgrade",
-        "new_global_status": "scheduled"
-    },
-    {
-        "changedate": 1367968244.280666,
-        "status": "good",
+        ],
         "changetype": "multiple",
-        "new_global_status": "good",
         "message": "Everything seems to be working.",
+        "changedate": 1370910323.46638
+    },
+    {
+        "status": "scheduled",
+        "new_global_status": "scheduled",
+        "services": [
+            "wiki",
+            "people",
+            "zodbot",
+            "koji",
+            "darkserver",
+            "tagger",
+            "pkgdb",
+            "fedorapaste",
+            "blockerbugs",
+            "fedorahosted",
+            "mirrormanager",
+            "mirrorlist",
+            "pkgs",
+            "fas",
+            "website",
+            "docs",
+            "bodhi",
+            "ask",
+            "packages",
+            "freemedia",
+            "fedmsg",
+            "elections",
+            "mailinglists",
+            "fedocal"
+        ],
+        "changetype": "multiple",
+        "message": "Upgrades in progress",
+        "changedate": 1370897754.56487
+    },
+    {
+        "status": "good",
+        "new_global_status": "good",
+        "service": "ask",
+        "changetype": "single",
+        "message": "Everything seems to be working.",
+        "changedate": 1369757373.341695
+    },
+    {
+        "status": "scheduled",
+        "new_global_status": "scheduled",
+        "service": "ask",
+        "changetype": "single",
+        "message": "upgrade",
+        "changedate": 1369756712.17086
+    },
+    {
+        "status": "good",
+        "new_global_status": "good",
         "services": [
             "wiki",
             "people",
@@ -7803,302 +7808,302 @@ callback([
             "ask",
             "fedmsg",
             "fedocal"
-        ]
-    },
-    {
-        "changedate": 1367960378.817551,
-        "status": "scheduled",
-        "changetype": "single",
-        "service": "tagger",
-        "message": "Scheduled downtime",
-        "new_global_status": "scheduled"
-    },
-    {
-        "changedate": 1367960355.141363,
-        "status": "scheduled",
-        "changetype": "single",
-        "service": "fedmsg",
-        "message": "Scheduled downtime",
-        "new_global_status": "scheduled"
-    },
-    {
-        "changedate": 1367960347.302787,
-        "status": "scheduled",
-        "changetype": "single",
-        "service": "fedorapaste",
-        "message": "Scheduled downtime",
-        "new_global_status": "scheduled"
-    },
-    {
-        "changedate": 1367960217.780481,
-        "status": "scheduled",
-        "changetype": "single",
-        "service": "koji",
-        "message": "Scheduled downtime",
-        "new_global_status": "scheduled"
-    },
-    {
-        "changedate": 1367960134.811373,
-        "status": "scheduled",
-        "changetype": "single",
-        "service": "fedocal",
-        "message": "Scheduled downtime",
-        "new_global_status": "scheduled"
-    },
-    {
-        "changedate": 1367960130.004594,
-        "status": "scheduled",
-        "changetype": "single",
-        "service": "fedorahosted",
-        "message": "Scheduled downtime",
-        "new_global_status": "scheduled"
-    },
-    {
-        "changedate": 1367960012.958374,
-        "status": "scheduled",
-        "changetype": "single",
-        "service": "wiki",
-        "message": "Scheduled downtime",
-        "new_global_status": "scheduled"
-    },
-    {
-        "changedate": 1367959993.917179,
-        "status": "scheduled",
-        "changetype": "single",
-        "service": "pkgdb",
-        "message": "Scheduled downtime",
-        "new_global_status": "scheduled"
-    },
-    {
-        "changedate": 1367959985.894214,
-        "status": "scheduled",
-        "changetype": "single",
-        "service": "mirrorlist",
-        "message": "Scheduled downtime",
-        "new_global_status": "scheduled"
-    },
-    {
-        "changedate": 1367959981.402128,
-        "status": "scheduled",
-        "changetype": "single",
-        "service": "mirrormanager",
-        "message": "Scheduled downtime",
-        "new_global_status": "scheduled"
-    },
-    {
-        "changedate": 1367959969.834415,
-        "status": "scheduled",
-        "changetype": "single",
-        "service": "people",
-        "message": "Scheduled downtime",
-        "new_global_status": "scheduled"
-    },
-    {
-        "changedate": 1367959962.21943,
-        "status": "scheduled",
-        "changetype": "single",
-        "service": "fas",
-        "message": "Scheduled downtime",
-        "new_global_status": "scheduled"
-    },
-    {
-        "changedate": 1367959943.328869,
-        "status": "scheduled",
-        "changetype": "single",
-        "service": "docs",
-        "message": "Scheduled downtime",
-        "new_global_status": "scheduled"
-    },
-    {
-        "changedate": 1367959927.988485,
-        "status": "scheduled",
-        "changetype": "single",
-        "service": "pkgs",
-        "message": "Scheduled downtime",
-        "new_global_status": "scheduled"
-    },
-    {
-        "changedate": 1367959919.231615,
-        "status": "scheduled",
-        "changetype": "single",
-        "service": "blockerbugs",
-        "message": "Scheduled downtime",
-        "new_global_status": "scheduled"
-    },
-    {
-        "changedate": 1367959902.783063,
-        "status": "scheduled",
-        "changetype": "single",
-        "service": "bodhi",
-        "message": "Scheduled downtime",
-        "new_global_status": "scheduled"
-    },
-    {
-        "changedate": 1367959859.292157,
-        "status": "scheduled",
-        "changetype": "single",
-        "service": "ask",
-        "message": "Scheduled downtime",
-        "new_global_status": "scheduled"
-    },
-    {
-        "changedate": 1367490033.861371,
-        "status": "good",
-        "changetype": "single",
-        "service": "mailinglists",
-        "message": "Everything seems to be working.",
-        "new_global_status": "good"
-    },
-    {
-        "changedate": 1367442085.465389,
-        "status": "scheduled",
-        "changetype": "single",
-        "service": "mailinglists",
-        "message": "Scheduled migration in progress",
-        "new_global_status": "scheduled"
-    },
-    {
-        "changedate": 1367010463.023474,
-        "status": "good",
-        "changetype": "single",
-        "service": "fedorahosted",
-        "message": "Everything seems to be working.",
-        "new_global_status": "good"
-    },
-    {
-        "changedate": 1367002829.157529,
-        "status": "scheduled",
-        "changetype": "single",
-        "service": "fedorahosted",
-        "message": "migration outage",
-        "new_global_status": "scheduled"
-    },
-    {
-        "changedate": 1366694002.67789,
-        "status": "good",
-        "changetype": "single",
-        "service": "mailinglists",
-        "message": "Everything seems to be working.",
-        "new_global_status": "good"
-    },
-    {
-        "changedate": 1366646115.412964,
-        "status": "major",
-        "changetype": "single",
-        "service": "mailinglists",
-        "message": "working on slowdowns",
-        "new_global_status": "major"
-    },
-    {
-        "changedate": 1365194561.338393,
-        "status": "good",
-        "changetype": "single",
-        "service": "mailinglists",
-        "message": "Everything seems to be working.",
-        "new_global_status": "good"
-    },
-    {
-        "changedate": 1365186453.703369,
-        "status": "minor",
-        "changetype": "single",
-        "service": "mailinglists",
-        "message": "processing backlog",
-        "new_global_status": "minor"
-    },
-    {
-        "changedate": 1365179078.41563,
-        "status": "major",
-        "changetype": "single",
-        "service": "mailinglists",
-        "message": "outage in progress",
-        "new_global_status": "major"
-    },
-    {
-        "changedate": 1363991220.9523,
-        "status": "good",
-        "changetype": "single",
-        "service": "fedorahosted",
-        "message": "Everything seems to be working.",
-        "new_global_status": "good"
-    },
-    {
-        "changedate": 1363985983.409561,
-        "status": "scheduled",
-        "changetype": "single",
-        "service": "fedorahosted",
-        "message": "Currently in scheduled outage",
-        "new_global_status": "scheduled"
-    },
-    {
-        "changedate": 1363809236.964576,
-        "status": "good",
-        "changetype": "single",
-        "service": "mirrorlist",
-        "message": "Everything seems to be working.",
-        "new_global_status": "good"
-    },
-    {
-        "changedate": 1363808516.206465,
-        "status": "major",
-        "changetype": "single",
-        "service": "mirrorlist",
-        "message": "outage in progress",
-        "new_global_status": "major"
-    },
-    {
-        "changedate": 1363718151.43372,
-        "status": "good",
-        "changetype": "single",
-        "service": "fedorahosted",
-        "message": "Everything seems to be working.",
-        "new_global_status": "good"
-    },
-    {
-        "changedate": 1363695752.03326,
-        "status": "minor",
-        "changetype": "single",
-        "service": "fedorahosted",
-        "message": "Problems seem to be solved",
-        "new_global_status": "minor"
-    },
-    {
-        "changedate": 1363693935.054059,
-        "status": "major",
-        "changetype": "single",
-        "service": "fedorahosted",
-        "message": "Service down or slow, looking into it",
-        "new_global_status": "major"
-    },
-    {
-        "changedate": 1363656069.14989,
-        "status": "good",
-        "changetype": "single",
-        "service": "fedorahosted",
-        "message": "Everything seems to be working.",
-        "new_global_status": "good"
-    },
-    {
-        "changedate": 1363645749.0883,
-        "status": "minor",
-        "changetype": "single",
-        "service": "fedorahosted",
-        "message": "Everything is up, but slow. In case of problems, contact #fedora-admin",
-        "new_global_status": "minor"
-    },
-    {
-        "changedate": 1363622369.632481,
-        "status": "major",
-        "changetype": "single",
-        "service": "fedorahosted",
-        "message": "outage in progress",
-        "new_global_status": "major"
-    },
-    {
-        "changedate": 1362018548.296237,
-        "status": "good",
+        ],
         "changetype": "multiple",
-        "new_global_status": "good",
         "message": "Everything seems to be working.",
+        "changedate": 1367968244.280666
+    },
+    {
+        "status": "scheduled",
+        "new_global_status": "scheduled",
+        "service": "tagger",
+        "changetype": "single",
+        "message": "Scheduled downtime",
+        "changedate": 1367960378.817551
+    },
+    {
+        "status": "scheduled",
+        "new_global_status": "scheduled",
+        "service": "fedmsg",
+        "changetype": "single",
+        "message": "Scheduled downtime",
+        "changedate": 1367960355.141363
+    },
+    {
+        "status": "scheduled",
+        "new_global_status": "scheduled",
+        "service": "fedorapaste",
+        "changetype": "single",
+        "message": "Scheduled downtime",
+        "changedate": 1367960347.302787
+    },
+    {
+        "status": "scheduled",
+        "new_global_status": "scheduled",
+        "service": "koji",
+        "changetype": "single",
+        "message": "Scheduled downtime",
+        "changedate": 1367960217.780481
+    },
+    {
+        "status": "scheduled",
+        "new_global_status": "scheduled",
+        "service": "fedocal",
+        "changetype": "single",
+        "message": "Scheduled downtime",
+        "changedate": 1367960134.811373
+    },
+    {
+        "status": "scheduled",
+        "new_global_status": "scheduled",
+        "service": "fedorahosted",
+        "changetype": "single",
+        "message": "Scheduled downtime",
+        "changedate": 1367960130.004594
+    },
+    {
+        "status": "scheduled",
+        "new_global_status": "scheduled",
+        "service": "wiki",
+        "changetype": "single",
+        "message": "Scheduled downtime",
+        "changedate": 1367960012.958374
+    },
+    {
+        "status": "scheduled",
+        "new_global_status": "scheduled",
+        "service": "pkgdb",
+        "changetype": "single",
+        "message": "Scheduled downtime",
+        "changedate": 1367959993.917179
+    },
+    {
+        "status": "scheduled",
+        "new_global_status": "scheduled",
+        "service": "mirrorlist",
+        "changetype": "single",
+        "message": "Scheduled downtime",
+        "changedate": 1367959985.894214
+    },
+    {
+        "status": "scheduled",
+        "new_global_status": "scheduled",
+        "service": "mirrormanager",
+        "changetype": "single",
+        "message": "Scheduled downtime",
+        "changedate": 1367959981.402128
+    },
+    {
+        "status": "scheduled",
+        "new_global_status": "scheduled",
+        "service": "people",
+        "changetype": "single",
+        "message": "Scheduled downtime",
+        "changedate": 1367959969.834415
+    },
+    {
+        "status": "scheduled",
+        "new_global_status": "scheduled",
+        "service": "fas",
+        "changetype": "single",
+        "message": "Scheduled downtime",
+        "changedate": 1367959962.21943
+    },
+    {
+        "status": "scheduled",
+        "new_global_status": "scheduled",
+        "service": "docs",
+        "changetype": "single",
+        "message": "Scheduled downtime",
+        "changedate": 1367959943.328869
+    },
+    {
+        "status": "scheduled",
+        "new_global_status": "scheduled",
+        "service": "pkgs",
+        "changetype": "single",
+        "message": "Scheduled downtime",
+        "changedate": 1367959927.988485
+    },
+    {
+        "status": "scheduled",
+        "new_global_status": "scheduled",
+        "service": "blockerbugs",
+        "changetype": "single",
+        "message": "Scheduled downtime",
+        "changedate": 1367959919.231615
+    },
+    {
+        "status": "scheduled",
+        "new_global_status": "scheduled",
+        "service": "bodhi",
+        "changetype": "single",
+        "message": "Scheduled downtime",
+        "changedate": 1367959902.783063
+    },
+    {
+        "status": "scheduled",
+        "new_global_status": "scheduled",
+        "service": "ask",
+        "changetype": "single",
+        "message": "Scheduled downtime",
+        "changedate": 1367959859.292157
+    },
+    {
+        "status": "good",
+        "new_global_status": "good",
+        "service": "mailinglists",
+        "changetype": "single",
+        "message": "Everything seems to be working.",
+        "changedate": 1367490033.861371
+    },
+    {
+        "status": "scheduled",
+        "new_global_status": "scheduled",
+        "service": "mailinglists",
+        "changetype": "single",
+        "message": "Scheduled migration in progress",
+        "changedate": 1367442085.465389
+    },
+    {
+        "status": "good",
+        "new_global_status": "good",
+        "service": "fedorahosted",
+        "changetype": "single",
+        "message": "Everything seems to be working.",
+        "changedate": 1367010463.023474
+    },
+    {
+        "status": "scheduled",
+        "new_global_status": "scheduled",
+        "service": "fedorahosted",
+        "changetype": "single",
+        "message": "migration outage",
+        "changedate": 1367002829.157529
+    },
+    {
+        "status": "good",
+        "new_global_status": "good",
+        "service": "mailinglists",
+        "changetype": "single",
+        "message": "Everything seems to be working.",
+        "changedate": 1366694002.67789
+    },
+    {
+        "status": "major",
+        "new_global_status": "major",
+        "service": "mailinglists",
+        "changetype": "single",
+        "message": "working on slowdowns",
+        "changedate": 1366646115.412964
+    },
+    {
+        "status": "good",
+        "new_global_status": "good",
+        "service": "mailinglists",
+        "changetype": "single",
+        "message": "Everything seems to be working.",
+        "changedate": 1365194561.338393
+    },
+    {
+        "status": "minor",
+        "new_global_status": "minor",
+        "service": "mailinglists",
+        "changetype": "single",
+        "message": "processing backlog",
+        "changedate": 1365186453.703369
+    },
+    {
+        "status": "major",
+        "new_global_status": "major",
+        "service": "mailinglists",
+        "changetype": "single",
+        "message": "outage in progress",
+        "changedate": 1365179078.41563
+    },
+    {
+        "status": "good",
+        "new_global_status": "good",
+        "service": "fedorahosted",
+        "changetype": "single",
+        "message": "Everything seems to be working.",
+        "changedate": 1363991220.9523
+    },
+    {
+        "status": "scheduled",
+        "new_global_status": "scheduled",
+        "service": "fedorahosted",
+        "changetype": "single",
+        "message": "Currently in scheduled outage",
+        "changedate": 1363985983.409561
+    },
+    {
+        "status": "good",
+        "new_global_status": "good",
+        "service": "mirrorlist",
+        "changetype": "single",
+        "message": "Everything seems to be working.",
+        "changedate": 1363809236.964576
+    },
+    {
+        "status": "major",
+        "new_global_status": "major",
+        "service": "mirrorlist",
+        "changetype": "single",
+        "message": "outage in progress",
+        "changedate": 1363808516.206465
+    },
+    {
+        "status": "good",
+        "new_global_status": "good",
+        "service": "fedorahosted",
+        "changetype": "single",
+        "message": "Everything seems to be working.",
+        "changedate": 1363718151.43372
+    },
+    {
+        "status": "minor",
+        "new_global_status": "minor",
+        "service": "fedorahosted",
+        "changetype": "single",
+        "message": "Problems seem to be solved",
+        "changedate": 1363695752.03326
+    },
+    {
+        "status": "major",
+        "new_global_status": "major",
+        "service": "fedorahosted",
+        "changetype": "single",
+        "message": "Service down or slow, looking into it",
+        "changedate": 1363693935.054059
+    },
+    {
+        "status": "good",
+        "new_global_status": "good",
+        "service": "fedorahosted",
+        "changetype": "single",
+        "message": "Everything seems to be working.",
+        "changedate": 1363656069.14989
+    },
+    {
+        "status": "minor",
+        "new_global_status": "minor",
+        "service": "fedorahosted",
+        "changetype": "single",
+        "message": "Everything is up, but slow. In case of problems, contact #fedora-admin",
+        "changedate": 1363645749.0883
+    },
+    {
+        "status": "major",
+        "new_global_status": "major",
+        "service": "fedorahosted",
+        "changetype": "single",
+        "message": "outage in progress",
+        "changedate": 1363622369.632481
+    },
+    {
+        "status": "good",
+        "new_global_status": "good",
         "services": [
             "website",
             "wiki",
@@ -8113,372 +8118,312 @@ callback([
             "ask",
             "fedorahosted",
             "pkgdb"
-        ]
-    },
-    {
-        "changedate": 1362002288.963735,
-        "status": "scheduled",
-        "changetype": "single",
-        "service": "mirrorlist",
-        "message": "Planned outage",
-        "new_global_status": "scheduled"
-    },
-    {
-        "changedate": 1362002267.352363,
-        "status": "scheduled",
-        "changetype": "single",
-        "service": "freemedia",
-        "message": "Planned outage",
-        "new_global_status": "scheduled"
-    },
-    {
-        "changedate": 1362001276.111334,
-        "status": "scheduled",
-        "changetype": "single",
-        "service": "wiki",
-        "message": "Planned outage",
-        "new_global_status": "scheduled"
-    },
-    {
-        "changedate": 1362001260.406408,
-        "status": "scheduled",
-        "changetype": "single",
-        "service": "pkgdb",
-        "message": "Planned outage",
-        "new_global_status": "scheduled"
-    },
-    {
-        "changedate": 1362001245.88797,
-        "status": "scheduled",
-        "changetype": "single",
-        "service": "mirrormanager",
-        "message": "Planned outage",
-        "new_global_status": "scheduled"
-    },
-    {
-        "changedate": 1362001230.083599,
-        "status": "scheduled",
-        "changetype": "single",
-        "service": "website",
-        "message": "Planned outage",
-        "new_global_status": "scheduled"
-    },
-    {
-        "changedate": 1362001214.018912,
-        "status": "scheduled",
-        "changetype": "single",
-        "service": "people",
-        "message": "Planned outage",
-        "new_global_status": "scheduled"
-    },
-    {
-        "changedate": 1362001200.589752,
-        "status": "scheduled",
-        "changetype": "single",
-        "service": "fedorahosted",
-        "message": "Planned outage",
-        "new_global_status": "scheduled"
-    },
-    {
-        "changedate": 1362001176.748647,
-        "status": "scheduled",
-        "changetype": "single",
-        "service": "fas",
-        "message": "Planned outage",
-        "new_global_status": "scheduled"
-    },
-    {
-        "changedate": 1362001153.63576,
-        "status": "scheduled",
-        "changetype": "single",
-        "service": "pkgs",
-        "message": "Planned outage",
-        "new_global_status": "scheduled"
-    },
-    {
-        "changedate": 1362001146.283427,
-        "status": "scheduled",
-        "changetype": "single",
-        "service": "koji",
-        "message": "Planned outage",
-        "new_global_status": "scheduled"
-    },
-    {
-        "changedate": 1362001110.736903,
-        "status": "scheduled",
-        "changetype": "single",
-        "service": "bodhi",
-        "message": "Planned outage",
-        "new_global_status": "scheduled"
-    },
-    {
-        "changedate": 1362001032.661747,
-        "status": "scheduled",
-        "changetype": "single",
-        "service": "ask",
-        "message": "Planned outage",
-        "new_global_status": "scheduled"
-    },
-    {
-        "changedate": 1361911699.585266,
-        "status": "good",
+        ],
         "changetype": "multiple",
-        "new_global_status": "good",
         "message": "Everything seems to be working.",
+        "changedate": 1362018548.296237
+    },
+    {
+        "status": "scheduled",
+        "new_global_status": "scheduled",
+        "service": "mirrorlist",
+        "changetype": "single",
+        "message": "Planned outage",
+        "changedate": 1362002288.963735
+    },
+    {
+        "status": "scheduled",
+        "new_global_status": "scheduled",
+        "service": "freemedia",
+        "changetype": "single",
+        "message": "Planned outage",
+        "changedate": 1362002267.352363
+    },
+    {
+        "status": "scheduled",
+        "new_global_status": "scheduled",
+        "service": "wiki",
+        "changetype": "single",
+        "message": "Planned outage",
+        "changedate": 1362001276.111334
+    },
+    {
+        "status": "scheduled",
+        "new_global_status": "scheduled",
+        "service": "pkgdb",
+        "changetype": "single",
+        "message": "Planned outage",
+        "changedate": 1362001260.406408
+    },
+    {
+        "status": "scheduled",
+        "new_global_status": "scheduled",
+        "service": "mirrormanager",
+        "changetype": "single",
+        "message": "Planned outage",
+        "changedate": 1362001245.88797
+    },
+    {
+        "status": "scheduled",
+        "new_global_status": "scheduled",
+        "service": "website",
+        "changetype": "single",
+        "message": "Planned outage",
+        "changedate": 1362001230.083599
+    },
+    {
+        "status": "scheduled",
+        "new_global_status": "scheduled",
+        "service": "people",
+        "changetype": "single",
+        "message": "Planned outage",
+        "changedate": 1362001214.018912
+    },
+    {
+        "status": "scheduled",
+        "new_global_status": "scheduled",
+        "service": "fedorahosted",
+        "changetype": "single",
+        "message": "Planned outage",
+        "changedate": 1362001200.589752
+    },
+    {
+        "status": "scheduled",
+        "new_global_status": "scheduled",
+        "service": "fas",
+        "changetype": "single",
+        "message": "Planned outage",
+        "changedate": 1362001176.748647
+    },
+    {
+        "status": "scheduled",
+        "new_global_status": "scheduled",
+        "service": "pkgs",
+        "changetype": "single",
+        "message": "Planned outage",
+        "changedate": 1362001153.63576
+    },
+    {
+        "status": "scheduled",
+        "new_global_status": "scheduled",
+        "service": "koji",
+        "changetype": "single",
+        "message": "Planned outage",
+        "changedate": 1362001146.283427
+    },
+    {
+        "status": "scheduled",
+        "new_global_status": "scheduled",
+        "service": "bodhi",
+        "changetype": "single",
+        "message": "Planned outage",
+        "changedate": 1362001110.736903
+    },
+    {
+        "status": "scheduled",
+        "new_global_status": "scheduled",
+        "service": "ask",
+        "changetype": "single",
+        "message": "Planned outage",
+        "changedate": 1362001032.661747
+    },
+    {
+        "status": "good",
+        "new_global_status": "good",
         "services": [
             "freemedia",
             "elections",
             "pkgdb"
-        ]
-    },
-    {
-        "changedate": 1361909353.415043,
-        "status": "major",
-        "changetype": "single",
-        "service": "freemedia",
-        "message": "We're investigating an outage affecting this service.",
-        "new_global_status": "major"
-    },
-    {
-        "changedate": 1361908929.345981,
-        "status": "major",
-        "changetype": "single",
-        "service": "pkgdb",
-        "message": "We're investigating an outage affecting this service.",
-        "new_global_status": "major"
-    },
-    {
-        "changedate": 1361908923.197585,
-        "status": "major",
-        "changetype": "single",
-        "service": "elections",
-        "message": "We're investigating an outage affecting this service.",
-        "new_global_status": "major"
-    },
-    {
-        "changedate": 1361908640.006756,
-        "status": "major",
-        "changetype": "single",
-        "service": "elections",
-        "message": "We're investing an outage affecting this service.",
-        "new_global_status": "major"
-    },
-    {
-        "changedate": 1361908602.768416,
-        "status": "major",
-        "changetype": "single",
-        "service": "pkgdb",
-        "message": "We're investing an outage affecting this service.",
-        "new_global_status": "major"
-    },
-    {
-        "changedate": 1361400563.408422,
-        "status": "good",
-        "changetype": "single",
-        "service": "mirrorlist",
-        "message": "Everything seems to be working.",
-        "new_global_status": "good"
-    },
-    {
-        "changedate": 1361396690.246318,
-        "status": "major",
-        "changetype": "single",
-        "service": "mirrorlist",
-        "message": "outage in progress",
-        "new_global_status": "major"
-    },
-    {
-        "changedate": 1360675860.912642,
-        "status": "good",
-        "changetype": "single",
-        "service": "fedorahosted",
-        "message": "Everything seems to be working.",
-        "new_global_status": "good"
-    },
-    {
-        "changedate": 1360673019.070995,
-        "status": "major",
-        "changetype": "single",
-        "service": "fedorahosted",
-        "message": "The services seem to be down, we are looking into it",
-        "new_global_status": "major"
-    },
-    {
-        "changedate": 1360662010.815803,
-        "status": "good",
+        ],
         "changetype": "multiple",
-        "new_global_status": "good",
         "message": "Everything seems to be working.",
+        "changedate": 1361911699.585266
+    },
+    {
+        "status": "major",
+        "new_global_status": "major",
+        "service": "freemedia",
+        "changetype": "single",
+        "message": "We're investigating an outage affecting this service.",
+        "changedate": 1361909353.415043
+    },
+    {
+        "status": "major",
+        "new_global_status": "major",
+        "service": "pkgdb",
+        "changetype": "single",
+        "message": "We're investigating an outage affecting this service.",
+        "changedate": 1361908929.345981
+    },
+    {
+        "status": "major",
+        "new_global_status": "major",
+        "service": "elections",
+        "changetype": "single",
+        "message": "We're investigating an outage affecting this service.",
+        "changedate": 1361908923.197585
+    },
+    {
+        "status": "major",
+        "new_global_status": "major",
+        "service": "elections",
+        "changetype": "single",
+        "message": "We're investing an outage affecting this service.",
+        "changedate": 1361908640.006756
+    },
+    {
+        "status": "major",
+        "new_global_status": "major",
+        "service": "pkgdb",
+        "changetype": "single",
+        "message": "We're investing an outage affecting this service.",
+        "changedate": 1361908602.768416
+    },
+    {
+        "status": "good",
+        "new_global_status": "good",
+        "service": "mirrorlist",
+        "changetype": "single",
+        "message": "Everything seems to be working.",
+        "changedate": 1361400563.408422
+    },
+    {
+        "status": "major",
+        "new_global_status": "major",
+        "service": "mirrorlist",
+        "changetype": "single",
+        "message": "outage in progress",
+        "changedate": 1361396690.246318
+    },
+    {
+        "status": "good",
+        "new_global_status": "good",
+        "service": "fedorahosted",
+        "changetype": "single",
+        "message": "Everything seems to be working.",
+        "changedate": 1360675860.912642
+    },
+    {
+        "status": "major",
+        "new_global_status": "major",
+        "service": "fedorahosted",
+        "changetype": "single",
+        "message": "The services seem to be down, we are looking into it",
+        "changedate": 1360673019.070995
+    },
+    {
+        "status": "good",
+        "new_global_status": "good",
         "services": [
             "mailinglists",
             "fedorahosted"
-        ]
-    },
-    {
-        "changedate": 1360649432.646872,
-        "status": "major",
-        "changetype": "single",
-        "service": "mailinglists",
-        "message": "network outage in progress",
-        "new_global_status": "major"
-    },
-    {
-        "changedate": 1360649394.666191,
-        "status": "major",
-        "changetype": "single",
-        "service": "fedorahosted",
-        "message": "network outage in progress",
-        "new_global_status": "major"
-    },
-    {
-        "changedate": 1360631551.275009,
-        "status": "good",
-        "changetype": "single",
-        "service": "zodbot",
-        "message": "Everything seems to be working.",
-        "new_global_status": "good"
-    },
-    {
-        "changedate": 1360592827.787175,
-        "status": "minor",
-        "changetype": "single",
-        "service": "zodbot",
-        "message": "Fedora plugin not working, we are looking into it",
-        "new_global_status": "minor"
-    },
-    {
-        "changedate": 1360576834.253012,
-        "status": "good",
-        "changetype": "single",
-        "service": "fedorahosted",
-        "message": "Everything seems to be working.",
-        "new_global_status": "good"
-    },
-    {
-        "changedate": 1360570521.796482,
-        "status": "major",
-        "changetype": "single",
-        "service": "fedorahosted",
-        "message": "Servers are down, looking into it",
-        "new_global_status": "major"
-    },
-    {
-        "changedate": 1359603305.704024,
-        "status": "good",
+        ],
         "changetype": "multiple",
-        "new_global_status": "good",
         "message": "Everything seems to be working.",
+        "changedate": 1360662010.815803
+    },
+    {
+        "status": "major",
+        "new_global_status": "major",
+        "service": "mailinglists",
+        "changetype": "single",
+        "message": "network outage in progress",
+        "changedate": 1360649432.646872
+    },
+    {
+        "status": "major",
+        "new_global_status": "major",
+        "service": "fedorahosted",
+        "changetype": "single",
+        "message": "network outage in progress",
+        "changedate": 1360649394.666191
+    },
+    {
+        "status": "good",
+        "new_global_status": "good",
+        "service": "zodbot",
+        "changetype": "single",
+        "message": "Everything seems to be working.",
+        "changedate": 1360631551.275009
+    },
+    {
+        "status": "minor",
+        "new_global_status": "minor",
+        "service": "zodbot",
+        "changetype": "single",
+        "message": "Fedora plugin not working, we are looking into it",
+        "changedate": 1360592827.787175
+    },
+    {
+        "status": "good",
+        "new_global_status": "good",
+        "service": "fedorahosted",
+        "changetype": "single",
+        "message": "Everything seems to be working.",
+        "changedate": 1360576834.253012
+    },
+    {
+        "status": "major",
+        "new_global_status": "major",
+        "service": "fedorahosted",
+        "changetype": "single",
+        "message": "Servers are down, looking into it",
+        "changedate": 1360570521.796482
+    },
+    {
+        "status": "good",
+        "new_global_status": "good",
         "services": [
             "mirrormanager",
             "mirrorlist"
-        ]
-    },
-    {
-        "changedate": 1359599888.174522,
-        "status": "major",
-        "changetype": "single",
-        "service": "mirrorlist",
-        "message": "outage in progress",
-        "new_global_status": "major"
-    },
-    {
-        "changedate": 1359594757.667461,
-        "status": "major",
-        "changetype": "single",
-        "service": "mirrormanager",
-        "message": "outage in progress",
-        "new_global_status": "major"
-    },
-    {
-        "changedate": 1359589735.114083,
-        "status": "good",
+        ],
         "changetype": "multiple",
-        "new_global_status": "good",
         "message": "Everything seems to be working.",
+        "changedate": 1359603305.704024
+    },
+    {
+        "status": "major",
+        "new_global_status": "major",
+        "service": "mirrorlist",
+        "changetype": "single",
+        "message": "outage in progress",
+        "changedate": 1359599888.174522
+    },
+    {
+        "status": "major",
+        "new_global_status": "major",
+        "service": "mirrormanager",
+        "changetype": "single",
+        "message": "outage in progress",
+        "changedate": 1359594757.667461
+    },
+    {
+        "status": "good",
+        "new_global_status": "good",
         "services": [
             "pkgs",
             "bodhi",
             "koji"
-        ]
+        ],
+        "changetype": "multiple",
+        "message": "Everything seems to be working.",
+        "changedate": 1359589735.114083
     },
     {
-        "changedate": 1359583778.90607,
         "status": "scheduled",
-        "changetype": "multiple",
         "new_global_status": "scheduled",
-        "message": "Scheduled downtime",
         "services": [
             "pkgs",
             "koji",
             "bodhi"
-        ]
-    },
-    {
-        "changedate": 1359583737.153793,
-        "status": "good",
+        ],
         "changetype": "multiple",
-        "new_global_status": "good",
-        "message": "Everything seems to be working.",
-        "services": [
-            "wiki",
-            "people",
-            "zodbot",
-            "koji",
-            "darkserver",
-            "tagger",
-            "pkgdb",
-            "fedorahosted",
-            "mirrormanager",
-            "mirrorlist",
-            "pkgs",
-            "fas",
-            "website",
-            "docs",
-            "bodhi",
-            "ask",
-            "packages",
-            "freemedia",
-            "fedmsg",
-            "elections",
-            "mailinglists"
-        ]
-    },
-    {
-        "changedate": 1359582677.393529,
-        "status": "scheduled",
-        "changetype": "multiple",
-        "new_global_status": "scheduled",
         "message": "Scheduled downtime",
-        "services": [
-            "wiki",
-            "people",
-            "zodbot",
-            "koji",
-            "darkserver",
-            "tagger",
-            "pkgdb",
-            "fedorahosted",
-            "mirrormanager",
-            "mirrorlist",
-            "pkgs",
-            "fas",
-            "website",
-            "docs",
-            "bodhi",
-            "ask",
-            "packages",
-            "freemedia",
-            "fedmsg",
-            "elections",
-            "mailinglists"
-        ]
+        "changedate": 1359583778.90607
     },
     {
-        "changedate": 1359504508.47202,
         "status": "good",
-        "changetype": "multiple",
         "new_global_status": "good",
-        "message": "Everything seems to be working.",
         "services": [
             "wiki",
             "people",
@@ -8501,374 +8446,14 @@ callback([
             "fedmsg",
             "elections",
             "mailinglists"
-        ]
-    },
-    {
-        "changedate": 1359496884.539857,
-        "status": "major",
+        ],
         "changetype": "multiple",
-        "new_global_status": "major",
-        "message": "planned outage ongoing",
-        "services": [
-            "wiki",
-            "people",
-            "zodbot",
-            "koji",
-            "darkserver",
-            "tagger",
-            "pkgdb",
-            "fedorahosted",
-            "mirrormanager",
-            "mirrorlist",
-            "pkgs",
-            "fas",
-            "website",
-            "docs",
-            "bodhi",
-            "ask",
-            "packages",
-            "freemedia",
-            "fedmsg",
-            "elections",
-            "mailinglists"
-        ]
-    },
-    {
-        "changedate": 1359154150.748242,
-        "status": "good",
-        "changetype": "single",
-        "service": "mailinglists",
         "message": "Everything seems to be working.",
-        "new_global_status": "good"
+        "changedate": 1359583737.153793
     },
     {
-        "changedate": 1359150889.724279,
-        "status": "major",
-        "changetype": "single",
-        "service": "mailinglists",
-        "message": "storage issue",
-        "new_global_status": "major"
-    },
-    {
-        "changedate": 1359059982.416336,
-        "status": "good",
-        "changetype": "multiple",
-        "new_global_status": "good",
-        "message": "Everything seems to be working.",
-        "services": [
-            "wiki",
-            "people",
-            "zodbot",
-            "koji",
-            "darkserver",
-            "tagger",
-            "pkgdb",
-            "fedorahosted",
-            "mirrormanager",
-            "mirrorlist",
-            "pkgs",
-            "fas",
-            "website",
-            "docs",
-            "bodhi",
-            "ask",
-            "packages",
-            "freemedia",
-            "fedmsg",
-            "elections",
-            "mailinglists"
-        ]
-    },
-    {
-        "changedate": 1359051455.292929,
-        "status": "major",
-        "changetype": "multiple",
-        "new_global_status": "major",
-        "message": "dns outage/sporadic",
-        "services": [
-            "wiki",
-            "people",
-            "zodbot",
-            "koji",
-            "darkserver",
-            "tagger",
-            "pkgdb",
-            "fedorahosted",
-            "mirrormanager",
-            "mirrorlist",
-            "pkgs",
-            "fas",
-            "website",
-            "docs",
-            "bodhi",
-            "ask",
-            "packages",
-            "freemedia",
-            "fedmsg",
-            "elections",
-            "mailinglists"
-        ]
-    },
-    {
-        "changedate": 1358776071.219419,
-        "status": "good",
-        "changetype": "single",
-        "service": "packages",
-        "message": "Everything seems to be working.",
-        "new_global_status": "good"
-    },
-    {
-        "changedate": 1358775663.265307,
-        "status": "major",
-        "changetype": "single",
-        "service": "packages",
-        "message": "The service is unavailable, we are looking into it",
-        "new_global_status": "major"
-    },
-    {
-        "changedate": 1358648358.038787,
-        "status": "good",
-        "changetype": "single",
-        "service": "ask",
-        "message": "Everything seems to be working.",
-        "new_global_status": "good"
-    },
-    {
-        "changedate": 1358648022.441046,
-        "status": "minor",
-        "changetype": "single",
-        "service": "ask",
-        "message": "Ask seems to be coming back up now",
-        "new_global_status": "minor"
-    },
-    {
-        "changedate": 1358642050.927325,
-        "status": "major",
-        "changetype": "single",
-        "service": "ask",
-        "message": "Ask is down at the moment, we are looking into this",
-        "new_global_status": "major"
-    },
-    {
-        "changedate": 1356982844.154237,
-        "status": "good",
-        "changetype": "single",
-        "service": "mailinglists",
-        "message": "Everything seems to be working.",
-        "new_global_status": "good"
-    },
-    {
-        "changedate": 1356981483.180751,
-        "status": "major",
-        "changetype": "single",
-        "service": "mailinglists",
-        "message": "fedorahosted lists down",
-        "new_global_status": "major"
-    },
-    {
-        "changedate": 1356475675.858256,
-        "status": "good",
-        "changetype": "multiple",
-        "new_global_status": "good",
-        "message": "Everything seems to be working.",
-        "services": [
-            "wiki",
-            "people",
-            "zodbot",
-            "koji",
-            "darkserver",
-            "tagger",
-            "pkgdb",
-            "fedorahosted",
-            "mirrormanager",
-            "mirrorlist",
-            "pkgs",
-            "fas",
-            "website",
-            "docs",
-            "bodhi",
-            "ask",
-            "packages",
-            "freemedia",
-            "fedmsg",
-            "elections",
-            "mailinglists"
-        ]
-    },
-    {
-        "changedate": 1356475076.168781,
-        "status": "major",
-        "changetype": "multiple",
-        "new_global_status": "major",
-        "message": "mirrorlist outage",
-        "services": [
-            "wiki",
-            "people",
-            "zodbot",
-            "koji",
-            "darkserver",
-            "tagger",
-            "pkgdb",
-            "fedorahosted",
-            "mirrormanager",
-            "mirrorlist",
-            "pkgs",
-            "fas",
-            "website",
-            "docs",
-            "bodhi",
-            "ask",
-            "packages",
-            "freemedia",
-            "fedmsg",
-            "elections",
-            "mailinglists"
-        ]
-    },
-    {
-        "changedate": 1356362854.4014,
-        "status": "good",
-        "changetype": "single",
-        "service": "wiki",
-        "message": "Everything seems to be working.",
-        "new_global_status": "good"
-    },
-    {
-        "changedate": 1356362832.823378,
-        "status": "good",
-        "changetype": "single",
-        "service": "mirrormanager",
-        "message": "Everything seems to be working.",
-        "new_global_status": "major"
-    },
-    {
-        "changedate": 1356362686.908468,
-        "status": "major",
-        "changetype": "single",
-        "service": "wiki",
-        "message": "Everything seems to be working.",
-        "new_global_status": "major"
-    },
-    {
-        "changedate": 1356362629.92776,
-        "status": "major",
-        "changetype": "single",
-        "service": "mirrormanager",
-        "message": "Everything seems to be working.",
-        "new_global_status": "major"
-    },
-    {
-        "changedate": 1356360914.176786,
-        "status": "major",
-        "changetype": "single",
-        "service": "wiki",
-        "message": "down due to overloard from mirror manager",
-        "new_global_status": "major"
-    },
-    {
-        "changedate": 1356360744.267989,
-        "status": "major",
-        "changetype": "single",
-        "service": "mirrormanager",
-        "message": "mirror manager application is crashing",
-        "new_global_status": "major"
-    },
-    {
-        "changedate": 1356018490.102794,
-        "status": "good",
-        "changetype": "multiple",
-        "new_global_status": "good",
-        "message": "Everything seems to be working.",
-        "services": [
-            "wiki",
-            "people",
-            "zodbot",
-            "koji",
-            "darkserver",
-            "tagger",
-            "pkgdb",
-            "fedorahosted",
-            "mirrormanager",
-            "mirrorlist",
-            "pkgs",
-            "fas",
-            "website",
-            "docs",
-            "bodhi",
-            "ask",
-            "packages",
-            "freemedia",
-            "fedmsg",
-            "elections",
-            "mailinglists"
-        ]
-    },
-    {
-        "changedate": 1356017685.64597,
-        "status": "major",
-        "changetype": "multiple",
-        "new_global_status": "major",
-        "message": "dl.fedoraproject.org not working",
-        "services": [
-            "wiki",
-            "people",
-            "zodbot",
-            "koji",
-            "darkserver",
-            "tagger",
-            "pkgdb",
-            "fedorahosted",
-            "mirrormanager",
-            "mirrorlist",
-            "pkgs",
-            "fas",
-            "website",
-            "docs",
-            "bodhi",
-            "ask",
-            "packages",
-            "freemedia",
-            "fedmsg",
-            "elections",
-            "mailinglists"
-        ]
-    },
-    {
-        "changedate": 1354896205.591253,
-        "status": "good",
-        "changetype": "multiple",
-        "new_global_status": "good",
-        "message": "Everything seems to be working.",
-        "services": [
-            "wiki",
-            "people",
-            "zodbot",
-            "koji",
-            "darkserver",
-            "tagger",
-            "pkgdb",
-            "fedorahosted",
-            "mirrormanager",
-            "mirrorlist",
-            "pkgs",
-            "fas",
-            "website",
-            "docs",
-            "bodhi",
-            "ask",
-            "packages",
-            "freemedia",
-            "fedmsg",
-            "elections",
-            "mailinglists"
-        ]
-    },
-    {
-        "changedate": 1354892503.539004,
         "status": "scheduled",
-        "changetype": "multiple",
         "new_global_status": "scheduled",
-        "message": "scheduled storage outage",
         "services": [
             "wiki",
             "people",
@@ -8891,189 +8476,580 @@ callback([
             "fedmsg",
             "elections",
             "mailinglists"
-        ]
-    },
-    {
-        "changedate": 1354309733.505698,
-        "status": "good",
-        "changetype": "single",
-        "service": "fas",
-        "message": "Everything seems to be working.",
-        "new_global_status": "good"
-    },
-    {
-        "changedate": 1354307314.748903,
-        "status": "major",
-        "changetype": "single",
-        "service": "fas",
-        "message": "admin.fedoraproject.org outage, being looked into",
-        "new_global_status": "major"
-    },
-    {
-        "changedate": 1353603864.609952,
-        "status": "good",
-        "changetype": "single",
-        "service": "mailinglists",
-        "message": "Everything seems to be working.",
-        "new_global_status": "good"
-    },
-    {
-        "changedate": 1353560685.597869,
-        "status": "scheduled",
-        "changetype": "single",
-        "service": "mailinglists",
-        "message": "scheduled migration outage",
-        "new_global_status": "scheduled"
-    },
-    {
-        "changedate": 1350644852.186943,
-        "status": "good",
-        "changetype": "single",
-        "service": "people",
-        "message": "Everything seems to be working.",
-        "new_global_status": "good"
-    },
-    {
-        "changedate": 1350643236.875525,
-        "status": "major",
-        "changetype": "single",
-        "service": "people",
-        "message": "Network connectivity issue.",
-        "new_global_status": "major"
-    },
-    {
-        "changedate": 1350022337.850594,
-        "status": "good",
-        "changetype": "single",
-        "service": "pkgs",
-        "message": "Everything seems to be working.",
-        "new_global_status": "good"
-    },
-    {
-        "changedate": 1350021963.585158,
-        "status": "minor",
-        "changetype": "single",
-        "service": "pkgs",
-        "message": "Recovering from a short cgit outage, service might be flaky for a few minutes.",
-        "new_global_status": "minor"
-    },
-    {
-        "changedate": 1350020317.600746,
-        "service": "pkgs",
-        "status": "major",
-        "changetype": "single",
-        "message": "Looking into a pkgs cgit outage."
-    },
-    {
-        "changedate": 1349293525.937229,
-        "status": "good",
+        ],
         "changetype": "multiple",
+        "message": "Scheduled downtime",
+        "changedate": 1359582677.393529
+    },
+    {
+        "status": "good",
         "new_global_status": "good",
+        "services": [
+            "wiki",
+            "people",
+            "zodbot",
+            "koji",
+            "darkserver",
+            "tagger",
+            "pkgdb",
+            "fedorahosted",
+            "mirrormanager",
+            "mirrorlist",
+            "pkgs",
+            "fas",
+            "website",
+            "docs",
+            "bodhi",
+            "ask",
+            "packages",
+            "freemedia",
+            "fedmsg",
+            "elections",
+            "mailinglists"
+        ],
+        "changetype": "multiple",
         "message": "Everything seems to be working.",
+        "changedate": 1359504508.47202
+    },
+    {
+        "status": "major",
+        "new_global_status": "major",
+        "services": [
+            "wiki",
+            "people",
+            "zodbot",
+            "koji",
+            "darkserver",
+            "tagger",
+            "pkgdb",
+            "fedorahosted",
+            "mirrormanager",
+            "mirrorlist",
+            "pkgs",
+            "fas",
+            "website",
+            "docs",
+            "bodhi",
+            "ask",
+            "packages",
+            "freemedia",
+            "fedmsg",
+            "elections",
+            "mailinglists"
+        ],
+        "changetype": "multiple",
+        "message": "planned outage ongoing",
+        "changedate": 1359496884.539857
+    },
+    {
+        "status": "good",
+        "new_global_status": "good",
+        "service": "mailinglists",
+        "changetype": "single",
+        "message": "Everything seems to be working.",
+        "changedate": 1359154150.748242
+    },
+    {
+        "status": "major",
+        "new_global_status": "major",
+        "service": "mailinglists",
+        "changetype": "single",
+        "message": "storage issue",
+        "changedate": 1359150889.724279
+    },
+    {
+        "status": "good",
+        "new_global_status": "good",
+        "services": [
+            "wiki",
+            "people",
+            "zodbot",
+            "koji",
+            "darkserver",
+            "tagger",
+            "pkgdb",
+            "fedorahosted",
+            "mirrormanager",
+            "mirrorlist",
+            "pkgs",
+            "fas",
+            "website",
+            "docs",
+            "bodhi",
+            "ask",
+            "packages",
+            "freemedia",
+            "fedmsg",
+            "elections",
+            "mailinglists"
+        ],
+        "changetype": "multiple",
+        "message": "Everything seems to be working.",
+        "changedate": 1359059982.416336
+    },
+    {
+        "status": "major",
+        "new_global_status": "major",
+        "services": [
+            "wiki",
+            "people",
+            "zodbot",
+            "koji",
+            "darkserver",
+            "tagger",
+            "pkgdb",
+            "fedorahosted",
+            "mirrormanager",
+            "mirrorlist",
+            "pkgs",
+            "fas",
+            "website",
+            "docs",
+            "bodhi",
+            "ask",
+            "packages",
+            "freemedia",
+            "fedmsg",
+            "elections",
+            "mailinglists"
+        ],
+        "changetype": "multiple",
+        "message": "dns outage/sporadic",
+        "changedate": 1359051455.292929
+    },
+    {
+        "status": "good",
+        "new_global_status": "good",
+        "service": "packages",
+        "changetype": "single",
+        "message": "Everything seems to be working.",
+        "changedate": 1358776071.219419
+    },
+    {
+        "status": "major",
+        "new_global_status": "major",
+        "service": "packages",
+        "changetype": "single",
+        "message": "The service is unavailable, we are looking into it",
+        "changedate": 1358775663.265307
+    },
+    {
+        "status": "good",
+        "new_global_status": "good",
+        "service": "ask",
+        "changetype": "single",
+        "message": "Everything seems to be working.",
+        "changedate": 1358648358.038787
+    },
+    {
+        "status": "minor",
+        "new_global_status": "minor",
+        "service": "ask",
+        "changetype": "single",
+        "message": "Ask seems to be coming back up now",
+        "changedate": 1358648022.441046
+    },
+    {
+        "status": "major",
+        "new_global_status": "major",
+        "service": "ask",
+        "changetype": "single",
+        "message": "Ask is down at the moment, we are looking into this",
+        "changedate": 1358642050.927325
+    },
+    {
+        "status": "good",
+        "new_global_status": "good",
+        "service": "mailinglists",
+        "changetype": "single",
+        "message": "Everything seems to be working.",
+        "changedate": 1356982844.154237
+    },
+    {
+        "status": "major",
+        "new_global_status": "major",
+        "service": "mailinglists",
+        "changetype": "single",
+        "message": "fedorahosted lists down",
+        "changedate": 1356981483.180751
+    },
+    {
+        "status": "good",
+        "new_global_status": "good",
+        "services": [
+            "wiki",
+            "people",
+            "zodbot",
+            "koji",
+            "darkserver",
+            "tagger",
+            "pkgdb",
+            "fedorahosted",
+            "mirrormanager",
+            "mirrorlist",
+            "pkgs",
+            "fas",
+            "website",
+            "docs",
+            "bodhi",
+            "ask",
+            "packages",
+            "freemedia",
+            "fedmsg",
+            "elections",
+            "mailinglists"
+        ],
+        "changetype": "multiple",
+        "message": "Everything seems to be working.",
+        "changedate": 1356475675.858256
+    },
+    {
+        "status": "major",
+        "new_global_status": "major",
+        "services": [
+            "wiki",
+            "people",
+            "zodbot",
+            "koji",
+            "darkserver",
+            "tagger",
+            "pkgdb",
+            "fedorahosted",
+            "mirrormanager",
+            "mirrorlist",
+            "pkgs",
+            "fas",
+            "website",
+            "docs",
+            "bodhi",
+            "ask",
+            "packages",
+            "freemedia",
+            "fedmsg",
+            "elections",
+            "mailinglists"
+        ],
+        "changetype": "multiple",
+        "message": "mirrorlist outage",
+        "changedate": 1356475076.168781
+    },
+    {
+        "status": "good",
+        "new_global_status": "good",
+        "service": "wiki",
+        "changetype": "single",
+        "message": "Everything seems to be working.",
+        "changedate": 1356362854.4014
+    },
+    {
+        "status": "good",
+        "new_global_status": "major",
+        "service": "mirrormanager",
+        "changetype": "single",
+        "message": "Everything seems to be working.",
+        "changedate": 1356362832.823378
+    },
+    {
+        "status": "major",
+        "new_global_status": "major",
+        "service": "wiki",
+        "changetype": "single",
+        "message": "Everything seems to be working.",
+        "changedate": 1356362686.908468
+    },
+    {
+        "status": "major",
+        "new_global_status": "major",
+        "service": "mirrormanager",
+        "changetype": "single",
+        "message": "Everything seems to be working.",
+        "changedate": 1356362629.92776
+    },
+    {
+        "status": "major",
+        "new_global_status": "major",
+        "service": "wiki",
+        "changetype": "single",
+        "message": "down due to overloard from mirror manager",
+        "changedate": 1356360914.176786
+    },
+    {
+        "status": "major",
+        "new_global_status": "major",
+        "service": "mirrormanager",
+        "changetype": "single",
+        "message": "mirror manager application is crashing",
+        "changedate": 1356360744.267989
+    },
+    {
+        "status": "good",
+        "new_global_status": "good",
+        "services": [
+            "wiki",
+            "people",
+            "zodbot",
+            "koji",
+            "darkserver",
+            "tagger",
+            "pkgdb",
+            "fedorahosted",
+            "mirrormanager",
+            "mirrorlist",
+            "pkgs",
+            "fas",
+            "website",
+            "docs",
+            "bodhi",
+            "ask",
+            "packages",
+            "freemedia",
+            "fedmsg",
+            "elections",
+            "mailinglists"
+        ],
+        "changetype": "multiple",
+        "message": "Everything seems to be working.",
+        "changedate": 1356018490.102794
+    },
+    {
+        "status": "major",
+        "new_global_status": "major",
+        "services": [
+            "wiki",
+            "people",
+            "zodbot",
+            "koji",
+            "darkserver",
+            "tagger",
+            "pkgdb",
+            "fedorahosted",
+            "mirrormanager",
+            "mirrorlist",
+            "pkgs",
+            "fas",
+            "website",
+            "docs",
+            "bodhi",
+            "ask",
+            "packages",
+            "freemedia",
+            "fedmsg",
+            "elections",
+            "mailinglists"
+        ],
+        "changetype": "multiple",
+        "message": "dl.fedoraproject.org not working",
+        "changedate": 1356017685.64597
+    },
+    {
+        "status": "good",
+        "new_global_status": "good",
+        "services": [
+            "wiki",
+            "people",
+            "zodbot",
+            "koji",
+            "darkserver",
+            "tagger",
+            "pkgdb",
+            "fedorahosted",
+            "mirrormanager",
+            "mirrorlist",
+            "pkgs",
+            "fas",
+            "website",
+            "docs",
+            "bodhi",
+            "ask",
+            "packages",
+            "freemedia",
+            "fedmsg",
+            "elections",
+            "mailinglists"
+        ],
+        "changetype": "multiple",
+        "message": "Everything seems to be working.",
+        "changedate": 1354896205.591253
+    },
+    {
+        "status": "scheduled",
+        "new_global_status": "scheduled",
+        "services": [
+            "wiki",
+            "people",
+            "zodbot",
+            "koji",
+            "darkserver",
+            "tagger",
+            "pkgdb",
+            "fedorahosted",
+            "mirrormanager",
+            "mirrorlist",
+            "pkgs",
+            "fas",
+            "website",
+            "docs",
+            "bodhi",
+            "ask",
+            "packages",
+            "freemedia",
+            "fedmsg",
+            "elections",
+            "mailinglists"
+        ],
+        "changetype": "multiple",
+        "message": "scheduled storage outage",
+        "changedate": 1354892503.539004
+    },
+    {
+        "status": "good",
+        "new_global_status": "good",
+        "service": "fas",
+        "changetype": "single",
+        "message": "Everything seems to be working.",
+        "changedate": 1354309733.505698
+    },
+    {
+        "status": "major",
+        "new_global_status": "major",
+        "service": "fas",
+        "changetype": "single",
+        "message": "admin.fedoraproject.org outage, being looked into",
+        "changedate": 1354307314.748903
+    },
+    {
+        "status": "good",
+        "new_global_status": "good",
+        "service": "mailinglists",
+        "changetype": "single",
+        "message": "Everything seems to be working.",
+        "changedate": 1353603864.609952
+    },
+    {
+        "status": "scheduled",
+        "new_global_status": "scheduled",
+        "service": "mailinglists",
+        "changetype": "single",
+        "message": "scheduled migration outage",
+        "changedate": 1353560685.597869
+    },
+    {
+        "status": "good",
+        "new_global_status": "good",
+        "service": "people",
+        "changetype": "single",
+        "message": "Everything seems to be working.",
+        "changedate": 1350644852.186943
+    },
+    {
+        "status": "major",
+        "new_global_status": "major",
+        "service": "people",
+        "changetype": "single",
+        "message": "Network connectivity issue.",
+        "changedate": 1350643236.875525
+    },
+    {
+        "status": "good",
+        "new_global_status": "good",
+        "service": "pkgs",
+        "changetype": "single",
+        "message": "Everything seems to be working.",
+        "changedate": 1350022337.850594
+    },
+    {
+        "status": "minor",
+        "new_global_status": "minor",
+        "service": "pkgs",
+        "changetype": "single",
+        "message": "Recovering from a short cgit outage, service might be flaky for a few minutes.",
+        "changedate": 1350021963.585158
+    },
+    {
+        "changetype": "single",
+        "status": "major",
+        "message": "Looking into a pkgs cgit outage.",
+        "service": "pkgs",
+        "changedate": 1350020317.600746
+    },
+    {
+        "status": "good",
+        "new_global_status": "good",
         "services": [
             "mirrormanager",
             "mirrorlist"
-        ]
-    },
-    {
-        "changedate": 1349291950.985915,
-        "status": "major",
-        "changetype": "single",
-        "service": "mirrorlist",
-        "message": "outage, being worked",
-        "new_global_status": "major"
-    },
-    {
-        "changedate": 1349291934.5783,
-        "status": "major",
-        "changetype": "single",
-        "service": "mirrormanager",
-        "message": "outage, being worked",
-        "new_global_status": "major"
-    },
-    {
-        "changedate": 1349214159.732136,
-        "status": "good",
-        "changetype": "single",
-        "service": "bodhi",
-        "message": "Everything seems to be working.",
-        "new_global_status": "good"
-    },
-    {
-        "changedate": 1349211668.185147,
-        "status": "good",
-        "changetype": "single",
-        "service": "pkgs",
-        "message": "Everything seems to be working.",
-        "new_global_status": "major"
-    },
-    {
-        "changedate": 1349211664.784387,
-        "status": "good",
-        "changetype": "single",
-        "service": "koji",
-        "message": "Everything seems to be working.",
-        "new_global_status": "major"
-    },
-    {
-        "changedate": 1349211611.475525,
-        "status": "major",
-        "changetype": "single",
-        "service": "bodhi",
-        "message": "scheduled maint: https://fedorahosted.org/fedora-infrastructure/ticket/3489",
-        "new_global_status": "major"
-    },
-    {
-        "changedate": 1349211257.077288,
-        "status": "major",
-        "changetype": "single",
-        "service": "pkgs",
-        "message": "scheduled maint: https://fedorahosted.org/fedora-infrastructure/ticket/3489",
-        "new_global_status": "major"
-    },
-    {
-        "changedate": 1349211226.466342,
-        "status": "major",
-        "changetype": "single",
-        "service": "koji",
-        "message": "scheduled maint: https://fedorahosted.org/fedora-infrastructure/ticket/3489",
-        "new_global_status": "major"
-    },
-    {
-        "changedate": 1349131200.751026,
-        "status": "good",
+        ],
         "changetype": "multiple",
-        "new_global_status": "good",
         "message": "Everything seems to be working.",
-        "services": [
-            "wiki",
-            "zodbot",
-            "koji",
-            "darkserver",
-            "tagger",
-            "pkgdb",
-            "fedorahosted",
-            "mirrormanager",
-            "mirrorlist",
-            "pkgs",
-            "fas",
-            "website",
-            "docs",
-            "bodhi",
-            "ask",
-            "packages",
-            "freemedia",
-            "fedmsg",
-            "elections",
-            "mailinglists"
-        ]
+        "changedate": 1349293525.937229
     },
     {
-        "changedate": 1349125257.021869,
         "status": "major",
-        "changetype": "multiple",
         "new_global_status": "major",
-        "message": "Planned outage: https://fedorahosted.org/fedora-infrastructure/ticket/3488",
+        "service": "mirrorlist",
+        "changetype": "single",
+        "message": "outage, being worked",
+        "changedate": 1349291950.985915
+    },
+    {
+        "status": "major",
+        "new_global_status": "major",
+        "service": "mirrormanager",
+        "changetype": "single",
+        "message": "outage, being worked",
+        "changedate": 1349291934.5783
+    },
+    {
+        "status": "good",
+        "new_global_status": "good",
+        "service": "bodhi",
+        "changetype": "single",
+        "message": "Everything seems to be working.",
+        "changedate": 1349214159.732136
+    },
+    {
+        "status": "good",
+        "new_global_status": "major",
+        "service": "pkgs",
+        "changetype": "single",
+        "message": "Everything seems to be working.",
+        "changedate": 1349211668.185147
+    },
+    {
+        "status": "good",
+        "new_global_status": "major",
+        "service": "koji",
+        "changetype": "single",
+        "message": "Everything seems to be working.",
+        "changedate": 1349211664.784387
+    },
+    {
+        "status": "major",
+        "new_global_status": "major",
+        "service": "bodhi",
+        "changetype": "single",
+        "message": "scheduled maint: https://fedorahosted.org/fedora-infrastructure/ticket/3489",
+        "changedate": 1349211611.475525
+    },
+    {
+        "status": "major",
+        "new_global_status": "major",
+        "service": "pkgs",
+        "changetype": "single",
+        "message": "scheduled maint: https://fedorahosted.org/fedora-infrastructure/ticket/3489",
+        "changedate": 1349211257.077288
+    },
+    {
+        "status": "major",
+        "new_global_status": "major",
+        "service": "koji",
+        "changetype": "single",
+        "message": "scheduled maint: https://fedorahosted.org/fedora-infrastructure/ticket/3489",
+        "changedate": 1349211226.466342
+    },
+    {
+        "status": "good",
+        "new_global_status": "good",
         "services": [
             "wiki",
             "zodbot",
@@ -9095,143 +9071,14 @@ callback([
             "fedmsg",
             "elections",
             "mailinglists"
-        ]
-    },
-    {
-        "changedate": 1348860927.928917,
-        "status": "good",
-        "changetype": "single",
-        "service": "wiki",
-        "message": "Everything seems to be working.",
-        "new_global_status": "good"
-    },
-    {
-        "changedate": 1348860205.523897,
-        "status": "major",
-        "changetype": "single",
-        "service": "wiki",
-        "message": "issues, investigating",
-        "new_global_status": "major"
-    },
-    {
-        "changedate": 1348601911.257961,
-        "status": "good",
-        "changetype": "single",
-        "service": "wiki",
-        "message": "Everything seems to be working.",
-        "new_global_status": "good"
-    },
-    {
-        "changedate": 1348600708.713839,
-        "status": "major",
-        "changetype": "single",
-        "service": "wiki",
-        "message": "Database issues, looking into it",
-        "new_global_status": "major"
-    },
-    {
-        "changedate": 1348510190.761871,
-        "service": "koji",
-        "status": "good",
-        "changetype": "single",
-        "message": "Everything seems to be working."
-    },
-    {
-        "changedate": 1348510010.065968,
-        "service": "koji",
-        "status": "major",
-        "changetype": "single",
-        "message": "database issues, restarting"
-    },
-    {
-        "changedate": 1348504943.058378,
-        "service": "fas",
-        "status": "good",
-        "changetype": "single",
-        "message": "Everything seems to be working."
-    },
-    {
-        "changedate": 1348503442.156915,
-        "service": "fas",
-        "status": "major",
-        "changetype": "single",
-        "message": "restarting to fix issue"
-    },
-    {
-        "changedate": 1348398606.185092,
-        "service": "ask",
-        "status": "good",
-        "changetype": "single",
-        "message": "Everything seems to be working."
-    },
-    {
-        "changedate": 1348398374.761944,
-        "service": "ask",
-        "status": "major",
-        "changetype": "single",
-        "message": "Looking into an ask.fp.o outage."
-    },
-    {
-        "changedate": 1348079735.505647,
-        "service": "zodbot",
-        "status": "good",
-        "changetype": "single",
-        "message": "Everything seems to be working."
-    },
-    {
-        "changedate": 1348078743.000692,
-        "service": "zodbot",
-        "status": "minor",
-        "changetype": "single",
-        "message": "Restarting..."
-    },
-    {
-        "changedate": 1347996641.379646,
-        "service": "koji",
-        "status": "good",
-        "changetype": "single",
-        "message": "Everything seems to be working."
-    },
-    {
-        "changedate": 1347996442.760751,
-        "service": "koji",
-        "status": "major",
-        "changetype": "single",
-        "message": "web issues"
-    },
-    {
-        "changedate": 1347411836.093004,
-        "service": "pkgdb",
-        "status": "good",
-        "changetype": "single",
-        "message": "Everything seems to be working."
-    },
-    {
-        "changedate": 1347409400.269728,
-        "service": "pkgdb",
-        "status": "major",
-        "changetype": "single",
-        "message": "storage issues"
-    },
-    {
-        "changedate": 1346331236.920674,
-        "service": "fedorahosted",
-        "status": "good",
-        "changetype": "single",
-        "message": "Everything seems to be working."
-    },
-    {
-        "changedate": 1346328723.409159,
-        "service": "fedorahosted",
-        "status": "major",
-        "changetype": "single",
-        "message": "Major service disruption, looking into it"
-    },
-    {
-        "changedate": 1346176177.143926,
-        "message": "Everything seems to be working.",
-        "status": "good",
+        ],
         "changetype": "multiple",
+        "message": "Everything seems to be working.",
+        "changedate": 1349131200.751026
+    },
+    {
+        "status": "major",
+        "new_global_status": "major",
         "services": [
             "wiki",
             "zodbot",
@@ -9253,6 +9100,167 @@ callback([
             "fedmsg",
             "elections",
             "mailinglists"
-        ]
+        ],
+        "changetype": "multiple",
+        "message": "Planned outage: https://fedorahosted.org/fedora-infrastructure/ticket/3488",
+        "changedate": 1349125257.021869
+    },
+    {
+        "status": "good",
+        "new_global_status": "good",
+        "service": "wiki",
+        "changetype": "single",
+        "message": "Everything seems to be working.",
+        "changedate": 1348860927.928917
+    },
+    {
+        "status": "major",
+        "new_global_status": "major",
+        "service": "wiki",
+        "changetype": "single",
+        "message": "issues, investigating",
+        "changedate": 1348860205.523897
+    },
+    {
+        "status": "good",
+        "new_global_status": "good",
+        "service": "wiki",
+        "changetype": "single",
+        "message": "Everything seems to be working.",
+        "changedate": 1348601911.257961
+    },
+    {
+        "status": "major",
+        "new_global_status": "major",
+        "service": "wiki",
+        "changetype": "single",
+        "message": "Database issues, looking into it",
+        "changedate": 1348600708.713839
+    },
+    {
+        "changetype": "single",
+        "status": "good",
+        "message": "Everything seems to be working.",
+        "service": "koji",
+        "changedate": 1348510190.761871
+    },
+    {
+        "changetype": "single",
+        "status": "major",
+        "message": "database issues, restarting",
+        "service": "koji",
+        "changedate": 1348510010.065968
+    },
+    {
+        "changetype": "single",
+        "status": "good",
+        "message": "Everything seems to be working.",
+        "service": "fas",
+        "changedate": 1348504943.058378
+    },
+    {
+        "changetype": "single",
+        "status": "major",
+        "message": "restarting to fix issue",
+        "service": "fas",
+        "changedate": 1348503442.156915
+    },
+    {
+        "changetype": "single",
+        "status": "good",
+        "message": "Everything seems to be working.",
+        "service": "ask",
+        "changedate": 1348398606.185092
+    },
+    {
+        "changetype": "single",
+        "status": "major",
+        "message": "Looking into an ask.fp.o outage.",
+        "service": "ask",
+        "changedate": 1348398374.761944
+    },
+    {
+        "changetype": "single",
+        "status": "good",
+        "message": "Everything seems to be working.",
+        "service": "zodbot",
+        "changedate": 1348079735.505647
+    },
+    {
+        "changetype": "single",
+        "status": "minor",
+        "message": "Restarting...",
+        "service": "zodbot",
+        "changedate": 1348078743.000692
+    },
+    {
+        "changetype": "single",
+        "status": "good",
+        "message": "Everything seems to be working.",
+        "service": "koji",
+        "changedate": 1347996641.379646
+    },
+    {
+        "changetype": "single",
+        "status": "major",
+        "message": "web issues",
+        "service": "koji",
+        "changedate": 1347996442.760751
+    },
+    {
+        "changetype": "single",
+        "status": "good",
+        "message": "Everything seems to be working.",
+        "service": "pkgdb",
+        "changedate": 1347411836.093004
+    },
+    {
+        "changetype": "single",
+        "status": "major",
+        "message": "storage issues",
+        "service": "pkgdb",
+        "changedate": 1347409400.269728
+    },
+    {
+        "changetype": "single",
+        "status": "good",
+        "message": "Everything seems to be working.",
+        "service": "fedorahosted",
+        "changedate": 1346331236.920674
+    },
+    {
+        "changetype": "single",
+        "status": "major",
+        "message": "Major service disruption, looking into it",
+        "service": "fedorahosted",
+        "changedate": 1346328723.409159
+    },
+    {
+        "services": [
+            "wiki",
+            "zodbot",
+            "koji",
+            "darkserver",
+            "tagger",
+            "pkgdb",
+            "fedorahosted",
+            "mirrormanager",
+            "mirrorlist",
+            "pkgs",
+            "fas",
+            "website",
+            "docs",
+            "bodhi",
+            "ask",
+            "packages",
+            "freemedia",
+            "fedmsg",
+            "elections",
+            "mailinglists"
+        ],
+        "changetype": "multiple",
+        "status": "good",
+        "message": "Everything seems to be working.",
+        "changedate": 1346176177.143926
     }
 ]);
