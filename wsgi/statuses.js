@@ -1,7 +1,7 @@
 callback({
     "global_info": "",
-    "global_status": "scheduled",
-    "global_verbose_status": "There are scheduled downtimes in progress",
+    "global_status": "good",
+    "global_verbose_status": "All systems go",
     "services": {
         "ask": {
             "message": "Everything seems to be working.",
