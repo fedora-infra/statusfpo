@@ -1,5 +1,13 @@
 [
     {
+        "changetype": "single",
+        "service": "pkgs",
+        "status": "major",
+        "new_global_status": "major",
+        "message": "Service down, being looked at",
+        "changedate": 1518086079.3643646
+    },
+    {
         "changetype": "multiple",
         "services": [
             "ask",
