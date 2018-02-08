@@ -2,6 +2,14 @@
     {
         "changetype": "single",
         "service": "koschei",
+        "status": "good",
+        "new_global_status": "good",
+        "message": "Everything seems to be working.",
+        "changedate": 1518105489.106092
+    },
+    {
+        "changetype": "single",
+        "service": "koschei",
         "status": "scheduled",
         "new_global_status": "scheduled",
         "message": "Scheduled maintenance in progress.",
