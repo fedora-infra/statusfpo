@@ -1,5 +1,16 @@
 callback([
     {
+        "changetype": "multiple",
+        "services": [
+            "pkgs",
+            "bodhi"
+        ],
+        "status": "major",
+        "new_global_status": "major",
+        "message": "dist-git is down, being looked at - Bodhi partially down due to dist-git outage",
+        "changedate": 1518090609.7162404
+    },
+    {
         "changetype": "single",
         "service": "pkgs",
         "status": "major",

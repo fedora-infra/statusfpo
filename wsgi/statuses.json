@@ -28,9 +28,9 @@
             "url": "http://qa.fedoraproject.org/blockerbugs/"
         },
         "bodhi": {
-            "message": "Everything seems to be working.",
+            "message": "dist-git is down, being looked at - Bodhi partially down due to dist-git outage",
             "name": "Package Updates Manager",
-            "status": "good",
+            "status": "major",
             "url": "https://admin.fedoraproject.org/updates/"
         },
         "cloud": {
@@ -155,7 +155,7 @@
         },
         "pkgs": {
             "mailinglists": "Fedora mailing lists",
-            "message": "Service down, being looked at",
+            "message": "dist-git is down, being looked at - Bodhi partially down due to dist-git outage",
             "name": "Package maintainers git repositories",
             "status": "major",
             "url": "http://pkgs.fedoraproject.org/"
