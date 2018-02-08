@@ -28,9 +28,9 @@ callback({
             "url": "http://qa.fedoraproject.org/blockerbugs/"
         },
         "bodhi": {
-            "message": "Packages back, being monitored",
+            "message": "Everything seems to be working.",
             "name": "Package Updates Manager",
-            "status": "minor",
+            "status": "good",
             "url": "https://admin.fedoraproject.org/updates/"
         },
         "cloud": {
@@ -155,9 +155,9 @@ callback({
         },
         "pkgs": {
             "mailinglists": "Fedora mailing lists",
-            "message": "Packages back, being monitored",
+            "message": "Everything seems to be working.",
             "name": "Package maintainers git repositories",
-            "status": "minor",
+            "status": "good",
             "url": "http://pkgs.fedoraproject.org/"
         },
         "tagger": {

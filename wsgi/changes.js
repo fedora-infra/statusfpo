@@ -5,6 +5,17 @@ callback([
             "bodhi",
             "pkgs"
         ],
+        "status": "good",
+        "new_global_status": "good",
+        "message": "Everything seems to be working.",
+        "changedate": 1518096907.8333087
+    },
+    {
+        "changetype": "multiple",
+        "services": [
+            "bodhi",
+            "pkgs"
+        ],
         "status": "minor",
         "new_global_status": "minor",
         "message": "Packages back, being monitored",
