@@ -2,6 +2,17 @@ callback([
     {
         "changetype": "multiple",
         "services": [
+            "bodhi",
+            "pkgs"
+        ],
+        "status": "minor",
+        "new_global_status": "minor",
+        "message": "Packages back, being monitored",
+        "changedate": 1518094843.0560887
+    },
+    {
+        "changetype": "multiple",
+        "services": [
             "pkgs",
             "bodhi"
         ],
