@@ -106,9 +106,9 @@ callback({
             "url": "http://koji.fedoraproject.org/koji/"
         },
         "koschei": {
-            "message": "Everything seems to be working.",
+            "message": "Scheduled maintenance in progress.",
             "name": "Koschei Continuous Integration",
-            "status": "good",
+            "status": "scheduled",
             "url": "https://apps.fedoraproject.org/koschei/"
         },
         "krb": {

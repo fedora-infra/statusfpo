@@ -1,5 +1,13 @@
 callback([
     {
+        "changetype": "single",
+        "service": "koschei",
+        "status": "scheduled",
+        "new_global_status": "scheduled",
+        "message": "Scheduled maintenance in progress.",
+        "changedate": 1518102035.9284117
+    },
+    {
         "changetype": "multiple",
         "services": [
             "bodhi",
