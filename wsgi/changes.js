@@ -1,6 +1,14 @@
 callback([
     {
         "changetype": "single",
+        "service": "koji",
+        "status": "major",
+        "new_global_status": "major",
+        "message": "koji outage",
+        "changedate": 1518881864.62992
+    },
+    {
+        "changetype": "single",
         "service": "koschei",
         "status": "good",
         "new_global_status": "good",
