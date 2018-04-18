@@ -1,5 +1,13 @@
 [
     {
+        "changetype": "single",
+        "service": "bodhi",
+        "status": "major",
+        "new_global_status": "major",
+        "message": "bodhi web frontend down",
+        "changedate": 1524016605.479954
+    },
+    {
         "changetype": "multiple",
         "services": [
             "ask",
