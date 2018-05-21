@@ -141,6 +141,12 @@ callback({
             "status": "good",
             "url": "https://apps.fedoraproject.org/packages"
         },
+        "pagure": {
+            "message": "Everything seems to be working.",
+            "name:: "Pagure",
+            "status": "good",
+            "url": "https://pagure.io"
+        },
         "people": {
             "message": "Everything seems to be working.",
             "name": "Fedora People",
