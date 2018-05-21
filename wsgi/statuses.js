@@ -1,7 +1,7 @@
 callback({
     "global_info": "",
-    "global_status": "major",
-    "global_verbose_status": "Major service disruption",
+    "global_status": "good",
+    "global_verbose_status": "All systems go",
     "services": {
         "ask": {
             "message": "Everything seems to be working.",
