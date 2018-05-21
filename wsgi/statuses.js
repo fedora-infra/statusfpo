@@ -143,7 +143,7 @@ callback({
         },
         "pagure": {
             "message": "Everything seems to be working.",
-            "name:: "Pagure",
+            "name": "Pagure",
             "status": "good",
             "url": "https://pagure.io"
         },
