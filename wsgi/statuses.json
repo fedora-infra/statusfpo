@@ -1,7 +1,7 @@
 {
     "global_info": "",
-    "global_status": "good",
-    "global_verbose_status": "All systems go",
+    "global_status": "major",
+    "global_verbose_status": "Major service disruption",
     "services": {
         "ask": {
             "message": "Everything seems to be working.",
@@ -34,9 +34,9 @@
             "url": "https://admin.fedoraproject.org/updates/"
         },
         "cloud": {
-            "message": "Cloud is down for emergency disk maintenance",
+            "message": "Everything seems to be working.",
             "name": "Fedora Infrastructure Cloud",
-            "status": "major",
+            "status": "good",
             "url": "https://fedorainfracloud.org/"
         },
         "copr": {
