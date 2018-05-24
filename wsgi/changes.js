@@ -1,6 +1,14 @@
 callback([
     {
         "changetype": "single",
+        "service": "cloud",
+        "status": "major",
+        "new_global_status": "major",
+        "message": "Cloud is down for emergency disk maintenance",
+        "changedate": 1527120692.5373352
+    },
+    {
+        "changetype": "single",
         "service": "pagure",
         "status": "good",
         "new_global_status": "good",

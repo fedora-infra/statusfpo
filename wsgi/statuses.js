@@ -34,9 +34,9 @@ callback({
             "url": "https://admin.fedoraproject.org/updates/"
         },
         "cloud": {
-            "message": "Everything seems to be working.",
+            "message": "Cloud is down for emergency disk maintenance",
             "name": "Fedora Infrastructure Cloud",
-            "status": "good",
+            "status": "major",
             "url": "https://fedorainfracloud.org/"
         },
         "copr": {
