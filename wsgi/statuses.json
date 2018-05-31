@@ -1,7 +1,7 @@
 {
-    "global_info": "",
-    "global_status": "major",
-    "global_verbose_status": "Major service disruption",
+    "global_info": "See https://pagure.io/fedora-infrastructure/issue/6998 for more information.",
+    "global_status": "good",
+    "global_verbose_status": "All systems go",
     "services": {
         "ask": {
             "message": "Everything seems to be working.",
@@ -28,9 +28,9 @@
             "url": "http://qa.fedoraproject.org/blockerbugs/"
         },
         "bodhi": {
-            "message": "Everything seems to be working.",
+            "message": "Down for planned outage",
             "name": "Package Updates Manager",
-            "status": "good",
+            "status": "scheduled",
             "url": "https://admin.fedoraproject.org/updates/"
         },
         "cloud": {

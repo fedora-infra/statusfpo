@@ -1,6 +1,14 @@
 callback([
     {
         "changetype": "single",
+        "service": "bodhi",
+        "status": "scheduled",
+        "new_global_status": "scheduled",
+        "message": "Down for planned outage",
+        "changedate": 1527800206.3450742
+    },
+    {
+        "changetype": "single",
         "service": "cloud",
         "status": "good",
         "new_global_status": "good",
