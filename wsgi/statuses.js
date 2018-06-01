@@ -1,7 +1,7 @@
 callback({
     "global_info": "See https://pagure.io/fedora-infrastructure/issue/6998 for more information.",
-    "global_status": "good",
-    "global_verbose_status": "All systems go",
+    "global_status": "scheduled",
+    "global_verbose_status": "There are scheduled downtimes in progress",
     "services": {
         "ask": {
             "message": "Everything seems to be working.",
@@ -28,9 +28,9 @@ callback({
             "url": "http://qa.fedoraproject.org/blockerbugs/"
         },
         "bodhi": {
-            "message": "Down for planned outage",
+            "message": "Everything seems to be working.",
             "name": "Package Updates Manager",
-            "status": "scheduled",
+            "status": "good",
             "url": "https://admin.fedoraproject.org/updates/"
         },
         "cloud": {
