@@ -161,9 +161,9 @@ callback({
         },
         "pkgs": {
             "mailinglists": "Fedora mailing lists",
-            "message": "There is an ongoing issue with src.fp.o that we are working through",
+            "message": "Everything seems to be working.",
             "name": "Package maintainers git repositories",
-            "status": "major",
+            "status": "good",
             "url": "http://pkgs.fedoraproject.org/"
         },
         "tagger": {

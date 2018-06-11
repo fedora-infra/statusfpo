@@ -2,6 +2,14 @@ callback([
     {
         "changetype": "single",
         "service": "pkgs",
+        "status": "good",
+        "new_global_status": "good",
+        "message": "Everything seems to be working.",
+        "changedate": 1528730484.6949193
+    },
+    {
+        "changetype": "single",
+        "service": "pkgs",
         "status": "major",
         "new_global_status": "major",
         "message": "There is an ongoing issue with src.fp.o that we are working through",
