@@ -1,6 +1,14 @@
 [
     {
         "changetype": "single",
+        "service": "pkgs",
+        "status": "major",
+        "new_global_status": "major",
+        "message": "There is an ongoing issue with src.fp.o that we are working through",
+        "changedate": 1528728727.3698335
+    },
+    {
+        "changetype": "single",
         "service": "bodhi",
         "status": "good",
         "new_global_status": "good",

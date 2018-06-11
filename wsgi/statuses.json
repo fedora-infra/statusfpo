@@ -161,9 +161,9 @@
         },
         "pkgs": {
             "mailinglists": "Fedora mailing lists",
-            "message": "Everything seems to be working.",
+            "message": "There is an ongoing issue with src.fp.o that we are working through",
             "name": "Package maintainers git repositories",
-            "status": "good",
+            "status": "major",
             "url": "http://pkgs.fedoraproject.org/"
         },
         "tagger": {
