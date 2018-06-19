@@ -142,12 +142,12 @@
             "status": "good",
             "url": "http://pkgs.fedoraproject.org/"
         },
-	"registry": {
-	    "message": "Everything seems to be working.",
+        "registry": {
+            "message": "Everything seems to be working.",
             "name": "Fedora Container Registry",
             "status": "good",
             "url": "https://registry.fedoraproject.org/"
-	},
+        },
         "tagger": {
             "message": "Everything seems to be working.",
             "name": "Tagger",

@@ -3,12 +3,6 @@ callback({
     "global_status": "scheduled",
     "global_verbose_status": "There are scheduled downtimes in progress",
     "services": {
-        "ask": {
-            "message": "Everything seems to be working.",
-            "name": "Ask Fedora",
-            "status": "good",
-            "url": "http://ask.fedoraproject.org/"
-        },
         "authentication": {
             "message": "Everything seems to be working.",
             "name": "Ipsilon",
@@ -45,12 +39,6 @@ callback({
             "status": "good",
             "url": "https://copr.fedoraproject.org/"
         },
-        "darkserver": {
-            "message": "Everything seems to be working.",
-            "name": "Darkserver",
-            "status": "good",
-            "url": "https://fedoraproject.org/wiki/Darkserver"
-        },
         "docs": {
             "message": "Everything seems to be working.",
             "name": "Documentation website",
@@ -81,23 +69,11 @@ callback({
             "status": "good",
             "url": "https://apps.fedoraproject.org/fedocal/"
         },
-        "fedorahosted": {
-            "message": "Everything seems to be working.",
-            "name": "FedoraHosted.org Services",
-            "status": "good",
-            "url": "https://fedorahosted.org/web/"
-        },
         "fedorapaste": {
             "message": "Everything seems to be working.",
             "name": "Fedora pastebin service",
             "status": "good",
             "url": "https://paste.fedorahosted.org/"
-        },
-        "freemedia": {
-            "message": "Everything seems to be working.",
-            "name": "FreeMedia",
-            "status": "good",
-            "url": "http://fedoraproject.org/wiki/FreeMedia"
         },
         "koji": {
             "message": "Everything seems to be working.",
@@ -165,6 +141,12 @@ callback({
             "name": "Package maintainers git repositories",
             "status": "good",
             "url": "http://pkgs.fedoraproject.org/"
+        },
+        "registry": {
+            "message": "Everything seems to be working.",
+            "name": "Fedora Container Registry",
+            "status": "good",
+            "url": "https://registry.fedoraproject.org/"
         },
         "tagger": {
             "message": "Everything seems to be working.",
