@@ -22,15 +22,15 @@ callback({
             "url": "http://qa.fedoraproject.org/blockerbugs/"
         },
         "bodhi": {
-            "message": "Everything seems to be working.",
+            "message": "Build and cloud systems down for planned maintenance",
             "name": "Package Updates Manager",
-            "status": "good",
+            "status": "scheduled",
             "url": "https://admin.fedoraproject.org/updates/"
         },
         "cloud": {
-            "message": "Everything seems to be working.",
+            "message": "Build and cloud systems down for planned maintenance",
             "name": "Fedora Infrastructure Cloud",
-            "status": "good",
+            "status": "scheduled",
             "url": "https://fedorainfracloud.org/"
         },
         "copr": {
@@ -76,9 +76,9 @@ callback({
             "url": "https://paste.fedorahosted.org/"
         },
         "koji": {
-            "message": "Everything seems to be working.",
+            "message": "Build and cloud systems down for planned maintenance",
             "name": "The Koji Buildsystem",
-            "status": "good",
+            "status": "scheduled",
             "url": "http://koji.fedoraproject.org/koji/"
         },
         "koschei": {
@@ -130,9 +130,9 @@ callback({
             "url": "https://fedorapeople.org/"
         },
         "pkgdb": {
-            "message": "Everything seems to be working.",
+            "message": "Build and cloud systems down for planned maintenance",
             "name": "Package Database",
-            "status": "good",
+            "status": "scheduled",
             "url": "https://admin.fedoraproject.org/pkgdb/"
         },
         "pkgs": {
