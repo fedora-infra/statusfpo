@@ -1,7 +1,7 @@
 callback({
     "global_info": "See https://pagure.io/fedora-infrastructure/issue/6998 for more information.",
-    "global_status": "good",
-    "global_verbose_status": "All systems go",
+    "global_status": "scheduled",
+    "global_verbose_status": "There are scheduled downtimes in progress",
     "services": {
         "authentication": {
             "message": "Everything seems to be working.",
@@ -22,15 +22,15 @@ callback({
             "url": "http://qa.fedoraproject.org/blockerbugs/"
         },
         "bodhi": {
-            "message": "Build and cloud systems down for planned maintenance",
+            "message": "Everything seems to be working.",
             "name": "Package Updates Manager",
-            "status": "scheduled",
+            "status": "good",
             "url": "https://admin.fedoraproject.org/updates/"
         },
         "cloud": {
-            "message": "Build and cloud systems down for planned maintenance",
+            "message": "Everything seems to be working.",
             "name": "Fedora Infrastructure Cloud",
-            "status": "scheduled",
+            "status": "good",
             "url": "https://fedorainfracloud.org/"
         },
         "copr": {
@@ -76,9 +76,9 @@ callback({
             "url": "https://paste.fedorahosted.org/"
         },
         "koji": {
-            "message": "Build and cloud systems down for planned maintenance",
+            "message": "Everything seems to be working.",
             "name": "The Koji Buildsystem",
-            "status": "scheduled",
+            "status": "good",
             "url": "http://koji.fedoraproject.org/koji/"
         },
         "koschei": {
@@ -130,9 +130,9 @@ callback({
             "url": "https://fedorapeople.org/"
         },
         "pkgdb": {
-            "message": "Build and cloud systems down for planned maintenance",
+            "message": "Everything seems to be working.",
             "name": "Package Database",
-            "status": "scheduled",
+            "status": "good",
             "url": "https://admin.fedoraproject.org/pkgdb/"
         },
         "pkgs": {
