@@ -4,172 +4,172 @@ callback({
     "global_verbose_status": "There are scheduled downtimes in progress",
     "services": {
         "authentication": {
-            "message": "Planned infrastructure-wide outage for updates",
+            "message": "Everything seems to be working.",
             "name": "Ipsilon",
-            "status": "scheduled",
+            "status": "good",
             "url": "https://id.fedoraproject.org/"
         },
         "badges": {
-            "message": "Planned infrastructure-wide outage for updates",
+            "message": "Everything seems to be working.",
             "name": "Badges",
-            "status": "scheduled",
+            "status": "good",
             "url": "http:/badges.fedoraproject.org/"
         },
         "blockerbugs": {
-            "message": "Planned infrastructure-wide outage for updates",
+            "message": "Everything seems to be working.",
             "name": "Blockerbugs",
-            "status": "scheduled",
+            "status": "good",
             "url": "http://qa.fedoraproject.org/blockerbugs/"
         },
         "bodhi": {
-            "message": "Planned infrastructure-wide outage for updates",
+            "message": "Everything seems to be working.",
             "name": "Package Updates Manager",
-            "status": "scheduled",
+            "status": "good",
             "url": "https://admin.fedoraproject.org/updates/"
         },
         "cloud": {
-            "message": "Planned infrastructure-wide outage for updates",
+            "message": "Everything seems to be working.",
             "name": "Fedora Infrastructure Cloud",
-            "status": "scheduled",
+            "status": "good",
             "url": "https://fedorainfracloud.org/"
         },
         "copr": {
-            "message": "Planned infrastructure-wide outage for updates",
+            "message": "Everything seems to be working.",
             "name": "COPR Build System",
-            "status": "scheduled",
+            "status": "good",
             "url": "https://copr.fedoraproject.org/"
         },
         "docs": {
-            "message": "Planned infrastructure-wide outage for updates",
+            "message": "Everything seems to be working.",
             "name": "Documentation website",
-            "status": "scheduled",
+            "status": "good",
             "url": "http://docs.fedoraproject.org/"
         },
         "elections": {
-            "message": "Planned infrastructure-wide outage for updates",
+            "message": "Everything seems to be working.",
             "name": "Fedora elections",
-            "status": "scheduled",
+            "status": "good",
             "url": "https://admin.fedoraproject.org/voting/"
         },
         "fas": {
-            "message": "Planned infrastructure-wide outage for updates",
+            "message": "Everything seems to be working.",
             "name": "Account System",
-            "status": "scheduled",
+            "status": "good",
             "url": "https://admin.fedoraproject.org/accounts/"
         },
         "fedmsg": {
-            "message": "Planned infrastructure-wide outage for updates",
+            "message": "Everything seems to be working.",
             "name": "Fedora Messaging Bus",
-            "status": "scheduled",
+            "status": "good",
             "url": "https://admin.fedoraproject.org/pkgdb/acls/name/fedmsg"
         },
         "fedocal": {
-            "message": "Planned infrastructure-wide outage for updates",
+            "message": "Everything seems to be working.",
             "name": "Fedora Calendar",
-            "status": "scheduled",
+            "status": "good",
             "url": "https://apps.fedoraproject.org/fedocal/"
         },
         "fedorapaste": {
-            "message": "Planned infrastructure-wide outage for updates",
+            "message": "Everything seems to be working.",
             "name": "Fedora pastebin service",
-            "status": "scheduled",
+            "status": "good",
             "url": "https://paste.fedorahosted.org/"
         },
         "koji": {
-            "message": "Planned infrastructure-wide outage for updates",
+            "message": "Everything seems to be working.",
             "name": "The Koji Buildsystem",
-            "status": "scheduled",
+            "status": "good",
             "url": "http://koji.fedoraproject.org/koji/"
         },
         "koschei": {
-            "message": "Planned infrastructure-wide outage for updates",
+            "message": "Everything seems to be working.",
             "name": "Koschei Continuous Integration",
-            "status": "scheduled",
+            "status": "good",
             "url": "https://apps.fedoraproject.org/koschei/"
         },
         "krb": {
-            "message": "Planned infrastructure-wide outage for updates",
+            "message": "Everything seems to be working.",
             "name": "Kerberos",
-            "status": "scheduled",
+            "status": "good",
             "url": "https://id.fedoraproject.org/"
         },
         "mailinglists": {
-            "message": "Planned infrastructure-wide outage for updates",
+            "message": "Everything seems to be working.",
             "name": "Mailing Lists",
-            "status": "scheduled",
+            "status": "good",
             "url": "http://lists.fedoraproject.org/"
         },
         "mirrorlist": {
-            "message": "Planned infrastructure-wide outage for updates",
+            "message": "Everything seems to be working.",
             "name": "Mirror List",
-            "status": "scheduled",
+            "status": "good",
             "url": "http://mirrors.fedoraproject.org/publiclist/"
         },
         "mirrormanager": {
-            "message": "Planned infrastructure-wide outage for updates",
+            "message": "Everything seems to be working.",
             "name": "Mirror Manager",
-            "status": "scheduled",
+            "status": "good",
             "url": "http://mirrors.fedoraproject.org/"
         },
         "packages": {
-            "message": "Planned infrastructure-wide outage for updates",
+            "message": "Everything seems to be working.",
             "name": "Fedora Packages App",
-            "status": "scheduled",
+            "status": "good",
             "url": "https://apps.fedoraproject.org/packages"
         },
         "pagure": {
-            "message": "Planned infrastructure-wide outage for updates",
+            "message": "Everything seems to be working.",
             "name": "Pagure",
-            "status": "scheduled",
+            "status": "good",
             "url": "https://pagure.io"
         },
         "people": {
-            "message": "Planned infrastructure-wide outage for updates",
+            "message": "Everything seems to be working.",
             "name": "Fedora People",
-            "status": "scheduled",
+            "status": "good",
             "url": "https://fedorapeople.org/"
         },
         "pkgdb": {
-            "message": "Planned infrastructure-wide outage for updates",
+            "message": "Everything seems to be working.",
             "name": "Package Database",
-            "status": "scheduled",
+            "status": "good",
             "url": "https://admin.fedoraproject.org/pkgdb/"
         },
         "pkgs": {
             "mailinglists": "Fedora mailing lists",
-            "message": "Planned infrastructure-wide outage for updates",
+            "message": "Everything seems to be working.",
             "name": "Package maintainers git repositories",
-            "status": "scheduled",
+            "status": "good",
             "url": "http://pkgs.fedoraproject.org/"
         },
         "registry": {
-            "message": "Planned infrastructure-wide outage for updates",
+            "message": "Everything seems to be working.",
             "name": "Fedora Container Registry",
-            "status": "scheduled",
+            "status": "good",
             "url": "https://registry.fedoraproject.org/"
         },
         "tagger": {
-            "message": "Planned infrastructure-wide outage for updates",
+            "message": "Everything seems to be working.",
             "name": "Tagger",
-            "status": "scheduled",
+            "status": "good",
             "url": "https://apps.fedoraproject.org/tagger/"
         },
         "website": {
-            "message": "Planned infrastructure-wide outage for updates",
+            "message": "Everything seems to be working.",
             "name": "Fedora websites",
-            "status": "scheduled",
+            "status": "good",
             "url": "http://fedoraproject.org/"
         },
         "wiki": {
-            "message": "Planned infrastructure-wide outage for updates",
+            "message": "Everything seems to be working.",
             "name": "Fedora Wiki",
-            "status": "scheduled",
+            "status": "good",
             "url": "https://fedoraproject.org/wiki/Fedora_Project_Wiki"
         },
         "zodbot": {
-            "message": "Planned infrastructure-wide outage for updates",
+            "message": "Everything seems to be working.",
             "name": "Zodbot IRC bot",
-            "status": "scheduled",
+            "status": "good",
             "url": "https://fedoraproject.org/wiki/Zodbot"
         }
     }
