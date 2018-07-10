@@ -124,9 +124,9 @@
             "url": "https://pagure.io"
         },
         "people": {
-            "message": "Scheduled maintenance in progress",
+            "message": "Everything seems to be working.",
             "name": "Fedora People",
-            "status": "scheduled",
+            "status": "good",
             "url": "https://fedorapeople.org/"
         },
         "pkgdb": {

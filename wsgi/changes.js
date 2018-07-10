@@ -2,6 +2,14 @@ callback([
     {
         "changetype": "single",
         "service": "people",
+        "status": "good",
+        "new_global_status": "good",
+        "message": "Everything seems to be working.",
+        "changedate": 1531253736.6996243
+    },
+    {
+        "changetype": "single",
+        "service": "people",
         "status": "scheduled",
         "new_global_status": "scheduled",
         "message": "Scheduled maintenance in progress",
