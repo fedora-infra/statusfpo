@@ -1,5 +1,13 @@
 [
     {
+        "changetype": "single",
+        "service": "people",
+        "status": "scheduled",
+        "new_global_status": "scheduled",
+        "message": "Scheduled maintenance in progress",
+        "changedate": 1531240348.125521
+    },
+    {
         "changetype": "multiple",
         "services": [
             "authentication",

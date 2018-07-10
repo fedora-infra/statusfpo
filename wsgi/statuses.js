@@ -124,9 +124,9 @@ callback({
             "url": "https://pagure.io"
         },
         "people": {
-            "message": "Everything seems to be working.",
+            "message": "Scheduled maintenance in progress",
             "name": "Fedora People",
-            "status": "good",
+            "status": "scheduled",
             "url": "https://fedorapeople.org/"
         },
         "pkgdb": {
