@@ -1,5 +1,13 @@
 callback([
     {
+        "changetype": "single",
+        "service": "registry",
+        "status": "scheduled",
+        "new_global_status": "scheduled",
+        "message": "Planned rebuild of Fedora Container Registry",
+        "changedate": 1534870941.7565722
+    },
+    {
         "changetype": "multiple",
         "services": [
             "authentication",
