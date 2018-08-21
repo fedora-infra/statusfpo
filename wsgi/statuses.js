@@ -143,9 +143,9 @@ callback({
             "url": "http://pkgs.fedoraproject.org/"
         },
         "registry": {
-            "message": "Planned rebuild of Fedora Container Registry",
+            "message": "Everything seems to be working.",
             "name": "Fedora Container Registry",
-            "status": "scheduled",
+            "status": "good",
             "url": "https://registry.fedoraproject.org/"
         },
         "tagger": {
