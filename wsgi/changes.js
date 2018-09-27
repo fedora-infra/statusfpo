@@ -1,6 +1,14 @@
 callback([
     {
         "changetype": "single",
+        "service": "bodhi",
+        "status": "scheduled",
+        "new_global_status": "scheduled",
+        "message": "planned outage",
+        "changedate": 1538090112.4055285
+    },
+    {
+        "changetype": "single",
         "service": "registry",
         "status": "good",
         "new_global_status": "good",
