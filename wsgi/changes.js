@@ -1,6 +1,14 @@
 callback([
     {
         "changetype": "single",
+        "service": "koji",
+        "status": "major",
+        "new_global_status": "major",
+        "message": "issues with koji hub",
+        "changedate": 1538592387.8939424
+    },
+    {
+        "changetype": "single",
         "service": "bodhi",
         "status": "good",
         "new_global_status": "good",
