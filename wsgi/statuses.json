@@ -4,172 +4,172 @@
     "global_verbose_status": "Major service disruption",
     "services": {
         "authentication": {
-            "message": "Everything seems to be working.",
+            "message": "Planned updates/reboots happening now.",
             "name": "Ipsilon",
-            "status": "good",
+            "status": "scheduled",
             "url": "https://id.fedoraproject.org/"
         },
         "badges": {
-            "message": "Everything seems to be working.",
+            "message": "Planned updates/reboots happening now.",
             "name": "Badges",
-            "status": "good",
+            "status": "scheduled",
             "url": "http:/badges.fedoraproject.org/"
         },
         "blockerbugs": {
-            "message": "Everything seems to be working.",
+            "message": "Planned updates/reboots happening now.",
             "name": "Blockerbugs",
-            "status": "good",
+            "status": "scheduled",
             "url": "http://qa.fedoraproject.org/blockerbugs/"
         },
         "bodhi": {
-            "message": "Everything seems to be working.",
+            "message": "Planned updates/reboots happening now.",
             "name": "Package Updates Manager",
-            "status": "good",
+            "status": "scheduled",
             "url": "https://admin.fedoraproject.org/updates/"
         },
         "cloud": {
-            "message": "Everything seems to be working.",
+            "message": "Planned updates/reboots happening now.",
             "name": "Fedora Infrastructure Cloud",
-            "status": "good",
+            "status": "scheduled",
             "url": "https://fedorainfracloud.org/"
         },
         "copr": {
-            "message": "Everything seems to be working.",
+            "message": "Planned updates/reboots happening now.",
             "name": "COPR Build System",
-            "status": "good",
+            "status": "scheduled",
             "url": "https://copr.fedoraproject.org/"
         },
         "docs": {
-            "message": "Everything seems to be working.",
+            "message": "Planned updates/reboots happening now.",
             "name": "Documentation website",
-            "status": "good",
+            "status": "scheduled",
             "url": "http://docs.fedoraproject.org/"
         },
         "elections": {
-            "message": "Everything seems to be working.",
+            "message": "Planned updates/reboots happening now.",
             "name": "Fedora elections",
-            "status": "good",
+            "status": "scheduled",
             "url": "https://admin.fedoraproject.org/voting/"
         },
         "fas": {
-            "message": "Everything seems to be working.",
+            "message": "Planned updates/reboots happening now.",
             "name": "Account System",
-            "status": "good",
+            "status": "scheduled",
             "url": "https://admin.fedoraproject.org/accounts/"
         },
         "fedmsg": {
-            "message": "Everything seems to be working.",
+            "message": "Planned updates/reboots happening now.",
             "name": "Fedora Messaging Bus",
-            "status": "good",
+            "status": "scheduled",
             "url": "https://admin.fedoraproject.org/pkgdb/acls/name/fedmsg"
         },
         "fedocal": {
-            "message": "Everything seems to be working.",
+            "message": "Planned updates/reboots happening now.",
             "name": "Fedora Calendar",
-            "status": "good",
+            "status": "scheduled",
             "url": "https://apps.fedoraproject.org/fedocal/"
         },
         "fedorapaste": {
-            "message": "Everything seems to be working.",
+            "message": "Planned updates/reboots happening now.",
             "name": "Fedora pastebin service",
-            "status": "good",
+            "status": "scheduled",
             "url": "https://paste.fedorahosted.org/"
         },
         "koji": {
-            "message": "Everything seems to be working.",
+            "message": "Planned updates/reboots happening now.",
             "name": "The Koji Buildsystem",
-            "status": "good",
+            "status": "scheduled",
             "url": "http://koji.fedoraproject.org/koji/"
         },
         "koschei": {
-            "message": "Everything seems to be working.",
+            "message": "Planned updates/reboots happening now.",
             "name": "Koschei Continuous Integration",
-            "status": "good",
+            "status": "scheduled",
             "url": "https://apps.fedoraproject.org/koschei/"
         },
         "krb": {
-            "message": "Everything seems to be working.",
+            "message": "Planned updates/reboots happening now.",
             "name": "Kerberos",
-            "status": "good",
+            "status": "scheduled",
             "url": "https://id.fedoraproject.org/"
         },
         "mailinglists": {
-            "message": "Everything seems to be working.",
+            "message": "Planned updates/reboots happening now.",
             "name": "Mailing Lists",
-            "status": "good",
+            "status": "scheduled",
             "url": "http://lists.fedoraproject.org/"
         },
         "mirrorlist": {
-            "message": "Everything seems to be working.",
+            "message": "Planned updates/reboots happening now.",
             "name": "Mirror List",
-            "status": "good",
+            "status": "scheduled",
             "url": "http://mirrors.fedoraproject.org/publiclist/"
         },
         "mirrormanager": {
-            "message": "Everything seems to be working.",
+            "message": "Planned updates/reboots happening now.",
             "name": "Mirror Manager",
-            "status": "good",
+            "status": "scheduled",
             "url": "http://mirrors.fedoraproject.org/"
         },
         "packages": {
-            "message": "Everything seems to be working.",
+            "message": "Planned updates/reboots happening now.",
             "name": "Fedora Packages App",
-            "status": "good",
+            "status": "scheduled",
             "url": "https://apps.fedoraproject.org/packages"
         },
         "pagure": {
-            "message": "Everything seems to be working.",
+            "message": "Planned updates/reboots happening now.",
             "name": "Pagure",
-            "status": "good",
+            "status": "scheduled",
             "url": "https://pagure.io"
         },
         "people": {
-            "message": "Everything seems to be working.",
+            "message": "Planned updates/reboots happening now.",
             "name": "Fedora People",
-            "status": "good",
+            "status": "scheduled",
             "url": "https://fedorapeople.org/"
         },
         "pkgdb": {
-            "message": "Everything seems to be working.",
+            "message": "Planned updates/reboots happening now.",
             "name": "Package Database",
-            "status": "good",
+            "status": "scheduled",
             "url": "https://admin.fedoraproject.org/pkgdb/"
         },
         "pkgs": {
             "mailinglists": "Fedora mailing lists",
-            "message": "Everything seems to be working.",
+            "message": "Planned updates/reboots happening now.",
             "name": "Package maintainers git repositories",
-            "status": "good",
+            "status": "scheduled",
             "url": "http://pkgs.fedoraproject.org/"
         },
         "registry": {
-            "message": "Everything seems to be working.",
+            "message": "Planned updates/reboots happening now.",
             "name": "Fedora Container Registry",
-            "status": "good",
+            "status": "scheduled",
             "url": "https://registry.fedoraproject.org/"
         },
         "tagger": {
-            "message": "Everything seems to be working.",
+            "message": "Planned updates/reboots happening now.",
             "name": "Tagger",
-            "status": "good",
+            "status": "scheduled",
             "url": "https://apps.fedoraproject.org/tagger/"
         },
         "website": {
-            "message": "Everything seems to be working.",
+            "message": "Planned updates/reboots happening now.",
             "name": "Fedora websites",
-            "status": "good",
+            "status": "scheduled",
             "url": "http://fedoraproject.org/"
         },
         "wiki": {
-            "message": "Everything seems to be working.",
+            "message": "Planned updates/reboots happening now.",
             "name": "Fedora Wiki",
-            "status": "good",
+            "status": "scheduled",
             "url": "https://fedoraproject.org/wiki/Fedora_Project_Wiki"
         },
         "zodbot": {
-            "message": "Everything seems to be working.",
+            "message": "Planned updates/reboots happening now.",
             "name": "Zodbot IRC bot",
-            "status": "good",
+            "status": "scheduled",
             "url": "https://fedoraproject.org/wiki/Zodbot"
         }
     }
