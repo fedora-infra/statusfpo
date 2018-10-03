@@ -2,6 +2,14 @@ callback([
     {
         "changetype": "single",
         "service": "koji",
+        "status": "good",
+        "new_global_status": "good",
+        "message": "Everything seems to be working.",
+        "changedate": 1538594685.809712
+    },
+    {
+        "changetype": "single",
+        "service": "koji",
         "status": "major",
         "new_global_status": "major",
         "message": "issues with koji hub",
