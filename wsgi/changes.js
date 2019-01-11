@@ -1,5 +1,13 @@
 callback([
     {
+        "changetype": "single",
+        "service": "koji",
+        "status": "scheduled",
+        "new_global_status": "scheduled",
+        "message": "Scheduled outage of s390x builders is in progress",
+        "changedate": 1547243926.0644782
+    },
+    {
         "changetype": "multiple",
         "services": [
             "authentication",
