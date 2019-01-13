@@ -76,9 +76,9 @@ callback({
             "url": "https://paste.fedorahosted.org/"
         },
         "koji": {
-            "message": "Scheduled outage of s390x builders is in progress",
+            "message": "Everything seems to be working.",
             "name": "The Koji Buildsystem",
-            "status": "scheduled",
+            "status": "good",
             "url": "http://koji.fedoraproject.org/koji/"
         },
         "koschei": {

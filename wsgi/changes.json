@@ -2,6 +2,14 @@
     {
         "changetype": "single",
         "service": "koji",
+        "status": "good",
+        "new_global_status": "good",
+        "message": "Everything seems to be working.",
+        "changedate": 1547417055.3777208
+    },
+    {
+        "changetype": "single",
+        "service": "koji",
         "status": "scheduled",
         "new_global_status": "scheduled",
         "message": "Scheduled outage of s390x builders is in progress",
