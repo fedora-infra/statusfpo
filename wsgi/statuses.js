@@ -112,9 +112,9 @@ callback({
             "url": "http://mirrors.fedoraproject.org/"
         },
         "packages": {
-            "message": "Scheduled maintenance is in progress.",
+            "message": "Everything seems to be working.",
             "name": "Fedora Packages App",
-            "status": "scheduled",
+            "status": "good",
             "url": "https://apps.fedoraproject.org/packages"
         },
         "pagure": {
