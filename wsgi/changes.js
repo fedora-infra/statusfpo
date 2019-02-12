@@ -1,5 +1,13 @@
 callback([
     {
+        "changetype": "single",
+        "service": "packages",
+        "status": "scheduled",
+        "new_global_status": "scheduled",
+        "message": "Scheduled maintenance is in progress.",
+        "changedate": 1549958369.9282715
+    },
+    {
         "changetype": "multiple",
         "services": [
             "authentication",

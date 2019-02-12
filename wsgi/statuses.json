@@ -112,9 +112,9 @@
             "url": "http://mirrors.fedoraproject.org/"
         },
         "packages": {
-            "message": "Everything seems to be working.",
+            "message": "Scheduled maintenance is in progress.",
             "name": "Fedora Packages App",
-            "status": "good",
+            "status": "scheduled",
             "url": "https://apps.fedoraproject.org/packages"
         },
         "pagure": {
