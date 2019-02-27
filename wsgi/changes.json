@@ -2,6 +2,14 @@
     {
         "changetype": "single",
         "service": "pkgs",
+        "status": "good",
+        "new_global_status": "good",
+        "message": "Everything seems to be working.",
+        "changedate": 1551263933.3649826
+    },
+    {
+        "changetype": "single",
+        "service": "pkgs",
         "status": "scheduled",
         "new_global_status": "scheduled",
         "message": "Upgrading to a newer pagure",
