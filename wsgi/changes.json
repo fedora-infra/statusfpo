@@ -1,6 +1,14 @@
 [
     {
         "changetype": "single",
+        "service": "pkgs",
+        "status": "scheduled",
+        "new_global_status": "scheduled",
+        "message": "Upgrading to a newer pagure",
+        "changedate": 1551263811.5679762
+    },
+    {
+        "changetype": "single",
         "service": "packages",
         "status": "good",
         "new_global_status": "good",
