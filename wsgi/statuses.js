@@ -4,172 +4,172 @@ callback({
     "global_verbose_status": "Major service disruption",
     "services": {
         "authentication": {
-            "message": "We are updating buildsystems",
+            "message": "Everything seems to be working.",
             "name": "Ipsilon",
-            "status": "major",
+            "status": "good",
             "url": "https://id.fedoraproject.org/"
         },
         "badges": {
-            "message": "We are updating buildsystems",
+            "message": "Everything seems to be working.",
             "name": "Badges",
-            "status": "major",
+            "status": "good",
             "url": "http:/badges.fedoraproject.org/"
         },
         "blockerbugs": {
-            "message": "We are updating buildsystems",
+            "message": "Everything seems to be working.",
             "name": "Blockerbugs",
-            "status": "major",
+            "status": "good",
             "url": "http://qa.fedoraproject.org/blockerbugs/"
         },
         "bodhi": {
-            "message": "We are updating buildsystems",
+            "message": "Everything seems to be working.",
             "name": "Package Updates Manager",
-            "status": "major",
+            "status": "good",
             "url": "https://admin.fedoraproject.org/updates/"
         },
         "cloud": {
-            "message": "We are updating buildsystems",
+            "message": "Everything seems to be working.",
             "name": "Fedora Infrastructure Cloud",
-            "status": "major",
+            "status": "good",
             "url": "https://fedorainfracloud.org/"
         },
         "copr": {
-            "message": "We are updating buildsystems",
+            "message": "Everything seems to be working.",
             "name": "COPR Build System",
-            "status": "major",
+            "status": "good",
             "url": "https://copr.fedoraproject.org/"
         },
         "docs": {
-            "message": "We are updating buildsystems",
+            "message": "Everything seems to be working.",
             "name": "Documentation website",
-            "status": "major",
+            "status": "good",
             "url": "http://docs.fedoraproject.org/"
         },
         "elections": {
-            "message": "We are updating buildsystems",
+            "message": "Everything seems to be working.",
             "name": "Fedora elections",
-            "status": "major",
+            "status": "good",
             "url": "https://admin.fedoraproject.org/voting/"
         },
         "fas": {
-            "message": "We are updating buildsystems",
+            "message": "Everything seems to be working.",
             "name": "Account System",
-            "status": "major",
+            "status": "good",
             "url": "https://admin.fedoraproject.org/accounts/"
         },
         "fedmsg": {
-            "message": "We are updating buildsystems",
+            "message": "Everything seems to be working.",
             "name": "Fedora Messaging Bus",
-            "status": "major",
+            "status": "good",
             "url": "https://admin.fedoraproject.org/pkgdb/acls/name/fedmsg"
         },
         "fedocal": {
-            "message": "We are updating buildsystems",
+            "message": "Everything seems to be working.",
             "name": "Fedora Calendar",
-            "status": "major",
+            "status": "good",
             "url": "https://apps.fedoraproject.org/fedocal/"
         },
         "fedorapaste": {
-            "message": "We are updating buildsystems",
+            "message": "Everything seems to be working.",
             "name": "Fedora pastebin service",
-            "status": "major",
+            "status": "good",
             "url": "https://paste.fedorahosted.org/"
         },
         "koji": {
-            "message": "We are updating buildsystems",
+            "message": "Everything seems to be working.",
             "name": "The Koji Buildsystem",
-            "status": "major",
+            "status": "good",
             "url": "http://koji.fedoraproject.org/koji/"
         },
         "koschei": {
-            "message": "We are updating buildsystems",
+            "message": "Everything seems to be working.",
             "name": "Koschei Continuous Integration",
-            "status": "major",
+            "status": "good",
             "url": "https://apps.fedoraproject.org/koschei/"
         },
         "krb": {
-            "message": "We are updating buildsystems",
+            "message": "Everything seems to be working.",
             "name": "Kerberos",
-            "status": "major",
+            "status": "good",
             "url": "https://id.fedoraproject.org/"
         },
         "mailinglists": {
-            "message": "We are updating buildsystems",
+            "message": "Everything seems to be working.",
             "name": "Mailing Lists",
-            "status": "major",
+            "status": "good",
             "url": "http://lists.fedoraproject.org/"
         },
         "mirrorlist": {
-            "message": "We are updating buildsystems",
+            "message": "Everything seems to be working.",
             "name": "Mirror List",
-            "status": "major",
+            "status": "good",
             "url": "http://mirrors.fedoraproject.org/publiclist/"
         },
         "mirrormanager": {
-            "message": "We are updating buildsystems",
+            "message": "Everything seems to be working.",
             "name": "Mirror Manager",
-            "status": "major",
+            "status": "good",
             "url": "http://mirrors.fedoraproject.org/"
         },
         "packages": {
-            "message": "We are updating buildsystems",
+            "message": "Everything seems to be working.",
             "name": "Fedora Packages App",
-            "status": "major",
+            "status": "good",
             "url": "https://apps.fedoraproject.org/packages"
         },
         "pagure": {
-            "message": "We are updating buildsystems",
+            "message": "Everything seems to be working.",
             "name": "Pagure",
-            "status": "major",
+            "status": "good",
             "url": "https://pagure.io"
         },
         "people": {
-            "message": "We are updating buildsystems",
+            "message": "Everything seems to be working.",
             "name": "Fedora People",
-            "status": "major",
+            "status": "good",
             "url": "https://fedorapeople.org/"
         },
         "pkgdb": {
-            "message": "We are updating buildsystems",
+            "message": "Everything seems to be working.",
             "name": "Package Database",
-            "status": "major",
+            "status": "good",
             "url": "https://admin.fedoraproject.org/pkgdb/"
         },
         "pkgs": {
             "mailinglists": "Fedora mailing lists",
-            "message": "We are updating buildsystems",
+            "message": "Everything seems to be working.",
             "name": "Package maintainers git repositories",
-            "status": "major",
+            "status": "good",
             "url": "http://pkgs.fedoraproject.org/"
         },
         "registry": {
-            "message": "We are updating buildsystems",
+            "message": "Everything seems to be working.",
             "name": "Fedora Container Registry",
-            "status": "major",
+            "status": "good",
             "url": "https://registry.fedoraproject.org/"
         },
         "tagger": {
-            "message": "We are updating buildsystems",
+            "message": "Everything seems to be working.",
             "name": "Tagger",
-            "status": "major",
+            "status": "good",
             "url": "https://apps.fedoraproject.org/tagger/"
         },
         "website": {
-            "message": "We are updating buildsystems",
+            "message": "Everything seems to be working.",
             "name": "Fedora websites",
-            "status": "major",
+            "status": "good",
             "url": "http://fedoraproject.org/"
         },
         "wiki": {
-            "message": "We are updating buildsystems",
+            "message": "Everything seems to be working.",
             "name": "Fedora Wiki",
-            "status": "major",
+            "status": "good",
             "url": "https://fedoraproject.org/wiki/Fedora_Project_Wiki"
         },
         "zodbot": {
-            "message": "We are updating buildsystems",
+            "message": "Everything seems to be working.",
             "name": "Zodbot IRC bot",
-            "status": "major",
+            "status": "good",
             "url": "https://fedoraproject.org/wiki/Zodbot"
         }
     }

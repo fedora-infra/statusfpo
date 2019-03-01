@@ -1,5 +1,45 @@
 [
     {
+        "new_global_status": "good",
+        "status": "good",
+        "message": "Everything seems to be working.",
+        "services": [
+            "pkgdb",
+            "wiki",
+            "registry",
+            "copr",
+            "docs",
+            "mirrormanager",
+            "badges",
+            "fas",
+            "pagure",
+            "website",
+            "zodbot",
+            "koji",
+            "authentication",
+            "people",
+            "krb",
+            "fedocal",
+            "blockerbugs",
+            "elections",
+            "bodhi",
+            "pkgs",
+            "fedorapaste",
+            "fedmsg",
+            "koschei",
+            "mirrorlist",
+            "packages",
+            "cloud",
+            "mailinglists",
+            "tagger"
+        ],
+        "changetype": "multiple",
+        "changedate": 1551474967.518052
+    },
+    {
+        "new_global_status": "major",
+        "status": "major",
+        "message": "We are updating buildsystems",
         "services": [
             "registry",
             "cloud",
@@ -31,12 +71,12 @@
             "elections"
         ],
         "changedate": 1551472696.4428618,
-        "message": "We are updating buildsystems",
-        "changetype": "multiple",
-        "status": "major",
-        "new_global_status": "major"
+        "changetype": "multiple"
     },
     {
+        "new_global_status": "good",
+        "status": "good",
+        "message": "Everything seems to be working.",
         "services": [
             "authentication",
             "badges",
@@ -68,12 +108,12 @@
             "zodbot"
         ],
         "changedate": 1551311414.369744,
-        "message": "Everything seems to be working.",
-        "changetype": "multiple",
-        "status": "good",
-        "new_global_status": "good"
+        "changetype": "multiple"
     },
     {
+        "new_global_status": "scheduled",
+        "status": "scheduled",
+        "message": "scheduled outage: https://pagure.io/fedora-infrastructure/issue/7591",
         "services": [
             "authentication",
             "badges",
@@ -105,44 +145,44 @@
             "zodbot"
         ],
         "changedate": 1551297533.4838793,
-        "message": "scheduled outage: https://pagure.io/fedora-infrastructure/issue/7591",
-        "changetype": "multiple",
-        "status": "scheduled",
-        "new_global_status": "scheduled"
+        "changetype": "multiple"
     },
     {
+        "new_global_status": "good",
+        "status": "good",
+        "message": "Everything seems to be working.",
         "service": "pkgs",
         "changedate": 1551263933.3649826,
-        "message": "Everything seems to be working.",
-        "changetype": "single",
-        "status": "good",
-        "new_global_status": "good"
+        "changetype": "single"
     },
     {
+        "new_global_status": "scheduled",
+        "status": "scheduled",
+        "message": "Upgrading to a newer pagure",
         "service": "pkgs",
         "changedate": 1551263811.5679762,
-        "message": "Upgrading to a newer pagure",
-        "changetype": "single",
-        "status": "scheduled",
-        "new_global_status": "scheduled"
+        "changetype": "single"
     },
     {
+        "new_global_status": "good",
+        "status": "good",
+        "message": "Everything seems to be working.",
         "service": "packages",
         "changedate": 1549963883.746489,
-        "message": "Everything seems to be working.",
-        "changetype": "single",
-        "status": "good",
-        "new_global_status": "good"
+        "changetype": "single"
     },
     {
+        "new_global_status": "scheduled",
+        "status": "scheduled",
+        "message": "Scheduled maintenance is in progress.",
         "service": "packages",
         "changedate": 1549958369.9282715,
-        "message": "Scheduled maintenance is in progress.",
-        "changetype": "single",
-        "status": "scheduled",
-        "new_global_status": "scheduled"
+        "changetype": "single"
     },
     {
+        "new_global_status": "good",
+        "status": "good",
+        "message": "Everything seems to be working.",
         "services": [
             "authentication",
             "badges",
@@ -174,12 +214,12 @@
             "zodbot"
         ],
         "changedate": 1549155487.9148479,
-        "message": "Everything seems to be working.",
-        "changetype": "multiple",
-        "status": "good",
-        "new_global_status": "good"
+        "changetype": "multiple"
     },
     {
+        "new_global_status": "scheduled",
+        "status": "scheduled",
+        "message": "scheduled outage: https://pagure.io/fedora-infrastructure/issue/7535",
         "services": [
             "authentication",
             "badges",
@@ -211,28 +251,28 @@
             "zodbot"
         ],
         "changedate": 1549131017.4177816,
-        "message": "scheduled outage: https://pagure.io/fedora-infrastructure/issue/7535",
-        "changetype": "multiple",
-        "status": "scheduled",
-        "new_global_status": "scheduled"
+        "changetype": "multiple"
     },
     {
+        "new_global_status": "good",
+        "status": "good",
+        "message": "Everything seems to be working.",
         "service": "koji",
         "changedate": 1547417055.3777208,
-        "message": "Everything seems to be working.",
-        "changetype": "single",
-        "status": "good",
-        "new_global_status": "good"
+        "changetype": "single"
     },
     {
+        "new_global_status": "scheduled",
+        "status": "scheduled",
+        "message": "Scheduled outage of s390x builders is in progress",
         "service": "koji",
         "changedate": 1547243926.0644782,
-        "message": "Scheduled outage of s390x builders is in progress",
-        "changetype": "single",
-        "status": "scheduled",
-        "new_global_status": "scheduled"
+        "changetype": "single"
     },
     {
+        "new_global_status": "good",
+        "status": "good",
+        "message": "Everything seems to be working.",
         "services": [
             "authentication",
             "badges",
@@ -264,12 +304,12 @@
             "zodbot"
         ],
         "changedate": 1545163259.8389895,
-        "message": "Everything seems to be working.",
-        "changetype": "multiple",
-        "status": "good",
-        "new_global_status": "good"
+        "changetype": "multiple"
     },
     {
+        "new_global_status": "scheduled",
+        "status": "scheduled",
+        "message": "scheduled outage: https://pagure.io/fedora-infrastructure/issue/7445",
         "services": [
             "authentication",
             "badges",
@@ -301,12 +341,12 @@
             "zodbot"
         ],
         "changedate": 1545156640.8048377,
-        "message": "scheduled outage: https://pagure.io/fedora-infrastructure/issue/7445",
-        "changetype": "multiple",
-        "status": "scheduled",
-        "new_global_status": "scheduled"
+        "changetype": "multiple"
     },
     {
+        "new_global_status": "good",
+        "status": "good",
+        "message": "Everything seems to be working.",
         "services": [
             "authentication",
             "badges",
@@ -338,12 +378,12 @@
             "zodbot"
         ],
         "changedate": 1541633343.3736548,
-        "message": "Everything seems to be working.",
-        "changetype": "multiple",
-        "status": "good",
-        "new_global_status": "good"
+        "changetype": "multiple"
     },
     {
+        "new_global_status": "scheduled",
+        "status": "scheduled",
+        "message": "planned outage",
         "services": [
             "authentication",
             "badges",
@@ -375,12 +415,12 @@
             "zodbot"
         ],
         "changedate": 1541624636.502064,
-        "message": "planned outage",
-        "changetype": "multiple",
-        "status": "scheduled",
-        "new_global_status": "scheduled"
+        "changetype": "multiple"
     },
     {
+        "new_global_status": "good",
+        "status": "good",
+        "message": "Everything seems to be working.",
         "services": [
             "authentication",
             "badges",
@@ -412,12 +452,12 @@
             "zodbot"
         ],
         "changedate": 1538618455.4438117,
-        "message": "Everything seems to be working.",
-        "changetype": "multiple",
-        "status": "good",
-        "new_global_status": "good"
+        "changetype": "multiple"
     },
     {
+        "new_global_status": "scheduled",
+        "status": "scheduled",
+        "message": "Planned updates/reboots happening now.",
         "services": [
             "authentication",
             "badges",
@@ -449,60 +489,60 @@
             "zodbot"
         ],
         "changedate": 1538600451.9068372,
-        "message": "Planned updates/reboots happening now.",
-        "changetype": "multiple",
-        "status": "scheduled",
-        "new_global_status": "scheduled"
+        "changetype": "multiple"
     },
     {
+        "new_global_status": "good",
+        "status": "good",
+        "message": "Everything seems to be working.",
         "service": "koji",
         "changedate": 1538594685.809712,
-        "message": "Everything seems to be working.",
-        "changetype": "single",
-        "status": "good",
-        "new_global_status": "good"
+        "changetype": "single"
     },
     {
+        "new_global_status": "major",
+        "status": "major",
+        "message": "issues with koji hub",
         "service": "koji",
         "changedate": 1538592387.8939424,
-        "message": "issues with koji hub",
-        "changetype": "single",
-        "status": "major",
-        "new_global_status": "major"
+        "changetype": "single"
     },
     {
+        "new_global_status": "good",
+        "status": "good",
+        "message": "Everything seems to be working.",
         "service": "bodhi",
         "changedate": 1538094795.4912026,
-        "message": "Everything seems to be working.",
-        "changetype": "single",
-        "status": "good",
-        "new_global_status": "good"
+        "changetype": "single"
     },
     {
+        "new_global_status": "scheduled",
+        "status": "scheduled",
+        "message": "planned outage",
         "service": "bodhi",
         "changedate": 1538090112.4055285,
-        "message": "planned outage",
-        "changetype": "single",
-        "status": "scheduled",
-        "new_global_status": "scheduled"
+        "changetype": "single"
     },
     {
+        "new_global_status": "good",
+        "status": "good",
+        "message": "Everything seems to be working.",
         "service": "registry",
         "changedate": 1534894959.7969387,
-        "message": "Everything seems to be working.",
-        "changetype": "single",
-        "status": "good",
-        "new_global_status": "good"
+        "changetype": "single"
     },
     {
+        "new_global_status": "scheduled",
+        "status": "scheduled",
+        "message": "Planned rebuild of Fedora Container Registry",
         "service": "registry",
         "changedate": 1534870941.7565722,
-        "message": "Planned rebuild of Fedora Container Registry",
-        "changetype": "single",
-        "status": "scheduled",
-        "new_global_status": "scheduled"
+        "changetype": "single"
     },
     {
+        "new_global_status": "good",
+        "status": "good",
+        "message": "Everything seems to be working.",
         "services": [
             "authentication",
             "badges",
@@ -534,12 +574,12 @@
             "zodbot"
         ],
         "changedate": 1534483469.8105183,
-        "message": "Everything seems to be working.",
-        "changetype": "multiple",
-        "status": "good",
-        "new_global_status": "good"
+        "changetype": "multiple"
     },
     {
+        "new_global_status": "major",
+        "status": "major",
+        "message": "vpn issues",
         "services": [
             "authentication",
             "badges",
@@ -571,12 +611,12 @@
             "zodbot"
         ],
         "changedate": 1534479447.8497517,
-        "message": "vpn issues",
-        "changetype": "multiple",
-        "status": "major",
-        "new_global_status": "major"
+        "changetype": "multiple"
     },
     {
+        "new_global_status": "good",
+        "status": "good",
+        "message": "Everything seems to be working.",
         "services": [
             "authentication",
             "badges",
@@ -608,12 +648,12 @@
             "zodbot"
         ],
         "changedate": 1532066808.3737772,
-        "message": "Everything seems to be working.",
-        "changetype": "multiple",
-        "status": "good",
-        "new_global_status": "good"
+        "changetype": "multiple"
     },
     {
+        "new_global_status": "major",
+        "status": "major",
+        "message": "Apparent networking outage in our primary colo.",
         "services": [
             "authentication",
             "badges",
@@ -645,28 +685,28 @@
             "zodbot"
         ],
         "changedate": 1532066249.8909495,
-        "message": "Apparent networking outage in our primary colo.",
-        "changetype": "multiple",
-        "status": "major",
-        "new_global_status": "major"
+        "changetype": "multiple"
     },
     {
+        "new_global_status": "good",
+        "status": "good",
+        "message": "Everything seems to be working.",
         "service": "people",
         "changedate": 1531253736.6996243,
-        "message": "Everything seems to be working.",
-        "changetype": "single",
-        "status": "good",
-        "new_global_status": "good"
+        "changetype": "single"
     },
     {
+        "new_global_status": "scheduled",
+        "status": "scheduled",
+        "message": "Scheduled maintenance in progress",
         "service": "people",
         "changedate": 1531240348.125521,
-        "message": "Scheduled maintenance in progress",
-        "changetype": "single",
-        "status": "scheduled",
-        "new_global_status": "scheduled"
+        "changetype": "single"
     },
     {
+        "new_global_status": "good",
+        "status": "good",
+        "message": "Everything seems to be working.",
         "services": [
             "authentication",
             "badges",
@@ -698,12 +738,12 @@
             "zodbot"
         ],
         "changedate": 1530661963.4621198,
-        "message": "Everything seems to be working.",
-        "changetype": "multiple",
-        "status": "good",
-        "new_global_status": "good"
+        "changetype": "multiple"
     },
     {
+        "new_global_status": "scheduled",
+        "status": "scheduled",
+        "message": "Planned infrastructure-wide outage for updates",
         "services": [
             "authentication",
             "badges",
@@ -735,12 +775,12 @@
             "zodbot"
         ],
         "changedate": 1530651689.3714063,
-        "message": "Planned infrastructure-wide outage for updates",
-        "changetype": "multiple",
-        "status": "scheduled",
-        "new_global_status": "scheduled"
+        "changetype": "multiple"
     },
     {
+        "new_global_status": "good",
+        "status": "good",
+        "message": "Everything seems to be working.",
         "services": [
             "bodhi",
             "cloud",
@@ -748,12 +788,12 @@
             "pkgdb"
         ],
         "changedate": 1530578051.3265083,
-        "message": "Everything seems to be working.",
-        "changetype": "multiple",
-        "status": "good",
-        "new_global_status": "good"
+        "changetype": "multiple"
     },
     {
+        "new_global_status": "scheduled",
+        "status": "scheduled",
+        "message": "Build and cloud systems down for planned maintenance",
         "services": [
             "bodhi",
             "koji",
@@ -761,9 +801,6 @@
             "cloud"
         ],
         "changedate": 1530565631.5523195,
-        "message": "Build and cloud systems down for planned maintenance",
-        "changetype": "multiple",
-        "status": "scheduled",
-        "new_global_status": "scheduled"
+        "changetype": "multiple"
     }
 ]
