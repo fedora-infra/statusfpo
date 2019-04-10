@@ -1,5 +1,13 @@
 callback([
     {
+        "changetype": "single",
+        "service": "pkgs",
+        "status": "major",
+        "new_global_status": "major",
+        "message": "Service is down for needed upgrade",
+        "changedate": 1554894235.1701472
+    },
+    {
         "changetype": "multiple",
         "services": [
             "authentication",

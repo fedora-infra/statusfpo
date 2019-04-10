@@ -137,9 +137,9 @@ callback({
         },
         "pkgs": {
             "mailinglists": "Fedora mailing lists",
-            "message": "Everything seems to be working.",
+            "message": "Service is down for needed upgrade",
             "name": "Package maintainers git repositories",
-            "status": "good",
+            "status": "major",
             "url": "http://pkgs.fedoraproject.org/"
         },
         "registry": {
