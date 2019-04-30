@@ -2,6 +2,14 @@ callback([
     {
         "changetype": "single",
         "service": "pagure",
+        "status": "good",
+        "new_global_status": "good",
+        "message": "Everything seems to be working.",
+        "changedate": 1556639519.285178
+    },
+    {
+        "changetype": "single",
+        "service": "pagure",
         "status": "major",
         "new_global_status": "major",
         "message": "Service is down for needed upgrade",
