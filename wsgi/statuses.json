@@ -118,9 +118,9 @@
             "url": "https://apps.fedoraproject.org/packages"
         },
         "pagure": {
-            "message": "Everything seems to be working.",
+            "message": "Service is down for needed upgrade",
             "name": "Pagure",
-            "status": "good",
+            "status": "major",
             "url": "https://pagure.io"
         },
         "people": {

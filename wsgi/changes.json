@@ -1,5 +1,13 @@
 [
     {
+        "changetype": "single",
+        "service": "pagure",
+        "status": "major",
+        "new_global_status": "major",
+        "message": "Service is down for needed upgrade",
+        "changedate": 1556633272.9454324
+    },
+    {
         "changetype": "multiple",
         "services": [
             "authentication",
