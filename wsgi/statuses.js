@@ -1,7 +1,7 @@
 callback({
     "global_info": "",
-    "global_status": "major",
-    "global_verbose_status": "Major service disruption",
+    "global_status": "scheduled",
+    "global_verbose_status": "There are scheduled downtimes in progress",
     "services": {
         "authentication": {
             "message": "Everything seems to be working.",
@@ -137,9 +137,9 @@ callback({
         },
         "pkgs": {
             "mailinglists": "Fedora mailing lists",
-            "message": "scheduled outage: https://pagure.io/fedora-infrastructure/issue/7756",
+            "message": "Everything seems to be working.",
             "name": "Package maintainers git repositories",
-            "status": "scheduled",
+            "status": "good",
             "url": "http://pkgs.fedoraproject.org/"
         },
         "registry": {

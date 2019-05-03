@@ -2,6 +2,14 @@
     {
         "changetype": "single",
         "service": "pkgs",
+        "status": "good",
+        "new_global_status": "good",
+        "message": "Everything seems to be working.",
+        "changedate": 1556910401.9771357
+    },
+    {
+        "changetype": "single",
+        "service": "pkgs",
         "status": "scheduled",
         "new_global_status": "scheduled",
         "message": "scheduled outage: https://pagure.io/fedora-infrastructure/issue/7756",
