@@ -4,172 +4,172 @@ callback({
     "global_verbose_status": "There are scheduled downtimes in progress",
     "services": {
         "authentication": {
-            "message": "Everything seems to be working.",
+            "message": "We are in a planned updates outage, see fedora-infrastrcture#7810 for details.",
             "name": "Ipsilon",
-            "status": "good",
+            "status": "scheduled",
             "url": "https://id.fedoraproject.org/"
         },
         "badges": {
-            "message": "Everything seems to be working.",
+            "message": "We are in a planned updates outage, see fedora-infrastrcture#7810 for details.",
             "name": "Badges",
-            "status": "good",
+            "status": "scheduled",
             "url": "http:/badges.fedoraproject.org/"
         },
         "blockerbugs": {
-            "message": "Everything seems to be working.",
+            "message": "We are in a planned updates outage, see fedora-infrastrcture#7810 for details.",
             "name": "Blockerbugs",
-            "status": "good",
+            "status": "scheduled",
             "url": "http://qa.fedoraproject.org/blockerbugs/"
         },
         "bodhi": {
-            "message": "Everything seems to be working.",
+            "message": "We are in a planned updates outage, see fedora-infrastrcture#7810 for details.",
             "name": "Package Updates Manager",
-            "status": "good",
+            "status": "scheduled",
             "url": "https://admin.fedoraproject.org/updates/"
         },
         "cloud": {
-            "message": "Everything seems to be working.",
+            "message": "We are in a planned updates outage, see fedora-infrastrcture#7810 for details.",
             "name": "Fedora Infrastructure Cloud",
-            "status": "good",
+            "status": "scheduled",
             "url": "https://fedorainfracloud.org/"
         },
         "copr": {
-            "message": "Everything seems to be working.",
+            "message": "We are in a planned updates outage, see fedora-infrastrcture#7810 for details.",
             "name": "COPR Build System",
-            "status": "good",
+            "status": "scheduled",
             "url": "https://copr.fedoraproject.org/"
         },
         "docs": {
-            "message": "Everything seems to be working.",
+            "message": "We are in a planned updates outage, see fedora-infrastrcture#7810 for details.",
             "name": "Documentation website",
-            "status": "good",
+            "status": "scheduled",
             "url": "http://docs.fedoraproject.org/"
         },
         "elections": {
-            "message": "Everything seems to be working.",
+            "message": "We are in a planned updates outage, see fedora-infrastrcture#7810 for details.",
             "name": "Fedora elections",
-            "status": "good",
+            "status": "scheduled",
             "url": "https://admin.fedoraproject.org/voting/"
         },
         "fas": {
-            "message": "Everything seems to be working.",
+            "message": "We are in a planned updates outage, see fedora-infrastrcture#7810 for details.",
             "name": "Account System",
-            "status": "good",
+            "status": "scheduled",
             "url": "https://admin.fedoraproject.org/accounts/"
         },
         "fedmsg": {
-            "message": "Everything seems to be working.",
+            "message": "We are in a planned updates outage, see fedora-infrastrcture#7810 for details.",
             "name": "Fedora Messaging Bus",
-            "status": "good",
+            "status": "scheduled",
             "url": "https://admin.fedoraproject.org/pkgdb/acls/name/fedmsg"
         },
         "fedocal": {
-            "message": "Everything seems to be working.",
+            "message": "We are in a planned updates outage, see fedora-infrastrcture#7810 for details.",
             "name": "Fedora Calendar",
-            "status": "good",
+            "status": "scheduled",
             "url": "https://apps.fedoraproject.org/fedocal/"
         },
         "fedorapaste": {
-            "message": "Everything seems to be working.",
+            "message": "We are in a planned updates outage, see fedora-infrastrcture#7810 for details.",
             "name": "Fedora pastebin service",
-            "status": "good",
+            "status": "scheduled",
             "url": "https://paste.fedorahosted.org/"
         },
         "koji": {
-            "message": "Everything seems to be working.",
+            "message": "We are in a planned updates outage, see fedora-infrastrcture#7810 for details.",
             "name": "The Koji Buildsystem",
-            "status": "good",
+            "status": "scheduled",
             "url": "http://koji.fedoraproject.org/koji/"
         },
         "koschei": {
-            "message": "Everything seems to be working.",
+            "message": "We are in a planned updates outage, see fedora-infrastrcture#7810 for details.",
             "name": "Koschei Continuous Integration",
-            "status": "good",
+            "status": "scheduled",
             "url": "https://apps.fedoraproject.org/koschei/"
         },
         "krb": {
-            "message": "Everything seems to be working.",
+            "message": "We are in a planned updates outage, see fedora-infrastrcture#7810 for details.",
             "name": "Kerberos",
-            "status": "good",
+            "status": "scheduled",
             "url": "https://id.fedoraproject.org/"
         },
         "mailinglists": {
-            "message": "Everything seems to be working.",
+            "message": "We are in a planned updates outage, see fedora-infrastrcture#7810 for details.",
             "name": "Mailing Lists",
-            "status": "good",
+            "status": "scheduled",
             "url": "http://lists.fedoraproject.org/"
         },
         "mirrorlist": {
-            "message": "Everything seems to be working.",
+            "message": "We are in a planned updates outage, see fedora-infrastrcture#7810 for details.",
             "name": "Mirror List",
-            "status": "good",
+            "status": "scheduled",
             "url": "http://mirrors.fedoraproject.org/publiclist/"
         },
         "mirrormanager": {
-            "message": "Everything seems to be working.",
+            "message": "We are in a planned updates outage, see fedora-infrastrcture#7810 for details.",
             "name": "Mirror Manager",
-            "status": "good",
+            "status": "scheduled",
             "url": "http://mirrors.fedoraproject.org/"
         },
         "packages": {
-            "message": "Everything seems to be working.",
+            "message": "We are in a planned updates outage, see fedora-infrastrcture#7810 for details.",
             "name": "Fedora Packages App",
-            "status": "good",
+            "status": "scheduled",
             "url": "https://apps.fedoraproject.org/packages"
         },
         "pagure": {
-            "message": "Everything seems to be working.",
+            "message": "We are in a planned updates outage, see fedora-infrastrcture#7810 for details.",
             "name": "Pagure",
-            "status": "good",
+            "status": "scheduled",
             "url": "https://pagure.io"
         },
         "people": {
-            "message": "Everything seems to be working.",
+            "message": "We are in a planned updates outage, see fedora-infrastrcture#7810 for details.",
             "name": "Fedora People",
-            "status": "good",
+            "status": "scheduled",
             "url": "https://fedorapeople.org/"
         },
         "pkgdb": {
-            "message": "Everything seems to be working.",
+            "message": "We are in a planned updates outage, see fedora-infrastrcture#7810 for details.",
             "name": "Package Database",
-            "status": "good",
+            "status": "scheduled",
             "url": "https://admin.fedoraproject.org/pkgdb/"
         },
         "pkgs": {
             "mailinglists": "Fedora mailing lists",
-            "message": "Everything seems to be working.",
+            "message": "We are in a planned updates outage, see fedora-infrastrcture#7810 for details.",
             "name": "Package maintainers git repositories",
-            "status": "good",
+            "status": "scheduled",
             "url": "http://pkgs.fedoraproject.org/"
         },
         "registry": {
-            "message": "Everything seems to be working.",
+            "message": "We are in a planned updates outage, see fedora-infrastrcture#7810 for details.",
             "name": "Fedora Container Registry",
-            "status": "good",
+            "status": "scheduled",
             "url": "https://registry.fedoraproject.org/"
         },
         "tagger": {
-            "message": "Everything seems to be working.",
+            "message": "We are in a planned updates outage, see fedora-infrastrcture#7810 for details.",
             "name": "Tagger",
-            "status": "good",
+            "status": "scheduled",
             "url": "https://apps.fedoraproject.org/tagger/"
         },
         "website": {
-            "message": "Everything seems to be working.",
+            "message": "We are in a planned updates outage, see fedora-infrastrcture#7810 for details.",
             "name": "Fedora websites",
-            "status": "good",
+            "status": "scheduled",
             "url": "http://fedoraproject.org/"
         },
         "wiki": {
-            "message": "Everything seems to be working.",
+            "message": "We are in a planned updates outage, see fedora-infrastrcture#7810 for details.",
             "name": "Fedora Wiki",
-            "status": "good",
+            "status": "scheduled",
             "url": "https://fedoraproject.org/wiki/Fedora_Project_Wiki"
         },
         "zodbot": {
-            "message": "Everything seems to be working.",
+            "message": "We are in a planned updates outage, see fedora-infrastrcture#7810 for details.",
             "name": "Zodbot IRC bot",
-            "status": "good",
+            "status": "scheduled",
             "url": "https://fedoraproject.org/wiki/Zodbot"
         }
     }
