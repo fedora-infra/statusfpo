@@ -148,6 +148,12 @@
             "status": "good",
             "url": "https://registry.fedoraproject.org/"
         },
+        "retrace": {
+            "message": "Everything seems to be working.",
+            "name": "ABRT Server",
+            "status": "good",
+            "url": "https://retrace.fedoraproject.org/"
+        },
         "tagger": {
             "message": "Everything seems to be working.",
             "name": "Tagger",
