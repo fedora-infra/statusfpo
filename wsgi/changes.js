@@ -1,5 +1,13 @@
 callback([
     {
+        "changetype": "single",
+        "service": "wiki",
+        "status": "scheduled",
+        "new_global_status": "scheduled",
+        "message": "scheduled outage: https://pagure.io/fedora-infrastructure/issue/7942",
+        "changedate": 1561669254.0017903
+    },
+    {
         "changetype": "multiple",
         "services": [
             "authentication",

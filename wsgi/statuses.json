@@ -167,9 +167,9 @@
             "url": "http://fedoraproject.org/"
         },
         "wiki": {
-            "message": "Everything seems to be working.",
+            "message": "scheduled outage: https://pagure.io/fedora-infrastructure/issue/7942",
             "name": "Fedora Wiki",
-            "status": "good",
+            "status": "scheduled",
             "url": "https://fedoraproject.org/wiki/Fedora_Project_Wiki"
         },
         "zodbot": {
