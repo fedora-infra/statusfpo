@@ -2,6 +2,14 @@ callback([
     {
         "changetype": "single",
         "service": "wiki",
+        "status": "good",
+        "new_global_status": "good",
+        "message": "Everything seems to be working.",
+        "changedate": 1561683956.0109656
+    },
+    {
+        "changetype": "single",
+        "service": "wiki",
         "status": "scheduled",
         "new_global_status": "scheduled",
         "message": "scheduled outage: https://pagure.io/fedora-infrastructure/issue/7942",

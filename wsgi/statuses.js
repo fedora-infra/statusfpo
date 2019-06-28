@@ -167,9 +167,9 @@ callback({
             "url": "http://fedoraproject.org/"
         },
         "wiki": {
-            "message": "scheduled outage: https://pagure.io/fedora-infrastructure/issue/7942",
+            "message": "Everything seems to be working.",
             "name": "Fedora Wiki",
-            "status": "scheduled",
+            "status": "good",
             "url": "https://fedoraproject.org/wiki/Fedora_Project_Wiki"
         },
         "zodbot": {
