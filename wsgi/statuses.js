@@ -1,7 +1,7 @@
 callback({
     "global_info": "",
-    "global_status": "good",
-    "global_verbose_status": "All systems go",
+    "global_status": "scheduled",
+    "global_verbose_status": "There are scheduled downtimes in progress",
     "services": {
         "authentication": {
             "message": "Everything seems to be working.",
@@ -118,9 +118,9 @@ callback({
             "url": "https://apps.fedoraproject.org/packages"
         },
         "pagure": {
-            "message": "scheduled outage: https://pagure.io/fedora-infrastructure/issue/7980",
+            "message": "Everything seems to be working.",
             "name": "Pagure",
-            "status": "scheduled",
+            "status": "good",
             "url": "https://pagure.io"
         },
         "people": {
