@@ -4,178 +4,178 @@ callback({
     "global_verbose_status": "There are scheduled downtimes in progress",
     "services": {
         "authentication": {
-            "message": "Everything seems to be working.",
+            "message": "Planned outage in effect: https://pagure.io/fedora-infrastructure/issue/8107",
             "name": "Ipsilon",
-            "status": "good",
+            "status": "scheduled",
             "url": "https://id.fedoraproject.org/"
         },
         "badges": {
-            "message": "Everything seems to be working.",
+            "message": "Planned outage in effect: https://pagure.io/fedora-infrastructure/issue/8107",
             "name": "Badges",
-            "status": "good",
+            "status": "scheduled",
             "url": "http:/badges.fedoraproject.org/"
         },
         "blockerbugs": {
-            "message": "Everything seems to be working.",
+            "message": "Planned outage in effect: https://pagure.io/fedora-infrastructure/issue/8107",
             "name": "Blockerbugs",
-            "status": "good",
+            "status": "scheduled",
             "url": "http://qa.fedoraproject.org/blockerbugs/"
         },
         "bodhi": {
-            "message": "Everything seems to be working.",
+            "message": "Planned outage in effect: https://pagure.io/fedora-infrastructure/issue/8107",
             "name": "Package Updates Manager",
-            "status": "good",
+            "status": "scheduled",
             "url": "https://admin.fedoraproject.org/updates/"
         },
         "cloud": {
-            "message": "Everything seems to be working.",
+            "message": "Planned outage in effect: https://pagure.io/fedora-infrastructure/issue/8107",
             "name": "Fedora Infrastructure Cloud",
-            "status": "good",
+            "status": "scheduled",
             "url": "https://fedorainfracloud.org/"
         },
         "copr": {
-            "message": "Everything seems to be working.",
+            "message": "Planned outage in effect: https://pagure.io/fedora-infrastructure/issue/8107",
             "name": "COPR Build System",
-            "status": "good",
+            "status": "scheduled",
             "url": "https://copr.fedoraproject.org/"
         },
         "docs": {
-            "message": "Everything seems to be working.",
+            "message": "Planned outage in effect: https://pagure.io/fedora-infrastructure/issue/8107",
             "name": "Documentation website",
-            "status": "good",
+            "status": "scheduled",
             "url": "http://docs.fedoraproject.org/"
         },
         "elections": {
-            "message": "Everything seems to be working.",
+            "message": "Planned outage in effect: https://pagure.io/fedora-infrastructure/issue/8107",
             "name": "Fedora elections",
-            "status": "good",
+            "status": "scheduled",
             "url": "https://admin.fedoraproject.org/voting/"
         },
         "fas": {
-            "message": "Everything seems to be working.",
+            "message": "Planned outage in effect: https://pagure.io/fedora-infrastructure/issue/8107",
             "name": "Account System",
-            "status": "good",
+            "status": "scheduled",
             "url": "https://admin.fedoraproject.org/accounts/"
         },
         "fedmsg": {
-            "message": "Everything seems to be working.",
+            "message": "Planned outage in effect: https://pagure.io/fedora-infrastructure/issue/8107",
             "name": "Fedora Messaging Bus",
-            "status": "good",
+            "status": "scheduled",
             "url": "https://admin.fedoraproject.org/pkgdb/acls/name/fedmsg"
         },
         "fedocal": {
-            "message": "Everything seems to be working.",
+            "message": "Planned outage in effect: https://pagure.io/fedora-infrastructure/issue/8107",
             "name": "Fedora Calendar",
-            "status": "good",
+            "status": "scheduled",
             "url": "https://apps.fedoraproject.org/fedocal/"
         },
         "fedorapaste": {
-            "message": "Everything seems to be working.",
+            "message": "Planned outage in effect: https://pagure.io/fedora-infrastructure/issue/8107",
             "name": "Fedora pastebin service",
-            "status": "good",
+            "status": "scheduled",
             "url": "https://paste.fedorahosted.org/"
         },
         "koji": {
-            "message": "Everything seems to be working.",
+            "message": "Planned outage in effect: https://pagure.io/fedora-infrastructure/issue/8107",
             "name": "The Koji Buildsystem",
-            "status": "good",
+            "status": "scheduled",
             "url": "http://koji.fedoraproject.org/koji/"
         },
         "koschei": {
-            "message": "Everything seems to be working.",
+            "message": "Planned outage in effect: https://pagure.io/fedora-infrastructure/issue/8107",
             "name": "Koschei Continuous Integration",
-            "status": "good",
+            "status": "scheduled",
             "url": "https://apps.fedoraproject.org/koschei/"
         },
         "krb": {
-            "message": "Everything seems to be working.",
+            "message": "Planned outage in effect: https://pagure.io/fedora-infrastructure/issue/8107",
             "name": "Kerberos",
-            "status": "good",
+            "status": "scheduled",
             "url": "https://id.fedoraproject.org/"
         },
         "mailinglists": {
-            "message": "Everything seems to be working.",
+            "message": "Planned outage in effect: https://pagure.io/fedora-infrastructure/issue/8107",
             "name": "Mailing Lists",
-            "status": "good",
+            "status": "scheduled",
             "url": "http://lists.fedoraproject.org/"
         },
         "mirrorlist": {
-            "message": "Everything seems to be working.",
+            "message": "Planned outage in effect: https://pagure.io/fedora-infrastructure/issue/8107",
             "name": "Mirror List",
-            "status": "good",
+            "status": "scheduled",
             "url": "http://mirrors.fedoraproject.org/publiclist/"
         },
         "mirrormanager": {
-            "message": "Everything seems to be working.",
+            "message": "Planned outage in effect: https://pagure.io/fedora-infrastructure/issue/8107",
             "name": "Mirror Manager",
-            "status": "good",
+            "status": "scheduled",
             "url": "http://mirrors.fedoraproject.org/"
         },
         "packages": {
-            "message": "Everything seems to be working.",
+            "message": "Planned outage in effect: https://pagure.io/fedora-infrastructure/issue/8107",
             "name": "Fedora Packages App",
-            "status": "good",
+            "status": "scheduled",
             "url": "https://apps.fedoraproject.org/packages"
         },
         "pagure": {
-            "message": "Everything seems to be working.",
+            "message": "Planned outage in effect: https://pagure.io/fedora-infrastructure/issue/8107",
             "name": "Pagure",
-            "status": "good",
+            "status": "scheduled",
             "url": "https://pagure.io"
         },
         "people": {
-            "message": "Everything seems to be working.",
+            "message": "Planned outage in effect: https://pagure.io/fedora-infrastructure/issue/8107",
             "name": "Fedora People",
-            "status": "good",
+            "status": "scheduled",
             "url": "https://fedorapeople.org/"
         },
         "pkgdb": {
-            "message": "Everything seems to be working.",
+            "message": "Planned outage in effect: https://pagure.io/fedora-infrastructure/issue/8107",
             "name": "Package Database",
-            "status": "good",
+            "status": "scheduled",
             "url": "https://admin.fedoraproject.org/pkgdb/"
         },
         "pkgs": {
             "mailinglists": "Fedora mailing lists",
-            "message": "Everything seems to be working.",
+            "message": "Planned outage in effect: https://pagure.io/fedora-infrastructure/issue/8107",
             "name": "Package maintainers git repositories",
-            "status": "good",
+            "status": "scheduled",
             "url": "http://pkgs.fedoraproject.org/"
         },
         "registry": {
-            "message": "Everything seems to be working.",
+            "message": "Planned outage in effect: https://pagure.io/fedora-infrastructure/issue/8107",
             "name": "Fedora Container Registry",
-            "status": "good",
+            "status": "scheduled",
             "url": "https://registry.fedoraproject.org/"
         },
         "retrace": {
-            "message": "Everything seems to be working.",
+            "message": "Planned outage in effect: https://pagure.io/fedora-infrastructure/issue/8107",
             "name": "ABRT Server",
-            "status": "good",
+            "status": "scheduled",
             "url": "https://retrace.fedoraproject.org/"
         },
         "tagger": {
-            "message": "Everything seems to be working.",
+            "message": "Planned outage in effect: https://pagure.io/fedora-infrastructure/issue/8107",
             "name": "Tagger",
-            "status": "good",
+            "status": "scheduled",
             "url": "https://apps.fedoraproject.org/tagger/"
         },
         "website": {
-            "message": "Everything seems to be working.",
+            "message": "Planned outage in effect: https://pagure.io/fedora-infrastructure/issue/8107",
             "name": "Fedora websites",
-            "status": "good",
+            "status": "scheduled",
             "url": "http://fedoraproject.org/"
         },
         "wiki": {
-            "message": "Everything seems to be working.",
+            "message": "Planned outage in effect: https://pagure.io/fedora-infrastructure/issue/8107",
             "name": "Fedora Wiki",
-            "status": "good",
+            "status": "scheduled",
             "url": "https://fedoraproject.org/wiki/Fedora_Project_Wiki"
         },
         "zodbot": {
-            "message": "Everything seems to be working.",
+            "message": "Planned outage in effect: https://pagure.io/fedora-infrastructure/issue/8107",
             "name": "Zodbot IRC bot",
-            "status": "good",
+            "status": "scheduled",
             "url": "https://fedoraproject.org/wiki/Zodbot"
         }
     }
