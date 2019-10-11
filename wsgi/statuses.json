@@ -1,7 +1,7 @@
 {
     "global_info": "",
-    "global_status": "good",
-    "global_verbose_status": "All systems go",
+    "global_status": "minor",
+    "global_verbose_status": "Minor service disruption",
     "services": {
         "authentication": {
             "message": "Everything seems to be working.",
@@ -76,9 +76,9 @@
             "url": "https://paste.fedorahosted.org/"
         },
         "koji": {
-            "message": "The Koji database is in a degraded speed state. We are investigating",
+            "message": "Everything seems to be working.",
             "name": "The Koji Buildsystem",
-            "status": "minor",
+            "status": "good",
             "url": "http://koji.fedoraproject.org/koji/"
         },
         "koschei": {

@@ -2,6 +2,14 @@ callback([
     {
         "changetype": "single",
         "service": "koji",
+        "status": "good",
+        "new_global_status": "good",
+        "message": "Everything seems to be working.",
+        "changedate": 1570810077.3530643
+    },
+    {
+        "changetype": "single",
+        "service": "koji",
         "status": "minor",
         "new_global_status": "minor",
         "message": "The Koji database is in a degraded speed state. We are investigating",
