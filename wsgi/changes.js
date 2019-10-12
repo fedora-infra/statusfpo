@@ -2,6 +2,14 @@ callback([
     {
         "changetype": "single",
         "service": "koji",
+        "status": "good",
+        "new_global_status": "good",
+        "message": "Everything seems to be working.",
+        "changedate": 1570844466.2028818
+    },
+    {
+        "changetype": "single",
+        "service": "koji",
         "status": "major",
         "new_global_status": "major",
         "message": "We are performing some database maintenance on Koji.",
