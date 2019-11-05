@@ -1,7 +1,7 @@
 callback({
-    "global_info": "https://pagure.io/fedora-infrastructure/issue/8355",
-    "global_status": "scheduled",
-    "global_verbose_status": "There are scheduled downtimes in progress",
+    "global_info": "",
+    "global_status": "good",
+    "global_verbose_status": "All systems go",
     "services": {
         "authentication": {
             "message": "Everything seems to be working.",
