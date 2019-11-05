@@ -1,7 +1,7 @@
 {
     "global_info": "https://pagure.io/fedora-infrastructure/issue/8355",
-    "global_status": "minor",
-    "global_verbose_status": "Minor service disruption",
+    "global_status": "scheduled",
+    "global_verbose_status": "There are scheduled downtimes in progress",
     "services": {
         "authentication": {
             "message": "Everything seems to be working.",
@@ -22,9 +22,9 @@
             "url": "http://qa.fedoraproject.org/blockerbugs/"
         },
         "bodhi": {
-            "message": "Down for scheduled outage",
+            "message": "Everything seems to be working.",
             "name": "Package Updates Manager",
-            "status": "scheduled",
+            "status": "good",
             "url": "https://admin.fedoraproject.org/updates/"
         },
         "cloud": {
@@ -76,15 +76,15 @@
             "url": "https://paste.fedorahosted.org/"
         },
         "koji": {
-            "message": "Down for scheduled outage",
+            "message": "Everything seems to be working.",
             "name": "The Koji Buildsystem",
-            "status": "scheduled",
+            "status": "good",
             "url": "http://koji.fedoraproject.org/koji/"
         },
         "koschei": {
-            "message": "Down for scheduled outage",
+            "message": "Everything seems to be working.",
             "name": "Koschei Continuous Integration",
-            "status": "scheduled",
+            "status": "good",
             "url": "https://apps.fedoraproject.org/koschei/"
         },
         "krb": {
@@ -137,9 +137,9 @@
         },
         "pkgs": {
             "mailinglists": "Fedora mailing lists",
-            "message": "Down for scheduled outage",
+            "message": "Everything seems to be working.",
             "name": "Package maintainers git repositories",
-            "status": "scheduled",
+            "status": "good",
             "url": "http://pkgs.fedoraproject.org/"
         },
         "registry": {
@@ -149,9 +149,9 @@
             "url": "https://registry.fedoraproject.org/"
         },
         "retrace": {
-            "message": "Down for scheduled outage",
+            "message": "Everything seems to be working.",
             "name": "ABRT Server",
-            "status": "scheduled",
+            "status": "good",
             "url": "https://retrace.fedoraproject.org/"
         },
         "tagger": {
