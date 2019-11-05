@@ -1,5 +1,19 @@
 callback([
     {
+        "changetype": "multiple",
+        "services": [
+            "koschei",
+            "pkgs",
+            "koji",
+            "bodhi",
+            "retrace"
+        ],
+        "status": "scheduled",
+        "new_global_status": "scheduled",
+        "message": "Down for scheduled outage",
+        "changedate": 1572987695.9409578
+    },
+    {
         "changetype": "single",
         "service": "koji",
         "status": "good",
