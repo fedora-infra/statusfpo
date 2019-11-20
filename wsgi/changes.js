@@ -1,5 +1,13 @@
 callback([
     {
+        "changetype": "single",
+        "service": "koji",
+        "status": "scheduled",
+        "new_global_status": "scheduled",
+        "message": "Planned koji outage happening now.",
+        "changedate": 1574287412.8640726
+    },
+    {
         "changetype": "multiple",
         "services": [
             "authentication",
