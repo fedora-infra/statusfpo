@@ -1,7 +1,7 @@
 {
     "global_info": "",
-    "global_status": "scheduled",
-    "global_verbose_status": "There are scheduled downtimes in progress",
+    "global_status": "good",
+    "global_verbose_status": "All systems go",
     "services": {
         "authentication": {
             "message": "Everything seems to be working.",
@@ -98,6 +98,12 @@
             "name": "Mailing Lists",
             "status": "good",
             "url": "http://lists.fedoraproject.org/"
+        },
+        "mbs": {
+            "message": "Everything seems to be working.",
+            "name": "Module Build Service",
+            "status": "good",
+            "url": "https://mbs.fedoraproject.org"
         },
         "mirrorlist": {
             "message": "Everything seems to be working.",
