@@ -11,7 +11,8 @@
 
 {% block content %}
 <div class="constraint">
-  <p align="center">(This page is manually updated with known outages)</p>
+  <p align="center">(This page is manually updated with <a href="https://apps.fedoraproject.org/calendar/list/infrastructure-outages/">known outages<a>.)<br />
+  You may also check <a href="https://nagios-external.fedoraproject.org/nagios/map.php?host=all">status of our Nagios monitoring</a>.</p>
   {% for service in statuses %}
   <div class="content topmargin {% if statuses[service].status == "good" %} green 
                                 {% elif statuses[service].status == "scheduled" %} orange 
