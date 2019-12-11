@@ -2,6 +2,14 @@ callback([
     {
         "changetype": "single",
         "service": "bodhi",
+        "status": "good",
+        "new_global_status": "good",
+        "message": "Everything seems to be working.",
+        "changedate": 1576061042.9290462
+    },
+    {
+        "changetype": "single",
+        "service": "bodhi",
         "status": "major",
         "new_global_status": "major",
         "message": "Something is up with bodhi, we're investigating",
