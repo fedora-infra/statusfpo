@@ -22,9 +22,9 @@ callback({
             "url": "http://qa.fedoraproject.org/blockerbugs/"
         },
         "bodhi": {
-            "message": "Everything seems to be working.",
+            "message": "a",
             "name": "Package Updates Manager",
-            "status": "good",
+            "status": "minor",
             "url": "https://admin.fedoraproject.org/updates/"
         },
         "cloud": {
