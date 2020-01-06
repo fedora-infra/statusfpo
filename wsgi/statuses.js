@@ -1,7 +1,7 @@
 callback({
     "global_info": "",
-    "global_status": "major",
-    "global_verbose_status": "Major service disruption",
+    "global_status": "minor",
+    "global_verbose_status": "Minor service disruption",
     "services": {
         "authentication": {
             "message": "Everything seems to be working.",
@@ -22,9 +22,9 @@ callback({
             "url": "http://qa.fedoraproject.org/blockerbugs/"
         },
         "bodhi": {
-            "message": "a",
+            "message": "Everything seems to be working.",
             "name": "Package Updates Manager",
-            "status": "minor",
+            "status": "good",
             "url": "https://admin.fedoraproject.org/updates/"
         },
         "cloud": {
