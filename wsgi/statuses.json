@@ -22,9 +22,9 @@
             "url": "http://qa.fedoraproject.org/blockerbugs/"
         },
         "bodhi": {
-            "message": "Bodhi is under investigation for misbehaving",
+            "message": "Everything seems to be working.",
             "name": "Package Updates Manager",
-            "status": "minor",
+            "status": "good",
             "url": "https://admin.fedoraproject.org/updates/"
         },
         "cloud": {
