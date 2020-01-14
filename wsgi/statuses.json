@@ -76,9 +76,9 @@
             "url": "https://paste.fedorahosted.org/"
         },
         "koji": {
-            "message": "Build systems will be offline for reboots",
+            "message": "scheduled buildsystem outage",
             "name": "The Koji Buildsystem",
-            "status": "major",
+            "status": "scheduled",
             "url": "http://koji.fedoraproject.org/koji/"
         },
         "koschei": {

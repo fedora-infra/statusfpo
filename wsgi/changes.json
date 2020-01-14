@@ -2,6 +2,14 @@
     {
         "changetype": "single",
         "service": "koji",
+        "status": "scheduled",
+        "new_global_status": "scheduled",
+        "message": "scheduled buildsystem outage",
+        "changedate": 1579035779.1019616
+    },
+    {
+        "changetype": "single",
+        "service": "koji",
         "status": "major",
         "new_global_status": "major",
         "message": "Build systems will be offline for reboots",
