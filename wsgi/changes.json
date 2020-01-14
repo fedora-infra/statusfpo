@@ -1,6 +1,14 @@
 [
     {
         "changetype": "single",
+        "service": "koji",
+        "status": "major",
+        "new_global_status": "major",
+        "message": "Build systems will be offline for reboots",
+        "changedate": 1579035714.0713367
+    },
+    {
+        "changetype": "single",
         "service": "bodhi",
         "status": "good",
         "new_global_status": "good",
