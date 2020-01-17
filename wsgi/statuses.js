@@ -76,9 +76,9 @@ callback({
             "url": "https://paste.fedorahosted.org/"
         },
         "koji": {
-            "message": "Everything seems to be working.",
+            "message": "koji is not responsive, the problem is under investigation",
             "name": "The Koji Buildsystem",
-            "status": "good",
+            "status": "major",
             "url": "http://koji.fedoraproject.org/koji/"
         },
         "koschei": {

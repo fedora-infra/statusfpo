@@ -1,5 +1,13 @@
 [
     {
+        "changetype": "single",
+        "service": "koji",
+        "status": "major",
+        "new_global_status": "major",
+        "message": "koji is not responsive, the problem is under investigation",
+        "changedate": 1579248487.647378
+    },
+    {
         "changetype": "multiple",
         "services": [
             "authentication",
