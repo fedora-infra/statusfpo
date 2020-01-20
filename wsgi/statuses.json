@@ -1,7 +1,7 @@
 {
     "global_info": "",
-    "global_status": "good",
-    "global_verbose_status": "All systems go",
+    "global_status": "major",
+    "global_verbose_status": "Major service disruption",
     "services": {
         "authentication": {
             "message": "Everything seems to be working.",
@@ -76,9 +76,9 @@
             "url": "https://paste.fedorahosted.org/"
         },
         "koji": {
-            "message": "https://pagure.io/fedora-infrastructure/issue/8562",
+            "message": "Everything seems to be working.",
             "name": "The Koji Buildsystem",
-            "status": "major",
+            "status": "good",
             "url": "http://koji.fedoraproject.org/koji/"
         },
         "koschei": {

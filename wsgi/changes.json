@@ -2,6 +2,14 @@
     {
         "changetype": "single",
         "service": "koji",
+        "status": "good",
+        "new_global_status": "good",
+        "message": "Everything seems to be working.",
+        "changedate": 1579557967.2397752
+    },
+    {
+        "changetype": "single",
+        "service": "koji",
         "status": "major",
         "new_global_status": "major",
         "message": "https://pagure.io/fedora-infrastructure/issue/8562",
