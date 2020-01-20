@@ -2,6 +2,14 @@ callback([
     {
         "changetype": "single",
         "service": "koji",
+        "status": "major",
+        "new_global_status": "major",
+        "message": "https://pagure.io/fedora-infrastructure/issue/8562",
+        "changedate": 1579539846.4242115
+    },
+    {
+        "changetype": "single",
+        "service": "koji",
         "status": "good",
         "new_global_status": "good",
         "message": "Everything seems to be working.",
