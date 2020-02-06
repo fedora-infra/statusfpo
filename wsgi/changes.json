@@ -1,6 +1,14 @@
 [
     {
         "changetype": "single",
+        "service": "copr",
+        "status": "scheduled",
+        "new_global_status": "scheduled",
+        "message": "Copr servers are being updated now",
+        "changedate": 1580978639.1968951
+    },
+    {
+        "changetype": "single",
         "service": "koji",
         "status": "good",
         "new_global_status": "good",
