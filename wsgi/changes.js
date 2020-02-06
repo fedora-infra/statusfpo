@@ -4,6 +4,14 @@ callback([
         "service": "copr",
         "status": "scheduled",
         "new_global_status": "scheduled",
+        "message": "Copr servers are being updated now.",
+        "changedate": 1580978864.921905
+    },
+    {
+        "changetype": "single",
+        "service": "copr",
+        "status": "scheduled",
+        "new_global_status": "scheduled",
         "message": "Copr servers are being updated now",
         "changedate": 1580978639.1968951
     },

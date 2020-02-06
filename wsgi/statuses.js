@@ -34,7 +34,7 @@ callback({
             "url": "https://fedorainfracloud.org/"
         },
         "copr": {
-            "message": "Copr servers are being updated now",
+            "message": "Copr servers are being updated now.",
             "name": "COPR Build System",
             "status": "scheduled",
             "url": "https://copr.fedoraproject.org/"
