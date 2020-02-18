@@ -2,6 +2,14 @@ callback([
     {
         "changetype": "single",
         "service": "copr",
+        "status": "good",
+        "new_global_status": "good",
+        "message": "Everything seems to be working.",
+        "changedate": 1582039351.628882
+    },
+    {
+        "changetype": "single",
+        "service": "copr",
         "status": "scheduled",
         "new_global_status": "scheduled",
         "message": "testing status",
