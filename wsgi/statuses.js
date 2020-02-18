@@ -34,9 +34,9 @@ callback({
             "url": "https://fedorainfracloud.org/"
         },
         "copr": {
-            "message": "Everything seems to be working.",
+            "message": "testing status",
             "name": "COPR Build System",
-            "status": "good",
+            "status": "scheduled",
             "url": "https://copr.fedoraproject.org/"
         },
         "docs": {
