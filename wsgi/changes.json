@@ -2,6 +2,14 @@
     {
         "changetype": "single",
         "service": "copr",
+        "status": "scheduled",
+        "new_global_status": "scheduled",
+        "message": "Copr servers movement, https://pagure.io/fedora-infrastructure/issue/8668",
+        "changedate": 1582437886.6453261
+    },
+    {
+        "changetype": "single",
+        "service": "copr",
         "status": "good",
         "new_global_status": "good",
         "message": "Everything seems to be working.",
