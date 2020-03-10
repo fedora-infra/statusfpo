@@ -1,6 +1,14 @@
 [
     {
         "changetype": "single",
+        "service": "koji",
+        "status": "major",
+        "new_global_status": "major",
+        "message": "Koji is having issues, we are looking into it",
+        "changedate": 1583874530.3111525
+    },
+    {
+        "changetype": "single",
         "service": "copr",
         "status": "good",
         "new_global_status": "good",
