@@ -2,6 +2,14 @@ callback([
     {
         "changetype": "single",
         "service": "koji",
+        "status": "major",
+        "new_global_status": "major",
+        "message": "Build systems are having problems due to rabbitmq problems",
+        "changedate": 1583957359.2614608
+    },
+    {
+        "changetype": "single",
+        "service": "koji",
         "status": "good",
         "new_global_status": "good",
         "message": "Everything seems to be working.",
