@@ -1,5 +1,16 @@
 callback([
     {
+        "changetype": "multiple",
+        "services": [
+            "bodhi",
+            "koji"
+        ],
+        "status": "good",
+        "new_global_status": "good",
+        "message": "Everything seems to be working.",
+        "changedate": 1583961416.59448
+    },
+    {
         "changetype": "single",
         "service": "bodhi",
         "status": "major",

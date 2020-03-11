@@ -22,9 +22,9 @@ callback({
             "url": "http://qa.fedoraproject.org/blockerbugs/"
         },
         "bodhi": {
-            "message": "Build systems are having problems due to rabbitmq problems",
+            "message": "Everything seems to be working.",
             "name": "Package Updates Manager",
-            "status": "major",
+            "status": "good",
             "url": "https://admin.fedoraproject.org/updates/"
         },
         "cloud": {
@@ -76,9 +76,9 @@ callback({
             "url": "https://paste.fedorahosted.org/"
         },
         "koji": {
-            "message": "Build systems are having problems due to rabbitmq problems",
+            "message": "Everything seems to be working.",
             "name": "The Koji Buildsystem",
-            "status": "major",
+            "status": "good",
             "url": "http://koji.fedoraproject.org/koji/"
         },
         "koschei": {
