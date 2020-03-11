@@ -1,6 +1,14 @@
 [
     {
         "changetype": "single",
+        "service": "bodhi",
+        "status": "major",
+        "new_global_status": "major",
+        "message": "Build systems are having problems due to rabbitmq problems",
+        "changedate": 1583957393.226378
+    },
+    {
+        "changetype": "single",
         "service": "koji",
         "status": "major",
         "new_global_status": "major",
