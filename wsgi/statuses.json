@@ -22,9 +22,9 @@
             "url": "http://qa.fedoraproject.org/blockerbugs/"
         },
         "bodhi": {
-            "message": "Fedora Messaging is experiencing major problems",
+            "message": "Everything seems to be working.",
             "name": "Package Updates Manager",
-            "status": "major",
+            "status": "good",
             "url": "https://admin.fedoraproject.org/updates/"
         },
         "cloud": {
@@ -58,9 +58,9 @@
             "url": "https://admin.fedoraproject.org/accounts/"
         },
         "fedmsg": {
-            "message": "Fedora Messaging is experiencing major problems",
+            "message": "Everything seems to be working.",
             "name": "Fedora Messaging Bus",
-            "status": "major",
+            "status": "good",
             "url": "https://admin.fedoraproject.org/pkgdb/acls/name/fedmsg"
         },
         "fedocal": {
@@ -76,9 +76,9 @@
             "url": "https://paste.fedorahosted.org/"
         },
         "koji": {
-            "message": "Fedora Messaging is experiencing major problems",
+            "message": "Everything seems to be working.",
             "name": "The Koji Buildsystem",
-            "status": "major",
+            "status": "good",
             "url": "http://koji.fedoraproject.org/koji/"
         },
         "koschei": {
@@ -118,9 +118,9 @@
             "url": "http://mirrors.fedoraproject.org/"
         },
         "packages": {
-            "message": "Fedora Messaging is experiencing major problems",
+            "message": "Everything seems to be working.",
             "name": "Fedora Packages App",
-            "status": "major",
+            "status": "good",
             "url": "https://apps.fedoraproject.org/packages"
         },
         "pagure": {
@@ -143,9 +143,9 @@
         },
         "pkgs": {
             "mailinglists": "Fedora mailing lists",
-            "message": "Fedora Messaging is experiencing major problems",
+            "message": "Everything seems to be working.",
             "name": "Package maintainers git repositories",
-            "status": "major",
+            "status": "good",
             "url": "http://pkgs.fedoraproject.org/"
         },
         "registry": {
