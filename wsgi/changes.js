@@ -2,6 +2,20 @@ callback([
     {
         "changetype": "multiple",
         "services": [
+            "koji",
+            "pkgs",
+            "packages",
+            "bodhi",
+            "fedmsg"
+        ],
+        "status": "major",
+        "new_global_status": "major",
+        "message": "Fedora Messaging is experiencing major problems",
+        "changedate": 1584031527.3405125
+    },
+    {
+        "changetype": "multiple",
+        "services": [
             "bodhi",
             "koji"
         ],
