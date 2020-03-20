@@ -2,6 +2,14 @@ callback([
     {
         "changetype": "single",
         "service": "pagure",
+        "status": "good",
+        "new_global_status": "good",
+        "message": "Everything seems to be working.",
+        "changedate": 1584713753.4256656
+    },
+    {
+        "changetype": "single",
+        "service": "pagure",
         "status": "major",
         "new_global_status": "major",
         "message": "Network outage in the RDU2 Data Centre",
