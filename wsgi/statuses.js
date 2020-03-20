@@ -135,12 +135,6 @@ callback({
             "status": "good",
             "url": "https://fedorapeople.org/"
         },
-        "pkgdb": {
-            "message": "Everything seems to be working.",
-            "name": "Package Database",
-            "status": "good",
-            "url": "https://admin.fedoraproject.org/pkgdb/"
-        },
         "pkgs": {
             "mailinglists": "Fedora mailing lists",
             "message": "Everything seems to be working.",
@@ -159,12 +153,6 @@ callback({
             "name": "ABRT Server",
             "status": "good",
             "url": "https://retrace.fedoraproject.org/"
-        },
-        "tagger": {
-            "message": "Everything seems to be working.",
-            "name": "Tagger",
-            "status": "good",
-            "url": "https://apps.fedoraproject.org/tagger/"
         },
         "website": {
             "message": "Everything seems to be working.",
