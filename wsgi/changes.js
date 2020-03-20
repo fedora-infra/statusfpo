@@ -1002,7 +1002,7 @@ callback([
             "mirrorlist",
             "packages",
             "cloud",
-            "mailinglists",
+            "mailinglists"
         ],
         "changetype": "multiple",
         "changedate": 1551474967.518052
@@ -1721,7 +1721,7 @@ callback([
         "services": [
             "bodhi",
             "cloud",
-            "koji",
+            "koji"
         ],
         "changedate": 1530578051.3265083,
         "changetype": "multiple"

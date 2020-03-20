@@ -1721,7 +1721,7 @@
         "services": [
             "bodhi",
             "cloud",
-            "koji",
+            "koji"
         ],
         "changedate": 1530578051.3265083,
         "changetype": "multiple"
