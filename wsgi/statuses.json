@@ -124,9 +124,9 @@
             "url": "https://apps.fedoraproject.org/packages"
         },
         "pagure": {
-            "message": "Everything seems to be working.",
+            "message": "Network outage in the RDU2 Data Centre",
             "name": "Pagure",
-            "status": "good",
+            "status": "major",
             "url": "https://pagure.io"
         },
         "people": {

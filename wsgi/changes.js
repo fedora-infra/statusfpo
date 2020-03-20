@@ -1,5 +1,13 @@
 callback([
     {
+        "changetype": "single",
+        "service": "pagure",
+        "status": "major",
+        "new_global_status": "major",
+        "message": "Network outage in the RDU2 Data Centre",
+        "changedate": 1584710409.7063174
+    },
+    {
         "changetype": "multiple",
         "services": [
             "bodhi",
