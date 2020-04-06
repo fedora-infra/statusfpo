@@ -2,6 +2,14 @@
     {
         "changetype": "single",
         "service": "bodhi",
+        "status": "good",
+        "new_global_status": "good",
+        "message": "Everything seems to be working.",
+        "changedate": 1586169838.6502697
+    },
+    {
+        "changetype": "single",
+        "service": "bodhi",
         "status": "major",
         "new_global_status": "major",
         "message": "Bodhi is having issues",
