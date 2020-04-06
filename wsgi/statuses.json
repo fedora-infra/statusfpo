@@ -1,7 +1,7 @@
 {
     "global_info": "",
-    "global_status": "major",
-    "global_verbose_status": "Major service disruption",
+    "global_status": "good",
+    "global_verbose_status": "All systems go",
     "services": {
         "authentication": {
             "message": "Everything seems to be working.",
@@ -22,9 +22,9 @@
             "url": "http://qa.fedoraproject.org/blockerbugs/"
         },
         "bodhi": {
-            "message": "Everything seems to be working.",
+            "message": "Bodhi is having issues",
             "name": "Package Updates Manager",
-            "status": "good",
+            "status": "major",
             "url": "https://admin.fedoraproject.org/updates/"
         },
         "cloud": {

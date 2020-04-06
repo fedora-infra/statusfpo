@@ -1,5 +1,13 @@
 callback([
     {
+        "changetype": "single",
+        "service": "bodhi",
+        "status": "major",
+        "new_global_status": "major",
+        "message": "Bodhi is having issues",
+        "changedate": 1586166334.3473718
+    },
+    {
         "changetype": "multiple",
         "services": [
             "authentication",
