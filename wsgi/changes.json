@@ -1,6 +1,14 @@
 [
     {
         "changetype": "single",
+        "service": "cloud",
+        "status": "scheduled",
+        "new_global_status": "scheduled",
+        "message": "communishift is moving",
+        "changedate": 1586786983.915439
+    },
+    {
+        "changetype": "single",
         "service": "bodhi",
         "status": "good",
         "new_global_status": "good",
