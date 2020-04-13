@@ -137,7 +137,7 @@ if __name__ == '__main__':
         if result != 0:
             print('An error occured during update')
             sys.exit(6)
-        result = subprocess.call('python generate.py maint ../generated/q4maint.html', shell=True, cwd='wsgi')
+        result = subprocess.call('python generate.py maint ../generated/CY2020-inframove.html', shell=True, cwd='wsgi')
         if result != 0:
             print('An error occured during update')
             sys.exit(6)
@@ -155,7 +155,7 @@ if __name__ == '__main__':
             if result != 0:
                 print('An error occured during push')
                 sys.exit(6)
-            result = subprocess.call(['aws', '--profile', 'statusfpo', 'cloudfront', 'create-invalidation', '--distribution-id', 'E2ROJ0IZ3EJ66H', '--paths', '/index.html', '/changes.rss', '/m.html', '/q4maint.html'])
+            result = subprocess.call(['aws', '--profile', 'statusfpo', 'cloudfront', 'create-invalidation', '--distribution-id', 'E2ROJ0IZ3EJ66H', '--paths', '/index.html', '/changes.rss', '/m.html', '/CY2020-inframove.html'])
             if result != 0:
                 print('An error occured during push')
                 sys.exit(6)

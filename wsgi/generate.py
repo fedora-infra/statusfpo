@@ -115,7 +115,7 @@ if __name__ == '__main__':
     if args.type == 'html':
         generated = minify(generateHtml(), args.no_minify)
     elif args.type == 'maint':
-        generated = minify(generateHtml('q4maint.html'), args.no_minify)
+        generated = minify(generateHtml('CY2020-inframove.html'), args.no_minify)
     elif args.type == 'rss':
         generated = minify(generateFeed('rss'), args.no_minify)
     elif args.type == 'mobile':
