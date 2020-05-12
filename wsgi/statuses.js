@@ -1,7 +1,7 @@
 callback({
     "global_info": "",
-    "global_status": "good",
-    "global_verbose_status": "All systems go",
+    "global_status": "scheduled",
+    "global_verbose_status": "There are scheduled downtimes in progress",
     "services": {
         "authentication": {
             "message": "Everything seems to be working.",
@@ -26,6 +26,12 @@ callback({
             "name": "Package Updates Manager",
             "status": "good",
             "url": "https://admin.fedoraproject.org/updates/"
+        },
+        "cloud": {
+            "message": "Everything seems to be working.",
+            "name": "Fedora Infrastructure Cloud",
+            "status": "good",
+            "url": "https://fedorainfracloud.org/"
         },
         "copr": {
             "message": "Everything seems to be working.",
