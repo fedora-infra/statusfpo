@@ -22,9 +22,9 @@ callback({
             "url": "http://qa.fedoraproject.org/blockerbugs/"
         },
         "bodhi": {
-            "message": "Everything seems to be working.",
+            "message": "Our openshift cluster is having difficulties that we are investigating",
             "name": "Package Updates Manager",
-            "status": "good",
+            "status": "major",
             "url": "https://admin.fedoraproject.org/updates/"
         },
         "cloud": {
@@ -40,15 +40,15 @@ callback({
             "url": "https://copr.fedoraproject.org/"
         },
         "docs": {
-            "message": "Everything seems to be working.",
+            "message": "Our openshift cluster is having difficulties that we are investigating",
             "name": "Documentation website",
-            "status": "good",
+            "status": "major",
             "url": "http://docs.fedoraproject.org/"
         },
         "elections": {
-            "message": "Everything seems to be working.",
+            "message": "Our openshift cluster is having difficulties that we are investigating",
             "name": "Fedora elections",
-            "status": "good",
+            "status": "major",
             "url": "https://admin.fedoraproject.org/voting/"
         },
         "fas": {

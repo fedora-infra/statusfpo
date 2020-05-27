@@ -1,5 +1,17 @@
 callback([
     {
+        "changetype": "multiple",
+        "services": [
+            "docs",
+            "elections",
+            "bodhi"
+        ],
+        "status": "major",
+        "new_global_status": "major",
+        "message": "Our openshift cluster is having difficulties that we are investigating",
+        "changedate": 1590605337.240525
+    },
+    {
         "changetype": "single",
         "service": "bodhi",
         "status": "good",
