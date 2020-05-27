@@ -2,6 +2,18 @@ callback([
     {
         "changetype": "multiple",
         "services": [
+            "bodhi",
+            "docs",
+            "elections"
+        ],
+        "status": "good",
+        "new_global_status": "good",
+        "message": "Everything seems to be working.",
+        "changedate": 1590620630.423241
+    },
+    {
+        "changetype": "multiple",
+        "services": [
             "docs",
             "elections",
             "bodhi"
