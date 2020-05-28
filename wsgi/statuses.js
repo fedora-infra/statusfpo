@@ -1,7 +1,7 @@
 callback({
     "global_info": "",
-    "global_status": "scheduled",
-    "global_verbose_status": "There are scheduled downtimes in progress",
+    "global_status": "good",
+    "global_verbose_status": "All systems go",
     "services": {
         "authentication": {
             "message": "Everything seems to be working.",
@@ -22,9 +22,9 @@ callback({
             "url": "http://qa.fedoraproject.org/blockerbugs/"
         },
         "bodhi": {
-            "message": "Everything seems to be working.",
+            "message": "bodhi not accepting new updates",
             "name": "Package Updates Manager",
-            "status": "good",
+            "status": "major",
             "url": "https://admin.fedoraproject.org/updates/"
         },
         "cloud": {
