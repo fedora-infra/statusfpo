@@ -1,5 +1,13 @@
 callback([
     {
+        "changetype": "single",
+        "service": "copr",
+        "status": "good",
+        "new_global_status": "scheduled",
+        "message": "Everything seems to be working.",
+        "changedate": 1591858130.9865751
+    },
+    {
         "changetype": "multiple",
         "services": [
             "authentication",
