@@ -1,5 +1,13 @@
 [
     {
+        "changetype": "single",
+        "service": "retrace",
+        "status": "major",
+        "new_global_status": "major",
+        "message": "down due to colo move",
+        "changedate": 1594315881.6486561
+    },
+    {
         "changetype": "multiple",
         "services": [
             "authentication",
