@@ -2,6 +2,14 @@ callback([
     {
         "changetype": "single",
         "service": "retrace",
+        "status": "minor",
+        "new_global_status": "minor",
+        "message": "down due to colo move",
+        "changedate": 1594315937.5278857
+    },
+    {
+        "changetype": "single",
+        "service": "retrace",
         "status": "major",
         "new_global_status": "major",
         "message": "down due to colo move",
