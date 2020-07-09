@@ -1,7 +1,7 @@
 {
     "global_info": "",
-    "global_status": "major",
-    "global_verbose_status": "Major service disruption",
+    "global_status": "minor",
+    "global_verbose_status": "Minor service disruption",
     "services": {
         "authentication": {
             "message": "Everything seems to be working.",
