@@ -1,6 +1,14 @@
 callback([
     {
         "changetype": "single",
+        "service": "packages",
+        "status": "minor",
+        "new_global_status": "minor",
+        "message": "down due to app replacement",
+        "changedate": 1594584860.3647995
+    },
+    {
+        "changetype": "single",
         "service": "retrace",
         "status": "minor",
         "new_global_status": "minor",

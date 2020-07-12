@@ -118,9 +118,9 @@
             "url": "http://mirrors.fedoraproject.org/"
         },
         "packages": {
-            "message": "Everything seems to be working.",
+            "message": "down due to app replacement",
             "name": "Fedora Packages App",
-            "status": "good",
+            "status": "minor",
             "url": "https://apps.fedoraproject.org/packages"
         },
         "pagure": {
