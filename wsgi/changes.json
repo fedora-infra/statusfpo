@@ -1,6 +1,14 @@
 [
     {
         "changetype": "single",
+        "service": "koji",
+        "status": "scheduled",
+        "new_global_status": "minor",
+        "message": "planned outage",
+        "changedate": 1596665399.0845547
+    },
+    {
+        "changetype": "single",
         "service": "packages",
         "status": "minor",
         "new_global_status": "minor",
