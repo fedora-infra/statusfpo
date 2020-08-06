@@ -1,5 +1,17 @@
 callback([
     {
+        "changetype": "multiple",
+        "services": [
+            "koji",
+            "packages",
+            "retrace"
+        ],
+        "status": "good",
+        "new_global_status": "good",
+        "message": "Everything seems to be working.",
+        "changedate": 1596682812.0709844
+    },
+    {
         "changetype": "single",
         "service": "koji",
         "status": "scheduled",

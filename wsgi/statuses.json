@@ -76,9 +76,9 @@
             "url": "https://paste.fedorahosted.org/"
         },
         "koji": {
-            "message": "planned outage",
+            "message": "Everything seems to be working.",
             "name": "The Koji Buildsystem",
-            "status": "scheduled",
+            "status": "good",
             "url": "http://koji.fedoraproject.org/koji/"
         },
         "koschei": {
@@ -118,9 +118,9 @@
             "url": "http://mirrors.fedoraproject.org/"
         },
         "packages": {
-            "message": "down due to app replacement",
+            "message": "Everything seems to be working.",
             "name": "Fedora Packages App",
-            "status": "minor",
+            "status": "good",
             "url": "https://apps.fedoraproject.org/packages"
         },
         "pagure": {
@@ -149,9 +149,9 @@
             "url": "https://registry.fedoraproject.org/"
         },
         "retrace": {
-            "message": "down due to colo move",
+            "message": "Everything seems to be working.",
             "name": "ABRT Server",
-            "status": "minor",
+            "status": "good",
             "url": "https://retrace.fedoraproject.org/"
         },
         "website": {
