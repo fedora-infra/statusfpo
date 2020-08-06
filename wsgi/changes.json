@@ -2,6 +2,43 @@
     {
         "changetype": "multiple",
         "services": [
+            "authentication",
+            "badges",
+            "blockerbugs",
+            "bodhi",
+            "cloud",
+            "copr",
+            "docs",
+            "elections",
+            "fas",
+            "fedmsg",
+            "fedocal",
+            "fedorapaste",
+            "koji",
+            "koschei",
+            "krb",
+            "mailinglists",
+            "mbs",
+            "mirrorlist",
+            "mirrormanager",
+            "packages",
+            "pagure",
+            "people",
+            "pkgs",
+            "registry",
+            "retrace",
+            "website",
+            "wiki",
+            "zodbot"
+        ],
+        "status": "major",
+        "new_global_status": "major",
+        "message": "services down due to openshift failures",
+        "changedate": 1596715336.414444
+    },
+    {
+        "changetype": "multiple",
+        "services": [
             "koji",
             "packages",
             "retrace"
