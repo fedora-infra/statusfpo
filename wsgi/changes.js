@@ -2,6 +2,14 @@ callback([
     {
         "changetype": "single",
         "service": "fas",
+        "status": "good",
+        "new_global_status": "good",
+        "message": "Everything seems to be working.",
+        "changedate": 1596837499.120745
+    },
+    {
+        "changetype": "single",
+        "service": "fas",
         "status": "major",
         "new_global_status": "major",
         "message": "id and fas issues being investigated",
