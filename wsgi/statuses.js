@@ -1,7 +1,7 @@
 callback({
     "global_info": "",
-    "global_status": "minor",
-    "global_verbose_status": "Minor service disruption",
+    "global_status": "major",
+    "global_verbose_status": "Major service disruption",
     "services": {
         "authentication": {
             "message": "Everything seems to be working.",
@@ -76,9 +76,9 @@ callback({
             "url": "https://paste.fedorahosted.org/"
         },
         "koji": {
-            "message": "abrt: read the infra status link at the top - koji: signing is down",
+            "message": "Everything seems to be working.",
             "name": "The Koji Buildsystem",
-            "status": "major",
+            "status": "good",
             "url": "http://koji.fedoraproject.org/koji/"
         },
         "koschei": {
