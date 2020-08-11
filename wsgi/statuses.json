@@ -149,7 +149,7 @@
             "url": "https://registry.fedoraproject.org/"
         },
         "retrace": {
-            "message": "abrt: read the infra status link at the top - koji: signing is down",
+            "message": "read the infra status link at the top",
             "name": "ABRT Server",
             "status": "major",
             "url": "https://retrace.fedoraproject.org/"

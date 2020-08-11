@@ -1,5 +1,13 @@
 callback([
     {
+        "changetype": "single",
+        "service": "retrace",
+        "status": "major",
+        "new_global_status": "major",
+        "message": "read the infra status link at the top",
+        "changedate": 1597154109.8068125
+    },
+    {
         "changetype": "multiple",
         "services": [
             "retrace",
