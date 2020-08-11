@@ -1,5 +1,16 @@
 callback([
     {
+        "changetype": "multiple",
+        "services": [
+            "retrace",
+            "koji"
+        ],
+        "status": "major",
+        "new_global_status": "major",
+        "message": "abrt: read the infra status link at the top - koji: signing is down",
+        "changedate": 1597136205.02514
+    },
+    {
         "changetype": "single",
         "service": "retrace",
         "status": "major",

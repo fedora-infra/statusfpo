@@ -76,9 +76,9 @@
             "url": "https://paste.fedorahosted.org/"
         },
         "koji": {
-            "message": "Everything seems to be working.",
+            "message": "abrt: read the infra status link at the top - koji: signing is down",
             "name": "The Koji Buildsystem",
-            "status": "good",
+            "status": "major",
             "url": "http://koji.fedoraproject.org/koji/"
         },
         "koschei": {
@@ -149,7 +149,7 @@
             "url": "https://registry.fedoraproject.org/"
         },
         "retrace": {
-            "message": "read the infra status link at the top",
+            "message": "abrt: read the infra status link at the top - koji: signing is down",
             "name": "ABRT Server",
             "status": "major",
             "url": "https://retrace.fedoraproject.org/"
