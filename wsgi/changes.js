@@ -1,6 +1,14 @@
 callback([
     {
         "changetype": "single",
+        "service": "koji",
+        "status": "major",
+        "new_global_status": "major",
+        "message": "Koji is out of disk space.",
+        "changedate": 1597924177.7796896
+    },
+    {
+        "changetype": "single",
         "service": "retrace",
         "status": "major",
         "new_global_status": "major",
