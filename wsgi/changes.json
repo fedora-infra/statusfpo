@@ -2,6 +2,14 @@
     {
         "changetype": "single",
         "service": "koji",
+        "status": "good",
+        "new_global_status": "major",
+        "message": "Everything seems to be working.",
+        "changedate": 1597926031.6875284
+    },
+    {
+        "changetype": "single",
+        "service": "koji",
         "status": "major",
         "new_global_status": "major",
         "message": "Koji is out of disk space.",
