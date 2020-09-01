@@ -1,6 +1,14 @@
 callback([
     {
         "changetype": "single",
+        "service": "packages",
+        "status": "major",
+        "new_global_status": "major",
+        "message": "Read the infra status link at the top",
+        "changedate": 1598952949.0440068
+    },
+    {
+        "changetype": "single",
         "service": "koji",
         "status": "good",
         "new_global_status": "major",

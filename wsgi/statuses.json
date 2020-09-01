@@ -118,9 +118,9 @@
             "url": "http://mirrors.fedoraproject.org/"
         },
         "packages": {
-            "message": "Everything seems to be working.",
+            "message": "Read the infra status link at the top",
             "name": "Fedora Packages App",
-            "status": "good",
+            "status": "major",
             "url": "https://apps.fedoraproject.org/packages"
         },
         "pagure": {
