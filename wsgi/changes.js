@@ -1,6 +1,14 @@
 callback([
     {
         "changetype": "single",
+        "service": "people",
+        "status": "major",
+        "new_global_status": "major",
+        "message": "SSL certs issues, we're looking into it",
+        "changedate": 1599055459.5208125
+    },
+    {
+        "changetype": "single",
         "service": "packages",
         "status": "major",
         "new_global_status": "major",

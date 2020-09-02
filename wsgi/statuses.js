@@ -130,9 +130,9 @@ callback({
             "url": "https://pagure.io"
         },
         "people": {
-            "message": "Everything seems to be working.",
+            "message": "SSL certs issues, we're looking into it",
             "name": "Fedora People",
-            "status": "good",
+            "status": "major",
             "url": "https://fedorapeople.org/"
         },
         "pkgs": {
