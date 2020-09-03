@@ -1,6 +1,14 @@
 callback([
     {
         "changetype": "single",
+        "service": "koschei",
+        "status": "major",
+        "new_global_status": "major",
+        "message": "Koschei frontend is down",
+        "changedate": 1599137042.487468
+    },
+    {
+        "changetype": "single",
         "service": "people",
         "status": "good",
         "new_global_status": "major",

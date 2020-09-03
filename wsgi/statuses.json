@@ -82,9 +82,9 @@
             "url": "http://koji.fedoraproject.org/koji/"
         },
         "koschei": {
-            "message": "Everything seems to be working.",
+            "message": "Koschei frontend is down",
             "name": "Koschei Continuous Integration",
-            "status": "good",
+            "status": "major",
             "url": "https://apps.fedoraproject.org/koschei/"
         },
         "krb": {
