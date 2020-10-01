@@ -124,9 +124,9 @@ callback({
             "url": "https://apps.fedoraproject.org/packages"
         },
         "pagure": {
-            "message": "Announced outage ongoing",
+            "message": "Everything seems to be working.",
             "name": "Pagure",
-            "status": "major",
+            "status": "good",
             "url": "https://pagure.io"
         },
         "people": {
