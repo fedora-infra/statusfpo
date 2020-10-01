@@ -1,6 +1,14 @@
 callback([
     {
         "changetype": "single",
+        "service": "pagure",
+        "status": "major",
+        "new_global_status": "major",
+        "message": "Announced outage ongoing",
+        "changedate": 1601539460.9335222
+    },
+    {
+        "changetype": "single",
         "service": "koschei",
         "status": "good",
         "new_global_status": "major",
