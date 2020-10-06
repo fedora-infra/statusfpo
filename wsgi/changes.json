@@ -5,6 +5,17 @@
             "koji",
             "pkgs"
         ],
+        "status": "good",
+        "new_global_status": "major",
+        "message": "Everything seems to be working.",
+        "changedate": 1601992480.9984765
+    },
+    {
+        "changetype": "multiple",
+        "services": [
+            "koji",
+            "pkgs"
+        ],
         "status": "major",
         "new_global_status": "major",
         "message": "PDC outage ongoing and under investigation",
