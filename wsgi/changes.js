@@ -1,5 +1,16 @@
 callback([
     {
+        "changetype": "multiple",
+        "services": [
+            "koji",
+            "pkgs"
+        ],
+        "status": "major",
+        "new_global_status": "major",
+        "message": "PDC outage ongoing and under investigation",
+        "changedate": 1601989935.9691107
+    },
+    {
         "changetype": "single",
         "service": "pagure",
         "status": "good",
