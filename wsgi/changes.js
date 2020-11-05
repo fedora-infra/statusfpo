@@ -2,6 +2,14 @@ callback([
     {
         "changetype": "single",
         "service": "krb",
+        "status": "good",
+        "new_global_status": "major",
+        "message": "Everything seems to be working.",
+        "changedate": 1604608740.0606806
+    },
+    {
+        "changetype": "single",
+        "service": "krb",
         "status": "major",
         "new_global_status": "major",
         "message": "auth is down, looking at it",
