@@ -88,9 +88,9 @@
             "url": "https://apps.fedoraproject.org/koschei/"
         },
         "krb": {
-            "message": "Everything seems to be working.",
+            "message": "auth is down, looking at it",
             "name": "Kerberos",
-            "status": "good",
+            "status": "major",
             "url": "https://id.fedoraproject.org/"
         },
         "mailinglists": {

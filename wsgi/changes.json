@@ -1,5 +1,13 @@
 [
     {
+        "changetype": "single",
+        "service": "krb",
+        "status": "major",
+        "new_global_status": "major",
+        "message": "auth is down, looking at it",
+        "changedate": 1604605385.4606543
+    },
+    {
         "changetype": "multiple",
         "services": [
             "koji",
