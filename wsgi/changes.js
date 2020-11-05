@@ -1,6 +1,14 @@
 callback([
     {
         "changetype": "single",
+        "service": "retrace",
+        "status": "good",
+        "new_global_status": "major",
+        "message": "Everything seems to be working.",
+        "changedate": 1604608753.956175
+    },
+    {
+        "changetype": "single",
         "service": "krb",
         "status": "good",
         "new_global_status": "major",

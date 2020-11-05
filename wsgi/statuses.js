@@ -149,9 +149,9 @@ callback({
             "url": "https://registry.fedoraproject.org/"
         },
         "retrace": {
-            "message": "read the infra status link at the top",
+            "message": "Everything seems to be working.",
             "name": "ABRT Server",
-            "status": "major",
+            "status": "good",
             "url": "https://retrace.fedoraproject.org/"
         },
         "website": {
