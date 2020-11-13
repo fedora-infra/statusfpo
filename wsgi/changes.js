@@ -2,6 +2,14 @@ callback([
     {
         "changetype": "single",
         "service": "copr",
+        "status": "good",
+        "new_global_status": "good",
+        "message": "Everything seems to be working.",
+        "changedate": 1605263067.8806794
+    },
+    {
+        "changetype": "single",
+        "service": "copr",
         "status": "scheduled",
         "new_global_status": "scheduled",
         "message": "Copr servers outage, https://pagure.io/fedora-infrastructure/issue/9459",
