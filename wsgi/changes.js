@@ -2,6 +2,14 @@ callback([
     {
         "changetype": "single",
         "service": "zodbot",
+        "status": "good",
+        "new_global_status": "good",
+        "message": "Everything seems to be working.",
+        "changedate": 1606934244.6762269
+    },
+    {
+        "changetype": "single",
+        "service": "zodbot",
         "status": "scheduled",
         "new_global_status": "scheduled",
         "message": "test",

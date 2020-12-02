@@ -167,9 +167,9 @@ callback({
             "url": "https://fedoraproject.org/wiki/Fedora_Project_Wiki"
         },
         "zodbot": {
-            "message": "test",
+            "message": "Everything seems to be working.",
             "name": "Zodbot IRC bot",
-            "status": "scheduled",
+            "status": "good",
             "url": "https://fedoraproject.org/wiki/Zodbot"
         }
     }
