@@ -4,6 +4,14 @@ callback([
         "service": "retrace",
         "status": "major",
         "new_global_status": "major",
+        "message": "Server down, investigation in progress",
+        "changedate": 1607436190.8344805
+    },
+    {
+        "changetype": "single",
+        "service": "retrace",
+        "status": "major",
+        "new_global_status": "major",
         "message": "Server is dead. No way to remote fix. Downtime unknown.",
         "changedate": 1607434993.3202527
     },
