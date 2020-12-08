@@ -149,9 +149,9 @@ callback({
             "url": "https://registry.fedoraproject.org/"
         },
         "retrace": {
-            "message": "Everything seems to be working.",
+            "message": "Server is dead. No way to remote fix. Downtime unknown.",
             "name": "ABRT Server",
-            "status": "good",
+            "status": "major",
             "url": "https://retrace.fedoraproject.org/"
         },
         "website": {
