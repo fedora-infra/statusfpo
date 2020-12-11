@@ -143,9 +143,9 @@ callback({
             "url": "http://pkgs.fedoraproject.org/"
         },
         "registry": {
-            "message": "Everything seems to be working.",
+            "message": "server outage",
             "name": "Fedora Container Registry",
-            "status": "good",
+            "status": "major",
             "url": "https://registry.fedoraproject.org/"
         },
         "retrace": {

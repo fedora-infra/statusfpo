@@ -1,6 +1,14 @@
 [
     {
         "changetype": "single",
+        "service": "registry",
+        "status": "major",
+        "new_global_status": "major",
+        "message": "server outage",
+        "changedate": 1607710690.4134338
+    },
+    {
+        "changetype": "single",
         "service": "koji",
         "status": "major",
         "new_global_status": "major",
