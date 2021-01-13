@@ -1,5 +1,13 @@
 callback([
     {
+        "changetype": "single",
+        "service": "pagure",
+        "status": "major",
+        "new_global_status": "major",
+        "message": "Something is up and being investigated",
+        "changedate": 1610528510.41115
+    },
+    {
         "changetype": "multiple",
         "services": [
             "koji",
