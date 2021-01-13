@@ -1,7 +1,7 @@
 {
     "global_info": "",
-    "global_status": "good",
-    "global_verbose_status": "All systems go",
+    "global_status": "major",
+    "global_verbose_status": "Major service disruption",
     "services": {
         "authentication": {
             "message": "Everything seems to be working.",
@@ -124,9 +124,9 @@
             "url": "https://apps.fedoraproject.org/packages"
         },
         "pagure": {
-            "message": "Something is up and being investigated",
+            "message": "Everything seems to be working.",
             "name": "Pagure",
-            "status": "major",
+            "status": "good",
             "url": "https://pagure.io"
         },
         "people": {
