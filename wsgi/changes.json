@@ -1,6 +1,14 @@
 [
     {
         "changetype": "single",
+        "service": "koji",
+        "status": "major",
+        "new_global_status": "major",
+        "message": "koji is growing a little covid-belly and running out of space, we're looking for some more",
+        "changedate": 1610540887.102674
+    },
+    {
+        "changetype": "single",
         "service": "pagure",
         "status": "good",
         "new_global_status": "good",

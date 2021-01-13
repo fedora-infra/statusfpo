@@ -1,7 +1,7 @@
 {
     "global_info": "",
-    "global_status": "major",
-    "global_verbose_status": "Major service disruption",
+    "global_status": "good",
+    "global_verbose_status": "All systems go",
     "services": {
         "authentication": {
             "message": "Everything seems to be working.",
@@ -76,9 +76,9 @@
             "url": "https://paste.fedorahosted.org/"
         },
         "koji": {
-            "message": "Everything seems to be working.",
+            "message": "koji is growing a little covid-belly and running out of space, we're looking for some more",
             "name": "The Koji Buildsystem",
-            "status": "good",
+            "status": "major",
             "url": "http://koji.fedoraproject.org/koji/"
         },
         "koschei": {
