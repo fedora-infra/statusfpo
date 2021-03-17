@@ -1,6 +1,14 @@
 [
     {
         "changetype": "single",
+        "service": "copr",
+        "status": "scheduled",
+        "new_global_status": "scheduled",
+        "message": "Copr servers outage, https://pagure.io/fedora-infrastructure/issue/9734",
+        "changedate": 1615983523.6719916
+    },
+    {
+        "changetype": "single",
         "service": "koji",
         "status": "good",
         "new_global_status": "good",
