@@ -4,172 +4,172 @@ callback({
     "global_verbose_status": "Major service disruption",
     "services": {
         "authentication": {
-            "message": "Everything seems to be working.",
+            "message": "OpenShift Problems impacting all services",
             "name": "Ipsilon",
-            "status": "good",
+            "status": "major",
             "url": "https://id.fedoraproject.org/"
         },
         "badges": {
-            "message": "Everything seems to be working.",
+            "message": "OpenShift Problems impacting all services",
             "name": "Badges",
-            "status": "good",
+            "status": "major",
             "url": "http:/badges.fedoraproject.org/"
         },
         "blockerbugs": {
-            "message": "Everything seems to be working.",
+            "message": "OpenShift Problems impacting all services",
             "name": "Blockerbugs",
-            "status": "good",
+            "status": "major",
             "url": "http://qa.fedoraproject.org/blockerbugs/"
         },
         "bodhi": {
-            "message": "Everything seems to be working.",
+            "message": "OpenShift Problems impacting all services",
             "name": "Package Updates Manager",
-            "status": "good",
+            "status": "major",
             "url": "https://admin.fedoraproject.org/updates/"
         },
         "cloud": {
-            "message": "Everything seems to be working.",
+            "message": "OpenShift Problems impacting all services",
             "name": "Fedora Infrastructure Cloud",
-            "status": "good",
+            "status": "major",
             "url": "https://fedorainfracloud.org/"
         },
         "copr": {
-            "message": "Copr servers outage, https://pagure.io/fedora-infrastructure/issue/9734",
+            "message": "OpenShift Problems impacting all services",
             "name": "COPR Build System",
-            "status": "scheduled",
+            "status": "major",
             "url": "https://copr.fedoraproject.org/"
         },
         "docs": {
-            "message": "Everything seems to be working.",
+            "message": "OpenShift Problems impacting all services",
             "name": "Documentation website",
-            "status": "good",
+            "status": "major",
             "url": "http://docs.fedoraproject.org/"
         },
         "elections": {
-            "message": "Everything seems to be working.",
+            "message": "OpenShift Problems impacting all services",
             "name": "Fedora elections",
-            "status": "good",
+            "status": "major",
             "url": "https://admin.fedoraproject.org/voting/"
         },
         "fas": {
-            "message": "Everything seems to be working.",
+            "message": "OpenShift Problems impacting all services",
             "name": "Account System",
-            "status": "good",
+            "status": "major",
             "url": "https://admin.fedoraproject.org/accounts/"
         },
         "fedmsg": {
-            "message": "Everything seems to be working.",
+            "message": "OpenShift Problems impacting all services",
             "name": "Fedora Messaging Bus",
-            "status": "good",
+            "status": "major",
             "url": "https://admin.fedoraproject.org/pkgdb/acls/name/fedmsg"
         },
         "fedocal": {
-            "message": "Everything seems to be working.",
+            "message": "OpenShift Problems impacting all services",
             "name": "Fedora Calendar",
-            "status": "good",
+            "status": "major",
             "url": "https://apps.fedoraproject.org/fedocal/"
         },
         "fedorapaste": {
-            "message": "Everything seems to be working.",
+            "message": "OpenShift Problems impacting all services",
             "name": "Fedora pastebin service",
-            "status": "good",
+            "status": "major",
             "url": "https://paste.fedorahosted.org/"
         },
         "koji": {
-            "message": "Everything seems to be working.",
+            "message": "OpenShift Problems impacting all services",
             "name": "The Koji Buildsystem",
-            "status": "good",
+            "status": "major",
             "url": "http://koji.fedoraproject.org/koji/"
         },
         "koschei": {
-            "message": "Everything seems to be working.",
+            "message": "OpenShift Problems impacting all services",
             "name": "Koschei Continuous Integration",
-            "status": "good",
+            "status": "major",
             "url": "https://apps.fedoraproject.org/koschei/"
         },
         "krb": {
-            "message": "Everything seems to be working.",
+            "message": "OpenShift Problems impacting all services",
             "name": "Kerberos",
-            "status": "good",
+            "status": "major",
             "url": "https://id.fedoraproject.org/"
         },
         "mailinglists": {
-            "message": "Everything seems to be working.",
+            "message": "OpenShift Problems impacting all services",
             "name": "Mailing Lists",
-            "status": "good",
+            "status": "major",
             "url": "http://lists.fedoraproject.org/"
         },
         "mbs": {
-            "message": "Everything seems to be working.",
+            "message": "OpenShift Problems impacting all services",
             "name": "Module Build Service",
-            "status": "good",
+            "status": "major",
             "url": "https://mbs.fedoraproject.org"
         },
         "mirrorlist": {
-            "message": "Everything seems to be working.",
+            "message": "OpenShift Problems impacting all services",
             "name": "Mirror List",
-            "status": "good",
+            "status": "major",
             "url": "http://mirrors.fedoraproject.org/publiclist/"
         },
         "mirrormanager": {
-            "message": "Everything seems to be working.",
+            "message": "OpenShift Problems impacting all services",
             "name": "Mirror Manager",
-            "status": "good",
+            "status": "major",
             "url": "http://mirrors.fedoraproject.org/"
         },
         "packages": {
-            "message": "Everything seems to be working.",
+            "message": "OpenShift Problems impacting all services",
             "name": "Fedora Packages App",
-            "status": "good",
+            "status": "major",
             "url": "https://apps.fedoraproject.org/packages"
         },
         "pagure": {
-            "message": "Everything seems to be working.",
+            "message": "OpenShift Problems impacting all services",
             "name": "Pagure",
-            "status": "good",
+            "status": "major",
             "url": "https://pagure.io"
         },
         "people": {
-            "message": "Everything seems to be working.",
+            "message": "OpenShift Problems impacting all services",
             "name": "Fedora People",
-            "status": "good",
+            "status": "major",
             "url": "https://fedorapeople.org/"
         },
         "pkgs": {
             "mailinglists": "Fedora mailing lists",
-            "message": "Everything seems to be working.",
+            "message": "OpenShift Problems impacting all services",
             "name": "Package maintainers git repositories",
-            "status": "good",
+            "status": "major",
             "url": "http://pkgs.fedoraproject.org/"
         },
         "registry": {
-            "message": "Everything seems to be working.",
+            "message": "OpenShift Problems impacting all services",
             "name": "Fedora Container Registry",
-            "status": "good",
+            "status": "major",
             "url": "https://registry.fedoraproject.org/"
         },
         "retrace": {
-            "message": "Everything seems to be working.",
+            "message": "OpenShift Problems impacting all services",
             "name": "ABRT Server",
-            "status": "good",
+            "status": "major",
             "url": "https://retrace.fedoraproject.org/"
         },
         "website": {
-            "message": "Everything seems to be working.",
+            "message": "OpenShift Problems impacting all services",
             "name": "Fedora websites",
-            "status": "good",
+            "status": "major",
             "url": "http://fedoraproject.org/"
         },
         "wiki": {
-            "message": "Everything seems to be working.",
+            "message": "OpenShift Problems impacting all services",
             "name": "Fedora Wiki",
-            "status": "good",
+            "status": "major",
             "url": "https://fedoraproject.org/wiki/Fedora_Project_Wiki"
         },
         "zodbot": {
-            "message": "Everything seems to be working.",
+            "message": "OpenShift Problems impacting all services",
             "name": "Zodbot IRC bot",
-            "status": "good",
+            "status": "major",
             "url": "https://fedoraproject.org/wiki/Zodbot"
         }
     }
