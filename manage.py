@@ -112,7 +112,7 @@ if __name__ == '__main__':
     f.close()
 
     if not args.no_git:
-        result = subprocess.call("git add -a", shell=True)
+        result = subprocess.call("git add -A", shell=True)
     if result != 0:
         print('An error occured in git add, please try again!')
         sys.exit(4)
