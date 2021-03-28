@@ -52,9 +52,9 @@ callback({
             "url": "https://admin.fedoraproject.org/voting/"
         },
         "fas": {
-            "message": "Everything seems to be working.",
+            "message": "Openshift outage currently ongoing, no ETA",
             "name": "Account System",
-            "status": "good",
+            "status": "major",
             "url": "https://admin.fedoraproject.org/accounts/"
         },
         "fedmsg": {

@@ -1,5 +1,13 @@
 callback([
     {
+        "changetype": "single",
+        "service": "fas",
+        "status": "major",
+        "new_global_status": "major",
+        "message": "Openshift outage currently ongoing, no ETA",
+        "changedate": 1616946010.7654316
+    },
+    {
         "changetype": "multiple",
         "services": [
             "bodhi",
