@@ -1,7 +1,7 @@
 callback({
     "global_info": "",
-    "global_status": "scheduled",
-    "global_verbose_status": "There are scheduled downtimes in progress",
+    "global_status": "major",
+    "global_verbose_status": "Major service disruption",
     "services": {
         "authentication": {
             "message": "Everything seems to be working.",
