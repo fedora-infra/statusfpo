@@ -2,6 +2,17 @@ callback([
     {
         "changetype": "multiple",
         "services": [
+            "bodhi",
+            "koschei"
+        ],
+        "status": "major",
+        "new_global_status": "major",
+        "message": "Openshift outage currently ongoing, no ETA",
+        "changedate": 1616945779.069585
+    },
+    {
+        "changetype": "multiple",
+        "services": [
             "authentication",
             "badges",
             "blockerbugs",

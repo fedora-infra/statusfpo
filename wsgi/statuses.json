@@ -22,9 +22,9 @@
             "url": "http://qa.fedoraproject.org/blockerbugs/"
         },
         "bodhi": {
-            "message": "Everything seems to be working.",
+            "message": "Openshift outage currently ongoing, no ETA",
             "name": "Package Updates Manager",
-            "status": "good",
+            "status": "major",
             "url": "https://admin.fedoraproject.org/updates/"
         },
         "cloud": {
@@ -82,9 +82,9 @@
             "url": "http://koji.fedoraproject.org/koji/"
         },
         "koschei": {
-            "message": "Everything seems to be working.",
+            "message": "Openshift outage currently ongoing, no ETA",
             "name": "Koschei Continuous Integration",
-            "status": "good",
+            "status": "major",
             "url": "https://apps.fedoraproject.org/koschei/"
         },
         "krb": {
