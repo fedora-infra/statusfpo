@@ -1,5 +1,17 @@
 callback([
     {
+        "changetype": "multiple",
+        "services": [
+            "bodhi",
+            "fas",
+            "koschei"
+        ],
+        "status": "good",
+        "new_global_status": "good",
+        "message": "Everything seems to be working.",
+        "changedate": 1616948923.814176
+    },
+    {
         "changetype": "single",
         "service": "fas",
         "status": "major",

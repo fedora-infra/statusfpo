@@ -22,9 +22,9 @@ callback({
             "url": "http://qa.fedoraproject.org/blockerbugs/"
         },
         "bodhi": {
-            "message": "Openshift outage currently ongoing, no ETA",
+            "message": "Everything seems to be working.",
             "name": "Package Updates Manager",
-            "status": "major",
+            "status": "good",
             "url": "https://admin.fedoraproject.org/updates/"
         },
         "cloud": {
@@ -52,9 +52,9 @@ callback({
             "url": "https://admin.fedoraproject.org/voting/"
         },
         "fas": {
-            "message": "Openshift outage currently ongoing, no ETA",
+            "message": "Everything seems to be working.",
             "name": "Account System",
-            "status": "major",
+            "status": "good",
             "url": "https://admin.fedoraproject.org/accounts/"
         },
         "fedmsg": {
@@ -82,9 +82,9 @@ callback({
             "url": "http://koji.fedoraproject.org/koji/"
         },
         "koschei": {
-            "message": "Openshift outage currently ongoing, no ETA",
+            "message": "Everything seems to be working.",
             "name": "Koschei Continuous Integration",
-            "status": "major",
+            "status": "good",
             "url": "https://apps.fedoraproject.org/koschei/"
         },
         "krb": {
