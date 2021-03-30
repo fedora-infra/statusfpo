@@ -1,5 +1,13 @@
 callback([
     {
+        "changetype": "single",
+        "service": "pkgs",
+        "status": "major",
+        "new_global_status": "major",
+        "message": "Uploading to the lookaside is current not working and being investigated",
+        "changedate": 1617097806.7054377
+    },
+    {
         "changetype": "multiple",
         "services": [
             "bodhi",
