@@ -2,6 +2,14 @@ callback([
     {
         "changetype": "single",
         "service": "pkgs",
+        "status": "good",
+        "new_global_status": "good",
+        "message": "Everything seems to be working.",
+        "changedate": 1617102444.4415824
+    },
+    {
+        "changetype": "single",
+        "service": "pkgs",
         "status": "major",
         "new_global_status": "major",
         "message": "Uploading to the lookaside is current not working and being investigated",
