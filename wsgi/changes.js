@@ -2,6 +2,14 @@ callback([
     {
         "changetype": "single",
         "service": "pkgs",
+        "status": "good",
+        "new_global_status": "good",
+        "message": "Everything seems to be working.",
+        "changedate": 1617217115.8685133
+    },
+    {
+        "changetype": "single",
+        "service": "pkgs",
         "status": "major",
         "new_global_status": "major",
         "message": "Git seems unhappy, being investigated",
