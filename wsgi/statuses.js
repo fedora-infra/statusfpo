@@ -1,7 +1,7 @@
 callback({
     "global_info": "",
-    "global_status": "major",
-    "global_verbose_status": "Major service disruption",
+    "global_status": "good",
+    "global_verbose_status": "All systems go",
     "services": {
         "authentication": {
             "message": "Everything seems to be working.",
@@ -137,9 +137,9 @@ callback({
         },
         "pkgs": {
             "mailinglists": "Fedora mailing lists",
-            "message": "Everything seems to be working.",
+            "message": "Git seems unhappy, being investigated",
             "name": "Package maintainers git repositories",
-            "status": "good",
+            "status": "major",
             "url": "http://pkgs.fedoraproject.org/"
         },
         "registry": {
