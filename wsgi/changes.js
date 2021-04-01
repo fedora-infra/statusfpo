@@ -1,6 +1,14 @@
 callback([
     {
         "changetype": "single",
+        "service": "koji",
+        "status": "major",
+        "new_global_status": "major",
+        "message": "Koji failed on update",
+        "changedate": 1617299974.9585652
+    },
+    {
+        "changetype": "single",
         "service": "pkgs",
         "status": "good",
         "new_global_status": "good",
