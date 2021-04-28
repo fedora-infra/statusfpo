@@ -34,9 +34,9 @@
             "url": "https://fedorainfracloud.org/"
         },
         "copr": {
-            "message": "Copr servers outage, https://pagure.io/fedora-infrastructure/issue/9898",
+            "message": "Everything seems to be working.",
             "name": "COPR Build System",
-            "status": "scheduled",
+            "status": "good",
             "url": "https://copr.fedoraproject.org/"
         },
         "docs": {
