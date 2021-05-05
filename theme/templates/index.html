@@ -1,0 +1,84 @@
+{% extends "base.html" %}
+
+{% macro outageitem(outage, starttitle, endtitle) -%}
+<div class="list-group-item">
+	<h3>{{outage.title}}</h3>
+	<div>{{outage.content}}</div>
+	<div class="mb-3">For more information and updates on the progress of this outage, see <a href="{{TICKET_TRACKER_URL}}{{outage.ticket}}">ticket #{{outage.ticket}}</a> </div>
+	<h5>{{starttitle}}</h5>
+	<div class="mb-2">
+		{{outage.date|formatdate}}
+	</div>
+	<h5>{{endtitle}}</h5>
+	<div>
+		{% if outage.metadata.outagefinish %}
+			{{outage.metadata.outagefinish|parsedate|formatdate}}
+		{% else %}
+			unknown
+		{% endif %}
+	</div>
+</div>
+{%- endmacro %}
+
+{% block content %}
+	{% set outages = categories | categories_dict %}
+	<div class="bodycontent">
+		<div class="alert-info border-bottom py-5">
+			<div class="container section">
+			  <div class="row">
+				<div class="col-md-12">
+					<h2 class="display-4">Fedora Infrastructure Status</h2>
+					<p class="lead">
+						This is a <strong>manually updated</strong> list of known outages. If you are experiencing issues with a service that is not listed here, please <a class="font-weight-bold" href="https://docs.fedoraproject.org/en-US/cpe/day_to_day_fedora/">consult the documentation</a> to determine the best way to raise your issue.</a>.
+					</p>
+				</div>
+			  </div>
+			</div>
+		</div>
+		<div class="bg-light pb-5">
+			<div class="container">
+				<div class="row">
+					<div class="col">
+					{% if outages['ongoing'] %}
+						<div class="card border-danger my-5 mx-auto">
+							<div class="card-header text-white bg-danger">
+								<h3 class="card-title mb-0"><i class="fa fa-exclamation-triangle fa-fw mr-3"></i>{{outages['ongoing']|count}} Ongoing Outage{{'s' if outages['ongoing']|count > 1 }}</h3>
+							</div>
+							<div class="list-group list-group-flush">
+								{% for outage in outages['ongoing'] %}
+									{{outageitem(outage, "Outage Started", "Anticipated End")}}
+								{% endfor %}
+							</div>
+						</div>
+					{% else %}
+						<div class="card text-white bg-success my-5 mx-auto">
+							<div class="card-header d-flex align-items-center pl-2">
+								<div>
+									<i class="fa fa-check-circle fa-3x fa-fw mr-2"></i>
+								</div>
+								<div>
+									<h3 class="card-title mb-1">All Systems Operational</h3>
+									<div class="h5 mb-0">There are no known issues or outages in Fedora Infrastructure.</div>
+								</div>
+							</div>
+						</div>
+					{% endif %}
+						<div class="card border-primary my-5 mx-auto">
+							<div class="card-header text-white bg-primary">
+								<h3 class="card-title mb-0"><i class="fa fa-exclamation-triangle fa-fw mr-3"></i>{{outages['planned']|count}} Planned Outage{{'s' if outages['planned']|count > 1 }}</h3>
+							</div>
+							<div class="list-group list-group-flush">
+							{% for outage in outages['planned'] %}
+								{{outageitem(outage, "Anticipated Start", "Anticipated End")}}
+							{% endfor %}
+							</div>
+						</div>
+						<div class="text-right h4 mt-4">
+							<a href="{{ SITEURL }}/resolved">view resolved outages &raquo;</a>
+						</div>	
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+{% endblock content %}

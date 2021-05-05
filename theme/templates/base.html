@@ -1,0 +1,82 @@
+
+<!DOCTYPE html>
+<html lang="{{ DEFAULT_LANG }}">
+
+<head>
+	{% block head %}
+	<title>{% block title %}{{ SITENAME }}{% endblock title %}</title>
+	<meta charset="utf-8" />
+	<meta http-equiv="refresh" content="60">
+	<link href="{{ SITEURL }}/feeds/ongoing.rss" type="application/rss+xml" rel="alternate" title="{{ SITENAME }} ongoing outages RSS Feed" />
+	<link href="{{ SITEURL }}/feeds/planned.rss" type="application/rss+xml" rel="alternate" title="{{ SITENAME }} planned outages RSS Feed" />
+	<link href="{{ SITEURL }}/feeds/resolved.rss" type="application/rss+xml" rel="alternate" title="{{ SITENAME }} resolved outages RSS Feed" />
+
+	<link href="{{ SITEURL }}/theme/fedora-bootstrap.css" type="text/css" rel="stylesheet" />
+	<link href="{{ SITEURL }}/theme/fedora-status.css" type="text/css" rel="stylesheet" />
+	<link href="{{ SITEURL }}/theme/fonts/hack.css" type="text/css" rel="stylesheet" />
+	<link href="{{ SITEURL }}/theme/fonts/open-sans.css" type="text/css" rel="stylesheet" />
+	<link href="{{ SITEURL }}/theme/fonts/font-awesome.css" type="text/css" rel="stylesheet" />
+	<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.min.js">
+	</script>
+	<script type="text/javascript" src="{{ SITEURL }}/theme/fedora-bootstrap.js"></script>
+
+	{% endblock head %}
+</head>
+
+<body id="index" class="home">
+	<nav class="navbar navbar-expand-lg navbar-light masthead justify-content-between py-2">
+		<div class="container">
+			<a href="{{ SITEURL }}" class="navbar-brand"><img src="{{ SITEURL }}/theme/fedora-status.png" height="40px" alt="Fedora Status"/></a>
+		</div>
+	</nav>
+
+	{% block content %}
+	{% endblock %}
+	<div class="footer py-5 text-white">
+		<div class="container">
+				<div class="row footerlinks justify-content-center">
+				   <div class="col-sm-3 col-4 mt-3">
+					  <div>
+						 <dl>
+							<dt class="text-uppercase h4"><strong>About</strong></dt>
+							<dd><a href="https://getfedora.org/">Get Fedora Linux</a></dd>
+							<dd><a href="https://getfedora.org/en/sponsors/">Sponsors</a></dd>
+							<dd><a href="https://fedoramagazine.org">Fedora Magazine</a></dd>
+							<dd><a href="https://fedoraproject.org/wiki/Legal:Main#Legal">Legal</a></dd>
+						 </dl>
+					  </div>
+				   </div>
+				   <div class="col-sm-3 col-4 mt-3">
+					  <div>
+						 <dl>
+							<dt class="text-uppercase h4"><strong>Support</strong></dt>
+							<dd><a href="https://fedoraproject.org/wiki/Communicating_and_getting_help">Get Help</a></dd>
+							<dd><a href="https://ask.fedoraproject.org/">Ask Fedora</a></dd>
+							<dd><a href="https://fedoraproject.org/wiki/Common_F33_bugs">Common Bugs</a></dd>
+							<dd><a href="https://developer.fedoraproject.org/">Fedora Developer Portal</a></dd>
+						 </dl>
+					  </div>
+				   </div>
+				   <div class="col-sm-3 col-4 mt-3">
+					  <div>
+						 <dl>
+							<dt class="text-uppercase h4"><strong>Community</strong></dt>
+							<dd><a href="https://fedoraproject.org/wiki/Join">Join Fedora</a></dd>
+							<dd><a href="https://fedoraproject.org/wiki/Overview">About Fedora</a></dd>
+							<dd><a href="http://fedoraplanet.org">Planet Fedora</a></dd>
+							<dd><a href="https://accounts.fedoraproject.org/">Fedora Accounts</a></dd>
+						 </dl>
+					  </div>
+				   </div>
+				</div>
+				<div class="row footerlinks">
+				   <div class="col-12 text-center">
+					  <p> Fedora is sponsored by Red Hat. <a href="https://www.redhat.com/en/technologies/linux-platforms/articles/relationship-between-fedora-and-rhel">Learn more about the relationship between Red Hat and Fedora »</a> </p>
+					  <div class="py-3"> <a href="https://www.redhat.com/"><img class="rh-logo" height=24px src="{{ SITEURL }}/theme/redhat-logo.png" alt="Red Hat Logo"></a> </div>
+					  <p> © 2021 Red Hat, Inc. and others. </p>
+				   </div>
+				</div>
+			 </div>
+	</div>
+</body>
+</html>
