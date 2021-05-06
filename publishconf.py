@@ -10,7 +10,9 @@ sys.path.append(os.curdir)
 from pelicanconf import *
 
 # If your site is available via HTTPS, make sure SITEURL begins with https://
-SITEURL = 'https://ryanlerch.github.io/status-playground'
+SITEURL = 'https://status.fedoraproject.org'
 RELATIVE_URLS = False
+
+CATEGORY_FEED_RSS = 'feeds/{slug}.rss'
 
 DELETE_OUTPUT_DIRECTORY = True
