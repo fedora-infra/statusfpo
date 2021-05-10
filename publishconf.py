@@ -13,6 +13,7 @@ from pelicanconf import *
 SITEURL = 'https://status.fedoraproject.org'
 RELATIVE_URLS = False
 
-CATEGORY_FEED_RSS = 'feeds/{slug}.rss'
+FEED_ALL_RSS = 'changes.rss'
+CATEGORY_FEED_RSS = '{slug}.rss'
 
 DELETE_OUTPUT_DIRECTORY = True

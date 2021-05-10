@@ -33,6 +33,10 @@ TRANSLATION_FEED_ATOM = None
 AUTHOR_FEED_ATOM = None
 AUTHOR_FEED_RSS = None
 
+FEED_ALL_RSS = 'changes.rss'
+CATEGORY_FEED_RSS = '{slug}.rss'
+
+
 DEFAULT_PAGINATION = False
 
 PLUGIN_PATHS = ['plugins']
