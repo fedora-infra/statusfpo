@@ -9,6 +9,7 @@ CONFFILE=$(BASEDIR)/pelicanconf.py
 PUBLISHCONF=$(BASEDIR)/publishconf.py
 
 S3_BUCKET=status.fedoraproject.org
+S3_PROFILE=statusfpo
 
 DEBUG ?= 0
 ifeq ($(DEBUG), 1)
@@ -47,6 +48,7 @@ publish:
 	$(PELICAN) $(INPUTDIR) -o $(OUTPUTDIR) -s $(PUBLISHCONF) $(PELICANOPTS)
 
 s3_upload: publish
-	aws s3 sync $(OUTPUTDIR)/ s3://$(S3_BUCKET) --acl public-read --delete
+	aws --profile $(S3_PROFILE) s3 cp $(OUTPUTDIR)/ s3://$(S3_BUCKET)/ --recursive
+	aws --profile $(S3_PROFILE) cloudfront create-invalidation --distribution-id E2ROJ0IZ3EJ66H --paths /index.html /resolved.html /changes.rss /ongoing.rss /planned.rss /resolved.rss
 
 .PHONY: help clean devserver publish s3_upload
