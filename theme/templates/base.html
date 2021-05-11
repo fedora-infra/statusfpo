@@ -7,10 +7,10 @@
 	<title>{% block title %}{{ SITENAME }}{% endblock title %}</title>
 	<meta charset="utf-8" />
 	<meta http-equiv="refresh" content="60">
-	<link href="{{ SITEURL }}/ongoing.rss" type="application/rss+xml" rel="alternate" title="{{ SITENAME }} ongoing outages RSS Feed" />
-	<link href="{{ SITEURL }}/planned.rss" type="application/rss+xml" rel="alternate" title="{{ SITENAME }} planned outages RSS Feed" />
-	<link href="{{ SITEURL }}/resolved.rss" type="application/rss+xml" rel="alternate" title="{{ SITENAME }} resolved outages RSS Feed" />
-	<link href="{{ SITEURL }}/changes.rss" type="application/rss+xml" rel="alternate" title="{{ SITENAME }} all outages RSS Feed" />
+	<link href="/ongoing.rss" type="application/rss+xml" rel="alternate" title="{{ SITENAME }} ongoing outages RSS Feed" />
+	<link href="/planned.rss" type="application/rss+xml" rel="alternate" title="{{ SITENAME }} planned outages RSS Feed" />
+	<link href="/resolved.rss" type="application/rss+xml" rel="alternate" title="{{ SITENAME }} resolved outages RSS Feed" />
+	<link href="/changes.rss" type="application/rss+xml" rel="alternate" title="{{ SITENAME }} all outages RSS Feed" />
 
 	<link href="/theme/fedora-bootstrap.css" type="text/css" rel="stylesheet" />
 	<link href="/theme/fedora-status.css" type="text/css" rel="stylesheet" />
@@ -23,7 +23,7 @@
 <body id="index" class="home">
 	<nav class="navbar navbar-expand-lg navbar-light masthead justify-content-between py-2">
 		<div class="container">
-			<a href="{{ SITEURL }}" class="navbar-brand"><img src="{{ SITEURL }}/theme/fedora-status.png" height="40px" alt="Fedora Status"/></a>
+			<a href="/" class="navbar-brand"><img src="/theme/fedora-status.png" height="40px" alt="Fedora Status"/></a>
 		</div>
 	</nav>
 
@@ -69,7 +69,7 @@
 				<div class="row footerlinks">
 				   <div class="col-12 text-center">
 					  <p> Fedora is sponsored by Red Hat. <a href="https://www.redhat.com/en/technologies/linux-platforms/articles/relationship-between-fedora-and-rhel">Learn more about the relationship between Red Hat and Fedora »</a> </p>
-					  <div class="py-3"> <a href="https://www.redhat.com/"><img class="rh-logo" height=24px src="{{ SITEURL }}/theme/redhat-logo.png" alt="Red Hat Logo"></a> </div>
+					  <div class="py-3"> <a href="https://www.redhat.com/"><img class="rh-logo" height=24px src="/theme/redhat-logo.png" alt="Red Hat Logo"></a> </div>
 					  <p> © 2021 Red Hat, Inc. and others. </p>
 				   </div>
 				</div>
