@@ -3,6 +3,9 @@ Date: 2021-11-09 17:00+0000
 OutageFinish: 2021-11-09 21:00+0000
 Ticket: 10302
 
+Update: s390x builders were not able to be moved for a variety of reasons. 
+We are going to fix those issues and retry next week.
+
 We will be doing several maint tasks during this outage:
 
     All the s390x builders will be moving from the current z13 maintframe to a z15 mainframe.
