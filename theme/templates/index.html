@@ -64,7 +64,7 @@
 						</div>
 					{% endif %}
 						<div class="card border-primary my-5 mx-auto">
-							<div class="card-header text-white bg-primary">
+							<div class="card-header text-white {{'bg-primary' if outages['planned']|length > 0 else 'bg-secondary'}}">
 								<h3 class="card-title mb-0"><i class="fa fa-exclamation-triangle fa-fw mr-3"></i>{{outages['planned']|count}} Planned Outage{{'s' if outages['planned']|count != 1 }}</h3>
 							</div>
 							<div class="list-group list-group-flush">
