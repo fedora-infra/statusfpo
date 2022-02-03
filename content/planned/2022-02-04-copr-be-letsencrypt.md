@@ -1,4 +1,4 @@
-Title: Upgrade of Copr servers
+Title: Migrating Copr Backend to Let's Encrypt certificate
 Date: 2022-02-04 9:00+0000
 OutageFinish: 2022-02-04 9:15+0000
 Ticket: 10512
