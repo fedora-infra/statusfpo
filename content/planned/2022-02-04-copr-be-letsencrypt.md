@@ -1,6 +1,6 @@
 Title: Migrating Copr Backend to Let's Encrypt certificate
-Date: 2022-02-04 9:00+0000
-OutageFinish: 2022-02-04 9:15+0000
+Date: 2022-02-04 14:30+0000
+OutageFinish: 2022-02-04 14:45+0000
 Ticket: 10512
 
 Copr is going to be migrated from an assigned DigiCert certificate (expires very
