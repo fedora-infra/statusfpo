@@ -1,6 +1,5 @@
 Title: Copr builders fail to build from GitHub
 Date: 2022-02-22 00:00+0000
-OutageFinish: n/a
 Ticket: 10574
 
 There is some unspecified network provider issue in the community cage in our
