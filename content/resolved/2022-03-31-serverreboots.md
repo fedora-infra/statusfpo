@@ -9,3 +9,6 @@ gateways are rebooted. Any fedoraproject services may be affected with the
 exception of mirrorlists and static web content.
 
 This outage has started.
+
+This outage is complete. There's some koji builders still down, but services
+should all be up.
