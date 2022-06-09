@@ -7,3 +7,5 @@ We will be deploying a new release of Bodhi with a number of upgrades with
 openid connect authentication among those.
 
 This outage has now started
+
+This outage has now finished successfully
