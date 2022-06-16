@@ -15,6 +15,9 @@ jobs:
         with:
           ref: main
       
+      - name: Install deps
+        run: pip install pelican packaging Markdown
+
       - name: Configure AWS Credentials
         uses: aws-actions/configure-aws-credentials@v1
         with:
@@ -24,9 +27,6 @@ jobs:
 
       - name: Configure cloudfront
         run: aws configure set preview.cloudfront true
-
-      - name: Install deps
-        run: pip install pelican packaging
 
       - name: Build and Push
         run: make upload
