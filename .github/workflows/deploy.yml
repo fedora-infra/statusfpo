@@ -1,0 +1,31 @@
+on:
+  workflow_dispatch:
+  push:
+    branches:
+      - main
+
+name: Push to status.fp.o
+
+jobs:
+  deploy:
+    name: Push to status.fp.o
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+        with:
+          ref: main
+      
+      - name: Configure AWS Credentials
+        uses: aws-actions/configure-aws-credentials@v1
+        with:
+          aws-access-key-id: ${{ secrets.AWS_ACCESS_KEY_ID }}
+          aws-secret-access-key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
+
+      - name: Configure cloudfront
+        run: aws configure set preview.cloudfront true
+
+      - name: Install deps
+        run: pip install pelican packaging
+
+      - name: Build and Push
+        run: make upload
