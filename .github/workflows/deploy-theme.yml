@@ -4,14 +4,14 @@ on:
     branches:
       - main
     paths:
-      - 'content/**'
+      - 'theme/**'
     
 
-name: Update content on status.fp.o
+name: Update theme on status.fp.o
 
 jobs:
   deploy:
-    name: Update content on status.fp.o
+    name: Update theme on status.fp.o
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
@@ -32,4 +32,4 @@ jobs:
         run: aws configure set preview.cloudfront true
 
       - name: Build and Push
-        run: make githubdeploy
+        run: make githubdeploytheme
