@@ -10,23 +10,23 @@
 			<div class="row">
 				<div class="col">
 					<div class="d-flex align-items-center mt-5">
-						<h2 class="text-muted">Resolved Outages</h2>
-						<div class="ml-auto h4"><a href="/">view current outages &raquo;</a></div>
+						<h3 class="text-muted fw-bold">Resolved Outages</h3>
+						<div class="ms-auto h5 fw-bold"><a href="/">view current outages &raquo;</a></div>
 					</div>
 					<div class="list-group">
 						{% set lm = namespace(lastmonth="") %}
 						{% for outage in outages['resolved'] %}
 							{% if lm.lastmonth != outage.date|formatdate(formatstring='%B %Y') %}
 								{% set lm.lastmonth = outage.date|formatdate(formatstring='%B %Y') %}
-								<div class="list-group-item bg-light border-left-0 border-right-0 {{'border-top-0' if loop.first}}">
-									<h3 class="mb-0 {{'mt-2' if loop.first else 'mt-3'}}">{{lm.lastmonth}}</h3>
+								<div class="list-group-item bg-light border-start-0 border-end-0 {{'border-top-0' if loop.first}}">
+									<h4 class="mb-0 fw-bold {{'mt-2' if loop.first else 'mt-3'}}">{{lm.lastmonth}}</h4>
 								</div>
 							{% endif %}
 
 							<div class="list-group-item border-bottom">
-								<h4><a href="{{TICKET_TRACKER_URL}}{{outage.ticket}}">#{{outage.ticket}}</a> {{outage.title}}</h4>
+								<h5 class="fw-bold"><a href="{{TICKET_TRACKER_URL}}{{outage.ticket}}">#{{outage.ticket}}</a> {{outage.title}}</h5>
 								<div>{{outage.content}}</div>
-								<div class="text-right font-weight-bold text-muted">{{outage.date|formatdate}} - 
+								<div class="text-end font-weight-bold text-muted">{{outage.date|formatdate}} - 
 									{% if outage.metadata.outagefinish %}
 										{{outage.metadata.outagefinish|parsedate|formatdate}}
 									{% else %}

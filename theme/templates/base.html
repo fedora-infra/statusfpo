@@ -12,8 +12,7 @@
 	<link href="/resolved.rss" type="application/rss+xml" rel="alternate" title="{{ SITENAME }} resolved outages RSS Feed" />
 	<link href="/changes.rss" type="application/rss+xml" rel="alternate" title="{{ SITENAME }} all outages RSS Feed" />
 
-	<link href="/theme/fedora-bootstrap.css" type="text/css" rel="stylesheet" />
-	<link href="/theme/fedora-status.css" type="text/css" rel="stylesheet" />
+	<link href="/theme/fedora-bootstrap.min.css" type="text/css" rel="stylesheet" />
 	<link href="/theme/fonts/open-sans.css" type="text/css" rel="stylesheet" />
 	<link href="/theme/fonts/font-awesome.css" type="text/css" rel="stylesheet" />
 	{% endblock head %}
@@ -28,9 +27,9 @@
 
 	{% block content %}
 	{% endblock %}
-	<div class="footer py-5 text-white">
+	<footer class="footer">
 		<div class="container">
-				<div class="row footerlinks justify-content-center">
+				<div class="row justify-content-center">
 				   <div class="col-sm-3 col-4 mt-3">
 					  <div>
 						 <dl>
@@ -65,11 +64,11 @@
 					  </div>
 				   </div>
 				</div>
-				<div class="row footerlinks">
+				<div class="row">
 				   <div class="col-12 text-center">
 					  <p> Fedora is sponsored by Red Hat. <a href="https://www.redhat.com/en/technologies/linux-platforms/articles/relationship-between-fedora-and-rhel">Learn more about the relationship between Red Hat and Fedora »</a> </p>
-					  <div class="py-3"> <a href="https://www.redhat.com/"><img class="rh-logo" height=24px src="/theme/redhat-logo.png" alt="Red Hat Logo"></a> </div>
-					  <p> © 2021 Red Hat, Inc. and others. </p>
+					  <div class="py-3"> <a href="https://www.redhat.com/"><img class="rh-logo" src="/theme/redhat-logo.png" alt="Red Hat Logo"></a> </div>
+					  <p> © 2022 Red Hat, Inc. and others. </p>
 				   </div>
 				</div>
 			 </div>
