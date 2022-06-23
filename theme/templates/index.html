@@ -2,7 +2,7 @@
 
 {% macro outageitem(outage, starttitle, endtitle) -%}
 <div class="list-group-item">
-	<h4 class="fw-bold">{{outage.title}}</h4>
+	<h3 class="fw-bold">{{outage.title}}</h3>
 	<div>{{outage.content}}</div>
 	<div class="mb-3">For more information and updates on the progress of this outage, see <a href="{{TICKET_TRACKER_URL}}{{outage.ticket}}">ticket #{{outage.ticket}}</a> </div>
 	<h6 class="fw-bold">{{starttitle}}</h6>
@@ -45,7 +45,7 @@ raise your issue.</a>.
 					{% if outages['ongoing'] %}
 						<div class="card border-danger my-5 mx-auto">
 							<div class="card-header text-white bg-danger">
-								<h4 class="card-title fw-bold mb-0"><i class="fa fa-exclamation-triangle fa-fw me-3"></i>{{outages['ongoing']|count}} Ongoing Outage{{'s' if outages['ongoing']|count > 1 }}</h4>
+								<h3 class="card-title mb-0"><i class="fa fa-exclamation-triangle fa-fw me-3"></i>{{outages['ongoing']|count}} Ongoing Outage{{'s' if outages['ongoing']|count > 1 }}</h3>
 							</div>
 							<div class="list-group list-group-flush">
 								{% for outage in outages['ongoing'] %}
@@ -60,15 +60,15 @@ raise your issue.</a>.
 									<i class="fa fa-check-circle fa-3x fa-fw me-2"></i>
 								</div>
 								<div>
-									<h4 class="card-title fw-bold mb-1">All Systems Operational</h4>
-									<div class="h6 fw-bold mb-0">There are no known issues or outages in Fedora Infrastructure.</div>
+									<h3 class="card-title mb-1">All Systems Operational</h3>
+									<div class="h6 mb-0">There are no known issues or outages in Fedora Infrastructure.</div>
 								</div>
 							</div>
 						</div>
 					{% endif %}
 						<div class="card border-primary my-5 mx-auto">
 							<div class="card-header text-white {{'bg-primary' if outages['planned']|length > 0 else 'bg-secondary'}}">
-								<h4 class="card-title fw-bold mb-0"><i class="fa fa-exclamation-triangle fa-fw me-3"></i>{{outages['planned']|count}} Planned Outage{{'s' if outages['planned']|count != 1 }}</h4>
+								<h3 class="card-title mb-0"><i class="fa fa-exclamation-triangle fa-fw me-3"></i>{{outages['planned']|count}} Planned Outage{{'s' if outages['planned']|count != 1 }}</h3>
 							</div>
 							<div class="list-group list-group-flush">
 							{% for outage in outages['planned']|sort(attribute='date') %}
@@ -76,7 +76,7 @@ raise your issue.</a>.
 							{% endfor %}
 							</div>
 						</div>
-						<div class="text-end h5 fw-bold mt-4">
+						<div class="text-end h4 mt-4">
 							<a href="/resolved.html">view resolved outages &raquo;</a>
 						</div>	
 					</div>
