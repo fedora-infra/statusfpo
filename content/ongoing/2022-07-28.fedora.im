@@ -1,0 +1,9 @@
+Title: fedora.im down
+Date: 2022-07-28 17:10+0000
+OutageFinish: 
+Ticket: 
+
+Amazon lost power to a datacenter that houses the fedora.im matrix
+server. Element.io staff are working with amazon to bring the server back up.
+There is currently no ETA, although servers appear up again now at 19UTC.
+
