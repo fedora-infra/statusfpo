@@ -8,3 +8,4 @@ During the outage window any services may be up and down as proxies and
 gateways are rebooted. Any fedoraproject services may be affected with the
 exception of mirrorlists and static web content.
 
+This outage is now finished. Please alert us if there are any issues.
