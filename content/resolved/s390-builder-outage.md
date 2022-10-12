@@ -1,6 +1,6 @@
 Title: s390x builder outage
 Date: 2022-10-10 07:00+0000
-OutageFinish:
+OutageFinish: 2022-10-11 07:00+0000
 Ticket: 
 
 The s390x builders are down due to a power issue at the facility
@@ -9,3 +9,4 @@ a main breaker. No ETA at this time for completion.
 During this outage, no 'archfull' package build will complete,
 but builds started will complete once builders become available again.
 
+The power has been restored and the builders are all back in service.
