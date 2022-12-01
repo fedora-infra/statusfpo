@@ -6,3 +6,6 @@ Ticket: 11014
 We will be upgrading and rebooting various servers.
 Services may be down during the outage window.
 
+Servers were updated and rebooted. A few issues, but
+everything should be back up and running now. 
+Thanks for your patience!
