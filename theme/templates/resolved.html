@@ -24,7 +24,7 @@
 							{% endif %}
 
 							<div class="list-group-item border-bottom">
-								<h4><a href="{{TICKET_TRACKER_URL}}{{outage.ticket}}">#{{outage.ticket}}</a> {{outage.title}}</h4>
+								<h4>{% if outage.ticket %}<a href="{{TICKET_TRACKER_URL}}{{outage.ticket}}">#{{outage.ticket}}</a>{% endif %} {{outage.title}}</h4>
 								<div>{{outage.content}}</div>
 								<div class="text-end fw-bold text-muted">{{outage.date|formatdate}} - 
 									{% if outage.metadata.outagefinish %}

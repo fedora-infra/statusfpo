@@ -4,7 +4,9 @@
 <div class="list-group-item">
 	<h3 class="fw-bold">{{outage.title}}</h3>
 	<div>{{outage.content}}</div>
+	{% if outage.ticket %}
 	<div class="mb-3">For more information and updates on the progress of this outage, see <a href="{{TICKET_TRACKER_URL}}{{outage.ticket}}">ticket #{{outage.ticket}}</a> </div>
+	{% endif %}
 	<h6 class="fw-bold">{{starttitle}}</h6>
 	<div class="mb-2">
 		{{outage.date|formatdate}}
