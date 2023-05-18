@@ -5,3 +5,5 @@ Ticket:
 
 The virthost running the koji database has stopped responding. 
 We are working on restoring service to koji.
+
+The koji database is back up and working
