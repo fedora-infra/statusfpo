@@ -3,6 +3,7 @@ Fedora Status outage json generator
 """
 
 import json
+from datetime import datetime
 from pelican import signals, generators, writers, urlwrappers
 
 
@@ -46,16 +47,27 @@ class JSONWriter(writers.Writer, object):
 
     def _add_item_to_the_feed(self, feed, item):
         timeformat = "%Y-%m-%dT%H:%M:%S%z"
-        enddate = item.metadata.get("OutageFinish")
+        
         startdate = item.metadata.get("date")
-        if enddate:
-            enddate = enddate.strftime(timeformat)
         if startdate:
             startdate = startdate.strftime(timeformat)
+
+        enddate = item.metadata.get("outagefinish")
+        if enddate:
+            enddate = datetime.strptime(enddate, '%Y-%m-%d %H:%M%z').strftime(timeformat)
+        elif enddate == "":
+            enddate = None
+
+        ticket = item.metadata.get("ticket")
+        if ticket:
+            ticket = {"id": ticket, "url":f"https://pagure.io/fedora-infrastructure/issue/{ticket}"}
+        elif ticket == "":
+            ticket = None
+
         feed.add_item(
             {
                 "title": item.metadata.get("title"),
-                "ticket": {"id": item.metadata.get("ticket"), "url":f"https://pagure.io/fedora-infrastructure/issue/{item.metadata.get('ticket')}"},
+                "ticket": ticket,
                 "startdate": startdate,
                 "enddate": enddate,
             }
