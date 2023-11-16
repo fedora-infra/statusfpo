@@ -4,3 +4,6 @@ Ticket: 11615
 
 We will be updating/rebooting various servers.
 Services may be up and down in this outage window.
+
+All services should be up and working, please report any
+problems via the ticketing system.
