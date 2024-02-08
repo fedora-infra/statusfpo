@@ -13,3 +13,7 @@ Additionally, as time permits we will be doing the following additional work:
 21:20 - Unfortunately some updates got applied early to the koji builders,
 so builds may be affected and it looks like the outage is starting
 early. Sorry for the trouble.
+
+02:00 - all services should be back to normal with the exception
+of koji (the fedora buildsystem). We are working to bring it back
+online.
