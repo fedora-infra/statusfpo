@@ -42,36 +42,42 @@ class JSONGenerator(generators.ArticlesGenerator):
 
 class JSONWriter(writers.Writer, object):
     def _create_new_feed(self, feed_type, feed_title, context):
-        feed = FeedClass(title=feed_title)
+        if feed_type == "json":
+            feed = FeedClass(title=feed_title)
+        else:
+            feed = super()._create_new_feed(feed_type, feed_title, context)
         return feed
 
     def _add_item_to_the_feed(self, feed, item):
-        timeformat = "%Y-%m-%dT%H:%M:%S%z"
-        
-        startdate = item.metadata.get("date")
-        if startdate:
-            startdate = startdate.strftime(timeformat)
+        if isinstance(feed, FeedClass):
+            timeformat = "%Y-%m-%dT%H:%M:%S%z"
 
-        enddate = item.metadata.get("outagefinish")
-        if enddate:
-            enddate = datetime.strptime(enddate, '%Y-%m-%d %H:%M%z').strftime(timeformat)
-        elif enddate == "":
-            enddate = None
+            startdate = item.metadata.get("date")
+            if startdate:
+                startdate = startdate.strftime(timeformat)
 
-        ticket = item.metadata.get("ticket")
-        if ticket:
-            ticket = {"id": ticket, "url":f"https://pagure.io/fedora-infrastructure/issue/{ticket}"}
-        elif ticket == "":
-            ticket = None
+            enddate = item.metadata.get("outagefinish")
+            if enddate:
+                enddate = datetime.strptime(enddate, '%Y-%m-%d %H:%M%z').strftime(timeformat)
+            elif enddate == "":
+                enddate = None
 
-        feed.add_item(
-            {
-                "title": item.metadata.get("title"),
-                "ticket": ticket,
-                "startdate": startdate,
-                "enddate": enddate,
-            }
-        )
+            ticket = item.metadata.get("ticket")
+            if ticket:
+                ticket = {"id": ticket, "url":f"https://pagure.io/fedora-infrastructure/issue/{ticket}"}
+            elif ticket == "":
+                ticket = None
+
+            feed.add_item(
+                {
+                    "title": item.metadata.get("title"),
+                    "ticket": ticket,
+                    "startdate": startdate,
+                    "enddate": enddate,
+                }
+            )
+        else:
+            super()._add_item_to_the_feed(feed, item)
 
 
 def get_generators(generators):
