@@ -41,7 +41,7 @@ AUTHOR_FEED_RSS = None
 DEFAULT_PAGINATION = False
 
 PLUGIN_PATHS = ['plugins']
-PLUGINS = ['filters', 'pelicanversion', "json_output"]
+PLUGINS = ['filters', 'pelicanversion', "json_output", "rss_missing_categories"]
 
 
 # Uncomment following line if you want document-relative URLs when developing
