@@ -10,3 +10,5 @@ Affected Services:
 
     koji
     bodhi
+
+This outage is starting.
