@@ -54,7 +54,7 @@ upload: publish
 
 githubdeploy: publish
 	aws s3 cp $(OUTPUTDIR)/ s3://$(S3_BUCKET)/ --recursive --exclude "theme/*"
-	aws cloudfront create-invalidation --distribution-id E2ROJ0IZ3EJ66H --paths /index.html /resolved.html /changes.rss /ongoing.rss /planned.rss /resolved.rss /ongoing.json /planned.json /resolved.json
+	aws cloudfront create-invalidation --distribution-id E2ROJ0IZ3EJ66H --paths / /index.html /resolved.html /changes.rss /ongoing.rss /planned.rss /resolved.rss /ongoing.json /planned.json /resolved.json
 
 upload-theme: publish
 	aws --profile $(S3_PROFILE) s3 cp $(OUTPUTDIR)/ s3://$(S3_BUCKET)/ --recursive
@@ -62,7 +62,7 @@ upload-theme: publish
 
 githubdeploytheme: publish
 	aws s3 cp $(OUTPUTDIR)/ s3://$(S3_BUCKET)/ --recursive
-	aws cloudfront create-invalidation --distribution-id E2ROJ0IZ3EJ66H --paths /index.html /resolved.html /changes.rss /ongoing.rss /planned.rss /resolved.rss /ongoing.json /planned.json /resolved.json /theme/*
+	aws cloudfront create-invalidation --distribution-id E2ROJ0IZ3EJ66H --paths / /index.html /resolved.html /changes.rss /ongoing.rss /planned.rss /resolved.rss /ongoing.json /planned.json /resolved.json /theme/*
 
 
 .PHONY: help clean devserver publish upload upload-theme
