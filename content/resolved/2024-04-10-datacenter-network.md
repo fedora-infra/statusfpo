@@ -1,6 +1,6 @@
 Title: Network outage in datacenter
 Date: 2024-04-10 18:00+0000
-OutageFinish: 
+OutageFinish: 2024-04-10 23:30+0000
 Ticket: 
 
 One of our datacenters primary network link is down.
@@ -16,3 +16,6 @@ Affected fedora resources include:
 The provider is looking for the outage cause and networking
 is working on improving routing to get all traffic to use
 the secondary link.
+
+Update: The link has been restored and everything should
+back to normal operation.
