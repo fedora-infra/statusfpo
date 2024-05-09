@@ -1,6 +1,6 @@
-Title: Planned outage for OpenShift upgrade
+Title: OpenShift upgrade
 Date: 2024-05-13 08:00+0000
-OutageFinish: 
+OutageFinish: 2024-05-13 10:00+0000
 Ticket: 11912
 
 We will be upgrading our production OpenShift cluster that runs many of our applications.
