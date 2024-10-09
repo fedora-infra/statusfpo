@@ -1,6 +1,6 @@
 Title: koji upgrades
 Date: 2024-10-09 21:00+0000
-OutageFinish:
+OutageFinish: 2024-10-09 23:00+0000
 Ticket: 12221
 
 We will be upgrading koji to the latest upstream version,
