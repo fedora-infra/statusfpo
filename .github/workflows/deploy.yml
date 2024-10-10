@@ -19,7 +19,7 @@ jobs:
           ref: main
       
       - name: Install deps
-        run: pip install pelican packaging Markdown
+        run: pip install pelican packaging Markdown --break-system-packages
 
       - name: Configure AWS Credentials
         uses: aws-actions/configure-aws-credentials@v1
