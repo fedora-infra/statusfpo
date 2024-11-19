@@ -1,4 +1,4 @@
-Title: pagure.io outage
+Title: Server updates and reboots
 Date: 2024-11-20  21:00+0000
 OutageFinish: 2024-11-21 02:00+0000
 Ticket: 12293
