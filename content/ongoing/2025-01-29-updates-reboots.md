@@ -5,3 +5,5 @@ Ticket: https://pagure.io/fedora-infrastructure/issue/12374
 
 We will be updating and rebooting various servers.
 Services will be up or down during the outage window.
+
+This outage has started.
