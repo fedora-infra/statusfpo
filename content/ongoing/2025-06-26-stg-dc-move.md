@@ -1,6 +1,6 @@
 Title: Staging Datacenter Move outage
 Date: 2025-06-26 10:00+0000
-OutageFinish: 2025-06-30 01:00+0000
+OutageFinish: 2025-07-04 01:00+0000
 Ticket: 12603
 
 We will be moving **staging** services and applications from our IAD2 datacenter to a new RDU3 one.
