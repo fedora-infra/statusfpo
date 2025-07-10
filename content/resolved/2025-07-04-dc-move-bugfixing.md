@@ -1,6 +1,6 @@
 Title: Datacenter Move Complete
 Date: 2025-07-04 18:00+0000
-OutageFinish:
+OutageFinish: 2025-07-10 22:00+0000
 Ticket: 12620
 
 The Datacenter move has been completed.
@@ -17,3 +17,6 @@ Thanks everyone for your support, we hope that the
 faster hardware in the new datacenter is helping
 empower you to do more great things for the fedora project.
 
+Update: Aside a few smaller issues, everything should be 
+up and working. Please report issues found in the normal
+process
