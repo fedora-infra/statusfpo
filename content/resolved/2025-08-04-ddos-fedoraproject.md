@@ -5,3 +5,6 @@ Ticket: 12703
 We are currently under DDoS affecting most of the fedoraproject.org services as it's affecting proxies and those are redirecting most of the traffic to other fedoraproject.org services.
 
 This also affects authentication and obtaining kerberos tickets
+
+Update: 17:00UTC: All services should be up and functional. Please let us know
+if you still see any issues.
