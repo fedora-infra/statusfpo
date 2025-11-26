@@ -1,6 +1,6 @@
 Title: Upgrade of Copr servers
 Date: 2025-11-26 07:00+0000
-OutageFinish: 2025-11-26 10:00+0000
+OutageFinish: 2025-11-26 12:00+0000
 Ticket: 12933
 
 We're updating Copr servers to F43
