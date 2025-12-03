@@ -15,3 +15,6 @@ Affected Services:
 
 - pagure.io
 - docs.pagure.org
+
+UPDATE: The outage is running longer than we expected. We are working
+to bring the services back online.
