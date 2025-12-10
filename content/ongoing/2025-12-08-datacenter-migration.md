@@ -16,3 +16,8 @@ Update: Tues. 12-09
 Due to bad weather in NC the new machines were delayed getting to rdu3.
 
 Outage has been extended by a day, and it's possible it will exceed that.
+
+Update 2025-12-10:
+
+Machines are all in their new home, cabled and we are working on
+getting networking setup on them.
