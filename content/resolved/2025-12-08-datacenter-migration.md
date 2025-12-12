@@ -1,6 +1,6 @@
 Title: rdu2 to rdu3 datacenter move
 Date: 2025-12-08 13:00+0000
-OutageFinish: 2025-12-10 20:00+0000
+OutageFinish: 2025-12-11 20:00+0000
 Ticket: 12955
 
 We will be powering off hardware in our rdu2 datacenter,
@@ -21,3 +21,8 @@ Update 2025-12-10:
 
 Machines are all in their new home, cabled and we are working on
 getting networking setup on them.
+
+Update 2025-12-10:
+
+There is still cleanup work to do, but retrace is up, download-iso01
+(formerly download-cc-rdu01) are up. 
