@@ -1,6 +1,6 @@
 Title: accounts.fedoraproject.org degraded
 Date: 2025-12-16 12:00+0000
-OutageFinish:
+OutageFinish: 2025-12-19 12:00+0000
 Ticket:
 
 We're getting heavy attacks on accounts.fedoraproject.org which is impacting
