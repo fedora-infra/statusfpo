@@ -51,7 +51,7 @@ DIRECT_TEMPLATES = (('index', 'resolved'))
 
 # Some specific settings just for status.fp.o
 
-TICKET_TRACKER_URL = 'https://pagure.io/fedora-infrastructure/issue/'
+TICKET_TRACKER_URL = 'https://forge.fedoraproject.org/infra/tickets/issues/'
 
 # Minimum Pelican Version -- used by our custom pelicanversion plugin
 MIN_PELICAN_VERSION = '4.5.4'

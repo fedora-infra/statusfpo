@@ -64,7 +64,7 @@ class JSONWriter(writers.Writer, object):
 
             ticket = item.metadata.get("ticket")
             if ticket:
-                ticket = {"id": ticket, "url":f"https://pagure.io/fedora-infrastructure/issue/{ticket}"}
+                ticket = {"id": ticket, "url":f"https://forge.fedoraproject.org/infra/tickets/issues/{ticket}"}
             elif ticket == "":
                 ticket = None
 
