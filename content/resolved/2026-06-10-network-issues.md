@@ -1,6 +1,6 @@
 Title: Network issues
 Date: 2026-06-10 13:00+0000
-OutageFinish: 
+OutageFinish: 2026-06-10 14:24+0000
 Ticket: 
 
 Switch upgrades were done this morning, and something has
