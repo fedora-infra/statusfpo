@@ -1,6 +1,6 @@
 Title: Partial Outage - 2 of 5 Openshift workers down
-Date: 2026-06-25 11:00+0000
-OutageFinish: 
+Date: 2026-06-25 09:30+0000
+OutageFinish: 2026-06-25 10:30+0000
 Ticket: 13419
 
 Some hosts are being relocated and have been taken down for that purpose. OCP
