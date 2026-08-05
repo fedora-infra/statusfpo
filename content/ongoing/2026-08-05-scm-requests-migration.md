@@ -1,6 +1,5 @@
 Title: Migration of fedora-scm-requests from Pagure to Forgejo
 Date: 2026-08-05 12:00+0000
-Ticket: https://forge.fedoraproject.org/releng/tickets/issues/13108
 
 The fedora-scm-requests ticket queue is being migrated from pagure.io/releng/fedora-scm-requests
 to forge.fedoraproject.org/releng/fedora-scm-requests.
@@ -13,3 +12,7 @@ from the new location.
 During the migration window, filing new requests via fedpkg may be temporarily unavailable.
 
 Please ensure you have updated fedpkg before filing new requests.
+
+For more information about the migration see the tracker ticket:
+
+https://forge.fedoraproject.org/releng/tickets/issues/13108
