@@ -1,6 +1,6 @@
 Title: Updates and reboots on Fedora infrastructure
 Date: 2026-08-20 20:00+0000
-OutageFinish: 2026-08-21 03:00+0000
+OutageFinish: 2026-08-21 02:00+0000
 Ticket: 13500
 
 Fedora Infrastructure team will be applying updates to servers and rebooting them.
