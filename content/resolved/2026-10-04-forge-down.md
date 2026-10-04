@@ -6,3 +6,5 @@ Ticket:
 forge.fedoraproject.org is currently down.
 We are investigating and hope to restore service soon.
 
+Update 2026-10-04 16:15UTC:
+service has been restored.
