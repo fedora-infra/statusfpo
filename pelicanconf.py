@@ -9,7 +9,9 @@ PATH = 'content'
 STATIC_PATHS = []
 THEME = 'theme'
 
-USE_FOLDER_AS_CATEGORY = True
+# Derive the category (ongoing/planned/resolved) from the content subfolder.
+# Pelican >= 4.12 ignores USE_FOLDER_AS_CATEGORY when CATEGORY_SAVE_AS is empty.
+PATH_METADATA = r'(?P<category>[^/]+)/.*'
 
 AUTHORS_SAVE_AS = ''
 AUTHOR_SAVE_AS = ''
