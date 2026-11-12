@@ -1,5 +1,6 @@
 Title: Fedora Copr outage - updating servers
 Date: 2026-11-12 10:30+0000
+OutageFinish: 2026-11-12 10:50+0000
 Ticket: 13680
 
 There will be a Fedora Copr outage while we upgrade infrastructure
